@@ -1,4 +1,4 @@
-name: Hourly Plugins Push
+name: Push changes
 
 on:
   schedule:
@@ -12,16 +12,18 @@ jobs:
   auto-push:
     runs-on: self-hosted
     steps:
-      - name: Commit and Push Changes
+      - name: Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          TARGET_DIR="/home/ubuntu/Jellyfin-Universal-Catalogue"
           git config --global --add safe.directory "$TARGET_DIR"
-          cd /home/ubuntu/Jellyfin-Universal-Catalogue || exit 1
+          cd "$TARGET_DIR" || exit 1
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n $(git status --porcelain) ]]; then
             git add .
             git commit -m "Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
           fi
+          git pull --rebase https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
+          git push "$REPO_URL" HEAD:main
