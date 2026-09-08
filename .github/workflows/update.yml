@@ -21,9 +21,9 @@ jobs:
           cd "$TARGET_DIR" || exit 1
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          EPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           if [[ -n $(git status --porcelain) ]]; then
             git add .
             git commit -m "Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push "$REPO_URL" HEAD:main
           fi
-          git push "$REPO_URL" HEAD:main
