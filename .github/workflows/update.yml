@@ -25,14 +25,19 @@ jobs:
           if [ -f ".git/MERGE_HEAD" ]; then
             git merge --abort || true
           fi
-          git submodule update --init --recursive
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          else
+            echo "No new changes to commit."
+          fi
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/0belous/upr-static.git"
+          git fetch origin main || true
+          if [ $(git rev-list HEAD...origin/main --count) -gt 0 ]; then
+            echo "Unpushed commits detected. Pushing to remote..."
             git push "$REPO_URL" HEAD:main
           else
-            echo "No staged changes to commit."
+            echo "Everything is already up to date on remote."
           fi
