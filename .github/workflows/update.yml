@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Push
         env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TARGET_DIR="/home/ubuntu/Jellyfin-Universal-Catalogue"
           git config --global --add safe.directory "$TARGET_DIR"
