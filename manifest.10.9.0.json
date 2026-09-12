@@ -1,9 +1,9 @@
 [
   {
-    "guid": "35788ba3-1d0a-4d6f-8954-47110e8b3421",
+    "guid": "69b89270-9e5f-4b03-85d0-da1459442582",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 116, Sources: 214.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: internal",
-    "overview": "Generated: 2026-09-12T09:28:26.553Z",
+    "description": "Aggregated: 116, Sources: 214.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: internal",
+    "overview": "Generated: 2026-09-12T12:28:28.566Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/!UniversalPluginRepo.webp",
@@ -11,14 +11,14 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.9.0",
-        "timestamp": "2026-09-12T09:28:26.553Z"
+        "timestamp": "2026-09-12T12:28:28.566Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
@@ -750,7 +750,7 @@
   {
     "guid": "a6363ef3-aeb3-4bc1-8408-243aae4c1b8b",
     "name": ".jfignore",
-    "description": "Ignore specific files and folders by placing .jfignore files inside your library folder.\nThe file can be at the root level or inside a sub directory.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin/raw/branch/master/manifest.json",
+    "description": "Ignore specific files and folders by placing .jfignore files inside your library folder.\nThe file can be at the root level or inside a sub directory.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin/raw/branch/master/manifest.json",
     "overview": "Ignore files and folders by .jfignore Files",
     "owner": "virtualmarc",
     "category": "General",
@@ -777,7 +777,7 @@
   {
     "guid": "5b39da44-5314-4940-8e26-54c821c17f86",
     "name": "Danmu",
-    "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-danmu",
+    "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-danmu",
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
@@ -1140,12 +1140,20 @@
   {
     "guid": "9a19103f-16f7-4668-be54-9a1e7a4f7556",
     "name": "MetaShark",
-    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-metashark",
+    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-metashark",
     "overview": "jellyfin电影元数据插件",
     "owner": "cxfksword",
     "category": "Metadata",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/MetaShark.webp",
     "versions": [
+      {
+        "version": "2.3.7.0",
+        "changelog": "修复tmdbid被imdb反查覆盖",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.7/metashark_2.3.7.0.zip",
+        "checksum": "760643215241db234b49ca92e87f3c7c",
+        "timestamp": "2026-09-12T09:51:03"
+      },
       {
         "version": "2.3.6.0",
         "changelog": "修复电影IMDb标识为空时误保存",
@@ -1591,14 +1599,14 @@
       }
     ],
     "owner": "kookxiang",
-    "description": "bgm.tv metadata provider for Jellyfin  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://kookxiang.github.io/jellyfin-plugin-bangumi/repository.json  \nGithub: https://github.com/kookxiang/jellyfin-plugin-bangumi",
+    "description": "bgm.tv metadata provider for Jellyfin  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://kookxiang.github.io/jellyfin-plugin-bangumi/repository.json  \nGithub: https://github.com/kookxiang/jellyfin-plugin-bangumi",
     "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。"
   },
   {
     "category": "General",
     "guid": "616552f9-8355-4737-bbe0-8217f9e8ea14",
     "name": "RunScripts",
-    "description": "This plugin let's you run custom scripts after events like playback start and stop.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://lmaonator.github.io/jellyfin-plugin-runscripts/manifest.json  \nGithub: https://github.com/lmaonator/jellyfin-plugin-runscripts",
+    "description": "This plugin let's you run custom scripts after events like playback start and stop.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://lmaonator.github.io/jellyfin-plugin-runscripts/manifest.json  \nGithub: https://github.com/lmaonator/jellyfin-plugin-runscripts",
     "owner": "lmaonator",
     "overview": "Run scripts after events like playback start and stop",
     "versions": [
@@ -1655,7 +1663,7 @@
   },
   {
     "category": "Authentication",
-    "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json  \nGithub: https://github.com/9p4/jellyfin-plugin-sso\n",
+    "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/9p4/jellyfin-plugin-sso/manifest-release/manifest.json  \nGithub: https://github.com/9p4/jellyfin-plugin-sso\n",
     "guid": "505ce9d1-d916-42fa-86ca-673ef241d7df",
     "name": "SSO Authentication",
     "overview": "Authenticate users against an SSO provider.",
@@ -1772,7 +1780,7 @@
     "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
     "name": "FinTube",
     "overview": "Import Videos/Music from YouTube",
-    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json  \nGithub: https://github.com/AECX/FinTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json  \nGithub: https://github.com/AECX/FinTube",
     "owner": "Maurice 'AECX' Henke",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/FinTube.webp",
@@ -1807,7 +1815,7 @@
     "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
     "name": "FinTube",
     "overview": "Import Videos/Music from YouTube",
-    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json  \nGithub: https://github.com/AECX/FinTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json  \nGithub: https://github.com/AECX/FinTube",
     "owner": "Maurice 'AECX' Henke",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/FinTube.webp",
@@ -1825,7 +1833,7 @@
   {
     "guid": "3c96f5bc-4182-4b86-b05d-f730f2611e45",
     "name": "Smart Playlist",
-    "description": "Create automatically updating playlists based on rules.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/ankenyr/jellyfin-smartplaylist-plugin",
+    "description": "Create automatically updating playlists based on rules.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/ankenyr/jellyfin-smartplaylist-plugin",
     "overview": "Create automatically updating playlists based on rules.",
     "owner": "ankenyr",
     "category": "General",
@@ -1852,7 +1860,7 @@
   {
     "guid": "b4b4353e-dc57-4398-82c1-de9079e7146a",
     "name": "YouTube Metadata",
-    "description": "Provides YouTube metadata from the YouTube API and Youtube-dl metadata files.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/ankenyr/jellyfin-youtube-metadata-plugin",
+    "description": "Provides YouTube metadata from the YouTube API and Youtube-dl metadata files.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ankenyr/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/ankenyr/jellyfin-youtube-metadata-plugin",
     "overview": "YouTube metadata provider",
     "owner": "ankenyr",
     "category": "Metadata",
@@ -1969,7 +1977,7 @@
     "guid": "27b03c3b-9e2a-4f47-941a-82bbb5beedd8",
     "category": "Metadata",
     "overview": "Localised series air times from TheTVDB",
-    "description": "Air Times is a plugin for Jellyfin that localises series air times provided by TheTVDB to your servers timezone. Must be above the original TheTVDB plugin in the metadata sources list.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/apteryxxyz/jellyfin-plugin-air-times/HEAD/manifest.json  \nGithub: https://github.com/apteryxxyz/jellyfin-plugin-airtimes",
+    "description": "Air Times is a plugin for Jellyfin that localises series air times provided by TheTVDB to your servers timezone. Must be above the original TheTVDB plugin in the metadata sources list.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/apteryxxyz/jellyfin-plugin-air-times/HEAD/manifest.json  \nGithub: https://github.com/apteryxxyz/jellyfin-plugin-airtimes",
     "owner": "apteryxxyz",
     "versions": [
       {
@@ -1994,7 +2002,7 @@
   {
     "guid": "bd08ce53-8040-4043-a96a-55933807d7d8",
     "name": "Ignore",
-    "description": "This plugin allows for the exclusion of files based on the specifications outlined in the `.jellyfinignore` file.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/arition/jellyfin-plugin-ignore/master/manifest.json  \nGithub: https://github.com/arition/jellyfin-plugin-ignore",
+    "description": "This plugin allows for the exclusion of files based on the specifications outlined in the `.jellyfinignore` file.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/arition/jellyfin-plugin-ignore/master/manifest.json  \nGithub: https://github.com/arition/jellyfin-plugin-ignore",
     "overview": "This plugin allows for the exclusion of files based on the specifications outlined in the `.jellyfinignore` file.",
     "owner": "arition",
     "category": "General",
@@ -2037,7 +2045,7 @@
   {
     "guid": "974395db-b31d-46a2-bc86-ef9aa5ac04dd",
     "name": "Meilisearch",
-    "description": "This is a plugin that try to use Meilisearch to speedup the search of jellyfin. Inspired by Jellysearch  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json  \nGithub: https://github.com/arnesacnussem/jellyfin-plugin-meilisearch",
+    "description": "This is a plugin that try to use Meilisearch to speedup the search of jellyfin. Inspired by Jellysearch  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json  \nGithub: https://github.com/arnesacnussem/jellyfin-plugin-meilisearch",
     "overview": "A Meilisearch Plugin for Jellyfin",
     "owner": "a.sac.",
     "category": "General",
@@ -2271,7 +2279,7 @@
   },
   {
     "category": "General",
-    "description": "This plugin automatically scans configured media directories and manages .ignore files based on video content presence. For directories containing video files (including in subdirectories like TV show seasons), it removes .ignore files to make them visible. For directories without video content, it creates .ignore files to hide them from library views. Supports multiple scan directories, configurable video extensions, and customizable scan intervals.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/BlackDark/jellyfin-plugin-empty-folder-cleaner/refs/heads/manifests/manifest.json  \nGithub: https://github.com/BlackDark/jellyfin-plugin-empty-folder-cleaner",
+    "description": "This plugin automatically scans configured media directories and manages .ignore files based on video content presence. For directories containing video files (including in subdirectories like TV show seasons), it removes .ignore files to make them visible. For directories without video content, it creates .ignore files to hide them from library views. Supports multiple scan directories, configurable video extensions, and customizable scan intervals.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/BlackDark/jellyfin-plugin-empty-folder-cleaner/refs/heads/manifests/manifest.json  \nGithub: https://github.com/BlackDark/jellyfin-plugin-empty-folder-cleaner",
     "guid": "e3a1b2c4-1234-5678-9abc-def012345678",
     "name": "HideEmptyFolders",
     "overview": "Automatically manages .ignore files to hide empty folders from Jellyfin library views",
@@ -2323,7 +2331,7 @@
   {
     "guid": "a5bd541f-38dc-467e-9a9a-15fe3f3bcf5c",
     "name": "JellyPy",
-    "description": "JellyPy automatically manages your Sonarr and Radarr monitoring based on what you watch in Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/caleb-venner/jellypy/main/manifest.json  \nGithub: https://github.com/caleb-venner/JellyPy",
+    "description": "JellyPy automatically manages your Sonarr and Radarr monitoring based on what you watch in Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/caleb-venner/jellypy/main/manifest.json  \nGithub: https://github.com/caleb-venner/JellyPy",
     "overview": "Automatically manage Sonarr & Radarr monitoring based on your Jellyfin watch activity.",
     "owner": "caleb-venner",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JellyPy.webp",
@@ -2409,7 +2417,7 @@
     "name": "Discord Notifier",
     "owner": "cedev-1",
     "overview": "Easily send notifications to your Discord server!",
-    "description": "Configure notifications to send to your Discord server when events occur.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-DiscordNotifier/master/manifest.json  \nGithub: https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier",
+    "description": "Configure notifications to send to your Discord server when events occur.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-DiscordNotifier/master/manifest.json  \nGithub: https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/DiscordNotifier.webp",
     "versions": [
       {
@@ -2474,7 +2482,7 @@
     "category": "General",
     "guid": "5fcefe1b-df1f-4596-ac57-f2f939c294c5",
     "name": "Cinema Mode",
-    "description": "Enable Cinema Mode with local trailers and pre-rolls.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/main/manifest.json  \nGithub: https://github.com/CherryFloors/jellyfin-plugin-cinemamode",
+    "description": "Enable Cinema Mode with local trailers and pre-rolls.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/main/manifest.json  \nGithub: https://github.com/CherryFloors/jellyfin-plugin-cinemamode",
     "owner": "CherryFloors",
     "overview": "Enable Jellyfin's Cinema Mode",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/CinemaMode.webp",
@@ -2548,7 +2556,7 @@
   {
     "guid": "b9f0c474-e9a8-4292-ae41-eb3c1542f4cd",
     "name": "Plexyfin",
-    "description": "Syncs collections, artwork, and their metadata from your Plex Media Server to Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/cleverdevil/plexyfin/main/metadata/stable/manifest.json  \nGithub: https://github.com/cleverdevil/plexyfin",
+    "description": "Syncs collections, artwork, and their metadata from your Plex Media Server to Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/cleverdevil/plexyfin/main/metadata/stable/manifest.json  \nGithub: https://github.com/cleverdevil/plexyfin",
     "overview": "Plugin for Jellyfin that syncs collections and artwork from Plex to Jellyfin",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/Plexyfin.webp",
     "owner": "cleverdevil",
@@ -2623,7 +2631,7 @@
   {
     "guid": "f21bbed8-3a97-4d8b-88b2-48aaa65427cb",
     "name": "Merge Versions",
-    "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-mergeversions",
+    "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-mergeversions",
     "overview": "Automatically merge repeated movies",
     "owner": "danieladov",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/MergeVersions.webp",
@@ -2770,7 +2778,7 @@
   {
     "guid": "afe1de9c-63e4-4692-8d8c-7c964df19eb2",
     "name": "Theme Songs",
-    "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-themesongs",
+    "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-themesongs",
     "overview": "Automatically downloads theme songs of your tv shows",
     "owner": "danieladov",
     "category": "General",
@@ -2853,7 +2861,7 @@
   {
     "guid": "e9ca8b8e-ca6d-40e7-85dc-58e536df8eb3",
     "name": "Skin Manager",
-    "description": "Skin manager helps you to download and install most popular skins for jellyfin  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-skin-manager",
+    "description": "Skin manager helps you to download and install most popular skins for jellyfin  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-skin-manager",
     "overview": "Skins for jellyfin",
     "owner": "danieladov",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/SkinManager.webp",
@@ -2913,7 +2921,7 @@
     "category": "Metadata",
     "guid": "57b8ef5d-8835-436d-9514-a709ee25faf2",
     "name": "Stash",
-    "description": "Universal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/manifest.json  \nGithub: https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash",
+    "description": "Universal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/main/manifest.json  \nGithub: https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash",
     "owner": "DirtyRacer",
     "overview": "",
     "versions": [
@@ -2946,7 +2954,7 @@
   },
   {
     "category": "Metadata",
-    "description": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe.\n**Since the AniDB ID is used to find the matching themes, you'll need to install the AniDB plugin.**  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/EusthEnoptEron/jellyfin-plugin-animethemes/main/manifest.json  \nGithub: https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes",
+    "description": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe.\n**Since the AniDB ID is used to find the matching themes, you'll need to install the AniDB plugin.**  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/EusthEnoptEron/jellyfin-plugin-animethemes/main/manifest.json  \nGithub: https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes",
     "guid": "086022b5-29fb-4f89-a298-3d595492a5ed",
     "name": "AnimeThemes",
     "overview": "Plugin for Jellyfin that fetches anime themes (OPs and EDs) from animethemes.moe",
@@ -3054,7 +3062,7 @@
   {
     "guid": "f62d8560-6123-4567-89ab-cdef12345678",
     "name": "Posterizarr",
-    "description": "Local asset metadata provider and real-time WebSocket sync engine. Instantly maps and updates posters, backgrounds, seasons, and title cards without library scans.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/fscorrupt/posterizarr/main/manifest.json  \nGithub: https://github.com/fscorrupt/posterizarr",
+    "description": "Local asset metadata provider and real-time WebSocket sync engine. Instantly maps and updates posters, backgrounds, seasons, and title cards without library scans.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/fscorrupt/posterizarr/main/manifest.json  \nGithub: https://github.com/fscorrupt/posterizarr",
     "overview": "A companion plugin for Posterizarr that maps local assets to Jellyfin library items and connects to Posterizarr's real-time WebSocket stream (/ws/events) to instantaneously apply rendered artwork in under a second.",
     "owner": "Posterizarr",
     "category": "Metadata",
@@ -3451,7 +3459,7 @@
     "category": "General",
     "guid": "b5a2d6b3-c5f4-4f88-aed4-5f3e9877d0a6",
     "name": "RemoteUpload",
-    "description": "Upload files directly to the Jellyfin-Server, or let the server automatically download files from an URL. Please read Github for more.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/GrandguyJS/media-upload-plugin/main/manifest.json  \nGithub: https://github.com/GrandguyJS/media-upload-plugin",
+    "description": "Upload files directly to the Jellyfin-Server, or let the server automatically download files from an URL. Please read Github for more.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/GrandguyJS/media-upload-plugin/main/manifest.json  \nGithub: https://github.com/GrandguyJS/media-upload-plugin",
     "owner": "grandguyjs",
     "overview": "remoteupload",
     "versions": [
@@ -3616,7 +3624,7 @@
     "guid": "4b71013d-00ba-470c-9e4d-0c451a435328",
     "name": "TeleJelly",
     "overview": "Log in to Jellyfin using Telegram",
-    "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/hexxone/TeleJelly/dist/manifest.json  \nGithub: https://github.com/hexxone/TeleJelly",
+    "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/hexxone/TeleJelly/dist/manifest.json  \nGithub: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TeleJelly.webp",
@@ -3658,7 +3666,7 @@
   {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/MyAnimeSync.webp",
@@ -3846,7 +3854,7 @@
     "category": "Metadata",
     "guid": "a6808102-bd49-4f40-8d17-bca2556f7336",
     "name": "Pronium",
-    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/jellyfin-adult/Jellyfin.Plugin.Pronium/master/manifest.json  \nGithub: https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium",
+    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/jellyfin-adult/Jellyfin.Plugin.Pronium/master/manifest.json  \nGithub: https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium",
     "owner": "JellyfinAdult",
     "overview": "Manage Your Adult Videos in Jellyfin/Emby",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/Pronium.webp",
@@ -3937,7 +3945,7 @@
     "guid": "e29b0e3d-f15e-47b9-9b3d-ed3df892e33d",
     "name": "Collection Image Generator",
     "overview": "Automatically generates collage images for collections without images",
-    "description": "A Jellyfin plugin that automatically generates collage images for collections without images.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-collection-image-generator/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-collection-image-generator",
+    "description": "A Jellyfin plugin that automatically generates collage images for collections without images.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-collection-image-generator/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-collection-image-generator",
     "owner": "johnpc",
     "category": "Metadata",
     "versions": [
@@ -4204,7 +4212,7 @@
     "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
     "name": "Smart Collections",
     "overview": "Enables creation of Smart Collections based on Tag",
-    "description": "Enables creation of Smart Collections based on Tag  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-smart-collections",
+    "description": "Enables creation of Smart Collections based on Tag  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-smart-collections",
     "owner": "johnpc",
     "category": "General",
     "versions": [
@@ -4391,7 +4399,7 @@
     "guid": "e29b0e3d-f15a-47e6-9f05-d8f4e6260a4e",
     "name": "Top Ten",
     "overview": "Creates and maintains a collection of the top 10 most watched movies and TV shows",
-    "description": "Creates a scheduled task that runs every 24 hours to identify the top 10 movies and series watched on the Jellyfin server. It creates a collection named \"Jellyfin Top Ten\" (configurable) and keeps it up to date by adding new popular content and removing items that have fallen out of the top ten.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-top-ten",
+    "description": "Creates a scheduled task that runs every 24 hours to identify the top 10 movies and series watched on the Jellyfin server. It creates a collection named \"Jellyfin Top Ten\" (configurable) and keeps it up to date by adding new popular content and removing items that have fallen out of the top ten.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-top-ten",
     "owner": "johnpc",
     "category": "General",
     "versions": [
@@ -4489,7 +4497,7 @@
   {
     "guid": "d6b0196a-9885-4d87-b25c-562a57ebbe0b",
     "name": "Prevent Sleep",
-    "description": "Prevent the system from entering sleep mode when there are active streams.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/jonschz/jellyfin-plugin-preventsleep/refs/heads/main/manifest.json  \nGithub: https://github.com/jonschz/jellyfin-plugin-preventsleep",
+    "description": "Prevent the system from entering sleep mode when there are active streams.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/jonschz/jellyfin-plugin-preventsleep/refs/heads/main/manifest.json  \nGithub: https://github.com/jonschz/jellyfin-plugin-preventsleep",
     "overview": "Prevent system sleep when streaming",
     "owner": "jonschz",
     "category": "General",
@@ -4524,7 +4532,7 @@
   {
     "guid": "47816a0e-e69c-44e0-ac7e-f37b134e088f",
     "name": "SMS notification",
-    "description": "Sends sms notifications via selected service.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-sms",
+    "description": "Sends sms notifications via selected service.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-sms",
     "overview": "Sends sms notifications",
     "owner": "k-matti",
     "category": "Notifications",
@@ -4551,7 +4559,7 @@
   {
     "guid": "6f9a84bf-cb2f-42c3-9f07-4037956f9a02",
     "name": "NapiSub",
-    "description": "Download subtitles for Movies and TV Shows using napiprojekt.pl database  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-napi",
+    "description": "Download subtitles for Movies and TV Shows using napiprojekt.pl database  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-napi",
     "overview": "Polish subtitles downloader",
     "owner": "k-matti",
     "category": "Metadata",
@@ -4574,7 +4582,7 @@
     "targetAbi": "10.9.0.0",
     "framework": "net8.0",
     "overview": "Applies provider tags, manages provider collections, and exposes provider/item APIs with pagination.",
-    "description": "ProviderStuff automates tagging items with provider:<name> tags, maintains optional Box Set collections, and provides API endpoints to list providers and items.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/kamilkosek/jellyfin-plugin-provider-stuff/main/manifest.json  \nGithub: https://github.com/kamilkosek/jellyfin-plugin-provider-stuff",
+    "description": "ProviderStuff automates tagging items with provider:<name> tags, maintains optional Box Set collections, and provides API endpoints to list providers and items.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/kamilkosek/jellyfin-plugin-provider-stuff/main/manifest.json  \nGithub: https://github.com/kamilkosek/jellyfin-plugin-provider-stuff",
     "category": "General",
     "owner": "kamilkosek",
     "artifacts": [
@@ -4605,7 +4613,7 @@
     "guid": "06ebf4a9-1326-4327-968d-8da00e1ea2eb",
     "name": "Auto Collections",
     "overview": "Enables creation of Auto Collections based on Tag",
-    "description": "Enables creation of Auto Collections based on Tag  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/KeksBombe/jellyfin-plugin-auto-collections",
+    "description": "Enables creation of Auto Collections based on Tag  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/KeksBombe/jellyfin-plugin-auto-collections",
     "owner": "KeksBombe",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/AutoCollections.webp",
     "category": "General",
@@ -4976,7 +4984,7 @@
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice",
     "overview": "Create a Netflix-style featured content slider on the main page.",
-    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
     "owner": "lachlandcp",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/Editor'sChoice.webp",
@@ -5203,7 +5211,7 @@
     "category": "General",
     "guid": "c797039e-7640-45bb-a83f-7976220285dc",
     "name": "Cast Curator",
-    "description": "Automatically organize your library by cast and crew members.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Automatically organize your library by cast and crew members.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Automatically organize your library by cast and crew members.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/CastCurator.webp",
@@ -5350,7 +5358,7 @@
     "category": "General",
     "guid": "ac5bb0cf-9de9-4c42-b72f-c59d1edbb6ae",
     "name": "Studio Curator",
-    "description": "Automatically organize your library by studio.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Automatically organize your library by studio.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Automatically organize your library by studio.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/StudioCurator.webp",
@@ -5497,7 +5505,7 @@
     "category": "General",
     "guid": "c03a2469-eed0-4107-95b1-6dfda14fb0fc",
     "name": "Privacy Mode",
-    "description": "Adds a privacy mode that hides content when activated.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Adds a privacy mode that hides content when activated.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Adds a privacy mode that hides content when activated.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/PrivacyMode.webp",
@@ -5644,7 +5652,7 @@
     "category": "General",
     "guid": "f0194bb3-788d-43b8-96c9-bb32f996db4a",
     "name": "Remote Trailers",
-    "description": "Enables playback of remote trailers from any source.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Enables playback of remote trailers from any source.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Enables playback of remote trailers from any source.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/RemoteTrailers.webp",
@@ -5791,7 +5799,7 @@
     "category": "General",
     "guid": "6a65ce4e-fb35-4e99-8f37-02bc3979fe7e",
     "name": "Thumbnail Previews",
-    "description": "Adds thumbnail previews using videos.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Adds thumbnail previews using videos.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Adds thumbnail previews using videos.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/ThumbnailPreviews.webp",
@@ -5938,7 +5946,7 @@
     "category": "General",
     "guid": "5513dce4-a436-495c-8925-30845bf2c1dd",
     "name": "Watch History Janitor",
-    "description": "Cleans up the \"Continue Watching\" history after a specified time period.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Cleans up the \"Continue Watching\" history after a specified time period.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Cleans up the \"Continue Watching\" history after a specified time period.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/WatchHistoryJanitor.webp",
@@ -6085,7 +6093,7 @@
     "category": "General",
     "guid": "36eb87e0-0373-423b-a547-2acb96e33430",
     "name": "JellyTag",
-    "description": "Simplified tag management. Add, remove, and manage tags right from the context menu.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Simplified tag management. Add, remove, and manage tags right from the context menu.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Simplified tag management. Add, remove, and manage tags right from the context menu.",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JellyTag.webp",
@@ -6178,7 +6186,7 @@
     "name": "КиноПоиск",
     "overview": "Информация о фильмах и сериалах с КиноПоиска",
     "owner": "LinFor & skrashevich",
-    "description": "Загружает рейтинг, описания, актёров, трейлеры и т.д. с сайта КиноПоиск. Может потребоваться зарегистрировать свой ApiToken, см. информацию в параметрах плагина. Для точного распознавания рекомендуется указывать id фильма с сайта КиноПоиск в имени файла в формате kp-12345 или kp12345. Подробнее см. https://github.com/LinFor/jellyfin-plugin-kinopoisk/blob/master/README.md  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/LinFor/jellyfin-plugin-kinopoisk/master/dist/manifest.json  \nGithub: https://github.com/LinFor/jellyfin-plugin-kinopoisk",
+    "description": "Загружает рейтинг, описания, актёров, трейлеры и т.д. с сайта КиноПоиск. Может потребоваться зарегистрировать свой ApiToken, см. информацию в параметрах плагина. Для точного распознавания рекомендуется указывать id фильма с сайта КиноПоиск в имени файла в формате kp-12345 или kp12345. Подробнее см. https://github.com/LinFor/jellyfin-plugin-kinopoisk/blob/master/README.md  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/LinFor/jellyfin-plugin-kinopoisk/master/dist/manifest.json  \nGithub: https://github.com/LinFor/jellyfin-plugin-kinopoisk",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/КиноПоиск.webp",
     "versions": [
       {
@@ -6413,7 +6421,7 @@
     "guid": "a708187e-5f82-4610-9c84-ec1f2837d5fe",
     "name": "Collection Import",
     "overview": "Import collections from external sources like tmdblist",
-    "description": "Import collections from external sources like tmdblist  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json  \nGithub: https://github.com/lostb1t/jellyfin-plugin-collection-import",
+    "description": "Import collections from external sources like tmdblist  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json  \nGithub: https://github.com/lostb1t/jellyfin-plugin-collection-import",
     "owner": "lostb1t",
     "category": "General",
     "versions": [
@@ -6743,7 +6751,7 @@
   {
     "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
     "name": "MetaTube",
-    "description": "MetaTube Plugin for Jellyfin/Emby.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json  \nGithub: https://github.com/metatube-community/jellyfin-plugin-metatube",
+    "description": "MetaTube Plugin for Jellyfin/Emby.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json  \nGithub: https://github.com/metatube-community/jellyfin-plugin-metatube",
     "overview": "MetaTube Plugin for Jellyfin/Emby.",
     "owner": "MetaTube",
     "category": "Metadata",
@@ -6826,7 +6834,7 @@
   {
     "guid": "f5c68360-ca47-4648-b47c-3da5f112aa8f",
     "name": "Litefin",
-    "description": "Litefin client helper plugin, currently it helps backup and restore Litefin app settings directly to/from your Jellyfin server.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/MoazSalem/litefin-plugin/release/manifest.json  \nGithub: https://github.com/MoazSalem/litefin-plugin",
+    "description": "Litefin client helper plugin, currently it helps backup and restore Litefin app settings directly to/from your Jellyfin server.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/MoazSalem/litefin-plugin/release/manifest.json  \nGithub: https://github.com/MoazSalem/litefin-plugin",
     "overview": "Synchronizes client settings, layout choices, and color themes.",
     "owner": "MoazSalem",
     "category": "General",
@@ -6926,7 +6934,7 @@
     "name": "JavaScript Injector",
     "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
     "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
-    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JavaScriptInjector.webp",
@@ -7105,7 +7113,7 @@
     "name": "Jellyfin Tweaks",
     "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
     "overview": "Tweaks for Jellyfin",
-    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JellyfinTweaks.webp",
@@ -7252,7 +7260,7 @@
     "name": "JavaScript Injector",
     "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
     "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
-    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JavaScriptInjector.webp",
@@ -7431,7 +7439,7 @@
     "name": "Jellyfin Tweaks",
     "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
     "overview": "Tweaks for Jellyfin",
-    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JellyfinTweaks.webp",
@@ -7578,7 +7586,7 @@
     "name": "JavaScript Injector",
     "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
     "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
-    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JavaScriptInjector.webp",
@@ -7757,7 +7765,7 @@
     "name": "Jellyfin Tweaks",
     "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
     "overview": "Tweaks for Jellyfin",
-    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/JellyfinTweaks.webp",
@@ -7904,7 +7912,7 @@
     "guid": "73833d5f-0bcb-45dc-ab8b-7ce668f4345d",
     "name": "InPlayerEpisodePreview",
     "overview": "Adds an overview of episode data inside the video player.",
-    "description": "Adds an overview of episode data inside the video player.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json  \nGithub: https://github.com/Namo2/InPlayerEpisodePreview",
+    "description": "Adds an overview of episode data inside the video player.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json  \nGithub: https://github.com/Namo2/InPlayerEpisodePreview",
     "owner": "Namo",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/InPlayerEpisodePreview.webp",
@@ -8186,7 +8194,7 @@
   {
     "guid": "6bb8dbba-2aaa-4b19-9da4-f3bbb6c44091",
     "name": "Authelia Authentication",
-    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json  \nGithub: https://github.com/nikarh/jellyfin-plugin-authelia",
+    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json  \nGithub: https://github.com/nikarh/jellyfin-plugin-authelia",
     "overview": "Authenticate users via Authelia",
     "owner": "nikarh",
     "category": "Administration",
@@ -8262,7 +8270,7 @@
     "category": "General",
     "guid": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d",
     "name": "Transcode Downloader",
-    "description": "Adds a quality-selection download button to Jellyfin item detail pages.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ph15ch/Jellyfin-Transcode-Downloader/main/repo/manifest.json  \nGithub: https://github.com/ph15ch/Jellyfin-Transcode-Downloader",
+    "description": "Adds a quality-selection download button to Jellyfin item detail pages.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ph15ch/Jellyfin-Transcode-Downloader/main/repo/manifest.json  \nGithub: https://github.com/ph15ch/Jellyfin-Transcode-Downloader",
     "overview": "Adds a 'Download (Transcode…)' entry to the More menu on every movie and episode detail page. Selecting it opens a quality picker — choose a bitrate tier and Jellyfin re-encodes the video server-side to H.264/AAC, streaming it to your browser with a live progress bar, or pick Original to save the unmodified source file directly. Requires the File Transformation companion plugin (>= v2.2.1.0) for permission-safe script injection.",
     "owner": "ph15ch",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TranscodeDownloader.webp",
@@ -8451,7 +8459,7 @@
     "name": "Telegram Notifier",
     "owner": "RomainPierre7",
     "overview": "Easily send notifications to your Telegram bot!",
-    "description": "Configure for each user where to send notifications, and what kind of notifications to send.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json  \nGithub: https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier",
+    "description": "Configure for each user where to send notifications, and what kind of notifications to send.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json  \nGithub: https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TelegramNotifier.webp",
     "versions": [
       {
@@ -8651,7 +8659,7 @@
   {
     "guid": "ed04e975-f906-4b58-a250-705550810623",
     "name": "MyAnimeList",
-    "description": "MyAnimeList metadata provider  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/main/manifest.json  \nGithub: https://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "description": "MyAnimeList metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/main/manifest.json  \nGithub: https://github.com/ryandash/jellyfin-plugin-myanimelist",
     "overview": "MyAnimeList metadata provider",
     "owner": "Ryan Dash",
     "category": "Anime",
@@ -9358,7 +9366,7 @@
   {
     "guid": "60f478ab-2dd6-4ea0-af10-04d033f75979",
     "name": "Newsletters",
-    "description": "This plugin populates a list of recently added/deleted/updated media and upcoming content (via Radarr/Sonarr), sends out the newsletter to configured clients(email, discord webhook, telegram & matrix).  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/Sanidhya30/Jellyfin-Newsletter/HEAD/manifest.json  \nGithub: https://github.com/Sanidhya30/Jellyfin-Newsletter",
+    "description": "This plugin populates a list of recently added/deleted/updated media and upcoming content (via Radarr/Sonarr), sends out the newsletter to configured clients(email, discord webhook, telegram & matrix).  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/Sanidhya30/Jellyfin-Newsletter/HEAD/manifest.json  \nGithub: https://github.com/Sanidhya30/Jellyfin-Newsletter",
     "overview": "Send newsletters for recently added/deleted/updated/upcoming media",
     "owner": "Sanidhya30",
     "category": "General",
@@ -9713,7 +9721,7 @@
   {
     "guid": "12b44f20-6cfb-4be5-9950-3d0fbe74fa35",
     "name": "Refresh Sparse Items",
-    "description": "Refresh episodes, seasons, series that are missing data you define.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/master/manifest.json  \nGithub: https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse",
+    "description": "Refresh episodes, seasons, series that are missing data you define.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/master/manifest.json  \nGithub: https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse",
     "overview": "Refresh episodes, seasons, series that are missing data you define.",
     "owner": "SenorSmartyPants",
     "category": "Metadata",
@@ -9756,7 +9764,7 @@
   {
     "guid": "ef35f6b1-7fe6-44ca-a215-232089fb9bc7",
     "name": "MyShows",
-    "description": "Scrobble your watched shows with MyShows.me.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-myshows",
+    "description": "Scrobble your watched shows with MyShows.me.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-myshows",
     "overview": "Scrobble your watched shows with MyShows.me",
     "owner": "shemanaev",
     "category": "General",
@@ -9815,7 +9823,7 @@
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "Webhooks",
-    "description": "Supports couple of webhook types including Plex one.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-webhooks",
+    "description": "Supports couple of webhook types including Plex one.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-webhooks",
     "overview": "Webhooks. Flexible and robust",
     "owner": "shemanaev",
     "category": "General",
@@ -9962,7 +9970,7 @@
   {
     "guid": "607fee77-97eb-41fe-bf22-26844d99ffb0",
     "name": "Media Cleaner",
-    "description": "Keep your storage clean without hassle. Works with movies and series.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-media-cleaner",
+    "description": "Keep your storage clean without hassle. Works with movies and series.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-media-cleaner",
     "overview": "Delete played media after specified time",
     "owner": "shemanaev",
     "category": "General",
@@ -10333,7 +10341,7 @@
   {
     "guid": "5216ccbf-d24a-4eb3-8a7e-7da4230b7052",
     "name": "Shoko",
-    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json  \nGithub: https://github.com/ShokoAnime/Shokofin",
+    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json  \nGithub: https://github.com/ShokoAnime/Shokofin",
     "overview": "Manage your anime from Jellyfin using metadata from Shoko",
     "owner": "ShokoAnime",
     "category": "Anime",
@@ -10753,7 +10761,7 @@
     "guid": "e93d1d02-df60-4545-ae3c-7bb87dff024c",
     "name": "AniWorld Downloader",
     "overview": "Download anime from aniworld.to directly within Jellyfin",
-    "description": "Search, browse, and download anime from aniworld.to directly within Jellyfin. Supports VOE, Filemoon, Vidoza, and Vidmoly providers with German Dub, English Sub, and German Sub options.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/SiroxCW/Jellyfin-AniWorld-Downloader/main/manifest.json  \nGithub: https://github.com/SiroxCW/Jellyfin-AniWorld-Downloader",
+    "description": "Search, browse, and download anime from aniworld.to directly within Jellyfin. Supports VOE, Filemoon, Vidoza, and Vidmoly providers with German Dub, English Sub, and German Sub options.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/SiroxCW/Jellyfin-AniWorld-Downloader/main/manifest.json  \nGithub: https://github.com/SiroxCW/Jellyfin-AniWorld-Downloader",
     "owner": "SiroxCW",
     "category": "General",
     "versions": [
@@ -10852,7 +10860,7 @@
     "guid": "1e9e5d38-6e67-4615-8719-e98a5c34f004",
     "name": "Streamyfin",
     "overview": "",
-    "description": "Universal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/main/manifest.json  \nGithub: https://github.com/streamyfin/jellyfin-plugin-streamyfin",
+    "description": "Universal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/main/manifest.json  \nGithub: https://github.com/streamyfin/jellyfin-plugin-streamyfin",
     "owner": "lostb1t",
     "category": "General",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/Streamyfin.webp",
@@ -11358,7 +11366,7 @@
   {
     "guid": "7edb2a28-5b8a-4fe8-ae11-d941315eb862",
     "name": "Shikimori",
-    "description": "Adds metadata for anime tv and movies  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/te9c/jellyfin-plugin-shikimori/main/manifest.json  \nGithub: https://github.com/te9c/jellyfin-plugin-shikimori",
+    "description": "Adds metadata for anime tv and movies  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/te9c/jellyfin-plugin-shikimori/main/manifest.json  \nGithub: https://github.com/te9c/jellyfin-plugin-shikimori",
     "overview": "Metadata provider for Shikimori",
     "owner": "te9c",
     "category": "Anime",
@@ -11482,7 +11490,7 @@
     "guid": "b1ea6fb2-e42a-4632-841f-82ffba8307db",
     "name": "Btttr Posters Plugin",
     "overview": "Automatically pull beautifully styled poster cards from btttr.cc into Jellyfin.",
-    "description": "This plugin adds Btttr.cc as an Official Remote Image Provider in Jellyfin. When you search for images (posters) for any movie or TV series, Btttr.cc covers will automatically appear as top-priority choices.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/TheAceOfficials/BetterPoster-for-Jellyfin/main/manifest.json  \nGithub: https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin",
+    "description": "This plugin adds Btttr.cc as an Official Remote Image Provider in Jellyfin. When you search for images (posters) for any movie or TV series, Btttr.cc covers will automatically appear as top-priority choices.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/TheAceOfficials/BetterPoster-for-Jellyfin/main/manifest.json  \nGithub: https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin",
     "owner": "TheAceOfficials",
     "category": "Metadata",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/BtttrPostersPlugin.webp",
@@ -11524,7 +11532,7 @@
   {
     "guid": "c9e41b95-63e4-45e2-9db6-b83df21ae5e7",
     "name": "TheIntroDB",
-    "description": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/TheIntroDB/jellyfin-plugin/main/manifest.json  \nGithub: https://github.com/TheIntroDB/jellyfin-plugin",
+    "description": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/TheIntroDB/jellyfin-plugin/main/manifest.json  \nGithub: https://github.com/TheIntroDB/jellyfin-plugin",
     "overview": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.",
     "owner": "TheIntroDB",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TheIntroDB.webp",
@@ -11600,7 +11608,7 @@
     "category": "Metadata",
     "guid": "fb7580cf-576d-4991-8e56-0b4520c111d3",
     "name": "ThePornDB",
-    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json  \nGithub: https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB",
+    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the ThePornDB.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/main/manifest.json  \nGithub: https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB",
     "owner": "DirtyRacer",
     "overview": "Manage Your Adult Videos in Jellyfin/Emby",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/ThePornDB.webp",
@@ -11707,7 +11715,7 @@
     "category": "Metadata",
     "guid": "dc97d0c6-28b0-4242-afb4-5833ae1b3715",
     "name": "TubeArchivistMetadata",
-    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/manifest.json  \nGithub: https://github.com/tubearchivist/tubearchivist-jf-plugin",
+    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/manifest.json  \nGithub: https://github.com/tubearchivist/tubearchivist-jf-plugin",
     "owner": "DarkFighterLuke",
     "overview": "Metadata for your TubeArchivist library on Jellyfin",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TubeArchivistMetadata.webp",
@@ -11894,7 +11902,7 @@
     "category": "General",
     "guid": "3f7a9c2e-b1d4-4e8a-a5f6-2c0d1e9b3f7a",
     "name": "DirectPlayForce",
-    "description": "Forces direct play for configured clients, blocking all server-side transcoding.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/upchui/Jellyfin-DirectPlayForce/main/manifest.json  \nGithub: https://github.com/upchui/Jellyfin-DirectPlayForce",
+    "description": "Forces direct play for configured clients, blocking all server-side transcoding.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/upchui/Jellyfin-DirectPlayForce/main/manifest.json  \nGithub: https://github.com/upchui/Jellyfin-DirectPlayForce",
     "overview": "Solves EAC3 / Dolby Digital Plus stuttering and other audio codec playback issues on NVIDIA Shield / Android TV by forcing Jellyfin to deliver media files as-is via direct play — no FFmpeg, no re-encoding, zero quality loss on video or audio.",
     "owner": "theALHU - upchui",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/DirectPlayForce.webp",
@@ -11969,7 +11977,7 @@
     "category": "General",
     "guid": "8a3b2c7d-f1e4-4a9b-b6d3-1c2e5f8a0d4e",
     "name": "GhostLibrary",
-    "description": "Hides a configured media library from Jellyfin client API responses while keeping it fully accessible to other plugins (e.g. Cinema Mode) and the filesystem.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/upchui/Jellyfin-GhostLibrary/main/manifest.json  \nGithub: https://github.com/upchui/Jellyfin-GhostLibrary",
+    "description": "Hides a configured media library from Jellyfin client API responses while keeping it fully accessible to other plugins (e.g. Cinema Mode) and the filesystem.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/upchui/Jellyfin-GhostLibrary/main/manifest.json  \nGithub: https://github.com/upchui/Jellyfin-GhostLibrary",
     "overview": "Hide a specific library from the client home screen without blocking filesystem or plugin access.",
     "owner": "theALHU - upchui",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/GhostLibrary.webp",
@@ -12099,7 +12107,7 @@
   {
     "guid": "be72d436-ab23-44b4-8625-9a8f3892d27a",
     "name": "NFO Chapters",
-    "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugin-nfo-chapters",
+    "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugin-nfo-chapters",
     "overview": "This plugin enables the use of chapter tags in NFOs",
     "owner": "Viperinius",
     "category": "Metadata",
@@ -12158,7 +12166,7 @@
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
     "name": "Spotify Import",
-    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugin-spotify-import",
+    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugin-spotify-import",
     "overview": "This plugin imports playlists from Spotify.",
     "owner": "Viperinius",
     "category": "Metadata",
@@ -12450,7 +12458,7 @@
     "category": "General",
     "guid": "2ce6b237-2610-4dfd-a34b-3f4c2ac64a88",
     "name": "Transcode Guard",
-    "description": "Intelligently alerts users when they transcode due to unsupported formats/codecs, while allowing bitrate-based transcoding without harassment. Successor to Transcode Nag, with a separate plugin identity: it installs alongside the old plugin rather than updating it, and does not carry its configuration over.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/voc0der/jellyfin-plugin-transcode-guard/main/manifest.json  \nGithub: https://github.com/voc0der/jellyfin-plugin-transcode-guard",
+    "description": "Intelligently alerts users when they transcode due to unsupported formats/codecs, while allowing bitrate-based transcoding without harassment. Successor to Transcode Nag, with a separate plugin identity: it installs alongside the old plugin rather than updating it, and does not carry its configuration over.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/voc0der/jellyfin-plugin-transcode-guard/main/manifest.json  \nGithub: https://github.com/voc0der/jellyfin-plugin-transcode-guard",
     "owner": "voc0der",
     "overview": "Smart transcoding monitor that only alerts for format/codec incompatibility",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/TranscodeGuard.webp",
@@ -12509,7 +12517,7 @@
     "category": "General",
     "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
     "name": "Ani-Sync",
-    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json  \nGithub: https://github.com/vosmiic/jellyfin-ani-sync",
+    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json  \nGithub: https://github.com/vosmiic/jellyfin-ani-sync",
     "owner": "vosmiic",
     "overview": "Synchronize anime watch status",
     "versions": [
@@ -12823,7 +12831,7 @@
   {
     "guid": "a8b5e2f3-4c1d-4e8a-b2f9-6d3c7e1a5b2f",
     "name": "StarTrack",
-    "description": "Community star ratings for movies and TV shows — stored privately on your Jellyfin server.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-plugin-startrack/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-plugin-startrack",
+    "description": "Community star ratings for movies and TV shows — stored privately on your Jellyfin server.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-plugin-startrack/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-plugin-startrack",
     "overview": "StarTrack adds a compact star rating pill to every Movie and TV Series detail page in your Jellyfin library. Click it to expand a full panel where you can submit your 1-5 star rating and see a breakdown of every individual user's score. All data lives in a JSON file on your server — nothing leaves your network.",
     "owner": "ZL154",
     "category": "General",
@@ -13234,7 +13242,7 @@
   {
     "guid": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
     "name": "Jellyfin-Roulette",
-    "description": "A Jellyfin plugin that intercepts playlist clicks and displays a modal with two options: play a random unwatched item with a slot machine animation, or view the normal playlist. Features dynamic resize, audio ticks, confetti celebration, and glassmorphism UI.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json  \nGithub: https://github.com/ztffn/Jellyfin-Roulette",
+    "description": "A Jellyfin plugin that intercepts playlist clicks and displays a modal with two options: play a random unwatched item with a slot machine animation, or view the normal playlist. Features dynamic resize, audio ticks, confetti celebration, and glassmorphism UI.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json  \nGithub: https://github.com/ztffn/Jellyfin-Roulette",
     "overview": "Transform playlist browsing into an exciting slot machine experience with smooth animations and audio feedback",
     "owner": "ztffn",
     "category": "General",
@@ -13301,7 +13309,7 @@
   {
     "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
     "name": "Bookshelf",
-    "description": "Supports several different metadata providers and options for organizing your collection.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Supports several different metadata providers and options for organizing your collection.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Manage your books",
     "owner": "jellyfin",
     "category": "Books",
@@ -13392,7 +13400,7 @@
   {
     "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
     "name": "Fanart",
-    "description": "Scrape poster images for movies, shows, and artists in your library.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https:",
+    "description": "Scrape poster images for movies, shows, and artists in your library.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https:",
     "overview": "Scrape poster images from Fanart",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -13483,7 +13491,7 @@
   {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -13526,7 +13534,7 @@
   {
     "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
     "name": "Kodi Sync Queue",
-    "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Sync all media changes with Kodi clients",
     "owner": "jellyfin",
     "category": "General",
@@ -13633,7 +13641,7 @@
   {
     "guid": "958aad66-3784-4d2a-b89a-a7b6fab6e25c",
     "name": "LDAP Authentication",
-    "description": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Authenticate users against an LDAP database",
     "owner": "jellyfin",
     "category": "Administration",
@@ -13780,7 +13788,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -13879,7 +13887,7 @@
   {
     "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
     "name": "Open Subtitles",
-    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v10 (#212) [@renovate[bot]](https:",
+    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v10 (#212) [@renovate[bot]](https:",
     "overview": "Download subtitles for your media",
     "owner": "jellyfin",
     "category": "Subtitles",
@@ -13994,7 +14002,7 @@
   {
     "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
     "name": "Playback Reporting",
-    "description": "Collect and show user play statistics  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Collect and show user play statistics  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Collect and show user play statistics",
     "owner": "jellyfin",
     "category": "Administration",
@@ -14101,7 +14109,7 @@
   {
     "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
     "name": "Reports",
-    "description": "Generate reports of your media library  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Generate reports of your media library  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Generate reports of your media library",
     "owner": "jellyfin",
     "category": "Administration",
@@ -14192,7 +14200,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -14275,7 +14283,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -14462,7 +14470,7 @@
   {
     "guid": "3fd018e5-5e78-4e58-b280-a0c068febee0",
     "name": "TVHeadend",
-    "description": "Manage TVHeadend from Jellyfin  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Manage TVHeadend from Jellyfin  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Manage TVHeadend from Jellyfin",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -14553,7 +14561,7 @@
   {
     "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
     "name": "Cover Art Archive",
-    "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update MetaBrainz to v7 (major) (#31) [@renovate[bot]](https:",
+    "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update MetaBrainz to v7 (major) (#31) [@renovate[bot]](https:",
     "overview": "MusicBrainz Cover Art Archive",
     "owner": "jellyfin",
     "category": "Music",
@@ -14644,7 +14652,7 @@
   {
     "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
     "name": "TheTVDB",
-    "description": "Get TV metadata from TheTvdb  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Get TV metadata from TheTvdb  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Get TV metadata from TheTvdb",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -14847,7 +14855,7 @@
   {
     "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
     "name": "AniDB",
-    "description": "AniDB metadata provider  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniDB metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniDB metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -14954,7 +14962,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -15069,7 +15077,7 @@
   {
     "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
     "name": "AniSearch",
-    "description": "AniSearch metadata provider  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "AniSearch metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "AniSearch metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -15120,7 +15128,7 @@
   {
     "guid": "88d809e2-056b-47f4-9911-073949b9963f",
     "name": "Kitsu",
-    "description": "Kitsu metadata provider  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Kitsu metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Kitsu metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -15187,7 +15195,7 @@
   {
     "guid": "a4a488d0-17a3-4919-8d82-7f3de4f6b209",
     "name": "TVmaze",
-    "description": "Get TV metadata from TVmaze  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#59) [@renovate[bot]](https:",
+    "description": "Get TV metadata from TVmaze  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#59) [@renovate[bot]](https:",
     "overview": "Get TV metadata from TVmaze",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -15302,7 +15310,7 @@
   {
     "guid": "71552a5a-5c5c-4350-a2ae-ebe451a30173",
     "name": "Webhook",
-    "description": "Sends notifications to destinations via webhooks.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Sends notifications to destinations via webhooks.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Sends notifications.",
     "owner": "jellyfin",
     "category": "Administration",
@@ -15457,7 +15465,7 @@
   {
     "guid": "f30880ae-3365-449e-b9e6-bf133c8401b0",
     "name": "OPDS",
-    "description": "Provides an OPDS feed for book browsing.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Provides an OPDS feed for book browsing.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Provides an OPDS book feed",
     "owner": "jellyfin",
     "category": "Books",
@@ -15532,7 +15540,7 @@
   {
     "guid": "ec9e2a74-1311-4a14-b302-158e3d95fd1d",
     "name": "Session Cleaner",
-    "description": "Removes old sessions (devices).  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Removes old sessions (devices).  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Removes old sessions (devices).",
     "owner": "jellyfin",
     "category": "Administration",
@@ -15583,7 +15591,7 @@
   {
     "guid": "44616595-5798-47ad-8658-3c09f3030505",
     "name": "VGMdb",
-    "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#29) [@renovate[bot]](https:",
+    "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#29) [@renovate[bot]](https:",
     "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
     "owner": "jellyfin",
     "category": "Music",
@@ -15634,7 +15642,7 @@
   {
     "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
     "name": "Simkl",
-    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https:",
+    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https:",
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
@@ -15709,7 +15717,7 @@
   {
     "guid": "cd893c24-b59e-4060-87b2-184070e1bf68",
     "name": "Subtitle Extract",
-    "description": "Extracts embedded subtitles proactively.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Extracts embedded subtitles proactively.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Extracts subtitles proactively.",
     "owner": "jellyfin",
     "category": "Subtitles",
@@ -15784,7 +15792,7 @@
   {
     "guid": "4ce89c27-d3a1-4e4b-8f5f-4bd9191c857e",
     "name": "Discogs",
-    "description": "Get music metadata from Discogs  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Get music metadata from Discogs  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Get music metadata from Discogs",
     "owner": "jellyfin",
     "category": "Music",
@@ -15819,7 +15827,7 @@
   {
     "guid": "7871d3b1-f1b9-4318-9c27-f35998ffbbcc",
     "name": "Artwork",
-    "description": "Downloads artwork from a repository for various media types.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Downloads artwork from a repository for various media types.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Download artwork",
     "owner": "jellyfin",
     "category": "General",
@@ -15854,7 +15862,7 @@
   {
     "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
     "name": "Local Intros",
-    "description": "Select a flashy pre-roll from local storage to run before any video content. The video details are loaded from disk after a video is played from the library from the beginning of the video. A random video is selected, and all videos in the local directory are enabled by default. Specific videos can be enabled or disabled as necessary. After videos are loaded for the first time, additional videos found in the directory are not enabled by default.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Select a flashy pre-roll from local storage to run before any video content. The video details are loaded from disk after a video is played from the library from the beginning of the video. A random video is selected, and all videos in the local directory are enabled by default. Specific videos can be enabled or disabled as necessary. After videos are loaded for the first time, additional videos found in the directory are not enabled by default.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Display flashy intros before movies and other videos",
     "owner": "Jellyfin",
     "category": "MoviesAndShows",
@@ -15889,7 +15897,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
@@ -16004,7 +16012,7 @@
   {
     "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
     "name": "Transcode Killer",
-    "description": "Kills transcodes above set resolutions to prevent server overload.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Kills transcodes above set resolutions to prevent server overload.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Kills transcodes to prevent server overload.",
     "owner": "jellyfin",
     "category": "Administration",
@@ -16047,7 +16055,7 @@
   {
     "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
     "name": "Apple Music",
-    "description": "Apple Music artist and album images and metadata provider.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.xkrivo.net/jellyfin/manifest.json  \nGithub: https://github.com/lyarenei/jellyfin-plugin-applemusic",
+    "description": "Apple Music artist and album images and metadata provider.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.xkrivo.net/jellyfin/manifest.json  \nGithub: https://github.com/lyarenei/jellyfin-plugin-applemusic",
     "overview": "Fetch images and metadata from Apple Music.",
     "owner": "lyarenei",
     "category": "Metadata",
@@ -16131,7 +16139,7 @@
   {
     "guid": "59b20823-aafe-454c-a393-17427f518631",
     "name": "ListenBrainz",
-    "description": "A plugin to send your music listening activity on Jellyfin to ListenBrainz.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://repo.xkrivo.net/jellyfin/manifest.json  \nGithub: https://github.com/lyarenei/jellyfin-plugin-applemusic",
+    "description": "A plugin to send your music listening activity on Jellyfin to ListenBrainz.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://repo.xkrivo.net/jellyfin/manifest.json  \nGithub: https://github.com/lyarenei/jellyfin-plugin-applemusic",
     "overview": "Track your music habits with ListenBrainz.",
     "owner": "lyarenei",
     "category": "General",
@@ -16422,7 +16430,7 @@
   {
     "guid": "9c7053f4-530d-4c98-92a6-7b0ef61b4e5e",
     "name": "TUIMDB",
-    "description": "Metadata provider plugin for TUIMDB (The Ultimate Internet Media Database).\nFetches media metadata directly from the TUIMDB platform.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://tuimdb.com/jellyfin/manifest.json  \nGithub: https://github.com/b-sullender/Jellyfin.Plugin.TUIMDB",
+    "description": "Metadata provider plugin for TUIMDB (The Ultimate Internet Media Database).\nFetches media metadata directly from the TUIMDB platform.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://tuimdb.com/jellyfin/manifest.json  \nGithub: https://github.com/b-sullender/Jellyfin.Plugin.TUIMDB",
     "overview": "Integrates Jellyfin with TUIMDB to provide rich metadata.",
     "owner": "TUIMDB",
     "category": "Metadata",
@@ -16465,7 +16473,7 @@
   {
     "guid": "eaa1f0a3-7e4c-4c6f-9b80-0a2c1c5e2f01",
     "name": "WeTrakr",
-    "description": "Sends playback events from Jellyfin (start, progress, pause, resume, stop)\nto your WeTrakr account in real time. One-click pairing via device code.  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://wetrakr.github.io/wetrakr-jf/manifest.json  \nGithub: https://github.com/wetrakr/wetrakr-jf",
+    "description": "Sends playback events from Jellyfin (start, progress, pause, resume, stop)\nto your WeTrakr account in real time. One-click pairing via device code.  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://wetrakr.github.io/wetrakr-jf/manifest.json  \nGithub: https://github.com/wetrakr/wetrakr-jf",
     "overview": "Automatic scrobbling to your WeTrakr profile.",
     "owner": "wetrakr",
     "category": "General",
@@ -16661,7 +16669,7 @@
     "category": "Metadata",
     "guid": "f962a752-15e8-4a43-b42a-6d9cfba35ce1",
     "name": "Douban",
-    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban  \n  \nUniversal Repo:  \nGenerated: 09:28 UTC  \nSource: https://xzonn.top/JellyfinPluginDouban/manifest.json  \nGithub: https://github.com/Xzonn/JellyfinPluginDouban",
+    "description": "提供豆瓣电影/电视剧的元数据 Provide Movie/TV metadata from Douban  \n  \nUniversal Repo:  \nGenerated: 12:28 UTC  \nSource: https://xzonn.top/JellyfinPluginDouban/manifest.json  \nGithub: https://github.com/Xzonn/JellyfinPluginDouban",
     "owner": "Xzonn",
     "overview": "Jellyfin 豆瓣元数据插件 Douban Metadata Provider for Jellyfin",
     "imageUrl": "https://obelo.us/plugins/images/10.9.0/Douban.webp",
