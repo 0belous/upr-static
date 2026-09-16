@@ -6,7 +6,7 @@
     "overview": "Generated: 2026-09-16T21:00:53.932Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
-    "imageUrl": "https://obelo.us/plugins/images/!UniversalPluginRepo.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
     "versions": [
       {
         "version": "0.0.0",
@@ -23,7 +23,7 @@
     "owner": "LizardByte",
     "category": "Metadata",
     "image": "themerr-jellyfin.png",
-    "imageUrl": "https://obelo.us/plugins/images/Themerr.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Themerr.webp",
     "versions": [
       {
         "version": "2026.915.1549.59",
@@ -759,7 +759,7 @@
     "category": "Live TV",
     "description": "This plugin securely connects Jellyfin with your TvHeadend setup. Stream live TV, navigate the full EPG, and control DVR scheduling. It exclusively uses Digest Authentication for secure access and proxies Tvheadend's image cache.\nhttps://github.com/baywolf-studios/jellyfin-plugin-tvheadend-client  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://baywolf-studios.github.io/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/baywolf-studios/jellyfin-plugin-tvheadend-client",
     "guid": "d2762daa-c6a2-4ede-b513-36b09a9f1752",
-    "imageUrl": "https://obelo.us/plugins/images/TvHeadendClient.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TvHeadendClient.webp",
     "name": "TvHeadend Client [✓]",
     "overview": "A plugin that brings TvHeadend's Live TV and DVR capabilities into Jellyfin.",
     "owner": "Bay Wolf Studios LLC",
@@ -898,7 +898,7 @@
     "category": "Live TV",
     "description": "This plugin securely connects Jellyfin with your TvHeadend setup. Stream live TV, navigate the full EPG, and control DVR scheduling. It exclusively uses Digest Authentication for secure access and proxies Tvheadend's image cache.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://baywolf-studios.github.io/jellyfin-plugin-tvheadend-client/repository.json  \nGithub: https://github.com/baywolf-studios/jellyfin-plugin-tvheadend-client",
     "guid": "d2762daa-c6a2-4ede-b513-36b09a9f1752",
-    "imageUrl": "https://obelo.us/plugins/images/TvHeadendClient.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TvHeadendClient.webp",
     "name": "TvHeadend Client [✓]",
     "overview": "A plugin that brings TvHeadend's Live TV and DVR capabilities into Jellyfin.",
     "owner": "Bay Wolf Studios LLC",
@@ -1038,7 +1038,7 @@
     "name": "QualityGate [✓]",
     "owner": "GeiserX",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/QualityGate.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/QualityGate.webp",
     "overview": "Cap the resolution a user may be served, measured against the media's actual height.",
     "description": "Quality Gate lets Jellyfin administrators cap the resolution a user may be served. The cap is measured against the media's actual height, read from its video stream, so it holds whatever the file is called. Media above the cap is served as a capped transcode, or as a lower-resolution version of the same item where one exists, and requests for the original file are refused. Useful for bandwidth management and tiered access.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://geiserx.github.io/quality-gate/manifest.json  \nGithub: https://github.com/GeiserX/quality-gate",
     "versions": [
@@ -1227,7 +1227,7 @@
     "description": "Analyzes the audio of television episodes and detects introduction sequences.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/intro-skipper",
     "owner": "AbandonedCart, rlauuzo, jumoog (forked from ConfusedPolarBear)",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/IntroSkipper.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/IntroSkipper.webp",
     "versions": [
       {
         "version": "12.0.4.0",
@@ -1270,7 +1270,7 @@
     "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/SegmentEditor.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
     "versions": [
       {
         "version": "12.0.9.0",
@@ -1321,7 +1321,7 @@
     "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/jellyfin-plugin-ms-chapter",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/ChapterCreator.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ChapterCreator.webp",
     "versions": [
       {
         "version": "0.6.1.0",
@@ -1340,7 +1340,7 @@
     "description": "Retrieves a database of crowd-sourced timestamps from the SkipMe.db API and supplies them to Jellyfin as a segment provider  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/skipme.db-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/SkipMe.db.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SkipMe.db.webp",
     "versions": [
       {
         "version": "0.1.25.0",
@@ -1417,7 +1417,7 @@
         "timestamp": "2026-06-28T20:05:28Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/ContinueWatching.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
   },
   {
     "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
@@ -1426,7 +1426,7 @@
     "description": "Analyzes the audio of television episodes and detects introduction sequences.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/intro-skipper",
     "owner": "AbandonedCart, rlauuzo, jumoog (forked from ConfusedPolarBear)",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/IntroSkipper.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/IntroSkipper.webp",
     "versions": [
       {
         "version": "12.0.4.0",
@@ -1469,7 +1469,7 @@
     "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/SegmentEditor.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
     "versions": [
       {
         "version": "12.0.9.0",
@@ -1520,7 +1520,7 @@
     "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/jellyfin-plugin-ms-chapter",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/ChapterCreator.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ChapterCreator.webp",
     "versions": [
       {
         "version": "0.6.1.0",
@@ -1539,7 +1539,7 @@
     "description": "Retrieves a database of crowd-sourced timestamps from the SkipMe.db API and supplies them to Jellyfin as a segment provider  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/skipme.db-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/SkipMe.db.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SkipMe.db.webp",
     "versions": [
       {
         "version": "0.1.25.0",
@@ -1591,7 +1591,7 @@
     "owner": "queukat",
     "category": "Metadata",
     "image": "icon.png",
-    "imageUrl": "https://obelo.us/plugins/images/AniLibertySTRMPlugin.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AniLibertySTRMPlugin.webp",
     "versions": [
       {
         "version": "2.0.0.15",
@@ -1744,7 +1744,7 @@
         "timestamp": "2023-04-10T00:00:00Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/Ignore.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Ignore.webp"
   },
   {
     "guid": "974395db-b31d-46a2-bc86-ef9aa5ac04dd",
@@ -1753,7 +1753,7 @@
     "overview": "A Meilisearch Plugin for Jellyfin",
     "owner": "a.sac.",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/Meilisearch.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Meilisearch.webp",
     "versions": [
       {
         "version": "1.12.1.4",
@@ -2039,7 +2039,7 @@
         "timestamp": "2026-06-04T02:35:00Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SSO-OIDCAuthentication.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SSO-OIDCAuthentication.webp"
   },
   {
     "guid": "38bdb090-b763-4294-934b-b54ade4d9d6d",
@@ -2048,7 +2048,7 @@
     "overview": "The one plugin a Jellyfin library owner needs.",
     "owner": "crackruckles",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/MediaDash.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaDash.webp",
     "versions": [
       {
         "version": "1.0.7.7",
@@ -2442,7 +2442,7 @@
     "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json  \nGithub: https://github.com/danieladov/jellyfin-plugin-mergeversions",
     "overview": "Automatically merge repeated movies",
     "owner": "danieladov",
-    "imageUrl": "https://obelo.us/plugins/images/MergeVersions.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MergeVersions.webp",
     "category": "General",
     "versions": [
       {
@@ -2590,7 +2590,7 @@
     "description": "The plugin adds additional information to the actor's portrait and, when hovering over it with the cursor, the filmography. The plugin also shows a list of actors when you hover over the movie (TV series) poster.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.ActorPlus/main/manifest.json  \nGithub: https://github.com/Druidblack/Jellyfin.Plugin.ActorPlus",
     "owner": "Druidblack",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/ActorPlus.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ActorPlus.webp",
     "versions": [
       {
         "version": "1.0.0.1",
@@ -2617,7 +2617,7 @@
     "description": "A plugin that receives images of posters and logos from themoviedb and tvdb sites and sorts them together.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource/main/manifest.json  \nGithub: https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource",
     "owner": "Druidblack",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/ArtworkMultiSourceprovider.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ArtworkMultiSourceprovider.webp",
     "versions": [
       {
         "version": "1.0.0.1",
@@ -2644,7 +2644,7 @@
     "description": "MDBList Ratings is a Jellyfin plugin that automatically fetches ratings from MDBList using a media item’s TMDb ID, writes selected ratings into Jellyfin’s built-in rating fields, and (optionally) enhances the Jellyfin Web UI with an “All ratings” panel showing every rating MDBList provides.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/main/manifest.json  \nGithub: https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings",
     "owner": "Druidblack",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/MDBListRatings.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MDBListRatings.webp",
     "versions": [
       {
         "version": "1.0.1.0",
@@ -2841,7 +2841,7 @@
         "timestamp": "2025-10-20T11:07:29Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/Lyrics.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Lyrics.webp"
   },
   {
     "category": "Metadata",
@@ -2987,7 +2987,7 @@
         "timestamp": "2026-04-02T00:00:00Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SponsorBlock.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SponsorBlock.webp"
   },
   {
     "guid": "82c71cde-a52b-44f1-a18e-d93eb6a35ed0",
@@ -2996,7 +2996,7 @@
     "overview": "A modern plugin that displays movie trailers when hovering over movie cards, providing a Netflix-style preview experience with customizable positioning, sizing, and visual effects.",
     "owner": "Fovty",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/HoverTrailer.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HoverTrailer.webp",
     "versions": [
       {
         "version": "0.4.1.0",
@@ -3175,7 +3175,7 @@
     "overview": "A companion plugin for Posterizarr that maps local assets to Jellyfin library items and connects to Posterizarr's real-time WebSocket stream (/ws/events) to instantaneously apply rendered artwork in under a second.",
     "owner": "Posterizarr",
     "category": "Metadata",
-    "imageUrl": "https://obelo.us/plugins/images/Posterizarr.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Posterizarr.webp",
     "versions": [
       {
         "version": "3.3.4",
@@ -3570,7 +3570,7 @@
     "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
-    "imageUrl": "https://obelo.us/plugins/images/MyAnimeSync.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeSync.webp",
     "category": "General",
     "versions": [
       {
@@ -3766,7 +3766,7 @@
     "overview": "JustWatch external IDs and deep-links for your library.",
     "owner": "idisposable",
     "category": "Metadata",
-    "imageUrl": "https://obelo.us/plugins/images/JustWatch.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JustWatch.webp",
     "versions": [
       {
         "version": "10.11.1.0",
@@ -3841,7 +3841,7 @@
     "description": "A Jellyfin plugin that allows you to limit the number of simultaneous streams per user. Features include a default limit, customizable messages, server-side transcode kill for clients that ignore stop commands, and optional device logout.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/JellyboxAD/Jellyfin.Plugin.StreamLimit/main/manifest.json  \nGithub: https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit",
     "owner": "JellyboxAD",
     "category": "Utilities",
-    "imageUrl": "https://obelo.us/plugins/images/StreamLimiter.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/StreamLimiter.webp",
     "versions": [
       {
         "version": "1.1.1.0",
@@ -3892,7 +3892,7 @@
     "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/Jellyfin-PG/Repository/refs/heads/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/FileTransformation.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/FileTransformation.webp",
     "versions": [
       {
         "version": "3.0.0.0",
@@ -4215,7 +4215,7 @@
         "timestamp": "2025-06-03T15:29:20Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/CollectionImageGenerator.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/CollectionImageGenerator.webp"
   },
   {
     "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
@@ -4402,7 +4402,7 @@
         "timestamp": "2025-03-06T22:14:35Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SmartCollections.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SmartCollections.webp"
   },
   {
     "guid": "e29b0e3d-f15a-47e6-9f05-d8f4e6260a4e",
@@ -4501,7 +4501,7 @@
         "timestamp": "2025-03-16T20:59:20Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/TopTen.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TopTen.webp"
   },
   {
     "guid": "06411f7c-08f6-41da-9e2a-a79b56144845",
@@ -4510,7 +4510,7 @@
     "description": "Add dynamic, auto-updating collections of movies and TV shows from ACdb.tv. Visit ACdb.tv for a quick overview.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/jonjonsson/plugin.jellyfin.acdb.manifest/main/manifest.json  \nGithub: https://github.com/jonjonsson/Jellyfin.Plugin.ACdb",
     "owner": "jonjonsson",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/ACdb.tv.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ACdb.tv.webp",
     "versions": [
       {
         "version": "3.0.1.0",
@@ -4553,7 +4553,7 @@
     "overview": "Download subtitles for your media",
     "owner": "josdion",
     "category": "Subtitles",
-    "imageUrl": "https://obelo.us/plugins/images/subbuzz.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/subbuzz.webp",
     "versions": [
       {
         "version": "1.5.0.0",
@@ -4570,7 +4570,7 @@
     "name": "Artwork Generator [✓]",
     "description": "Artwork Generator is a Jellyfin plugin that automatically creates custom episode posters using smart frame analysis, black frame detection, and configurable text styling. Perfect for filling in missing or generic episode artwork with clean, consistent visuals.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-episodepostergenerator/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-artworkgenerator",
     "overview": "Generate Custom Episode Posters",
-    "imageUrl": "https://obelo.us/plugins/images/ArtworkGenerator.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ArtworkGenerator.webp",
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
@@ -5157,7 +5157,7 @@
     "name": "Server Sync [✓]",
     "description": "Server Sync is a Jellyfin plugin that enables synchronization of media content between multiple Jellyfin servers. Supports parent-child relationships where children sync back to the parent, and peer-to-peer relationships for bi-directional synchronization.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
     "overview": "Synchronize media content between Jellyfin servers",
-    "imageUrl": "https://obelo.us/plugins/images/ServerSync.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ServerSync.webp",
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
@@ -5770,7 +5770,7 @@
     "description": "Create smart, rule-based playlists and collections in Jellyfin — for movies, shows, music, or anything your library holds. A single genre rule takes seconds; stack rules into groups and you can express almost anything. Either way, they keep themselves up to date.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/jyourstone/jellyfin-plugin-manifest/main/manifest.json  \nGithub: https://github.com/jyourstone/jellyfin-smartlists-plugin",
     "category": "General",
     "owner": "jyourstone",
-    "imageUrl": "https://obelo.us/plugins/images/SmartLists.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SmartLists.webp",
     "versions": [
       {
         "version": "12.0.2.0",
@@ -6044,7 +6044,7 @@
     "overview": "Enables creation of Auto Collections based on Tag",
     "description": "Enables creation of Auto Collections based on Tag  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/KeksBombe/jellyfin-plugin-auto-collections",
     "owner": "KeksBombe",
-    "imageUrl": "https://obelo.us/plugins/images/AutoCollections.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutoCollections.webp",
     "category": "General",
     "versions": [
       {
@@ -6415,7 +6415,7 @@
     "description": "Bridge Jellyfin with Jellyseerr for seamless show discovery and download requests  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/kinggeorges12/JellyBridge/refs/heads/main/manifest.json  \nGithub: https://github.com/kinggeorges12/JellyBridge",
     "owner": "kinggeorges12",
     "category": "Metadata",
-    "imageUrl": "https://obelo.us/plugins/images/JellyBridge.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyBridge.webp",
     "repositoryUrl": "https://github.com/kinggeorges12/JellyBridge",
     "versions": [
       {
@@ -7353,7 +7353,7 @@
         "version": "0.26.12.0"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/Gelato.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Gelato.webp"
   },
   {
     "guid": "b6a1c3f2-5d84-4e77-9d2a-7f1c8e4b3a91",
@@ -7362,7 +7362,7 @@
     "overview": "Badges the admin avatar when plugins change and a restart is pending.",
     "owner": "mihaif7",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/PluginUpdateNotifier.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PluginUpdateNotifier.webp",
     "versions": [
       {
         "version": "1.1.1.0",
@@ -7397,7 +7397,7 @@
     "overview": "Synchronizes client settings, layout choices, and color themes.",
     "owner": "MoazSalem",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/Litefin.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Litefin.webp",
     "versions": [
       {
         "version": "1.12.0.0",
@@ -7504,7 +7504,7 @@
     "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-Enhanced",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinEnhanced.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinEnhanced.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- fix(activity-feed): stop active-streams poll when tab is not visible\n - fix(jellyseerr-search): stop runaway infinite-scroll fetch loop on sparse queries\n - feat(custom-icons): add Jellyfin Helper to supported plugins ([#821](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/821))\n - Details page: file size and audio languages follow the selected version ([#819](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/819))\n - fix(config-page): show why Letterboxd/*arr text mode is locked when Metadata Icons is on\n - fix(letterboxd-links): stop link from permanently failing to (re)appear\n - feat(quality-tags): add 576p resolution tag for PAL DVDs\n - fix(tag-pipeline): re-resolve stale render target instead of dropping the tag",
@@ -8539,7 +8539,7 @@
     "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JavaScriptInjector.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JavaScriptInjector.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Add Jellyfin 12 support via IStartupFilter, drop 10.10.7\n - Add CodeMirror code editor with JSHint linting to config page",
@@ -8718,7 +8718,7 @@
     "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinTweaks.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinTweaks.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix force-write settings, add audio/subtitle/sort tweaks, redesign config page",
@@ -8865,7 +8865,7 @@
     "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-Enhanced",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinEnhanced.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinEnhanced.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- fix(activity-feed): stop active-streams poll when tab is not visible\n - fix(jellyseerr-search): stop runaway infinite-scroll fetch loop on sparse queries\n - feat(custom-icons): add Jellyfin Helper to supported plugins ([#821](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/821))\n - Details page: file size and audio languages follow the selected version ([#819](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/819))\n - fix(config-page): show why Letterboxd/*arr text mode is locked when Metadata Icons is on\n - fix(letterboxd-links): stop link from permanently failing to (re)appear\n - feat(quality-tags): add 576p resolution tag for PAL DVDs\n - fix(tag-pipeline): re-resolve stale render target instead of dropping the tag",
@@ -9900,7 +9900,7 @@
     "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JavaScriptInjector.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JavaScriptInjector.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Add Jellyfin 12 support via IStartupFilter, drop 10.10.7\n - Add CodeMirror code editor with JSHint linting to config page",
@@ -10079,7 +10079,7 @@
     "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinTweaks.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinTweaks.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix force-write settings, add audio/subtitle/sort tweaks, redesign config page",
@@ -10226,7 +10226,7 @@
     "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-Enhanced",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinEnhanced.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinEnhanced.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- fix(activity-feed): stop active-streams poll when tab is not visible\n - fix(jellyseerr-search): stop runaway infinite-scroll fetch loop on sparse queries\n - feat(custom-icons): add Jellyfin Helper to supported plugins ([#821](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/821))\n - Details page: file size and audio languages follow the selected version ([#819](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/819))\n - fix(config-page): show why Letterboxd/*arr text mode is locked when Metadata Icons is on\n - fix(letterboxd-links): stop link from permanently failing to (re)appear\n - feat(quality-tags): add 576p resolution tag for PAL DVDs\n - fix(tag-pipeline): re-resolve stale render target instead of dropping the tag",
@@ -11261,7 +11261,7 @@
     "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/Jellyfin-JavaScript-Injector",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JavaScriptInjector.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JavaScriptInjector.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Add Jellyfin 12 support via IStartupFilter, drop 10.10.7\n - Add CodeMirror code editor with JSHint linting to config page",
@@ -11440,7 +11440,7 @@
     "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/12/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinTweaks.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinTweaks.webp",
     "versions": [
       {
         "changelog": "**Build for Jellyfin 12.**\n\n- Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix typo in repository name from 'Jellfin' to 'Jellyfin'\n - Fix force-write settings, add audio/subtitle/sort tweaks, redesign config page",
@@ -11587,7 +11587,7 @@
     "description": "Adds an overview of episode data inside the video player.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json  \nGithub: https://github.com/Namo2/InPlayerEpisodePreview",
     "owner": "Namo",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/InPlayerEpisodePreview.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/InPlayerEpisodePreview.webp",
     "versions": [
       {
         "version": "2.3.0.3",
@@ -11894,7 +11894,7 @@
     "category": "General",
     "overview": "AudioMuse-AI Jellyfin Pluging integrates Jellyfin with an AudioMuse AI backend.",
     "description": "AudioMuse-AI Jellyfin Plugin integrates Jellyfin with the AudioMuse-AI backend. This plugin works only with the AudioMuse-AI side container, which must be installed separately. After installing both, configure the plugin with the side container's endpoint. Learn more: https://github.com/NeptuneHub/AudioMuse-AI  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/neptunehub/audiomuse-ai-plugin/master/manifest.json  \nGithub: https://github.com/NeptuneHub/AudioMuse-AI",
-    "imageUrl": "https://obelo.us/plugins/images/AudioMuseAI.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AudioMuseAI.webp",
     "versions": [
       {
         "version": "0.3.5.0",
@@ -12425,7 +12425,7 @@
     "overview": "Authenticate users via Authelia",
     "owner": "nikarh",
     "category": "Administration",
-    "imageUrl": "https://obelo.us/plugins/images/AutheliaAuthentication.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutheliaAuthentication.webp",
     "versions": [
       {
         "version": "1.0.17.0",
@@ -12500,7 +12500,7 @@
     "overview": "Integrates Jellyfin with Last.fm for automatic scrobbling, now playing notifications, and track management (love/ban).",
     "owner": "pepebarrascout",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinLast.fmPlugin.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinLast.fmPlugin.webp",
     "versions": [
       {
         "version": "1.0.8.0",
@@ -12559,7 +12559,7 @@
     "overview": "Subscribe to podcast RSS feeds, automatically download new episodes, manage auto-deletion of listened content, and generate a daily auto-playlist of unlistened episodes.",
     "owner": "PepeBarrascout",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/Podcasts.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Podcasts.webp",
     "versions": [
       {
         "version": "0.0.3.8",
@@ -12810,7 +12810,7 @@
     "overview": "Automated online radio streaming via Liquidsoap to Icecast servers with weekly playlist scheduling. Assign Jellyfin playlists to specific day/time slots. Requires a Liquidsoap Docker container running alongside Jellyfin.",
     "owner": "PepeBarrascout",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/RadioOnline.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/RadioOnline.webp",
     "versions": [
       {
         "version": "0.0.0.52",
@@ -13045,7 +13045,7 @@
     "description": "Creates Jellyfin anime series cards from YummyAnime and streams episodes from Alloha, CVH, and Kodik-backed sources.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/queukat/YummyKodik/gh-pages/manifest.json  \nGithub: https://github.com/queukat/YummyKodik",
     "owner": "queukat",
     "overview": "Builds a local STRM/NFO library from YummyAnime and plays episodes via Alloha, CVH, and Kodik-backed sources.",
-    "imageUrl": "https://obelo.us/plugins/images/YummyKodik.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/YummyKodik.webp",
     "versions": [
       {
         "version": "2.0.0.0",
@@ -13112,7 +13112,7 @@
     "overview": "MyAnimeList metadata provider",
     "owner": "Ryan Dash",
     "category": "Anime",
-    "imageUrl": "https://obelo.us/plugins/images/MyAnimeList.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeList.webp",
     "versions": [
       {
         "version": "12.0.0.2",
@@ -13829,7 +13829,7 @@
         "timestamp": "2026-09-08T04:58:13Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SegmentRecognition.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentRecognition.webp"
   },
   {
     "guid": "08880a95-8467-4538-bab9-da69c7f4793f",
@@ -13838,7 +13838,7 @@
     "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
     "owner": "spkesDE",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinFeatured.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinFeatured.webp",
     "versions": [
       {
         "version": "12.4.0.0",
@@ -13913,7 +13913,7 @@
     "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
     "owner": "spkesDE",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/MediaPreview.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaPreview.webp",
     "versions": [
       {
         "version": "12.1.0.0",
@@ -14052,7 +14052,7 @@
     "overview": "Drop-in replacement for the built-in TMDB image provider. Enforces a clean cascade: library language → English → (optional) textless. Within each bucket images are sorted by vote_count DESC like TMDB's own /images UI. Fixes jellyfin/jellyfin#9878 (built-in prefers textless over English fallback).",
     "owner": "superuser404notfound",
     "category": "Metadata",
-    "imageUrl": "https://obelo.us/plugins/images/Language-AwareImages.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Language-AwareImages.webp",
     "versions": [
       {
         "version": "1.0.0.1",
@@ -14206,7 +14206,7 @@
     "description": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/TheIntroDB/jellyfin-plugin/main/manifest.json  \nGithub: https://github.com/TheIntroDB/jellyfin-plugin",
     "overview": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.",
     "owner": "TheIntroDB",
-    "imageUrl": "https://obelo.us/plugins/images/TheIntroDB.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TheIntroDB.webp",
     "category": "General",
     "versions": [
       {
@@ -14428,7 +14428,7 @@
         "timestamp": "2025-06-07T18:12:00Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/DeoVRDeeplink.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/DeoVRDeeplink.webp"
   },
   {
     "guid": "b4a6d7e2-8f3c-4a1e-9d5b-2c7f0e8a1b3d",
@@ -14437,7 +14437,7 @@
     "overview": "Real-time playback, session, library, task, and server stat events over Server-Sent Events.",
     "owner": "Connor Gallopo - Tracearr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/TracearrSSE.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TracearrSSE.webp",
     "versions": [
       {
         "version": "0.5.0.0",
@@ -14496,7 +14496,7 @@
     "overview": "This plugin lets you add two extra tabs to your top bar, allowing you to discover new Movies and TV Shows, and easily request them in any quality profile you want.",
     "owner": "varunaditya-plus",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/SeerrFin.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SeerrFin.webp",
     "repositoryUrl": "https://github.com/varunaditya-plus/SeerrFin",
     "versions": [
       {
@@ -15030,7 +15030,7 @@
     "overview": "Ratings from IMDb",
     "owner": "verybadsoldier",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/IMDbRatings.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/IMDbRatings.webp",
     "versions": [
       {
         "version": "5.0.0.0",
@@ -15097,7 +15097,7 @@
     "overview": "Improved DateAdded handling",
     "owner": "verybadsoldier",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/DateAddedAdvanced.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/DateAddedAdvanced.webp",
     "versions": [
       {
         "version": "4.1.1.0",
@@ -15478,7 +15478,7 @@
         "timestamp": "2023-02-26T19:54:34Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SpotifyImport.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SpotifyImport.webp"
   },
   {
     "category": "Metadata",
@@ -15487,7 +15487,7 @@
     "description": "Downloads the IMDb ratings flat file daily and updates CommunityRating on all library items with an IMDb ID, without touching any other metadata.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/voc0der/jellyfin-plugin-imdb-ratings/main/manifest.json  \nGithub: https://github.com/voc0der/jellyfin-plugin-imdb-ratings",
     "owner": "voc0der",
     "overview": "Scheduled task that keeps Jellyfin community ratings in sync with IMDb",
-    "imageUrl": "https://obelo.us/plugins/images/IMDbRatings.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/IMDbRatings.webp",
     "versions": [
       {
         "version": "1.0.0.22",
@@ -15682,7 +15682,7 @@
     "description": "Intelligently alerts users when they transcode due to unsupported formats/codecs, while allowing bitrate-based transcoding without harassment. Successor to Transcode Nag, with a separate plugin identity: it installs alongside the old plugin rather than updating it, and does not carry its configuration over.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://raw.githubusercontent.com/voc0der/jellyfin-plugin-transcode-guard/main/manifest.json  \nGithub: https://github.com/voc0der/jellyfin-plugin-transcode-guard",
     "owner": "voc0der",
     "overview": "Smart transcoding monitor that only alerts for format/codec incompatibility",
-    "imageUrl": "https://obelo.us/plugins/images/TranscodeGuard.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TranscodeGuard.webp",
     "versions": [
       {
         "version": "1.0.1.48",
@@ -15741,7 +15741,7 @@
     "overview": "LLM-curated music playlists, built from your own library",
     "owner": "yonie",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/AutoPlaylist.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutoPlaylist.webp",
     "versions": [
       {
         "version": "1.1.0.0",
@@ -15792,7 +15792,7 @@
     "overview": "Unlockable viewing achievement badges for Jellyfin users.",
     "owner": "ZL154",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/AchievementBadges.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AchievementBadges.webp",
     "versions": [
       {
         "version": "2.4.0.1",
@@ -16765,7 +16765,7 @@
     "overview": "StarTrack adds a compact star rating pill to every Movie and TV Series detail page in your Jellyfin library. Click it to expand a full panel where you can submit your 1-5 star rating and see a breakdown of every individual user's score. All data lives in a JSON file on your server — nothing leaves your network.",
     "owner": "ZL154",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/StarTrack.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/StarTrack.webp",
     "versions": [
       {
         "version": "1.8.0.1",
@@ -17192,7 +17192,7 @@
     "overview": "Comprehensive Jellyfin security: 2FA, passkeys, OIDC/SSO, brute-force protection, impossible-travel detection, IP allowlist, and audit logging.",
     "owner": "ZL154",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/JellyfinSecurity.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinSecurity.webp",
     "versions": [
       {
         "version": "2.6.1.1",
@@ -17867,7 +17867,7 @@
     "overview": "Scrape poster images from Fanart",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/Fanart.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Fanart.webp",
     "versions": [
       {
         "version": "15.0.0.0",
@@ -17958,7 +17958,7 @@
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/IMVDb.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/IMVDb.webp",
     "versions": [
       {
         "version": "7.0.0.0",
@@ -18009,7 +18009,7 @@
     "overview": "Sync all media changes with Kodi clients",
     "owner": "jellyfin",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/KodiSyncQueue.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/KodiSyncQueue.webp",
     "versions": [
       {
         "version": "16.0.0.0",
@@ -18116,7 +18116,7 @@
     "overview": "Authenticate users against an LDAP database",
     "owner": "jellyfin",
     "category": "Administration",
-    "imageUrl": "https://obelo.us/plugins/images/LDAPAuthentication.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/LDAPAuthentication.webp",
     "versions": [
       {
         "version": "24.0.0.0",
@@ -18263,7 +18263,7 @@
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
-    "imageUrl": "https://obelo.us/plugins/images/NextPVR.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/NextPVR.webp",
     "versions": [
       {
         "version": "15.0.0.0",
@@ -18370,7 +18370,7 @@
     "overview": "Download subtitles for your media",
     "owner": "jellyfin",
     "category": "Subtitles",
-    "imageUrl": "https://obelo.us/plugins/images/OpenSubtitles.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/OpenSubtitles.webp",
     "versions": [
       {
         "version": "25.0.0.0",
@@ -18485,7 +18485,7 @@
     "overview": "Collect and show user play statistics",
     "owner": "jellyfin",
     "category": "Administration",
-    "imageUrl": "https://obelo.us/plugins/images/PlaybackReporting.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PlaybackReporting.webp",
     "versions": [
       {
         "version": "19.0.0.0",
@@ -18592,7 +18592,7 @@
     "overview": "Generate reports of your media library",
     "owner": "jellyfin",
     "category": "Administration",
-    "imageUrl": "https://obelo.us/plugins/images/Reports.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Reports.webp",
     "versions": [
       {
         "version": "19.0.0.0",
@@ -18765,7 +18765,7 @@
         "timestamp": "2020-07-20T01:32:58Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/TMDbBoxSets.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TMDbBoxSets.webp"
   },
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
@@ -18774,7 +18774,7 @@
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/Trakt.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Trakt.webp",
     "versions": [
       {
         "version": "33.0.0.0",
@@ -18969,7 +18969,7 @@
     "overview": "Manage TVHeadend from Jellyfin",
     "owner": "jellyfin",
     "category": "LiveTV",
-    "imageUrl": "https://obelo.us/plugins/images/TVHeadend.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TVHeadend.webp",
     "versions": [
       {
         "version": "15.0.0.0",
@@ -19060,7 +19060,7 @@
     "overview": "MusicBrainz Cover Art Archive",
     "owner": "jellyfin",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/CoverArtArchive.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/CoverArtArchive.webp",
     "versions": [
       {
         "version": "10.0.0.0",
@@ -19151,7 +19151,7 @@
     "overview": "Get TV metadata from TheTvdb",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/TheTVDB.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TheTVDB.webp",
     "versions": [
       {
         "version": "24.0.0.0",
@@ -19354,7 +19354,7 @@
     "overview": "AniDB metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
-    "imageUrl": "https://obelo.us/plugins/images/AniDB.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AniDB.webp",
     "versions": [
       {
         "version": "13.0.0.0",
@@ -19461,7 +19461,7 @@
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
-    "imageUrl": "https://obelo.us/plugins/images/AniList.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AniList.webp",
     "versions": [
       {
         "version": "15.0.0.0",
@@ -19584,7 +19584,7 @@
     "overview": "Kitsu metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
-    "imageUrl": "https://obelo.us/plugins/images/Kitsu.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Kitsu.webp",
     "versions": [
       {
         "version": "8.0.0.0",
@@ -19651,7 +19651,7 @@
     "overview": "Get TV metadata from TVmaze",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
-    "imageUrl": "https://obelo.us/plugins/images/TVmaze.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TVmaze.webp",
     "versions": [
       {
         "version": "14.0.0.0",
@@ -19766,7 +19766,7 @@
     "overview": "Sends notifications.",
     "owner": "jellyfin",
     "category": "Administration",
-    "imageUrl": "https://obelo.us/plugins/images/Webhook.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Webhook.webp",
     "versions": [
       {
         "version": "22.0.0.0",
@@ -19921,7 +19921,7 @@
     "overview": "Provides an OPDS book feed",
     "owner": "jellyfin",
     "category": "Books",
-    "imageUrl": "https://obelo.us/plugins/images/OPDS.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/OPDS.webp",
     "versions": [
       {
         "version": "8.0.0.0",
@@ -20038,7 +20038,7 @@
         "timestamp": "2022-03-27T20:37:51Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/SessionCleaner.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SessionCleaner.webp"
   },
   {
     "guid": "44616595-5798-47ad-8658-3c09f3030505",
@@ -20047,7 +20047,7 @@
     "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
     "owner": "jellyfin",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/VGMdb.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/VGMdb.webp",
     "versions": [
       {
         "version": "6.0.0.0",
@@ -20164,7 +20164,7 @@
         "timestamp": "2022-03-28T00:06:17Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/Simkl.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Simkl.webp"
   },
   {
     "guid": "cd893c24-b59e-4060-87b2-184070e1bf68",
@@ -20173,7 +20173,7 @@
     "overview": "Extracts subtitles proactively.",
     "owner": "jellyfin",
     "category": "Subtitles",
-    "imageUrl": "https://obelo.us/plugins/images/SubtitleExtract.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SubtitleExtract.webp",
     "versions": [
       {
         "version": "8.0.0.0",
@@ -20248,7 +20248,7 @@
     "overview": "Get music metadata from Discogs",
     "owner": "jellyfin",
     "category": "Music",
-    "imageUrl": "https://obelo.us/plugins/images/Discogs.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Discogs.webp",
     "versions": [
       {
         "version": "3.0.0.0",
@@ -20309,7 +20309,7 @@
         "timestamp": "2024-05-11T19:35:04Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/Artwork.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Artwork.webp"
   },
   {
     "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
@@ -20344,7 +20344,7 @@
         "timestamp": "2024-05-11T19:59:28Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/LocalIntros.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/LocalIntros.webp"
   },
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
@@ -20353,7 +20353,7 @@
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/DLNA.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/DLNA.webp",
     "versions": [
       {
         "version": "14.0.0.0",
@@ -20510,7 +20510,7 @@
         "timestamp": "2024-05-12T01:21:54Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/TranscodeKiller.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/TranscodeKiller.webp"
   },
   {
     "guid": "698b6f33-14ca-49b5-9d79-fc3c0ab941f5",
@@ -20553,7 +20553,7 @@
         "timestamp": "2024-10-26T18:20:41Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/ChapterSegmentsProvider.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ChapterSegmentsProvider.webp"
   },
   {
     "guid": "d106ebe6-9ca8-4fbc-9cd1-a92a213da9f9",
@@ -20596,7 +20596,7 @@
         "timestamp": "2024-10-29T00:27:05Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/LrcLibLyrics.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/LrcLibLyrics.webp"
   },
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
@@ -20623,7 +20623,7 @@
         "timestamp": "2026-01-25T15:06:31Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/GoogleBooks.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/GoogleBooks.webp"
   },
   {
     "guid": "309ec7e5-4981-4e8c-992f-8e4dde9591e0",
@@ -20650,7 +20650,7 @@
         "timestamp": "2026-01-26T01:27:36Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/ComicVine.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ComicVine.webp"
   },
   {
     "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
@@ -20669,7 +20669,7 @@
         "timestamp": "2026-09-08T02:36:33Z"
       }
     ],
-    "imageUrl": "https://obelo.us/plugins/images/OpenLibrary.webp"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/OpenLibrary.webp"
   },
   {
     "guid": "eaa1f0a3-7e4c-4c6f-9b80-0a2c1c5e2f01",
@@ -20678,7 +20678,7 @@
     "overview": "Automatic scrobbling to your WeTrakr profile.",
     "owner": "wetrakr",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/WeTrakr.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/WeTrakr.webp",
     "versions": [
       {
         "version": "0.1.24.1",
@@ -20873,7 +20873,7 @@
     "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://www.iamparadox.dev/jellyfin/plugins/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/FileTransformation.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/FileTransformation.webp",
     "versions": [
       {
         "version": "3.0.1.0",
@@ -20893,7 +20893,7 @@
     "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://www.iamparadox.dev/jellyfin/plugins/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/MediaBar.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaBar.webp",
     "versions": [
       {
         "version": "3.0.0.0",
@@ -20915,7 +20915,7 @@
     "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://www.iamparadox.dev/jellyfin/plugins/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/PluginPages.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PluginPages.webp",
     "versions": [
       {
         "version": "3.0.1.0",
@@ -20937,7 +20937,7 @@
     "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 21:00 UTC  \nSource: https://www.iamparadox.dev/jellyfin/plugins/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://obelo.us/plugins/images/HomeScreenSections.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HomeScreenSections.webp",
     "versions": [
       {
         "version": "3.0.2.0",
