@@ -1,17 +1,17 @@
 [
   {
-    "guid": "98c7e8d9-e463-4ffb-9b5a-11450b1506ed",
+    "guid": "81975223-4983-40a8-b431-66c98230a1cb",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 292, Sources: 220.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: internal",
-    "overview": "Generated: 2026-09-16T17:42:16.581Z",
+    "overview": "Generated: 2026-09-16T17:42:16.037Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelo.us/plugins/images/!UniversalPluginRepo.webp",
     "versions": [
       {
         "version": "0.0.0",
-        "targetAbi": "10.11.6",
-        "timestamp": "2026-09-16T17:42:16.581Z"
+        "targetAbi": "10.11.5",
+        "timestamp": "2026-09-16T17:42:16.037Z"
       }
     ]
   },
@@ -3461,7 +3461,7 @@
   },
   {
     "guid": "800aa8b6-9226-4069-a99a-4cdfafcdf394",
-    "name": "Artisan Jelly [✓✓✓]",
+    "name": "Artisan Jelly [✓✓]",
     "description": "Scans your library for missing artwork and lets you fix it from one place. GitHub: https://github.com/Hummird/Artisan-Jelly  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://hummird.online/jellyfin/manifest.json  \nGithub: https://github.com/Hummird/Artisan-Jelly",
     "overview": "Finds movies and shows with incomplete images — missing posters, logos, backdrops, discs, and more. Filter by type, search online providers, and upload your own artwork directly from the plugin page.",
     "imageUrl": "https://obelo.us/plugins/images/ArtisanJelly.webp",
@@ -3627,7 +3627,7 @@
   },
   {
     "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
-    "name": "Segment Editor [✓✓]",
+    "name": "Segment Editor [✓✓✓]",
     "overview": "Segment editing UI embedded as a plugin page",
     "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
@@ -3748,7 +3748,7 @@
   },
   {
     "guid": "b2a63e62-0ac5-4575-9ad2-2c7534ccb83d",
-    "name": "SkipMe.db [✓✓]",
+    "name": "SkipMe.db [✓✓✓]",
     "overview": "Retrieves crowd-sourced segment timestamps from the SkipMe.db API",
     "description": "Retrieves a database of crowd-sourced timestamps from the SkipMe.db API and supplies them to Jellyfin as a segment provider  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/skipme.db-plugin",
     "owner": "Intro Skipper",
@@ -4185,7 +4185,7 @@
   },
   {
     "guid": "3e7a8e72-8a85-4b2d-9f3c-1a2b3c4d5e6f",
-    "name": "Missing Episodes [✓✓✓]",
+    "name": "Missing Episodes [✓✓]",
     "description": "Displays a report of TV episodes missing from your library.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://luckynos7evin.github.io/jellyfin-plugins/manifest.json  \nGithub: https://github.com/LuckyNoS7evin/jellyfin-plugins",
     "overview": "Displays a report of TV episodes missing from your library.",
     "owner": "LuckyNoS7evin",
@@ -4212,7 +4212,7 @@
   },
   {
     "guid": "c7f2d3a1-4b8e-4f9d-a2c5-1e3f7b9d0e2a",
-    "name": "Specials Filter [✓✓✓]",
+    "name": "Specials Filter [✓✓]",
     "description": "Removes specials (Season 0) from configured TV show libraries after each library scan. Configurable per library and per show.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://luckynos7evin.github.io/jellyfin-plugins/manifest.json  \nGithub: https://github.com/LuckyNoS7evin/jellyfin-plugins",
     "overview": "Removes specials (Season 0) from configured TV show libraries after each library scan. Configurable per library and per show.",
     "owner": "LuckyNoS7evin",
@@ -4231,7 +4231,7 @@
   },
   {
     "guid": "b5d7e8f9-1a2c-4b3d-8e9f-0a1b2c3d4e5f",
-    "name": "Sub or Dub [✓✓✓]",
+    "name": "Sub or Dub [✓✓]",
     "description": "Shows which foreign-language TV shows and movies are available dubbed, subbed, both, or not in your preferred language.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://luckynos7evin.github.io/jellyfin-plugins/manifest.json  \nGithub: https://github.com/LuckyNoS7evin/jellyfin-plugins",
     "overview": "Shows which foreign-language TV shows and movies are available dubbed, subbed, both, or not in your preferred language.",
     "owner": "LuckyNoS7evin",
@@ -4384,7 +4384,7 @@
   },
   {
     "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
-    "name": "Segment Editor [✓✓]",
+    "name": "Segment Editor [✓✓✓]",
     "overview": "Segment editing UI embedded as a plugin page",
     "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
@@ -4505,7 +4505,7 @@
   },
   {
     "guid": "b2a63e62-0ac5-4575-9ad2-2c7534ccb83d",
-    "name": "SkipMe.db [✓✓]",
+    "name": "SkipMe.db [✓✓✓]",
     "overview": "Retrieves crowd-sourced segment timestamps from the SkipMe.db API",
     "description": "Retrieves a database of crowd-sourced timestamps from the SkipMe.db API and supplies them to Jellyfin as a segment provider  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/skipme.db-plugin",
     "owner": "Intro Skipper",
@@ -5989,7 +5989,7 @@
   },
   {
     "guid": "bd08ce53-8040-4043-a96a-55933807d7d8",
-    "name": "Ignore [✓✓]",
+    "name": "Ignore [✓✓✓]",
     "description": "This plugin allows for the exclusion of files based on the specifications outlined in the `.jellyfinignore` file.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/arition/jellyfin-plugin-ignore/master/manifest.json  \nGithub: https://github.com/arition/jellyfin-plugin-ignore",
     "overview": "This plugin allows for the exclusion of files based on the specifications outlined in the `.jellyfinignore` file.",
     "owner": "arition",
@@ -7327,7 +7327,7 @@
   {
     "category": "User Management",
     "guid": "88accc81-d913-44b3-b1d3-2abfa457dd2d",
-    "name": "GetAvatar [✓✓]",
+    "name": "GetAvatar [✓✓✓]",
     "owner": "cedev-1",
     "overview": "Allows users to choose avatars from a curated collection.",
     "description": "A Jellyfin plugin that allows users to choose an avatar from a collection of images.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-GetAvatar/master/manifest.json  \nGithub: https://github.com/cedev-1/jellyfin-plugin-GetAvatar",
@@ -7522,7 +7522,7 @@
   {
     "category": "User Management",
     "guid": "a3c2e4f1-8b6d-4e2a-9f7c-1d3e5a8b9c4f",
-    "name": "KickUser - Inactive User Manager [✓✓]",
+    "name": "KickUser - Inactive User Manager [✓✓✓]",
     "owner": "cedev-1",
     "overview": "Automatically manages inactive users by disabling or deleting them.",
     "description": "A Jellyfin plugin that automatically disables or deletes users who have been inactive for a configurable number of days.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-KickUser/master/manifest.json  \nGithub: https://github.com/cedev-1/jellyfin-plugin-KickUser",
@@ -9768,7 +9768,7 @@
   },
   {
     "guid": "f4a1b2c3-d4e5-6f7a-8b9c-0d1e2f3a4b5c",
-    "name": "Lyrics [✓✓✓]",
+    "name": "Lyrics [✓✓]",
     "description": "Lyrics plugin that downloads lyrics from lrclib.net with configurable search options  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/Felitendo/jellyfin-plugin-lyrics/master/manifest.json  \nGithub: https://github.com/Felitendo/jellyfin-plugin-lyrics",
     "overview": "Lyrics plugin with configurable search options and automatic library scanning",
     "owner": "Felitendo",
@@ -12353,7 +12353,7 @@
   },
   {
     "guid": "8f1c5c1b-7f1e-4b6c-9a2e-3d4c9f7a6e21",
-    "name": "Jellyfin Graveyard Analytics [✓✓✓]",
+    "name": "Jellyfin Graveyard Analytics [✓✓]",
     "description": "Manage your server's afterlife. Identify lifeless media, condemn dead weight to The Chapel, and track your active Visitors.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/jackwander/jellyfin-graveyard-analytics/master/manifest.json  \nGithub: https://github.com/jackwander/jellyfin-graveyard-analytics",
     "overview": "Advanced storage reclamation and user analytics.",
     "owner": "jackwander",
@@ -17853,7 +17853,7 @@
   {
     "category": "General",
     "guid": "55a3502b-b6b2-4a3c-93d7-f3c4e7b1e0d5",
-    "name": "YouTubeSync [✓✓✓]",
+    "name": "YouTubeSync [✓✓]",
     "description": "Syncs YouTube channels and playlists into Jellyfin via yt-dlp. Generates .strm and .nfo files and resolves direct-play progressive MP4/H.264/AAC streams on demand.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/kingschnulli/jellyfin-youtube-plugin/main/manifest.json  \nGithub: https://github.com/kingschnulli/jellyfin-youtube-plugin",
     "overview": "YouTube channel and playlist sync for Jellyfin via yt-dlp",
     "owner": "kingschnulli",
@@ -20329,7 +20329,7 @@
     "category": "General",
     "description": "Stream external media.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
     "guid": "94ea4e14-8163-4989-96fe-0a2094bc2d6a",
-    "name": "Gelato [✓✓✓]",
+    "name": "Gelato [✓✓]",
     "overview": "Stream external media.",
     "owner": "lstb1t",
     "versions": [
@@ -21665,7 +21665,7 @@
   },
   {
     "guid": "a6c0b0ea-4f02-4c47-b8ff-5e27e8c0d0e5",
-    "name": "JellyFlare [✓✓✓]",
+    "name": "JellyFlare [✓✓]",
     "owner": "MorganKryze",
     "category": "General",
     "overview": "Customisable announcement banners for Jellyfin.",
@@ -30799,7 +30799,7 @@
     ]
   },
   {
-    "name": "Favorited Songs Playlist [✓✓✓]",
+    "name": "Favorited Songs Playlist [✓✓]",
     "guid": "faebdd17-c407-4d0e-9b27-0cda823d702a",
     "description": "Automatically creates and updates a 'Favorited Songs' songs playlist  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/Saturn745/jellyfin-favorited-songs-playlist/refs/heads/master/manifest.json  \nGithub: https://github.com/Saturn745/jellyfin-favorited-songs-playlist",
     "overview": "Automatically creates and updates a 'Favorited Songs' playlist in Jellyfin containing all your favorited music tracks. The playlist syncs whenever you favorite or unfavorite a song, making it easy to play your favorited tracks without manual management. ",
@@ -33296,7 +33296,7 @@
   },
   {
     "guid": "c462a69c-b428-4ecf-b5f2-a28cae71b0fe",
-    "name": "MaintenanceDeluxe [✓✓✓]",
+    "name": "MaintenanceDeluxe [✓✓]",
     "owner": "Thomas05000005",
     "category": "General",
     "overview": "Premium maintenance overlay with live countdown and rich release notes.",
@@ -35347,7 +35347,7 @@
   {
     "category": "Metadata",
     "guid": "f5a3c7e1-9b2d-4f6a-8e0c-1d3b5a7c9e2f",
-    "name": "IMDb Ratings [✓✓✓]",
+    "name": "IMDb Ratings [✓✓]",
     "description": "Downloads the IMDb ratings flat file daily and updates CommunityRating on all library items with an IMDb ID, without touching any other metadata.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/voc0der/jellyfin-plugin-imdb-ratings/main/manifest.json  \nGithub: https://github.com/voc0der/jellyfin-plugin-imdb-ratings",
     "owner": "voc0der",
     "overview": "Scheduled task that keeps Jellyfin community ratings in sync with IMDb",
@@ -35601,7 +35601,7 @@
   {
     "category": "General",
     "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
-    "name": "Ani-Sync [✓✓✓]",
+    "name": "Ani-Sync [✓✓]",
     "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json  \nGithub: https://github.com/vosmiic/jellyfin-ani-sync",
     "owner": "vosmiic",
     "overview": "Synchronize anime watch status",
@@ -35915,7 +35915,7 @@
   },
   {
     "guid": "b3d8b5a2-7c2c-4a5a-9d52-111111111111",
-    "name": "Local Chat [✓✓✓]",
+    "name": "Local Chat [✓✓]",
     "description": "Local real-time chat overlay for Jellyfin  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://raw.githubusercontent.com/waynedillon220/Jellyfin-Chat/main/manifest.json  \nGithub: https://github.com/waynedillon220/JellyfinLocalChat",
     "overview": "Adds a floating chat bubble with real-time messaging, typing indicators, and user list. Fully local, no external services.",
     "owner": "waynedillon220",
@@ -38629,7 +38629,7 @@
   },
   {
     "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
-    "name": "Fanart [✓✓]",
+    "name": "Fanart [✓✓✓]",
     "description": "Scrape poster images for movies, shows, and artists in your library.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https:",
     "overview": "Scrape poster images from Fanart",
     "owner": "jellyfin",
@@ -41907,7 +41907,7 @@
     "description": "This plugin allows Jellyfin users to seamlessly access and download subtitles from Titlovi.com directly within the media server, instead of manually searching for subtitle files. You can browse and fetch them through Jellyfin’s interface, ensuring your movies and TV shows are always synced with high-quality, community-provided subtitles in multiple languages.  \n  \nUniversal Repo:  \nGenerated: 17:42 UTC  \nSource: https://titlovi.github.io/titlovi-jellyfin/repository.json  \nGithub: https://github.com/Titlovi/titlovi-jellyfin",
     "guid": "6e25df50-638e-4109-a50b-03c14fc93fdd",
     "imageUrl": "https://obelo.us/plugins/images/Titlovi.com.webp",
-    "name": "Titlovi.com [✓✓]",
+    "name": "Titlovi.com [✓✓✓]",
     "overview": "get access to subtitles from titlovi.com directly in jellyfin.",
     "owner": "maatko",
     "versions": [
@@ -42235,9 +42235,20 @@
       {
         "version": "0.2.6.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.6.0/Release-10.11.6.zip",
-        "checksum": "3CADCD0B7554DFB0051D4AA0D1472E81",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.6.0/Release-10.11.5.zip",
+        "checksum": "BA8770A96207EE7A773A6A9521952516",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "0.2.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.5.0/Release-10.11.5.zip",
+        "checksum": "143845C247CFF10E96C145C0E331B854",
         "timestamp": "2025-11-03T22:24:54",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42257,9 +42268,20 @@
       {
         "version": "2.3.6.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.6.zip",
-        "checksum": "1F5BF1B07A3FC8133CCA80FC6BC5915B",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.5.zip",
+        "checksum": "820DC8FB8ED96B96398357B200F32AD0",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.3.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.5.0/Release-10.11.5.zip",
+        "checksum": "A7F0996D17DA22C76299F4FE9D1E28E2",
         "timestamp": "2025-11-03T22:24:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42279,27 +42301,36 @@
       {
         "version": "2.5.5.0",
         "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #46, where server would crash on startup as would dependant plugins (PR #47, @enyineer)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.5.0/Release-10.11.6.zip",
-        "checksum": "64CF0AC3E9BDE83CEACDACFBDCD4E007",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.5.0/Release-10.11.5.zip",
+        "checksum": "8826A99A68B162295AB89F1575056B39",
         "timestamp": "2026-03-15T13:12:07",
         "dependencies": []
       },
       {
         "version": "2.5.4.0",
         "changelog": "🔒 Security\r\n\r\n- Added stricter auth for transformation registration (GHSA-79rj-f7gj-xf33)\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where plugin couldn't generate a UUID on http scheme (PR #44, @PatrickDahlin)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.4.0/Release-10.11.6.zip",
-        "checksum": "F1587697E551A9D7EE6D53A2F743F4A1",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.4.0/Release-10.11.5.zip",
+        "checksum": "4443D910407C3BA1330743C17FEBA2EF",
         "timestamp": "2026-02-27T12:02:58",
         "dependencies": []
       },
       {
         "version": "2.5.3.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.3.0/Release-10.11.6.zip",
-        "checksum": "12833D51D85DA74F3922394BF7856758",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.3.0/Release-10.11.5.zip",
+        "checksum": "9F59BDFA79D12C68217CC34D35489D47",
+        "timestamp": "2025-11-28T20:39:29",
+        "dependencies": []
+      },
+      {
+        "version": "2.5.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.2.0/Release-10.11.5.zip",
+        "checksum": "78A208169F4949F642F61A125D601D2C",
         "timestamp": "2025-11-28T20:39:29",
         "dependencies": []
       }
@@ -42317,9 +42348,9 @@
       {
         "version": "2.4.8.1",
         "changelog": "Hotfix to solve issue where trailer enable/disable toggle didn't work",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.8.1/Release-10.11.6.zip",
-        "checksum": "9D5C41AF003910C190FC82E28349310D",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.8.1/Release-10.11.5.zip",
+        "checksum": "3240112F383598F063EE5392E0DDD917",
         "timestamp": "2026-02-08T11:23:49",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42328,10 +42359,32 @@
       {
         "version": "2.4.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n- Merged with upstream",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.7.0/Release-10.11.6.zip",
-        "checksum": "1DFF9B80FCB82598593FF5AE22033181",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.7.0/Release-10.11.5.zip",
+        "checksum": "2B14C7D83039D7749152FDA4100A4B7B",
         "timestamp": "2026-01-15T00:19:42",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.6.0",
+        "changelog": "✨ New Features\r\n\r\n- Missed some more upstream improvements",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.6.0/Release-10.11.5.zip",
+        "checksum": "4B0BCF9D6C8E04F077889996FE749C24",
+        "timestamp": "2025-12-19T13:24:38",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5\r\n- Merged with upstream improvements",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.5.0/Release-10.11.5.zip",
+        "checksum": "10F0C702B40099812E76C081CD7ABA6B",
+        "timestamp": "2025-12-07T16:16:29",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -42350,10 +42403,21 @@
       {
         "version": "2.4.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n\r\n🪲 Bug Fixes\r\n\r\n- Removed spammy log",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.7.0/Release-10.11.6.zip",
-        "checksum": "F091AB05B5778B9E1661586CFE098CE6",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.7.0/Release-10.11.5.zip",
+        "checksum": "7D555B06073C3E8214D101D3DF0147EB",
         "timestamp": "2026-01-19T21:32:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.6.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.6.0/Release-10.11.5.zip",
+        "checksum": "74DBB4A595FD1510F3B3437530CA0BE8",
+        "timestamp": "2025-11-11T22:05:46",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -42372,9 +42436,9 @@
       {
         "version": "2.5.7.0",
         "changelog": "✨ New Features\r\n\r\n- Added localization to the admin settings page, currently localized to English and German (PR #223, @Arny80Hexa)\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where lazy load page wouldn't load properly if there was a break in the order indices (PR #222, @Arny80Hexa)\r\n- Fixed issue where localization wouldn't work for default instance language (PR #209, @gallyamb)\r\n- Fixed issue where discover cards wouldn't load poster URLs from cache if jellyfin hosted under sub-directory path\r\n\r\n🌐 Translations\r\n\r\n- Added Korean translations (PR #211, @juiz4231-ship-it)\r\n- Added Catalan translations (PR #215, @Kisnov)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.7.0/Release-10.11.6.zip",
-        "checksum": "1B80DCB9B1F7E2E53BE04CD7F2799DD8",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.7.0/Release-10.11.5.zip",
+        "checksum": "D2C6EEAC3B07BEBEA7423A5F5C77FD69",
         "timestamp": "2026-03-29T15:27:45",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42383,9 +42447,9 @@
       {
         "version": "2.5.6.0",
         "changelog": "✨ New Features\r\n\r\n- Add support for Jellyfin Enhanced modals for discover cards. Allows users with private Seerr instances to still present the data without taking their user to a site that can't be accessed (PR #202, @n00bcodr)\r\n- Add support for ratings to appear on discover cards, requires [Jellyfin Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) (PR #205, @n00bcodr)\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed performance issues with the \"Latest\" sections. These now incrementally request 30 days of content at a time until the library is exhausted.\r\n- Fixed #198; Sort order for combined next up and continue watching section was incorrectly being handled. Additionally performance for this section has improved approx 2.5x (PR #200, @AdamWHY2K)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.6.0/Release-10.11.6.zip",
-        "checksum": "1117A5ABAB939FF2D39C0DE8B4E02E2A",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.6.0/Release-10.11.5.zip",
+        "checksum": "00A96C282EB70F6B5BA7B1EF595C58E9",
         "timestamp": "2026-02-13T14:28:32",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42394,9 +42458,9 @@
       {
         "version": "2.5.5.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Further fixes to performance issues, this time more wholesale across all the supported sections. I found a different way to get items from the library which seems to be significantly quicker than the old approach.\r\n\r\n🌐 Translations\r\n\r\n- Added Russian translations (PR #191, @gallyamb)\r\n- Added Mexican Spanish translations (PR #194, @josephmora)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.5.0/Release-10.11.6.zip",
-        "checksum": "024B6781213090AD1D31EED7CEF3CDC7",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.5.0/Release-10.11.5.zip",
+        "checksum": "3DDDC8EDCE84B5C83BAFB0ABDA45509D",
         "timestamp": "2026-02-03T01:22:11",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42405,9 +42469,9 @@
       {
         "version": "2.5.4.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where LatestShows/LatestMovies was really really slow. I've personally seen a 15x speed improvement when collecting items from this section",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.4.0/Release-10.11.6.zip",
-        "checksum": "BF2AAEEDAA5AA8F6F241514438F3717C",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.4.0/Release-10.11.5.zip",
+        "checksum": "E53BB8654389D9C2144B4BFD1C411F52",
         "timestamp": "2026-02-02T23:24:36",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -42416,10 +42480,54 @@
       {
         "version": "2.5.3.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #177 - Added support for hiding watched episodes in the combined Continue Watching / Next Up section (PR #178, @AdamWHY2K)\r\n\r\n🌐 Translations\r\n\r\n- Added Turkish translations (PR #186, @dgkndemir)\r\n- Added Czech translations (PR #187, @vdobes)",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.3.0/Release-10.11.6.zip",
-        "checksum": "B051C7C49BF85F5880001A890331C5C1",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.3.0/Release-10.11.5.zip",
+        "checksum": "AF4C4C6303A96DD5B86E7AEA7C0E55E4",
         "timestamp": "2026-01-19T21:44:05",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.2.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #176 and https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/issues/33, Solves issue where dll scan could happen on missing directory causing the plugin to malfunction",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.2.0/Release-10.11.5.zip",
+        "checksum": "9A173C2A9A99AC1A18FCF723F34F10A2",
+        "timestamp": "2025-12-27T10:18:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.1.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #173; Order index 0 was previously being mishandled in the new section logic, this has now been rectified so previous configurations should continue to work.\r\n- Fixed LiveTV localization key being inconsistent with section key",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.1.0/Release-10.11.5.zip",
+        "checksum": "556B9A630819EA531D78BF7AB2862986",
+        "timestamp": "2025-12-24T22:34:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.0.0",
+        "changelog": "✨ New Features\r\n\r\n- Added \"Continue Watching / Next Up\" combined section. Closes: https://features.iamparadox.dev/posts/46/add-the-option-to-combine-next-up-and-continue-watching\r\n- Added offline translation support as a preferred alternative to LibreTranslate. Translations are community driven and pulled daily into the plugin if there is an internet connection, otherwise it will only use the embedded translations. Initially supported languages are; English, French, Italian, German, Spanish, Portuguese, Brazilian Portuguese, Swedish, Dutch. Please note these translations have been done using AI and if there are any issues please open a PR to rectify them.\r\n- Added lazy loading support for the home screen, this new feature means that home screens should load quicker and will dynamically load new sections as the user scrolls to the bottom of the page. As time goes on this feature papers the way for a truly infinite home screen. Future releases will include more configuration properties, for now the only configurables are whether to enable lazy loading and how many sections per page there are.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #130; Images are now dynamically resized if too large to avoid very high quality posters that aren't necessary (PR #139, @AdamWHY2K)\r\n- Fixed #159; LG WebOS clients wouldn't be functional at all due to DOM incompatibilities that have now been fixed (PR #170, @WoolMagician)\r\n\r\n🌐 Translations\r\n\r\n- Added Hungarian translation (PR #172, @Gabor2180)\r\n\r\n🔜 Coming Soon\r\n\r\n- \"Starring\" and \"Directed By\" sections will soon be added to HSS! I've been working hard on trying to get these sections ready for this release but unfortunately the performance of them isn't at the level I'd like for release so these have been disabled for the time being.\r\n\r\n🎉 Thank you!\r\n\r\n- I'd just like to also say a massive thank you to everyone who's started using Home Screen Sections this year, as well as those contributing to its improvements, its been amazing to see in the 10 months since my initial release the amount of use and love my plugins get and I just wanted to say a huge thank you! For those who celebrate it I hope you have a great Christmas, for those that don't I hope 2025 has been a wonderful year for you. I wish you all a very happy new year, and an amazing 2026! Thank you again!",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.0.0/Release-10.11.5.zip",
+        "checksum": "27F7D33FAAB5ECF3A8FD4A4EDC55D755",
+        "timestamp": "2025-12-24T16:01:19",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.14.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5\r\n\r\n⚡ Performance Improvements\r\n\r\n- Optimized Latest Shows, Genre and Watch Again sections to avoid using N+1 complexity algorithms (PR #163, @gageorsburn)\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue with usernames not being passed as url encoded to Jellyseerr (PR #160, @WoolMagician)\r\n- Sort \"My Requests\" section without media type grouping (PR #162, @ZorudaRinku)\r\n- Fixed #142; Allow the user to choose with Radarr release types to consider in \"Upcoming\" (PR #164, @AdamWHY2K)",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.14.0/Release-10.11.5.zip",
+        "checksum": "92AB313B2B8892810089B15FB08F82DB",
+        "timestamp": "2025-12-17T15:22:28",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
