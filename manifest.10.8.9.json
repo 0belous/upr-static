@@ -1,23 +1,23 @@
 [
   {
-    "guid": "4c859da6-dbda-4a26-8dbe-9c441de5012e",
+    "guid": "f1cbaddd-7f2e-4914-8775-f8fa72e74f9b",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 76, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: internal",
-    "overview": "Generated: 2026-09-20T23:13:42.945Z",
+    "overview": "Generated: 2026-09-20T23:13:57.968Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
     "versions": [
       {
         "version": "0.0.0",
-        "targetAbi": "10.8.13",
-        "timestamp": "2026-09-20T23:13:42.945Z"
+        "targetAbi": "10.8.9",
+        "timestamp": "2026-09-20T23:13:57.968Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
-    "name": "Themerr [✓✓✓]",
+    "name": "Themerr [✓✓]",
     "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
@@ -3779,7 +3779,7 @@
   },
   {
     "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
-    "name": "subbuzz [✓✓✓]",
+    "name": "subbuzz [✓✓]",
     "description": "Download subtitles from various sites.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/josdion/subbuzz/master/repo/jellyfin_10.8.json  \nGithub: https://github.com/josdion/subbuzz",
     "overview": "Download subtitles for your media",
     "owner": "josdion",
@@ -5157,7 +5157,7 @@
   },
   {
     "guid": "73833d5f-0bcb-45dc-ab8b-7ce668f4345d",
-    "name": "InPlayerEpisodePreview [✓✓✓]",
+    "name": "InPlayerEpisodePreview [✓✓]",
     "overview": "Adds an overview of episode data inside the video player.",
     "description": "Adds an overview of episode data inside the video player.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json  \nGithub: https://github.com/Namo2/InPlayerEpisodePreview",
     "owner": "Namo",
@@ -5564,7 +5564,7 @@
   {
     "category": "Administration",
     "guid": "fd76211d-17e0-4a72-a23f-c6eeb1e48b3a",
-    "name": "Telegram Notifier [✓✓✓]",
+    "name": "Telegram Notifier [✓✓]",
     "owner": "RomainPierre7",
     "overview": "Easily send notifications to your Telegram bot!",
     "description": "Configure for each user where to send notifications, and what kind of notifications to send.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json  \nGithub: https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier",
@@ -8135,7 +8135,7 @@
   },
   {
     "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
-    "name": "Bookshelf [✓✓✓]",
+    "name": "Bookshelf [✓✓]",
     "description": "Supports several different metadata providers and options for organizing your collection.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Manage your books",
     "owner": "jellyfin",
@@ -9133,7 +9133,7 @@
   },
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
-    "name": "Trakt [✓✓]",
+    "name": "Trakt [✓✓✓]",
     "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
@@ -10457,7 +10457,7 @@
   },
   {
     "guid": "44616595-5798-47ad-8658-3c09f3030505",
-    "name": "VGMdb [✓✓✓]",
+    "name": "VGMdb [✓✓]",
     "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#29) [@renovate[bot]](https:",
     "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
     "owner": "jellyfin",
