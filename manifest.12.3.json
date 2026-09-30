@@ -1,9 +1,9 @@
 [
   {
-    "guid": "3f7bb3e9-97e0-4e30-9d50-ba5aa8ce3056",
+    "guid": "b612bb9f-9e93-4f81-93e0-869cdd8f8b59",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 13, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: internal",
-    "overview": "Generated: 2026-09-30T22:13:55.553Z",
+    "description": "Aggregated: 17, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: internal",
+    "overview": "Generated: 2026-09-30T23:13:56.204Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,14 +11,14 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-09-30T22:13:55.553Z"
+        "timestamp": "2026-09-30T23:13:56.204Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr [✓]",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
@@ -756,10 +756,147 @@
     ]
   },
   {
+    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+    "name": "Segment Editor [✓]",
+    "overview": "Segment editing UI embedded as a plugin page",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
+    "versions": [
+      {
+        "version": "12.0.14.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
+        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
+        "timestamp": "2026-09-25T09:37:27Z"
+      },
+      {
+        "version": "12.0.13.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
+        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
+        "timestamp": "2026-09-24T15:19:55Z"
+      },
+      {
+        "version": "12.0.12.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
+        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
+        "timestamp": "2026-09-24T14:47:39Z"
+      },
+      {
+        "version": "12.0.11.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.11.0/segment-editor-plugin-v12.0.11.0.zip",
+        "checksum": "ba7af0a87d8ef4c7898b360418e6404a",
+        "timestamp": "2026-09-24T09:19:16Z"
+      },
+      {
+        "version": "12.0.10.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.10.0/segment-editor-plugin-v12.0.10.0.zip",
+        "checksum": "78e5bf40db93c2057e3500acac16ac94",
+        "timestamp": "2026-09-18T09:01:21Z"
+      }
+    ]
+  },
+  {
+    "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
+    "name": "Continue Watching [✓]",
+    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
+    "overview": "Updates Continue Watching to work like you export",
+    "owner": "timvu",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.1.1.0",
+        "changelog": "Add support for Jellyfin v12.1\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.1.1.0/continue-watching_1.1.1.0.zip",
+        "checksum": "7c8e91a2fc51f75ddfbbb97c86257313",
+        "timestamp": "2026-09-16T10:45:28Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Add support for Jellyfin v12.0-rc2\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.1.0.0/continue-watching_1.1.0.0.zip",
+        "checksum": "876ea6b97c860bd9fbe0d941b9d5e55f",
+        "timestamp": "2026-06-29T18:40:37Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "Initial release\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.0.1.0/continue-watching_1.0.1.0.zip",
+        "checksum": "e154f9174d1f4464ab0ad6598941be72",
+        "timestamp": "2026-06-28T20:05:28Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
+  },
+  {
+    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+    "name": "Segment Editor [✓]",
+    "overview": "Segment editing UI embedded as a plugin page",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
+    "versions": [
+      {
+        "version": "12.0.14.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
+        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
+        "timestamp": "2026-09-25T09:37:27Z"
+      },
+      {
+        "version": "12.0.13.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
+        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
+        "timestamp": "2026-09-24T15:19:55Z"
+      },
+      {
+        "version": "12.0.12.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
+        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
+        "timestamp": "2026-09-24T14:47:39Z"
+      },
+      {
+        "version": "12.0.11.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.11.0/segment-editor-plugin-v12.0.11.0.zip",
+        "checksum": "ba7af0a87d8ef4c7898b360418e6404a",
+        "timestamp": "2026-09-24T09:19:16Z"
+      },
+      {
+        "version": "12.0.10.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.10.0/segment-editor-plugin-v12.0.10.0.zip",
+        "checksum": "78e5bf40db93c2057e3500acac16ac94",
+        "timestamp": "2026-09-18T09:01:21Z"
+      }
+    ]
+  },
+  {
     "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
     "name": "AutoCert [✓]",
     "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
-    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
+    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
     "owner": "aober420",
     "category": "General",
     "versions": [
@@ -825,12 +962,20 @@
   {
     "guid": "a2b5f3e8-4c1d-4f7a-9e6b-8d0c2f1a3b5e",
     "name": "PostgreSQL Database Provider [✓]",
-    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
-    "overview": "Reemplaza SQLite por PostgreSQL como motor de base de datos de Jellyfin. Incluye migración bidireccional SQLite↔PostgreSQL, búsqueda casi instantánea con índices GIN, health check automático al arrancar, consola SQL de solo lectura, mantenimiento programado (VACUUM/REINDEX/Backup) e integración opcional con JellyTrend.",
+    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
+    "overview": "Reemplaza SQLite por PostgreSQL como motor de base de datos de Jellyfin. Incluye migración bidireccional SQLite↔PostgreSQL, búsqueda casi instantánea con índices GIN, health check automático al arrancar, consola SQL de solo lectura, mantenimiento programado (VACUUM/REINDEX/Backup) y un host seguro de esquemas privados para otros plugins.",
     "owner": ".:BORNIOS:.",
     "category": "Database",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PostgreSQLDatabaseProvider.webp",
     "versions": [
+      {
+        "version": "3.0.3.0",
+        "changelog": "## Español\n\n### 3.0.3 — Integraciones privadas, mantenimiento y estabilidad\n\n- Nuevo host seguro para esquemas privados de plugins: registro, migraciones aisladas y acceso sin exponer credenciales ni el esquema `public` de Jellyfin.\n- Nueva pestaña **Integraciones** para revisar esquemas registrados, consultar una muestra limitada de datos, ver métricas por tabla y administrar `ANALYZE`, `VACUUM (ANALYZE)` y `REINDEX` por esquema.\n- Las tareas programadas mantienen `public` y solo los esquemas privados autorizados por el administrador.\n- Health incorpora métricas de presión de buffers, bloques leídos, uso temporal y WAL para diagnosticar consultas lentas.\n- Estado actual detecta el motor activo sin esperar la validación SQLite; esta continúa en segundo plano y se vuelve a comprobar antes de revertir.\n- Se refuerza el aislamiento de identificadores en operaciones de exploración y mantenimiento de esquemas privados.\n- Documentación actualizada en español e inglés, incluida la integración para desarrolladores, exportación SQLite segura y orientación para Docker.\n\nRequiere Jellyfin 12.1.x, PostgreSQL 16 o posterior y .NET 10.\n\n---\n\n## English\n\n### 3.0.3 — Private integrations, maintenance, and stability\n\n- New secure host for private plugin schemas: registration, isolated migrations, and storage without exposing credentials or Jellyfin's `public` schema.\n- New **Integrations** tab to review registered schemas, inspect a bounded data sample, view per-table metrics, and manage `ANALYZE`, `VACUUM (ANALYZE)`, and `REINDEX` per schema.\n- Scheduled tasks maintain `public` and only private schemas explicitly enabled by an administrator.\n- Health adds buffer-pressure, blocks-read, temporary-I/O, and WAL metrics for slow-query diagnosis.\n- Current status detects the active engine without waiting for SQLite validation; validation continues in the background and is checked again before rollback.\n- Strengthens identifier isolation in private-schema exploration and maintenance operations.\n- Updated Spanish and English documentation, including developer integration, safe SQLite export, and Docker guidance.\n\nRequires Jellyfin 12.1.x, PostgreSQL 16 or newer, and .NET 10.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v3.0.3/Jellyfin.Database.Providers.Postgres-3.0.3.0.zip",
+        "checksum": "36870e4156d00bc0ae86f11a7ad7a4f9",
+        "timestamp": "2026-09-30T22:36:31Z"
+      },
       {
         "version": "3.0.2.0",
         "changelog": "## Español\n\n### 3.0.2 — Estabilidad, integridad y exportación segura\n\n- Corrige la normalización de `DateTime`, `DateTimeOffset` y arreglos antes de escribir en PostgreSQL, evitando errores de Npgsql por `Kind` incompatible.\n- Las escrituras concurrentes de `UserData` y las actualizaciones completas de elementos usan upserts atómicos para reducir conflictos durante actualizaciones bajo demanda.\n- La activación de PostgreSQL valida la conexión antes de modificar `database.xml`.\n- Se elimina la restauración automática de backups y la restauración manual no reemplaza objetos existentes por defecto.\n- Las consultas concurrentes idénticas de inicio se consolidan mientras se llena la caché.\n- La exportación PostgreSQL → SQLite crea y valida un `library.db` SQLite real; evita el archivo inválido que impedía iniciar Jellyfin.\n- La exportación ya no copia ni marca a ciegas el historial de migraciones.\n\nVerificado con Build Release, pruebas unitarias e integración real contra PostgreSQL. Requiere Jellyfin 12.1.x, PostgreSQL 16+ y .NET 10.\n\n---\n\n## English\n\n### 3.0.2 — Stability, integrity and safe export\n\n- Fixes normalization of `DateTime`, `DateTimeOffset`, and arrays before PostgreSQL writes, avoiding Npgsql errors caused by incompatible `Kind` values.\n- Concurrent `UserData` writes and full item updates use atomic upserts to reduce conflicts during on-demand updates.\n- PostgreSQL activation validates the connection before changing `database.xml`.\n- Automatic backup restore was removed, and manual restore no longer replaces existing objects by default.\n- Identical concurrent home-screen queries are coalesced while the cache is populated.\n- PostgreSQL → SQLite export creates and validates a real SQLite `library.db`, preventing the invalid file that stopped Jellyfin from starting.\n- Export no longer blindly marks or copies migration history.\n\nVerified with a Release build, unit tests, and real PostgreSQL integration tests. Requires Jellyfin 12.1.x, PostgreSQL 16+, and .NET 10.",
@@ -884,7 +1029,7 @@
   {
     "guid": "d3b07384-d9a1-4e2b-8c3f-1234567890ab",
     "name": "JellyTrend [✓]",
-    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
+    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
     "overview": "JellyTrend empareja contenido en tendencia de TMDB con tu biblioteca Jellyfin usando provider IDs, genera recomendaciones personalizadas por usuario y lo muestra en un carrusel de banners y en canales para todos los clientes.",
     "owner": ".:BORNIOS:.",
     "category": "MoviesAndShows",
@@ -943,7 +1088,7 @@
   {
     "guid": "f1a7b3c2-9d4e-4a86-bf21-6c0e5d83a47b",
     "name": "Marquee Companion [✓]",
-    "description": "Adds four independent capabilities: server-side filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), plus opt-in global recent-podcast discovery via Podcast Index using administrator-provided credentials, plus opt-in passwordless sign-in by emailed magic link over administrator-configured SMTP, plus an opt-in scheduled task that recovers the release date of items that arrived without one by reading it from the file name. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
+    "description": "Adds four independent capabilities: server-side filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), plus opt-in global recent-podcast discovery via Podcast Index using administrator-provided credentials, plus opt-in passwordless sign-in by emailed magic link over administrator-configured SMTP, plus an opt-in scheduled task that recovers the release date of items that arrived without one by reading it from the file name. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
     "overview": "Media-stream filtering, opt-in podcast discovery, email sign-in, and release-date recovery.",
     "owner": "3dot3.com",
     "category": "General",
@@ -1154,7 +1299,7 @@
   {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync [✓]",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeSync.webp",
@@ -1365,7 +1510,7 @@
   {
     "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
     "name": "Jellyfin Helper [✓]",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
+    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
     "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
     "owner": "JellyPlugins",
     "category": "General",
@@ -1606,9 +1751,47 @@
     ]
   },
   {
+    "guid": "3734440f-4b20-4c3a-86a3-d931b45b7248",
+    "name": "Jelly Poll [✓]",
+    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
+    "overview": "Group movie polling with ranked ballots and a gold/silver/bronze podium.",
+    "owner": "zlx64",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyPoll.webp",
+    "versions": [
+      {
+        "version": "1.0.2.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.2",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.2/jellypoll_1.0.2.0.zip",
+        "checksum": "4938E367B0EE410ECB780BD4FD9DE2BA",
+        "timestamp": "2026-09-25T10:03:46Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.1",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.1/jellypoll_1.0.1.0.zip",
+        "checksum": "B20EA2E285F653681ED74FB776BFDCF3",
+        "timestamp": "2026-09-20T11:16:47Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.0",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.0/jellypoll_1.0.0.0.zip",
+        "checksum": "E8A2A2A5D6126D8D2932A755312E2AE8",
+        "timestamp": "2026-09-19T23:13:01Z"
+      }
+    ]
+  },
+  {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -1659,7 +1842,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -1766,7 +1949,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -1857,7 +2040,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -2052,7 +2235,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -2175,7 +2358,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 22:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 23:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
