@@ -1,9 +1,9 @@
 [
   {
-    "guid": "9d9bb193-5a5a-4b64-94a5-72d5d608217e",
+    "guid": "8ffc1923-886e-4ea1-948c-8a1fadf77789",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 20, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: internal",
-    "overview": "Generated: 2026-10-01T01:13:57.458Z",
+    "description": "Aggregated: 29, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: internal",
+    "overview": "Generated: 2026-10-01T02:13:57.216Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,14 +11,14 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-01T01:13:57.458Z"
+        "timestamp": "2026-10-01T02:13:57.216Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr [✓]",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
@@ -759,11 +759,19 @@
     "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
     "name": "Segment Editor [✓]",
     "overview": "Segment editing UI embedded as a plugin page",
-    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
     "versions": [
+      {
+        "version": "12.0.15.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.15.0/segment-editor-plugin-v12.0.15.0.zip",
+        "checksum": "0e39a7c46d8eaf6ecd3ed5a6f94cf683",
+        "timestamp": "2026-10-01T02:11:47Z"
+      },
       {
         "version": "12.0.14.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
@@ -795,21 +803,13 @@
         "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.11.0/segment-editor-plugin-v12.0.11.0.zip",
         "checksum": "ba7af0a87d8ef4c7898b360418e6404a",
         "timestamp": "2026-09-24T09:19:16Z"
-      },
-      {
-        "version": "12.0.10.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.10.0/segment-editor-plugin-v12.0.10.0.zip",
-        "checksum": "78e5bf40db93c2057e3500acac16ac94",
-        "timestamp": "2026-09-18T09:01:21Z"
       }
     ]
   },
   {
     "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
     "name": "Continue Watching [✓]",
-    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
+    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
     "overview": "Updates Continue Watching to work like you export",
     "owner": "timvu",
     "category": "General",
@@ -842,61 +842,10 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
   },
   {
-    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
-    "name": "Segment Editor [✓]",
-    "overview": "Segment editing UI embedded as a plugin page",
-    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
-    "owner": "Intro Skipper",
-    "category": "MoviesAndShows",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
-    "versions": [
-      {
-        "version": "12.0.14.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
-        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
-        "timestamp": "2026-09-25T09:37:27Z"
-      },
-      {
-        "version": "12.0.13.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
-        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
-        "timestamp": "2026-09-24T15:19:55Z"
-      },
-      {
-        "version": "12.0.12.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
-        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
-        "timestamp": "2026-09-24T14:47:39Z"
-      },
-      {
-        "version": "12.0.11.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.11.0/segment-editor-plugin-v12.0.11.0.zip",
-        "checksum": "ba7af0a87d8ef4c7898b360418e6404a",
-        "timestamp": "2026-09-24T09:19:16Z"
-      },
-      {
-        "version": "12.0.10.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.10.0/segment-editor-plugin-v12.0.10.0.zip",
-        "checksum": "78e5bf40db93c2057e3500acac16ac94",
-        "timestamp": "2026-09-18T09:01:21Z"
-      }
-    ]
-  },
-  {
     "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
     "name": "AutoCert [✓]",
     "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
-    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
+    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
     "owner": "aober420",
     "category": "General",
     "versions": [
@@ -962,7 +911,7 @@
   {
     "guid": "a2b5f3e8-4c1d-4f7a-9e6b-8d0c2f1a3b5e",
     "name": "PostgreSQL Database Provider [✓]",
-    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
+    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
     "overview": "Reemplaza SQLite por PostgreSQL como motor de base de datos de Jellyfin. Incluye migración bidireccional SQLite↔PostgreSQL, búsqueda casi instantánea con índices GIN, health check automático al arrancar, consola SQL de solo lectura, mantenimiento programado (VACUUM/REINDEX/Backup) y un host seguro de esquemas privados para otros plugins.",
     "owner": ".:BORNIOS:.",
     "category": "Database",
@@ -1029,7 +978,7 @@
   {
     "guid": "d3b07384-d9a1-4e2b-8c3f-1234567890ab",
     "name": "JellyTrend [✓]",
-    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
+    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
     "overview": "JellyTrend empareja contenido en tendencia de TMDB con tu biblioteca Jellyfin usando provider IDs, genera recomendaciones personalizadas por usuario y lo muestra en un carrusel de banners y en canales para todos los clientes.",
     "owner": ".:BORNIOS:.",
     "category": "MoviesAndShows",
@@ -1088,7 +1037,7 @@
   {
     "guid": "f1a7b3c2-9d4e-4a86-bf21-6c0e5d83a47b",
     "name": "Marquee Companion [✓]",
-    "description": "Adds four independent capabilities: server-side filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), plus opt-in global recent-podcast discovery via Podcast Index using administrator-provided credentials, plus opt-in passwordless sign-in by emailed magic link over administrator-configured SMTP, plus an opt-in scheduled task that recovers the release date of items that arrived without one by reading it from the file name. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
+    "description": "Adds four independent capabilities: server-side filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), plus opt-in global recent-podcast discovery via Podcast Index using administrator-provided credentials, plus opt-in passwordless sign-in by emailed magic link over administrator-configured SMTP, plus an opt-in scheduled task that recovers the release date of items that arrived without one by reading it from the file name. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
     "overview": "Media-stream filtering, opt-in podcast discovery, email sign-in, and release-date recovery.",
     "owner": "3dot3.com",
     "category": "General",
@@ -1299,7 +1248,7 @@
   {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync [✓]",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeSync.webp",
@@ -1510,7 +1459,7 @@
   {
     "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
     "name": "Jellyfin Helper [✓]",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
+    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
     "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
     "owner": "JellyPlugins",
     "category": "General",
@@ -1754,7 +1703,7 @@
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice [✓]",
     "overview": "Create a Netflix-style featured content slider on the main page.",
-    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
     "owner": "lachlandcp",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Editor'sChoice.webp",
@@ -1987,7 +1936,7 @@
   },
   {
     "category": "General",
-    "description": "Stream external media.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
+    "description": "Stream external media.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
     "guid": "94ea4e14-8163-4989-96fe-0a2094bc2d6a",
     "name": "Gelato [✓]",
     "overview": "Stream external media.",
@@ -2239,7 +2188,7 @@
   {
     "guid": "b6a1c3f2-5d84-4e77-9d2a-7f1c8e4b3a91",
     "name": "Plugin Update Notifier [✓]",
-    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
+    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
     "overview": "Badges the admin avatar when plugins change and a restart is pending.",
     "owner": "mihaif7",
     "category": "General",
@@ -2296,47 +2245,522 @@
     ]
   },
   {
-    "guid": "3734440f-4b20-4c3a-86a3-d931b45b7248",
-    "name": "Jelly Poll [✓]",
-    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
-    "overview": "Group movie polling with ranked ballots and a gold/silver/bronze podium.",
-    "owner": "zlx64",
+    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "name": "HDD Display [✓]",
+    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Admin Dashboard storage, mount usage and NVIDIA telemetry for Jellyfin.",
+    "owner": "mleem97",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyPoll.webp",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HDDDisplay.webp",
     "versions": [
       {
-        "version": "1.0.2.0",
-        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.2",
+        "version": "1.0.0.22",
+        "changelog": "- feat(hdd): enhance dashboard route detection, segment colors and media mount discovery (61dd67a)",
         "targetAbi": "12.1.0.0",
-        "framework": "net10.0",
-        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.2/jellypoll_1.0.2.0.zip",
-        "checksum": "4938E367B0EE410ECB780BD4FD9DE2BA",
-        "timestamp": "2026-09-25T10:03:46Z"
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
+        "checksum": "4668069BE08B046D949C942741DAF4DC",
+        "timestamp": "2026-09-19T15:32:31Z"
       },
       {
-        "version": "1.0.1.0",
-        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.1",
+        "version": "1.0.0.22",
+        "changelog": "- feat(hdd): enhance dashboard route detection, segment colors and media mount discovery (61dd67a)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
+        "checksum": "4668069BE08B046D949C942741DAF4DC",
+        "timestamp": "2026-09-19T15:32:31Z"
+      },
+      {
+        "version": "1.0.0.22",
+        "changelog": "- feat(hdd): enhance dashboard route detection, segment colors and media mount discovery (61dd67a)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
+        "checksum": "4668069BE08B046D949C942741DAF4DC",
+        "timestamp": "2026-09-19T15:32:31Z"
+      },
+      {
+        "version": "1.0.0.22",
+        "changelog": "- feat(hdd): enhance dashboard route detection, segment colors and media mount discovery (61dd67a)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
+        "checksum": "4668069BE08B046D949C942741DAF4DC",
+        "timestamp": "2026-09-19T15:32:31Z"
+      }
+    ]
+  },
+  {
+    "guid": "6b6c96ac-3f60-4ac3-8b8a-0d0cb8acb9dd",
+    "name": "MusicSuite [✓]",
+    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Spotify-inspired 3-column music streaming experience, squircle cards, live search, and library redirection.",
+    "owner": "mleem97",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(musicsuite): implement Spotify 3-column UI/UX, squircle layouts, real-time now-playing, and Paradox bridges (1f500d0)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
         "targetAbi": "12.1.0.0",
-        "framework": "net10.0",
-        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.1/jellypoll_1.0.1.0.zip",
-        "checksum": "B20EA2E285F653681ED74FB776BFDCF3",
-        "timestamp": "2026-09-20T11:16:47Z"
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicSuite-v1.0.0.0/MusicSuite_1.0.0.0.zip",
+        "checksum": "1A49AB33E2131A1D4869A26C0F0D3CE9",
+        "timestamp": "2026-09-19T18:04:59Z"
       },
       {
         "version": "1.0.0.0",
-        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.0",
+        "changelog": "- feat(musicsuite): implement Spotify 3-column UI/UX, squircle layouts, real-time now-playing, and Paradox bridges (1f500d0)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicSuite-v1.0.0.0/MusicSuite_1.0.0.0.zip",
+        "checksum": "1A49AB33E2131A1D4869A26C0F0D3CE9",
+        "timestamp": "2026-09-19T18:04:59Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(musicsuite): implement Spotify 3-column UI/UX, squircle layouts, real-time now-playing, and Paradox bridges (1f500d0)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicSuite-v1.0.0.0/MusicSuite_1.0.0.0.zip",
+        "checksum": "1A49AB33E2131A1D4869A26C0F0D3CE9",
+        "timestamp": "2026-09-19T18:04:59Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(musicsuite): implement Spotify 3-column UI/UX, squircle layouts, real-time now-playing, and Paradox bridges (1f500d0)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicSuite-v1.0.0.0/MusicSuite_1.0.0.0.zip",
+        "checksum": "1A49AB33E2131A1D4869A26C0F0D3CE9",
+        "timestamp": "2026-09-19T18:04:59Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MusicSuite.webp"
+  },
+  {
+    "guid": "f8d74b1c-3c97-4481-a3b3-6eb622d6ad58",
+    "name": "MusicHoarderz Cover & Metadata Provider [✓]",
+    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Multi-platform cover art provider for music albums and artists via MusicHoarderz/COV.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(musichoarderz): add multi-platform cover provider, live tester, artist support and icon (ecbb3c1)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- test(musichoarderz): add provider unit tests, fix PNG threshold (3f86f80)",
         "targetAbi": "12.1.0.0",
-        "framework": "net10.0",
-        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.0/jellypoll_1.0.0.0.zip",
-        "checksum": "E8A2A2A5D6126D8D2932A755312E2AE8",
-        "timestamp": "2026-09-19T23:13:01Z"
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicHoarderzProvider-v1.0.0.1/MusicHoarderzProvider_1.0.0.1.zip",
+        "checksum": "4B43483585D3738FF641AD640A176BF6",
+        "timestamp": "2026-09-19T15:51:15Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(musichoarderz): add multi-platform cover provider, live tester, artist support and icon (ecbb3c1)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- test(musichoarderz): add provider unit tests, fix PNG threshold (3f86f80)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicHoarderzProvider-v1.0.0.1/MusicHoarderzProvider_1.0.0.1.zip",
+        "checksum": "4B43483585D3738FF641AD640A176BF6",
+        "timestamp": "2026-09-19T15:51:15Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(musichoarderz): add multi-platform cover provider, live tester, artist support and icon (ecbb3c1)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- test(musichoarderz): add provider unit tests, fix PNG threshold (3f86f80)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicHoarderzProvider-v1.0.0.1/MusicHoarderzProvider_1.0.0.1.zip",
+        "checksum": "4B43483585D3738FF641AD640A176BF6",
+        "timestamp": "2026-09-19T15:51:15Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(musichoarderz): add multi-platform cover provider, live tester, artist support and icon (ecbb3c1)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- test(musichoarderz): add provider unit tests, fix PNG threshold (3f86f80)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicHoarderzProvider-v1.0.0.1/MusicHoarderzProvider_1.0.0.1.zip",
+        "checksum": "4B43483585D3738FF641AD640A176BF6",
+        "timestamp": "2026-09-19T15:51:15Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MusicHoarderzCover&MetadataProvider.webp"
+  },
+  {
+    "guid": "67de1daa-c9fe-497a-9ca2-dc303abb717b",
+    "name": "Spotify Cover & Metadata Provider [✓]",
+    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Metadata, tracklist and coverart provider for music, audiobooks and podcasts via Spotify.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(spotify): add full metadata & artwork provider for music, audiobooks and podcasts (8664c77)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/SpotifyProvider-v1.0.0.1/SpotifyProvider_1.0.0.1.zip",
+        "checksum": "DE64E6B58D9B683C680D9577AC16DB01",
+        "timestamp": "2026-09-19T15:42:51Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(spotify): add full metadata & artwork provider for music, audiobooks and podcasts (8664c77)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/SpotifyProvider-v1.0.0.1/SpotifyProvider_1.0.0.1.zip",
+        "checksum": "DE64E6B58D9B683C680D9577AC16DB01",
+        "timestamp": "2026-09-19T15:42:51Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(spotify): add full metadata & artwork provider for music, audiobooks and podcasts (8664c77)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/SpotifyProvider-v1.0.0.1/SpotifyProvider_1.0.0.1.zip",
+        "checksum": "DE64E6B58D9B683C680D9577AC16DB01",
+        "timestamp": "2026-09-19T15:42:51Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(spotify): add full metadata & artwork provider for music, audiobooks and podcasts (8664c77)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/SpotifyProvider-v1.0.0.1/SpotifyProvider_1.0.0.1.zip",
+        "checksum": "DE64E6B58D9B683C680D9577AC16DB01",
+        "timestamp": "2026-09-19T15:42:51Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SpotifyCover&MetadataProvider.webp"
+  },
+  {
+    "guid": "a05dae4a-2e92-4303-8f16-a7ade62624b4",
+    "name": "Gracenote Metadata Provider [✓]",
+    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Album and artist metadata and cover artwork via Gracenote MusicID (GMD v2/v3).",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/GracenoteProvider-v1.0.0.1/GracenoteProvider_1.0.0.1.zip",
+        "checksum": "D88526D4E5808C500B40BFC55557B55B",
+        "timestamp": "2026-09-19T15:45:39Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/GracenoteProvider-v1.0.0.1/GracenoteProvider_1.0.0.1.zip",
+        "checksum": "D88526D4E5808C500B40BFC55557B55B",
+        "timestamp": "2026-09-19T15:45:39Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/GracenoteProvider-v1.0.0.1/GracenoteProvider_1.0.0.1.zip",
+        "checksum": "D88526D4E5808C500B40BFC55557B55B",
+        "timestamp": "2026-09-19T15:45:39Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/GracenoteProvider-v1.0.0.1/GracenoteProvider_1.0.0.1.zip",
+        "checksum": "D88526D4E5808C500B40BFC55557B55B",
+        "timestamp": "2026-09-19T15:45:39Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/GracenoteMetadataProvider.webp"
+  },
+  {
+    "guid": "8e4d2f17-5a33-4c91-b921-dfa724180c55",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(mediatools): add universal media normalizer, split-movie merger, MKV converter and stream deduplicator (7141ef1)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MediaTools-v1.0.0.0/MediaTools_1.0.0.0.zip",
+        "checksum": "D0A2E98264A611F245659433E45FB829",
+        "timestamp": "2026-09-19T17:44:37Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(mediatools): add universal media normalizer, split-movie merger, MKV converter and stream deduplicator (7141ef1)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MediaTools-v1.0.0.0/MediaTools_1.0.0.0.zip",
+        "checksum": "D0A2E98264A611F245659433E45FB829",
+        "timestamp": "2026-09-19T17:44:37Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(mediatools): add universal media normalizer, split-movie merger, MKV converter and stream deduplicator (7141ef1)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MediaTools-v1.0.0.0/MediaTools_1.0.0.0.zip",
+        "checksum": "D0A2E98264A611F245659433E45FB829",
+        "timestamp": "2026-09-19T17:44:37Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(mediatools): add universal media normalizer, split-movie merger, MKV converter and stream deduplicator (7141ef1)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MediaTools-v1.0.0.0/MediaTools_1.0.0.0.zip",
+        "checksum": "D0A2E98264A611F245659433E45FB829",
+        "timestamp": "2026-09-19T17:44:37Z"
+      }
+    ],
+    "name": "MediaTools [✓]",
+    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Media management swiss army knife: zero-interruption renaming, split-movie merging, MKV remuxing and stream deduplication.",
+    "owner": "mleem97",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaTools.webp"
+  },
+  {
+    "guid": "c70012b6-0fc0-479e-a814-b5a09fcdd799",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(metadatadashboard): add unified music metadata studio, MusicBrainz & CoverArtArchive providers and health audit (f2ed12b)\n- chore(release): publish MusicSuite (bd5faaa)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MetadataDashboard-v1.0.0.0/MetadataDashboard_1.0.0.0.zip",
+        "checksum": "5F2184087E05C6B284BE77477EB3080C",
+        "timestamp": "2026-09-19T18:21:23Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(metadatadashboard): add unified music metadata studio, MusicBrainz & CoverArtArchive providers and health audit (f2ed12b)\n- chore(release): publish MusicSuite (bd5faaa)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MetadataDashboard-v1.0.0.0/MetadataDashboard_1.0.0.0.zip",
+        "checksum": "5F2184087E05C6B284BE77477EB3080C",
+        "timestamp": "2026-09-19T18:21:23Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(metadatadashboard): add unified music metadata studio, MusicBrainz & CoverArtArchive providers and health audit (f2ed12b)\n- chore(release): publish MusicSuite (bd5faaa)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MetadataDashboard-v1.0.0.0/MetadataDashboard_1.0.0.0.zip",
+        "checksum": "5F2184087E05C6B284BE77477EB3080C",
+        "timestamp": "2026-09-19T18:21:23Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(metadatadashboard): add unified music metadata studio, MusicBrainz & CoverArtArchive providers and health audit (f2ed12b)\n- chore(release): publish MusicSuite (bd5faaa)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MetadataDashboard-v1.0.0.0/MetadataDashboard_1.0.0.0.zip",
+        "checksum": "5F2184087E05C6B284BE77477EB3080C",
+        "timestamp": "2026-09-19T18:21:23Z"
+      }
+    ],
+    "name": "MetadataDashboard [✓]",
+    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Unified metadata management dashboard cross-referencing Spotify, Gracenote, MusicBrainz, and CoverArtArchive.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MetadataDashboard.webp"
+  },
+  {
+    "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+    "name": "File Transformation [✓]",
+    "overview": null,
+    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
+    "owner": "IAmParadox27",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/FileTransformation.webp",
+    "versions": [
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-10.11.11.zip",
+        "checksum": "18132C4EA39587F41E9EAE181298CC1C",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-12.0.0.zip",
+        "checksum": "9785DDF88CE9CC593BACDBD7FA8E7B79",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "Add support for 12.1",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-12.1.0.zip",
+        "checksum": "1451642C8DC6F036CB00AA703A9F0834",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "2.5.9.0",
+        "changelog": "🪲 Bug Fixes\r\n \r\n - Fixed issue #55 introduced in #52 where transformation wouldn’t register properly due to DI hishap (PR #56, @4eh5xitv6787h645ebv)",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.9.0/Release-10.10.7.zip",
+        "checksum": "9CC8A26FAB3E5DD80901F3DF56106C37",
+        "timestamp": "2026-04-15T12:51:25",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "guid": "08f615ea-2107-4f04-89cc-091035f54448",
+    "name": "Media Bar [✓]",
+    "overview": null,
+    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
+    "owner": "IAmParadox27 & M0RPH3US",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaBar.webp",
+    "versions": [
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-10.11.11.zip",
+        "checksum": "0DAFD776CF5414EED477A46894CF8709",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-12.0.0.zip",
+        "checksum": "484E93AB1BBFED7022DB2FCED04C6357",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "# 🎬 Media Bar Arrives on Jellyfin 12\r\n\r\nMedia Bar **3.0.0.0** brings support for **Jellyfin 12**, including compatibility with both the classic desktop experience and Jellyfin's newer modern web layout.\r\n\r\n> ## 🙌 Huge thanks to MakD and the upstream contributors\r\n>\r\n> Media Bar itself is the work of **MakD and the contributors to the upstream Media Bar project**. The plugin I maintain is primarily a Jellyfin wrapper around that work, exposing configuration and integration points so it can be installed and managed cleanly as a Jellyfin plugin.\r\n>\r\n> A huge amount of effort has gone into keeping Media Bar working across Jellyfin's changing web interface, especially for Jellyfin 12. The features, UI work and frontend improvements in this release are built on that upstream work, and the credit for that belongs to **MakD and everyone contributing there**.\r\n>\r\n> My part is largely packaging, integrating and exposing that work through Jellyfin's plugin system.\r\n\r\n## ✨ New Features\r\n\r\n* Added support for **Jellyfin 12**.\r\n* Added support for Jellyfin 12's **modern React/MUI home screen layout**, alongside the existing classic desktop layout.\r\n* Updated the bundled Media Bar frontend to the latest Jellyfin 12-compatible upstream version.\r\n* Added Jellyfin 12-specific styling so Media Bar integrates correctly with the new web-client shell while retaining the existing appearance on the classic layout.\r\n* Media Bar continues to ship its frontend assets directly with the plugin, ensuring the version displayed in Jellyfin matches the plugin version you've installed.\r\n\r\n## 🛠️ Improvements\r\n\r\n* Synced Media Bar with the latest Jellyfin 12-compatible upstream work.\r\n* Improved Media Bar placement within the Jellyfin 12 home screen across both supported layouts.\r\n* Improved layout behaviour on taller displays, ensuring Jellyfin's home-screen rows remain below the Media Bar content rather than overlapping its controls.\r\n* Improved localisation handling when loading Jellyfin's translation chunks.\r\n* Retained support for the **Get updates early** option for users who explicitly want to track unreleased upstream Media Bar changes.\r\n\r\n## 🪲 Bug Fixes\r\n\r\n* Fixed Media Bar being inserted in the wrong position when using Jellyfin 12's modern layout (#181).\r\n* Fixed translated Media Bar strings falling back to English or producing JSON decoding errors for some languages (#185).\r\n* Fixed home-screen rows overlapping Media Bar buttons on taller viewports.\r\n* Fixed Jellyfin 12 layout differences that could cause Media Bar to render incorrectly compared with Jellyfin 10.11.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* **Media Bar 3.0.0.0 supports Jellyfin 10.11.11 and Jellyfin 12.**\r\n* Users on older Jellyfin 10.x versions should remain on a compatible **2.x** Media Bar release.\r\n* Jellyfin 12 support includes both the **classic Desktop layout** and the newer **modern React/MUI layout**.\r\n* A compatible **File Transformation 3.x** release is required.\r\n* If you're using the **Get updates early** option, unreleased upstream Media Bar changes may behave differently from the frontend bundled and tested with this plugin release.\r\n\r\n## Contributors\r\n\r\n* austinnorgaard\r\n* judarange\r\n\r\n## ❤️ Support\r\n\r\nIf you enjoy using my Jellyfin plugins and want to support the time that goes into building, maintaining, and improving them, you can do so on [Ko-fi](https://ko-fi.com/IAmParadox27).\r\n\r\nThank you for using the plugins and being part of the community.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-12.1.0.zip",
+        "checksum": "FD60F661B8D1448EB2311240D8044154",
+        "timestamp": "2026-09-15T20:41:11",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.11.0/Release-10.10.7.zip",
+        "checksum": "6B75D0EA6CD2E545F355DC9B0865AC30",
+        "timestamp": "2026-05-25T20:05:58",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      }
+    ]
+  },
+  {
+    "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
+    "name": "Plugin Pages [✓]",
+    "overview": null,
+    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
+    "owner": "IAmParadox27",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PluginPages.webp",
+    "versions": [
+      {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-10.11.11.zip",
+        "checksum": "2412EA97ABBD19BDCDBE0D93BC0E3F34",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-12.0.0.zip",
+        "checksum": "17025353F3B2EAE3149A89C1C4E1061A",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "## 🪲 Bug Fixes\r\n\r\n* Fixed injected menu items not closing the Jellyfin user-menu popover after navigation (PR #20, @n00bcodr).\r\n* Fixed Plugin Pages injection sometimes failing on clients where jQuery had not finished loading, including affected Android clients (PR #20, @n00bcodr).\r\n* Added cache-busting to the injected script so clients reliably receive updated versions.\r\n\r\n## ⚠️ Compatibility\r\n\r\n* Dropped support for Jellyfin 10.11 releases prior to 10.11.11. Jellyfin 10.11.11 remains supported.\r\n\r\n### Contributors\r\n\r\n* n00bcodr",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-12.1.0.zip",
+        "checksum": "F74C03CED8C78112893E0D31EF4B649E",
+        "timestamp": "2026-09-15T10:18:14",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.10.0/Release-10.10.7.zip",
+        "checksum": "C5A32C943208CF09526B1E815C855AFD",
+        "timestamp": "2026-05-25T19:38:21",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      }
+    ]
+  },
+  {
+    "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
+    "name": "Home Screen Sections [✓]",
+    "overview": null,
+    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
+    "owner": "IAmParadox27",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HomeScreenSections.webp",
+    "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-10.11.11.zip",
+        "checksum": "9C0414F8813D0CDFBD29F3F4CA218069",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.0.0.zip",
+        "checksum": "CF4BE86E08365AC8D96CBA339F2523E1",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1. \r\n\r\nThat release has been removed - this is identical to 3.0.1.0 except with this fix",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.1.0.zip",
+        "checksum": "C71A9BBF5456A377F14D9653CA41DB99",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.5.11.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.11.0/Release-10.10.7.zip",
+        "checksum": "C70BEC3FAA30CD74854A4589F8E1A17F",
+        "timestamp": "2026-04-15T22:28:24",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
       }
     ]
   },
   {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -2387,7 +2811,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -2494,7 +2918,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -2585,7 +3009,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -2780,7 +3204,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -2903,7 +3327,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 01:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 02:13 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
