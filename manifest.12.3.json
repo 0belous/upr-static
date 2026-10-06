@@ -1,9 +1,9 @@
 [
   {
-    "guid": "e41a03a9-7e1c-4a11-99da-1833b8f3dac9",
+    "guid": "1d538548-3852-4279-871d-29a40b1480bd",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 16, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: internal",
-    "overview": "Generated: 2026-10-06T18:08:47.094Z",
+    "description": "Aggregated: 19, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: internal",
+    "overview": "Generated: 2026-10-06T19:08:46.103Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,14 +11,14 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-06T18:08:47.094Z"
+        "timestamp": "2026-10-06T19:08:46.103Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr [✓]",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/apps/renovate) in [#918](https:",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/apps/renovate) in [#918](https:",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
@@ -764,9 +764,60 @@
     ]
   },
   {
+    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+    "name": "Segment Editor [✓]",
+    "overview": "Segment editing UI embedded as a plugin page",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
+    "versions": [
+      {
+        "version": "12.0.16.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.16.0/segment-editor-plugin-v12.0.16.0.zip",
+        "checksum": "bd923e08abcc1b55ec724c43b233c392",
+        "timestamp": "2026-10-05T00:12:15Z"
+      },
+      {
+        "version": "12.0.15.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.15.0/segment-editor-plugin-v12.0.15.0.zip",
+        "checksum": "0e39a7c46d8eaf6ecd3ed5a6f94cf683",
+        "timestamp": "2026-10-01T02:11:47Z"
+      },
+      {
+        "version": "12.0.14.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
+        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
+        "timestamp": "2026-09-25T09:37:27Z"
+      },
+      {
+        "version": "12.0.13.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
+        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
+        "timestamp": "2026-09-24T15:19:55Z"
+      },
+      {
+        "version": "12.0.12.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
+        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
+        "timestamp": "2026-09-24T14:47:39Z"
+      }
+    ]
+  },
+  {
     "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
     "name": "Continue Watching [✓]",
-    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
+    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
     "overview": "Updates Continue Watching to work like you export",
     "owner": "timvu",
     "category": "General",
@@ -799,195 +850,425 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
   },
   {
-    "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
-    "name": "AutoCert [✓]",
-    "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
-    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
-    "owner": "aober420",
-    "category": "General",
+    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+    "name": "Segment Editor [✓]",
+    "overview": "Segment editing UI embedded as a plugin page",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
     "versions": [
       {
-        "version": "1.0.3.0",
-        "changelog": "## ✨ New Features\n\n- **Issue a certificate now:** Request a new certificate before renewal is due, even when automatic management is disabled. Save your settings first; the button uses your saved staging/production and restart settings.\n\n## 🎨 Improvements\n\n- **Issuance limits:** Manual requests retain the six-hour cooldown and certificate authority rate limits.",
+        "version": "12.0.16.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.3.0/AutoCert_1.0.3.0.zip",
-        "checksum": "25dd9fd4850d75663b52f9fc71e47df3",
-        "timestamp": "2026-09-22T20:24:33Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.16.0/segment-editor-plugin-v12.0.16.0.zip",
+        "checksum": "bd923e08abcc1b55ec724c43b233c392",
+        "timestamp": "2026-10-05T00:12:15Z"
       },
       {
-        "version": "1.0.2.0",
-        "changelog": "## ✨ New Features\n\n- **Certificate issued date:** Show the certificate validity start date in your local time.\n- **Repository link:** Open the GitHub repository from the top of the plugin configuration page.",
+        "version": "12.0.15.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.2.0/AutoCert_1.0.2.0.zip",
-        "checksum": "d05a70b01bc9326a607758065ef8e071",
-        "timestamp": "2026-09-22T14:14:07Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.15.0/segment-editor-plugin-v12.0.15.0.zip",
+        "checksum": "0e39a7c46d8eaf6ecd3ed5a6f94cf683",
+        "timestamp": "2026-10-01T02:11:47Z"
       },
       {
-        "version": "1.0.1.0",
-        "changelog": "## 🐛 Bug Fixes\n\n- **Expired certificate status:** Resolved an issue where certificate status could remain outdated after expiration, including when automatic management was disabled.\n- **Status messages:** Keep renewal errors visible and replace obsolete restart instructions.",
+        "version": "12.0.14.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.1.0/AutoCert_1.0.1.0.zip",
-        "checksum": "d25ba92f23469c7d2125b6be197f97bd",
-        "timestamp": "2026-09-19T04:17:29Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
+        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
+        "timestamp": "2026-09-25T09:37:27Z"
       },
       {
-        "version": "1.0.0.0",
-        "changelog": "## ✨ New Features\n\n- **Certificate cleanup:** Retain replaced AutoCert certificates for five days after first observing them unused with the replacement active, then remove them at the next scheduled 12-hour check.\n\n## 🎨 Improvements\n\n- **Protected certificates:** Keep the active production certificate, latest staging certificate, and externally supplied files. Cleanup waits for any pending restart.\n- **Upgrade grace period:** Give existing old files a fresh five-day grace period when upgrading. Rollback to a deleted certificate is no longer available.\n- **Stable release:** AutoCert 1.0.0.0 is now a regular release.",
+        "version": "12.0.13.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.0.0/AutoCert_1.0.0.0.zip",
-        "checksum": "222ddf2691e2b4983c31682db0782735",
-        "timestamp": "2026-09-19T03:21:35Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
+        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
+        "timestamp": "2026-09-24T15:19:55Z"
       },
       {
-        "version": "0.2.2.0",
-        "changelog": "## 🐛 Bug Fixes\n\n- **Duplicate status text:** Resolved an issue where Certificate Active appeared twice when activity and certificate status matched. Distinct progress and error messages remain visible.",
+        "version": "12.0.12.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.2/AutoCert_0.2.2.0.zip",
-        "checksum": "66d6b386f7404a739b700c05f9e73251",
-        "timestamp": "2026-09-19T02:33:32Z"
-      },
-      {
-        "version": "0.2.1.0",
-        "changelog": "## 🐛 Bug Fixes\n\n- **Status after restart:** Resolved a stale restart message. Show Certificate Active when Jellyfin reports HTTPS listening, no restart is pending, certificate settings match, and the AutoCert PFX is valid.\n\n## 🎨 Improvements\n\n- **Error visibility:** Preserve staging messages and renewal failures.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.1/AutoCert_0.2.1.0.zip",
-        "checksum": "933efb8a15ea94fafd9b1aed090230d7",
-        "timestamp": "2026-09-19T02:28:55Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "## ✨ New Features\n\n- **GoDaddy authentication:** Use a classic API key and secret alongside the existing GoDaddy PAT, Cloudflare, and DigitalOcean options.\n- **HTTPS management:** DNS verification, automatic renewal, password-protected PFX creation, password rotation, Jellyfin HTTPS configuration updates, optional restart, and rollback.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.0/AutoCert_0.2.0.0.zip",
-        "checksum": "285cdf92e985106dccfa7795e85e234e",
-        "timestamp": "2026-09-18T16:31:55Z"
-      }
-    ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutoCert.webp"
-  },
-  {
-    "guid": "a2b5f3e8-4c1d-4f7a-9e6b-8d0c2f1a3b5e",
-    "name": "PostgreSQL Database Provider [✓]",
-    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
-    "overview": "Reemplaza SQLite por PostgreSQL como motor de base de datos de Jellyfin. Incluye migración bidireccional SQLite↔PostgreSQL, búsqueda casi instantánea con índices GIN, health check automático al arrancar, consola SQL de solo lectura, mantenimiento programado (VACUUM/REINDEX/Backup) y un host seguro de esquemas privados para otros plugins.",
-    "owner": ".:BORNIOS:.",
-    "category": "Database",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PostgreSQLDatabaseProvider.webp",
-    "versions": [
-      {
-        "version": "3.0.3.0",
-        "changelog": "## Español\n\n### 3.0.3 — Integraciones privadas, mantenimiento y estabilidad\n\n- Nuevo host seguro para esquemas privados de plugins: registro, migraciones aisladas y acceso sin exponer credenciales ni el esquema `public` de Jellyfin.\n- Nueva pestaña **Integraciones** para revisar esquemas registrados, consultar una muestra limitada de datos, ver métricas por tabla y administrar `ANALYZE`, `VACUUM (ANALYZE)` y `REINDEX` por esquema.\n- Las tareas programadas mantienen `public` y solo los esquemas privados autorizados por el administrador.\n- Health incorpora métricas de presión de buffers, bloques leídos, uso temporal y WAL para diagnosticar consultas lentas.\n- Estado actual detecta el motor activo sin esperar la validación SQLite; esta continúa en segundo plano y se vuelve a comprobar antes de revertir.\n- Se refuerza el aislamiento de identificadores en operaciones de exploración y mantenimiento de esquemas privados.\n- Documentación actualizada en español e inglés, incluida la integración para desarrolladores, exportación SQLite segura y orientación para Docker.\n\nRequiere Jellyfin 12.1.x, PostgreSQL 16 o posterior y .NET 10.\n\n---\n\n## English\n\n### 3.0.3 — Private integrations, maintenance, and stability\n\n- New secure host for private plugin schemas: registration, isolated migrations, and storage without exposing credentials or Jellyfin's `public` schema.\n- New **Integrations** tab to review registered schemas, inspect a bounded data sample, view per-table metrics, and manage `ANALYZE`, `VACUUM (ANALYZE)`, and `REINDEX` per schema.\n- Scheduled tasks maintain `public` and only private schemas explicitly enabled by an administrator.\n- Health adds buffer-pressure, blocks-read, temporary-I/O, and WAL metrics for slow-query diagnosis.\n- Current status detects the active engine without waiting for SQLite validation; validation continues in the background and is checked again before rollback.\n- Strengthens identifier isolation in private-schema exploration and maintenance operations.\n- Updated Spanish and English documentation, including developer integration, safe SQLite export, and Docker guidance.\n\nRequires Jellyfin 12.1.x, PostgreSQL 16 or newer, and .NET 10.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v3.0.3/Jellyfin.Database.Providers.Postgres-3.0.3.0.zip",
-        "checksum": "36870e4156d00bc0ae86f11a7ad7a4f9",
-        "timestamp": "2026-09-30T22:36:31Z"
-      },
-      {
-        "version": "3.0.2.0",
-        "changelog": "## Español\n\n### 3.0.2 — Estabilidad, integridad y exportación segura\n\n- Corrige la normalización de `DateTime`, `DateTimeOffset` y arreglos antes de escribir en PostgreSQL, evitando errores de Npgsql por `Kind` incompatible.\n- Las escrituras concurrentes de `UserData` y las actualizaciones completas de elementos usan upserts atómicos para reducir conflictos durante actualizaciones bajo demanda.\n- La activación de PostgreSQL valida la conexión antes de modificar `database.xml`.\n- Se elimina la restauración automática de backups y la restauración manual no reemplaza objetos existentes por defecto.\n- Las consultas concurrentes idénticas de inicio se consolidan mientras se llena la caché.\n- La exportación PostgreSQL → SQLite crea y valida un `library.db` SQLite real; evita el archivo inválido que impedía iniciar Jellyfin.\n- La exportación ya no copia ni marca a ciegas el historial de migraciones.\n\nVerificado con Build Release, pruebas unitarias e integración real contra PostgreSQL. Requiere Jellyfin 12.1.x, PostgreSQL 16+ y .NET 10.\n\n---\n\n## English\n\n### 3.0.2 — Stability, integrity and safe export\n\n- Fixes normalization of `DateTime`, `DateTimeOffset`, and arrays before PostgreSQL writes, avoiding Npgsql errors caused by incompatible `Kind` values.\n- Concurrent `UserData` writes and full item updates use atomic upserts to reduce conflicts during on-demand updates.\n- PostgreSQL activation validates the connection before changing `database.xml`.\n- Automatic backup restore was removed, and manual restore no longer replaces existing objects by default.\n- Identical concurrent home-screen queries are coalesced while the cache is populated.\n- PostgreSQL → SQLite export creates and validates a real SQLite `library.db`, preventing the invalid file that stopped Jellyfin from starting.\n- Export no longer blindly marks or copies migration history.\n\nVerified with a Release build, unit tests, and real PostgreSQL integration tests. Requires Jellyfin 12.1.x, PostgreSQL 16+, and .NET 10.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v3.0.2/Jellyfin.Database.Providers.Postgres-3.0.2.0.zip",
-        "checksum": "978401ceebfeed183170a3947226a43c",
-        "timestamp": "2026-09-26T11:30:42Z"
-      },
-      {
-        "version": "3.0.1.0",
-        "changelog": "3.0.1 - Correccion de la integracion con JellyTrend\r\n\r\n- Fix: el esquema jellytrend no creaba la tabla donde el motor de JellyTrend guarda el perfil de gustos aprendido (user_affinity), asi que ese perfil no quedaba almacenado. El esquema se crea ahora completo (version 4).\r\n- El esquema se comprueba al arrancar: en una instalacion 3.0.0 la tabla que faltaba se crea sola. No hay que recrear el esquema ni reinstalar nada.\r\n- Docs: la seccion de integracion con JellyTrend documenta las dos piezas del contrato: almacen de datos en el esquema jellytrend (fuera de public, para no colarse en las exportaciones a SQLite) y acelerador de consultas con SQL nativo en las recomendaciones (4-10x en bibliotecas grandes).\r\n\r\nRequiere Jellyfin 12.1.x. Para Jellyfin 10.11.x usa la version 2.0.1.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v3.0.1/Jellyfin.Database.Providers.Postgres-3.0.1.0.zip",
-        "checksum": "284c1a553f70b956137f1d3a99b0b8f1",
-        "timestamp": "2026-09-19T01:32:14Z"
-      },
-      {
-        "version": "3.0.0.0",
-        "changelog": "3.0.0 - Jellyfin 12.1\n\nAdaptacion completa al contrato de proveedores de Jellyfin 12.1. Requiere .NET 10.\n\nNovedades\n- Consola SQL de solo lectura en el panel: 10 plantillas de diagnostico, historial en la sesion y rechazo de sentencias que modifiquen datos.\n- Opciones avanzadas funcionales: tamano de pool, sentencias preparadas y tiempo de espera se validan, se guardan, se reflejan en el estado actual y se aplican al proveedor.\n- Adaptacion al contrato y al runtime de 12.1: resolucion del ensamblado SQLite del servidor, compatibilidad por base de datos y motor de migracion reescrito.\n\nCorrecciones\n- PurgeDatabase implementado: en 2.x lanzaba NotImplementedException y rompia la restauracion del respaldo completo del sistema.\n- Exportacion a SQLite mas robusta: claves primarias verbatim, diagnostico de constraint, limpieza de filas huerfanas y library.db minimo valido para el arranque.\n\nVerificacion\n- Suite xUnit con 74 pruebas, incluidas integraciones reales con PostgreSQL 17.\n- Auditor de esquema contra el modelo EF del servidor.\n\nDocumentacion\n- Manual de migracion de Jellyfin 10.11.x a 12.x, novedades frente a 2.0.1 y nota tecnica de la adaptacion, en espanol e ingles.\n\nCompatibilidad\n- Jellyfin 12.1.x - PostgreSQL 16+ - .NET 10.\n- Para Jellyfin 10.11.x usa la version 2.0.1.",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v3.0.0/Jellyfin.Database.Providers.Postgres-3.0.0.0.zip",
-        "checksum": "f76557050bc28da09797f6a1202e4f7d",
-        "timestamp": "2026-09-16T18:31:54Z"
-      },
-      {
-        "version": "2.0.1.0",
-        "changelog": "2.0.1 - Fix critico de exportacion PostgreSQL -> SQLite:\n\n- Fix: las columnas de la clave primaria se copian sin normalizar, asi que los pares de filas que solo difieren en mayusculas/minusculas ya no colapsan en la misma clave y el export deja de abortar.\n- Fix: cuando hay una violacion de constraint, el log indica tabla, numero de fila y valores de la clave en lugar del error criptico de SQLite.\n- CI: la entrada del catalogo se publica tambien en main para que Jellyfin 10.11.x pueda ver esta version.\n\nRequiere Jellyfin 10.11.x. Para Jellyfin 12.1 usa la version 3.0.0.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v2.0.1/Jellyfin.Database.Providers.Postgres-2.0.1.0.zip",
-        "checksum": "0d2f4217825e2e1b9edbe1d992855a2f",
-        "timestamp": "2026-09-16T18:19:47Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "Novedades en v2.0.0.0:\n\n- Fix: timezone del servidor PostgreSQL restaurada. El switch global Npgsql fue reemplazado por DateTimeKindNormalizingInterceptor que solo normaliza escrituras con Kind=Unspecified.\n- Fix: crash por duplicate PK en BaseItemProviders (23505) prevenido con UpsertConflictInterceptor.\n- Nuevo: Health Check automatico al arrancar (10s) con diagnostico de conexion, indices invalidos, bloat, secuencias y queries lentas.\n- Nuevo: integracion opcional con JellyTrend — recomendaciones 4-10x mas rapidas con SQL nativo y operador ; de arrays + indices GIN.\n- Nuevo: DbErrorLoggingInterceptor registra todos los errores de BD en el log del plugin.\n- Nuevo: workflow de release basado en JellyTrend, ZIP con los 3 DLLs necesarios.\n- Docs: README ES/EN reescritos para v2.0 con capturas de las 4 pestanas del plugin.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v2.0.0.0/Jellyfin.Database.Providers.Postgres-2.0.0.0.zip",
-        "checksum": "f39697fa46c8f706a0eda85f69263684",
-        "timestamp": "2026-08-29T05:45:47Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres/releases/download/v1.0.0.0/Jellyfin.Database.Providers.Postgres.zip",
-        "checksum": "cee53c9b4ff00cb348010b48abc1c739",
-        "timestamp": "2026-05-28T23:31:43Z"
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
+        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
+        "timestamp": "2026-09-24T14:47:39Z"
       }
     ]
   },
   {
-    "guid": "d3b07384-d9a1-4e2b-8c3f-1234567890ab",
-    "name": "JellyTrend [✓]",
-    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
-    "overview": "JellyTrend empareja contenido en tendencia de TMDB con tu biblioteca Jellyfin usando provider IDs, genera recomendaciones personalizadas por usuario y lo muestra en un carrusel de banners y en canales para todos los clientes.",
-    "owner": ".:BORNIOS:.",
-    "category": "MoviesAndShows",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyTrend.webp",
+    "guid": "f3c07757-5b42-442e-a37a-f49355b6a7c0",
+    "name": "Jellyfin Last.fm Plugin [✓]",
+    "description": "Scrobble your music to Last.fm, update now playing status, and love/ban tracks directly from Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-lastfm/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-lastfm",
+    "overview": "Integrates Jellyfin with Last.fm for automatic scrobbling, now playing notifications, and track management (love/ban).",
+    "owner": "pepebarrascout",
+    "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinLast.fmPlugin.webp",
     "versions": [
       {
-        "version": "3.0.0.0",
-        "changelog": "3.0.0 - El plugin pasa a aprender el gusto de cada usuario\r\n\r\nRefactor casi completo desde la 2.0.4: la lista de tendencias de TMDB deja de ser el centro y el perfil de cada usuario pasa a serlo. Requiere .NET 10.\r\n\r\nNovedades\r\n- Motor de recomendaciones por usuario: afinidades (generos, decadas, personas, valoraciones, duracion) aprendidas del consumo real, y puntuacion de cada titulo de la biblioteca contra ese perfil.\r\n- Arranque en frio: mientras un usuario no alcanza el minimo de titulos vistos (configurable), su fila se arma con lo que ve el resto del servidor.\r\n- Reserva y rotacion: la lista guardada es mas larga que la fila visible y va cambiando de punto de partida cada cierto tiempo.\r\n- Reparto series/peliculas en la lista de Trendings, con relleno para que la fila nunca quede corta.\r\n- Items de canal materializados para todos los usuarios (ya no dependen de que alguien abra el canal) y cache por usuario en los dos canales, sin fugas entre usuarios.\r\n- El perfil se refresca con los eventos de reproduccion, sin esperar a la corrida programada.\r\n- Panel nuevo de cuatro pestanas (Trendings, Recomendaciones, Almacenamiento y Actividad), con icono propio en la barra lateral, textos en espanol e ingles, estado real del almacenamiento e historial de cada corrida.\r\n- Almacen opcional en PostgreSQL: con el PostgreSQL Database Provider los datos viven en el esquema jellytrend con historial, y las recomendaciones pasan a SQL nativo optimizado (4-10x). Los JSON de la carpeta de datos quedan como copia de cortesia.\r\n- README en espanol (por defecto) y en ingles, con capturas de las cuatro pestanas, el carrusel y los dos canales.\r\n\r\nCompatibilidad\r\n- Jellyfin 12.1.x - .NET 10.\r\n- Para Jellyfin 10.11.x usa la version 2.0.4.",
+        "version": "1.0.8.0",
+        "changelog": "- Updated for Jellyfin 12.1 compatibility (net10.0, Jellyfin.Controller/Model 12.1.*)\n- No API changes; recompiled against Jellyfin 12.1 packages",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v3.0.0/Jellyfin.Plugin.JellyTrend-3.0.0.0.zip",
-        "checksum": "b46356b845d4f09b29a6fbf7e2252d5d",
-        "timestamp": "2026-09-19T01:33:29Z"
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.8.0/jellyfin-plugin-lastfm_1.0.8.0.zip",
+        "checksum": "fc5175489bee116191f63f4434c387c1",
+        "timestamp": "2026-09-17T12:00:00Z"
       },
       {
-        "version": "2.0.4.0",
-        "changelog": "Novedades en v2.0.4:\n\n- Integracion opcional con PostgreSQL: si usas Jellyfin Database Providers PostgreSQL, el motor de recomendaciones usa SQL nativo optimizado (4-10x mas rapido en bibliotecas grandes). La integracion se activa sola al detectar el plugin.\n- Fix: recomendaciones ya no incluyen contenido visto al momento del sync semanal (excluye played + in-progress en la generacion del JSON).\n- Fix: canal Trendings filtra peliculas ya vistas por usuario en tiempo real.\n- Fix: canal Recomendados baraja el orden por usuario/hora para mostrar titulos distintos en cada visita al home.\n- Fix: banner corregido error 401 con interceptor XHR; el carousel se renderiza una sola vez y cesa el polling innecesario.",
+        "version": "1.0.7.0",
+        "changelog": "- Fix: Scrobble timestamp no longer jumps to the future when seeking forward\n- PlaybackStopped now uses tracker start time directly instead of recalculating",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v2.0.4/Jellyfin.Plugin.JellyTrend-2.0.4.0.zip",
-        "checksum": "7afb9ed6cf0b8ba2ecfef742feef36f4",
-        "timestamp": "2026-08-29T02:28:23Z"
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.7.0/jellyfin-plugin-lastfm_1.0.7.0.zip",
+        "checksum": "b49a6cdb324dc859ac1d49840a349805",
+        "timestamp": "2026-04-15T16:00:00Z"
       },
       {
-        "version": "2.0.3.0",
-        "changelog": "Fix en v2.0.3:\\n\\n- Fix: el banner del carousel ahora se carga correctamente en todas las instalaciones. El script se inyecta directamente en index.html al iniciar el servidor, en lugar de depender del pipeline de peticiones HTTP que no estaba disponible para plugins cargados dinamicamente.\\n- Fix: acceder a la URL raiz del servidor con el banner activo ya no rompe la carga del cliente web (error 404 en assets JavaScript y CSS).\\n- Fix: el logger del plugin ahora escribe correctamente desde el primer arranque sin depender de librerias externas.",
+        "version": "1.0.6.2",
+        "changelog": "- Fix: Scrobble replaced when changing tracks in Feishin/Amafy\n- PlaybackStopped no longer sends duplicate scrobble if tracker already handled\n- Consistent scrobble timestamps using recorded start time",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v2.0.3/Jellyfin.Plugin.JellyTrend-2.0.3.0.zip",
-        "checksum": "b3e64bc6b3619da1d8e926b372a13f35",
-        "timestamp": "2026-08-27T05:44:45Z"
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.6.2/jellyfin-plugin-lastfm_1.0.6.2.zip",
+        "checksum": "8f326ac49b3ab65dd9e035b6c2e07d57",
+        "timestamp": "2026-04-15T14:00:00Z"
       },
       {
-        "version": "2.0.2.0",
-        "changelog": "Correcciones y mejoras en v2.0.2:\n\n- Fix: sombras de películas en Recomendaciones — metadatos, imágenes locales y estado visto sincronizados con la biblioteca.\n- Fix: sombras de series en Trendings — temporadas reproducibles e imágenes locales; jamás episodios en la fila.\n- Fix: banner móvil — swipe horizontal corregido y paginación por contador en móvil.\n- Nueva función: seleccionar si se muestran series en Trendings (aplica al canal, la fila del home y el banner).\n- Sync de sombras optimizado (solo persiste cambios) y logger propio mensual.",
+        "version": "1.0.6.1",
+        "changelog": "- Fix: Scrobble lost on track change with Feishin",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v2.0.2/Jellyfin.Plugin.JellyTrend-2.0.2.0.zip",
-        "checksum": "1cfb88ff8da1b07dbb9c9f4e869cc43f",
-        "timestamp": "2026-08-26T09:41:47Z"
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.6.1/jellyfin-plugin-lastfm_1.0.6.1.zip",
+        "checksum": "6ed692040b7def07453da3c902aa2769",
+        "timestamp": "2026-04-15T12:00:00Z"
       },
       {
-        "version": "2.0.1.0",
-        "changelog": "Correcciones:\n- Canal «Recomendados» vacío en la fila de inicio: Jellyfin refrescaba la fila con un usuario vacío y el canal no encontraba las recomendaciones. Ahora el canal resuelve al usuario autenticado a partir del token de la petición y envía sus recomendaciones reales.\n- Logs: ruido reducido a nivel Debug y eliminadas las líneas con el id de usuario crudo.\n- Banner móvil: hero con altura proporcional a la pantalla, sinopsis visible (2 líneas), botones compactos y paginación reposicionada.",
+        "version": "1.0.6.0",
+        "changelog": "- Fix: Scrobbling now works - IHostedService for automatic startup",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v2.0.1/Jellyfin.Plugin.JellyTrend-2.0.1.0.zip",
-        "checksum": "f74f8e21bba7ce6be6d5b3c36d15335b",
-        "timestamp": "2026-08-25T12:24:19Z"
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.6.0/jellyfin-plugin-lastfm_1.0.6.0.zip",
+        "checksum": "ca635d364c6de0126efeba111d426dbf",
+        "timestamp": "2026-04-15T10:00:00Z"
       },
       {
-        "version": "2.0.0.0",
-        "changelog": "Lanzamiento 2.0.0: plantilla oficial, recomendaciones personalizadas por usuario, navegación por temporadas en los canales, banner por usuario y publicación en GitHub.",
+        "version": "1.0.0.0",
+        "changelog": "- Initial release for Jellyfin 10.10.7 (net8.0)",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-lastfm/releases/download/v1.0.0.0/jellyfin-plugin-lastfm_1.0.0.0.zip",
+        "checksum": "02a7251cb36a1a3a2f57a85762b4fa7a",
+        "timestamp": "2026-04-14T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "d6a5ecc8-0481-4ca4-b03a-1fb8595ef8e6",
+    "name": "Radio Online [✓]",
+    "description": "Automated online radio streaming plugin using Liquidsoap. Stream audio to Icecast servers with weekly playlist scheduling via Liquidsoap Telnet control.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-radio-online/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-radio-online",
+    "overview": "Automated online radio streaming via Liquidsoap to Icecast servers with weekly playlist scheduling. Assign Jellyfin playlists to specific day/time slots. Requires a Liquidsoap Docker container running alongside Jellyfin.",
+    "owner": "PepeBarrascout",
+    "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/RadioOnline.webp",
+    "versions": [
+      {
+        "version": "0.0.0.52",
+        "changelog": "COMPATIBILITY: Plugin now targets Jellyfin 12.1 (was 10.11.8)\nCHANGE: Target framework updated to .NET 10.0 (Jellyfin 12.x requirement)\nCHANGE: Jellyfin NuGet packages updated to 12.1.0\nCHANGE: targetAbi updated to 12.1.0.0\nNOTE: This version is NOT compatible with Jellyfin 10.x. Use v0.0.0.51 for Jellyfin 10.11.x",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.52/jellyfin-plugin-radio-online_0.0.0.52.zip",
+        "checksum": "2d380566bfddaed0847dffab809f418d",
+        "timestamp": "2026-09-17T12:00:00Z"
+      },
+      {
+        "version": "0.0.0.51",
+        "changelog": "NEW: NowPlaying JSON now includes itemId (Jellyfin's unique audio item ID) for direct database lookups\nCHANGE: itemId is placed right after isPlaying in the JSON response",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.51/jellyfin-plugin-radio-online_0.0.0.51.zip",
+        "checksum": "ea7540a525e715d94b670862f06b021d",
+        "timestamp": "2026-05-25T12:00:00Z"
+      },
+      {
+        "version": "0.0.0.50",
+        "changelog": "CRITICAL FIX: UTF-8 encoding in Telnet client — file paths with non-ASCII characters (é, ó, ñ, á, í, ú) are now sent correctly to Liquidsoap, fixing ~80% of silently skipped tracks\nFIX: LiquidsoapClient.cs now uses UTF-8 encoding for all Telnet communications instead of ASCII (ASCII corrupted accented characters into '?' causing 'Nonexistent file or ill-formed URI' errors)\nFIX: Telnet response reading also uses UTF-8 encoding for consistency\nNOTE: Recommended radio.liq changes to further reduce latency and track skipping: disable enable_autocue_metadata(), reduce crossfade to 1.5s, add normalize_url=false to http.get",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.50/jellyfin-plugin-radio-online_0.0.0.50.zip",
+        "checksum": "2c75364f32abd0c5ec3697ac8168a94f",
+        "timestamp": "2026-05-20T16:00:00Z"
+      },
+      {
+        "version": "0.0.0.49",
+        "changelog": "FIX: NowPlaying JSON year field now returned as quoted string (was unquoted integer causing JSON parse errors in external apps)\nFIX: Artwork proxy now actually resizes images based on maxWidth parameter using Jellyfin IImageProcessor (was serving original full-size image regardless of maxWidth value)\nFIX: Artwork proxy now uses async IImageProcessor.ProcessImage for proper image processing with SkiaSharp backend",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.49/jellyfin-plugin-radio-online_0.0.0.49.zip",
+        "checksum": "74a3b4a4ec59760e2dbfb9d43afd4e6aa29fd9b8774f1b654ea3ecbd59086f76",
+        "timestamp": "2026-05-19T14:00:00Z"
+      },
+      {
+        "version": "0.0.0.48",
+        "changelog": "CRITICAL FIX: Eliminated duplicate track reports — Jellyfin was reporting the same song 2-3 times (A,A,A,D,E,E,E pattern) while Icecast played correctly\nCRITICAL FIX: NowPlaying JSON and Android app now show the correct current track instead of stale data from duplicate on_track callbacks\nFIX: TrackChangeController made fully async — removed .GetAwaiter().GetResult() that caused thread pool starvation and request deadlocks\nFIX: Duplicate suppression — same track reported within 15 seconds is suppressed (handles Liquidsoap firing on_track multiple times per play)\nFIX: Removed backward drift correction — it caused duplicate track sends to Liquidsoap queue, making playlists longer than expected\nFIX: Schedule change now takes immediate priority — RefillQueueAsync aborts if schedule changed, preventing old playlist from continuing past its time slot\nIMPROVE: GetCurrentlyPlayingIndexAsync replaces VerifyPositionAsync — only detects stuck tracks, no longer modifies _nextTrackToSend counter",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.48/jellyfin-plugin-radio-online_0.0.0.48.zip",
+        "checksum": "8cf1d831df9b3db76f5c204f095981c5",
+        "timestamp": "2026-05-18T12:00:00Z"
+      },
+      {
+        "version": "0.0.0.47",
+        "changelog": "CRITICAL FIX: Liquidsoap stuck detection — when Liquidsoap stops advancing (codec error, corrupt file), the plugin no longer spams queue.append every 5 seconds in an infinite drift correction loop\nFIX: VerifyPositionAsync now returns current track index to RefillQueueAsync for stuck detection\nFIX: RefillQueueAsync pauses queue refill when Liquidsoap is stuck (same track across consecutive checks)\nFIX: Automatically resumes normal refill when Liquidsoap advances past the stuck track\nFIX: ResetState clears stuck state (_isStuck, _lastKnownCurrentIdx)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.47/jellyfin-plugin-radio-online_0.0.0.47.zip",
+        "checksum": "34ce919c7c12667fbd282385b760ee3c",
+        "timestamp": "2026-05-17T16:49:07Z"
+      },
+      {
+        "version": "0.0.0.46",
+        "changelog": "FIX: Tracks silently dropped by Liquidsoap (codec issues, corrupt files) no longer cause premature playlist end — plugin now detects position drift every 5 seconds\nFIX: Position verification compares Liquidsoap reality (current_track + queue.length) vs plugin counter to detect skipped tracks\nFIX: Playlist now loops automatically when all tracks exhausted but schedule is still active — prevents dead air\nIMPROVE: VerifyPositionAsync runs as part of RefillQueueAsync cycle — minimal overhead (one extra Telnet query)\nIMPROVE: Detailed warning log when tracks are skipped with exact count of dropped tracks",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.46/jellyfin-plugin-radio-online_0.0.0.46.zip",
+        "checksum": "b3d7e6bca3a2986369f45b769ccb8ef9",
+        "timestamp": "2026-05-16T10:00:00Z"
+      },
+      {
+        "version": "0.0.0.45",
+        "changelog": "FIX: NowPlaying endpoint now returns isPlaying=false when radio stops — was stuck showing last track forever\nFIX: ResetState() now clears CurrentTrack so the endpoint correctly reflects when transmission has ended",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.45/jellyfin-plugin-radio-online_0.0.0.45.zip",
+        "checksum": "14bf0089d2a1557652172febe628a445",
+        "timestamp": "2026-05-16T09:00:00Z"
+      },
+      {
+        "version": "0.0.0.43",
+        "changelog": "NEW: Public artwork proxy endpoint at /RadioOnline/NowPlaying/Artwork — serves album art without authentication\nNEW: No Content-Disposition header — displays inline in browser instead of downloading\nNEW: Cache-Control: public, max-age=300 — browsers cache artwork for 5 minutes reducing server load\nFIX: artworkUrl in NowPlaying JSON now points to the proxy endpoint instead of Jellyfin's internal image endpoint\nIMPROVE: Content-Type detected from file extension (jpeg, png, gif, webp)\nIMPROVE: Returns 404 gracefully if no track is playing or album has no image",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.43/jellyfin-plugin-radio-online_0.0.0.43.zip",
+        "checksum": "cb6248887ebf17d69b7b79c1d45ac4cc",
+        "timestamp": "2026-05-16T08:00:00Z"
+      },
+      {
+        "version": "0.0.0.42",
+        "changelog": "FIX: NowPlaying artwork URL now uses album ID instead of song ID — songs don't have Primary images, the artwork lives on the parent album (folder.jpg)\nFIX: Eliminates \"does not have an image of type Primary\" error\nIMPROVE: NowPlayingInfo now stores AlbumId (falls back to ItemId if no album parent found)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.42/jellyfin-plugin-radio-online_0.0.0.42.zip",
+        "checksum": "3350ffd1e8c7e947074bfa6bda294e52",
+        "timestamp": "2026-05-16T07:00:00Z"
+      },
+      {
+        "version": "0.0.0.41",
+        "changelog": "NEW: NowPlaying public endpoint at /RadioOnline/NowPlaying — returns current track metadata and album artwork URL as JSON for external apps and websites\nNEW: Optional maxWidth parameter (default 720) to control artwork resolution (e.g. ?maxWidth=100 for thumbnails)\nNEW: NowPlayingInfo class stores current track data (artist, title, album, year, duration, itemId)\nIMPROVE: RadioStateService now stores NowPlayingInfo with thread-safe locking\nIMPROVE: TrackChange stores metadata even when playback reporting is disabled\nIMPROVE: Base URL built dynamically from incoming request (works behind Cloudflare tunnel, reverse proxy, any domain)\nFIX: AssemblyVersion now correctly set in both Directory.Build.props and .csproj (was 0.0.0.15 due to stale duplicate project)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.41/jellyfin-plugin-radio-online_0.0.0.41.zip",
+        "checksum": "13c878e62a4e3402029557bc8f6c143b",
+        "timestamp": "2026-05-16T06:30:00Z"
+      },
+      {
+        "version": "0.0.0.40",
+        "changelog": "NEW: NowPlaying public endpoint at /RadioOnline/NowPlaying — returns current track metadata and album artwork URL as JSON for external apps and websites\nNEW: Optional maxWidth parameter (default 720) to control artwork resolution (e.g. ?maxWidth=100 for thumbnails)\nNEW: NowPlayingInfo class stores current track data (artist, title, album, year, duration, itemId)\nIMPROVE: RadioStateService now stores NowPlayingInfo with thread-safe locking\nIMPROVE: TrackChange stores metadata even when playback reporting is disabled\nIMPROVE: Base URL built dynamically from incoming request (works behind Cloudflare tunnel, reverse proxy, any domain)\nNOTE: No domain or IP is hardcoded — the endpoint auto-detects the correct URL from the HTTP request",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.40/jellyfin-plugin-radio-online_0.0.0.40.zip",
+        "checksum": "05bc65fc23a87fbbac61b5ad5f48b148",
+        "timestamp": "2026-05-16T05:30:00Z"
+      },
+      {
+        "version": "0.0.0.39",
+        "changelog": "CRITICAL FIX: ResetState() was called AFTER loading playlist tracks, wiping _playlistTracks to empty array — the for loop ran 0 times and no tracks were ever sent to Liquidsoap\nFIX: Replaced ResetState() with _nextTrackToSend=0 to only reset the send index without destroying the loaded playlist\nROOT CAUSE: In v0.0.0.37, _playlistTracks was set at line 411, then ResetState() at line 431 cleared it — queue.append was never called",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.39/jellyfin-plugin-radio-online_0.0.0.39.zip",
+        "checksum": "1b8cbb414889f3462e633cfb9644a636",
+        "timestamp": "2026-05-16T04:45:00Z"
+      },
+      {
+        "version": "0.0.0.38",
+        "changelog": "FIX: Plugin stuck in Inactivo state after failed queue attempts — _currentScheduleKey was set before verifying tracks sent, causing the plugin to never retry loading the playlist\nFIX: _currentScheduleKey now only set on successful queue, cleared on failure so next cycle retries automatically\nIMPROVE: Error message now includes 'will retry on next cycle' for clarity",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.38/jellyfin-plugin-radio-online_0.0.0.38.zip",
+        "checksum": "05168a30edcbd25125a9a30fade27a08",
+        "timestamp": "2026-05-16T04:30:00Z"
+      },
+      {
+        "version": "0.0.0.37",
+        "changelog": "ARCHITECTURE: Push metadata — Liquidsoap now TELLS the plugin what's playing via HTTP POST, eliminating all sync issues\nNEW: TrackChangeController — HTTP endpoint at /RadioOnline/TrackChange receives track notifications from Liquidsoap\nREMOVE: All sync code eliminated — _currentTrackIndex, VerifyTrackSyncAsync, TryResumeCurrentPlaylistAsync, OnReconnected, queue.remaining\nSIMPLIFY: RadioStreamingHostedService now only manages buffer (keep queue.length >= 3) — no timing, no guessing\nSIMPLIFY: LiquidsoapClient — removed OnReconnected event, HadPreviousConnection, GetQueueRemainingAsync\nIMPROVE: Buffer refill based on queue.length instead of estimated timing — 100% reliable\nIMPROVE: Resume on restart still works via queue.current_track + queue.length query\nIMPORTANT: You MUST add on_track HTTP callback to radio.liq — see release notes\nIMPORTANT: Remove queue.remaining command from radio.liq (no longer needed)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.37/jellyfin-plugin-radio-online_0.0.0.37.zip",
+        "checksum": "d7464956138dcf96e8dcc6ffde2116eb",
+        "timestamp": "2026-05-15T18:00:00Z"
+      },
+      {
+        "version": "0.0.0.36",
+        "changelog": "FIX: Plugin restart no longer resets playback to track 0 - on fresh start, queries what Liquidsoap is actually playing and resumes from that position (no audio interruption)\nFIX: _currentTrackIndex desync eliminated on restart - Liquidsoap keeps playing uninterrupted while the plugin repositions its tracking to match\nNEW: TryResumeCurrentPlaylistAsync - queries queue.current_track on startup, matches against playlist, and resumes tracking from the correct position\nNEW: queue.remaining Telnet command for accurate track timing on resume (calculates _currentTrackStartedAt from remaining time)\nNEW: GetQueueRemainingAsync in LiquidsoapClient\nIMPROVE: ResetTrackingState moved after resume check - state is only reset if resume fails\nIMPROVE: queue.length used on resume to estimate _lastQueuedTrackIndex, avoiding duplicate track queuing\nNOTE: Resume only works for non-shuffle playlists (shuffle order changes each restart)\nNOTE: You MUST add queue.remaining command to radio.liq - see release notes",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.36/jellyfin-plugin-radio-online_0.0.0.36.zip",
+        "checksum": "d79c05a671c92e544cf1ba0b025342fc",
+        "timestamp": "2026-05-15T16:00:00Z"
+      },
+      {
+        "version": "0.0.0.35",
+        "changelog": "FIX: Track desync after TCP reconnection - plugin now performs full bidirectional resync when Liquidsoap reconnects, correcting _currentTrackIndex to match actual playback\nFIX: Backward drift detection - plugin now detects and warns when Jellyfin shows a song ahead of what Liquidsoap is actually playing (index converges naturally)\nFIX: Reconnect resync bypasses 60-second throttle - runs immediately on reconnect event instead of waiting for next periodic check\nNEW: OnReconnected event in LiquidsoapClient fires when a new TCP connection replaces a dropped one (not on first connect)\nNEW: HadPreviousConnection property exposes whether a prior connection existed for meaningful reconnect detection\nIMPROVE: VerifyTrackSyncAsync now uses exact match (Ordinal) instead of case-insensitive match for track path comparison",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.35/jellyfin-plugin-radio-online_0.0.0.35.zip",
+        "checksum": "b7c38965a957f510a0b902ab025e6dd2",
+        "timestamp": "2026-05-15T14:00:00Z"
+      },
+      {
+        "version": "0.0.0.34",
+        "changelog": "FIX: Duplicate tracks and out-of-order playback - removed queue depth resync that incorrectly reset _lastQueuedTrackIndex backward during crossfade transitions\nFIX: queue.length now uses non-deprecated 'string()' function in radio.liq\nIMPROVE: Queue depth monitoring is now diagnostic-only (warning log) without modifying playback state\nNOTE: Update radio.liq with the corrected queue.length command from release assets",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.34/jellyfin-plugin-radio-online_0.0.0.34.zip",
+        "checksum": "e76df6b2e67153123cf9403e4e53f570",
+        "timestamp": "2026-05-14T13:00:00Z"
+      },
+      {
+        "version": "0.0.0.33",
+        "changelog": "FIX: Playback interruptions eliminated - proactive TCP reconnection every 2 minutes prevents stale half-open connections that caused silent command failures\nFIX: Queue depth verification - plugin now queries Liquidsoap's actual queue length before trusting local index, automatically resyncing when mismatch detected\nFIX: Read timeout reduced from 10s to 3s - stale commands no longer block the semaphore for extended periods\nIMPROVE: Buffer increased from 1 to 2 tracks ahead (3 initial tracks instead of 2) - tolerates multiple consecutive send failures before audio gap\nNEW: queue.length Telnet command for real-time queue monitoring (requires radio.liq update)\nNOTE: You MUST update your radio.liq to add the queue.length command - see release assets",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.33/jellyfin-plugin-radio-online_0.0.0.33.zip",
+        "checksum": "cccdcba2ba75adb33ff6f5d67c47d46f",
+        "timestamp": "2026-05-14T12:00:00Z"
+      },
+      {
+        "version": "0.0.0.32",
+        "changelog": "NEW: Multi-day schedule support - each program can now repeat on multiple days via checkboxes (L M X J V S D)\nNEW: Pause toggle per program - temporarily disable any schedule entry without deleting it\nNEW: Unique entry IDs for reliable schedule change detection across day boundaries\nIMPROVE: Schedule display shows compact day badges (active days highlighted in blue)\nIMPROVE: Backward compatible - old single-day entries still work without migration\nFIX: Overlap priority rule preserved - latest start time always wins",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.32/jellyfin-plugin-radio-online_0.0.0.32.zip",
+        "checksum": "930fb9225a3a22b0bc1b1a26fa83c7ad",
+        "timestamp": "2026-05-14T08:00:00Z"
+      },
+      {
+        "version": "0.0.0.29",
+        "changelog": "FIX: Track index only advances when the next track is confirmed queued in Liquidsoap - prevents gaps and offair interruptions\nFIX: Failed track sends are retried on the next cycle instead of being skipped\nFIX: Double playback reporting eliminated - each track is now reported exactly once using _lastReportedTrackIndex\nFIX: Buffer maintenance improved - AdvanceTrackAsync wrapped in try/catch to prevent cycle crashes on telnet errors\nFIX: Connection timeout resilience - if advance fails, the system recovers gracefully on the next 1-second cycle",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.29/jellyfin-plugin-radio-online_0.0.0.29.zip",
+        "checksum": "93c2e7e4b7e11eff3781622398b28a49",
+        "timestamp": "2026-05-11T05:15:00Z"
+      },
+      {
+        "version": "0.0.0.28",
+        "changelog": "FIX: Track advancement now works regardless of playback reporting setting - tracks are always sent one-by-one with buffer\nFIX: Playback reporting is optional and does not affect track delivery\nFIX: One-by-one mode sends all playlist tracks correctly (initial 2 + buffer as each track ends)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.28/jellyfin-plugin-radio-online_0.0.0.28.zip",
+        "checksum": "64ffb7993cc92cecc9b04640c86c5e33",
+        "timestamp": "2026-05-11T04:00:00Z"
+      },
+      {
+        "version": "0.0.0.27",
+        "changelog": "NEW: Playback reporting to Jellyfin statistics - tracks are sent one-by-one with buffer for accurate PlayCount and LastPlayedDate updates, enabling smart playlists (most played, least played, recently played)\nNEW: Configurable option 'Report playback to Jellyfin statistics' in plugin settings\nNEW: Track duration detection from Jellyfin metadata for precise advance timing\nFIX: No longer requires queue.current_track telnet command (works with all Liquidsoap versions)\nFIX: Playback reporting filters out tracks without duration metadata\nIMPROVE: Tracks sent in small batches (2 initial + 1 buffer) instead of all at once - less telnet load, faster playlist transitions",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.27/jellyfin-plugin-radio-online_0.0.0.27.zip",
+        "checksum": "ad404a9c90680f26db8e4f118b12ad11",
+        "timestamp": "2026-05-11T03:30:00Z"
+      },
+      {
+        "version": "0.0.0.26",
+        "changelog": "NEW: Playback reporting to Jellyfin statistics - each track played on the radio now increments PlayCount and updates LastPlayedDate, enabling smart playlists (most played, least played, recently played, etc.)\nNEW: Configurable option 'Report playback to Jellyfin statistics' in plugin settings\nNEW: Liquidsoap queue.current_track telnet command for track monitoring\nFIX: DLL now correctly reports AssemblyVersion 0.0.0.26 (was loading 0.0.0.24 due to stale Directory.Build.props)\nFIX: Playback reporting filters out off-air audio and external radio streams\nIMPROVE: Path-to-item mapping preserved through shuffle for accurate reporting",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.26/jellyfin-plugin-radio-online_0.0.0.26.zip",
+        "checksum": "817844f3b9f070285e54131315955cda",
+        "timestamp": "2026-05-11T03:15:00Z"
+      },
+      {
+        "version": "0.0.0.25",
+        "changelog": "NEW: Playback reporting to Jellyfin statistics\nNEW: Configurable option in plugin settings\nNEW: Liquidsoap queue.current_track telnet command\nFIX: DLL AssemblyVersion fix",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.25/jellyfin-plugin-radio-online_0.0.0.25.zip",
+        "checksum": "3e8401f3f345a8823641fbec9d2bd91a",
+        "timestamp": "2026-05-11T00:00:00Z"
+      },
+      {
+        "version": "0.0.0.24",
+        "changelog": "FIX: Schedule now stops at exact programmed time - inverted clear+skip order (clear queue FIRST, then skip current track) so skip falls through to off-air instead of starting next queued track\nFIX: Second playlist now properly takes priority when schedules overlap - clears queue and immediately loads next schedule\nFIX: Times no longer drift/accumulate between schedules\nFIX: Exception handler now clears Liquidsoap queue to prevent orphaned tracks from playing after errors\nIMPROVE: Near-end polling checks every 1 second (instead of 5) when less than 30 seconds remain in schedule slot for precise timing",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.24/jellyfin-plugin-radio-online_0.0.0.24.zip",
+        "checksum": "3e98628c3850852cd7a18bafa5d33538",
+        "timestamp": "2026-04-29T12:00:00Z"
+      },
+      {
+        "version": "0.0.0.23",
+        "changelog": "FIX: Dark theme dropdown menus in scheduling section (option backgrounds match Jellyfin dark theme)\nFIX: Minute selector now shows all 60 minutes (00-59) instead of 5-minute increments\nFIX: Schedule now ends at exact programmed time - skips current track and triggers crossfade instead of waiting for song to finish\nFIX: Playlist switching at exact time with crossfade transition (skip + clear + load)\nIMPROVE: Remaining time check prevents songs from playing past schedule end",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.23/jellyfin-plugin-radio-online_0.0.0.23.zip",
+        "checksum": "eb9204e0a8986d714b7288f2049a29e2",
+        "timestamp": "2026-04-29T00:00:00Z"
+      },
+      {
+        "version": "0.0.0.22",
+        "changelog": "FIX: Telnet Broken pipe - SendCommandAsync now retries once after reconnecting on IOException\nFIX: Schedule not followed - now tracks full schedule key (day+time+playlist) instead of just playlist ID\nFIX: Queue clear now retries up to 3 times on failure to ensure schedule transitions work reliably\nFIX: Status endpoint shows correct telnet state after reconnect",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/pepebarrascout/jellyfin-plugin-radio-online/releases/download/v0.0.0.22/jellyfin-plugin-radio-online_0.0.0.22.zip",
+        "checksum": "f0ee7f3af74480ffbca254adc8620bc8",
+        "timestamp": "2026-04-28T05:30:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "c4a05f11-4ccc-4b00-bdea-dbeef1337000",
+    "name": "Chaosflix [✓]",
+    "description": "Browse and stream Chaos Computer Club conference talks from media.ccc.de directly in Jellyfin. Includes watch history, resume, SyncPlay support, popular/recommended talks, year-based browsing, and related talk suggestions.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/praetorianer777/chaosflix-jellyfin/main/manifest.json  \nGithub: https://github.com/praetorianer777/chaosflix-jellyfin",
+    "overview": "CCC Media Channel for Jellyfin",
+    "owner": "praetorianer777",
+    "category": "Channels",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Chaosflix.webp",
+    "versions": [
+      {
+        "version": "0.4.0.0",
+        "changelog": "Breaking changes:\n- requires Jellyfin 12.1.0 or newer (raised from 10.11.0)\nBug fixes:\n- report a raised minimum server version as breaking (#113)\n- stop Popular and Recommended reshuffling on every refresh (#111)\n- stop inventing a community rating from the view count (#108)\n- judge a conflicted rebase by the branch being rebased (#106)\n- and 3 more\nPlus 3 other changes.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.4.0/chaosflix-jellyfin-v0.4.0.zip",
+        "checksum": "6c7ff793e07ce26c73a4f4c9430fee91",
+        "timestamp": "2026-09-20T17:54:07Z"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "Features:\n- show the plugin's state on its configuration page (#93)\nPlus 5 other changes.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/BORNIOS/JellyTrend/releases/download/v2.0.0/Jellyfin.Plugin.JellyTrend-2.0.0.0.zip",
-        "checksum": "501c13a3cf9078f041c7f35c3791b7fd",
-        "timestamp": "2026-08-25T07:58:35Z"
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.3.0/chaosflix-jellyfin-v0.3.0.zip",
+        "checksum": "b4b7c4d4eeac9e4277957e966c311210",
+        "timestamp": "2026-09-19T14:42:40Z"
+      }
+    ]
+  },
+  {
+    "guid": "9f2e4a6b-7c1d-4e3f-8a5b-0d9c2e1f4a7b",
+    "name": "Amane [✓]",
+    "description": "对接本地 Amane 元数据服务的透明代理元数据插件：影片/人物元数据、封面与背景图、影片与演员 ID 绑定。  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/rappa850/Jellyfin.Plugin.Amane/main/manifest.json  \nGithub: https://github.com/rappa850/Jellyfin.Plugin.Amane",
+    "overview": "Amane 后端完成番号提取、离线库检索与 LLM 中文润色，本插件仅作为 Thin Client 把结果映射回 Jellyfin。",
+    "owner": "rappa850",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Amane.webp",
+    "versions": [
+      {
+        "version": "1.0.8.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.12.zip",
+        "checksum": "42769fbd430cb9f97540f3007c12405b",
+        "timestamp": "2026-10-03T10:59:13Z"
+      },
+      {
+        "version": "1.0.8.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.zip",
+        "checksum": "1ab6ce8b5472b0104c2c16843b1db808",
+        "timestamp": "2026-10-03T10:59:13Z"
+      },
+      {
+        "version": "1.0.7.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.7",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.7/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d4cc3d9e129767fcfe412100fb13e5e1",
+        "timestamp": "2026-09-26T12:14:48Z"
+      },
+      {
+        "version": "1.0.6.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.6",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.6/Jellyfin.Plugin.Amane.zip",
+        "checksum": "e4f912139edec2e13970d82917ef3266",
+        "timestamp": "2026-09-03T02:28:51Z"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.5",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.5/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d2fe47db488a1214bfaa9c0df7a12489",
+        "timestamp": "2026-09-02T15:54:03Z"
       }
     ]
   },
@@ -995,7 +1276,7 @@
     "guid": "08880a95-8467-4538-bab9-da69c7f4793f",
     "name": "Jellyfin Featured [✓]",
     "overview": "A Netflix-style featured-content carousel for the Jellyfin Web home page.",
-    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
+    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
     "owner": "spkesDE",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinFeatured.webp",
@@ -1126,7 +1407,7 @@
     "guid": "2c2ee6c1-bcd7-48e4-a7e8-e6b4d77d3df2",
     "name": "Media Preview [✓]",
     "overview": "Hover previews for Jellyfin Web using Trickplay and trailers.",
-    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
+    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
     "owner": "spkesDE",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaPreview.webp",
@@ -1304,7 +1585,7 @@
   {
     "guid": "3734440f-4b20-4c3a-86a3-d931b45b7248",
     "name": "Jelly Poll [✓]",
-    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
+    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
     "overview": "Group movie polling with ranked ballots and a gold/silver/bronze podium.",
     "owner": "zlx64",
     "category": "General",
@@ -1342,7 +1623,7 @@
   {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -1393,7 +1674,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -1500,7 +1781,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -1591,7 +1872,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -1786,7 +2067,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -1909,7 +2190,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
@@ -2032,7 +2313,7 @@
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
     "name": "Google Books [✓]",
-    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
+    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
     "overview": "Google Books Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
@@ -2067,7 +2348,7 @@
   {
     "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
     "name": "OpenLibrary [✓]",
-    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 18:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 19:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "OpenLibrary metadata provider for Jellyfin",
     "owner": "jellyfin",
     "category": "Books",
