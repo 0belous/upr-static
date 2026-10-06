@@ -1,9 +1,9 @@
 [
   {
-    "guid": "532da7ad-95fc-4de3-b9a4-ff0179f8278c",
+    "guid": "dd8cb1fc-2e85-44d6-ad16-5fb9287de9ce",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 31, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: internal",
-    "overview": "Generated: 2026-10-06T06:14:01.617Z",
+    "description": "Aggregated: 31, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: internal",
+    "overview": "Generated: 2026-10-06T07:14:02.489Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,292 +11,754 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-06T06:14:01.617Z"
+        "timestamp": "2026-10-06T07:14:02.489Z"
       }
     ]
   },
   {
-    "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
-    "name": "Continue Watching [✓]",
-    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
-    "overview": "Updates Continue Watching to work like you export",
-    "owner": "timvu",
-    "category": "General",
+    "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
+    "name": "Themerr [✓]",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/LizardByte/Themerr-jellyfin",
+    "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
+    "owner": "LizardByte",
+    "category": "Metadata",
+    "image": "themerr-jellyfin.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Themerr.webp",
     "versions": [
       {
-        "version": "1.1.1.0",
-        "changelog": "Add support for Jellyfin v12.1\n",
+        "version": "2026.915.1549.59",
+        "changelog": "## What's Changed\n* test: improve coverage by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#843](https://github.com/LizardByte/Themerr-jellyfin/pull/843)\n* chore(deps): update lizardbyte/jellyfin-plugin-repo action to v2026.602.212143 by [@renovate[bot]](https://github.com/apps/renovate) in [#844](https://github.com/LizardByte/Themerr-jellyfin/pull/844)\n* chore(deps): update official github actions to v6.0.3 by [@renovate[bot]](https://github.com/apps/renovate) in [#845](https://github.com/LizardByte/Themerr-jellyfin/pull/845)\n* chore(deps): update astral-sh/setup-uv action to v8.2.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#846](https://github.com/LizardByte/Themerr-jellyfin/pull/846)\n* chore(deps): update lizardbyte/actions action to v2026.605.34721 by [@renovate[bot]](https://github.com/apps/renovate) in [#847](https://github.com/LizardByte/Themerr-jellyfin/pull/847)\n* chore(deps): update codecov/codecov-action action to v7 by [@renovate[bot]](https://github.com/apps/renovate) in [#849](https://github.com/LizardByte/Themerr-jellyfin/pull/849)\n* chore(deps): update dependency jellyfin.controller to 10.11.11 by [@renovate[bot]](https://github.com/apps/renovate) in [#850](https://github.com/LizardByte/Themerr-jellyfin/pull/850)\n* chore(deps): update dependency jsonextensions to 1.2.2 by [@renovate[bot]](https://github.com/apps/renovate) in [#851](https://github.com/LizardByte/Themerr-jellyfin/pull/851)\n* chore(deps): update dependency jsonextensions to 1.2.3 by [@renovate[bot]](https://github.com/apps/renovate) in [#854](https://github.com/LizardByte/Themerr-jellyfin/pull/854)\n* chore(l10n): update translations by [@LizardByte-bot](https://github.com/LizardByte-bot) in [#856](https://github.com/LizardByte/Themerr-jellyfin/pull/856)\n* chore(deps): update official github actions to v7 by [@renovate[bot]](https://github.com/apps/renovate) in [#857](https://github.com/LizardByte/Themerr-jellyfin/pull/857)\n* chore(deps): update vstest monorepo by [@renovate[bot]](https://github.com/apps/renovate) in [#861](https://github.com/LizardByte/Themerr-jellyfin/pull/861)\n* chore(deps): update official github actions by [@renovate[bot]](https://github.com/apps/renovate) in [#862](https://github.com/LizardByte/Themerr-jellyfin/pull/862)\n* chore(deps): update lizardbyte/actions action to v2026.625.20301 by [@renovate[bot]](https://github.com/apps/renovate) in [#864](https://github.com/LizardByte/Themerr-jellyfin/pull/864)\n* chore(deps): update actions/setup-dotnet action to v5.4.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#865](https://github.com/LizardByte/Themerr-jellyfin/pull/865)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.28.0.143324 by [@renovate[bot]](https://github.com/apps/renovate) in [#867](https://github.com/LizardByte/Themerr-jellyfin/pull/867)\n* chore(deps): update astral-sh/setup-uv action to v8.3.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#868](https://github.com/LizardByte/Themerr-jellyfin/pull/868)\n* chore(deps): update astral-sh/setup-uv action to v8.3.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#869](https://github.com/LizardByte/Themerr-jellyfin/pull/869)\n* chore(deps): update astral-sh/setup-uv action to v8.3.2 by [@renovate[bot]](https://github.com/apps/renovate) in [#870](https://github.com/LizardByte/Themerr-jellyfin/pull/870)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.29.0.143774 by [@renovate[bot]](https://github.com/apps/renovate) in [#871](https://github.com/LizardByte/Themerr-jellyfin/pull/871)\n* chore: add sonar property files by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#872](https://github.com/LizardByte/Themerr-jellyfin/pull/872)\n* chore: exclude third-party code from Sonar tests by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#873](https://github.com/LizardByte/Themerr-jellyfin/pull/873)\n* chore(deps): update dependency microsoft.net.test.sdk to 18.8.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#874](https://github.com/LizardByte/Themerr-jellyfin/pull/874)\n* chore(deps): update dependency microsoft.net.test.sdk to 18.8.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#875](https://github.com/LizardByte/Themerr-jellyfin/pull/875)\n* chore(deps): update actions/setup-dotnet action to v6 by [@renovate[bot]](https://github.com/apps/renovate) in [#876](https://github.com/LizardByte/Themerr-jellyfin/pull/876)\n* chore(deps): update actions/setup-python action to v7 by [@renovate[bot]](https://github.com/apps/renovate) in [#877](https://github.com/LizardByte/Themerr-jellyfin/pull/877)\n* chore(deps): update actions/checkout action to v7.0.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#878](https://github.com/LizardByte/Themerr-jellyfin/pull/878)\n* chore(deps): update astral-sh/setup-uv action to v9 by [@renovate[bot]](https://github.com/apps/renovate) in [#879](https://github.com/LizardByte/Themerr-jellyfin/pull/879)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.30.0.144632 by [@renovate[bot]](https://github.com/apps/renovate) in [#880](https://github.com/LizardByte/Themerr-jellyfin/pull/880)\n* docs: consolidate readme and standardize to LizardByte standards by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#881](https://github.com/LizardByte/Themerr-jellyfin/pull/881)\n* chore(deps): update lizardbyte/actions action to v2026.728.214955 by [@renovate[bot]](https://github.com/apps/renovate) in [#883](https://github.com/LizardByte/Themerr-jellyfin/pull/883)\n* chore(deps): update dependency rstcheck to v6.3.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#882](https://github.com/LizardByte/Themerr-jellyfin/pull/882)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.31.0.145097 by [@renovate[bot]](https://github.com/apps/renovate) in [#884](https://github.com/LizardByte/Themerr-jellyfin/pull/884)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#885](https://github.com/LizardByte/Themerr-jellyfin/pull/885)\n* chore(deps): update dependency youtubeexplode to 6.6.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#886](https://github.com/LizardByte/Themerr-jellyfin/pull/886)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#887](https://github.com/LizardByte/Themerr-jellyfin/pull/887)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.32.0.713 by [@renovate[bot]](https://github.com/apps/renovate) in [#888](https://github.com/LizardByte/Themerr-jellyfin/pull/888)\n* chore(deps): update astral-sh/setup-uv action to v10 by [@renovate[bot]](https://github.com/apps/renovate) in [#889](https://github.com/LizardByte/Themerr-jellyfin/pull/889)\n* chore(deps): update astral-sh/setup-uv action to v10.0.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#890](https://github.com/LizardByte/Themerr-jellyfin/pull/890)\n* chore(deps): update dependency microsoft.net.test.sdk to 18.9.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#891](https://github.com/LizardByte/Themerr-jellyfin/pull/891)\n* chore(deps): update dependency xunit.runner.visualstudio to v4 by [@renovate[bot]](https://github.com/apps/renovate) in [#892](https://github.com/LizardByte/Themerr-jellyfin/pull/892)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#893](https://github.com/LizardByte/Themerr-jellyfin/pull/893)\n* chore: update global workflows by [@LizardByte-bot](https://github.com/LizardByte-bot) in [#894](https://github.com/LizardByte/Themerr-jellyfin/pull/894)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.33.0.1635 by [@renovate[bot]](https://github.com/apps/renovate) in [#895](https://github.com/LizardByte/Themerr-jellyfin/pull/895)\n* fix: theme backup path handling by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#896](https://github.com/LizardByte/Themerr-jellyfin/pull/896)\n* chore(deps): update dependency youtubeexplode to 6.6.2 by [@renovate[bot]](https://github.com/apps/renovate) in [#897](https://github.com/LizardByte/Themerr-jellyfin/pull/897)\n* chore(deps): update lizardbyte/actions action to v2026.829.140353 by [@renovate[bot]](https://github.com/apps/renovate) in [#898](https://github.com/LizardByte/Themerr-jellyfin/pull/898)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#899](https://github.com/LizardByte/Themerr-jellyfin/pull/899)\n* build(docker): move config to bake file by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#901](https://github.com/LizardByte/Themerr-jellyfin/pull/901)\n* chore(deps): update lizardbyte/actions action to v2026.905.43751 by [@renovate[bot]](https://github.com/apps/renovate) in [#903](https://github.com/LizardByte/Themerr-jellyfin/pull/903)\n* chore: update global workflows by [@LizardByte-bot](https://github.com/LizardByte-bot) in [#904](https://github.com/LizardByte/Themerr-jellyfin/pull/904)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#906](https://github.com/LizardByte/Themerr-jellyfin/pull/906)\n* chore(deps): update dependency microsoft.net.test.sdk to 18.10.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#909](https://github.com/LizardByte/Themerr-jellyfin/pull/909)\n* chore(deps): update dependency sonaranalyzer.csharp to 10.34.0.3385 by [@renovate[bot]](https://github.com/apps/renovate) in [#910](https://github.com/LizardByte/Themerr-jellyfin/pull/910)\n* chore(deps): update lizardbyte/actions action to v2026.909.30231 by [@renovate[bot]](https://github.com/apps/renovate) in [#912](https://github.com/LizardByte/Themerr-jellyfin/pull/912)\n* chore(deps): update astral-sh/setup-uv action to v10.1.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#911](https://github.com/LizardByte/Themerr-jellyfin/pull/911)\n* chore(deps): lock file maintenance by [@renovate[bot]](https://github.com/apps/renovate) in [#913](https://github.com/LizardByte/Themerr-jellyfin/pull/913)\n* chore(deps): update codecov/codecov-action action to v7.1.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#914](https://github.com/LizardByte/Themerr-jellyfin/pull/914)\n* feat: Jellyfin 12 support by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#915](https://github.com/LizardByte/Themerr-jellyfin/pull/915)\n* chore(deps): update dependency jellyfin.controller to 12.1.0 by [@renovate[bot]](https://github.com/apps/renovate) in [#907](https://github.com/LizardByte/Themerr-jellyfin/pull/907)\n* chore(deps): update dependency microsoft.net.test.sdk to 18.10.1 by [@renovate[bot]](https://github.com/apps/renovate) in [#916](https://github.com/LizardByte/Themerr-jellyfin/pull/916)\n* chore: migrate to xunit v3 by [@ReenigneArcher](https://github.com/ReenigneArcher) in [#917](https://github.com/LizardByte/Themerr-jellyfin/pull/917)\n\n\n**Full Changelog**: https://github.com/LizardByte/Themerr-jellyfin/compare/v2026.601.2038.13...v2026.915.1549.59\n\n---\n## Contributors\n<a href=\"https://github.com/apps/renovate\" target=\"_blank\" rel=\"external noopener noreferrer\" aria-label=\"GitHub profile of contributor, renovate[bot]\" ><img src=\"https://avatars.githubusercontent.com/in/2740?size=40\" width=\"40\" height=\"40\" alt=\"renovate[bot]\" title=\"renovate[bot]: 51 merges\" ></a><a href=\"https://github.com/ReenigneArcher\" target=\"_blank\" rel=\"external noopener noreferrer\" aria-label=\"GitHub profile of contributor, ReenigneArcher\" ><img src=\"https://github.com/ReenigneArcher.png?size=40\" width=\"40\" height=\"40\" alt=\"ReenigneArcher\" title=\"ReenigneArcher: 8 merges\" ></a><a href=\"https://github.com/LizardByte-bot\" target=\"_blank\" rel=\"external noopener noreferrer\" aria-label=\"GitHub profile of contributor, LizardByte-bot\" ><img src=\"https://github.com/LizardByte-bot.png?size=40\" width=\"40\" height=\"40\" alt=\"LizardByte-bot\" title=\"LizardByte-bot: 3 merges\" ></a>\n",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.1.1.0/continue-watching_1.1.1.0.zip",
-        "checksum": "7c8e91a2fc51f75ddfbbb97c86257313",
-        "timestamp": "2026-09-16T10:45:28Z"
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2026.915.1549.59/themerr-jellyfin.zip",
+        "checksum": "a30b0dc65f157b6115355e255567f9f6",
+        "timestamp": "2026-09-15T15:51:07Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "Add support for Jellyfin v12.0-rc2\n",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.1.0.0/continue-watching_1.1.0.0.zip",
-        "checksum": "876ea6b97c860bd9fbe0d941b9d5e55f",
-        "timestamp": "2026-06-29T18:40:37Z"
-      },
-      {
-        "version": "1.0.1.0",
-        "changelog": "Initial release\n",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/tim-vu/jellyfin-plugin-continue-watching/releases/download/v1.0.1.0/continue-watching_1.0.1.0.zip",
-        "checksum": "e154f9174d1f4464ab0ad6598941be72",
-        "timestamp": "2026-06-28T20:05:28Z"
-      }
-    ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
-  },
-  {
-    "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
-    "name": "Jellyfin Helper [✓]",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
-    "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
-    "owner": "JellyPlugins",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinHelper.webp",
-    "versions": [
-      {
-        "version": "3.0.0.4",
-        "changelog": "v3.0.0.4 - Per-library file counts, boxset link fix\n\n- The Per-Library Breakdown now shows a file count below every size value (trickplay folders included), so sparse and dense libraries are distinguishable at a glance\n- Boxset library rows no longer link into the Library Explorer, whose scope excludes boxsets; they render as plain text instead of opening an empty state\n- Every task dropdown in Settings now explains what the task does, via an info button next to each task name, in all dashboard languages\n- The Overview Trickplay card now also shows the space used by trickplay images Jellyfin stores internally, on its own line below the alongside-media total, marked with an (internal) badge, or as the headline when no alongside data exists\n- Compact log view on phones: log entries stack as cards below 700 px instead of squeezing into a four-column table, so no horizontal scrolling is needed, and rows keep breathing room at the screen edges\n- Roomier Library Explorer filter popovers on phones using nearly the full viewport width, like the bitrate editor\n- Tested by 6219 unit tests and 352 end-to-end tests\n- Requires Jellyfin 12.1 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.4/JellyfinHelper_3.0.0.4.zip",
-        "checksum": "a4510319c8f330e427a8d26cf3d0745f",
-        "timestamp": "2026-09-26T21:37:58Z"
-      },
-      {
-        "version": "3.0.0.3",
-        "changelog": "v3.0.0.3 - Library Explorer, new Codecs breakdowns, disabled users ignored\n\n- The Codecs tab now has a Library Explorer: combine resolution, codecs, bitrate, languages, watched users and formats into one search, scoped to the libraries you pick in its multi-select, so you can find e.g. all 4K films with low bitrate\n- Options with zero matches under the other filters are hidden automatically, dimensions without matches stay greyed out, and multi-value dropdowns accept several audio languages, subtitle languages or users at once\n- Every active filter is shown in the result header and a Reset button clears the whole search; results arrive as the familiar grouped file tree with Movies, TV Shows and other sections\n- Jump straight into the search from the Overview: each library name and all four media cards open the Explorer pre-filtered to that scope\n- Every categorical filter can be negated with Includes/Excludes, so you can search e.g. audio languages that are not German; excluded picks show as ≠ pills and counts preview what stays\n- Four new breakdowns in the Codecs tab, each with drill-down to the exact files: Video Bitrate (7 tiers from < 2 to > 60 Mbps), Audio Languages, Subtitle Languages and Watched (by username plus Never watched)\n- Each bitrate tier uses what Jellyfin measured for the video stream; when a file has no per-stream value the average is estimated from its size and runtime, so almost every file lands in a real tier instead of Unknown\n- Disabled Jellyfin users no longer skew results: their old plays are excluded from Smart Recommendations, watch history and the new Watched breakdown\n- Long breakdowns start collapsed behind a Show-all toggle with Unknown always last, and unreadable language tags fold into Unknown instead of junk entries\n- Added responsive, independently scrollable library result cards.\n- Improved compact layouts for mobile controls.\n- Added consistent themed scrollbar styling across plugin panels and lists.\n- The Overview Per-Library Breakdown has a new Other column per library covering NFO files, text files and other unrecognized sidecar files, plus a Books column whenever a book library exists, so every row adds up exactly to its Total\n- Tested by 6169 unit tests and 341 end-to-end tests\n- Requires Jellyfin 12.1 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.3/JellyfinHelper_3.0.0.3.zip",
-        "checksum": "e0de64922c90495a3733ef2f554edb4a",
-        "timestamp": "2026-09-24T15:19:11Z"
-      },
-      {
-        "version": "3.0.0.2",
-        "changelog": "v3.0.0.2 - Log tab, save bar, resolution and touch fixes\n\n- Clearing the plugin log no longer briefly shows a false \"Failed to clear logs.\" error: the Clear button now confirms success immediately and refreshes the view right away\n- Genuine clear failures (e.g. expired session or server error) now write a structured diagnostic to the browser console with the HTTP status and error kind, alongside the visible red button feedback, so a real problem is never silent\n- Save bar no longer crowds on phones: the unsaved-changes label and Save button now stack on narrow screens, so long translations like the German \"Nicht gespeichert\" are no longer cut off\n- Widescreen films are counted at their real resolution: cinemascope masters like 1920x800 or 1920x1040 are now correctly shown as 1080p instead of 720p in the Codecs tab, decided by whichever axis reaches a resolution class\n- The resolution drill-down now lists each file's exact pixel dimensions (e.g. 1920x800) next to its name, readable on desktop and phones\n- Chart tooltips work reliably on touch: the first tap on the Trends chart or a Codecs ring now shows and keeps the tooltip instead of flashing it away, and a second tap on the same Codecs segment closes it\n- The save confirmation only appears after a real save: reverting a setting back to its original value no longer briefly shows \"All changes saved\"\n- Tested by 5535 unit tests and 320 end-to-end tests\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.2/JellyfinHelper_3.0.0.2.zip",
-        "checksum": "974ff1d2c486431f2cac0b9a79e9d2e6",
-        "timestamp": "2026-09-14T09:43:18Z"
-      },
-      {
-        "version": "3.0.0.1",
-        "changelog": "v3.0.0.1 - Per-instance library allocation for Arr\n\n- Assign specific Jellyfin libraries to each Radarr/Sonarr instance, so the Arr tab compares an instance only against the libraries it manages\n- With two or more instances of a type, each gets a picker in Settings listing only the matching kind of library (movies for Radarr, TV for Sonarr)\n- Leave a picker empty to keep it automatic: instances are matched to libraries from their root folders\n- Assignments are kept across backup and restore\n- Fixes a 4K instance flagging every 1080p film as \"not in Radarr\"\n- Tested by 5499 unit tests and 318 end-to-end tests\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.1/JellyfinHelper_3.0.0.1.zip",
-        "checksum": "9947381e815c9c6e4d1efeb5dfe58f4a",
-        "timestamp": "2026-09-09T18:48:52Z"
-      },
-      {
-        "version": "3.0.0.0",
-        "changelog": "v3.0.0.0 - Major release for Jellyfin 12.0+\n\n- Books in your library overview: eBook libraries now show their size and file count on the Overview tab and count towards your storage totals, and they're always protected from every cleanup task\n- Smarter recommendations: a much bigger model, fairer suggestions for brand-new users, and more variety in your top picks (no more ten near-identical films in a row)\n- Recommendations now also learn from franchises/collections, country of origin, collection & folder themes, whether a series is finished or ongoing, writers/creators, top-billed cast, and how rare a genre or studio is in your library (each signal is optional per item, so missing metadata never skews a pick)\n- Fresh picks appear between nightly runs, and faster generation on big libraries\n- Redesigned Settings, Health and Arr tabs with a live 'reachable' indicator, plus a sticky save bar and unsaved-changes warning\n- Better on phones\n- Stronger security: API keys are never shown to the browser, backups can leave keys out, and cleanup can never delete or touch anything outside your media libraries\n- Safer trash and cleanup: turning retention off really turns it off, trashing a shortcut never removes the file it points to, and Windows shortcut handling is fixed\n- More accurate library stats and safer Seerr request cleanup\n- More reliable saves and backups (no more rare 'lost save' when antivirus is scanning)\n- New end-to-end test suite runs the plugin inside a real Jellyfin 12 server on every change and proves cleanup stays inside your libraries\n- Note: your recommendation model retrains from scratch after upgrading, so suggestions settle back in over the next scheduled runs\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.0/JellyfinHelper_3.0.0.0.zip",
-        "checksum": "da00c2314b5d665c0746041ec5f08323",
-        "timestamp": "2026-09-08T23:09:52Z"
-      },
-      {
-        "version": "2.1.0.6",
-        "changelog": "v2.1.0.6: Diagnostics for reverse-proxy / WAF-blocked config saves. Added GET /JellyfinHelper/Ping liveness endpoint. Configuration model-binding and validation errors are now logged to the plugin log (source \"API\", level WARN) instead of silently returning 400. Frontend save handler now classifies errors (network / proxy / server / unauthorized) and surfaces the HTTP status and body snippet to the console, with an automatic Ping follow-up to distinguish \"backend unreachable\" from \"backend reachable, payload rejected\". 2325 tests.",
+        "version": "2026.601.2038.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
         "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.6/JellyfinHelper_2.1.0.6.zip",
-        "checksum": "bb4a4d1a8e8281f0cc96e878ff071f91",
-        "timestamp": "2026-07-20T13:23:43Z"
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2026.601.2038.13/themerr-jellyfin.zip",
+        "checksum": "f864ca9cfdc17736df1e18da22920f96",
+        "timestamp": "2026-06-01T20:38:13Z"
       },
       {
-        "version": "2.1.0.5",
-        "changelog": "v2.1.0.5: Fix StackOverflow on circular symlinks in directory scan. Fix IOException on long trash path names. Added Swedish (sv) language. Exclude Libraries multi-select dropdown. Trash folder browser. Trash path change dialog (move/delete content on path change). Enhanced trash path validation. Upgraded to Jellyfin 10.11.10. 2318 tests.",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.5/JellyfinHelper_2.1.0.5.zip",
-        "checksum": "47c4e0728823b2deeebae422219af89c",
-        "timestamp": "2026-06-03T23:24:10Z"
+        "version": "2026.428.1753.46",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2026.428.1753.46/themerr-jellyfin.zip",
+        "checksum": "95fc57bba930949f1acea1e320e8eb2c",
+        "timestamp": "2026-04-28T17:53:46Z"
       },
       {
-        "version": "2.1.0.4",
-        "changelog": "v2.1.0.4: Fix MissingMethodException for IUserManager.Users.",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.4/JellyfinHelper_2.1.0.4.zip",
-        "checksum": "56c03554f5f4e36f3527a273a324a00e",
-        "timestamp": "2026-05-25T09:39:14Z"
+        "version": "2024.523.2124.32",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.523.2124.32/themerr-jellyfin.zip",
+        "checksum": "032f4780aac31526d30a556cbafdfb1f",
+        "timestamp": "2024-05-23T21:55:01Z"
       },
       {
-        "version": "2.1.0.3",
-        "changelog": "v2.1.0.3: Add TMDB and Seerr deep links on discovery card flip-back (opens system browser on mobile). Fix 400 Bad Request when submitting discovery requests on Seerr instances with 0-based server IDs. Fix duplicate quality profiles in selection popup for users with multiple root folders. Add graceful error handling for Jellyfin version incompatibility in watch history collection. 2206 tests",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.3/JellyfinHelper_2.1.0.3.zip",
-        "checksum": "09e306c9584d7ff514da42c300c0c447",
-        "timestamp": "2026-05-21T11:09:46Z"
+        "version": "2024.519.1836.29",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.519.1836.29/themerr-jellyfin.zip",
+        "checksum": "191891e95d57ba2c63e085634a612224",
+        "timestamp": "2024-05-19T18:37:41Z"
       },
       {
-        "version": "2.1.0.2",
-        "changelog": "v2.1.0.2: Improved Discovery Sidebar Navigation - tab layout can show more than 5 recommendations in one row now. Automatically reloading next recommendation after one was dismissed or requested.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.2/JellyfinHelper_2.1.0.2.zip",
-        "checksum": "d5e41be1c231408b466b86da760ed439",
-        "timestamp": "2026-05-18T13:06:12Z"
+        "version": "2024.519.1512.33",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.519.1512.33/themerr-jellyfin.zip",
+        "checksum": "d7ed00d15338e385b225e8a300e48e2e",
+        "timestamp": "2024-05-19T15:23:01Z"
       },
       {
-        "version": "2.1.0.1",
-        "changelog": "v2.1.0.1: Fix Discovery sidebar navigation - tab is now found dynamically by container index regardless of user-configured tab name, instead of relying on exact text match.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.1/JellyfinHelper_2.1.0.1.zip",
-        "checksum": "fa7493861f94c8997e0b5c0fd65eec19",
-        "timestamp": "2026-05-18T00:14:00Z"
+        "version": "2024.518.2054.48",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2054.48/themerr-jellyfin.zip",
+        "checksum": "d36f1d416bb5f7f1f36fdda6db837027",
+        "timestamp": "2024-05-18T20:55:44Z"
       },
       {
-        "version": "2.1.0.0",
-        "changelog": "v2.1.0.0: Seerr Discovery - personalized external content recommendations via Overseerr/Jellyseerr with ensemble scoring, one-click request submission, parental rating enforcement, language-based discovery, and Arr library exclusion. 2190 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.0/JellyfinHelper_2.1.0.0.zip",
-        "checksum": "83a12452b68cf45bcc8710fcc6391f22",
-        "timestamp": "2026-05-17T08:53:55Z"
+        "version": "2024.518.2043.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2043.13/themerr-jellyfin.zip",
+        "checksum": "863d2f20a3ece66d2c2087d8d20f3700",
+        "timestamp": "2024-05-18T20:44:08Z"
       },
       {
-        "version": "2.0.0.3",
-        "changelog": "v2.0.0.3: Instance-based Arr config (legacy removed), persistent language/log-level. Recommendations add audio language & creation date, subtitle language affinity, collection progression boost; meaningful-interaction watched predicates. Centralized popularity scoring, richer training features (31-feature vector), series aggregation, weight schema bump. Neural MLP upgraded to 4-hidden-layer architecture (31→48→24→12→6→1, ~3097 params). Training refactored into TrainingDataBuilder + TrainingFeatureComputer. A/B testing cohort infrastructure with deterministic user bucketing and adaptive sigmoid midpoint. 2124 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.3/JellyfinHelper_2.0.0.3.zip",
-        "checksum": "79a52c37d75a44ce5fc6ecb824558f68",
-        "timestamp": "2026-05-08T22:57:43Z"
+        "version": "2024.518.2031.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2031.24/themerr-jellyfin.zip",
+        "checksum": "434b82136de3c0e729cac4286a49cf80",
+        "timestamp": "2024-05-18T20:32:31Z"
       },
       {
-        "version": "2.0.0.2",
-        "changelog": "v2.0.0.2: Replaced decorative emojis with Material Symbols font icons for consistent cross-platform rendering. Standardized dash punctuation. Fixed subtitle orphan detection to avoid false deletions. 2110 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.2/JellyfinHelper_2.0.0.2.zip",
-        "checksum": "efd156d832dbe80592d006ede100030e",
-        "timestamp": "2026-05-03T19:50:13Z"
+        "version": "2024.518.2019.25",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.2019.25/themerr-jellyfin.zip",
+        "checksum": "7642ac0637394747c5c03f095ef37f45",
+        "timestamp": "2024-05-18T20:20:20Z"
       },
       {
-        "version": "2.0.0.1",
-        "changelog": "v2.0.0.1: UI improvement - Recommendations and Watch Activity sections in the Discover tab are now collapsible. Collapsible state is preserved on user switch. 2032 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.1/JellyfinHelper_2.0.0.1.zip",
-        "checksum": "b7a1f2ddbd15f16528a8300dd9586024",
-        "timestamp": "2026-04-28T10:45:51Z"
+        "version": "2024.518.1833.47",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.1833.47/themerr-jellyfin.zip",
+        "checksum": "cb6fcef0af70a20e10223b8cf71b494f",
+        "timestamp": "2024-05-18T18:35:06Z"
       },
       {
-        "version": "2.0.0.0",
-        "changelog": "v2.0.0.0: New Discover tab using an ensemble ML model to provide tailored content recommendations. This update also introduces granular activity tracking and improved system cleanup for uninstallation of this plugin. 2032 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.0/JellyfinHelper_2.0.0.0.zip",
-        "checksum": "5a8d6b807d5bef56236a09ff54f35613",
-        "timestamp": "2026-04-27T21:30:41Z"
+        "version": "2024.518.1505.3",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.518.1505.3/themerr-jellyfin.zip",
+        "checksum": "703334b02b9760a49c8a79edc673e9fe",
+        "timestamp": "2024-05-18T18:26:36Z"
       },
       {
-        "version": "1.2.1.0",
-        "changelog": "v1.2.1.0: Statistics refactored to use Jellyfin MediaStream metadata (replaces filename parsing). Dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR). Extended resolution classification (8K, 1440p, SD). Differentiated audio codecs (TrueHD Atmos, DTS-X, DTS-HD MA, EAC3 Atmos). Donut chart enhancements with dynamic range visualization. Library Insights in Trends tab (top-10 largest directories, recently added/changed items, per-library size breakdown with 15-min cache). Performance improvement via per-item video stream caching. Documentation updated.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.2.1.0/JellyfinHelper_1.2.1.0.zip",
-        "checksum": "e47c75ff602b90c3f0c2bc3c089ceadc",
-        "timestamp": "2026-04-20T19:10:33Z"
+        "version": "2024.515.2109.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.2109.23/themerr-jellyfin.zip",
+        "checksum": "ff892d9bfb988d61ba4a47f17db10990",
+        "timestamp": "2024-05-15T21:10:43Z"
       },
       {
-        "version": "1.2.0.0",
-        "changelog": "v1.2.0.0: Seerr Cleanup Task (scheduled cleanup of unavailable Overseerr/Jellyseerr media requests), Unsaved Settings Alert (dirty-tracking with discard/save/cancel dialog), Collapsible Arr/Seerr sections with dynamic instance count, Auto-Save Dropdowns (task modes + language save instantly with checkmark/cross indicator), Link Repair enhanced with symlink support, Auto-Init Scan on first visit, Scroll Position Restore after language change and backup import, 4-part versioning, meta.json fixes.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.2.0.0/JellyfinHelper_1.2.0.0.zip",
-        "checksum": "5db872edebdcdd0c8af06091ebd0276e",
-        "timestamp": "2026-04-19T22:12:46Z"
+        "version": "2024.515.232.46",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.232.46/themerr-jellyfin.zip",
+        "checksum": "05f406743b542c55680e3f6c88611665",
+        "timestamp": "2024-05-15T02:34:10Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "v1.1.0: Performance optimizations for GrowthTimelineService and BackupService, refactored monolith services, improved cross-platform compatibility, Trends UI enhancements.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.1.0/JellyfinHelper_1.1.0.zip",
-        "checksum": "f1c5e06566bc63706e49308682b6b700",
-        "timestamp": "2026-04-16T11:00:11Z"
+        "version": "2024.515.221.18",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.515.221.18/themerr-jellyfin.zip",
+        "checksum": "ca9e51391e422a84a13c989799653631",
+        "timestamp": "2024-05-15T02:22:34Z"
       },
       {
-        "version": "1.0.9.0",
-        "changelog": "v1.0.9: Removed legacy statistics history (replaced by growth timeline), removed Export/CSV endpoints, new StatisticsCacheService, legacy history file cleanup, growth timeline interpolation & deduplication, reduced backup size limit, 957 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.9/JellyfinHelper_1.0.9.zip",
-        "checksum": "df0410a3b9c8fde90dbd4932dff0802f",
-        "timestamp": "2026-04-15T20:37:15Z"
+        "version": "2024.514.151.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.151.24/themerr-jellyfin.zip",
+        "checksum": "ae16e7fe7d4a1e4b6b5a0e986448ce9c",
+        "timestamp": "2024-05-14T01:52:22Z"
       },
       {
-        "version": "1.0.8.0",
-        "changelog": "v1.0.8: Project restructure, bug fix for Jellyfin versions below 10.11.8, backup/restore data, enhanced TrendChart, relocated download buttons, responsive Data Tree for touch devices.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.8/JellyfinHelper_1.0.8.zip",
-        "checksum": "6031a9160a5b4690c5cd2b5d8d813770",
-        "timestamp": "2026-04-12T23:09:21Z"
+        "version": "2024.514.143.19",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.143.19/themerr-jellyfin.zip",
+        "checksum": "bee2ce1519af7cc86a0a081a0df13879",
+        "timestamp": "2024-05-14T01:44:15Z"
       },
       {
-        "version": "1.0.7.0",
-        "changelog": "v1.0.7: Added i18n support (EN, DE, FR, ES, PT, TR, ZH), scheduled task for cleaning empty media folders, trend chart visualization, configurable intervals, and automatic plugin data directory creation.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/v1.0.7/jellyfin-helper-v1.0.7.zip",
-        "checksum": "e6c9ef9ee4e80ffdd57d8bd5ea64f3ca",
-        "timestamp": "2026-04-12T00:00:00Z"
+        "version": "2024.514.137.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.137.50/themerr-jellyfin.zip",
+        "checksum": "156ba6fcc2b449130a033eaeda13dbf9",
+        "timestamp": "2024-05-14T01:39:09Z"
       },
       {
-        "version": "1.0.6.0",
-        "changelog": "Exclude trash folders from media statistics, fix false positives for orphaned TV show metadata directories, fix trash disable dialog in UI.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.6/JellyfinHelper_1.0.6.zip",
-        "checksum": "7b4e031de54e48169f61bcef0626e775",
-        "timestamp": "2026-04-11T17:10:31Z"
+        "version": "2024.514.129.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.514.129.10/themerr-jellyfin.zip",
+        "checksum": "a086180ca8e2dcfd36b10fb1685305e7",
+        "timestamp": "2024-05-14T01:30:19Z"
       },
       {
-        "version": "1.0.5.0",
-        "changelog": "Multi-instance Arr support (up to 3 Radarr + 3 Sonarr), Arr connection test endpoint, persisted latest scan results (survives restarts), post-cleanup statistics scan, embedded subtitle detection in health checks, video vs music audio codec split, codec file path tracking with clickable drill-down, trash contents detail API, trash folder management UI, trash disable dialog, other file tracking, 6-tab modular dashboard (Overview/Codecs/Health/Trends/Settings/Arr), modular CSS/JS build system, XSS protection, boxset/collection health check skipping, comprehensive README rewrite, 573 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.5/JellyfinHelper_1.0.5.zip",
-        "checksum": "f811857ca8f2854a396faa35a5957f5c",
-        "timestamp": "2026-04-11T10:39:47Z"
+        "version": "2024.513.2336.57",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.513.2336.57/themerr-jellyfin.zip",
+        "checksum": "06c18ea3dff6351db6f58a8527b3ea88",
+        "timestamp": "2024-05-13T23:38:02Z"
       },
       {
-        "version": "1.0.4.0",
-        "changelog": "Added STRM file repair task, unified TaskMode system (Activate/DryRun/Deactivate per task), single master HelperCleanupTask replacing separate scheduled tasks, fixed ConfigVersion not preserved on settings save, fixed DI resolution for System.IO.Abstractions.IFileSystem, updated README, 315 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.4/JellyfinHelper_1.0.4.zip",
-        "checksum": "057cbe0ba5230891facb10d406a64e89",
-        "timestamp": "2026-04-10T00:41:12Z"
+        "version": "2024.511.1724.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.511.1724.56/themerr-jellyfin.zip",
+        "checksum": "d1ca7eb895cb862421f58ec3552531a2",
+        "timestamp": "2024-05-11T17:26:10Z"
       },
       {
-        "version": "1.0.3.0",
-        "changelog": "Fixed plugin logo 404 (logo.png now included as physical file in release ZIP with meta.json imagePath), fixed SanitizeFileName null-char handling, removed duplicate Cleanup Statistics UI section, removed unused GetThumbImage method, 244 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.3/JellyfinHelper_1.0.3.zip",
-        "checksum": "8048090e6fae31fa5f01c8c162aaeaaa",
-        "timestamp": "2026-04-09T10:13:08Z"
+        "version": "2024.511.34.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.511.34.40/themerr-jellyfin.zip",
+        "checksum": "86197663cf007db6770dbcffa4e7dc3f",
+        "timestamp": "2024-05-11T00:35:52Z"
       },
       {
-        "version": "1.0.2.0",
-        "changelog": "Fixed subtitle false positives (explicit ISO 639 allowlists instead of naive 2-3 letter heuristic), moved SubtitleFlags/KnownLanguageCodes to MediaExtensions, ArrIntegrationService now uses IHttpClientFactory, CleanupTrackingService thread-safety with lock, specific exception handling, removed _ = ex anti-pattern, 244 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.2/JellyfinHelper_1.0.2.zip",
-        "checksum": "d6c4d7e3213d3981e519b41890ba4739",
-        "timestamp": "2026-04-09T08:22:10Z"
+        "version": "2024.510.2327.42",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2327.42/themerr-jellyfin.zip",
+        "checksum": "c3e6f4758e0cf5b0748e1d10e02af033",
+        "timestamp": "2024-05-10T23:28:51Z"
       },
       {
-        "version": "1.0.1.0",
-        "changelog": "Fixed config page not loading (script/style tags moved inside page div), plugin now visible in Jellyfin sidebar menu with EnableInMainMenu, updated test count to 212.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.1/JellyfinHelper_1.0.1.zip",
-        "checksum": "d0bde3e8ee7518c59a1f9fbb4ac79fd7",
-        "timestamp": "2026-04-09T07:20:04Z"
+        "version": "2024.510.2320.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2320.6/themerr-jellyfin.zip",
+        "checksum": "38c9efe05fba9814f48104844ef11a5f",
+        "timestamp": "2024-05-10T23:21:03Z"
       },
       {
-        "version": "1.0.0.0",
-        "changelog": "Initial release with trickplay folder cleanup, empty media folder cleanup, orphaned subtitle cleaner, media statistics dashboard, audio codec analysis, export (JSON/CSV), historical trends, trash/recycle bin, Arr stack integration (Radarr/Sonarr), multi-language dashboard (en/de/fr/es/pt/zh/tr), library include/exclude lists, and 196 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.0/JellyfinHelper_1.0.0.zip",
-        "checksum": "9a9318edad522d5f631275a02554ecf4",
-        "timestamp": "2026-04-09T06:33:31Z"
+        "version": "2024.510.2258.28",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2258.28/themerr-jellyfin.zip",
+        "checksum": "8327bc65680fccf88877f60fb7f307ae",
+        "timestamp": "2024-05-10T22:59:43Z"
+      },
+      {
+        "version": "2024.510.2226.2",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2226.2/themerr-jellyfin.zip",
+        "checksum": "d2f85146174b48cedcbfcc5f3ab0f7da",
+        "timestamp": "2024-05-10T22:26:56Z"
+      },
+      {
+        "version": "2024.510.2200.22",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2200.22/themerr-jellyfin.zip",
+        "checksum": "67496aeaff807581ebcbc4744184a043",
+        "timestamp": "2024-05-10T22:01:35Z"
+      },
+      {
+        "version": "2024.510.2148.54",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2148.54/themerr-jellyfin.zip",
+        "checksum": "f4bc4629211cdee5f117a62f2bf1deb2",
+        "timestamp": "2024-05-10T21:50:03Z"
+      },
+      {
+        "version": "2024.510.2120.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2120.23/themerr-jellyfin.zip",
+        "checksum": "76ad8c92dcd72025182b6b2b67854a2d",
+        "timestamp": "2024-05-10T21:21:26Z"
+      },
+      {
+        "version": "2024.510.2003.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.2003.50/themerr-jellyfin.zip",
+        "checksum": "3c5efb3d5b7218de1aa221bed88acb1b",
+        "timestamp": "2024-05-10T20:05:03Z"
+      },
+      {
+        "version": "2024.510.1948.49",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.1948.49/themerr-jellyfin.zip",
+        "checksum": "29506e8a1f87bdfba3a41df34b6c95dc",
+        "timestamp": "2024-05-10T19:50:29Z"
+      },
+      {
+        "version": "2024.510.1932.47",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.510.1932.47/themerr-jellyfin.zip",
+        "checksum": "d8eca57b890c8bdbd533c5f9577e96d9",
+        "timestamp": "2024-05-10T19:34:02Z"
+      },
+      {
+        "version": "2024.504.1503.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.504.1503.23/themerr-jellyfin.zip",
+        "checksum": "bf0719dfc1f56f0b0c3530e64be6092a",
+        "timestamp": "2024-05-04T15:04:35Z"
+      },
+      {
+        "version": "2024.419.48.57",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.419.48.57/themerr-jellyfin.zip",
+        "checksum": "12cce084987a7d3549ce43feeb005c8d",
+        "timestamp": "2024-04-19T00:50:06Z"
+      },
+      {
+        "version": "2024.325.1706.30",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.325.1706.30/themerr-jellyfin.zip",
+        "checksum": "8bba0d74c16aea465379c94d0b62d5a8",
+        "timestamp": "2024-03-25T17:07:42Z"
+      },
+      {
+        "version": "2024.324.2113.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.2113.53/themerr-jellyfin.zip",
+        "checksum": "752e4f174598f06d9593db53316a5b51",
+        "timestamp": "2024-03-24T21:14:53Z"
+      },
+      {
+        "version": "2024.324.1956.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1956.40/themerr-jellyfin.zip",
+        "checksum": "2053ba6adb29c23935b1a68de09bc4eb",
+        "timestamp": "2024-03-24T19:57:44Z"
+      },
+      {
+        "version": "2024.324.1949.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1949.50/themerr-jellyfin.zip",
+        "checksum": "f04b51a12b591b5a1ce60a4a498aece7",
+        "timestamp": "2024-03-24T19:50:55Z"
+      },
+      {
+        "version": "2024.324.1933.37",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1933.37/themerr-jellyfin.zip",
+        "checksum": "81777235766ae4ab931fef585f18d8db",
+        "timestamp": "2024-03-24T19:34:39Z"
+      },
+      {
+        "version": "2024.324.1924.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1924.50/themerr-jellyfin.zip",
+        "checksum": "a871893d1041c8ec60632f9c917c8b86",
+        "timestamp": "2024-03-24T19:25:49Z"
+      },
+      {
+        "version": "2024.324.1904.42",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1904.42/themerr-jellyfin.zip",
+        "checksum": "87e9b775c23e6e84c0af731fb56566c1",
+        "timestamp": "2024-03-24T19:05:39Z"
+      },
+      {
+        "version": "2024.324.1744.11",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1744.11/themerr-jellyfin.zip",
+        "checksum": "6621db4a7bd1f26bc1d360b8d026749f",
+        "timestamp": "2024-03-24T17:45:06Z"
+      },
+      {
+        "version": "2024.324.1720.15",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1720.15/themerr-jellyfin.zip",
+        "checksum": "ef7957df49e2c0bb0543df09dd4c5ea1",
+        "timestamp": "2024-03-24T17:21:13Z"
+      },
+      {
+        "version": "2024.324.1710.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.1710.53/themerr-jellyfin.zip",
+        "checksum": "372c78cb7ebb528167f11ac280e96017",
+        "timestamp": "2024-03-24T17:11:51Z"
+      },
+      {
+        "version": "2024.324.233.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.324.233.40/themerr-jellyfin.zip",
+        "checksum": "2276f4c85539f990826b045addf0a7e8",
+        "timestamp": "2024-03-24T02:34:38Z"
+      },
+      {
+        "version": "2024.323.2314.44",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.323.2314.44/themerr-jellyfin.zip",
+        "checksum": "d5a3896f93755eef1efc38780e00cb45",
+        "timestamp": "2024-03-23T23:16:13Z"
+      },
+      {
+        "version": "2024.210.232.20",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.210.232.20/themerr-jellyfin.zip",
+        "checksum": "ab726f1939a016fb40ade8eb72c72b74",
+        "timestamp": "2024-02-10T02:33:27Z"
+      },
+      {
+        "version": "2024.201.1515.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1515.56/themerr-jellyfin.zip",
+        "checksum": "357eb95e01663c202f1ce0db4d1496b5",
+        "timestamp": "2024-02-01T15:17:13Z"
+      },
+      {
+        "version": "2024.201.1507.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1507.40/themerr-jellyfin.zip",
+        "checksum": "60952b73b8fdf30097715143b8500644",
+        "timestamp": "2024-02-01T15:09:13Z"
+      },
+      {
+        "version": "2024.201.1449.56",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.201.1449.56/themerr-jellyfin.zip",
+        "checksum": "18a5dadcb02f06a45840c81a65f2985a",
+        "timestamp": "2024-02-01T15:06:06Z"
+      },
+      {
+        "version": "2024.113.1544.53",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.1544.53/themerr-jellyfin.zip",
+        "checksum": "aace32dbe6b86ecf41d86b27dda52165",
+        "timestamp": "2024-01-13T15:46:11Z"
+      },
+      {
+        "version": "2024.113.351.4",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.351.4/themerr-jellyfin.zip",
+        "checksum": "33e352c5a0192c724ff9b5d61ae890e9",
+        "timestamp": "2024-01-13T03:52:28Z"
+      },
+      {
+        "version": "2024.113.341.39",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.341.39/themerr-jellyfin.zip",
+        "checksum": "1ada7d44122d56aa24abd2a14accc9e2",
+        "timestamp": "2024-01-13T03:43:04Z"
+      },
+      {
+        "version": "2024.113.327.29",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.113.327.29/themerr-jellyfin.zip",
+        "checksum": "5bf15d87e98fb816bd86c827beae1d71",
+        "timestamp": "2024-01-13T03:28:48Z"
+      },
+      {
+        "version": "2024.112.1746.25",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.112.1746.25/themerr-jellyfin.zip",
+        "checksum": "d5642486e5ec93090946cfeaade6eca8",
+        "timestamp": "2024-01-12T17:47:59Z"
+      },
+      {
+        "version": "2024.112.249.37",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2024.112.249.37/themerr-jellyfin.zip",
+        "checksum": "77bd1cd16c7eda686329f7995f08350b",
+        "timestamp": "2024-01-12T02:50:55Z"
+      },
+      {
+        "version": "2023.1226.2254.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2254.10/themerr-jellyfin.zip",
+        "checksum": "562f22059f196dc0fae2d7de83dfd667",
+        "timestamp": "2023-12-26T22:55:22Z"
+      },
+      {
+        "version": "2023.1226.2220.18",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2220.18/themerr-jellyfin.zip",
+        "checksum": "5aa7562b2333b62db6c4e822c9fd7208",
+        "timestamp": "2023-12-26T22:21:29Z"
+      },
+      {
+        "version": "2023.1226.2207.46",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2207.46/themerr-jellyfin.zip",
+        "checksum": "653d3cced65ad7967e9a1f91baa1389a",
+        "timestamp": "2023-12-26T22:09:03Z"
+      },
+      {
+        "version": "2023.1226.2114.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1226.2114.6/themerr-jellyfin.zip",
+        "checksum": "12c3f809c33f59fa8ee1084e66f0f3c1",
+        "timestamp": "2023-12-26T21:15:19Z"
+      },
+      {
+        "version": "2023.1222.58.35",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1222.58.35/themerr-jellyfin.zip",
+        "checksum": "d00f7c42ade44eae468cebf3db104ac5",
+        "timestamp": "2023-12-22T00:59:55Z"
+      },
+      {
+        "version": "2023.1221.2316.50",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.2316.50/themerr-jellyfin.zip",
+        "checksum": "aacba2db3465b8c38e74b363b261ad22",
+        "timestamp": "2023-12-21T23:17:55Z"
+      },
+      {
+        "version": "2023.1221.2211.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.2211.0/themerr-jellyfin.zip",
+        "checksum": "bf1c2c1f23be6389885c6b12a3ae2d4a",
+        "timestamp": "2023-12-21T22:14:02Z"
+      },
+      {
+        "version": "2023.1221.347.52",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1221.347.52/themerr-jellyfin.zip",
+        "checksum": "a39eb7a05052837aa476d4491e4800e6",
+        "timestamp": "2023-12-21T03:48:56Z"
+      },
+      {
+        "version": "2023.1220.2206.28",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1220.2206.28/themerr-jellyfin.zip",
+        "checksum": "0365a24ee21a8a2df3cbd55e644d3471",
+        "timestamp": "2023-12-20T22:07:48Z"
+      },
+      {
+        "version": "2023.1220.18.5",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1220.18.5/themerr-jellyfin.zip",
+        "checksum": "3455f10a1a483e787cae77eb16362756",
+        "timestamp": "2023-12-20T00:21:07Z"
+      },
+      {
+        "version": "2023.1219.1658.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1219.1658.23/themerr-jellyfin.zip",
+        "checksum": "87a9bf415f018fd566ab8b6bbbaec607",
+        "timestamp": "2023-12-19T17:00:11Z"
+      },
+      {
+        "version": "2023.1219.355.10",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1219.355.10/themerr-jellyfin.zip",
+        "checksum": "f0f7a7519265043a7a112d4b9d6547b1",
+        "timestamp": "2023-12-19T03:56:41Z"
+      },
+      {
+        "version": "2023.1217.1356.39",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1217.1356.39/themerr-jellyfin.zip",
+        "checksum": "22cb22bf2d89cb16b0562f792c02a7be",
+        "timestamp": "2023-12-17T13:57:50Z"
+      },
+      {
+        "version": "2023.1216.556.16",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1216.556.16/themerr-jellyfin.zip",
+        "checksum": "350d208cafcf387bf1b01622059aa61a",
+        "timestamp": "2023-12-16T05:57:35Z"
+      },
+      {
+        "version": "2023.1215.2259.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.2259.6/themerr-jellyfin.zip",
+        "checksum": "81340accae45f2ba31742e5fcf325a9a",
+        "timestamp": "2023-12-15T23:34:28Z"
+      },
+      {
+        "version": "2023.1215.317.17",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.317.17/themerr-jellyfin.zip",
+        "checksum": "66984acd8b1b3875102a1a7c23078c92",
+        "timestamp": "2023-12-15T03:18:36Z"
+      },
+      {
+        "version": "2023.1215.251.32",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.251.32/themerr-jellyfin.zip",
+        "checksum": "c28159d66d1c9c736825208bc8d2846d",
+        "timestamp": "2023-12-15T02:52:39Z"
+      },
+      {
+        "version": "2023.1215.241.3",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.241.3/themerr-jellyfin.zip",
+        "checksum": "60cfa83e4d5512bd11c89a9e2d5a1123",
+        "timestamp": "2023-12-15T02:43:56Z"
+      },
+      {
+        "version": "2023.1215.221.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1215.221.13/themerr-jellyfin.zip",
+        "checksum": "6f2604e7f881a165c5f8cbc71042c480",
+        "timestamp": "2023-12-15T02:23:02Z"
+      },
+      {
+        "version": "2023.1214.436.9",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1214.436.9/themerr-jellyfin.zip",
+        "checksum": "4de037af126746757be49828cf959bad",
+        "timestamp": "2023-12-14T04:37:42Z"
+      },
+      {
+        "version": "2023.1212.418.27",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1212.418.27/themerr-jellyfin.zip",
+        "checksum": "ee130b648bcb7c74fae9fec70c9ec4cc",
+        "timestamp": "2023-12-12T04:19:50Z"
+      },
+      {
+        "version": "2023.1211.1611.20",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.1611.20/themerr-jellyfin.zip",
+        "checksum": "ef2fdca5f7bd88493e93a58029d8418a",
+        "timestamp": "2023-12-11T16:30:54Z"
+      },
+      {
+        "version": "2023.1211.245.52",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.245.52/themerr-jellyfin.zip",
+        "checksum": "b7f2637db3a4694955ed4bbcd4c9c19b",
+        "timestamp": "2023-12-11T02:47:11Z"
+      },
+      {
+        "version": "2023.1211.237.12",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.237.12/themerr-jellyfin.zip",
+        "checksum": "e8b1a241737eb39eff36ebc0fc906c44",
+        "timestamp": "2023-12-11T02:38:26Z"
+      },
+      {
+        "version": "2023.1211.225.23",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.225.23/themerr-jellyfin.zip",
+        "checksum": "0bf48136fc530c98563469a960e4c19e",
+        "timestamp": "2023-12-11T02:30:44Z"
+      },
+      {
+        "version": "2023.1211.214.5",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.214.5/themerr-jellyfin.zip",
+        "checksum": "b1d522b82d1ff61011d6ab5eb608c8e5",
+        "timestamp": "2023-12-11T02:28:41Z"
+      },
+      {
+        "version": "2023.1211.149.9",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.149.9/themerr-jellyfin.zip",
+        "checksum": "5545765d4ecdef53a4bb10a691a610ed",
+        "timestamp": "2023-12-11T01:50:10Z"
+      },
+      {
+        "version": "2023.1211.105.6",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.105.6/themerr-jellyfin.zip",
+        "checksum": "525009c41a0e4ef93f7ff5a200aae942",
+        "timestamp": "2023-12-11T01:06:15Z"
+      },
+      {
+        "version": "2023.1211.31.24",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1211.31.24/themerr-jellyfin.zip",
+        "checksum": "99c8fcdac073a054cb192afc45508702",
+        "timestamp": "2023-12-11T00:32:36Z"
+      },
+      {
+        "version": "2023.1210.1448.35",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.1448.35/themerr-jellyfin.zip",
+        "checksum": "db79880e1f6677c04c781c61fc1f82f9",
+        "timestamp": "2023-12-10T14:54:13Z"
+      },
+      {
+        "version": "2023.1210.504.40",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.504.40/themerr-jellyfin.zip",
+        "checksum": "dbb35091db3cfdf05c7634133eb2a3bd",
+        "timestamp": "2023-12-10T05:11:52Z"
+      },
+      {
+        "version": "2023.1210.439.17",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1210.439.17/themerr-jellyfin.zip",
+        "checksum": "cc1f884e88631547f0b085a9558ef616",
+        "timestamp": "2023-12-10T04:48:47Z"
+      },
+      {
+        "version": "2023.1207.247.13",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v2023.1207.247.13/themerr-jellyfin.zip",
+        "checksum": "681123ff1d0cfb3230e935aad8516bcf",
+        "timestamp": "2023-12-07T02:49:10Z"
+      },
+      {
+        "version": "0.0.2.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v0.0.2/themerr-jellyfin.zip",
+        "checksum": "49230bec10db39e175c3771566f5a623",
+        "timestamp": "2023-12-07T02:33:16Z"
+      },
+      {
+        "version": "0.0.1.0",
+        "changelog": "see LizardByte/Themerr-jellyfin on GitHub",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/LizardByte/Themerr-jellyfin/releases/download/v0.0.1/themerr-jellyfin.zip",
+        "checksum": "d8956c51cd8d13cdda03cbeda0f41fac",
+        "timestamp": "2023-02-04T15:21:57Z"
       }
     ]
   },
   {
     "guid": "ebd650b5-6f4c-4ccb-b10d-23dffb3a7286",
     "name": "Server Sync [✓]",
-    "description": "Server Sync is a Jellyfin plugin that enables synchronization of media content between multiple Jellyfin servers. Supports parent-child relationships where children sync back to the parent, and peer-to-peer relationships for bi-directional synchronization.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
+    "description": "Server Sync is a Jellyfin plugin that enables synchronization of media content between multiple Jellyfin servers. Supports parent-child relationships where children sync back to the parent, and peer-to-peer relationships for bi-directional synchronization.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
     "overview": "Synchronize media content between Jellyfin servers",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ServerSync.webp",
     "owner": "JPKribs",
@@ -996,7 +1458,7 @@
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice [✓]",
     "overview": "Create a Netflix-style featured content slider on the main page.",
-    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
     "owner": "lachlandcp",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Editor'sChoice.webp",
@@ -1229,7 +1691,7 @@
   },
   {
     "category": "General",
-    "description": "Gelato brings AIOStreams (Stremio addons) into Jellyfin. Search results and imported catalogs show up as regular movies and series, and streams are resolved when you press play and proxied through Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
+    "description": "Gelato brings AIOStreams (Stremio addons) into Jellyfin. Search results and imported catalogs show up as regular movies and series, and streams are resolved when you press play and proxied through Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
     "guid": "94ea4e14-8163-4989-96fe-0a2094bc2d6a",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Gelato.webp",
     "name": "Gelato [✓]",
@@ -1481,7 +1943,7 @@
   {
     "guid": "b6a1c3f2-5d84-4e77-9d2a-7f1c8e4b3a91",
     "name": "Plugin Update Notifier [✓]",
-    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
+    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
     "overview": "Badges the admin avatar when plugins change and a restart is pending.",
     "owner": "mihaif7",
     "category": "General",
@@ -1540,7 +2002,7 @@
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "HDD Display [✓]",
-    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Admin Dashboard storage, mount usage and NVIDIA telemetry for Jellyfin.",
     "owner": "mleem97",
     "category": "General",
@@ -1583,7 +2045,7 @@
   {
     "guid": "6b6c96ac-3f60-4ac3-8b8a-0d0cb8acb9dd",
     "name": "MusicSuite [✓]",
-    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Spotify-inspired 3-column music streaming experience, squircle cards, live search, and library redirection.",
     "owner": "mleem97",
     "category": "General",
@@ -1626,7 +2088,7 @@
   {
     "guid": "f8d74b1c-3c97-4481-a3b3-6eb622d6ad58",
     "name": "MusicHoarderz Cover & Metadata Provider [✓]",
-    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Multi-platform cover art provider for music albums and artists via MusicHoarderz/COV.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -1669,7 +2131,7 @@
   {
     "guid": "67de1daa-c9fe-497a-9ca2-dc303abb717b",
     "name": "Spotify Cover & Metadata Provider [✓]",
-    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Metadata, tracklist and coverart provider for music, audiobooks and podcasts via Spotify.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -1712,7 +2174,7 @@
   {
     "guid": "a05dae4a-2e92-4303-8f16-a7ade62624b4",
     "name": "Gracenote Metadata Provider [✓]",
-    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Album and artist metadata and cover artwork via Gracenote MusicID (GMD v2/v3).",
     "owner": "mleem97",
     "category": "Metadata",
@@ -1789,7 +2251,7 @@
       }
     ],
     "name": "MediaTools [✓]",
-    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Media management swiss army knife: zero-interruption renaming, split-movie merging, MKV remuxing and stream deduplication.",
     "owner": "mleem97",
     "category": "General",
@@ -1832,7 +2294,7 @@
       }
     ],
     "name": "MetadataDashboard [✓]",
-    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Unified metadata management dashboard cross-referencing Spotify, Gracenote, MusicBrainz, and CoverArtArchive.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -1842,7 +2304,7 @@
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation [✓]",
     "overview": null,
-    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
+    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/FileTransformation.webp",
@@ -1889,7 +2351,7 @@
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar [✓]",
     "overview": null,
-    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
+    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaBar.webp",
@@ -1944,7 +2406,7 @@
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages [✓]",
     "overview": null,
-    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
+    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PluginPages.webp",
@@ -1999,7 +2461,7 @@
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections [✓]",
     "overview": null,
-    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
+    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HomeScreenSections.webp",
@@ -2053,7 +2515,7 @@
   {
     "guid": "f3c07757-5b42-442e-a37a-f49355b6a7c0",
     "name": "Jellyfin Last.fm Plugin [✓]",
-    "description": "Scrobble your music to Last.fm, update now playing status, and love/ban tracks directly from Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-lastfm/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-lastfm",
+    "description": "Scrobble your music to Last.fm, update now playing status, and love/ban tracks directly from Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-lastfm/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-lastfm",
     "overview": "Integrates Jellyfin with Last.fm for automatic scrobbling, now playing notifications, and track management (love/ban).",
     "owner": "pepebarrascout",
     "category": "Music",
@@ -2112,7 +2574,7 @@
   {
     "guid": "d6a5ecc8-0481-4ca4-b03a-1fb8595ef8e6",
     "name": "Radio Online [✓]",
-    "description": "Automated online radio streaming plugin using Liquidsoap. Stream audio to Icecast servers with weekly playlist scheduling via Liquidsoap Telnet control.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-radio-online/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-radio-online",
+    "description": "Automated online radio streaming plugin using Liquidsoap. Stream audio to Icecast servers with weekly playlist scheduling via Liquidsoap Telnet control.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-radio-online/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-radio-online",
     "overview": "Automated online radio streaming via Liquidsoap to Icecast servers with weekly playlist scheduling. Assign Jellyfin playlists to specific day/time slots. Requires a Liquidsoap Docker container running alongside Jellyfin.",
     "owner": "PepeBarrascout",
     "category": "Music",
@@ -2347,7 +2809,7 @@
   {
     "guid": "c4a05f11-4ccc-4b00-bdea-dbeef1337000",
     "name": "Chaosflix [✓]",
-    "description": "Browse and stream Chaos Computer Club conference talks from media.ccc.de directly in Jellyfin. Includes watch history, resume, SyncPlay support, popular/recommended talks, year-based browsing, and related talk suggestions.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/praetorianer777/chaosflix-jellyfin/main/manifest.json  \nGithub: https://github.com/praetorianer777/chaosflix-jellyfin",
+    "description": "Browse and stream Chaos Computer Club conference talks from media.ccc.de directly in Jellyfin. Includes watch history, resume, SyncPlay support, popular/recommended talks, year-based browsing, and related talk suggestions.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/praetorianer777/chaosflix-jellyfin/main/manifest.json  \nGithub: https://github.com/praetorianer777/chaosflix-jellyfin",
     "overview": "CCC Media Channel for Jellyfin",
     "owner": "praetorianer777",
     "category": "Channels",
@@ -2374,7 +2836,7 @@
   {
     "guid": "9f2e4a6b-7c1d-4e3f-8a5b-0d9c2e1f4a7b",
     "name": "Amane [✓]",
-    "description": "对接本地 Amane 元数据服务的透明代理元数据插件：影片/人物元数据、封面与背景图、影片与演员 ID 绑定。  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/rappa850/Jellyfin.Plugin.Amane/main/manifest.json  \nGithub: https://github.com/rappa850/Jellyfin.Plugin.Amane",
+    "description": "对接本地 Amane 元数据服务的透明代理元数据插件：影片/人物元数据、封面与背景图、影片与演员 ID 绑定。  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/rappa850/Jellyfin.Plugin.Amane/main/manifest.json  \nGithub: https://github.com/rappa850/Jellyfin.Plugin.Amane",
     "overview": "Amane 后端完成番号提取、离线库检索与 LLM 中文润色，本插件仅作为 Thin Client 把结果映射回 Jellyfin。",
     "owner": "rappa850",
     "category": "Metadata",
@@ -2426,7 +2888,7 @@
     "guid": "08880a95-8467-4538-bab9-da69c7f4793f",
     "name": "Jellyfin Featured [✓]",
     "overview": "A Netflix-style featured-content carousel for the Jellyfin Web home page.",
-    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
+    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
     "owner": "spkesDE",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinFeatured.webp",
@@ -2557,7 +3019,7 @@
     "guid": "2c2ee6c1-bcd7-48e4-a7e8-e6b4d77d3df2",
     "name": "Media Preview [✓]",
     "overview": "Hover previews for Jellyfin Web using Trickplay and trailers.",
-    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
+    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
     "owner": "spkesDE",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaPreview.webp",
@@ -2733,9 +3195,47 @@
     ]
   },
   {
+    "guid": "3734440f-4b20-4c3a-86a3-d931b45b7248",
+    "name": "Jelly Poll [✓]",
+    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
+    "overview": "Group movie polling with ranked ballots and a gold/silver/bronze podium.",
+    "owner": "zlx64",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyPoll.webp",
+    "versions": [
+      {
+        "version": "1.0.2.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.2",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.2/jellypoll_1.0.2.0.zip",
+        "checksum": "4938E367B0EE410ECB780BD4FD9DE2BA",
+        "timestamp": "2026-09-25T10:03:46Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.1",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.1/jellypoll_1.0.1.0.zip",
+        "checksum": "B20EA2E285F653681ED74FB776BFDCF3",
+        "timestamp": "2026-09-20T11:16:47Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.0",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.0/jellypoll_1.0.0.0.zip",
+        "checksum": "E8A2A2A5D6126D8D2932A755312E2AE8",
+        "timestamp": "2026-09-19T23:13:01Z"
+      }
+    ]
+  },
+  {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -2786,7 +3286,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -2893,7 +3393,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -2984,7 +3484,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -3179,7 +3679,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -3302,7 +3802,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
@@ -3425,7 +3925,7 @@
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
     "name": "Google Books [✓]",
-    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
+    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
     "overview": "Google Books Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
@@ -3460,7 +3960,7 @@
   {
     "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
     "name": "OpenLibrary [✓]",
-    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 06:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 07:14 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "OpenLibrary metadata provider for Jellyfin",
     "owner": "jellyfin",
     "category": "Books",
