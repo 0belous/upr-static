@@ -1,9 +1,9 @@
 [
   {
-    "guid": "dbe03387-a0d5-47b8-8544-d2a65cd04792",
+    "guid": "66e5d4b9-8d22-40cc-9535-8c27433dc952",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 37, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: internal",
-    "overview": "Generated: 2026-10-09T12:08:47.392Z",
+    "description": "Aggregated: 43, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: internal",
+    "overview": "Generated: 2026-10-09T13:08:47.999Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,14 +11,14 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-09T12:08:47.392Z"
+        "timestamp": "2026-10-09T13:08:47.999Z"
       }
     ]
   },
   {
     "guid": "e41ef0c4-c413-41ba-b4fa-8c565dc3c969",
     "name": "Themerr [✓]",
-    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/apps/renovate) in [#918](https:",
+    "description": "Automatically add theme songs to movies and tv shows using ThemerrDB  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://app.lizardbyte.dev/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/apps/renovate) in [#918](https:",
     "overview": "Automatically add theme songs to movies and tv shows using ThemerrDB",
     "owner": "LizardByte",
     "category": "Metadata",
@@ -764,60 +764,9 @@
     ]
   },
   {
-    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
-    "name": "Segment Editor [✓]",
-    "overview": "Segment editing UI embedded as a plugin page",
-    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
-    "owner": "Intro Skipper",
-    "category": "MoviesAndShows",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
-    "versions": [
-      {
-        "version": "12.0.16.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.16.0/segment-editor-plugin-v12.0.16.0.zip",
-        "checksum": "bd923e08abcc1b55ec724c43b233c392",
-        "timestamp": "2026-10-05T00:12:15Z"
-      },
-      {
-        "version": "12.0.15.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.15.0/segment-editor-plugin-v12.0.15.0.zip",
-        "checksum": "0e39a7c46d8eaf6ecd3ed5a6f94cf683",
-        "timestamp": "2026-10-01T02:11:47Z"
-      },
-      {
-        "version": "12.0.14.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.14.0/segment-editor-plugin-v12.0.14.0.zip",
-        "checksum": "0a486ca20eab1be5f5b2534cc81dfb23",
-        "timestamp": "2026-09-25T09:37:27Z"
-      },
-      {
-        "version": "12.0.13.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.13.0/segment-editor-plugin-v12.0.13.0.zip",
-        "checksum": "20f4d0a74ba0b63c9b748ec68b5bdad6",
-        "timestamp": "2026-09-24T15:19:55Z"
-      },
-      {
-        "version": "12.0.12.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v12.0.12.0/segment-editor-plugin-v12.0.12.0.zip",
-        "checksum": "5eaff5cb7133a2d45e77074b2ce6c394",
-        "timestamp": "2026-09-24T14:47:39Z"
-      }
-    ]
-  },
-  {
     "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
     "name": "Continue Watching [✓]",
-    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
+    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
     "overview": "Updates Continue Watching to work like you export",
     "owner": "timvu",
     "category": "General",
@@ -850,9 +799,426 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ContinueWatching.webp"
   },
   {
+    "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
+    "name": "AutoCert [✓]",
+    "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
+    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
+    "owner": "aober420",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.3.0",
+        "changelog": "## ✨ New Features\n\n- **Issue a certificate now:** Request a new certificate before renewal is due, even when automatic management is disabled. Save your settings first; the button uses your saved staging/production and restart settings.\n\n## 🎨 Improvements\n\n- **Issuance limits:** Manual requests retain the six-hour cooldown and certificate authority rate limits.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.3.0/AutoCert_1.0.3.0.zip",
+        "checksum": "25dd9fd4850d75663b52f9fc71e47df3",
+        "timestamp": "2026-09-22T20:24:33Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "## ✨ New Features\n\n- **Certificate issued date:** Show the certificate validity start date in your local time.\n- **Repository link:** Open the GitHub repository from the top of the plugin configuration page.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.2.0/AutoCert_1.0.2.0.zip",
+        "checksum": "d05a70b01bc9326a607758065ef8e071",
+        "timestamp": "2026-09-22T14:14:07Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Expired certificate status:** Resolved an issue where certificate status could remain outdated after expiration, including when automatic management was disabled.\n- **Status messages:** Keep renewal errors visible and replace obsolete restart instructions.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.1.0/AutoCert_1.0.1.0.zip",
+        "checksum": "d25ba92f23469c7d2125b6be197f97bd",
+        "timestamp": "2026-09-19T04:17:29Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "## ✨ New Features\n\n- **Certificate cleanup:** Retain replaced AutoCert certificates for five days after first observing them unused with the replacement active, then remove them at the next scheduled 12-hour check.\n\n## 🎨 Improvements\n\n- **Protected certificates:** Keep the active production certificate, latest staging certificate, and externally supplied files. Cleanup waits for any pending restart.\n- **Upgrade grace period:** Give existing old files a fresh five-day grace period when upgrading. Rollback to a deleted certificate is no longer available.\n- **Stable release:** AutoCert 1.0.0.0 is now a regular release.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.0.0/AutoCert_1.0.0.0.zip",
+        "checksum": "222ddf2691e2b4983c31682db0782735",
+        "timestamp": "2026-09-19T03:21:35Z"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Duplicate status text:** Resolved an issue where Certificate Active appeared twice when activity and certificate status matched. Distinct progress and error messages remain visible.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.2/AutoCert_0.2.2.0.zip",
+        "checksum": "66d6b386f7404a739b700c05f9e73251",
+        "timestamp": "2026-09-19T02:33:32Z"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Status after restart:** Resolved a stale restart message. Show Certificate Active when Jellyfin reports HTTPS listening, no restart is pending, certificate settings match, and the AutoCert PFX is valid.\n\n## 🎨 Improvements\n\n- **Error visibility:** Preserve staging messages and renewal failures.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.1/AutoCert_0.2.1.0.zip",
+        "checksum": "933efb8a15ea94fafd9b1aed090230d7",
+        "timestamp": "2026-09-19T02:28:55Z"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "## ✨ New Features\n\n- **GoDaddy authentication:** Use a classic API key and secret alongside the existing GoDaddy PAT, Cloudflare, and DigitalOcean options.\n- **HTTPS management:** DNS verification, automatic renewal, password-protected PFX creation, password rotation, Jellyfin HTTPS configuration updates, optional restart, and rollback.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.0/AutoCert_0.2.0.0.zip",
+        "checksum": "285cdf92e985106dccfa7795e85e234e",
+        "timestamp": "2026-09-18T16:31:55Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutoCert.webp"
+  },
+  {
+    "guid": "f1a7b3c2-9d4e-4a86-bf21-6c0e5d83a47b",
+    "name": "Marquee Companion [✓]",
+    "description": "Adds four independent capabilities: server-side filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), plus opt-in global recent-podcast discovery via Podcast Index using administrator-provided credentials, plus opt-in passwordless sign-in by emailed magic link over administrator-configured SMTP, plus an opt-in scheduled task that recovers the release date of items that arrived without one by reading it from the file name. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
+    "overview": "Media-stream filtering, opt-in podcast discovery, email sign-in, and release-date recovery.",
+    "owner": "3dot3.com",
+    "category": "General",
+    "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.2.0/marquee-companion_3.0.2.0.zip",
+        "checksum": "31f62fecef110298139792a830f001e4",
+        "timestamp": "2026-10-03T10:27:57Z"
+      },
+      {
+        "version": "3.0.2.1",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.2.0/marquee-companion_3.0.2.1.zip",
+        "checksum": "fe74ed6cbfa0633f1b9e7fbf9222944e",
+        "timestamp": "2026-10-03T10:27:53Z"
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.1.0/marquee-companion_3.0.1.0.zip",
+        "checksum": "10848c792fe2d079fb68c35d1df4214b",
+        "timestamp": "2026-09-28T21:27:44Z"
+      },
+      {
+        "version": "3.0.1.1",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.1.0/marquee-companion_3.0.1.1.zip",
+        "checksum": "e16902a3480623828ad7d6b67b962736",
+        "timestamp": "2026-09-28T21:26:45Z"
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.0.0/marquee-companion_3.0.0.0.zip",
+        "checksum": "fabdf03448a458adff2910912f8c713d",
+        "timestamp": "2026-09-23T14:32:05Z"
+      },
+      {
+        "version": "3.0.0.1",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Marquee Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n- Adds the seamless Marquee Companion panel to Jellyfin Web without manual web-client changes. - Adds paired Jellyfin 10/.NET 9 and Jellyfin 12/.NET 10 package builds.\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v3.0.0.0/marquee-companion_3.0.0.1.zip",
+        "checksum": "633396f47544836616e7b2e28647053a",
+        "timestamp": "2026-09-23T14:31:57Z"
+      },
+      {
+        "version": "2.1.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v2.1.0.0/aurelia-companion_2.1.0.0.zip",
+        "checksum": "76bca855cb2fb6272bf789cae92f5b89",
+        "timestamp": "2026-09-22T23:06:32Z"
+      },
+      {
+        "version": "2.0.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v2.0.0.0/aurelia-companion_2.0.0.0.zip",
+        "checksum": "860522ca4327d5f9800ca002eefca14d",
+        "timestamp": "2026-09-20T15:40:54Z"
+      },
+      {
+        "version": "1.9.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.9.0.0/aurelia-companion_1.9.0.0.zip",
+        "checksum": "3720898b36d9127cc6eab5fe76060f08",
+        "timestamp": "2026-09-15T01:24:52Z"
+      },
+      {
+        "version": "1.8.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Fix: an audio filter matched files that had each thing you asked for, but never in\n  the same track. Asking for AC-3 in 5.1 returned 444 movies on a test library, of which\n  only 247 had an AC-3 track that was itself 5.1 — the rest were \"DTS 5.1 main track plus\n  AC-3 2.0 commentary\" files that answered \"has AC-3\" and \"has six channels\" separately.\n  Codec, channel count and spatial format are now read per audio track and have to hold on\n  ONE of them. A filter naming a single audio facet is unaffected. The values offered by\n  /Capabilities are unchanged.\n- Music libraries can now be filtered by codec and channel count. Tracks were never\n  catalogued, so every audio filter over a music library returned nothing at all while the\n  same library unfiltered returned 11,022 tracks.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.8.0.0/aurelia-companion_1.8.0.0.zip",
+        "checksum": "d76a963056ce71e9bf47c018f5512b39",
+        "timestamp": "2026-09-05T01:16:54Z"
+      },
+      {
+        "version": "1.6.4.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Release-date recovery reads the FILE NAME first and falls back to date added, and\n  understands two-digit-year release names (Name.25.02.05.Title). Date added is when a\n  file reached the server, not when it was released: on a 650-item dry run, leading with\n  it produced 18 distinct dates with 605 identical, while the name gave 98 spanning 2013\n  to 2026.\n- Release-date recovery is chosen PER LIBRARY. - Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.6.4.0/aurelia-companion_1.6.4.0.zip",
+        "checksum": "0bfc1fe88b4ad7ed1b6d8c40877058b1",
+        "timestamp": "2026-08-23T21:15:52Z"
+      },
+      {
+        "version": "1.6.3.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Release-date recovery is chosen PER LIBRARY, and prefers a real date field (date\n  added) over anything parsed from a file name, which is now the last resort.\n- Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.6.3.0/aurelia-companion_1.6.3.0.zip",
+        "checksum": "f40cffa68cfc0108da27239ccd5a1ae4",
+        "timestamp": "2026-08-23T20:31:44Z"
+      },
+      {
+        "version": "1.6.2.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.6.2.0/aurelia-companion_1.6.2.0.zip",
+        "checksum": "a77555e72f303cc69e92c62c0c4a8aaa",
+        "timestamp": "2026-08-23T20:13:41Z"
+      },
+      {
+        "version": "1.6.1.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n- Added opt-in release-date recovery. Downloaded YouTube content carries its upload\n  date only in the file name, so Jellyfin stores no premiere date and reads the leading\n  YYYYMMDD as a production year like 20250823 — those items then cannot appear in any\n  view ordered by release date, on any client. A new scheduled task, \"Recover missing\n  release dates\", reads the date from the production-year stamp, an sYYYY.eMMDDnn name,\n  or a bare YYYYMMDD run, and writes it along with the corrected year. Off by default,\n  previews to the log until an administrator turns preview off, and never modifies an\n  item that already has a release date.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.6.1.0/aurelia-companion_1.6.1.0.zip",
+        "checksum": "1f172047eb7fd22ca68067a1f6f71451",
+        "timestamp": "2026-08-23T19:54:39Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n- Added opt-in email sign-in. A client posts an email address, the server mails a single-use\n  link, and confirming that link signs the waiting device in — no password, and no typing on a\n  TV remote. The email can be opened on any device, so it works for tvOS; when it is opened on\n  the signing-in device itself, the confirmation page also offers a deep link straight back into\n  the app. Unrecognised addresses can optionally register, in which case the new account is\n  created disabled and copies an administrator-chosen template user's permissions, so nothing is\n  accessible until an administrator enables it. SMTP host, port, security, credentials and\n  from-address are configured in the plugin settings, along with link lifetime and rate limits;\n  a \"send test email\" button reports the mail server's own error when submission fails. The\n  endpoint reports an explicit error rather than a silent success when SMTP is not configured.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.6.0.0/aurelia-companion_1.6.0.0.zip",
+        "checksum": "543fe3bc5dcdb50446d50f58431f39ee",
+        "timestamp": "2026-08-10T02:20:51Z"
+      },
+      {
+        "version": "1.5.2.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n- Fix: Podcast Discovery always returned 404 when enabled. Podcast Index sends the envelope's\n  `status` as a JSON boolean, but it was bound to a string, so the whole recent-feeds payload\n  failed to deserialize. Both the boolean and the documented string form are now accepted, and\n  an unusable payload is logged with the value exactly as it arrived.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.5.2.0/aurelia-companion_1.5.2.0.zip",
+        "checksum": "2dff6cad2883cc25fa4ebaf5a991666c",
+        "timestamp": "2026-08-02T04:05:43Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime.\n- Removes the yt-dlp and JavaScript-runtime downloads earlier versions installed. Those\n  binaries are unreachable now the resolver is gone, so the plugin reclaims the directory it\n  created rather than leaving an administrator to find it. Only its own install root is\n  touched, and a failure to delete never stops the plugin starting.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.5.1.0/aurelia-companion_1.5.1.0.zip",
+        "checksum": "782864137949ce5ce851802d2e50b8ce",
+        "timestamp": "2026-08-02T03:32:35Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Removes the YouTube trailer resolver. Clients now hand YouTube trailers to the YouTube\n  app instead, so the server no longer downloads, verifies, updates, or executes yt-dlp or a\n  JavaScript runtime. Delete `<jellyfin-data>/aurelia-trailer-resolver/` to reclaim its disk.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.5.0.0/aurelia-companion_1.5.0.0.zip",
+        "checksum": "5333f540d122429297232358d3da3f97",
+        "timestamp": "2026-08-02T03:29:22Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Adds an opt-in, authenticated YouTube trailer resolver API. It accepts only canonical\n  video IDs, invokes an administrator-installed executable with fixed arguments, and returns\n  only a short-lived direct HTTPS media URL, safe headers, and its expiry. The executable is\n  not packaged with the plugin.\n- Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Adds an optional plugin-managed resolver binary. An administrator selects a source — an\n  exact pinned release, or the newest stable or nightly build — and the plugin fetches only\n  official yt-dlp GitHub release assets, verifying each download against that release's\n  published SHA-256 manifest before it is made executable. Both endpoints require elevation,\n  and binaries are stored outside the plugin's version-stamped directory so they survive\n  plugin updates. A failed process start no longer disables the resolver until the server\n  restarts when the executable behind it has changed.\n- A managed resolver now also installs the JavaScript runtime yt-dlp needs (Deno), verified\n  against its published SHA-256 checksum and extracted from the release archive, and points\n  yt-dlp at it. Without a runtime yt-dlp reports YouTube extraction as deprecated and some\n  formats may be missing. It is fetched only when absent, and there is nothing to configure.\n  Hosts with no published runtime — musl/Alpine — are reported plainly rather than silently\n  degraded. The resolve timeout moves from 10 to 30 seconds to accommodate runtime start-up\n  and signature deciphering; a timeout would otherwise surface as a silently missing trailer.\n- Adds an optional daily scheduled task that installs the newest build on the tracked\n  channel. It is visible and controllable under Dashboard → Scheduled Tasks, does nothing\n  unless a tracking source has automatic updates enabled, and never advances a pinned\n  version. The newest three builds per channel are retained so a bad build can be rolled\n  back by pinning the previous one, without a download.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.4.0.0/aurelia-companion_1.4.0.0.zip",
+        "checksum": "1c344ffe2a7cf1e79822c0b387bcf562",
+        "timestamp": "2026-08-02T02:16:08Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Adds an opt-in, authenticated YouTube trailer resolver API. It accepts only canonical\n  video IDs, invokes an administrator-installed executable with fixed arguments, and returns\n  only a short-lived direct HTTPS media URL, safe headers, and its expiry. The executable is\n  not packaged with the plugin.\n- Podcast discovery now logs why it returned nothing. The endpoint still answers 404 for\n  every failure, but the server log distinguishes disabled credentials, a Podcast Index\n  rejection, and feeds dropped during validation — including a per-rule tally of what was\n  dropped.\n- Adds an optional plugin-managed resolver binary. An administrator selects a source — an\n  exact pinned release, or the newest stable or nightly build — and the plugin fetches only\n  official yt-dlp GitHub release assets, verifying each download against that release's\n  published SHA-256 manifest before it is made executable. Both endpoints require elevation,\n  and binaries are stored outside the plugin's version-stamped directory so they survive\n  plugin updates. A failed process start no longer disables the resolver until the server\n  restarts when the executable behind it has changed.\n- Adds an optional daily scheduled task that installs the newest build on the tracked\n  channel. It is visible and controllable under Dashboard → Scheduled Tasks, does nothing\n  unless a tracking source has automatic updates enabled, and never advances a pinned\n  version. The newest three builds per channel are retained so a bad build can be rolled\n  back by pinning the previous one, without a download.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.3.0.0/aurelia-companion_1.3.0.0.zip",
+        "checksum": "494101e45375a6b3aed57c6c8e23b707",
+        "timestamp": "2026-08-02T01:43:36Z"
+      },
+      {
+        "version": "1.2.0.1",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index. - Adds an opt-in, authenticated YouTube trailer resolver API. It accepts only canonical\n  video IDs, invokes an administrator-installed executable with fixed arguments, and returns\n  only a short-lived direct HTTPS media URL, safe headers, and its expiry. The executable is\n  not packaged with the plugin.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.2.0.1/aurelia-companion_1.2.0.1.zip",
+        "checksum": "61947264068fbed2e7317934c298ee1e",
+        "timestamp": "2026-08-01T22:26:48Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n- Added opt-in recent podcast discovery through Podcast Index.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.2.0.0/aurelia-companion_1.2.0.0.zip",
+        "checksum": "6cd2c0602c64eccca0d3a74839a2ecd9",
+        "timestamp": "2026-08-01T18:36:00Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n- TV libraries now filter correctly by stream facets. Stream attributes live on\n  episodes, but TV libraries are browsed at the series level; the filter now\n  matches episodes and returns the shows that have at least one matching episode.\n  Also forces a recursive query so a library id resolves to its contents.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.1.4.0/aurelia-companion_1.1.4.0.zip",
+        "checksum": "907dba752839f6cc96a486eb6b241c24",
+        "timestamp": "2026-06-16T01:35:38Z"
+      },
+      {
+        "version": "1.1.3.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n- Capabilities are now scoped to the requested library (parentId): the available\n  values offered for a library are drawn only from items in that library, so any\n  single facet selection is guaranteed to match at least one item there. Omitting\n  parentId still returns the global value set.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.1.3.0/aurelia-companion_1.1.3.0.zip",
+        "checksum": "3ef24efaf0946efd08be11214b877dc1",
+        "timestamp": "2026-06-16T01:03:59Z"
+      },
+      {
+        "version": "1.1.2.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n- Renamed the plugin to \"Aurelia Companion\" (display name only; API route,\n  plugin id, and behavior unchanged).\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.1.2.0/aurelia-companion_1.1.2.0.zip",
+        "checksum": "a3f4eb90a3a53207e12ffef4110d412c",
+        "timestamp": "2026-06-16T00:03:27Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering. - Fix: filtering by a library returned no items. The library (parentId) is now\n  resolved into its contents so video range / codec / audio filters work when\n  scoped to a specific library.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.1.1.0/media-stream-filters_1.1.1.0.zip",
+        "checksum": "a1940db1576c777bb3bc93d07775fa9a",
+        "timestamp": "2026-06-15T22:47:31Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- Initial release. - Resolution (isHd/is4K) passthrough for client filtering.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist/releases/download/v1.1.0.0/media-stream-filters_1.1.0.0.zip",
+        "checksum": "c67629c04bf0bedef7544795e87fa718",
+        "timestamp": "2026-06-15T20:08:46Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MarqueeCompanion.webp"
+  },
+  {
+    "guid": "975dde10-724f-4b72-8efc-91a1cb2d9510",
+    "name": "Playlist Generator [✓]",
+    "overview": "Generate a daily personalized playlist",
+    "description": "Uses your listening history to generate a daily playlist of songs you might like  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json  \nGithub: https://github.com/Eeeeelias/playlist-generator",
+    "owner": "Eeeeelias",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PlaylistGenerator.webp",
+    "versions": [
+      {
+        "version": "1.5.2.0",
+        "changelog": "Update to Jellyfin 12",
+        "targetAbi": "12.1",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.2.0/PlaylistGenerator_1.5.2.0.zip",
+        "checksum": "627291f8b026304e70e808b6f81e9aeb",
+        "timestamp": "2026-10-03T08:46:41Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "Fix played counting",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.1.0/PlaylistGenerator_1.5.1.0.zip",
+        "checksum": "8156d04667739f69a65e43c37d25f5e1",
+        "timestamp": "2026-06-19T18:39:33Z"
+      },
+      {
+        "version": "1.5.0.1",
+        "changelog": "Fix crash when missing enough similar songs",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.0.1/PlaylistGenerator_1.5.0.1.zip",
+        "checksum": "b6109a711fa7e6ea1a65d027772c113f",
+        "timestamp": "2026-02-28T08:57:42Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "Remove disliked songs",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.5.0.0/PlaylistGenerator_1.5.0.0.zip",
+        "checksum": "20ee2180105ae93c6dd758f6938509fa",
+        "timestamp": "2026-02-23T12:13:45Z"
+      },
+      {
+        "version": "1.4.3.0",
+        "changelog": "Add multiuser support",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.3.0/PlaylistGenerator_1.4.3.0.zip",
+        "checksum": "9aeb65a15ce1a6efd5cd3ddd344d12ba",
+        "timestamp": "2026-01-04T12:42:27Z"
+      },
+      {
+        "version": "1.4.2.1",
+        "changelog": "Add Assembly Version",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.2.1/PlaylistGenerator_1.4.2.1.zip",
+        "checksum": "7e20b38f966252f8ed54a7be63b7a47f",
+        "timestamp": "2025-12-11T17:11:33Z"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "Updated music recommendations",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.2.0/PlaylistGenerator_1.4.2.0.zip",
+        "checksum": "d5477259c42f97ac837b7e0ff037de04",
+        "timestamp": "2025-12-10T18:53:01Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "Added Jellyfin 10.11.0 compatability",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.1.0/PlaylistGenerator_1.4.1.0.zip",
+        "checksum": "c315035ece2c18b511f7372563002501",
+        "timestamp": "2025-10-24T15:47:12Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Added ability to select libraries",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.0.0/v1.4.0.0-release.zip",
+        "checksum": "11c479fa6e59cabe648dbd8f47d1950d",
+        "timestamp": "2025-09-29T21:23:20Z"
+      },
+      {
+        "version": "1.3.0.1",
+        "changelog": "Fix packaged binary",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.3.0.1/v1.3.0.1-release.zip",
+        "checksum": "7ab27979c9a4174d06662a5783ace95d",
+        "timestamp": "2025-08-04T20:54:28Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Querying only Music libraries",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.3.0.0/v1.3.0.0-release.zip",
+        "checksum": "e950ceb1e1117a60b70de7eb8289d54d",
+        "timestamp": "2025-08-04T20:28:38Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Added penalties to the scoring method for better recommendations",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.2.0.0/v1.2.0.0-release.zip",
+        "checksum": "7fe0209336c8e615b15494dd6373d2ba",
+        "timestamp": "2025-03-28T15:54:13Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Added Playback Reporting information to the recommendation system",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.1.0.0/v1.1.0.0-release.zip",
+        "checksum": "f836fc7f376cb4de7f050265de60fc4c",
+        "timestamp": "2025-03-26T21:14:54Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "First release",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.0.0.0/Release.zip",
+        "checksum": "5964befe9ef478a4a135e17cc95a2664",
+        "timestamp": "2025-03-26T15:09:35Z"
+      }
+    ]
+  },
+  {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync [✓]",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeSync.webp",
@@ -1063,7 +1429,7 @@
   {
     "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
     "name": "Jellyfin Helper [✓]",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
+    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
     "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
     "owner": "JellyPlugins",
     "category": "General",
@@ -1306,7 +1672,7 @@
   {
     "guid": "ebd650b5-6f4c-4ccb-b10d-23dffb3a7286",
     "name": "Server Sync [✓]",
-    "description": "Server Sync is a Jellyfin plugin that enables synchronization of media content between multiple Jellyfin servers. Supports parent-child relationships where children sync back to the parent, and peer-to-peer relationships for bi-directional synchronization.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
+    "description": "Server Sync is a Jellyfin plugin that enables synchronization of media content between multiple Jellyfin servers. Supports parent-child relationships where children sync back to the parent, and peer-to-peer relationships for bi-directional synchronization.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
     "overview": "Synchronize media content between Jellyfin servers",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ServerSync.webp",
     "owner": "JPKribs",
@@ -2006,7 +2372,7 @@
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
     "name": "Editor's Choice [✓]",
     "overview": "Create a Netflix-style featured content slider on the main page.",
-    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "description": "Create a Netflix-style featured content slider on the main page.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json  \nGithub: https://github.com/lachlandcp/jellyfin-editors-choice-plugin",
     "owner": "lachlandcp",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Editor'sChoice.webp",
@@ -2241,7 +2607,7 @@
     "category": "General",
     "guid": "c797039e-7640-45bb-a83f-7976220285dc",
     "name": "Cast Curator [✓]",
-    "description": "Automatically organize your library by cast and crew members.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Automatically organize your library by cast and crew members.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Automatically organize your library by cast and crew members.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/CastCurator.webp",
@@ -2420,7 +2786,7 @@
     "category": "General",
     "guid": "ac5bb0cf-9de9-4c42-b72f-c59d1edbb6ae",
     "name": "Studio Curator [✓]",
-    "description": "Automatically organize your library by studio.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Automatically organize your library by studio.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Automatically organize your library by studio.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/StudioCurator.webp",
@@ -2599,7 +2965,7 @@
     "category": "General",
     "guid": "c03a2469-eed0-4107-95b1-6dfda14fb0fc",
     "name": "Privacy Mode [✓]",
-    "description": "Adds a privacy mode that hides content when activated.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Adds a privacy mode that hides content when activated.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Adds a privacy mode that hides content when activated.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PrivacyMode.webp",
@@ -2778,7 +3144,7 @@
     "category": "General",
     "guid": "f0194bb3-788d-43b8-96c9-bb32f996db4a",
     "name": "Remote Trailers [✓]",
-    "description": "Enables playback of remote trailers from any source.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Enables playback of remote trailers from any source.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Enables playback of remote trailers from any source.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/RemoteTrailers.webp",
@@ -2957,7 +3323,7 @@
     "category": "General",
     "guid": "6a65ce4e-fb35-4e99-8f37-02bc3979fe7e",
     "name": "Thumbnail Previews [✓]",
-    "description": "Adds thumbnail previews using videos.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Adds thumbnail previews using videos.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Adds thumbnail previews using videos.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/ThumbnailPreviews.webp",
@@ -3136,7 +3502,7 @@
     "category": "General",
     "guid": "5513dce4-a436-495c-8925-30845bf2c1dd",
     "name": "Watch History Janitor [✓]",
-    "description": "Cleans up the \"Continue Watching\" history after a specified time period.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Cleans up the \"Continue Watching\" history after a specified time period.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Cleans up the \"Continue Watching\" history after a specified time period.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/WatchHistoryJanitor.webp",
@@ -3315,7 +3681,7 @@
     "category": "General",
     "guid": "36eb87e0-0373-423b-a547-2acb96e33430",
     "name": "JellyTag [✓]",
-    "description": "Simplified tag management. Add, remove, and manage tags right from the context menu.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "description": "Simplified tag management. Add, remove, and manage tags right from the context menu.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
     "owner": "lennykean",
     "overview": "Simplified tag management. Add, remove, and manage tags right from the context menu.",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyTag.webp",
@@ -3436,7 +3802,7 @@
   },
   {
     "category": "General",
-    "description": "Gelato brings AIOStreams (Stremio addons) into Jellyfin. Search results and imported catalogs show up as regular movies and series, and streams are resolved when you press play and proxied through Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
+    "description": "Gelato brings AIOStreams (Stremio addons) into Jellyfin. Search results and imported catalogs show up as regular movies and series, and streams are resolved when you press play and proxied through Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/lostb1t/Gelato/refs/heads/gh-pages/repository.json  \nGithub: https://github.com/lostb1t/Gelato",
     "guid": "94ea4e14-8163-4989-96fe-0a2094bc2d6a",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Gelato.webp",
     "name": "Gelato [✓]",
@@ -3688,7 +4054,7 @@
   {
     "guid": "b6a1c3f2-5d84-4e77-9d2a-7f1c8e4b3a91",
     "name": "Plugin Update Notifier [✓]",
-    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
+    "description": "Shows a notification badge on the admin's profile avatar and an entry in the profile menu when plugins have been installed, updated or removed and the server needs a restart. The entry opens a dashboard page listing which plugins changed, their old and new versions, and each release's changelog, plus a history of what earlier restarts applied. Source, docs and issues: https://github.com/mihaif7/jellyfin-plugin-update-notifier  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mihaif7/jellyfin-plugin-update-notifier/main/manifest.json  \nGithub: https://github.com/mihaif7/jellyfin-plugin-update-notifier",
     "overview": "Badges the admin avatar when plugins change and a restart is pending.",
     "owner": "mihaif7",
     "category": "General",
@@ -3747,7 +4113,7 @@
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "HDD Display [✓]",
-    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Admin Dashboard storage, mount usage and NVIDIA telemetry for Jellyfin.",
     "owner": "mleem97",
     "category": "General",
@@ -3790,7 +4156,7 @@
   {
     "guid": "6b6c96ac-3f60-4ac3-8b8a-0d0cb8acb9dd",
     "name": "MusicSuite [✓]",
-    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Spotify-inspired 3-column music streaming experience, squircle cards, live search, and library redirection.",
     "owner": "mleem97",
     "category": "General",
@@ -3833,7 +4199,7 @@
   {
     "guid": "f8d74b1c-3c97-4481-a3b3-6eb622d6ad58",
     "name": "MusicHoarderz Cover & Metadata Provider [✓]",
-    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Multi-platform cover art provider for music albums and artists via MusicHoarderz/COV.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -3876,7 +4242,7 @@
   {
     "guid": "67de1daa-c9fe-497a-9ca2-dc303abb717b",
     "name": "Spotify Cover & Metadata Provider [✓]",
-    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Metadata, tracklist and coverart provider for music, audiobooks and podcasts via Spotify.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -3919,7 +4285,7 @@
   {
     "guid": "a05dae4a-2e92-4303-8f16-a7ade62624b4",
     "name": "Gracenote Metadata Provider [✓]",
-    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Album and artist metadata and cover artwork via Gracenote MusicID (GMD v2/v3).",
     "owner": "mleem97",
     "category": "Metadata",
@@ -3996,7 +4362,7 @@
       }
     ],
     "name": "MediaTools [✓]",
-    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Media management swiss army knife: zero-interruption renaming, split-movie merging, MKV remuxing and stream deduplication.",
     "owner": "mleem97",
     "category": "General",
@@ -4039,7 +4405,7 @@
       }
     ],
     "name": "MetadataDashboard [✓]",
-    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "overview": "Unified metadata management dashboard cross-referencing Spotify, Gracenote, MusicBrainz, and CoverArtArchive.",
     "owner": "mleem97",
     "category": "Metadata",
@@ -4049,7 +4415,7 @@
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation [✓]",
     "overview": null,
-    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
+    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/FileTransformation.webp",
@@ -4096,7 +4462,7 @@
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar [✓]",
     "overview": null,
-    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
+    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-media-bar",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaBar.webp",
@@ -4151,7 +4517,7 @@
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages [✓]",
     "overview": null,
-    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
+    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-pages",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PluginPages.webp",
@@ -4206,7 +4572,7 @@
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections [✓]",
     "overview": null,
-    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
+    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/HomeScreenSections.webp",
@@ -4260,7 +4626,7 @@
   {
     "guid": "f3c07757-5b42-442e-a37a-f49355b6a7c0",
     "name": "Jellyfin Last.fm Plugin [✓]",
-    "description": "Scrobble your music to Last.fm, update now playing status, and love/ban tracks directly from Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-lastfm/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-lastfm",
+    "description": "Scrobble your music to Last.fm, update now playing status, and love/ban tracks directly from Jellyfin.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-lastfm/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-lastfm",
     "overview": "Integrates Jellyfin with Last.fm for automatic scrobbling, now playing notifications, and track management (love/ban).",
     "owner": "pepebarrascout",
     "category": "Music",
@@ -4319,7 +4685,7 @@
   {
     "guid": "d6a5ecc8-0481-4ca4-b03a-1fb8595ef8e6",
     "name": "Radio Online [✓]",
-    "description": "Automated online radio streaming plugin using Liquidsoap. Stream audio to Icecast servers with weekly playlist scheduling via Liquidsoap Telnet control.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-radio-online/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-radio-online",
+    "description": "Automated online radio streaming plugin using Liquidsoap. Stream audio to Icecast servers with weekly playlist scheduling via Liquidsoap Telnet control.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-radio-online/main/manifest.json  \nGithub: https://github.com/pepebarrascout/jellyfin-plugin-radio-online",
     "overview": "Automated online radio streaming via Liquidsoap to Icecast servers with weekly playlist scheduling. Assign Jellyfin playlists to specific day/time slots. Requires a Liquidsoap Docker container running alongside Jellyfin.",
     "owner": "PepeBarrascout",
     "category": "Music",
@@ -4552,9 +4918,397 @@
     ]
   },
   {
+    "guid": "c4a05f11-4ccc-4b00-bdea-dbeef1337000",
+    "name": "Chaosflix [✓]",
+    "description": "Browse and stream Chaos Computer Club conference talks from media.ccc.de directly in Jellyfin. Includes watch history, resume, SyncPlay support, popular/recommended talks, year-based browsing, and related talk suggestions.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/praetorianer777/chaosflix-jellyfin/main/manifest.json  \nGithub: https://github.com/praetorianer777/chaosflix-jellyfin",
+    "overview": "CCC Media Channel for Jellyfin",
+    "owner": "praetorianer777",
+    "category": "Channels",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Chaosflix.webp",
+    "versions": [
+      {
+        "version": "0.4.0.0",
+        "changelog": "Breaking changes:\n- requires Jellyfin 12.1.0 or newer (raised from 10.11.0)\nBug fixes:\n- report a raised minimum server version as breaking (#113)\n- stop Popular and Recommended reshuffling on every refresh (#111)\n- stop inventing a community rating from the view count (#108)\n- judge a conflicted rebase by the branch being rebased (#106)\n- and 3 more\nPlus 3 other changes.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.4.0/chaosflix-jellyfin-v0.4.0.zip",
+        "checksum": "6c7ff793e07ce26c73a4f4c9430fee91",
+        "timestamp": "2026-09-20T17:54:07Z"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "Features:\n- show the plugin's state on its configuration page (#93)\nPlus 5 other changes.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.3.0/chaosflix-jellyfin-v0.3.0.zip",
+        "checksum": "b4b7c4d4eeac9e4277957e966c311210",
+        "timestamp": "2026-09-19T14:42:40Z"
+      }
+    ]
+  },
+  {
+    "guid": "9f2e4a6b-7c1d-4e3f-8a5b-0d9c2e1f4a7b",
+    "name": "Amane [✓]",
+    "description": "对接本地 Amane 元数据服务的透明代理元数据插件：影片/人物元数据、封面与背景图、影片与演员 ID 绑定。  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/rappa850/Jellyfin.Plugin.Amane/main/manifest.json  \nGithub: https://github.com/rappa850/Jellyfin.Plugin.Amane",
+    "overview": "Amane 后端完成番号提取、离线库检索与 LLM 中文润色，本插件仅作为 Thin Client 把结果映射回 Jellyfin。",
+    "owner": "rappa850",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Amane.webp",
+    "versions": [
+      {
+        "version": "1.0.8.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.12.zip",
+        "checksum": "42769fbd430cb9f97540f3007c12405b",
+        "timestamp": "2026-10-03T10:59:13Z"
+      },
+      {
+        "version": "1.0.8.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.zip",
+        "checksum": "1ab6ce8b5472b0104c2c16843b1db808",
+        "timestamp": "2026-10-03T10:59:13Z"
+      },
+      {
+        "version": "1.0.7.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.7",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.7/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d4cc3d9e129767fcfe412100fb13e5e1",
+        "timestamp": "2026-09-26T12:14:48Z"
+      },
+      {
+        "version": "1.0.6.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.6",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.6/Jellyfin.Plugin.Amane.zip",
+        "checksum": "e4f912139edec2e13970d82917ef3266",
+        "timestamp": "2026-09-03T02:28:51Z"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.5",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.5/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d2fe47db488a1214bfaa9c0df7a12489",
+        "timestamp": "2026-09-02T15:54:03Z"
+      }
+    ]
+  },
+  {
+    "guid": "08880a95-8467-4538-bab9-da69c7f4793f",
+    "name": "Jellyfin Featured [✓]",
+    "overview": "A Netflix-style featured-content carousel for the Jellyfin Web home page.",
+    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
+    "owner": "spkesDE",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinFeatured.webp",
+    "versions": [
+      {
+        "version": "12.8.0.0",
+        "changelog": "- feat(trailer): add banner navigation and media controls positioning\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.8.0.0/Featured.zip",
+        "checksum": "bfbb172430e6e92751fb28353be27eb7",
+        "timestamp": "2026-10-03 13:33:37"
+      },
+      {
+        "version": "12.7.2.0",
+        "changelog": "- feat(ci): add .NET setup step and update workflow for translation status\n- fix(hero): preserve mobile hero fade on iOS\n- fix(release): format generated metadata\n- fix(styles): fixed drop-shadow for overview\n- fix(config): keep drag previews in styling scope\n- refactor(build): compile bootstrap assets with Vite\n- refactor(injection): centralize frontend markup handling\n- refactor(storage): share atomic persistence and cache primitives\n- refactor(config): split persisted models and mappings by domain\n- refactor(api): separate feed construction and response models\n- refactor(config-ui): separate defaults, factories and projections\n- refactor(config-ui): simplify shared editors and previews\n- refactor(config-ui): reorganize settings tabs and layouts\n- refactor(runtime): coordinate routing, mounting and response reuse\n- refactor(preferences): split dialog, form and dismissal behavior\n- refactor(trailers): separate controller and playback providers\n- refactor(carousel): extract navigation, controls and layout state\n- refactor(styles): organize runtime CSS by ownership\n- refactor(naming): rename ec- prefix to featured-\n- chore(tooling): standardize formatting, linting and tests\n- chore(format): normalize release metadata\n- deps(deps-dev): bump vite (#16)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.2.0/Featured.zip",
+        "checksum": "1b3f79a88338623de11b61c02e6a17d3",
+        "timestamp": "2026-09-29 20:43:41"
+      },
+      {
+        "version": "12.7.1.0",
+        "changelog": "- feat(cache): accelerate startup and coalesce remounts\n- docs: document cache performance behavior\n- perf(rule-engine): warm and streamline candidate loading\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.1.0/Featured.zip",
+        "checksum": "f770f78326f1066c902da902a949e8c3",
+        "timestamp": "2026-09-26 13:10:56"
+      },
+      {
+        "version": "12.7.0.0",
+        "changelog": "- feat(injection): add resilient direct fallback\n- feat(display): add interactive hero fade editor\n- feat(config): mirror Jellyfin in banner preview\n- fix(sources): fill feed from sole available source\n- docs(injection): document automatic fallback order\n- docs: update documentation\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.0.0/Featured.zip",
+        "checksum": "2ff97c01bde6e7e428fe22c33e8a6147",
+        "timestamp": "2026-09-26 08:26:36"
+      },
+      {
+        "version": "12.6.0.0",
+        "changelog": "- feat(playback): add direct play and resume\n- feat(recommendations): add persistent dismissal feedback\n- feat(sources): add continuation and metadata filters\n- fix(playback): restore play button hover state\n- fix(styles): adjust max-width calculation for better responsiveness\n- fix(styles): remove gap from actions and adjust media query formatting\n- fix(preferences): remove dismissal cooldown hint\n- fix(dismissals): preserve metadata icon color\n- fix(playback): update playback button class for styling consistency\n- fix(playstate): preserve metadata icon color on hover\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.6.0.0/Featured.zip",
+        "checksum": "365e28c3361509a6057679366e31e436",
+        "timestamp": "2026-09-24 17:51:33"
+      },
+      {
+        "version": "12.5.1.0",
+        "changelog": "- fix(trailers): release volume slider focus after drag\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.5.1.0/Featured.zip",
+        "checksum": "cc1888aa7be3170cbc000ddd0b78d60b",
+        "timestamp": "2026-09-22 16:50:25"
+      },
+      {
+        "version": "12.5.0.0",
+        "changelog": "- feat: control background trailers per source rule\n- feat: add Jellyfin movie recommendations as a mixer source\n- feat: toggle viewer favorites from featured slides\n- feat: make featured favorite button configurable for admins and users\n- feat: place favorite heart in banner metadata\n- feat(preferences): preload user settings cache\n- feat(trailers): add configurable media controls\n- feat(display): add fullscreen hero fade controls\n- feat(playstate): add watched toggle beside favorites\n- feat(styles): enhance CSS variables for responsive design and transitions\n- feat(sources): add media fallbacks and resolution filter\n- fix(navigation): preserve carousel focus and native keyboard controls\n- fix: show critic rating with rotten icon\n- fix: remove item-page critic rating classes\n- fix: update favorites without reloading carousel\n- fix(trailers): disable subtitles for remote trailers\n- fix(favorites): keep metadata heart clickable\n- fix(trailers): refine volume slider pill placement\n- fix(carousel): hide focus border on pointer clicks\n- fix(trailers): volume slider related styles fixes\n- fix(settings): streamline configuration and preview controls\n- fix(settings): keep live preview visible while scrolling\n- chore(tests): split and prune test suites\n- deps(deps): bump the npm-minor-and-patch group with 3 updates (#13)\n- deps: Bump the nuget-minor-and-patch group with 4 updates (#15)\n- deps(deps-dev): bump typescript from 5.9.3 to 6.0.3 (#14)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.5.0.0/Featured.zip",
+        "checksum": "af981e4822486aad9b5c38e4330694b7",
+        "timestamp": "2026-09-21 12:15:33"
+      },
+      {
+        "version": "12.4.0.0",
+        "changelog": "- fix(webos): support Chromium 79 and safe hero spacing\n- fix(style): adjust spacing for meta elements in featured.css\n- fix(hero): keep overlap layout stable with adaptive content\n- fix(hero): preserve logos and align layout tests\n- fix(hero): prioritize logos and align webOS tests\n- fix(style): remove margin-top from config and featured sections for better alignment\n- fix(hero): adapt overview lines to available space\n- fix(hero): scope stacking context to viewport\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.4.0.0/Featured.zip",
+        "checksum": "58cfd6b85d3b747f5d0ace9b048fbec0",
+        "timestamp": "2026-09-15 09:28:36"
+      },
+      {
+        "version": "12.3.1.1",
+        "changelog": "- fix(release): commit synchronized frontend version\n- chore: update plugin version to 12.3.1.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.3.1.1/Featured.zip",
+        "checksum": "dda5bc98cd2f9804a28ce77564f5d8cc",
+        "timestamp": "2026-09-15 07:55:02"
+      },
+      {
+        "version": "12.3.0.0",
+        "changelog": "- feat(theming): enhance theming capabilities with new CSS variables and documentation\n- feat(readme): add additional badges for license, release, Jellyfin version, and build status\n- feat: add feed preview functionality and better scheduling options for presets\n- fix(styles): add border radius and clip-path to ec-slide for improved aesthetics\n- fix(preview): refine layout and error handling\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.3.0.0/Featured.zip",
+        "checksum": "474ea9050bae246c7c179b02894143d1",
+        "timestamp": "2026-09-14 15:05:27"
+      },
+      {
+        "version": "12.2.2.0",
+        "changelog": "- feat: implement Jellyfin theme tokens and update styles across components\n- feat(i18n): enhance translation workflow and fallback handling\n- docs: add translation status badge to README\n- docs: highlight 12.2.1 performance improvements\n- docs: add performance in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.2.0/Featured.zip",
+        "checksum": "a43d188f7d8ff512f4d287cabf4fd4a2",
+        "timestamp": "2026-09-14 09:11:50"
+      },
+      {
+        "version": "12.2.1.0",
+        "changelog": "- feat(carousel): implement trailer volume management with local storage\n- perf(ruleEngine): dramatically reduce featured loading times by replacing expensive access re-queries with in-memory Jellyfin visibility checks\n- perf(cache): restore reliable prepared-cache hits with deterministic personalization fingerprints so warm requests can skip rule-engine work\n- fix(cache): enhance prepared cache diagnostics and add response serialization\n- fix(config): set new default values\n- docs: update README and add cache and trailer behavior documentation\n- refactor(ruleEngine): Refactor Featured Rule Engine and Enhance Timing Diagnostics\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.1.0/Featured.zip",
+        "checksum": "39e3f9eb4b03e8f89afd4b4f418dba7a",
+        "timestamp": "2026-09-13 23:31:55"
+      },
+      {
+        "version": "12.2.0.0",
+        "changelog": "- feat(personalization): add preference API and effective user settings\n- feat(config): add personalization defaults and policy controls\n- feat(carousel): add user personalization dialog\n- feat(mixer): add constrained source allocation\n- feat(config): expose source mixer controls\n- feat(trailers): add source resolver and response model\n- feat(player): support local remote and YouTube trailers\n- feat(config): add trailer settings and overrides\n- feat(presets): resolve scheduled configuration snapshots\n- feat(config): add preset scheduling editor\n- feat(personalization): add user menu settings entry\n- feat(personalization): link user settings page\n- feat(personalization): support excluded genres\n- feat(trailers): add playback hotkeys\n- feat(trailers): conceal YouTube startup controls\n- feat(trailers): show startup countdown ring\n- feat(trailers): add volume hotkeys\n- feat(trailers): expose ordered fallback candidates\n- feat(display): show controls only on hover\n- feat(preferences): speed up and restyle user settings\n- feat(preferences): add hourly item cooldown choices\n- fix(personalization): preserve inherited server defaults\n- fix(personalization): surface save failures and effective diagnostics\n- fix(personalization): preserve mixer source settings\n- fix(presets): refresh complete snapshots at boundaries\n- fix(trailers): prevent duplicate fullscreen playback\n- fix(config): restore genres and simplify global diversity\n- fix(personalization): normalize settings responses\n- fix(config): fix css for config page\n- fix(trailers): block YouTube playback controls\n- fix(trailers): fade playback into black canvas\n- fix(personalization): repair dialog and add genre states\n- fix(trailers): extend fade beyond hero edge\n- fix(trailers): crossfade concealed YouTube playback\n- fix(hero): finish backdrop fade before viewport edge\n- fix(trailers): render countdown ring inside button\n- fix(trailers): support inline playback on iOS\n- fix(trailers): recover from YouTube preview failures\n- fix(trailers): recover stalled media previews\n- fix(carousel): isolate button keyboard input\n- fix(hero): apply the mobile slide gradient\n- fix(hero): preserve spacing across touch layouts\n- fix(trailers): recover from blocked YouTube embeds\n- fix(performance): defer user settings until opened\n- docs: Revise README for clarity and update installation instructions\n- docs: Add section for additional Jellyfin plugins in README\n- docs: document completed 12.2 personalization\n- docs: document completed source mixer v2\n- docs: document proper trailer support\n- docs: document featured preset scheduling\n- docs: simplify readme for end users\n- refactor(mixer): split rule engine responsibilities\n- refactor(api): split controller endpoints\n- refactor(player): reorganize player initialization and event handling\n- test(trailers): cover resolver and player contracts\n- test(config): align layout contract with page styles\n- revert(trailers): restore compact backdrop fade\n- style(preferences): enlarge responsive settings modal\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.0.0/Featured.zip",
+        "checksum": "47754b4676e6f5decdaf13c7195a3a5c",
+        "timestamp": "2026-09-13 19:34:03"
+      },
+      {
+        "version": "12.1.1.0",
+        "changelog": "- feat: Add sample file exclusion logic and corresponding tests in FeaturedRuleEngine\n- docs: Add Star History section to README\n- refactor: Improve item selection logic in FeaturedPreparedCache and update tests\n- chore: Update JavaScript Injector repository URL in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.1.1.0/Featured.zip",
+        "checksum": "b7ea12719fa18fcd1382b08f5a53c335",
+        "timestamp": "2026-09-12 19:17:57"
+      },
+      {
+        "version": "12.1.0.0",
+        "changelog": "- Initial commit 12.1.0.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.1.0.0/Featured.zip",
+        "checksum": "1a7face17271b412bd6d7815356f8d7a",
+        "timestamp": "2026-09-12 16:05:20"
+      }
+    ]
+  },
+  {
+    "guid": "2c2ee6c1-bcd7-48e4-a7e8-e6b4d77d3df2",
+    "name": "Media Preview [✓]",
+    "overview": "Hover previews for Jellyfin Web using Trickplay and trailers.",
+    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
+    "owner": "spkesDE",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaPreview.webp",
+    "versions": [
+      {
+        "version": "12.4.0.0",
+        "changelog": "- feat(preview): add in-progress source override (#35)\n- Add Star History section to README\n- deps(deps): bump the npm-minor-and-patch group with 8 updates (#33)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.4.0.0/MediaPreview.zip",
+        "checksum": "43b86ce4967b29805489b49d06446cc5",
+        "timestamp": "2026-10-05 16:48:45"
+      },
+      {
+        "version": "12.3.0.0",
+        "changelog": "- feat(injection): add direct injection and robust automatic selection\n- fix(config): preserve preferred source order across updates\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.3.0.0/MediaPreview.zip",
+        "checksum": "de8d14c11feaeebec2da1cf3466f7fca",
+        "timestamp": "2026-09-30 17:01:46"
+      },
+      {
+        "version": "12.2.1.0",
+        "changelog": "- fix(manifest): Update manifest.json for failed v12.2.0.0 release\n- fix(manifest): Update manifest.json with version 12.2.0.1 changes\n- fix(trickplay): resolve series and season cards to an episode (#31)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.2.1.0/MediaPreview.zip",
+        "checksum": "4d3aeba21712b4f4c3e086d0e22319df",
+        "timestamp": "2026-09-30 06:37:41"
+      },
+      {
+        "version": "12.2.0.1",
+        "changelog": "- feat(input): support keyboard previews without hover hardware\n- feat(preview): fall back to direct play after trailers\n- feat(preview): add configurable Direct Play controls\n- feat(config): expose Direct Play in preview rules\n- feat(preview): add Direct Play master toggle\n- feat(config): explain preview fallback stacks\n- feat(preview): add configurable source chains and media controls\n- feat(config): make Prefer Trailer chain fully sortable\n- feat: enable complete default source chains\n- feat: add source-specific preview media controls\n- feat: move expand controls to appearance\n- fix(build): update image URL to use logo instead of hero in build script and manifest\n- fix(cache): scope preview data to server sessions\n- fix(trailer): stop media when hover ends\n- fix(youtube): align client and server URL parsing\n- fix(config): align backend and frontend defaults\n- fix(config): include component styles in production bundle\n- fix(build): preserve embedded config bundle boundary\n- fix(config): polish source chain drag editor\n- fix(config): align preference chain drag layout\n- fix(config): keep preview setting tabs accessible\n- fix(config): keep drag preview synced with cursor\n- fix(config): keep trickplay performance settings visible\n- fix(config): keep drag fallback inside list\n- fix(build): isolate injected config style bindings\n- fix(preview): cache missing trailer lookups\n- fix: diagnose direct play chain fallbacks\n- fix: prevent unsolicited home card previews\n- fix: remove pointer focus ring from preview controls\n- fix: keep multi-picker option backgrounds consistent\n- fix: add spacing between keyboard settings grids\n- fix(preview/hover): prevent stale media after pointer leave\n- fix(preview/library): honor library-specific source overrides\n- test: add frontend backend and contract safety net\n- style: adopt Prettier formatting\n- ci: adopt Featured security and dependency checks\n- deps: Bump Jellyfin to 12.1.0 (#27)\n- deps: Bump xunit.runner.visualstudio from 3.1.5 to 4.0.0 (#29)\n- deps: Bump Newtonsoft.Json from 13.0.3 to 13.0.4\n- chore: add release-notes.md to .prettierignore\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.2.0.1/MediaPreview.zip",
+        "checksum": "c2679623f715602d8a5a2538842e8e98",
+        "timestamp": "2026-09-29 17:00:01"
+      },
+      {
+        "version": "12.1.1.0",
+        "changelog": "- fix: Refactor star history section in README (#23)\n- fix(preview): ignore overlay images as render hosts, fixes #24\n- docs: Add Star History section to README\n- docs: Add section for more Jellyfin plugins\n- chore: add issue templates (#22)\n- chore: label feature issues automatically\n- chore: label support issues automatically\n- chore: label bug issues automatically\n- chore: update manifest and add new logo image\n- chore: update hero image\n- chore: update logo image\n- chore: add additional badges to README for license, latest release, Jellyfin version, and build status\n- chore: Update JavaScript Injector manifest URL in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.1.1.0/MediaPreview.zip",
+        "checksum": "fe396d8a6f6d00d0ca7109d3ac23afd3",
+        "timestamp": "2026-09-21 12:08:53"
+      },
+      {
+        "version": "12.1.0.0",
+        "changelog": "- fix(preview): unify card overlay stacking in Jellyfin 12\n- chore: update version to 12.1.0.0 in project files to keep in sync with jellyfin versioning\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.1.0.0/MediaPreview.zip",
+        "checksum": "b9c15e449dcd211a91235b1feb94d65e",
+        "timestamp": "2026-09-10 15:21:49"
+      },
+      {
+        "version": "0.4.0.1",
+        "changelog": "- fix(dependencies): update nanoid to version 3.3.18\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.4.0.1/MediaPreview.zip",
+        "checksum": "cc6b597ea005af141f5a0af8e13800cb",
+        "timestamp": "2026-09-08 10:15:53"
+      },
+      {
+        "version": "0.4.0.0",
+        "changelog": "- build: upgrade to .NET 10 and Jellyfin 12\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.4.0.0/MediaPreview.zip",
+        "checksum": "a971ed920d27cb98ea5bb9341b03b25d",
+        "timestamp": "2026-09-08 10:12:51"
+      },
+      {
+        "version": "0.3.1.1",
+        "changelog": "- fix(changelog): filter merge commits from release notes\n- fix(navigation): restrict admin link injection to plugin sidebar\n- docs: update contribution guidelines\n- docs: update build guide for clarity and structure\n- Update CHANGELOG for v0.3.1.0\n- Update manifest.json\n- Update manifest.json\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.1.1/MediaPreview.zip",
+        "checksum": "d425f922c41418b76eaff287bc58fbb7",
+        "timestamp": "2026-08-08 09:37:57"
+      },
+      {
+        "version": "0.3.1.0",
+        "changelog": "- feat: support JavaScript Injector\n- fix(trailer): render expand icon as svg\n- fix(runtime): harden preview cleanup and caches\n- fix(layout): Mount list row previews on the thumbnail instead of the row (#18)\n- fix(hover): Scope preview teardown to the card rather than the hover host (#19)\n- fix(trailer): Loop hover trailers through the player API instead of a playlist (#20)\n- build: synchronize release versions\n- chore: update nanoid and postcss dependencies to latest versions\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.1.0/MediaPreview.zip",
+        "checksum": "50ece21a24a35c573e5007983081020f",
+        "timestamp": "2026-07-31 09:42:46"
+      },
+      {
+        "version": "0.3.0.1",
+        "changelog": "- fix(trailer): keep expand button above card overlay\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.0.1/MediaPreview.zip",
+        "checksum": "af5a3115edf58f015b9e29819d6e8da9",
+        "timestamp": "2026-07-21 20:51:50"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "- feat(cards): support portrait expansion in wrapped rows\n- feat(trailer): persist unavailable YouTube sources\n- feat(trailer): sync unavailable sources with server\n- feat(config): configure unavailable trailer retry interval\n- feat(config): toggle unavailable trailer cache\n- fix(cards): enhance card selection logic and exclude non-playable media cards\n- fix(apiClient): added Jellyfin 12 support\n- fix(trailer): skip unavailable YouTube embeds\n- fix(trailer): read persisted unavailable source ids\n- build(dist): refresh preview bundles\n- refactor(navigation): improve plugin configuration link handling and update navigation entry logic for Jellyfin 12.0\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.0.0/MediaPreview.zip",
+        "checksum": "f7600fc1aae82fa25d9d13b62602973e",
+        "timestamp": "2026-07-21 18:34:08"
+      },
+      {
+        "version": "0.2.4.1",
+        "changelog": "- fix(config): live preview grid\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.4.1/MediaPreview.zip",
+        "checksum": "ffdd5af5475126b8190c1b43179989c6",
+        "timestamp": "2026-07-17 10:25:41"
+      },
+      {
+        "version": "0.2.4.0",
+        "changelog": "- feat(trailer): enhance portrait card expansion with source aspect ratio support\n- feat(appearance): add 'Source / Video ratio' option for portrait card expansion\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.4.0/MediaPreview.zip",
+        "checksum": "7b910608cc0992913e7d333d67f9ec26",
+        "timestamp": "2026-07-17 10:19:00"
+      },
+      {
+        "version": "0.2.3.1",
+        "changelog": "- fix(appearance): shift wide previews into viewport\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.3.1/MediaPreview.zip",
+        "checksum": "a93fd18f5fc53ae79698f8e1d7538f1e",
+        "timestamp": "2026-07-15 22:43:36"
+      },
+      {
+        "version": "0.2.3.0",
+        "changelog": "- feat(appearance): add portrait card expansion\n- feat(hover): integrate loading state into countdown\n- feat(config): preview portrait card expansion\n- fix(trickplay): prevent stale auto scrub timers\n- fix(runtime): bound preview caches\n- fix(appearance): keep wide previews in viewport\n- fix(trailer): respect restore on leave setting\n- fix(hover): resolve unavailable preview messages\n- fix(config): expand preview card on hover\n- build: align frontend package version\n- build: refresh bundled frontend output\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.3.0/MediaPreview.zip",
+        "checksum": "460b3d6c7d2f62637c837367769b641e",
+        "timestamp": "2026-07-15 12:50:33"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "- feat(trickplay): preload preview thumbnails\n- build: add plugin catalog image\n- docs: simplify README for users\n- docs: clarify contribution welcome note\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.2.0/MediaPreview.zip",
+        "checksum": "fa7095b512d24cb5fc79ac106c65c1ae",
+        "timestamp": "2026-06-22 19:28:24"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "- feat(config): migrate settings UI to Vue\n- build(changelog): order feature entries first\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.1.0/MediaPreview.zip",
+        "checksum": "563902dfef35c14ed2774654f7fe5e59",
+        "timestamp": "2026-06-16 13:59:31"
+      },
+      {
+        "version": "0.2.0.1",
+        "changelog": "- build: automate manifest changelog generation with git-cliff\n- build: remove manual manifest changelog override\n- build: align manifest changelog with git-cliff output\n- build: refresh bundled frontend output\n- build: refresh bundled frontend output\n- build: refresh bundled frontend output\n- build: update Jellyfin packages to 10.11.11\n- feat: add per-content-type preview source overrides\n- feat: add configurable smart preview source selection\n- feat: add configurable hover intent and cooldown\n- feat: add configurable preview metadata overlay\n- feat: add configurable preview fade and crossfade transitions\n- feat: add configurable keyboard preview support\n- feat: add library preview source rules\n- feat: refine configuration page and live preview\n- fix: guard initial hover preview requests\n- fix: clean up preview DOM on destroy\n- fix: support previews in season and episode overviews\n- fix: tighten card discovery and binding\n- fix: harden release and preview behavior\n- fix: validate embedded client bundle\n- fix: streamline CI workflow and update paths in build script\n- perf: skip library lookups without overrides\n- refactor: simplify auto scrub and trailer helpers\n- refactor: extract metadata overlay styles\n- refactor: unify plugin configuration page layout\n- refactor: unify remaining configuration tabs\n- refactor: enhance build script with modular functions and improved error handling\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.0.1/MediaPreview.zip",
+        "checksum": "5ee1bf7c3f01a56e5f5ef114cc408d15",
+        "timestamp": "2026-06-15 07:28:05"
+      },
+      {
+        "version": "0.1.1.0",
+        "changelog": "- feat: extend preview backdrop and hover settings\n- feat: add hover countdown and preview availability overlays\n- refactor: rename media preview frontend classes to jmp\n- refactor: split media preview styles into css modules\n- refactor: lazily inject preview dom\n- fix: restore preview backdrop rendering\n- fix: resolve lifecycle type guards\n- fix: restore reliable hover preview lifecycle\n- chore: rebuild media preview bundle\n- chore: minify css in bundled styles\n- chore: move manifest updater into scripts",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.1.1.0/MediaPreview.zip",
+        "checksum": "a1e376c6b314326d759b3dcae5710951",
+        "timestamp": "2026-05-24 20:06:16"
+      },
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.1.0.0/MediaPreview.zip",
+        "checksum": "5f9c61c96e155d4bddc87d5432aac31a",
+        "timestamp": "2026-05-24 11:14:35"
+      }
+    ]
+  },
+  {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -4605,7 +5359,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -4712,7 +5466,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -4803,7 +5557,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -4998,7 +5752,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -5121,7 +5875,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
@@ -5244,7 +5998,7 @@
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
     "name": "Google Books [✓]",
-    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
+    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
     "overview": "Google Books Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
@@ -5279,7 +6033,7 @@
   {
     "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
     "name": "OpenLibrary [✓]",
-    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 12:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 13:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "OpenLibrary metadata provider for Jellyfin",
     "owner": "jellyfin",
     "category": "Books",
