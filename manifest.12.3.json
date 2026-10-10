@@ -1,9 +1,9 @@
 [
   {
-    "guid": "ba0304f2-a76e-4be6-86da-965f91663fb4",
+    "guid": "6646d89d-7dcb-4f3a-82c6-48a54a821dd5",
     "name": "! Universal Plugin Repo [✓✓]",
-    "description": "Aggregated: 17, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: internal",
-    "overview": "Generated: 2026-10-10T05:08:48.540Z",
+    "description": "Aggregated: 21, Sources: 260.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: internal",
+    "overview": "Generated: 2026-10-10T06:08:47.713Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-10T05:08:48.540Z"
+        "timestamp": "2026-10-10T06:08:47.713Z"
       }
     ]
   },
@@ -19,7 +19,7 @@
     "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
     "name": "Segment Editor [✓]",
     "overview": "Segment editing UI embedded as a plugin page",
-    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
@@ -69,7 +69,7 @@
   {
     "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
     "name": "Continue Watching [✓]",
-    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
+    "description": "Updates the Continue Watching section to work like you expect it to. Works with and without the Home Screen Sections plugin. Supported by all clients.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://jellyfin.vuegen.dev/plugins/manifest.json  \nGithub: https://github.com/tim-vu/jellyfin-plugin-continue-watching",
     "overview": "Updates Continue Watching to work like you export",
     "owner": "timvu",
     "category": "General",
@@ -105,7 +105,7 @@
     "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
     "name": "Segment Editor [✓]",
     "overview": "Segment editing UI embedded as a plugin page",
-    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://manifest.intro-skipper.org/manifest.json  \nGithub: https://github.com/intro-skipper/segment-editor-plugin",
     "owner": "Intro Skipper",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/SegmentEditor.webp",
@@ -153,9 +153,76 @@
     ]
   },
   {
+    "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
+    "name": "AutoCert [✓]",
+    "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
+    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
+    "owner": "aober420",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.3.0",
+        "changelog": "## ✨ New Features\n\n- **Issue a certificate now:** Request a new certificate before renewal is due, even when automatic management is disabled. Save your settings first; the button uses your saved staging/production and restart settings.\n\n## 🎨 Improvements\n\n- **Issuance limits:** Manual requests retain the six-hour cooldown and certificate authority rate limits.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.3.0/AutoCert_1.0.3.0.zip",
+        "checksum": "25dd9fd4850d75663b52f9fc71e47df3",
+        "timestamp": "2026-09-22T20:24:33Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "## ✨ New Features\n\n- **Certificate issued date:** Show the certificate validity start date in your local time.\n- **Repository link:** Open the GitHub repository from the top of the plugin configuration page.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.2.0/AutoCert_1.0.2.0.zip",
+        "checksum": "d05a70b01bc9326a607758065ef8e071",
+        "timestamp": "2026-09-22T14:14:07Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Expired certificate status:** Resolved an issue where certificate status could remain outdated after expiration, including when automatic management was disabled.\n- **Status messages:** Keep renewal errors visible and replace obsolete restart instructions.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.1.0/AutoCert_1.0.1.0.zip",
+        "checksum": "d25ba92f23469c7d2125b6be197f97bd",
+        "timestamp": "2026-09-19T04:17:29Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "## ✨ New Features\n\n- **Certificate cleanup:** Retain replaced AutoCert certificates for five days after first observing them unused with the replacement active, then remove them at the next scheduled 12-hour check.\n\n## 🎨 Improvements\n\n- **Protected certificates:** Keep the active production certificate, latest staging certificate, and externally supplied files. Cleanup waits for any pending restart.\n- **Upgrade grace period:** Give existing old files a fresh five-day grace period when upgrading. Rollback to a deleted certificate is no longer available.\n- **Stable release:** AutoCert 1.0.0.0 is now a regular release.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.0.0/AutoCert_1.0.0.0.zip",
+        "checksum": "222ddf2691e2b4983c31682db0782735",
+        "timestamp": "2026-09-19T03:21:35Z"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Duplicate status text:** Resolved an issue where Certificate Active appeared twice when activity and certificate status matched. Distinct progress and error messages remain visible.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.2/AutoCert_0.2.2.0.zip",
+        "checksum": "66d6b386f7404a739b700c05f9e73251",
+        "timestamp": "2026-09-19T02:33:32Z"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Status after restart:** Resolved a stale restart message. Show Certificate Active when Jellyfin reports HTTPS listening, no restart is pending, certificate settings match, and the AutoCert PFX is valid.\n\n## 🎨 Improvements\n\n- **Error visibility:** Preserve staging messages and renewal failures.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.1/AutoCert_0.2.1.0.zip",
+        "checksum": "933efb8a15ea94fafd9b1aed090230d7",
+        "timestamp": "2026-09-19T02:28:55Z"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "## ✨ New Features\n\n- **GoDaddy authentication:** Use a classic API key and secret alongside the existing GoDaddy PAT, Cloudflare, and DigitalOcean options.\n- **HTTPS management:** DNS verification, automatic renewal, password-protected PFX creation, password rotation, Jellyfin HTTPS configuration updates, optional restart, and rollback.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.0/AutoCert_0.2.0.0.zip",
+        "checksum": "285cdf92e985106dccfa7795e85e234e",
+        "timestamp": "2026-09-18T16:31:55Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/AutoCert.webp"
+  },
+  {
     "guid": "a2b5f3e8-4c1d-4f7a-9e6b-8d0c2f1a3b5e",
     "name": "PostgreSQL Database Provider [✓]",
-    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
+    "description": "Production-ready PostgreSQL backend for Jellyfin. Bidirectional SQLite migration, near-instant search, health diagnostics, read-only SQL console and scheduled maintenance — no core modifications required.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/Jellyfin-Database-Providers-Postgres/main/manifest.json  \nGithub: https://github.com/BORNIOS/Jellyfin-Database-Providers-Postgres",
     "overview": "Reemplaza SQLite por PostgreSQL como motor de base de datos de Jellyfin. Incluye migración bidireccional SQLite↔PostgreSQL, búsqueda casi instantánea con índices GIN, health check automático al arrancar, consola SQL de solo lectura, mantenimiento programado (VACUUM/REINDEX/Backup) y un host seguro de esquemas privados para otros plugins.",
     "owner": ".:BORNIOS:.",
     "category": "Database",
@@ -222,7 +289,7 @@
   {
     "guid": "d3b07384-d9a1-4e2b-8c3f-1234567890ab",
     "name": "JellyTrend [✓]",
-    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
+    "description": "Syncs TMDB trending movies & TV shows with your local library and provides a Netflix-style banner carousel on the home screen.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/BORNIOS/JellyTrend/main/manifest.json  \nGithub: https://github.com/BORNIOS/JellyTrend",
     "overview": "JellyTrend empareja contenido en tendencia de TMDB con tu biblioteca Jellyfin usando provider IDs, genera recomendaciones personalizadas por usuario y lo muestra en un carrusel de banners y en canales para todos los clientes.",
     "owner": ".:BORNIOS:.",
     "category": "MoviesAndShows",
@@ -281,7 +348,7 @@
   {
     "guid": "f1a7b3c2-9d4e-4a86-bf21-6c0e5d83a47b",
     "name": "Marquee Companion [✓]",
-    "description": "Adds server-side library filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), opt-in recovery of missing release dates from file names or date added, authenticated Apple Watch media grants, and server-stored profile PINs. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection. Release-date recovery is selected per library and can preview changes before applying them.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
+    "description": "Adds server-side library filtering by media-stream characteristics that Jellyfin's core API can't express (video dynamic range, codecs, audio channel count, and spatial audio), opt-in recovery of missing release dates from file names or date added, authenticated Apple Watch media grants, and server-stored profile PINs. The filtering API exposes a paginated, BaseItemDto-compatible endpoint and a capability endpoint for client feature-detection. Release-date recovery is selected per library and can preview changes before applying them.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/drewtenn/Aurelia-Jellyfin-plugin-dist/main/manifest.json  \nGithub: https://github.com/drewtenn/Aurelia-Jellyfin-plugin-dist",
     "overview": "Library filtering, release-date recovery, Apple Watch media, and profile PINs.",
     "owner": "3dot3.com",
     "category": "General",
@@ -525,7 +592,7 @@
     "guid": "975dde10-724f-4b72-8efc-91a1cb2d9510",
     "name": "Playlist Generator [✓]",
     "overview": "Generate a daily personalized playlist",
-    "description": "Uses your listening history to generate a daily playlist of songs you might like  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json  \nGithub: https://github.com/Eeeeelias/playlist-generator",
+    "description": "Uses your listening history to generate a daily playlist of songs you might like  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/manifest.json  \nGithub: https://github.com/Eeeeelias/playlist-generator",
     "owner": "Eeeeelias",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/PlaylistGenerator.webp",
@@ -645,463 +712,435 @@
     ]
   },
   {
-    "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
-    "name": "MyAnimeSync [✓]",
-    "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
-    "overview": "Synchronise watch status on myanimelist.",
-    "owner": "iankiller77",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MyAnimeSync.webp",
-    "category": "General",
+    "guid": "c4a05f11-4ccc-4b00-bdea-dbeef1337000",
+    "name": "Chaosflix [✓]",
+    "description": "Browse and stream Chaos Computer Club conference talks from media.ccc.de directly in Jellyfin. Includes watch history, resume, SyncPlay support, popular/recommended talks, year-based browsing, and related talk suggestions.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/praetorianer777/chaosflix-jellyfin/main/manifest.json  \nGithub: https://github.com/praetorianer777/chaosflix-jellyfin",
+    "overview": "CCC Media Channel for Jellyfin",
+    "owner": "praetorianer777",
+    "category": "Channels",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Chaosflix.webp",
     "versions": [
       {
-        "version": "1.8.0.1",
-        "changelog": "### :bug: Bug Fixes\n- Improper empty guid check causing all legacy entry with no id to be updated by mistake (#84) @iankiller77",
-        "targetAbi": "12.1.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.8.0.1/myanimesync_1.8.0.1.zip",
-        "checksum": "efe7bac236d62c4fe71c4a63d1414291",
-        "timestamp": "2026-09-23T06:10:08Z"
+        "version": "0.4.0.0",
+        "changelog": "Breaking changes:\n- requires Jellyfin 12.1.0 or newer (raised from 10.11.0)\nBug fixes:\n- report a raised minimum server version as breaking (#113)\n- stop Popular and Recommended reshuffling on every refresh (#111)\n- stop inventing a community rating from the view count (#108)\n- judge a conflicted rebase by the branch being rebased (#106)\n- and 3 more\nPlus 3 other changes.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.4.0/chaosflix-jellyfin-v0.4.0.zip",
+        "checksum": "6c7ff793e07ce26c73a4f4c9430fee91",
+        "timestamp": "2026-09-20T17:54:07Z"
       },
       {
-        "version": "1.8.0.0",
-        "changelog": "### :rocket: Major features and improvements\n- Use jellyfin metadata to detect changes on series information + persistent user mapping for series name (#81) @iankiller77",
-        "targetAbi": "12.1.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.8.0.0/myanimesync_1.8.0.0.zip",
-        "checksum": "do_not_download",
-        "timestamp": "2026-09-23T04:08:52Z"
-      },
-      {
-        "version": "1.7.1.0",
-        "changelog": "### :tada: New features and improvements\n- Improve search for non-Japanese series (#78) @iankiller77",
-        "targetAbi": "12.1.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.7.1.0/myanimesync_1.7.1.0.zip",
-        "checksum": "0a6f03cb2a97c0823ccecf534e481aec",
-        "timestamp": "2026-09-16T04:17:41Z"
-      },
-      {
-        "version": "1.7.0.0",
-        "changelog": "### :rocket: Major features and improvements\n- Add option to use absolute episode for season identification (#74) @iankiller77\n### :tada: New features and improvements\n- Update code to work with Jellyfin 12.0.x (#76) @iankiller77\n- Retrieve tvdb user token from TVDB api. (#72) @iankiller77",
-        "targetAbi": "12.0.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.7.0.0/myanimesync_1.7.0.0.zip",
-        "checksum": "6f52dda7791db0349c46752e7bc7a1d0",
-        "timestamp": "2026-09-10T06:07:44Z"
-      },
-      {
-        "version": "1.6.2.2",
-        "changelog": "### :bug: Bug Fixes\n- Bugfix/wrong season identification with tv special between seasons (#70) @iankiller77\n- bugfix/missing_serie_season_from_user_list_when_season_marked_as_nsfw (#68) @iankiller77",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.2.2/myanimesync_1.6.2.2.zip",
-        "checksum": "5806acad17201afc201b4f511d24abcc",
-        "timestamp": "2026-07-08T02:58:17Z"
-      },
-      {
-        "version": "1.6.2.1",
-        "changelog": "### :bug: Bug Fixes\n- Bugfix/unable to copy api url from insecure http context (#66) @iankiller77",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.2.1/myanimesync_1.6.2.1.zip",
-        "checksum": "849b082c3f35d9630403350ae003e19c",
-        "timestamp": "2026-07-06T05:08:23Z"
-      },
-      {
-        "version": "1.6.2.0",
-        "changelog": "### :tada: New features and improvements\n- Refactor/improve_code_coverage (#60) @iankiller77\n- feature/consider_serie_production_year_and_type_for_search (#57) @iankiller77\n- refactor/streamlined_update_entry_generation_and_use_for_episode (#56) @iankiller77\n- feature/image_for_plugin_page (#55) @iankiller77\n### :bug: Bug Fixes\n- bugfix/episode_mismatch_on_ONA_in_between_seasons (#62) @iankiller77\n- bugfix/fix_special_episode_issue_introduced_in_#56 (#59) @iankiller77",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.2.0/myanimesync_1.6.2.0.zip",
-        "checksum": "87a37c884ef43def34b6269658e2b1d4",
-        "timestamp": "2026-07-05T05:50:29Z"
-      },
-      {
-        "version": "1.6.1.0",
-        "changelog": "### :tada: New features and improvements\n- feature/copy api url on click (#51) @iankiller77\n### :bug: Bug Fixes\n- bug/wrong_edit_window_location_on_jellyfin_app (#53) @iankiller77\n- bug/label_first_button_function_bleeding_into_the_label (#52) @iankiller77\n- bug/fix_search_regression_with_unidentified_season_number (#50) @iankiller77",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.1.0/myanimesync_1.6.1.0.zip",
-        "checksum": "fcd3be4fa1adad843b1cfbc7284950cd",
-        "timestamp": "2026-06-16T05:10:23Z"
-      },
-      {
-        "version": "1.6.0.0",
-        "changelog": "### Major features and improvements\n- Refactor/improvement to the UI using theme (#41) @iankiller77\n### New features and improvements\n- Feature/add option to use library name if original serie title failed (#42) @iankiller77\n- Feature/improve failed update list useability (#39) @iankiller77\n### Bug Fixes\n- bug/properly_cleanup_series_title_name (#43) @iankiller77",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.0.0/myanimesync_1.6.0.0.zip",
-        "checksum": "d1ff8c305bf3985f2bcd8f7b8cde350b",
-        "timestamp": "2026-06-07T02:57:26Z"
-      },
-      {
-        "version": "1.5.1.1",
-        "changelog": "Improved logs, UI and better handling of authentication parameters to better support futur issues.\n1. refactor/fixed_warnings_for_TVDB_token_update\n2. refactor/add_more_logs_for_authentication_process\n3. refactor/correct_user_config_client_id_and_secret_before_generating_auth_code_url",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.1.1/myanimesync_1.5.1.1.zip",
-        "checksum": "98a889d26341268caeb0df01c29d2870",
-        "timestamp": "2026-04-09T18:54:00Z"
-      },
-      {
-        "version": "1.5.1.0",
-        "changelog": "Added option to search for serie using original name",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.1.0/myanimesync_1.5.1.0.zip",
-        "checksum": "d5df25c7c7f5ae87f776d96e6eb1b4e8",
-        "timestamp": "2026-03-26T18:54:00Z"
-      },
-      {
-        "version": "1.5.0.1",
-        "changelog": "Updated code to work with jellyfin 10.11.x",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.0.1/myanimesync_1.5.0.1.zip",
-        "checksum": "3d4551e5bfbbc33dc5e416d1961f7c99",
-        "timestamp": "2025-12-07T18:54:00Z"
-      },
-      {
-        "version": "1.5.0.0",
-        "changelog": "Feature: add option for full anime list update from jellyfin watch status.\nFeature: add option to handle specials.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.0.0/myanimesync_1.5.0.0.zip",
-        "checksum": "7c411918adfd33fefd0d33d3603e5071",
-        "timestamp": "2025-11-27T18:54:00Z"
-      },
-      {
-        "version": "1.4.2.2",
-        "changelog": "Fixed a bug where updating animelist season 0 (specials) was updating anime list as if it was the first season instead.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.2.2/myanimesync_1.4.2.2.zip",
-        "checksum": "f2c0384475d673ca6e3711f2466fe55a",
-        "timestamp": "2025-06-10T18:36:00Z"
-      },
-      {
-        "version": "1.4.2.1",
-        "changelog": "Fixed an issue with bulk update causing wrong episode number to be updated.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.2.1/myanimesync_1.4.2.1.zip",
-        "checksum": "10ee79b0b3e98a690fbe3d8981b5f3c6",
-        "timestamp": "2025-06-06T13:56:00Z"
-      },
-      {
-        "version": "1.4.2.0",
-        "changelog": "Added an option to delete a user config.\nFixed a bug where incomplete config would cause the token update task to fail.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.2.0/myanimesync_1.4.2.0.zip",
-        "checksum": "6cc5826bc5ce162ca3ca2b39a92408b6",
-        "timestamp": "2025-05-01T19:35:00Z"
-      },
-      {
-        "version": "1.4.1.1",
-        "changelog": "Fixed an issue where retry button would invert episode and season number when trying to update missed anime.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.1.1/myanimesync_1.4.1.1.zip",
-        "checksum": "a111884d3ea1a75b06a3ac3142432b04",
-        "timestamp": "2025-01-18T10:41:00Z"
-      },
-      {
-        "version": "1.4.1.0",
-        "changelog": "Improved words base search to ignore special characters. This fix an issue with sites using special characters that are not used on myanimelist.net.",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.1/myanimesync_1.4.1.0.zip",
-        "checksum": "9c16addefa425825b9f8bfbcfbd69fa4",
-        "timestamp": "2025-01-18T00:00:00Z"
-      },
-      {
-        "version": "1.4.0.0",
-        "changelog": "New feature to monitor and retry failed updates.\nSearch improvement.\n1. feature/Update_sequel_search_to_prioritize_anime_over_movies\n2. Feature/add fail update list and retry failed updates\n3. feature/Also_check_english_title_for_season_part_check",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.4.0/myanimesync_1.4.0.0.zip",
-        "checksum": "f7f531cf2bda600b6089ab93afff9b00",
-        "timestamp": "2024-06-23T00:00:00Z"
-      },
-      {
-        "version": "1.3.2.0",
-        "changelog": "1. bug/wrong_anime_info_when_anime_has_a_movie_has_a_sequel\n2. feature/set_anime_to_watching_when_updating_existing_entries",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.3.2/myanimesync_1.3.2.0.zip",
-        "checksum": "9b87d1d11eef52a897dc576b4bf9d84b",
-        "timestamp": "2024-06-23T00:00:00Z"
-      },
-      {
-        "version": "1.3.1.0",
-        "changelog": "1. feature/update_to_new_jellyfin_version_10.9",
-        "targetAbi": "10.9.2",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.3.1/myanimesync_1.3.1.0.zip",
-        "checksum": "77563d5c6e09cff4efae885df7d1aae2",
-        "timestamp": "2024-05-22T00:00:00Z"
-      },
-      {
-        "version": "1.3.0.0",
-        "changelog": "1. feat/update_anime_search_to_use_word_based_search\n2. feat/add_option_to_filter_nsfw_content_in_anime_search",
-        "targetAbi": "10.8.0.13",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.3/myanimesync_1.3.0.0.zip",
-        "checksum": "ae048fa4ddefd52d4242df9cd42a826a",
-        "timestamp": "2024-02-17T00:00:00Z"
-      },
-      {
-        "version": "1.2.2.0",
-        "changelog": "1. Refactor/UI and user config handling improvement\n2. refactor/only_update_anime_status_if_watch_number_higher",
-        "targetAbi": "10.8.0.13",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.2.2/myanimesync_1.2.2.0.zip",
-        "checksum": "4023affa2100ee18d93e9c3b4ce462f5",
-        "timestamp": "2024-02-09T00:00:00Z"
-      },
-      {
-        "version": "1.2.1.0",
-        "changelog": "1. bug/Anime_Name_Exceeding_Max_Search_Lenght\n",
-        "targetAbi": "10.8.0.13",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.2.1/myanimesync_1.2.1.0.zip",
-        "checksum": "152f2cd8e6c9139563e3423cb2858a52",
-        "timestamp": "2024-01-31T00:00:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release.\n",
-        "targetAbi": "10.8.0.13",
-        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.0/myanimesync_1.0.0.0.zip",
-        "checksum": "e4d886b5c18e0a8ee488ca5b0feb6b09",
-        "timestamp": "2024-01-24T00:00:00Z"
+        "version": "0.3.0.0",
+        "changelog": "Features:\n- show the plugin's state on its configuration page (#93)\nPlus 5 other changes.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/praetorianer777/chaosflix-jellyfin/releases/download/v0.3.0/chaosflix-jellyfin-v0.3.0.zip",
+        "checksum": "b4b7c4d4eeac9e4277957e966c311210",
+        "timestamp": "2026-09-19T14:42:40Z"
       }
     ]
   },
   {
-    "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
-    "name": "Jellyfin Helper [✓]",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
-    "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
-    "owner": "JellyPlugins",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinHelper.webp",
+    "guid": "9f2e4a6b-7c1d-4e3f-8a5b-0d9c2e1f4a7b",
+    "name": "Amane [✓]",
+    "description": "对接本地 Amane 元数据服务的透明代理元数据插件：影片/人物元数据、封面与背景图、影片与演员 ID 绑定。  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/rappa850/Jellyfin.Plugin.Amane/main/manifest.json  \nGithub: https://github.com/rappa850/Jellyfin.Plugin.Amane",
+    "overview": "Amane 后端完成番号提取、离线库检索与 LLM 中文润色，本插件仅作为 Thin Client 把结果映射回 Jellyfin。",
+    "owner": "rappa850",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/Amane.webp",
     "versions": [
       {
-        "version": "3.0.0.4",
-        "changelog": "v3.0.0.4 - Per-library file counts, boxset link fix\n\n- The Per-Library Breakdown now shows a file count below every size value (trickplay folders included), so sparse and dense libraries are distinguishable at a glance\n- Boxset library rows no longer link into the Library Explorer, whose scope excludes boxsets; they render as plain text instead of opening an empty state\n- Every task dropdown in Settings now explains what the task does, via an info button next to each task name, in all dashboard languages\n- The Overview Trickplay card now also shows the space used by trickplay images Jellyfin stores internally, on its own line below the alongside-media total, marked with an (internal) badge, or as the headline when no alongside data exists\n- Compact log view on phones: log entries stack as cards below 700 px instead of squeezing into a four-column table, so no horizontal scrolling is needed, and rows keep breathing room at the screen edges\n- Roomier Library Explorer filter popovers on phones using nearly the full viewport width, like the bitrate editor\n- Tested by 6219 unit tests and 352 end-to-end tests\n- Requires Jellyfin 12.1 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
+        "version": "1.0.8.0",
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.4/JellyfinHelper_3.0.0.4.zip",
-        "checksum": "a4510319c8f330e427a8d26cf3d0745f",
-        "timestamp": "2026-09-26T21:37:58Z"
-      },
-      {
-        "version": "3.0.0.3",
-        "changelog": "v3.0.0.3 - Library Explorer, new Codecs breakdowns, disabled users ignored\n\n- The Codecs tab now has a Library Explorer: combine resolution, codecs, bitrate, languages, watched users and formats into one search, scoped to the libraries you pick in its multi-select, so you can find e.g. all 4K films with low bitrate\n- Options with zero matches under the other filters are hidden automatically, dimensions without matches stay greyed out, and multi-value dropdowns accept several audio languages, subtitle languages or users at once\n- Every active filter is shown in the result header and a Reset button clears the whole search; results arrive as the familiar grouped file tree with Movies, TV Shows and other sections\n- Jump straight into the search from the Overview: each library name and all four media cards open the Explorer pre-filtered to that scope\n- Every categorical filter can be negated with Includes/Excludes, so you can search e.g. audio languages that are not German; excluded picks show as ≠ pills and counts preview what stays\n- Four new breakdowns in the Codecs tab, each with drill-down to the exact files: Video Bitrate (7 tiers from < 2 to > 60 Mbps), Audio Languages, Subtitle Languages and Watched (by username plus Never watched)\n- Each bitrate tier uses what Jellyfin measured for the video stream; when a file has no per-stream value the average is estimated from its size and runtime, so almost every file lands in a real tier instead of Unknown\n- Disabled Jellyfin users no longer skew results: their old plays are excluded from Smart Recommendations, watch history and the new Watched breakdown\n- Long breakdowns start collapsed behind a Show-all toggle with Unknown always last, and unreadable language tags fold into Unknown instead of junk entries\n- Added responsive, independently scrollable library result cards.\n- Improved compact layouts for mobile controls.\n- Added consistent themed scrollbar styling across plugin panels and lists.\n- The Overview Per-Library Breakdown has a new Other column per library covering NFO files, text files and other unrecognized sidecar files, plus a Books column whenever a book library exists, so every row adds up exactly to its Total\n- Tested by 6169 unit tests and 341 end-to-end tests\n- Requires Jellyfin 12.1 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.3/JellyfinHelper_3.0.0.3.zip",
-        "checksum": "e0de64922c90495a3733ef2f554edb4a",
-        "timestamp": "2026-09-24T15:19:11Z"
-      },
-      {
-        "version": "3.0.0.2",
-        "changelog": "v3.0.0.2 - Log tab, save bar, resolution and touch fixes\n\n- Clearing the plugin log no longer briefly shows a false \"Failed to clear logs.\" error: the Clear button now confirms success immediately and refreshes the view right away\n- Genuine clear failures (e.g. expired session or server error) now write a structured diagnostic to the browser console with the HTTP status and error kind, alongside the visible red button feedback, so a real problem is never silent\n- Save bar no longer crowds on phones: the unsaved-changes label and Save button now stack on narrow screens, so long translations like the German \"Nicht gespeichert\" are no longer cut off\n- Widescreen films are counted at their real resolution: cinemascope masters like 1920x800 or 1920x1040 are now correctly shown as 1080p instead of 720p in the Codecs tab, decided by whichever axis reaches a resolution class\n- The resolution drill-down now lists each file's exact pixel dimensions (e.g. 1920x800) next to its name, readable on desktop and phones\n- Chart tooltips work reliably on touch: the first tap on the Trends chart or a Codecs ring now shows and keeps the tooltip instead of flashing it away, and a second tap on the same Codecs segment closes it\n- The save confirmation only appears after a real save: reverting a setting back to its original value no longer briefly shows \"All changes saved\"\n- Tested by 5535 unit tests and 320 end-to-end tests\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.2/JellyfinHelper_3.0.0.2.zip",
-        "checksum": "974ff1d2c486431f2cac0b9a79e9d2e6",
-        "timestamp": "2026-09-14T09:43:18Z"
-      },
-      {
-        "version": "3.0.0.1",
-        "changelog": "v3.0.0.1 - Per-instance library allocation for Arr\n\n- Assign specific Jellyfin libraries to each Radarr/Sonarr instance, so the Arr tab compares an instance only against the libraries it manages\n- With two or more instances of a type, each gets a picker in Settings listing only the matching kind of library (movies for Radarr, TV for Sonarr)\n- Leave a picker empty to keep it automatic: instances are matched to libraries from their root folders\n- Assignments are kept across backup and restore\n- Fixes a 4K instance flagging every 1080p film as \"not in Radarr\"\n- Tested by 5499 unit tests and 318 end-to-end tests\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.1/JellyfinHelper_3.0.0.1.zip",
-        "checksum": "9947381e815c9c6e4d1efeb5dfe58f4a",
-        "timestamp": "2026-09-09T18:48:52Z"
-      },
-      {
-        "version": "3.0.0.0",
-        "changelog": "v3.0.0.0 - Major release for Jellyfin 12.0+\n\n- Books in your library overview: eBook libraries now show their size and file count on the Overview tab and count towards your storage totals, and they're always protected from every cleanup task\n- Smarter recommendations: a much bigger model, fairer suggestions for brand-new users, and more variety in your top picks (no more ten near-identical films in a row)\n- Recommendations now also learn from franchises/collections, country of origin, collection & folder themes, whether a series is finished or ongoing, writers/creators, top-billed cast, and how rare a genre or studio is in your library (each signal is optional per item, so missing metadata never skews a pick)\n- Fresh picks appear between nightly runs, and faster generation on big libraries\n- Redesigned Settings, Health and Arr tabs with a live 'reachable' indicator, plus a sticky save bar and unsaved-changes warning\n- Better on phones\n- Stronger security: API keys are never shown to the browser, backups can leave keys out, and cleanup can never delete or touch anything outside your media libraries\n- Safer trash and cleanup: turning retention off really turns it off, trashing a shortcut never removes the file it points to, and Windows shortcut handling is fixed\n- More accurate library stats and safer Seerr request cleanup\n- More reliable saves and backups (no more rare 'lost save' when antivirus is scanning)\n- New end-to-end test suite runs the plugin inside a real Jellyfin 12 server on every change and proves cleanup stays inside your libraries\n- Note: your recommendation model retrains from scratch after upgrading, so suggestions settle back in over the next scheduled runs\n- Requires Jellyfin 12.0 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.0.0/JellyfinHelper_3.0.0.0.zip",
-        "checksum": "da00c2314b5d665c0746041ec5f08323",
-        "timestamp": "2026-09-08T23:09:52Z"
-      },
-      {
-        "version": "2.1.0.6",
-        "changelog": "v2.1.0.6: Diagnostics for reverse-proxy / WAF-blocked config saves. Added GET /JellyfinHelper/Ping liveness endpoint. Configuration model-binding and validation errors are now logged to the plugin log (source \"API\", level WARN) instead of silently returning 400. Frontend save handler now classifies errors (network / proxy / server / unauthorized) and surfaces the HTTP status and body snippet to the console, with an automatic Ping follow-up to distinguish \"backend unreachable\" from \"backend reachable, payload rejected\". 2325 tests.",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.6/JellyfinHelper_2.1.0.6.zip",
-        "checksum": "bb4a4d1a8e8281f0cc96e878ff071f91",
-        "timestamp": "2026-07-20T13:23:43Z"
-      },
-      {
-        "version": "2.1.0.5",
-        "changelog": "v2.1.0.5: Fix StackOverflow on circular symlinks in directory scan. Fix IOException on long trash path names. Added Swedish (sv) language. Exclude Libraries multi-select dropdown. Trash folder browser. Trash path change dialog (move/delete content on path change). Enhanced trash path validation. Upgraded to Jellyfin 10.11.10. 2318 tests.",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.5/JellyfinHelper_2.1.0.5.zip",
-        "checksum": "47c4e0728823b2deeebae422219af89c",
-        "timestamp": "2026-06-03T23:24:10Z"
-      },
-      {
-        "version": "2.1.0.4",
-        "changelog": "v2.1.0.4: Fix MissingMethodException for IUserManager.Users.",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.4/JellyfinHelper_2.1.0.4.zip",
-        "checksum": "56c03554f5f4e36f3527a273a324a00e",
-        "timestamp": "2026-05-25T09:39:14Z"
-      },
-      {
-        "version": "2.1.0.3",
-        "changelog": "v2.1.0.3: Add TMDB and Seerr deep links on discovery card flip-back (opens system browser on mobile). Fix 400 Bad Request when submitting discovery requests on Seerr instances with 0-based server IDs. Fix duplicate quality profiles in selection popup for users with multiple root folders. Add graceful error handling for Jellyfin version incompatibility in watch history collection. 2206 tests",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.3/JellyfinHelper_2.1.0.3.zip",
-        "checksum": "09e306c9584d7ff514da42c300c0c447",
-        "timestamp": "2026-05-21T11:09:46Z"
-      },
-      {
-        "version": "2.1.0.2",
-        "changelog": "v2.1.0.2: Improved Discovery Sidebar Navigation - tab layout can show more than 5 recommendations in one row now. Automatically reloading next recommendation after one was dismissed or requested.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.2/JellyfinHelper_2.1.0.2.zip",
-        "checksum": "d5e41be1c231408b466b86da760ed439",
-        "timestamp": "2026-05-18T13:06:12Z"
-      },
-      {
-        "version": "2.1.0.1",
-        "changelog": "v2.1.0.1: Fix Discovery sidebar navigation - tab is now found dynamically by container index regardless of user-configured tab name, instead of relying on exact text match.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.1/JellyfinHelper_2.1.0.1.zip",
-        "checksum": "fa7493861f94c8997e0b5c0fd65eec19",
-        "timestamp": "2026-05-18T00:14:00Z"
-      },
-      {
-        "version": "2.1.0.0",
-        "changelog": "v2.1.0.0: Seerr Discovery - personalized external content recommendations via Overseerr/Jellyseerr with ensemble scoring, one-click request submission, parental rating enforcement, language-based discovery, and Arr library exclusion. 2190 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.1.0.0/JellyfinHelper_2.1.0.0.zip",
-        "checksum": "83a12452b68cf45bcc8710fcc6391f22",
-        "timestamp": "2026-05-17T08:53:55Z"
-      },
-      {
-        "version": "2.0.0.3",
-        "changelog": "v2.0.0.3: Instance-based Arr config (legacy removed), persistent language/log-level. Recommendations add audio language & creation date, subtitle language affinity, collection progression boost; meaningful-interaction watched predicates. Centralized popularity scoring, richer training features (31-feature vector), series aggregation, weight schema bump. Neural MLP upgraded to 4-hidden-layer architecture (31→48→24→12→6→1, ~3097 params). Training refactored into TrainingDataBuilder + TrainingFeatureComputer. A/B testing cohort infrastructure with deterministic user bucketing and adaptive sigmoid midpoint. 2124 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.3/JellyfinHelper_2.0.0.3.zip",
-        "checksum": "79a52c37d75a44ce5fc6ecb824558f68",
-        "timestamp": "2026-05-08T22:57:43Z"
-      },
-      {
-        "version": "2.0.0.2",
-        "changelog": "v2.0.0.2: Replaced decorative emojis with Material Symbols font icons for consistent cross-platform rendering. Standardized dash punctuation. Fixed subtitle orphan detection to avoid false deletions. 2110 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.2/JellyfinHelper_2.0.0.2.zip",
-        "checksum": "efd156d832dbe80592d006ede100030e",
-        "timestamp": "2026-05-03T19:50:13Z"
-      },
-      {
-        "version": "2.0.0.1",
-        "changelog": "v2.0.0.1: UI improvement - Recommendations and Watch Activity sections in the Discover tab are now collapsible. Collapsible state is preserved on user switch. 2032 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.1/JellyfinHelper_2.0.0.1.zip",
-        "checksum": "b7a1f2ddbd15f16528a8300dd9586024",
-        "timestamp": "2026-04-28T10:45:51Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "v2.0.0.0: New Discover tab using an ensemble ML model to provide tailored content recommendations. This update also introduces granular activity tracking and improved system cleanup for uninstallation of this plugin. 2032 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/2.0.0.0/JellyfinHelper_2.0.0.0.zip",
-        "checksum": "5a8d6b807d5bef56236a09ff54f35613",
-        "timestamp": "2026-04-27T21:30:41Z"
-      },
-      {
-        "version": "1.2.1.0",
-        "changelog": "v1.2.1.0: Statistics refactored to use Jellyfin MediaStream metadata (replaces filename parsing). Dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR). Extended resolution classification (8K, 1440p, SD). Differentiated audio codecs (TrueHD Atmos, DTS-X, DTS-HD MA, EAC3 Atmos). Donut chart enhancements with dynamic range visualization. Library Insights in Trends tab (top-10 largest directories, recently added/changed items, per-library size breakdown with 15-min cache). Performance improvement via per-item video stream caching. Documentation updated.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.2.1.0/JellyfinHelper_1.2.1.0.zip",
-        "checksum": "e47c75ff602b90c3f0c2bc3c089ceadc",
-        "timestamp": "2026-04-20T19:10:33Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "v1.2.0.0: Seerr Cleanup Task (scheduled cleanup of unavailable Overseerr/Jellyseerr media requests), Unsaved Settings Alert (dirty-tracking with discard/save/cancel dialog), Collapsible Arr/Seerr sections with dynamic instance count, Auto-Save Dropdowns (task modes + language save instantly with checkmark/cross indicator), Link Repair enhanced with symlink support, Auto-Init Scan on first visit, Scroll Position Restore after language change and backup import, 4-part versioning, meta.json fixes.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.2.0.0/JellyfinHelper_1.2.0.0.zip",
-        "checksum": "5db872edebdcdd0c8af06091ebd0276e",
-        "timestamp": "2026-04-19T22:12:46Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "v1.1.0: Performance optimizations for GrowthTimelineService and BackupService, refactored monolith services, improved cross-platform compatibility, Trends UI enhancements.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.1.0/JellyfinHelper_1.1.0.zip",
-        "checksum": "f1c5e06566bc63706e49308682b6b700",
-        "timestamp": "2026-04-16T11:00:11Z"
-      },
-      {
-        "version": "1.0.9.0",
-        "changelog": "v1.0.9: Removed legacy statistics history (replaced by growth timeline), removed Export/CSV endpoints, new StatisticsCacheService, legacy history file cleanup, growth timeline interpolation & deduplication, reduced backup size limit, 957 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.9/JellyfinHelper_1.0.9.zip",
-        "checksum": "df0410a3b9c8fde90dbd4932dff0802f",
-        "timestamp": "2026-04-15T20:37:15Z"
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.12.zip",
+        "checksum": "42769fbd430cb9f97540f3007c12405b",
+        "timestamp": "2026-10-03T10:59:13Z"
       },
       {
         "version": "1.0.8.0",
-        "changelog": "v1.0.8: Project restructure, bug fix for Jellyfin versions below 10.11.8, backup/restore data, enhanced TrendChart, relocated download buttons, responsive Data Tree for touch devices.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.8/JellyfinHelper_1.0.8.zip",
-        "checksum": "6031a9160a5b4690c5cd2b5d8d813770",
-        "timestamp": "2026-04-12T23:09:21Z"
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.8",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.8/Jellyfin.Plugin.Amane.zip",
+        "checksum": "1ab6ce8b5472b0104c2c16843b1db808",
+        "timestamp": "2026-10-03T10:59:13Z"
       },
       {
         "version": "1.0.7.0",
-        "changelog": "v1.0.7: Added i18n support (EN, DE, FR, ES, PT, TR, ZH), scheduled task for cleaning empty media folders, trend chart visualization, configurable intervals, and automatic plugin data directory creation.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/v1.0.7/jellyfin-helper-v1.0.7.zip",
-        "checksum": "e6c9ef9ee4e80ffdd57d8bd5ea64f3ca",
-        "timestamp": "2026-04-12T00:00:00Z"
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.7",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.7/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d4cc3d9e129767fcfe412100fb13e5e1",
+        "timestamp": "2026-09-26T12:14:48Z"
       },
       {
         "version": "1.0.6.0",
-        "changelog": "Exclude trash folders from media statistics, fix false positives for orphaned TV show metadata directories, fix trash disable dialog in UI.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.6/JellyfinHelper_1.0.6.zip",
-        "checksum": "7b4e031de54e48169f61bcef0626e775",
-        "timestamp": "2026-04-11T17:10:31Z"
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.6",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.6/Jellyfin.Plugin.Amane.zip",
+        "checksum": "e4f912139edec2e13970d82917ef3266",
+        "timestamp": "2026-09-03T02:28:51Z"
       },
       {
         "version": "1.0.5.0",
-        "changelog": "Multi-instance Arr support (up to 3 Radarr + 3 Sonarr), Arr connection test endpoint, persisted latest scan results (survives restarts), post-cleanup statistics scan, embedded subtitle detection in health checks, video vs music audio codec split, codec file path tracking with clickable drill-down, trash contents detail API, trash folder management UI, trash disable dialog, other file tracking, 6-tab modular dashboard (Overview/Codecs/Health/Trends/Settings/Arr), modular CSS/JS build system, XSS protection, boxset/collection health check skipping, comprehensive README rewrite, 573 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.5/JellyfinHelper_1.0.5.zip",
-        "checksum": "f811857ca8f2854a396faa35a5957f5c",
-        "timestamp": "2026-04-11T10:39:47Z"
+        "changelog": "见 https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/tag/v1.0.5",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/rappa850/Jellyfin.Plugin.Amane/releases/download/v1.0.5/Jellyfin.Plugin.Amane.zip",
+        "checksum": "d2fe47db488a1214bfaa9c0df7a12489",
+        "timestamp": "2026-09-02T15:54:03Z"
+      }
+    ]
+  },
+  {
+    "guid": "08880a95-8467-4538-bab9-da69c7f4793f",
+    "name": "Jellyfin Featured [✓]",
+    "overview": "A Netflix-style featured-content carousel for the Jellyfin Web home page.",
+    "description": "Adds a configurable featured-content carousel with curated favourites, collections, recent releases, random picks, hero layouts, and local background trailers to Jellyfin Web.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-featured-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-featured-plugin",
+    "owner": "spkesDE",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyfinFeatured.webp",
+    "versions": [
+      {
+        "version": "12.8.0.0",
+        "changelog": "- feat(trailer): add banner navigation and media controls positioning\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.8.0.0/Featured.zip",
+        "checksum": "bfbb172430e6e92751fb28353be27eb7",
+        "timestamp": "2026-10-03 13:33:37"
       },
       {
-        "version": "1.0.4.0",
-        "changelog": "Added STRM file repair task, unified TaskMode system (Activate/DryRun/Deactivate per task), single master HelperCleanupTask replacing separate scheduled tasks, fixed ConfigVersion not preserved on settings save, fixed DI resolution for System.IO.Abstractions.IFileSystem, updated README, 315 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.4/JellyfinHelper_1.0.4.zip",
-        "checksum": "057cbe0ba5230891facb10d406a64e89",
-        "timestamp": "2026-04-10T00:41:12Z"
+        "version": "12.7.2.0",
+        "changelog": "- feat(ci): add .NET setup step and update workflow for translation status\n- fix(hero): preserve mobile hero fade on iOS\n- fix(release): format generated metadata\n- fix(styles): fixed drop-shadow for overview\n- fix(config): keep drag previews in styling scope\n- refactor(build): compile bootstrap assets with Vite\n- refactor(injection): centralize frontend markup handling\n- refactor(storage): share atomic persistence and cache primitives\n- refactor(config): split persisted models and mappings by domain\n- refactor(api): separate feed construction and response models\n- refactor(config-ui): separate defaults, factories and projections\n- refactor(config-ui): simplify shared editors and previews\n- refactor(config-ui): reorganize settings tabs and layouts\n- refactor(runtime): coordinate routing, mounting and response reuse\n- refactor(preferences): split dialog, form and dismissal behavior\n- refactor(trailers): separate controller and playback providers\n- refactor(carousel): extract navigation, controls and layout state\n- refactor(styles): organize runtime CSS by ownership\n- refactor(naming): rename ec- prefix to featured-\n- chore(tooling): standardize formatting, linting and tests\n- chore(format): normalize release metadata\n- deps(deps-dev): bump vite (#16)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.2.0/Featured.zip",
+        "checksum": "1b3f79a88338623de11b61c02e6a17d3",
+        "timestamp": "2026-09-29 20:43:41"
       },
       {
-        "version": "1.0.3.0",
-        "changelog": "Fixed plugin logo 404 (logo.png now included as physical file in release ZIP with meta.json imagePath), fixed SanitizeFileName null-char handling, removed duplicate Cleanup Statistics UI section, removed unused GetThumbImage method, 244 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.3/JellyfinHelper_1.0.3.zip",
-        "checksum": "8048090e6fae31fa5f01c8c162aaeaaa",
-        "timestamp": "2026-04-09T10:13:08Z"
+        "version": "12.7.1.0",
+        "changelog": "- feat(cache): accelerate startup and coalesce remounts\n- docs: document cache performance behavior\n- perf(rule-engine): warm and streamline candidate loading\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.1.0/Featured.zip",
+        "checksum": "f770f78326f1066c902da902a949e8c3",
+        "timestamp": "2026-09-26 13:10:56"
       },
+      {
+        "version": "12.7.0.0",
+        "changelog": "- feat(injection): add resilient direct fallback\n- feat(display): add interactive hero fade editor\n- feat(config): mirror Jellyfin in banner preview\n- fix(sources): fill feed from sole available source\n- docs(injection): document automatic fallback order\n- docs: update documentation\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.7.0.0/Featured.zip",
+        "checksum": "2ff97c01bde6e7e428fe22c33e8a6147",
+        "timestamp": "2026-09-26 08:26:36"
+      },
+      {
+        "version": "12.6.0.0",
+        "changelog": "- feat(playback): add direct play and resume\n- feat(recommendations): add persistent dismissal feedback\n- feat(sources): add continuation and metadata filters\n- fix(playback): restore play button hover state\n- fix(styles): adjust max-width calculation for better responsiveness\n- fix(styles): remove gap from actions and adjust media query formatting\n- fix(preferences): remove dismissal cooldown hint\n- fix(dismissals): preserve metadata icon color\n- fix(playback): update playback button class for styling consistency\n- fix(playstate): preserve metadata icon color on hover\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.6.0.0/Featured.zip",
+        "checksum": "365e28c3361509a6057679366e31e436",
+        "timestamp": "2026-09-24 17:51:33"
+      },
+      {
+        "version": "12.5.1.0",
+        "changelog": "- fix(trailers): release volume slider focus after drag\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.5.1.0/Featured.zip",
+        "checksum": "cc1888aa7be3170cbc000ddd0b78d60b",
+        "timestamp": "2026-09-22 16:50:25"
+      },
+      {
+        "version": "12.5.0.0",
+        "changelog": "- feat: control background trailers per source rule\n- feat: add Jellyfin movie recommendations as a mixer source\n- feat: toggle viewer favorites from featured slides\n- feat: make featured favorite button configurable for admins and users\n- feat: place favorite heart in banner metadata\n- feat(preferences): preload user settings cache\n- feat(trailers): add configurable media controls\n- feat(display): add fullscreen hero fade controls\n- feat(playstate): add watched toggle beside favorites\n- feat(styles): enhance CSS variables for responsive design and transitions\n- feat(sources): add media fallbacks and resolution filter\n- fix(navigation): preserve carousel focus and native keyboard controls\n- fix: show critic rating with rotten icon\n- fix: remove item-page critic rating classes\n- fix: update favorites without reloading carousel\n- fix(trailers): disable subtitles for remote trailers\n- fix(favorites): keep metadata heart clickable\n- fix(trailers): refine volume slider pill placement\n- fix(carousel): hide focus border on pointer clicks\n- fix(trailers): volume slider related styles fixes\n- fix(settings): streamline configuration and preview controls\n- fix(settings): keep live preview visible while scrolling\n- chore(tests): split and prune test suites\n- deps(deps): bump the npm-minor-and-patch group with 3 updates (#13)\n- deps: Bump the nuget-minor-and-patch group with 4 updates (#15)\n- deps(deps-dev): bump typescript from 5.9.3 to 6.0.3 (#14)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.5.0.0/Featured.zip",
+        "checksum": "af981e4822486aad9b5c38e4330694b7",
+        "timestamp": "2026-09-21 12:15:33"
+      },
+      {
+        "version": "12.4.0.0",
+        "changelog": "- fix(webos): support Chromium 79 and safe hero spacing\n- fix(style): adjust spacing for meta elements in featured.css\n- fix(hero): keep overlap layout stable with adaptive content\n- fix(hero): preserve logos and align layout tests\n- fix(hero): prioritize logos and align webOS tests\n- fix(style): remove margin-top from config and featured sections for better alignment\n- fix(hero): adapt overview lines to available space\n- fix(hero): scope stacking context to viewport\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.4.0.0/Featured.zip",
+        "checksum": "58cfd6b85d3b747f5d0ace9b048fbec0",
+        "timestamp": "2026-09-15 09:28:36"
+      },
+      {
+        "version": "12.3.1.1",
+        "changelog": "- fix(release): commit synchronized frontend version\n- chore: update plugin version to 12.3.1.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.3.1.1/Featured.zip",
+        "checksum": "dda5bc98cd2f9804a28ce77564f5d8cc",
+        "timestamp": "2026-09-15 07:55:02"
+      },
+      {
+        "version": "12.3.0.0",
+        "changelog": "- feat(theming): enhance theming capabilities with new CSS variables and documentation\n- feat(readme): add additional badges for license, release, Jellyfin version, and build status\n- feat: add feed preview functionality and better scheduling options for presets\n- fix(styles): add border radius and clip-path to ec-slide for improved aesthetics\n- fix(preview): refine layout and error handling\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.3.0.0/Featured.zip",
+        "checksum": "474ea9050bae246c7c179b02894143d1",
+        "timestamp": "2026-09-14 15:05:27"
+      },
+      {
+        "version": "12.2.2.0",
+        "changelog": "- feat: implement Jellyfin theme tokens and update styles across components\n- feat(i18n): enhance translation workflow and fallback handling\n- docs: add translation status badge to README\n- docs: highlight 12.2.1 performance improvements\n- docs: add performance in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.2.0/Featured.zip",
+        "checksum": "a43d188f7d8ff512f4d287cabf4fd4a2",
+        "timestamp": "2026-09-14 09:11:50"
+      },
+      {
+        "version": "12.2.1.0",
+        "changelog": "- feat(carousel): implement trailer volume management with local storage\n- perf(ruleEngine): dramatically reduce featured loading times by replacing expensive access re-queries with in-memory Jellyfin visibility checks\n- perf(cache): restore reliable prepared-cache hits with deterministic personalization fingerprints so warm requests can skip rule-engine work\n- fix(cache): enhance prepared cache diagnostics and add response serialization\n- fix(config): set new default values\n- docs: update README and add cache and trailer behavior documentation\n- refactor(ruleEngine): Refactor Featured Rule Engine and Enhance Timing Diagnostics\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.1.0/Featured.zip",
+        "checksum": "39e3f9eb4b03e8f89afd4b4f418dba7a",
+        "timestamp": "2026-09-13 23:31:55"
+      },
+      {
+        "version": "12.2.0.0",
+        "changelog": "- feat(personalization): add preference API and effective user settings\n- feat(config): add personalization defaults and policy controls\n- feat(carousel): add user personalization dialog\n- feat(mixer): add constrained source allocation\n- feat(config): expose source mixer controls\n- feat(trailers): add source resolver and response model\n- feat(player): support local remote and YouTube trailers\n- feat(config): add trailer settings and overrides\n- feat(presets): resolve scheduled configuration snapshots\n- feat(config): add preset scheduling editor\n- feat(personalization): add user menu settings entry\n- feat(personalization): link user settings page\n- feat(personalization): support excluded genres\n- feat(trailers): add playback hotkeys\n- feat(trailers): conceal YouTube startup controls\n- feat(trailers): show startup countdown ring\n- feat(trailers): add volume hotkeys\n- feat(trailers): expose ordered fallback candidates\n- feat(display): show controls only on hover\n- feat(preferences): speed up and restyle user settings\n- feat(preferences): add hourly item cooldown choices\n- fix(personalization): preserve inherited server defaults\n- fix(personalization): surface save failures and effective diagnostics\n- fix(personalization): preserve mixer source settings\n- fix(presets): refresh complete snapshots at boundaries\n- fix(trailers): prevent duplicate fullscreen playback\n- fix(config): restore genres and simplify global diversity\n- fix(personalization): normalize settings responses\n- fix(config): fix css for config page\n- fix(trailers): block YouTube playback controls\n- fix(trailers): fade playback into black canvas\n- fix(personalization): repair dialog and add genre states\n- fix(trailers): extend fade beyond hero edge\n- fix(trailers): crossfade concealed YouTube playback\n- fix(hero): finish backdrop fade before viewport edge\n- fix(trailers): render countdown ring inside button\n- fix(trailers): support inline playback on iOS\n- fix(trailers): recover from YouTube preview failures\n- fix(trailers): recover stalled media previews\n- fix(carousel): isolate button keyboard input\n- fix(hero): apply the mobile slide gradient\n- fix(hero): preserve spacing across touch layouts\n- fix(trailers): recover from blocked YouTube embeds\n- fix(performance): defer user settings until opened\n- docs: Revise README for clarity and update installation instructions\n- docs: Add section for additional Jellyfin plugins in README\n- docs: document completed 12.2 personalization\n- docs: document completed source mixer v2\n- docs: document proper trailer support\n- docs: document featured preset scheduling\n- docs: simplify readme for end users\n- refactor(mixer): split rule engine responsibilities\n- refactor(api): split controller endpoints\n- refactor(player): reorganize player initialization and event handling\n- test(trailers): cover resolver and player contracts\n- test(config): align layout contract with page styles\n- revert(trailers): restore compact backdrop fade\n- style(preferences): enlarge responsive settings modal\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.2.0.0/Featured.zip",
+        "checksum": "47754b4676e6f5decdaf13c7195a3a5c",
+        "timestamp": "2026-09-13 19:34:03"
+      },
+      {
+        "version": "12.1.1.0",
+        "changelog": "- feat: Add sample file exclusion logic and corresponding tests in FeaturedRuleEngine\n- docs: Add Star History section to README\n- refactor: Improve item selection logic in FeaturedPreparedCache and update tests\n- chore: Update JavaScript Injector repository URL in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.1.1.0/Featured.zip",
+        "checksum": "b7ea12719fa18fcd1382b08f5a53c335",
+        "timestamp": "2026-09-12 19:17:57"
+      },
+      {
+        "version": "12.1.0.0",
+        "changelog": "- Initial commit 12.1.0.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-featured-plugin/releases/download/v12.1.0.0/Featured.zip",
+        "checksum": "1a7face17271b412bd6d7815356f8d7a",
+        "timestamp": "2026-09-12 16:05:20"
+      }
+    ]
+  },
+  {
+    "guid": "2c2ee6c1-bcd7-48e4-a7e8-e6b4d77d3df2",
+    "name": "Media Preview [✓]",
+    "overview": "Hover previews for Jellyfin Web using Trickplay and trailers.",
+    "description": "Adds hover previews to movie, series, and episode cards in Jellyfin Web using Jellyfin Trickplay images and trailers.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/spkesDE/jellyfin-media-preview-plugin/main/manifest.json  \nGithub: https://github.com/spkesDE/jellyfin-media-preview-plugin",
+    "owner": "spkesDE",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/MediaPreview.webp",
+    "versions": [
+      {
+        "version": "12.4.0.0",
+        "changelog": "- feat(preview): add in-progress source override (#35)\n- Add Star History section to README\n- deps(deps): bump the npm-minor-and-patch group with 8 updates (#33)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.4.0.0/MediaPreview.zip",
+        "checksum": "43b86ce4967b29805489b49d06446cc5",
+        "timestamp": "2026-10-05 16:48:45"
+      },
+      {
+        "version": "12.3.0.0",
+        "changelog": "- feat(injection): add direct injection and robust automatic selection\n- fix(config): preserve preferred source order across updates\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.3.0.0/MediaPreview.zip",
+        "checksum": "de8d14c11feaeebec2da1cf3466f7fca",
+        "timestamp": "2026-09-30 17:01:46"
+      },
+      {
+        "version": "12.2.1.0",
+        "changelog": "- fix(manifest): Update manifest.json for failed v12.2.0.0 release\n- fix(manifest): Update manifest.json with version 12.2.0.1 changes\n- fix(trickplay): resolve series and season cards to an episode (#31)\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.2.1.0/MediaPreview.zip",
+        "checksum": "4d3aeba21712b4f4c3e086d0e22319df",
+        "timestamp": "2026-09-30 06:37:41"
+      },
+      {
+        "version": "12.2.0.1",
+        "changelog": "- feat(input): support keyboard previews without hover hardware\n- feat(preview): fall back to direct play after trailers\n- feat(preview): add configurable Direct Play controls\n- feat(config): expose Direct Play in preview rules\n- feat(preview): add Direct Play master toggle\n- feat(config): explain preview fallback stacks\n- feat(preview): add configurable source chains and media controls\n- feat(config): make Prefer Trailer chain fully sortable\n- feat: enable complete default source chains\n- feat: add source-specific preview media controls\n- feat: move expand controls to appearance\n- fix(build): update image URL to use logo instead of hero in build script and manifest\n- fix(cache): scope preview data to server sessions\n- fix(trailer): stop media when hover ends\n- fix(youtube): align client and server URL parsing\n- fix(config): align backend and frontend defaults\n- fix(config): include component styles in production bundle\n- fix(build): preserve embedded config bundle boundary\n- fix(config): polish source chain drag editor\n- fix(config): align preference chain drag layout\n- fix(config): keep preview setting tabs accessible\n- fix(config): keep drag preview synced with cursor\n- fix(config): keep trickplay performance settings visible\n- fix(config): keep drag fallback inside list\n- fix(build): isolate injected config style bindings\n- fix(preview): cache missing trailer lookups\n- fix: diagnose direct play chain fallbacks\n- fix: prevent unsolicited home card previews\n- fix: remove pointer focus ring from preview controls\n- fix: keep multi-picker option backgrounds consistent\n- fix: add spacing between keyboard settings grids\n- fix(preview/hover): prevent stale media after pointer leave\n- fix(preview/library): honor library-specific source overrides\n- test: add frontend backend and contract safety net\n- style: adopt Prettier formatting\n- ci: adopt Featured security and dependency checks\n- deps: Bump Jellyfin to 12.1.0 (#27)\n- deps: Bump xunit.runner.visualstudio from 3.1.5 to 4.0.0 (#29)\n- deps: Bump Newtonsoft.Json from 13.0.3 to 13.0.4\n- chore: add release-notes.md to .prettierignore\n",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.2.0.1/MediaPreview.zip",
+        "checksum": "c2679623f715602d8a5a2538842e8e98",
+        "timestamp": "2026-09-29 17:00:01"
+      },
+      {
+        "version": "12.1.1.0",
+        "changelog": "- fix: Refactor star history section in README (#23)\n- fix(preview): ignore overlay images as render hosts, fixes #24\n- docs: Add Star History section to README\n- docs: Add section for more Jellyfin plugins\n- chore: add issue templates (#22)\n- chore: label feature issues automatically\n- chore: label support issues automatically\n- chore: label bug issues automatically\n- chore: update manifest and add new logo image\n- chore: update hero image\n- chore: update logo image\n- chore: add additional badges to README for license, latest release, Jellyfin version, and build status\n- chore: Update JavaScript Injector manifest URL in README\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.1.1.0/MediaPreview.zip",
+        "checksum": "fe396d8a6f6d00d0ca7109d3ac23afd3",
+        "timestamp": "2026-09-21 12:08:53"
+      },
+      {
+        "version": "12.1.0.0",
+        "changelog": "- fix(preview): unify card overlay stacking in Jellyfin 12\n- chore: update version to 12.1.0.0 in project files to keep in sync with jellyfin versioning\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v12.1.0.0/MediaPreview.zip",
+        "checksum": "b9c15e449dcd211a91235b1feb94d65e",
+        "timestamp": "2026-09-10 15:21:49"
+      },
+      {
+        "version": "0.4.0.1",
+        "changelog": "- fix(dependencies): update nanoid to version 3.3.18\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.4.0.1/MediaPreview.zip",
+        "checksum": "cc6b597ea005af141f5a0af8e13800cb",
+        "timestamp": "2026-09-08 10:15:53"
+      },
+      {
+        "version": "0.4.0.0",
+        "changelog": "- build: upgrade to .NET 10 and Jellyfin 12\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.4.0.0/MediaPreview.zip",
+        "checksum": "a971ed920d27cb98ea5bb9341b03b25d",
+        "timestamp": "2026-09-08 10:12:51"
+      },
+      {
+        "version": "0.3.1.1",
+        "changelog": "- fix(changelog): filter merge commits from release notes\n- fix(navigation): restrict admin link injection to plugin sidebar\n- docs: update contribution guidelines\n- docs: update build guide for clarity and structure\n- Update CHANGELOG for v0.3.1.0\n- Update manifest.json\n- Update manifest.json\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.1.1/MediaPreview.zip",
+        "checksum": "d425f922c41418b76eaff287bc58fbb7",
+        "timestamp": "2026-08-08 09:37:57"
+      },
+      {
+        "version": "0.3.1.0",
+        "changelog": "- feat: support JavaScript Injector\n- fix(trailer): render expand icon as svg\n- fix(runtime): harden preview cleanup and caches\n- fix(layout): Mount list row previews on the thumbnail instead of the row (#18)\n- fix(hover): Scope preview teardown to the card rather than the hover host (#19)\n- fix(trailer): Loop hover trailers through the player API instead of a playlist (#20)\n- build: synchronize release versions\n- chore: update nanoid and postcss dependencies to latest versions\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.1.0/MediaPreview.zip",
+        "checksum": "50ece21a24a35c573e5007983081020f",
+        "timestamp": "2026-07-31 09:42:46"
+      },
+      {
+        "version": "0.3.0.1",
+        "changelog": "- fix(trailer): keep expand button above card overlay\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.0.1/MediaPreview.zip",
+        "checksum": "af5a3115edf58f015b9e29819d6e8da9",
+        "timestamp": "2026-07-21 20:51:50"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "- feat(cards): support portrait expansion in wrapped rows\n- feat(trailer): persist unavailable YouTube sources\n- feat(trailer): sync unavailable sources with server\n- feat(config): configure unavailable trailer retry interval\n- feat(config): toggle unavailable trailer cache\n- fix(cards): enhance card selection logic and exclude non-playable media cards\n- fix(apiClient): added Jellyfin 12 support\n- fix(trailer): skip unavailable YouTube embeds\n- fix(trailer): read persisted unavailable source ids\n- build(dist): refresh preview bundles\n- refactor(navigation): improve plugin configuration link handling and update navigation entry logic for Jellyfin 12.0\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.3.0.0/MediaPreview.zip",
+        "checksum": "f7600fc1aae82fa25d9d13b62602973e",
+        "timestamp": "2026-07-21 18:34:08"
+      },
+      {
+        "version": "0.2.4.1",
+        "changelog": "- fix(config): live preview grid\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.4.1/MediaPreview.zip",
+        "checksum": "ffdd5af5475126b8190c1b43179989c6",
+        "timestamp": "2026-07-17 10:25:41"
+      },
+      {
+        "version": "0.2.4.0",
+        "changelog": "- feat(trailer): enhance portrait card expansion with source aspect ratio support\n- feat(appearance): add 'Source / Video ratio' option for portrait card expansion\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.4.0/MediaPreview.zip",
+        "checksum": "7b910608cc0992913e7d333d67f9ec26",
+        "timestamp": "2026-07-17 10:19:00"
+      },
+      {
+        "version": "0.2.3.1",
+        "changelog": "- fix(appearance): shift wide previews into viewport\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.3.1/MediaPreview.zip",
+        "checksum": "a93fd18f5fc53ae79698f8e1d7538f1e",
+        "timestamp": "2026-07-15 22:43:36"
+      },
+      {
+        "version": "0.2.3.0",
+        "changelog": "- feat(appearance): add portrait card expansion\n- feat(hover): integrate loading state into countdown\n- feat(config): preview portrait card expansion\n- fix(trickplay): prevent stale auto scrub timers\n- fix(runtime): bound preview caches\n- fix(appearance): keep wide previews in viewport\n- fix(trailer): respect restore on leave setting\n- fix(hover): resolve unavailable preview messages\n- fix(config): expand preview card on hover\n- build: align frontend package version\n- build: refresh bundled frontend output\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.3.0/MediaPreview.zip",
+        "checksum": "460b3d6c7d2f62637c837367769b641e",
+        "timestamp": "2026-07-15 12:50:33"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "- feat(trickplay): preload preview thumbnails\n- build: add plugin catalog image\n- docs: simplify README for users\n- docs: clarify contribution welcome note\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.2.0/MediaPreview.zip",
+        "checksum": "fa7095b512d24cb5fc79ac106c65c1ae",
+        "timestamp": "2026-06-22 19:28:24"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "- feat(config): migrate settings UI to Vue\n- build(changelog): order feature entries first\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.1.0/MediaPreview.zip",
+        "checksum": "563902dfef35c14ed2774654f7fe5e59",
+        "timestamp": "2026-06-16 13:59:31"
+      },
+      {
+        "version": "0.2.0.1",
+        "changelog": "- build: automate manifest changelog generation with git-cliff\n- build: remove manual manifest changelog override\n- build: align manifest changelog with git-cliff output\n- build: refresh bundled frontend output\n- build: refresh bundled frontend output\n- build: refresh bundled frontend output\n- build: update Jellyfin packages to 10.11.11\n- feat: add per-content-type preview source overrides\n- feat: add configurable smart preview source selection\n- feat: add configurable hover intent and cooldown\n- feat: add configurable preview metadata overlay\n- feat: add configurable preview fade and crossfade transitions\n- feat: add configurable keyboard preview support\n- feat: add library preview source rules\n- feat: refine configuration page and live preview\n- fix: guard initial hover preview requests\n- fix: clean up preview DOM on destroy\n- fix: support previews in season and episode overviews\n- fix: tighten card discovery and binding\n- fix: harden release and preview behavior\n- fix: validate embedded client bundle\n- fix: streamline CI workflow and update paths in build script\n- perf: skip library lookups without overrides\n- refactor: simplify auto scrub and trailer helpers\n- refactor: extract metadata overlay styles\n- refactor: unify plugin configuration page layout\n- refactor: unify remaining configuration tabs\n- refactor: enhance build script with modular functions and improved error handling\n",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.2.0.1/MediaPreview.zip",
+        "checksum": "5ee1bf7c3f01a56e5f5ef114cc408d15",
+        "timestamp": "2026-06-15 07:28:05"
+      },
+      {
+        "version": "0.1.1.0",
+        "changelog": "- feat: extend preview backdrop and hover settings\n- feat: add hover countdown and preview availability overlays\n- refactor: rename media preview frontend classes to jmp\n- refactor: split media preview styles into css modules\n- refactor: lazily inject preview dom\n- fix: restore preview backdrop rendering\n- fix: resolve lifecycle type guards\n- fix: restore reliable hover preview lifecycle\n- chore: rebuild media preview bundle\n- chore: minify css in bundled styles\n- chore: move manifest updater into scripts",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.1.1.0/MediaPreview.zip",
+        "checksum": "a1e376c6b314326d759b3dcae5710951",
+        "timestamp": "2026-05-24 20:06:16"
+      },
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/spkesDE/jellyfin-media-preview-plugin/releases/download/v0.1.0.0/MediaPreview.zip",
+        "checksum": "5f9c61c96e155d4bddc87d5432aac31a",
+        "timestamp": "2026-05-24 11:14:35"
+      }
+    ]
+  },
+  {
+    "guid": "3734440f-4b20-4c3a-86a3-d931b45b7248",
+    "name": "Jelly Poll [✓]",
+    "description": "Group polls to choose what to watch together: suggest titles from the library, rank them, and crown the top 3.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://raw.githubusercontent.com/zlx64/JellyPoll/main/manifest.json  \nGithub: https://github.com/zlx64/JellyPoll",
+    "overview": "Group movie polling with ranked ballots and a gold/silver/bronze podium.",
+    "owner": "zlx64",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/upr-static/refs/heads/main/images/JellyPoll.webp",
+    "versions": [
       {
         "version": "1.0.2.0",
-        "changelog": "Fixed subtitle false positives (explicit ISO 639 allowlists instead of naive 2-3 letter heuristic), moved SubtitleFlags/KnownLanguageCodes to MediaExtensions, ArrIntegrationService now uses IHttpClientFactory, CleanupTrackingService thread-safety with lock, specific exception handling, removed _ = ex anti-pattern, 244 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.2/JellyfinHelper_1.0.2.zip",
-        "checksum": "d6c4d7e3213d3981e519b41890ba4739",
-        "timestamp": "2026-04-09T08:22:10Z"
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.2",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.2/jellypoll_1.0.2.0.zip",
+        "checksum": "4938E367B0EE410ECB780BD4FD9DE2BA",
+        "timestamp": "2026-09-25T10:03:46Z"
       },
       {
         "version": "1.0.1.0",
-        "changelog": "Fixed config page not loading (script/style tags moved inside page div), plugin now visible in Jellyfin sidebar menu with EnableInMainMenu, updated test count to 212.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.1/JellyfinHelper_1.0.1.zip",
-        "checksum": "d0bde3e8ee7518c59a1f9fbb4ac79fd7",
-        "timestamp": "2026-04-09T07:20:04Z"
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.1",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.1/jellypoll_1.0.1.0.zip",
+        "checksum": "B20EA2E285F653681ED74FB776BFDCF3",
+        "timestamp": "2026-09-20T11:16:47Z"
       },
       {
         "version": "1.0.0.0",
-        "changelog": "Initial release with trickplay folder cleanup, empty media folder cleanup, orphaned subtitle cleaner, media statistics dashboard, audio codec analysis, export (JSON/CSV), historical trends, trash/recycle bin, Arr stack integration (Radarr/Sonarr), multi-language dashboard (en/de/fr/es/pt/zh/tr), library include/exclude lists, and 196 tests.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/1.0.0/JellyfinHelper_1.0.0.zip",
-        "checksum": "9a9318edad522d5f631275a02554ecf4",
-        "timestamp": "2026-04-09T06:33:31Z"
+        "changelog": "See release notes at https://github.com/zlx64/JellyPoll/releases/tag/v1.0.0",
+        "targetAbi": "12.1.0.0",
+        "framework": "net10.0",
+        "sourceUrl": "https://github.com/zlx64/JellyPoll/releases/download/v1.0.0/jellypoll_1.0.0.0.zip",
+        "checksum": "E8A2A2A5D6126D8D2932A755312E2AE8",
+        "timestamp": "2026-09-19T23:13:01Z"
       }
     ]
   },
   {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓]",
-    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
+    "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
@@ -1152,7 +1191,7 @@
   {
     "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
     "name": "NextPVR [✓]",
-    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
@@ -1259,7 +1298,7 @@
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
     "name": "TMDb Box Sets [✓]",
-    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Automatically create movie box sets based on TMDb collections  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "Automatically create movie box sets based on TMDb collections",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
@@ -1350,7 +1389,7 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt [✓]",
-    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
+    "description": "Record your watched media with Trakt.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
@@ -1545,7 +1584,7 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList [✓]",
-    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
+    "description": "AniList metadata provider  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
@@ -1668,7 +1707,7 @@
   {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
-    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
@@ -1791,7 +1830,7 @@
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
     "name": "Google Books [✓]",
-    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
+    "description": "Pulls book metadata and cover images from Google Books.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
     "overview": "Google Books Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
@@ -1826,7 +1865,7 @@
   {
     "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
     "name": "OpenLibrary [✓]",
-    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 05:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
+    "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.  \n  \nUniversal Repo:  \nGenerated: 06:08 UTC  \nSource: https://repo.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
     "overview": "OpenLibrary metadata provider for Jellyfin",
     "owner": "jellyfin",
     "category": "Books",
