@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 299, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-19T21:40:19.642Z",
+    "overview": "Generated: 2026-10-19T22:40:19.748Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-10-19T21:40:19.642Z"
+        "timestamp": "2026-10-19T22:40:19.748Z"
       }
     ]
   },
@@ -15361,13 +15361,21 @@
   },
   {
     "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
-    "name": "Reports [✓✓]",
+    "name": "Reports [✓✓✓]",
     "description": "Generate reports of your media library  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/apps/renovate)",
     "overview": "Generate reports of your media library",
     "owner": "jellyfin",
     "category": "Administration",
     "imageUrl": "https://obelous.dev/plugins/images/Reports.webp",
     "versions": [
+      {
+        "version": "20.0.0.0",
+        "changelog": "- Add a bitrate column for Audio and Video respectively  (#106) @jcv8-dev, @crobibero\n- Use ApiKey query parameter for report export (#118) @quantumbagel, @crobibero",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/reports/reports_20.0.0.0.zip",
+        "checksum": "3e9cfb43d6a69ae8824fcbcb9b2a6aa7",
+        "timestamp": "2026-10-19T22:24:31Z"
+      },
       {
         "version": "19.0.0.0",
         "changelog": "- Unstable: Update to latest Jellyfin preview packages (#108) @crobibero, @claude, @jellyfin-bot\n- fix: export limiting to maximum 100 lines (#100) @Yghore\n\n### Dependency updates ###\n- Update dependency ClosedXML to 0.105.1 (#109) [@renovate[bot]](https://github.com/apps/renovate)",
