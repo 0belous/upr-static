@@ -1,5 +1,331 @@
 [
   {
+    "guid": "00000000-0000-0000-0000-000000000000",
+    "name": "! Universal Plugin Repo [✓✓✓]",
+    "description": "Aggregated: 122, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
+    "overview": "Generated: 2026-10-19T20:40:21.044Z",
+    "owner": "Obelous",
+    "category": "Miscellaneous",
+    "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
+    "versions": [
+      {
+        "version": "0.0.0",
+        "targetAbi": "10.8.13",
+        "timestamp": "2026-10-19T20:40:21.044Z"
+      }
+    ]
+  },
+  {
+    "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
+    "name": "MetaTube [✓✓]",
+    "description": "MetaTube Plugin for Jellyfin/Emby.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json  \nGithub: https://github.com/metatube-community/jellyfin-plugin-metatube",
+    "overview": "MetaTube Plugin for Jellyfin/Emby.",
+    "owner": "MetaTube",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/MetaTube.webp",
+    "versions": [
+      {
+        "checksum": "c158e46ad3360519feec4fe0a978ad57",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.410.110.0/Jellyfin.MetaTube@v2025.410.110.0.zip",
+        "timestamp": "2025-04-10T01:10:32Z",
+        "version": "2025.410.110.0"
+      },
+      {
+        "checksum": "0ed70d96744948a8531bd0cd15b2fde5",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.407.2120.0/Jellyfin.MetaTube@v2025.407.2120.0.zip",
+        "timestamp": "2025-04-07T21:20:29Z",
+        "version": "2025.407.2120.0"
+      },
+      {
+        "checksum": "06dcb258aacdd0aac4215ea228929cf7",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.222.2100.0/Jellyfin.MetaTube@v2025.222.2100.0.zip",
+        "timestamp": "2025-02-22T21:00:28Z",
+        "version": "2025.222.2100.0"
+      },
+      {
+        "checksum": "19ac5febbe22b21eacdb3dde3a588c89",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2024.1031.200.0/Jellyfin.MetaTube@v2024.1031.200.0.zip",
+        "timestamp": "2024-10-31T02:00:35Z",
+        "version": "2024.1031.200.0"
+      },
+      {
+        "checksum": "d815c45c124641a225e113ba6612250e",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2024.205.435.0/Jellyfin.MetaTube@v2024.205.435.0.zip",
+        "timestamp": "2024-02-05T04:35:33Z",
+        "version": "2024.205.435.0"
+      }
+    ]
+  },
+  {
+    "guid": "06ebf4a9-1326-4327-968d-8da00e1ea2eb",
+    "name": "Auto Collections [✓✓]",
+    "overview": "Enables creation of Auto Collections based on Tag",
+    "description": "Enables creation of Auto Collections based on Tag  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-smart-collections",
+    "owner": "KeksBombe",
+    "imageUrl": "https://obelous.dev/plugins/images/AutoCollections.webp",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.0.2.67",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.67)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.67/auto-collections-0.0.2.67.zip",
+        "checksum": "52c37fa2ddaa97f1ec4be317f057888b",
+        "timestamp": "2025-09-16T15:35:04Z"
+      },
+      {
+        "version": "0.0.2.56",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.56)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.56/auto-collections-0.0.2.56.zip",
+        "checksum": "5c9cda5bccd2f3a923ea623207f48233",
+        "timestamp": "2025-08-17T17:43:19Z"
+      },
+      {
+        "version": "0.0.2.46",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.46)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.46/auto-collections-0.0.2.46.zip",
+        "checksum": "5d38a559858e5a3dd99a2db6a23fbbf7",
+        "timestamp": "2025-08-17T17:20:51Z"
+      },
+      {
+        "version": "0.0.2.45",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.45)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.45/auto-collections-0.0.2.45.zip",
+        "checksum": "67c05fe594a88225bf1c679b4e462e1a",
+        "timestamp": "2025-07-16T16:51:54Z"
+      },
+      {
+        "version": "0.0.0.1",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.1/smart-collections-0.0.0.1.zip",
+        "checksum": "10110a16be92f4e8de84ac0c19fc316c",
+        "timestamp": "2025-06-06T01:40:00Z"
+      },
+      {
+        "version": "0.0.2.44",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.44)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.44/auto-collections-0.0.2.44.zip",
+        "checksum": "65a0c1f8b04c2fadbedaacf19fc50372",
+        "timestamp": "2025-05-22T09:18:03Z"
+      },
+      {
+        "version": "0.0.2.43",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.43)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.43/auto-collections-0.0.2.43.zip",
+        "checksum": "7b25b41c4790dd2164b255758fe2486f",
+        "timestamp": "2025-05-22T09:12:19Z"
+      },
+      {
+        "version": "0.0.2.41",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.41)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.41/auto-collections-0.0.2.41.zip",
+        "checksum": "69fd0e8d3b81f8cf483555ce1e76fc20",
+        "timestamp": "2025-05-22T08:52:56Z"
+      },
+      {
+        "version": "0.0.2.31",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.31)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.31/auto-collections-0.0.2.31.zip",
+        "checksum": "e99a8cb433ebbc363d2fdda4a3aeb5c6",
+        "timestamp": "2025-05-22T08:38:35Z"
+      },
+      {
+        "version": "0.0.2.30",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.30)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.30/auto-collections-0.0.2.30.zip",
+        "checksum": "2433ff7568306bb186fdd29001e6e81d",
+        "timestamp": "2025-05-22T08:13:14Z"
+      },
+      {
+        "version": "0.0.2.20",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.20)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.20/auto-collections-0.0.2.20.zip",
+        "checksum": "a85169946894d2e81c255d5f7ab05f5a",
+        "timestamp": "2025-05-16T13:24:00Z"
+      },
+      {
+        "version": "0.0.2.10",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.10)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.10/auto-collections-0.0.2.10.zip",
+        "checksum": "0dae487b7544c652f8e432b1e0a4208b",
+        "timestamp": "2025-05-14T08:03:10Z"
+      },
+      {
+        "version": "0.0.2.00",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.00)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.2.00/auto-collections-0.0.2.00.zip",
+        "checksum": "df22ad85b3a518d5144df23fd16a35d4",
+        "timestamp": "2025-05-08T20:15:25Z"
+      },
+      {
+        "version": "0.0.1.19",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.19)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.19/auto-collections-0.0.1.19.zip",
+        "checksum": "daa0d8e0643403cead099da256aa3876",
+        "timestamp": "2025-05-03T14:25:20Z"
+      },
+      {
+        "version": "0.0.1.18",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.18)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.18/auto-collections-0.0.1.18.zip",
+        "checksum": "3e7302537697c0f5baf2b64fbbea3476",
+        "timestamp": "2025-05-03T14:21:27Z"
+      },
+      {
+        "version": "0.0.1.17",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.17)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.17/auto-collections-0.0.1.17.zip",
+        "checksum": "55f876ff55419827d082993830846704",
+        "timestamp": "2025-05-03T14:10:22Z"
+      },
+      {
+        "version": "0.0.1.16",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.16)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.16/auto-collections-0.0.1.16.zip",
+        "checksum": "762a7ea5e1160ca4e40cd036b4ddc13e",
+        "timestamp": "2025-05-03T13:18:24Z"
+      },
+      {
+        "version": "0.0.1.15",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.15)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.15/auto-collections-0.0.1.15.zip",
+        "checksum": "859ee93c72b044d9243a21abbf7951e8",
+        "timestamp": "2025-05-03T13:14:56Z"
+      },
+      {
+        "version": "0.0.1.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.14)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.14/auto-collections-0.0.1.14.zip",
+        "checksum": "3cd0f2fc13dceeb4a59b11caf9d7d119",
+        "timestamp": "2025-05-03T13:05:53Z"
+      },
+      {
+        "version": "0.0.1.13",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.13)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.13/auto-collections-0.0.1.13.zip",
+        "checksum": "adda06bb991059fdf6c18050cf551bca",
+        "timestamp": "2025-05-03T13:00:34Z"
+      },
+      {
+        "version": "0.0.1.12",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.12)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.12/auto-collections-0.0.1.12.zip",
+        "checksum": "51265aa6b35c138655347e9d70bd267c",
+        "timestamp": "2025-05-03T12:48:38Z"
+      },
+      {
+        "version": "0.0.1.11",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.11)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.11/auto-collections-0.0.1.11.zip",
+        "checksum": "1f63c6afc613cd13de93e03ad1f98e5c",
+        "timestamp": "2025-05-03T12:39:16Z"
+      },
+      {
+        "version": "0.0.1.10",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.10)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.10/auto-collections-0.0.1.10.zip",
+        "checksum": "455ace8dc4aeb91d811c1213d992966e",
+        "timestamp": "2025-05-02T15:27:30Z"
+      },
+      {
+        "version": "0.0.1.9",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.1.9)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.1.9/auto-collections-0.0.1.9.zip",
+        "checksum": "e87b9c53b5daf602350848de651ec4ba",
+        "timestamp": "2025-05-02T13:04:50Z"
+      },
+      {
+        "version": "0.0.0.8",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.8)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.8/smart-collections-0.0.0.8.zip",
+        "checksum": "f193c45b747c33c70eefc06f4d588049",
+        "timestamp": "2025-04-23T02:05:06Z"
+      },
+      {
+        "version": "0.0.0.7",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.7)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.7/smart-collections-0.0.0.7.zip",
+        "checksum": "3389d02d2d3a866f9a8b97f070382499",
+        "timestamp": "2025-04-06T17:25:18Z"
+      },
+      {
+        "version": "0.0.0.6",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.6)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.6/smart-collections-0.0.0.6.zip",
+        "checksum": "2edbf884e194be554b878acd92d7d544",
+        "timestamp": "2025-03-30T15:56:00Z"
+      },
+      {
+        "version": "0.0.0.5",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.5)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.5/smart-collections-0.0.0.5.zip",
+        "checksum": "a6a1be1bab12ac434fe9bc6be7d934c0",
+        "timestamp": "2025-03-22T04:29:05Z"
+      },
+      {
+        "version": "0.0.0.4",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.4)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.4/smart-collections-0.0.0.4.zip",
+        "checksum": "73868138931ab05711eaf49feb4b9105",
+        "timestamp": "2025-03-07T21:55:03Z"
+      },
+      {
+        "version": "0.0.0.3",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.3)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.3/smart-collections-0.0.0.3.zip",
+        "checksum": "8c115c162808a64827f1f2092fa64844",
+        "timestamp": "2025-03-07T01:54:11Z"
+      },
+      {
+        "version": "0.0.0.2",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.2)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.2/smart-collections-0.0.0.2.zip",
+        "checksum": "4b4072afa1d7f5f17a5edbdaf0cb3fee",
+        "timestamp": "2025-03-07T01:03:49Z"
+      }
+    ]
+  },
+  {
     "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
     "name": "Simkl [✓✓]",
     "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -95,6 +421,97 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/AnimeThemes.webp"
+  },
+  {
+    "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
+    "name": "Smart Collections [✓✓]",
+    "overview": "Enables creation of Smart Collections based on Tag",
+    "description": "Enables creation of Smart Collections based on Tag  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-smart-collections/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-smart-collections",
+    "owner": "johnpc",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.0.0.12",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.12",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.12/jellyfin-plugin-smartcollections-0.0.0.12.zip",
+        "checksum": "e29805838c6f96711529af7276899d84",
+        "timestamp": "2025-12-08T03:10:35Z"
+      },
+      {
+        "version": "0.0.0.11",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.11",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.11/jellyfin-plugin-smartcollections-0.0.0.11.zip",
+        "checksum": "c365856c6bf400e6e21c6821615e81a0",
+        "timestamp": "2025-12-08T03:04:07Z"
+      },
+      {
+        "version": "0.0.0.8",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.8",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.8/smart-collections-0.0.0.8.zip",
+        "checksum": "f193c45b747c33c70eefc06f4d588049",
+        "timestamp": "2025-04-23T02:05:01Z"
+      },
+      {
+        "version": "0.0.0.7",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.7",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.7/smart-collections-0.0.0.7.zip",
+        "checksum": "3389d02d2d3a866f9a8b97f070382499",
+        "timestamp": "2025-04-06T17:25:10Z"
+      },
+      {
+        "version": "0.0.0.6",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.6",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.6/smart-collections-0.0.0.6.zip",
+        "checksum": "2edbf884e194be554b878acd92d7d544",
+        "timestamp": "2025-03-30T15:55:34Z"
+      },
+      {
+        "version": "0.0.0.5",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.5",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.5/smart-collections-0.0.0.5.zip",
+        "checksum": "a6a1be1bab12ac434fe9bc6be7d934c0",
+        "timestamp": "2025-03-22T04:29:00Z"
+      },
+      {
+        "version": "0.0.0.4",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.4",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.4/smart-collections-0.0.0.4.zip",
+        "checksum": "73868138931ab05711eaf49feb4b9105",
+        "timestamp": "2025-03-07T21:54:58Z"
+      },
+      {
+        "version": "0.0.0.3",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.3",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.3/smart-collections-0.0.0.3.zip",
+        "checksum": "8c115c162808a64827f1f2092fa64844",
+        "timestamp": "2025-03-07T01:54:04Z"
+      },
+      {
+        "version": "0.0.0.2",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.2",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.2/smart-collections-0.0.0.2.zip",
+        "checksum": "4b4072afa1d7f5f17a5edbdaf0cb3fee",
+        "timestamp": "2025-03-07T01:03:45Z"
+      },
+      {
+        "version": "0.0.0.1",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.1",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.1/smart-collections-0.0.0.1.zip",
+        "checksum": "10110a16be92f4e8de84ac0c19fc316c",
+        "timestamp": "2025-03-06T22:14:35Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/SmartCollections.webp"
   },
   {
     "guid": "12b44f20-6cfb-4be5-9950-3d0fbe74fa35",
@@ -913,6 +1330,81 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "33e6d249-648f-44cd-a9ce-497be06c08df",
+    "name": "КиноПоиск [✓✓]",
+    "overview": "Информация о фильмах и сериалах с КиноПоиска",
+    "owner": "LinFor & skrashevich",
+    "description": "Загружает рейтинг, описания, актёров, трейлеры и т.д. с сайта КиноПоиск. Может потребоваться зарегистрировать свой ApiToken, см. информацию в параметрах плагина. Для точного распознавания рекомендуется указывать id фильма с сайта КиноПоиск в имени файла в формате kp-12345 или kp12345. Подробнее см. https://github.com/LinFor/jellyfin-plugin-kinopoisk/blob/master/README.md  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/LinFor/jellyfin-plugin-kinopoisk/master/dist/manifest.json  \nGithub: https://github.com/LinFor/jellyfin-plugin-kinopoisk",
+    "imageUrl": "https://obelous.dev/plugins/images/КиноПоиск.webp",
+    "versions": [
+      {
+        "version": "10.9.8.0",
+        "checksum": "8ce2e57a7411c393a5ac23d31f50265a",
+        "changelog": "Перенесён значимый код из форка уважаемого @VD42",
+        "targetAbi": "10.9.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v10.9.8.0/jellyfin-plugin-kinopoisk_10.9.8.0.zip",
+        "timestamp": "2026-01-15T17:48:23Z"
+      },
+      {
+        "version": "10.9.7.0",
+        "checksum": "5d3719a7c8a2d6e4af4fca53f736392e",
+        "changelog": "Fixed pluginId",
+        "targetAbi": "10.9.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v10.9.7.0/jellyfin-plugin-kinopoisk_10.9.7.0.zip",
+        "timestamp": "2026-01-15T16:59:09Z"
+      },
+      {
+        "version": "10.9.6.0",
+        "checksum": "d7a156386b76865714eb149a41143b35",
+        "changelog": "Added YANDEX_DISK video source",
+        "targetAbi": "10.9.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v10.9.6.0/jellyfin-plugin-kinopoisk_10.9.6.0.zip",
+        "timestamp": "2026-01-15T16:10:54Z"
+      },
+      {
+        "version": "10.9.5.0",
+        "checksum": "bbc0989e1093054bc7aa12c8e99eca97",
+        "changelog": "Fix staff to person kind matcher (by @bsv798)",
+        "targetAbi": "10.9.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v10.9.5.0/jellyfin-plugin-kinopoisk_10.9.5.0.zip",
+        "timestamp": "2026-01-15T15:54:38Z"
+      },
+      {
+        "version": "10.9.0.0",
+        "checksum": "46f29865d6ddb8e66f577ffd93cb8a55",
+        "changelog": "new release",
+        "targetAbi": "10.9.0",
+        "sourceUrl": "https://raw.githubusercontent.com/LinFor/jellyfin-plugin-kinopoisk/master/dist/kinopoisk/kinopoisk_10.9.0.0.zip",
+        "timestamp": "2024-05-15T15:11:12Z"
+      },
+      {
+        "version": "10.8.9.3",
+        "checksum": "b884a366e1da7e826267e8f13a3c1a09",
+        "changelog": "new release",
+        "targetAbi": "10.8.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/skrashevich/jellyfin-plugin-kinopoisk/master/dist/kinopoisk/kinopoisk_10.8.9.3.zip",
+        "timestamp": "2023-06-14T22:56:46Z"
+      },
+      {
+        "version": "10.8.9.2",
+        "checksum": "8cbefa9f1aa03dc054d0d8a83f49eb6b",
+        "changelog": "new release",
+        "targetAbi": "10.8.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/skrashevich/jellyfin-plugin-kinopoisk/master/dist/kinopoisk/kinopoisk_10.8.9.2.zip",
+        "timestamp": "2023-02-08T16:42:11Z"
+      },
+      {
+        "version": "10.8.9.1",
+        "checksum": "d15934ff981be4d7df861cd35a862971",
+        "changelog": "new release",
+        "targetAbi": "10.8.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/skrashevich/jellyfin-plugin-kinopoisk/master/dist/kinopoisk/kinopoisk_10.8.9.1.zip",
+        "timestamp": "2023-02-08T16:10:12Z"
+      }
+    ]
+  },
+  {
     "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
     "name": "DLNA [✓]",
     "description": "Adds DLNA capability to Jellyfin  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -944,6 +1436,49 @@
         "sourceUrl": "https://repo.jellyfin.org/files/plugin/dlna/dlna_1.0.0.0.zip",
         "checksum": "0c8214c6350767f03de192602916313f",
         "timestamp": "2024-05-11T20:08:01Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
+    "guid": "36eb87e0-0373-423b-a547-2acb96e33430",
+    "name": "JellyTag [✓]",
+    "description": "Simplified tag management. Add, remove, and manage tags right from the context menu.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Simplified tag management. Add, remove, and manage tags right from the context menu.",
+    "imageUrl": "https://obelous.dev/plugins/images/JellyTag.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "fix season and bulk menu targeting and failed menu retries. native menus still work when overlapping requests leave the target uncertain; reload to restore tag actions.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.JellyTag.zip",
+        "checksum": "779cf90ceaed47036f195f8c26816e1d",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.JellyTag.zip",
+        "checksum": "bb7e4e69e481dcd31a163e79866033e0",
+        "timestamp": "2026-05-27T05:58:17Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.JellyTag.zip",
+        "checksum": "e7b22c98fd2d1c60b9770024299afd89",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.JellyTag.zip",
+        "checksum": "843297be059b4dd0e70cd22f84000c69",
+        "timestamp": "2026-03-10T01:39:06Z"
       }
     ]
   },
@@ -1077,6 +1612,113 @@
     ]
   },
   {
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/Bangumi.webp",
+    "name": "Bangumi [✓✓]",
+    "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
+    "versions": [
+      {
+        "timestamp": "2025-09-26T14:03:40",
+        "changelog": "注：这可能是最后一个支持 Jellyfin 10.10 的版本，目前看来 Jellyfin 10.11 API 有变化，待正式版发布后插件会及时适配\r\n\r\n## What's Changed\r\n* fix: More robust error message matching by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/195\r\n* feat: add collection by subject's relation by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/160\r\n* feat: add ui for controlling rating refresh intervals by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/203\r\n* feat: try match following seasons by name when first season is not pr… by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/202\r\n* Fix：部分文件季号刮削错误 by @wsgh0202 in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/208\r\n* refactor: separate the basic parser by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/163\r\n* refactor: extract local configuration handling to LocalConfigurationH… by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/210\r\n\r\n## New Contributors\r\n* @wsgh0202 made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/208\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.1...1.7.2",
+        "version": "1.7.2.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.2.0.zip",
+        "checksum": "967117c229dfdd238fe7bd122e265cab",
+        "targetAbi": "10.9.0.0"
+      },
+      {
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.1.0.zip",
+        "changelog": "## What's Changed\r\n\r\n- 优化离线数据库更新逻辑\r\n- 近期放送的剧集始终使用在线 API 获取\r\n- 增加 [公共标签](https://bgm.tv/group/topic/406595) 支持\r\n- 修复 OAuth 授权时间显示不正确的问题（不影响正常使用）\r\n- 修正查询图片时没有携带登录态的问题 #181\r\n- 代码结构 / 打包流程调整 #159 \r\n\r\n最新 CI 测试包可以在 https://github.com/kookxiang/jellyfin-plugin-bangumi/releases/tag/ci 下载\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.0...1.7.1",
+        "targetAbi": "10.9.0.0",
+        "version": "1.7.1.0",
+        "timestamp": "2025-02-04T02:13:03",
+        "checksum": "e7fa5bcf8af9eba76990bf3e50e4b1b5"
+      },
+      {
+        "changelog": "## Important\r\n - 支持 Jellyfin 10.10.0（向下兼容 10.9.0）\r\n - [离线数据库](https://github.com/bangumi/Archive/) 支持：\r\n   - 当存在离线数据时库时，优先通过离线数据库查询\r\n   - 默认每周更新一次，可在 Jellyfin - 计划任务 中自行修改\r\n   - 离线数据库下载解压过程需要占用约 1GB 内存，索引过程需要占用大量 CPU 资源。\\\r\n     （作为参考 M2 Mac 需要约 3 分钟，16 核的 Epyc 需要几十秒）\r\n   - 一定程度解决 bgm.tv 挂掉或被墙导致的报错\r\n\r\n## What's Changed\r\n* do not use series overview when the episode overview is empty by @huihuimoe in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/154\r\n* fix: characters sort by relation by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/156\r\n* feat: update Anitomy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/157\r\n* Feat sort by fuzzy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/158\r\n* fix: return all subjects after sorted by fuzzy by @chu-shen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/161\r\n\r\n## New Contributors\r\n* @huihuimoe made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/154\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.6.2...1.7.0",
+        "version": "1.7.0.0",
+        "checksum": "16708276fa1a50610af275c7dafa018a",
+        "timestamp": "2024-10-28T14:07:05Z",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.0.0.zip"
+      },
+      {
+        "changelog": "## Important\r\n - 增加了 API 地址修改功能，但还是建议给 Jellyfin 挂梯子\r\n - 现在修改设置后需要手动点击保存按钮\r\n\r\n## What's Changed\r\n* fix: fix movie play status syncing in JF movie libraries by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/136\r\n* feat: traversal searching for next season by @RandomNamer in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/135\r\n* fix error when season folder not exists by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/141\r\n* append available access token for emby\r\n\r\n## New Contributors\r\n* @RandomNamer made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/136\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.6.1...1.6.2",
+        "version": "1.6.2.0",
+        "checksum": "20ec2654c34dc84b9b6968e55f156c8c",
+        "timestamp": "2024-07-21T15:53:11Z",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.6.2.0.zip"
+      },
+      {
+        "changelog": "## What's Changed\r\n* 修正登录授权地址错误",
+        "version": "1.6.1.0",
+        "checksum": "81f4bd4359c44dcacea099b29771ef74",
+        "timestamp": "2024-05-27T13:57:29Z",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.6.1.0.zip"
+      },
+      {
+        "changelog": "## What's Changed\r\n* **升级至 Jellyfin 10.9.0**\r\n* 增加季 ID 自动推算能力\r\n* 新的搜索接口\r\n* fix: empty exception message by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/75\r\n* feat: force episode for subject with single ep by @everpcpc in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/95\r\n* Skip OVA in GuessNextSeason by @zeyugao in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/118\r\n* 支持Emby自动点格子 by @zeyugao in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/108\r\n* 切换到 Github Actions\r\n\r\n> [!WARNING]\r\n> 由于 Jellyfin API 变化，1.6.0 版本起不再支持 Jellyfin 10.8.13 及以下版本\r\n> 另外 10.9.0 也无法使用旧版本插件，请使用这个版本\r\n>\r\n> Emby 版本需要升级至 4.9.0.12 以上\r\n\r\n## New Contributors\r\n* @zeyugao made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/118\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.5.18...1.6.0",
+        "version": "1.6.0.0",
+        "checksum": "5e56a5534edb7f256249c35b75bae7c8",
+        "timestamp": "2024-05-12T06:38:43Z",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.6.0.0.zip"
+      },
+      {
+        "changelog": "## What's Changed\r\n* feat: support parsing bangumi id from path attribute by @everpcpc in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/62\r\n* 更换章节收藏信息API by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/65\r\n* fix: 重复标记已观看时，同步api检查状态 by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/67\r\n* feat: 设置节目到'在看/看过' by @fiochen in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/66\r\n\r\n## New Contributors\r\n* @everpcpc made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/62\r\n* @fiochen made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/65\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.5.0...1.5.18",
+        "version": "1.5.18.0",
+        "checksum": "f7e5d13707fcd9503caa9f46f67898e1",
+        "timestamp": "2023-06-12T15:17:16Z",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.5.18.0.zip"
+      },
+      {
+        "changelog": "- 增加 NSFW 内容标记\r\n  - 在 bangumi 上标记为 NSFW 的番剧会被分级至 X\r\n  - 可通过 jellyfin 自带家长控制功能限制\r\n  - 默认禁用 NSFW 内容播放进度同步\r\n    - 需要手动修改或刷新元数据使分级为 `JP-18+` `NC-17` 或更高\r\n    - 各地区分级可见：https://github.com/jellyfin/jellyfin/tree/master/Emby.Server.Implementations/Localization/Ratings\r\n- 增加对音乐和书籍的识别能力 #29 #38\r\n- 增加接口超时时间设置\r\n- 修正部分设置修改后需要重启才能生效的问题\r\n- 优化特别篇（SP）识别能力\r\n- 优化集号识别准确度\r\n- 优化词条搜索逻辑 by @chu-shen #23\r\n- 修正词条搜索时上映时间不正确的问题 by @RanKKI #31 \r\n- 同步电视分类元数据识别逻辑至电影分类 by @wzyboy #46 ",
+        "version": "1.5.0.0",
+        "checksum": "fb246bb37230894f8a57f6a178fe21ef",
+        "timestamp": "2023-01-23T02:31:29Z",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.5.0.0.zip"
+      },
+      {
+        "changelog": "- 支持通过 [Anitomy](https://github.com/erengy/anitomy) 解析番剧名称和级号 #15 by @chu-shen \r\n- 修正集数大于 100 时可能的死循环 #19 ",
+        "version": "1.4.18.0",
+        "checksum": "d14437f356b4075360d2e463960e4de5",
+        "timestamp": "2022-07-17T15:05:52Z",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.4.18.0.zip"
+      },
+      {
+        "changelog": "此版本主要为 bugfix\r\n- 提升 SP / OP / ED 的识别能力\r\n- 支持非整数集（比如某些番剧的 12.5 集）的识别\r\n- 修正授权跳转地址不正确的问题\r\n\r\n#10 #11 #13 #14",
+        "version": "1.4.7.0",
+        "checksum": "3fd3bfba3cfa70af568882c043e80720",
+        "timestamp": "2022-07-02T14:21:14Z",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.4.7.0.zip"
+      },
+      {
+        "changelog": "从此版本起可以支持将多季动漫收至单文件夹，可与 TheMovieDB 配合一起使用\r\n\r\n新的目录结构：https://github.com/kookxiang/jellyfin-plugin-bangumi/wiki/%E5%8F%82%E8%80%83%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84\r\n\r\n由于 bangumi 不支持查询动漫第 n 季的 id，使用时这种方式时需要手动填写季 id\r\n\r\n其他更新内容\r\n\r\n - 升级到 .Net Core 6.0，对应 Jellyfin 10.8\r\n - 修复只能搜索到前 100 集的 bug #7\r\n - 修正 R18 动漫无法查看的 bug（需要账号授权） #9 \r\n - 优化搜索结果排序 #8 \r\n\r\n注意：\r\n\r\n1. 请下载 Fastenshtein.dll 一同放置在插件目录，否则搜索功能不可用\r\n2. jellyfin 10.7 的用户请下载 `Jellyfin.Plugin.Bangumi.net50.dll` 插件，这会是最后一个支持 10.7 的版本，后续更新将不在支持老版本",
+        "version": "1.4.1.0",
+        "checksum": "c36e6a4815e844c6991e33efb18c6b82",
+        "timestamp": "2022-06-19T11:25:16Z",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.4.1.0.zip"
+      },
+      {
+        "changelog": "支持 Jellyfin 10.8.0 Beta\r\n升级到 .net core 6.0 （与新版 jellyfin 一致）",
+        "checksum": "c5d2675cdb7485cf619c0c7e36a40dec",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.3.6.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2022-05-07T16:41:27Z",
+        "version": "1.3.6.0"
+      }
+    ],
+    "owner": "kookxiang",
+    "description": "bgm.tv metadata provider for Jellyfin  \n  \nUniversal Repo \nSource: https://kookxiang.github.io/jellyfin-plugin-bangumi/repository.json  \nGithub: https://github.com/kookxiang/jellyfin-plugin-bangumi",
+    "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。"
+  },
+  {
     "guid": "44616595-5798-47ad-8658-3c09f3030505",
     "name": "VGMdb [✓✓✓]",
     "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -1110,6 +1752,33 @@
         "timestamp": "2022-03-27T21:08:11Z"
       }
     ]
+  },
+  {
+    "guid": "47816a0e-e69c-44e0-ac7e-f37b134e088f",
+    "name": "SMS notification [✓]",
+    "description": "Sends sms notifications via selected service.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-sms",
+    "overview": "Sends sms notifications",
+    "owner": "k-matti",
+    "category": "Notifications",
+    "versions": [
+      {
+        "version": "1.0.2.0",
+        "changelog": "fixes",
+        "targetAbi": "10.7.2.0",
+        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-sms/releases/download/v1.0.2.0/sms-notifications_1.0.2.0.zip",
+        "checksum": "8dbb6633bdd0f87048c43c77267e9d3c",
+        "timestamp": "0001-01-01T00:00:00.0000000Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "initial release",
+        "targetAbi": "10.7.2.0",
+        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-sms/releases/download/v1.0.1.0/sms-notifications_1.0.1.0.zip",
+        "checksum": "9c33e86071206d6d142d58579e4de825",
+        "timestamp": "0001-01-01T00:00:00.0000000Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/SMSnotification.webp"
   },
   {
     "guid": "4b71013d-00ba-470c-9e4d-0c451a435328",
@@ -1490,6 +2159,89 @@
     ]
   },
   {
+    "category": "General",
+    "guid": "5513dce4-a436-495c-8925-30845bf2c1dd",
+    "name": "Watch History Janitor [✓]",
+    "description": "Cleans up the \"Continue Watching\" history after a specified time period.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Cleans up the \"Continue Watching\" history after a specified time period.",
+    "imageUrl": "https://obelous.dev/plugins/images/WatchHistoryJanitor.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "40f9b534e132639b8697f9d984bfc743",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "3b1f0b6aef5165a0207a90175e0be255",
+        "timestamp": "2026-05-27T05:58:18Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "19f2b86081799b5dcbcda0209ff895fe",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "8c33d47773937c6aaa084ef23d94299d",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "edcf0cac7e0248ac2715143917ffb01a",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "8a63c926868f51055c2c06c36e4d54fd",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "f45c22114080e3cab223e7a1849221de",
+        "timestamp": "2026-03-01T07:04:45Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "2dd4ee6021cd61e4fc17d2fe0ba52c9e",
+        "timestamp": "2026-02-12T03:55:07Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.WatchHistoryJanitor.zip",
+        "checksum": "f0d301d52ba886587a08bd8faa135291",
+        "timestamp": "2025-10-13T07:13:25Z"
+      }
+    ]
+  },
+  {
     "category": "Metadata",
     "guid": "57b8ef5d-8835-436d-9514-a709ee25faf2",
     "name": "Stash [✓✓]",
@@ -1660,6 +2412,153 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_2.3.0.0.zip",
         "checksum": "27ff3ac6cfbb6f6a5877c241bbdf96a2",
         "timestamp": "2023-05-12T09:31:30Z"
+      }
+    ]
+  },
+  {
+    "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
+    "name": "subbuzz [✓✓✓]",
+    "description": "Download subtitles from various sites.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/josdion/subbuzz/master/repo/jellyfin_10.8.json  \nGithub: https://github.com/josdion/subbuzz",
+    "overview": "Download subtitles for your media",
+    "owner": "josdion",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/subbuzz.webp",
+    "versions": [
+      {
+        "version": "1.5.1.0",
+        "changelog": "- Add new provider: Titlovi.com\n",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.5.1.0/subbuzz_1.5.1.0_jellyfin_10.9.zip",
+        "checksum": "d6a049b142838292e3e0d33469a84c2e",
+        "timestamp": "2026-10-17T06:32:20Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "- Add new provider: Titlovi.com\n",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.5.1.0/subbuzz_1.5.1.0_jellyfin_10.8.zip",
+        "checksum": "0c77456e00d056fe6ab5c30357d09f6b",
+        "timestamp": "2026-10-17T06:32:20Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "- Remove Podnapisi.NET\n",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.5.0.0/subbuzz_1.5.0.0_jellyfin_10.9.zip",
+        "checksum": "693864f6a8d16cf4c640cd2e62ae6e14",
+        "timestamp": "2026-09-09T08:44:56Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "- Remove Podnapisi.NET\n",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.5.0.0/subbuzz_1.5.0.0_jellyfin_10.8.zip",
+        "checksum": "ec28d090e577f516815e8116b8750682",
+        "timestamp": "2026-09-09T08:44:56Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "- Fix Json exception triggered on all subsource.net results #41\n",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.4.1.0/subbuzz_1.4.1.0_jellyfin_10.9.zip",
+        "checksum": "d86f1bb2f64ece45e875f7def87d636c",
+        "timestamp": "2026-04-26T07:21:31Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "- Add new provider: Subsource.net\n- Remove Yavka.net\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.4.0.0/subbuzz_1.4.0.0_jellyfin_10.9.zip",
+        "checksum": "4c2b8fa77b2a635ca41cf6be252b1f78",
+        "timestamp": "2026-02-08T12:00:42Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "- Added new provider: SubDL.com\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.2.1.0/subbuzz_1.2.1.0_jellyfin_10.9.zip",
+        "checksum": "7e039fcf6084acf2d3c156b47533d8a6",
+        "timestamp": "2024-10-27T10:01:24Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "- Add Subf2m.co\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.2.0.0/subbuzz_1.2.0.0_jellyfin_10.9.zip",
+        "checksum": "5c245b549ceeedc9ece19810cc8fd5ec",
+        "timestamp": "2024-10-24T04:24:18Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- Fix issue with Jellyfin 10.9 not able to download subtitles\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.1.0.0/subbuzz_1.1.0.0_jellyfin_10.9.zip",
+        "checksum": "9317b6cf5410c3ef82d6f67c7978fc95",
+        "timestamp": "2024-05-21T06:37:33Z"
+      },
+      {
+        "version": "1.0.9.0",
+        "changelog": "- Update to Jellyfin 10.9\n- Remove Subf2m.co and Subscene.com\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.9.0/subbuzz_1.0.9.0_jellyfin_10.9.zip",
+        "checksum": "ddc612edd3a893f5b78cabe0d653e347",
+        "timestamp": "2024-05-16T16:42:16Z"
+      },
+      {
+        "version": "1.0.9.0",
+        "changelog": "- Remove Subf2m.co and Subscene.com\n",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.9.0/subbuzz_1.0.9.0_jellyfin_10.8.zip",
+        "checksum": "8d1ae638386a70028be9f70f31120eb9",
+        "timestamp": "2024-05-16T16:42:16Z"
+      },
+      {
+        "version": "1.0.7.0",
+        "changelog": "- Fix OpenSubtitles.com episode search\n- Fix Yavka.net\n",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.7.0/subbuzz_1.0.7.0_jellyfin_10.8.zip",
+        "checksum": "b3b4f37a440d5204d19ad0a6f8c14963",
+        "timestamp": "2024-02-11T13:35:51Z"
+      },
+      {
+        "version": "1.0.6.0",
+        "changelog": "Fix Yavka.net\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.6.0/subbuzz_1.0.6.0_jellyfin_10.8.zip",
+        "checksum": "7d2716565d08b79abcac603fd9971267",
+        "timestamp": "2023-06-28T06:05:23Z"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "- Added new provider: Addic7ed.com\n- Subtitle caching.\n- Added post-processing option to adjust subtitles duration.\n- Fix Subf2me.co java script challenge. Require Node.js to be installed.\n- Various bug fixes.",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.5.0/subbuzz_1.0.5.0_jellyfin_10.8.zip",
+        "checksum": "bb3709f8e5358defcd8c0bbd14693ca1",
+        "timestamp": "2023-04-23T10:01:12Z"
+      },
+      {
+        "version": "1.0.4.0",
+        "changelog": "Added new provider: Subf2m.co. Fix YIFY Subtitles\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.4.0/subbuzz_1.0.4.0_jellyfin_10.8.zip",
+        "checksum": "02a7c096691bd945190283cb60d70065",
+        "timestamp": "2023-02-28T19:42:32Z"
+      },
+      {
+        "version": "1.0.3.0",
+        "changelog": "Added new providers: Podnapisi.NET and Subscene.\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.3.0/subbuzz_1.0.3.0_jellyfin_10.8.zip",
+        "checksum": "7015602881d978fa468b3932620ac61a",
+        "timestamp": "2022-06-20T09:26:32Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Bug fix release.\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.2.0/subbuzz_1.0.2.0_jellyfin_10.8.zip",
+        "checksum": "20980e20582fbd9ec382845d76528081",
+        "timestamp": "2022-01-21T06:38:26Z"
       }
     ]
   },
@@ -2335,6 +3234,248 @@
     ]
   },
   {
+    "category": "General",
+    "guid": "616552f9-8355-4737-bbe0-8217f9e8ea14",
+    "name": "RunScripts [✓✓]",
+    "description": "This plugin let's you run custom scripts after events like playback start and stop.  \n  \nUniversal Repo \nSource: https://lmaonator.github.io/jellyfin-plugin-runscripts/manifest.json  \nGithub: https://github.com/lmaonator/jellyfin-plugin-runscripts",
+    "owner": "lmaonator",
+    "overview": "Run scripts after events like playback start and stop",
+    "versions": [
+      {
+        "version": "3.0.0.0",
+        "changelog": "- feat: support jellyfin 10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lmaonator/jellyfin-plugin-runscripts/releases/download/v3.0.0.0/RunScripts_3.0.0.0.zip",
+        "checksum": "ff3706ef6d17f2b37e14ad5f5182e1f8",
+        "timestamp": "2024-05-13T10:33:24Z"
+      },
+      {
+        "version": "2.0.0.0",
+        "changelog": "- fix!: Argument list too long\n- feat: support for quoted arguments with spaces\n- fix: plugin config page empty except on first load",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lmaonator/jellyfin-plugin-runscripts/releases/download/v2.0.0.0/RunScripts_2.0.0.0.zip",
+        "checksum": "0bbbe766308bc348e96faf05db1d3899",
+        "timestamp": "2023-08-19T19:09:42Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Ignore null values when serializing",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lmaonator/jellyfin-plugin-runscripts/releases/download/v1.1.0.0/RunScripts_1.1.0.0.zip",
+        "checksum": "015bb4df3dd83902aca222d3a39d6639",
+        "timestamp": "2022-07-19T01:05:36Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Update for Jellyfin 10.8.0.0",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lmaonator/jellyfin-plugin-runscripts/releases/download/v1.0.0.1/RunScripts_1.0.0.1.zip",
+        "checksum": "0cfd9e48917b41f5ec723d18cd9655a1",
+        "timestamp": "2022-06-11T16:59:17Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/RunScripts.webp"
+  },
+  {
+    "guid": "67de1daa-c9fe-497a-9ca2-dc303abb717b",
+    "name": "Spotify Cover & Metadata Provider [✓]",
+    "description": "Provides metadata and high-resolution cover art for music albums, artists, songs, audiobooks and podcasts via the Spotify Web API using Client Credentials authentication.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Metadata, tracklist and coverart provider for music, audiobooks and podcasts via Spotify.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(spotify): add full metadata & artwork provider for music, audiobooks and podcasts (8664c77)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/SpotifyProvider-v1.0.0.1/SpotifyProvider_1.0.0.1.zip",
+        "checksum": "DE64E6B58D9B683C680D9577AC16DB01",
+        "timestamp": "2026-09-19T15:42:51Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/SpotifyCover&MetadataProvider.webp"
+  },
+  {
+    "category": "General",
+    "guid": "6a65ce4e-fb35-4e99-8f37-02bc3979fe7e",
+    "name": "Thumbnail Previews [✓]",
+    "description": "Adds thumbnail previews using videos.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Adds thumbnail previews using videos.",
+    "imageUrl": "https://obelous.dev/plugins/images/ThumbnailPreviews.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "141c2df019c4defee64d7ba2d1bfa25a",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "4e2568d95961c5d1fcfe29295210fae0",
+        "timestamp": "2026-05-27T05:58:18Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "1b2b2f7c959be05ffa7baec223931177",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "13c379a8cdfd2ed46edb45bd8ce7c438",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "811967bfd569bb7d71090e7100e0c0b2",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "58031fe3d449f5ebb5c081bc76bee2b7",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "194bfbf813385d2e8b78bda572517a07",
+        "timestamp": "2026-03-01T07:04:46Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "6bdc441927363115d3aa7f0c24aa21a1",
+        "timestamp": "2026-02-12T03:55:08Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.ThumbnailPreviews.zip",
+        "checksum": "4a7cba04b289b81949e1fdff313f3043",
+        "timestamp": "2025-10-13T07:13:26Z"
+      }
+    ]
+  },
+  {
+    "guid": "6b6c96ac-3f60-4ac3-8b8a-0d0cb8acb9dd",
+    "name": "MusicSuite [✓]",
+    "description": "Transforms Jellyfin's music library into a modern Spotify 3-column UI/UX featuring squircle navigation, library shelves, real-time audio quality badges, and Paradox PluginPages integration.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Spotify-inspired 3-column music streaming experience, squircle cards, live search, and library redirection.",
+    "owner": "mleem97",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(musicsuite): implement Spotify 3-column UI/UX, squircle layouts, real-time now-playing, and Paradox bridges (1f500d0)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicSuite-v1.0.0.0/MusicSuite_1.0.0.0.zip",
+        "checksum": "1A49AB33E2131A1D4869A26C0F0D3CE9",
+        "timestamp": "2026-09-19T18:04:59Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/MusicSuite.webp"
+  },
+  {
+    "guid": "6bb8dbba-2aaa-4b19-9da4-f3bbb6c44091",
+    "name": "Authelia Authentication [✓✓]",
+    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/nikarh/jellyfin-plugin-authelia/main/manifest.json  \nGithub: https://github.com/nikarh/jellyfin-plugin-authelia",
+    "overview": "Authenticate users via Authelia",
+    "owner": "nikarh",
+    "category": "Administration",
+    "imageUrl": "https://obelous.dev/plugins/images/AutheliaAuthentication.webp",
+    "versions": [
+      {
+        "version": "1.0.15.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.15/authelia-authentication_1.0.15.0.zip",
+        "checksum": "dfd91a1cbbd2acdc466c51c3fdcd784a",
+        "timestamp": "2024-08-09T13:35:53Z"
+      },
+      {
+        "version": "1.0.14.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.14/authelia-authentication_1.0.14.0.zip",
+        "checksum": "28d556049d578d8e3484bbb98fd517b4",
+        "timestamp": "2024-05-20T12:46:51Z"
+      },
+      {
+        "version": "1.0.13.0",
+        "changelog": "### Added\n- Added a new field to manage Jellyfin administrator privilege for users authorized with this plugin\n\n### Changed\n- Simplified authentication by 1 HTTP call, extracting full name from `Remote-Name` header instead of an additional call to `/api/user/info`",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.13/authelia-authentication_1.0.13.0.zip",
+        "checksum": "f996b7294c36b5e9f947537c22f2c52e",
+        "timestamp": "2023-11-14T10:56:12Z"
+      },
+      {
+        "version": "1.0.12.0",
+        "changelog": "### Fixed\n- Latest version didn't work with Jellyfin 10.8.0 \n\n### Added\n- A new configuration param for a custom root CA certificate\n- A new configuration param to enable/disable user creation on login\n\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.12/authelia-authentication_1.0.12.0.zip",
+        "checksum": "359bc1e7ccd4a466b5cee2fea0fdd134",
+        "timestamp": "2023-11-11T12:15:19Z"
+      },
+      {
+        "version": "1.0.11.0",
+        "changelog": "### Changed\n- Upgraded dependencies",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.11/authelia-authentication_1.0.11.0.zip",
+        "checksum": "6c8add9f44d1619228e71e0d69892b00",
+        "timestamp": "2023-10-05T06:52:49Z"
+      },
+      {
+        "version": "1.0.10.0",
+        "changelog": "### Added\n- Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.10/authelia-authentication_1.0.10.0.zip",
+        "checksum": "509ac4b4c9c21cd6555ecc4d5b9cbee1",
+        "timestamp": "2022-05-12T12:50:17Z"
+      }
+    ]
+  },
+  {
+    "guid": "6f9a84bf-cb2f-42c3-9f07-4037956f9a02",
+    "name": "NapiSub [✓]",
+    "description": "Download subtitles for Movies and TV Shows using napiprojekt.pl database  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-napi",
+    "overview": "Polish subtitles downloader",
+    "owner": "k-matti",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.1.0",
+        "changelog": "initial release",
+        "targetAbi": "10.7.2.0",
+        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-napi/releases/download/v1.0.1.0/napisub_1.0.1.0.zip",
+        "checksum": "7e462432e43267952de5ef26a1df431c",
+        "timestamp": "0001-01-01T00:00:00.0000000Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/NapiSub.webp"
+  },
+  {
     "guid": "71552a5a-5c5c-4350-a2ae-ebe451a30173",
     "name": "Webhook [✓✓]",
     "description": "Sends notifications to destinations via webhooks.  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -2398,6 +3539,97 @@
         "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_9.0.0.0.zip",
         "checksum": "7346b010d59f3833b5f5920ab503063c",
         "timestamp": "2021-11-01T14:32:52Z"
+      }
+    ]
+  },
+  {
+    "guid": "73833d5f-0bcb-45dc-ab8b-7ce668f4345d",
+    "name": "InPlayerEpisodePreview [✓✓✓]",
+    "overview": "Adds an overview of episode data inside the video player.",
+    "description": "Adds an overview of episode data inside the video player.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/Namo2/InPlayerEpisodePreview",
+    "owner": "Namo",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/InPlayerEpisodePreview.webp",
+    "versions": [
+      {
+        "version": "1.2.4.0",
+        "changelog": "Fixed image loading with subpaths",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.4.0/InPlayerEpisodePreview-1.2.4.0-server.zip",
+        "checksum": "93daf6047501fb461984f6a50862e0ca",
+        "timestamp": "2024-09-24T17:31:00Z"
+      },
+      {
+        "version": "1.2.3.1",
+        "changelog": "Fixed version tag in settings",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.3.1/InPlayerEpisodePreview-1.2.3.1-server.zip",
+        "checksum": "5052e834df8196e0e4d3fe20a77496aa",
+        "timestamp": "2024-09-10T17:55:00Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "Reduced data usage",
+        "targetAbi": "10.9.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.3.0/InPlayerEpisodePreview-1.2.3.0-server.zip",
+        "checksum": "d10583f352e58178b01ca7ca07b98bc6",
+        "timestamp": "2024-09-10T17:38:00Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Security Updates, Fix for server discovery, fix for icon color on hover",
+        "targetAbi": "10.9.10.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.2.0/InPlayerEpisodePreview-1.2.2.0-server.zip",
+        "checksum": "d13482cdc15ab6a48a8daef66f4cfe62",
+        "timestamp": "2024-09-07T20:00:00Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Episode details",
+        "targetAbi": "10.9.6.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.1.0/InPlayerEpisodePreview-1.2.1.0-server.zip",
+        "checksum": "31A0659C681749C01184E7188289F080",
+        "timestamp": "2024-06-20T10:10:00Z"
+      },
+      {
+        "version": "1.2.0.1",
+        "changelog": "Security Updates",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.0.1/InPlayerEpisodePreview-1.2.0.1-server.zip",
+        "checksum": "e596d2e6e6e9a42a27068295d5f16e96",
+        "timestamp": "2024-06-14T01:59:00Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Changes for Jellyfin Media Player 1.11.0",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.2.0.0/InPlayerEpisodePreview-1.2.0.0-server.zip",
+        "checksum": "07ff1f4009b6e3a860ff0fd35e6649aa",
+        "timestamp": "2024-06-14T01:38:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Changes for Jellyfin 10.9.0",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-server.zip",
+        "checksum": "6e77b2b3bd6d5a3ea85daa75e7a230de",
+        "timestamp": "2024-05-12T20:23:00Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "Retries + Settings Page",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.0.1.0/inPlayerEpisodePreview-1.0.1.0-server.zip",
+        "checksum": "2928263ae600f0a31626305a88514d8f",
+        "timestamp": "2024-02-24T11:37:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.0.0.0/InPlayerEpisodePreview-v1.0.0.0-server.zip",
+        "checksum": "8679e9d1c3e4c3bd5039c81a1ad07c6e",
+        "timestamp": "2023-12-17T10:33:00Z"
       }
     ]
   },
@@ -2816,6 +4048,25 @@
         "timestamp": "2026-05-18T21:42:59.0000000Z"
       }
     ]
+  },
+  {
+    "guid": "8e4d2f17-5a33-4c91-b921-dfa724180c55",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(mediatools): add universal media normalizer, split-movie merger, MKV converter and stream deduplicator (7141ef1)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MediaTools-v1.0.0.0/MediaTools_1.0.0.0.zip",
+        "checksum": "D0A2E98264A611F245659433E45FB829",
+        "timestamp": "2026-09-19T17:44:37Z"
+      }
+    ],
+    "name": "MediaTools [✓]",
+    "description": "Comprehensive media optimization tool for Jellyfin: intelligently cleans release filenames without SQLite foreign-key breaks, merges multi-part CD1/CD2 movies via FFmpeg concat, batch remuxes legacy containers into MKV with subtitles, and detects byte-accurate audio/video duplicates.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Media management swiss army knife: zero-interruption renaming, split-movie merging, MKV remuxing and stream deduplication.",
+    "owner": "mleem97",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/MediaTools.webp"
   },
   {
     "category": "Notifications",
@@ -3394,6 +4645,25 @@
     "imageUrl": "https://obelous.dev/plugins/images/TranscodeKiller.webp"
   },
   {
+    "guid": "a05dae4a-2e92-4303-8f16-a7ade62624b4",
+    "name": "Gracenote Metadata Provider [✓]",
+    "description": "Provides album and artist metadata (titles, years, genres, reviews, bios) and cover art via Gracenote MusicID Web API v2/v3 with automatic registration and dual-protocol support.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Album and artist metadata and cover artwork via Gracenote MusicID (GMD v2/v3).",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(gracenote): add dual GMD v2/v3 support, artist metadata, coverart provider and test UI (d9aa4a4)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/GracenoteProvider-v1.0.0.1/GracenoteProvider_1.0.0.1.zip",
+        "checksum": "D88526D4E5808C500B40BFC55557B55B",
+        "timestamp": "2026-09-19T15:45:39Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/GracenoteMetadataProvider.webp"
+  },
+  {
     "guid": "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
     "name": "Jellyfin-Roulette [✓✓]",
     "description": "A Jellyfin plugin that intercepts playlist clicks and displays a modal with two options: play a random unwatched item with a slot machine animation, or view the normal playlist. Features dynamic resize, audio ticks, confetti celebration, and glassmorphism UI.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/main/manifest.json  \nGithub: https://github.com/ztffn/Jellyfin-Roulette",
@@ -3543,6 +4813,33 @@
         "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_9.0.0.0.zip",
         "checksum": "2fa1bbe23392945f56f8ed716c8bb932",
         "timestamp": "2021-11-01T21:04:34Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
+    "guid": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6a7b8c9d",
+    "name": "Transcode Downloader [✓]",
+    "description": "Adds a quality-selection download button to Jellyfin item detail pages.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/ph15ch/Jellyfin-Transcode-Downloader/main/repo/manifest.json  \nGithub: https://github.com/ph15ch/Jellyfin-Transcode-Downloader",
+    "overview": "Adds a 'Download (Transcode…)' entry to the More menu on every movie and episode detail page. Selecting it opens a quality picker — choose a bitrate tier and Jellyfin re-encodes the video server-side to H.264/AAC, streaming it to your browser with a live progress bar, or pick Original to save the unmodified source file directly. Requires the File Transformation companion plugin (>= v2.2.1.0) for permission-safe script injection.",
+    "owner": "ph15ch",
+    "imageUrl": "https://obelous.dev/plugins/images/TranscodeDownloader.webp",
+    "versions": [
+      {
+        "version": "1.0.4.0",
+        "changelog": "Cache-bust plugin.js on injection\n\nAdd a ?v={assembly version} query to the injected plugin.js script tag so\nbrowsers reload the script after a plugin upgrade instead of serving a stale\ncached copy. First release cut via the new fully tag-driven release pipeline.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/ph15ch/Jellyfin-Transcode-Downloader/releases/download/v1.0.4/jellyfin-quickdownload_1.0.4.zip",
+        "checksum": "b5ad56a4bbdef67e1f2a4e0598d813a9",
+        "timestamp": "2026-06-24T19:37:32Z"
+      },
+      {
+        "version": "1.0.3.0",
+        "changelog": "Initial baseline release.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/ph15ch/Jellyfin-Transcode-Downloader/releases/download/v1.0.3/jellyfin-quickdownload_1.0.3.zip",
+        "checksum": "13cc4104addba860de90d271f8a323dc",
+        "timestamp": "2026-06-23T21:44:07Z"
       }
     ]
   },
@@ -3724,6 +5021,423 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "a6808102-bd49-4f40-8d17-bca2556f7336",
+    "name": "Pronium [✓✓]",
+    "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/jellyfin-adult/Jellyfin.Plugin.Pronium/master/manifest.json  \nGithub: https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium",
+    "owner": "JellyfinAdult",
+    "overview": "Manage Your Adult Videos in Jellyfin/Emby",
+    "imageUrl": "https://obelous.dev/plugins/images/Pronium.webp",
+    "versions": [
+      {
+        "checksum": "be8c8a5702e42cc0a12a028cb6115186",
+        "changelog": "Add support for Jellyfin v12 API",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.2.0.153/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2026-09-27T20:13:37Z",
+        "version": "2.2.0.153"
+      },
+      {
+        "checksum": "db5979205ecb56e5960dad2167867654",
+        "changelog": "Fixed actors image retrieval",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.1.9.138/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-12-27T23:48:04Z",
+        "version": "2.1.9.138"
+      },
+      {
+        "checksum": "0235f6abcc50b01cd3c8761efc6630d8",
+        "changelog": "Minor improvements, dependencies updates",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.1.7.130/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-12-15T16:24:14Z",
+        "version": "2.1.7.130"
+      },
+      {
+        "checksum": "b4a0c2ef54ca2e6b5818335497a7adc9",
+        "changelog": "Fixed Jellyfin crash due to outdated dependency, other dependencies updates",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.1.6.111/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-11-03T21:36:34Z",
+        "version": "2.1.6.111"
+      },
+      {
+        "checksum": "e3b55ae7fdbf69edabe4e16eda50d9d7",
+        "changelog": "PornDB improvements, minor fixes",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.1.5.94/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-06-14T13:46:22Z",
+        "version": "2.1.5.94"
+      },
+      {
+        "checksum": "c4806ae741af13e2b59512378d31c4be",
+        "changelog": "Secuirty fixes, actors improvements",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.0.3.65/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-03-03T12:04:22Z",
+        "version": "2.0.3.65"
+      },
+      {
+        "checksum": "e6956ea102618b6a4a94147ac92609a7",
+        "changelog": "Plugin rename, fixes for clips4sale, mylf and teamskeet",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.0.1.54/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-02-18T18:02:46Z",
+        "version": "2.0.1.54"
+      },
+      {
+        "checksum": "ef622438b5685850b9abf2965c363c09",
+        "changelog": "Plugin rename, minor fixes",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.Pronium/releases/download/2.0.0.44/Jellyfin.Plugin.Pronium.zip",
+        "timestamp": "2024-02-03T22:34:01Z",
+        "version": "2.0.0.44"
+      },
+      {
+        "checksum": "9441fc97dc34abbb69bbb466912a6ca7",
+        "changelog": "Fixes for bangbros, naughtyamerica and clips4sale",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.PhoenixAdultRebirth/releases/download/1.2.1.33/Jellyfin.Plugin.PhoenixAdultRebirth.zip",
+        "timestamp": "2024-01-31T21:54:41Z",
+        "version": "1.2.1.33"
+      },
+      {
+        "checksum": "b04f3be29253fa120314e33fce525cda",
+        "changelog": "Add private support",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.PhoenixAdultRebirth/releases/download/1.2.0.20/Jellyfin.Plugin.PhoenixAdultRebirth.zip",
+        "timestamp": "2024-01-27T16:52:48Z",
+        "version": "1.2.0.20"
+      },
+      {
+        "checksum": "70bfe1b12565d0f83eac3c014a0ba13f",
+        "changelog": "Add pornworld support",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jellyfin-adult/Jellyfin.Plugin.PhoenixAdultRebirth/releases/download/1.1.2.13/Jellyfin.Plugin.PhoenixAdultRebirth.zip",
+        "timestamp": "2024-01-27T16:52:48Z",
+        "version": "1.1.2.13"
+      }
+    ]
+  },
+  {
+    "guid": "a708187e-5f82-4610-9c84-ec1f2837d5fe",
+    "name": "Collection Import [✓✓]",
+    "overview": "Import collections from external sources like tmdblist",
+    "description": "Import collections from external sources like tmdblist  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/main/manifest.json  \nGithub: https://github.com/lostb1t/jellyfin-plugin-collection-import",
+    "owner": "lostb1t",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.44.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.44.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.44.0.0/collection-import-0.44.0.0.zip",
+        "checksum": "537c58b1d23765e8b9be7e5055d56671",
+        "timestamp": "2025-10-17T04:33:25Z"
+      },
+      {
+        "version": "0.43.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.43.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.43.0.0/collection-import-0.43.0.0.zip",
+        "checksum": "281cbeaa17abaa3143a60914154def88",
+        "timestamp": "2025-06-09T16:19:18Z"
+      },
+      {
+        "version": "0.42.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.42.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.42.0.0/collection-import-0.42.0.0.zip",
+        "checksum": "cdc0a0431d25257973e6600fe0b8bcf1",
+        "timestamp": "2025-04-22T20:11:40Z"
+      },
+      {
+        "version": "0.41.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.41.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.41.0.0/collection-import-0.41.0.0.zip",
+        "checksum": "14b44fb4b53f7adb4e1600d81ec5c1fa",
+        "timestamp": "2025-04-22T20:09:54Z"
+      },
+      {
+        "version": "0.40.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.40.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.40.0.0/collection-import-0.40.0.0.zip",
+        "checksum": "3531f683edbf02fed91ca726a01e1e11",
+        "timestamp": "2025-04-22T11:09:39Z"
+      },
+      {
+        "version": "0.39.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.39.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.39.0.0/collection-import-0.39.0.0.zip",
+        "checksum": "5edddb34f57eb70acccb405cf3da1675",
+        "timestamp": "2025-03-15T17:27:03Z"
+      },
+      {
+        "version": "0.38.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.38.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.38.0.0/collection-import-0.38.0.0.zip",
+        "checksum": "f3d4c83aa69d2afa1a9a0dddbea71476",
+        "timestamp": "2025-01-31T07:05:03Z"
+      },
+      {
+        "version": "0.37.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.37.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.37.0.0/collection-import-0.37.0.0.zip",
+        "checksum": "a225af7363483e8d32ba4d98246df578",
+        "timestamp": "2025-01-09T12:56:44Z"
+      },
+      {
+        "version": "0.36.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.36.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.36.0.0/collection-import-0.36.0.0.zip",
+        "checksum": "55d16645fbe714c786c3204d16ddcbeb",
+        "timestamp": "2024-12-11T06:56:28Z"
+      },
+      {
+        "version": "0.35.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.35.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.35.0.0/collection-import-0.35.0.0.zip",
+        "checksum": "2406331e7bc90e43eba87075ced6a45c",
+        "timestamp": "2024-12-11T06:55:26Z"
+      },
+      {
+        "version": "0.34.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.34.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.34.0.0/collection-import-0.34.0.0.zip",
+        "checksum": "b3a0557f623b34640d35a2bc54330a6e",
+        "timestamp": "2024-12-10T22:27:33Z"
+      },
+      {
+        "version": "0.33.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.33.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.33.0.0/collection-import-0.33.0.0.zip",
+        "checksum": "77dfe14220743a86d3651bc16d240814",
+        "timestamp": "2024-12-10T22:21:48Z"
+      },
+      {
+        "version": "0.32.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.32.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.32.0.0/collection-import-0.32.0.0.zip",
+        "checksum": "75af75a80996a549e455512af8a672ec",
+        "timestamp": "2024-12-10T22:18:39Z"
+      },
+      {
+        "version": "0.31.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.31.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.31.0.0/collection-import-0.31.0.0.zip",
+        "checksum": "e2558e1656e4a41091edad21175bc093",
+        "timestamp": "2024-12-10T22:10:56Z"
+      },
+      {
+        "version": "0.30.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.30.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.30.0.0/collection-import-0.30.0.0.zip",
+        "checksum": "f5cd703bee6fccb0e4934f99f717af5c",
+        "timestamp": "2024-12-10T21:47:26Z"
+      },
+      {
+        "version": "0.29.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.29.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.29.0.0/collection-import-0.29.0.0.zip",
+        "checksum": "22175b7e4787fc0bccb241ea4505dffd",
+        "timestamp": "2024-12-10T21:37:47Z"
+      },
+      {
+        "version": "0.28.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.28.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.28.0.0/collection-import-0.28.0.0.zip",
+        "checksum": "0e6841e10adcb020fd11b7608660072f",
+        "timestamp": "2024-11-30T06:24:20Z"
+      },
+      {
+        "version": "0.27.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.27.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.27.0.0/collection-import-0.27.0.0.zip",
+        "checksum": "f397074e3e2fae8a0b085c1ffb605800",
+        "timestamp": "2024-10-29T15:03:35Z"
+      },
+      {
+        "version": "0.26.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.26.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.26.0.0/collection-import-0.26.0.0.zip",
+        "checksum": "c4119a7832eff9b0e091112e6bf38c56",
+        "timestamp": "2024-10-29T15:02:04Z"
+      },
+      {
+        "version": "0.25.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.25.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.25.0.0/collection-import-0.25.0.0.zip",
+        "checksum": "e4a693077579e6532ea02bf4556bc9e1",
+        "timestamp": "2024-09-07T08:28:44Z"
+      },
+      {
+        "version": "0.24",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.24)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.24/collection-import-0.24.zip",
+        "checksum": "cd5cbe0409c4de21f2f6fc3f0bb94338",
+        "timestamp": "2024-08-30T13:00:36Z"
+      },
+      {
+        "version": "0.23",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.23)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.23/collection-import-0.23.zip",
+        "checksum": "84c9b97ad190d25b22fac75e6c62f621",
+        "timestamp": "2024-08-30T10:20:42Z"
+      },
+      {
+        "version": "0.21",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.21)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.21/collection-import-0.21.zip",
+        "checksum": "3135a77149bf55e92acfcd141753d9ed",
+        "timestamp": "2024-08-29T17:58:17Z"
+      },
+      {
+        "version": "0.20",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.20)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.20/collection-import-0.20.zip",
+        "checksum": "3b08d963dc7f92cc8a855cf56bb48b7b",
+        "timestamp": "2024-08-29T17:53:40Z"
+      },
+      {
+        "version": "0.18",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.18)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.18/collection-import-0.18.zip",
+        "checksum": "8054a2c9fd46a3570d8e195373f4d602",
+        "timestamp": "2024-08-22T14:43:36Z"
+      },
+      {
+        "version": "0.17",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.17)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.17/collection-import-0.17.zip",
+        "checksum": "1a495a50af5921990ba141aa93509ad8",
+        "timestamp": "2024-08-20T18:26:17Z"
+      },
+      {
+        "version": "0.16",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.16)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.16/collection-import-0.16.zip",
+        "checksum": "e51669745118a99c5b4193d355eeb960",
+        "timestamp": "2024-08-18T13:47:00Z"
+      },
+      {
+        "version": "0.15",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.15)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.15/collection-import-0.15.zip",
+        "checksum": "458ad382aa891ae65c63610a1e825d5a",
+        "timestamp": "2024-08-18T13:12:55Z"
+      },
+      {
+        "version": "0.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.14)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.14/collection-import-0.14.zip",
+        "checksum": "2bdef8b37d7c893fc8e759591faded09",
+        "timestamp": "2024-08-18T13:02:11Z"
+      },
+      {
+        "version": "0.9",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.9)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.9/collection-import-0.9.zip",
+        "checksum": "13f00a07fb4081aa8e63d4ed2f4f1e8d",
+        "timestamp": "2024-08-18T12:30:04Z"
+      },
+      {
+        "version": "0.8",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.8)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.8/collection-import-0.8.zip",
+        "checksum": "f9fd85c8e29824af4894223d36c031ff",
+        "timestamp": "2024-08-18T12:27:51Z"
+      },
+      {
+        "version": "0.5",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.5/collectionimport.zip",
+        "checksum": "0ea490e4b83684ac2423dae4bb14ce12",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.4",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.4/collectionimport.zip",
+        "checksum": "b899d89641ceb39793e0fa255195f291",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.3",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.3/collectionimport.zip",
+        "checksum": "b27fc3d075ca8ec578b8cbbd307a9ada",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.2",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.2/collectionimport.zip",
+        "checksum": "40818413b93dbae366520f5c1daa9d2e",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.1",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.1/collectionimport-0.1.zip",
+        "checksum": "f82d574397c3c64ae163b38f7aa0d229",
+        "timestamp": "2024-05-12T11:40:00Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/CollectionImport.webp"
+  },
+  {
+    "guid": "a84a949d-4b73-4099-aacb-8341b4da17ba",
+    "name": "Jellyscrub [✓]",
+    "overview": "Create BIF files for media to be used for trickplay scrubbing previews.",
+    "description": "Smooth mouse-over video scrubbing previews.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/nicknsy/jellyscrub",
+    "owner": "Nick",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Jellyscrub.webp",
+    "versions": [
+      {
+        "version": "2.0.0.0",
+        "changelog": "- support 10.9.0\n- allow for conversion of BIF files to native format\n- disable all other functionality",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/nicknsy/jellyscrub/releases/download/2.0.0.0/Jellyscrub-v2.0.0.0.zip",
+        "checksum": "dac456c5dac7f60fd7949afe7f1d0a13",
+        "timestamp": "2024-03-30T18:30:00Z"
+      }
+    ]
+  },
+  {
     "guid": "a8b5e2f3-4c1d-4e8a-b2f9-6d3c7e1a5b2f",
     "name": "StarTrack [✓]",
     "description": "Community star ratings for movies and TV shows — stored privately on your Jellyfin server.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-plugin-startrack/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-plugin-startrack",
@@ -3847,6 +5561,89 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/apple-music/apple-music_1.0.0.0.zip",
         "checksum": "c1e8da9ca3ff3eb9a812ade88913dac4",
         "timestamp": "2023-05-12T06:27:06Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
+    "guid": "ac5bb0cf-9de9-4c42-b72f-c59d1edbb6ae",
+    "name": "Studio Curator [✓]",
+    "description": "Automatically organize your library by studio.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Automatically organize your library by studio.",
+    "imageUrl": "https://obelous.dev/plugins/images/StudioCurator.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "c41399d88c1a646d5934066bc9cb6bb4",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "e697131be1d4ba5dafd068338e2e8dec",
+        "timestamp": "2026-05-27T05:58:17Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "eac106bf1c1e4efde392e725de220637",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "80a18d1065ef8e91dca6adabc23de75e",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "7e912a28db713cbfdbbcfa7521c5fbfa",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "8eeb737b4cb17f39a598b7d4bb6f2de1",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "66d7a8ad0ec3b9f194470ee5be4f7762",
+        "timestamp": "2026-03-01T07:04:44Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "fc731fc52ed972f6fc0b09e272dd4c43",
+        "timestamp": "2026-02-12T03:55:06Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.StudioCurator.zip",
+        "checksum": "55eccdc1bcf002be3a410077878df6ee",
+        "timestamp": "2025-10-13T07:13:24Z"
       }
     ]
   },
@@ -4393,6 +6190,108 @@
   },
   {
     "category": "General",
+    "guid": "c03a2469-eed0-4107-95b1-6dfda14fb0fc",
+    "name": "Privacy Mode [✓]",
+    "description": "Adds a privacy mode that hides content when activated.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Adds a privacy mode that hides content when activated.",
+    "imageUrl": "https://obelous.dev/plugins/images/PrivacyMode.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "552245e504203e26317ec8491f189d40",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "0ee1073ba95c50fe510770c4f18cf1b8",
+        "timestamp": "2026-05-27T05:58:17Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "33bd4acc65e6e7beb3f2fc9aa165e236",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "76d18bb6870cc397583501fa7351733d",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "cc0e431cb496e69d965d1f1d1adb9814",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "72e77b68472cbff4336ad45d04fa1fec",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "99d6723d97c2f8b84600b5a37076019a",
+        "timestamp": "2026-03-01T07:04:44Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "121d130b1c6c255504bc786f05f01c94",
+        "timestamp": "2026-02-12T03:55:05Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.PrivacyMode.zip",
+        "checksum": "0d6666e70a281774e2ed8ab0fdb3c064",
+        "timestamp": "2025-10-13T07:13:23Z"
+      }
+    ]
+  },
+  {
+    "guid": "c70012b6-0fc0-479e-a814-b5a09fcdd799",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- feat(metadatadashboard): add unified music metadata studio, MusicBrainz & CoverArtArchive providers and health audit (f2ed12b)\n- chore(release): publish MusicSuite (bd5faaa)\n- chore(release): publish MediaTools (c557a4c)\n- chore(release): publish MusicHoarderzProvider (8188665)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- chore(release): publish HddDisplay, MusicSuite, MusicHoarderzProvider, SpotifyProvider, GracenoteProvider (3c2b383)\n- fix: repair Spotify/Gracenote builds, sync workflows and manifest metadata (8c492b8)\n- refactor: rename BetterMusicDisplay to MusicSuite, update HddDisplay, CI and docs (6dcc780)\n- chore(release): publish MusicHoarderzProvider (ce9e9ba)\n- chore(release): publish MusicHoarderzProvider (34665d9)\n- build: track three Jellyfin plugins (5c0e705)\n- manifest: register three-plugin library (373e47c)\n- build: describe Jellyfin plugin library projects (b3f6f2d)\n- manifest: add MusicDashboard entry (2f503e7)\n- Prepare repository for multiple Jellyfin plugins (bd98daa)\n- Update manifest for v1.0.0.20 release (a619d49)\n- Update manifest for v1.0.0.19 release (690a727)\n- Update manifest for v1.0.0.18 release (c0cfcbf)\n- Update manifest for v1.0.0.17 release (8907fcd)\n- Update manifest for v1.0.0.16 release (2566169)\n- Update manifest for v1.0.0.10 release (55e9e9b)\n- Update manifest for v1.0.0.9 release (c49357d)\n- Update manifest for v1.0.0.8 release (ae12b90)\n- Update manifest for v1.0.0.7 release (1cd0e09)\n- Update manifest for v1.0.0.3 release (185edd5)\n- Update manifest for v1.0.0.2 release (2f71f6d)\n- Prepare manifest template placeholders for automated release metadata (729d49b)\n- Add automated release workflow with generated manifest checksum (5e2e64d)\n- Rename plugin to HDD Display and update description (a860dee)\n- Add Jellyfin manifest and upgrade report updates for .NET 9 (7e6281c)\n- Initial commit (1cb6f6b)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MetadataDashboard-v1.0.0.0/MetadataDashboard_1.0.0.0.zip",
+        "checksum": "5F2184087E05C6B284BE77477EB3080C",
+        "timestamp": "2026-09-19T18:21:23Z"
+      }
+    ],
+    "name": "MetadataDashboard [✓]",
+    "description": "Interactive music metadata audit and management studio. Inspect missing tags, query MusicBrainz & CoverArtArchive, cross-reference Spotify & Gracenote, and manage audio metadata in one dedicated interface.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Unified metadata management dashboard cross-referencing Spotify, Gracenote, MusicBrainz, and CoverArtArchive.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/MetadataDashboard.webp"
+  },
+  {
+    "category": "General",
     "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
     "name": "Ani-Sync [✓✓✓]",
     "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json  \nGithub: https://github.com/vosmiic/jellyfin-ani-sync",
@@ -4595,6 +6494,89 @@
     "imageUrl": "https://obelous.dev/plugins/images/Ani-Sync.webp"
   },
   {
+    "category": "General",
+    "guid": "c797039e-7640-45bb-a83f-7976220285dc",
+    "name": "Cast Curator [✓]",
+    "description": "Automatically organize your library by cast and crew members.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Automatically organize your library by cast and crew members.",
+    "imageUrl": "https://obelous.dev/plugins/images/CastCurator.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "75c5942a58d08b1c2d584f7302fac19a",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "b656e675186b74c9fcc03fb6e3d328d0",
+        "timestamp": "2026-05-27T05:58:17Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "c611f4bd4603efc31253210d6223cb5c",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "b6b3c650d23687827a41a9ab1918d8d1",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "8fecd87fcb1d6acdefafd6886257e259",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "530e7712a35f14795aff264aef04cba1",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "9ddfd51c88a286bc383d9dfca46b2319",
+        "timestamp": "2026-03-01T07:04:43Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "c6e5676285262b28ec4cd1c57c185472",
+        "timestamp": "2026-02-12T03:55:05Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.CastCurator.zip",
+        "checksum": "d4058ab606c1150cdd6ef7c222a46316",
+        "timestamp": "2025-10-13T07:13:22Z"
+      }
+    ]
+  },
+  {
     "guid": "c9e41b95-63e4-45e2-9db6-b83df21ae5e7",
     "name": "TheIntroDB [✓]",
     "description": "Adds skip segments for intros, recaps, credits, and previews from TheIntroDB's API.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/TheIntroDB/jellyfin-plugin/main/manifest.json  \nGithub: https://github.com/TheIntroDB/jellyfin-plugin",
@@ -4795,18 +6777,7 @@
         "sourceUrl": "https://github.com/AECX/FinTube/releases/download/v1.0.1/FinTube-1.0.1.zip",
         "checksum": "20d1786dedf3213ad371edcbafea934d",
         "timestamp": "2024-05-12T11:40:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
-    "name": "FinTube [✓✓]",
-    "overview": "Import Videos/Music from YouTube",
-    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/AECX/FinTube/master/manifest.json  \nGithub: https://github.com/AECX/FinTube",
-    "owner": "Maurice 'AECX' Henke",
-    "category": "General",
-    "imageUrl": "https://obelous.dev/plugins/images/FinTube.webp",
-    "versions": [
+      },
       {
         "version": "1.0.0.0",
         "changelog": "Initial Release",
@@ -4859,6 +6830,41 @@
         "timestamp": "2022-01-08T17:24:56Z"
       }
     ]
+  },
+  {
+    "guid": "d6b0196a-9885-4d87-b25c-562a57ebbe0b",
+    "name": "Prevent Sleep [✓✓]",
+    "description": "Prevent the system from entering sleep mode when there are active streams.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/jonschz/jellyfin-plugin-preventsleep/refs/heads/main/manifest.json  \nGithub: https://github.com/jonschz/jellyfin-plugin-preventsleep",
+    "overview": "Prevent system sleep when streaming",
+    "owner": "jonschz",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.3.0.0",
+        "changelog": "* Support for Linux. Please read the [instructions](https://github.com/jonschz/jellyfin-plugin-preventsleep/blob/0a8386c74ecac045d398fbd47c3aa21fdc17ad3b/docs/Linux.md) since additional setup will most likely be required, and not every Linux setup is supported.\n* Support for Modern Standby in Windows",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/jonschz/jellyfin-plugin-preventsleep/releases/download/v0.3.0-repository/Jellyfin.Plugin.PreventSleep_0.3.0.0.zip",
+        "checksum": "27c4c2d953769e6b88c03437f8851576",
+        "timestamp": "2026-07-04T13:00:00"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "* Support for Jellyfin 10.9. Note that this version is **not** compatible with Jellyfin 10.8 or older.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/jonschz/jellyfin-plugin-preventsleep/releases/download/v0.2.0/Jellyfin.Plugin.PreventSleep_0.2.0.0.zip",
+        "checksum": "71f83ccdb54ee2ef166fa3676227c7f2",
+        "timestamp": "2025-11-30T17:43:45"
+      },
+      {
+        "version": "0.1.1.0",
+        "changelog": "* Latest version supporting Jellyfin 10.8. Note that this version is **not** compatible with Jellyfin 10.9 or newer.",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/jonschz/jellyfin-plugin-preventsleep/releases/download/v0.1.1/Jellyfin.Plugin.PreventSleep_0.1.1.0.zip",
+        "checksum": "2d03d3ee206c85413c7ac1ce24bb0f67",
+        "timestamp": "2025-11-30T17:43:45"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/PreventSleep.webp"
   },
   {
     "category": "Metadata",
@@ -4968,6 +6974,73 @@
     ]
   },
   {
+    "name": "Jellyfin Tweaks [✓]",
+    "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
+    "overview": "Tweaks for Jellyfin",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/n00bcodr/JellyfinTweaks",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/JellyfinTweaks.webp",
+    "versions": [
+      {
+        "checksum": "9d28727ede403514764b915386fb843c",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Add public config endpoint and update JS to use it, was preventing some users to access the plugin configuration",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/2.1.2.0/Jellyfin.Plugin.JellyTweaks.zip",
+        "timestamp": "2025-08-27T16:06:09Z",
+        "version": "2.1.2.0"
+      },
+      {
+        "checksum": "6ae17ddf411fc562b690d12c97389987",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Use [file-transformation-plugin](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n - This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regular index.html modification",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/2.1.0.0/Jellyfin.Plugin.JellyTweaks.zip",
+        "timestamp": "2025-08-19T07:02:58Z",
+        "version": "2.1.0.0"
+      },
+      {
+        "checksum": "29622399261e493ce33e2a24296ef76e",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Complete refactor to use localStorage, no longer modifies core files.\n- Added options for Theme Videos, Rewatching, and Episode Images in Next Up.",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/2.0.0.0/JellyFin.Tweaks.Plugin.zip",
+        "timestamp": "2025-05-13T16:00:30Z",
+        "version": "2.0.0.0"
+      },
+      {
+        "checksum": "8230646cb5c0dec3e92824999ea283eb",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n-Fix logic for Force theme music and backdrops",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/1.1.3.1/JellyFin.Tweaks.Plugin.zip",
+        "timestamp": "2025-05-13T16:00:30Z",
+        "version": "1.1.3.1"
+      },
+      {
+        "checksum": "992b5104c0334a19e2f9601540580b9a",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n-Fix logic for Force theme music and backdrops",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/1.1.3.0/JellyFin.Tweaks.Plugin.zip",
+        "timestamp": "2025-05-13T15:23:30Z",
+        "version": "1.1.3.0"
+      },
+      {
+        "checksum": "f7515430b1b7f455c0f40aaec1f34e27",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n-Fix logic for Force theme music",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/1.1.2/JellyFin.Tweaks.Plugin.zip",
+        "timestamp": "2025-04-23T03:48:01Z",
+        "version": "1.1.2"
+      },
+      {
+        "checksum": "7ae1d358517b008fc32b8dccb8dc13ac",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Added Max Days Next Up\n- Added Force Disable Next Video Info\n- Added Force Theme Music\n- Based on gam24's version 1.0.0.4",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/1.1.1/JellyFin.Tweaks.Plugin.zip",
+        "timestamp": "2025-04-22T17:30:21Z",
+        "version": "1.1.1"
+      }
+    ]
+  },
+  {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb [✓✓]",
     "description": "Get Music Video metadata from IMVDb  \n  \nUniversal Repo \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -4993,6 +7066,25 @@
         "timestamp": "2022-03-28T00:02:33Z"
       }
     ]
+  },
+  {
+    "guid": "e29b0e3d-f15a-47e6-9f05-d8f4e6260a4e",
+    "name": "Top Ten [✓✓]",
+    "overview": "Creates and maintains a collection of the top 10 most watched movies and TV shows",
+    "description": "Creates a scheduled task that runs every 24 hours to identify the top 10 movies and series watched on the Jellyfin server. It creates a collection named \"Jellyfin Top Ten\" (configurable) and keeps it up to date by adding new popular content and removing items that have fallen out of the top ten.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/johnpc/jellyfin-plugin-top-ten/refs/heads/main/manifest.json  \nGithub: https://github.com/johnpc/jellyfin-plugin-top-ten",
+    "owner": "johnpc",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.0.0.1",
+        "changelog": "https://github.com/johnpc/jellyfin-plugin-top-ten/releases/tag/0.0.0.1",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-top-ten/releases/download/0.0.0.1/top-ten-0.0.0.1.zip",
+        "checksum": "f98ed5a25bc45d35bbfbb68119377429",
+        "timestamp": "2025-03-16T20:59:20Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/TopTen.webp"
   },
   {
     "guid": "e29b0e3d-f15e-47b9-9b3d-ed3df892e33d",
@@ -5917,22 +8009,6 @@
     ]
   },
   {
-    "guid": "e6a4909d-d628-4b8d-9dfd-0d77b59e5afe",
-    "name": "! Universal Plugin Repo [✓✓✓]",
-    "description": "Aggregated: 87, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-19T19:50:11.870Z",
-    "owner": "Obelous",
-    "category": "Miscellaneous",
-    "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
-    "versions": [
-      {
-        "version": "0.0.0",
-        "targetAbi": "10.8.13",
-        "timestamp": "2026-10-19T19:50:11.870Z"
-      }
-    ]
-  },
-  {
     "guid": "e93d1d02-df60-4545-ae3c-7bb87dff024c",
     "name": "AniWorld Downloader [✓]",
     "overview": "Download anime from aniworld.to directly within Jellyfin",
@@ -6127,6 +8203,59 @@
   },
   {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "name": "HDD Display [✓]",
+    "description": "Displays Jellyfin library disk usage grouped by mount, adds media-type usage segments and reads NVIDIA jellyfin-ffmpeg telemetry for the Admin Dashboard.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Admin Dashboard storage, mount usage and NVIDIA telemetry for Jellyfin.",
+    "owner": "mleem97",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/HDDDisplay.webp",
+    "versions": [
+      {
+        "version": "1.0.0.22",
+        "changelog": "- feat(hdd): enhance dashboard route detection, segment colors and media mount discovery (61dd67a)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
+        "checksum": "4668069BE08B046D949C942741DAF4DC",
+        "timestamp": "2026-09-19T15:32:31Z"
+      }
+    ]
+  },
+  {
+    "name": "ProviderStuff [✓]",
+    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "version": "1.1.0.0",
+    "targetAbi": "10.9.0.0",
+    "framework": "net8.0",
+    "overview": "Applies provider tags, manages provider collections, and exposes provider/item APIs with pagination.",
+    "description": "ProviderStuff automates tagging items with provider:<name> tags, maintains optional Box Set collections, and provides API endpoints to list providers and items.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/kamilkosek/jellyfin-plugin-provider-stuff/main/manifest.json  \nGithub: https://github.com/kamilkosek/jellyfin-plugin-provider-stuff",
+    "category": "General",
+    "owner": "kamilkosek",
+    "artifacts": [
+      "Jellyfin.Plugin.ProviderStuff.dll"
+    ],
+    "changelog": "- See the full changelog at GitHub releases",
+    "imageUrl": "https://obelous.dev/plugins/images/ProviderStuff.webp",
+    "versions": [
+      {
+        "version": "1.2.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/kamilkosek/jellyfin-plugin-provider-stuff/releases/tag/1.2.0.0)\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/kamilkosek/jellyfin-plugin-provider-stuff/releases/download/1.2.0.0/providerstuff-1.2.0.0.zip",
+        "checksum": "fdc10b5c7071f4e3fc2d24becd58feac",
+        "timestamp": "2025-09-09T21:23:04Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/kamilkosek/jellyfin-plugin-provider-stuff/releases/tag/1.1.0.0)\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/kamilkosek/jellyfin-plugin-provider-stuff/releases/download/1.1.0.0/providerstuff-1.1.0.0.zip",
+        "checksum": "783375b87e42a23cebc1a329a4802be8",
+        "timestamp": "2025-09-09T16:53:52Z"
+      }
+    ]
+  },
+  {
+    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "Webhooks [✓✓]",
     "description": "Supports couple of webhook types including Plex one.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-webhooks",
     "overview": "Webhooks. Flexible and robust",
@@ -6310,6 +8439,89 @@
         "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-myshows/releases/download/v5.0.0.0/myshows_5.0.0.0.zip",
         "checksum": "65a23c93fd6e75fb138c23f518b13fc5",
         "timestamp": "2022-03-29T17:52:17Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
+    "guid": "f0194bb3-788d-43b8-96c9-bb32f996db4a",
+    "name": "Remote Trailers [✓]",
+    "description": "Enables playback of remote trailers from any source.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/main/manifest.json  \nGithub: https://github.com/lennykean/jellyfin-powertoys",
+    "owner": "lennykean",
+    "overview": "Enables playback of remote trailers from any source.",
+    "imageUrl": "https://obelous.dev/plugins/images/RemoteTrailers.webp",
+    "versions": [
+      {
+        "version": "1.1.7.2",
+        "changelog": "no plugin code changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.2/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "4aa3e164d8a5d10de58b51c63b1e5b54",
+        "timestamp": "2026-10-08T07:29:48Z"
+      },
+      {
+        "version": "1.1.7.1",
+        "changelog": "fix(ui): match Jellyfin actionSheet button structure and fix injector call",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.1/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "4ad5be5cbfda74282f8020dff6d505c7",
+        "timestamp": "2026-05-27T05:58:18Z"
+      },
+      {
+        "version": "1.1.7.0",
+        "changelog": "jellytag: skip action sheet injection if there is no item context.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.7.0/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "9506ccd751f72b6d565cbc485816d4ea",
+        "timestamp": "2026-03-19T19:32:53Z"
+      },
+      {
+        "version": "1.1.5.1",
+        "changelog": "Merge branch 'jellytag' into jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.5.1/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "963abe487a2de6ff6d6f7f5fce5541bb",
+        "timestamp": "2026-03-10T01:39:06Z"
+      },
+      {
+        "version": "1.1.4.1",
+        "changelog": "set plugin assembly version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.1/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "60fc10749ff28d3a6baaf6ec8aa8db8c",
+        "timestamp": "2026-03-08T21:00:18Z"
+      },
+      {
+        "version": "1.1.4.0",
+        "changelog": "fix publish",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.4.0/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "4bc2ff750820fc50b806875ef2799f9a",
+        "timestamp": "2026-03-08T20:42:34Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "add config validation to watch history janitor",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.1.0/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "1be500f426aab15111eb8253b792dae5",
+        "timestamp": "2026-03-01T07:04:46Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "add trailer previews and screenshots",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.1.0.0/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "375415d81f9d1a4e2dac4550d176742d",
+        "timestamp": "2026-02-12T03:55:09Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "add publish workflow",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lennykean/jellyfin-powertoys/releases/download/v1.0.0.0/JellyfinPowertoys.RemoteTrailers.zip",
+        "checksum": "937fcd6e95d1a575c612f1c4cdb12c20",
+        "timestamp": "2025-10-13T07:13:27Z"
       }
     ]
   },
@@ -6555,6 +8767,84 @@
     ]
   },
   {
+    "name": "JavaScript Injector [✓]",
+    "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
+    "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.10/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n - This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regular index.html modification",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/JavaScriptInjector.webp",
+    "versions": [
+      {
+        "version": "2.0.0.0",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Use [file-transformation-plugin](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation) to 'inject' javascript without modifying index.html\n - This is to help with all the permission issues for docker installs.\n - Fallback if file-transformation-plugin is not installed to the regular index.html modification",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/2.0.0.0/javascript-injector-2.0.0.0.zip",
+        "checksum": "89c5e8c0d140e8fcb8826202b1b91de8",
+        "timestamp": "2025-08-19T13:27:21Z"
+      },
+      {
+        "version": "1.1.1.1",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Wrap the injected script block with clear HTML comments for safer and more reliable identification. \n- Update removal logic to use specific regex patterns for injection formats, ensuring idempotent upgrades and preventing accidental removal of unrelated scripts.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.1.1/javascript-injector-1.1.1.1.zip",
+        "checksum": "db8d7806b3e112ddaf40caa55fdb0f1d",
+        "timestamp": "2025-08-14T06:30:31Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Wrap the injected script block with clear HTML comments for safer and more reliable identification. \n- Update removal logic to use specific regex patterns for injection formats, ensuring idempotent upgrades and preventing accidental removal of unrelated scripts.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.1.0/javascript-injector-1.1.1.0.zip",
+        "checksum": "39620ac480c10a6a68a7a6fdf2c93990",
+        "timestamp": "2025-08-12T04:44:41Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\n- Script Visibility \n - Add an option to only load a script for an authenticated session.",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.1.0.0/javascript-injector-1.1.0.0.zip",
+        "checksum": "21817433c4aeb9d56774ff376d136240",
+        "timestamp": "2025-08-10T05:22:03Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "**Build for Jellyfin 10.9 only. Not for Jellyfin 12.**\n\nSupport multiple scripts and dynamic injection",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/n00bcodr/jellyfin-javascript-injector/releases/download/1.0.0.0/javascript-injector-1.0.0.0.zip",
+        "checksum": "eb340151e6d2c29690ced20740fba52e",
+        "timestamp": "2025-07-30T13:17:02Z"
+      }
+    ]
+  },
+  {
+    "guid": "f5c68360-ca47-4648-b47c-3da5f112aa8f",
+    "name": "Litefin [✓]",
+    "description": "Litefin plugin adds Seerr, optimizations, and backup and restore functionality to the Litefin Client.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/MoazSalem/litefin-plugin/release/manifest.json  \nGithub: https://github.com/MoazSalem/litefin-plugin",
+    "overview": "Synchronizes client settings, layout choices, and color themes.",
+    "owner": "MoazSalem",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Litefin.webp",
+    "versions": [
+      {
+        "version": "1.1.0.0",
+        "changelog": "Release 1.1.0.0",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/MoazSalem/litefin-plugin/releases/download/v1.1.0.0/Litefin.Plugin_1.1.0.0.zip",
+        "checksum": "d88d034cf47727d67bf5806d1baa6d9b",
+        "timestamp": "2026-07-19T13:43:47Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Release 1.0.0.0",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/MoazSalem/litefin-plugin/releases/download/v1.0.0.0/Litefin.Plugin_1.0.0.0.zip",
+        "checksum": "1f250543e4573226c53ea1e68b91e62c",
+        "timestamp": "2026-07-07T14:04:42Z"
+      }
+    ]
+  },
+  {
     "guid": "f62d8560-6123-4567-89ab-cdef12345678",
     "name": "Posterizarr [✓]",
     "description": "Local asset metadata provider and real-time WebSocket sync engine. Instantly maps and updates posters, backgrounds, seasons, and title cards without library scans.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/fscorrupt/posterizarr/main/manifest.json  \nGithub: https://github.com/fscorrupt/posterizarr",
@@ -6613,6 +8903,25 @@
         "checksum": "1F85AFEA5E4F6EAB94B7FB9EB2F0D7CE"
       }
     ]
+  },
+  {
+    "guid": "f8d74b1c-3c97-4481-a3b3-6eb622d6ad58",
+    "name": "MusicHoarderz Cover & Metadata Provider [✓]",
+    "description": "Provides ultra-high resolution cover lookup across Apple Music, Deezer, Spotify, Qobuz, Tidal, Bandcamp and Beatport with configurable minimum dimensions, scoring and live search preview.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "overview": "Multi-platform cover art provider for music albums and artists via MusicHoarderz/COV.",
+    "owner": "mleem97",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.1",
+        "changelog": "- feat(musichoarderz): add multi-platform cover provider, live tester, artist support and icon (ecbb3c1)\n- chore(release): publish GracenoteProvider (1a447d9)\n- chore(release): publish SpotifyProvider (330ec0f)\n- feat(manifest): add imageUrl support for plugin catalog icon (4cc2ebe)\n- chore(release): publish HddDisplay (3ec1fdc)\n- chore(release): publish HddDisplay (9a94f94)\n- feat(musictoolkit): make Spotify music dashboard actually reachable (32a8372)\n- refactor: consolidate MusicToolkit into the central plugin library (aa9b854)\n- fix(release): switch manifest checksums to MD5 and repair published packages (f4f356e)\n- test(musichoarderz): add provider unit tests, fix PNG threshold (3f86f80)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/MusicHoarderzProvider-v1.0.0.1/MusicHoarderzProvider_1.0.0.1.zip",
+        "checksum": "4B43483585D3738FF641AD640A176BF6",
+        "timestamp": "2026-09-19T15:51:15Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/MusicHoarderzCover&MetadataProvider.webp"
   },
   {
     "category": "Metadata",
@@ -6694,6 +9003,113 @@
         "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.3.4.0.zip",
         "timestamp": "2025-02-13T11:11:12Z",
         "version": "1.3.4.0"
+      }
+    ]
+  },
+  {
+    "category": "Administration",
+    "guid": "fd76211d-17e0-4a72-a23f-c6eeb1e48b3a",
+    "name": "Telegram Notifier [✓✓✓]",
+    "owner": "RomainPierre7",
+    "overview": "Easily send notifications to your Telegram bot!",
+    "description": "Configure for each user where to send notifications, and what kind of notifications to send.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/main/manifest.json  \nGithub: https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier",
+    "imageUrl": "https://obelous.dev/plugins/images/TelegramNotifier.webp",
+    "versions": [
+      {
+        "checksum": "3eedfa1c0d7b748b203a161a627417b4",
+        "version": "10.9.10.2",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.10.2/TelegramNotifier.zip",
+        "timestamp": "2024-10-01T00:00:00Z",
+        "changelog": "### ⚙️ Fixes: ###\n- Wrong assembly version (thumbnail didn't show properly)"
+      },
+      {
+        "checksum": "c9a8e51dda3969fc65cc7f70c485be22",
+        "version": "10.9.10.1",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.10.1/TelegramNotifier.zip",
+        "timestamp": "2024-08-29T00:00:00Z",
+        "changelog": "### ⚙️ Fixes: ###\n- Item added notifier didn't work properly"
+      },
+      {
+        "checksum": "b7f2aca7c2ebd9fffc39613d17ad1393",
+        "version": "10.9.10.0",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.10.0/TelegramNotifier.zip",
+        "timestamp": "2024-08-26T00:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Item added granularity with songs and albums\n- Possibility to use thread for topic group"
+      },
+      {
+        "checksum": "0416753519adf786443b7a8b19a1c6ad",
+        "version": "10.9.4.0",
+        "targetAbi": "10.9.4.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.4.0/TelegramNotifier.zip",
+        "timestamp": "2024-06-05T00:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Item added granularity\n\n### 📮 New notifiers: ####\n- User locked out"
+      },
+      {
+        "checksum": "cc1aaa8fa25551ea257dfa7dfd24b7f8",
+        "version": "10.9.1.3",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.1.3/TelegramNotifier.zip",
+        "timestamp": "2024-05-16T00:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Silent notifications option\n- Do not notify user's own activities option"
+      },
+      {
+        "checksum": "06b29e90b4bd572596648564571a4d0e",
+        "version": "10.9.1.2",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.1.2/TelegramNotifier.zip",
+        "timestamp": "2024-05-14T19:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Primary image support"
+      },
+      {
+        "checksum": "8dd49e79edb95c346b6d66b9b110fb3c",
+        "version": "10.9.1.1",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.1.1/TelegramNotifier.zip",
+        "timestamp": "2024-05-14T17:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Series support\n\n### ⚙️ Fixes: ###\n- Item added notifier didn't work properly"
+      },
+      {
+        "checksum": "725245da653071f8d1ee2e8c580b8717",
+        "version": "10.9.1.0",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.9.1.0/TelegramNotifier.zip",
+        "timestamp": "2024-05-14T00:00:00Z",
+        "changelog": "### ♽ Dependancies: ###\n- Porting to Jellyfin 10.9.1 and .NET 8.0"
+      },
+      {
+        "checksum": "9e9d6d23184767a0b64e817194b3f4cd",
+        "version": "10.8.13.3",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.8.13.3/TelegramNotifier.zip",
+        "timestamp": "2024-05-09T00:00:00Z",
+        "changelog": "### ⚙️ Fixes: ###\n- Item added notifier notified for all items"
+      },
+      {
+        "checksum": "9c6f43aa067e0f110077400857dc3300",
+        "version": "10.8.13.2",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.8.13.2/TelegramNotifier.zip",
+        "timestamp": "2024-05-08T00:00:00Z",
+        "changelog": "### 📮 New notifiers: ####\n- Item added\n- Playback progress"
+      },
+      {
+        "checksum": "940694a06cd4fc40e8786c666e474d63",
+        "version": "10.8.13.1",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.8.13.1/TelegramNotifier.zip",
+        "timestamp": "2024-04-30T00:00:00Z",
+        "changelog": "### 📮 New notifiers: ####\n- Session start\n- User created\n- User deleted\n- User password changed\n- Plugin installation cancelled\n- Plugin installation failed\n- Plugin installed\n- Plugin installing\n- Plugin uninstalled\n- Plugin updated"
+      },
+      {
+        "checksum": "59fea410b23da6735eb61111f2df7c9e",
+        "version": "10.8.13.0",
+        "targetAbi": "10.8.13.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/10.8.13.0/TelegramNotifier.zip",
+        "timestamp": "2024-04-23T00:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Customize configurations (Bot Token, ChatId, notification type) for each user\n- Configuration tester\n\n#### 📮 New notifiers: ####\n- Playback start\n- Playback stop\n\n The rest is coming soon!"
       }
     ]
   }
