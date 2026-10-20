@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 122, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-19T22:40:19.748Z",
+    "overview": "Generated: 2026-10-19T23:40:19.380Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.8.9",
-        "timestamp": "2026-10-19T22:40:19.748Z"
+        "timestamp": "2026-10-19T23:40:19.380Z"
       }
     ]
   },
@@ -332,6 +332,8 @@
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
+    "image": "image.png",
+    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp",
     "versions": [
       {
         "version": "6.0.0.0",
@@ -373,8 +375,7 @@
         "checksum": "c3092a2b46487fa1e3ec16e47c6df60a",
         "timestamp": "2022-03-28T00:06:17Z"
       }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp"
+    ]
   },
   {
     "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-19T22:40:19.748Z",
+    "overview": "Generated: 2026-10-19T23:40:19.380Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.5",
-        "timestamp": "2026-10-19T22:40:19.748Z"
+        "timestamp": "2026-10-19T23:40:19.380Z"
       }
     ]
   },
@@ -381,7 +381,17 @@
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
+    "image": "image.png",
+    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp",
     "versions": [
+      {
+        "version": "10.0.0.0",
+        "changelog": "- Add the Simkl OAuth 2 device flow and two-way watched state sync (#73) @ekleop, @crobibero",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/simkl/simkl_10.0.0.0.zip",
+        "checksum": "15a208d7fdedaea94006cbd9464cfba1",
+        "timestamp": "2026-10-19T22:39:18Z"
+      },
       {
         "version": "9.0.0.0",
         "changelog": "- Unstable: Update to latest Jellyfin preview packages (#64) @crobibero, @jellyfin-bot\n- Fix: typo 'compouter' in login instructions (#65) @bretthysuik\n- feat: live-scrobbling support (#61) @samip5, @claude, @crobibero\n\n### New features and improvements ###\n- Add external url provider (#39) @crobibero",
@@ -406,8 +416,7 @@
         "checksum": "47ee4bf05e00e0f1f19171ede19d6e55",
         "timestamp": "2025-10-20T01:28:31Z"
       }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp"
+    ]
   },
   {
     "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
@@ -3812,6 +3821,14 @@
     "owner": "JPKribs",
     "category": "General",
     "versions": [
+      {
+        "version": "12.2.2.0",
+        "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.2.2.0/jellyfin-plugin-custompages-12.2.2.0.zip",
+        "checksum": "dcf56722d92d17fb2f41ad46229a47a0",
+        "timestamp": "2026-10-19T23:14:19Z"
+      },
       {
         "version": "12.2.1.1",
         "changelog": "\n## Security\n- Server side routes now pass back only safe response headers from their target, so a target can no longer set cookies, CORS, or framing rules on the Jellyfin address.\n- Protected pages now sign in only with this server's saved credentials, and never try tokens saved for other servers.\n- The serverFetch and pageStore helpers now send only this server's saved credentials, never a token saved for another server.\n- Protected pages can no longer read the viewer's saved tokens from the page.\n- Server side route responses that a browser would render as a page, such as HTML, XML or SVG, are now sandboxed, so they cannot run script on the Jellyfin address when opened directly.\n- A route password left untouched is no longer sent to a different host when the route's address changes.\n\n## Fixed\n- A server side route whose target is down or slow now answers 502 or 504 instead of failing with a server error.\n- Server side routes now cap request bodies at 4 MB and target responses at 16 MB.\n- Renaming a page or a route no longer silently erases the route's saved password.\n- When a page save is refused, the Pages tab now shows the reason instead of a generic error.\n- The serverFetch and pageStore helpers now work on servers configured with a base URL.\n- Stores are written as compact JSON and capped at 64 MB of records in total.\n- The store settings now warn that with Scope set to All records, anyone who can read and write may change any record.\n- Clearing a store now writes an activity log entry when the store notifies administrators.\n- A gated image whose name is the start of another image's name no longer corrupts the other image on the page.\n- The store retention task can now be cancelled.\n- The plugin summary now matches across the catalog and the dashboard.\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
@@ -7225,6 +7242,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.2.2.0",
+        "changelog": "\n## Fixed\n- Users created by an administrator now get all of the default group's restrictions, not just its membership and password rules.\n\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.2.2.0/jellyfin-plugin-usermanagement-12.2.2.0.zip",
+        "checksum": "4bf6e208e39378c590168bd016582b86",
+        "timestamp": "2026-10-19T23:14:29Z"
+      },
+      {
         "version": "12.2.1.1",
         "changelog": "\n## Security\n- Accounts created through an invite get only the invite's group, rather than also keeping settings and password rule enrollment from the default group\n- Invite signups and lookups are limited per network address (per /64 block for IPv6), counting failed attempts as well as successful ones; the server warns once when invites arrive through a reverse proxy that is not in Known proxies\n- If an invite signup fails partway, the half-created account is removed instead of being left on the server's default permissions, so the invitee can try again\n- A new invited account cannot be signed in to until its password has been set\n- Each invite now defaults to 10 signups per hour; servers whose saved plugin settings already include an invite rate limit keep it\n\n## Fixed\n- Invites into a group that has expired are refused with a clear message, and the Invites tab warns about them\n- Invite usage and PIN counters no longer overwrite a lockout reset or invite deletion made at the same time from the dashboard\n- Invite status is kept in memory instead of being read from disk on every invite page load\n- Administrators and deleted users are cleaned out of group membership on every save, including saves made right after the server starts\n- The plugin's category and description are now the same in the catalog and on the server\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
         "targetAbi": "12.0.0.0",
@@ -8612,6 +8637,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.2.4.0",
+        "changelog": "\n## Developer\n- Still built for Jellyfin 12.2 (target ABI 12.2.0.0, unchanged).\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).\n- Microsoft.Data.Sqlite.Core is now compiled against 10.0.11, the version Jellyfin 12.2 ships. It is not bundled, so nothing changes at runtime.\n- No user-facing changes in this release; the plugin works the same as 12.2.3.4.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.2.4.0/jellyfin-plugin-youtubeaudio-12.2.4.0.zip",
+        "checksum": "c2b84b3784dc1f03adef5c5f126e9ea3",
+        "timestamp": "2026-10-19T23:14:34Z"
+      },
+      {
         "version": "12.2.3.4",
         "changelog": "\n## Security\n- yt-dlp and Deno downloads are checked against the SHA-256 checksums their releases publish, and a file that does not match is deleted instead of run.\n- YouTube links containing spaces, quotes or other characters that could add extra arguments to yt-dlp are refused, and only the cleaned-up link is passed to yt-dlp.\n- Approved users can queue at most 200 videos from one playlist link by default; change the limit under Settings > Approved Users.\n\n## Fixed\n- Importing a different song with the same title as one already on the album, such as a second \"Interlude\" with its own track number, no longer overwrites it; it is saved as \"Title (2)\".\n- Downloads can be cancelled from the Download tab, which also lets Update yt-dlp run without waiting for a large playlist to finish.\n- Failed and cancelled downloads no longer leave partial files in the cache, and leftovers are cleaned up when the server starts.\n- Reset Queue now deletes the cached files of the items it removes, and both resets stop running downloads first.\n- Deno is now kept up to date along with yt-dlp, on the same schedule and with the Update yt-dlp button.\n- Repairing a downloaded file with ffmpeg can no longer hang.\n- On Alpine and other musl-based systems the plugin downloads the musl build of yt-dlp, which runs there.\n- A yt-dlp or Deno copy that cannot start no longer makes every download fail; the update check logs it and carries on.\n- A damaged song in an album folder no longer stops other songs from being imported into it.\n\n## Developer\n- The publish workflow passes the release notes to the shell through environment variables.\n- The test project uses SQLitePCLRaw 2.1.13, which fixes a known SQLite vulnerability.\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
         "targetAbi": "12.2.0.0",
@@ -9612,6 +9645,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.2.0",
+        "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v12.2.2.0/jellyfin-plugin-ddns-12.2.2.0.zip",
+        "checksum": "0cc2dc9af7553d7a6ef65e941de9dcd2",
+        "timestamp": "2026-10-19T23:14:20Z"
+      },
       {
         "version": "12.2.1.1",
         "changelog": "\n## Fixed\n- Timeouts, network errors, rate limits, and provider server errors no longer pause a record for the full backoff window after three failures; they earn a short pause that starts at 15 minutes and doubles up to 2 hours, and only a sustained run of them takes the full window. Rejected credentials and requests still use the full window.\n- A paused record is retried as soon as the public IP changes, so a pause never holds back a new address.\n- Editing a record's provider, hostname, zone, server, or credentials resets its status, so it no longer inherits the old target's pause and last pushed address.\n- When one address family times out, the other family's successful update is still recorded.\n- A malformed IP detection URL fails on its own instead of aborting the whole update run, and detection replies are read with a size cap.\n- The live DNS check resolves the record's real name (the hostname completed with its zone, or the DuckDNS domain) and is skipped for numeric record IDs and several DuckDNS labels instead of resolving them as addresses.\n- Run now keeps running when you navigate away, and status from a run that is cancelled part way is still saved, so updates that already landed are not forgotten.\n- A saved login or password can now be removed with a Clear saved value button; a blank field still keeps the saved value.\n- Provider replies are stripped of control characters and truncated before they reach the record status and the activity log.\n- The repository manifest description matches the plugin description.\n- Yandex PDD is marked as a legacy provider because Yandex has retired the PDD API. Existing records still load.\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
@@ -12966,6 +13007,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.26.27.0] - 2026-10-19\n\n### 🚀 Features\n\n- Syncplay source syncing (#120)\n- Look up IntroDB's end credits for movies (#310)\n- List movie and series search results by rank (#311)\n- List a person's titles outside the library on their page (#314)\n- Hide titles opened from search until someone plays them (#316)\n- Sync series trees when extending local series is switched (#318)\n\n### 🐛 Bug Fixes\n\n- Offer every version in a playback info that names none (#313)\n- List upcoming episodes with the unreleased filter on (#315)\n- Move playback on from a short clip without taking it for a dead stream (#317)\n\n### 📚 Documentation\n\n- Reword the settings page and the README in one voice (#319)\n\n### ⚡ Performance\n\n- Build an owned title's sources once per search (#312)\n",
+        "checksum": "bb1ce7a767266e25c69d971ac9a60436",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.27.0/gelato_0.26.27.0.zip",
+        "targetAbi": "12.1.0.0",
+        "timestamp": "2026-10-19T22:53:09Z",
+        "version": "0.26.27.0"
+      },
+      {
         "changelog": "## [0.26.26.0] - 2026-10-18\n\n### 🚀 Features\n\n- Skip segments from a stream's named chapters with RemuxDB on (#300)\n- Look segments up again and read chapters of rows probed before (#303)\n- List a stream that probed to a short clip after the others (#304)\n- Add a title to the library when its request is approved in Seerr (#306)\n- Show how to set up the seerr webhook on the settings page and in the readme (#307)\n\n### 🐛 Bug Fixes\n\n- Keep an episode edit made while its series refresh runs (#301)\n- Leave a local series that is being scanned to the next tree sync run (#302)\n- Keep a title deleted right after it was added from coming back (#308)\n- List a catalog's moved movies in its library at once (#309)\n\n### ⚡ Performance\n\n- Leave a probed short stream and a placeholder unprobed at play (#305)\n",
         "checksum": "02d8f65ae173ec6ad013cd11549822d6",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.26.0/gelato_0.26.26.0.zip",
@@ -13196,14 +13245,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-04-16T06:57:20Z",
         "version": "0.26.14.0"
-      },
-      {
-        "changelog": "## [0.26.13.9] - 2026-04-14\n\n### 🐛 Bug Fixes\n\n- Duplicates on import\n\n### ⚙️ Miscellaneous Tasks\n\n- Linting\n",
-        "checksum": "b15071bf67f07713f22680d0fcd9e965",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.13.9/gelato_0.26.13.9.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-04-14T14:48:43Z",
-        "version": "0.26.13.9"
       }
     ]
   },
@@ -19942,6 +19983,14 @@
     "category": "LiveTV",
     "versions": [
       {
+        "version": "12.2.2.0",
+        "changelog": "\n## Fixed\n- The Refresh Guide progress bar no longer jumps backwards; the earlier fix never took effect on Jellyfin 12\n\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.2.2.0/jellyfin-plugin-livechannels-12.2.2.0.zip",
+        "checksum": "a6e7668c4524ec98fa81c399db227a7d",
+        "timestamp": "2026-10-19T23:32:15Z"
+      },
+      {
         "version": "12.2.1.1",
         "changelog": "\n## Fixed\n- Subtitle burn-in now works for media whose folder or file name contains an apostrophe or other special characters\n- Tuning back in to a channel just as its idle stream was shutting down no longer lands on a dead stream\n- Channels with missing media files now start on the program the guide shows when tuning in, and tuning in no longer checks every file first\n- A hung ffmpeg or ffprobe while rendering a tune-in card or logo is now stopped after a time limit instead of blocking later renders\n- Tuning in no longer waits for the channel logo to be generated\n- A recording now captures the item that was scheduled when the timer was set, even if the channel's schedule changed since\n- An unexpected error in the background session cleanup is now logged instead of stopping the server\n- Saving plugin-wide settings such as bitrate no longer reshuffles time-of-day channel schedules\n- Channel logos written by several requests at once no longer go missing\n- The documentation now notes that the Popular channel's shared guide reflects every user's watch history and is not filtered per user\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
         "targetAbi": "12.0.0.0",
@@ -22144,6 +22193,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.2.2.0",
+        "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.2.2.0/jellyfin-plugin-artworkgenerator-12.2.2.0.zip",
+        "checksum": "105cbc5ad3391f2035c5a460eb54fe4d",
+        "timestamp": "2026-10-19T23:14:28Z"
+      },
       {
         "version": "12.2.1.1",
         "changelog": "\n## Fixed\n- A logo design file that cannot be read is no longer replaced with a single default design. The default is used until the file is fixed, and a copy of the damaged file is kept beside it as logos.json.bak\n- Cleanup Backdrops only removes the extra backdrops the plugin generated. Fanart beside your media, backdrops from other providers, and files another item still uses are never deleted. Backdrops generated by earlier versions cannot be told apart and are left alone\n- A configuration saved with missing sections is filled in and checked before it is written, instead of being saved and then failing on every start\n- A metadata refresh renders one image of each type, and as many backdrops as the library keeps, instead of a full set of choices for every type\n- Edit Images offers the full number of choices for every image type, including types the item does not have yet\n- An episode or film only checks its own video file when new frames are needed, and a season or series looks up its episodes once per image instead of several times\n- The server can fetch its own generated images when it runs under a base URL and its local address cannot be resolved\n- Routine per item messages during a library scan are logged at Debug instead of Information\n- Saving logo designs while the configuration is being saved no longer races\n- The plugin catalog description now matches what the plugin does\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
@@ -30121,6 +30178,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.8.0",
+        "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).\n- Microsoft.Data.Sqlite follows Jellyfin 12.2 at 10.0.11.\n- The integration harness runs on the jellyfin/jellyfin:12.2.20261005-225228 image.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.2.8.0/jellyfin-plugin-serversync-12.2.8.0.zip",
+        "checksum": "8c5830f59fb1b236f09d26d425586b32",
+        "timestamp": "2026-10-19T23:39:11Z"
+      },
       {
         "version": "12.2.7.3",
         "changelog": "\n## Fixed\n- A download whose source stops sending is abandoned as stalled after two minutes without data and retried, instead of holding Sync Content forever\n- Deleting a file from the Sync tab deletes only that file, its companions, its thumbnails and trickplay, never another version or file in the same folder\n- With Remove empty folders on, a deleted item that leaves its folder holding only title artwork and nfo files removes those and then the folder, for deletions from the Sync tab and automatic ones alike. Any other file or subfolder keeps the folder untouched\n- Disc folders and multi part items are refused on the Sync tab with a reason, instead of being reported deleted. An item whose file is already gone has only its stale library entry removed\n- The recycling bin takes an item's thumbnails and trickplay with it and clears them out with the rest when they expire, never touching folders it did not put there\n- Image copies in Metadata, People and User sync give up after two minutes without data instead of waiting forever\n- A server that connects and has nothing to download forgets its earlier connection failures\n- The download circuit breaker counts failed downloads across runs and only resets after a download succeeds\n- The unused LastConnectionCheck setting is gone. Saved settings that still hold it load as before\n- The plugin catalog description matches the plugin\n- The multi server plan in the docs is marked historical and uses the current mode names\n- Updated Jellyfin.Sdk to the stable 2026.10.12 release\n\n## Security\n- Changing a server's address on the Servers tab drops its stored API key or sign in, so it is never sent to the new address. The page clears the key field and says to enter the key or sign in again\n- The publish workflow reads the release notes through gh and checks the downloaded checksum, so a release body can never run as a shell command\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 311, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-19T22:40:19.748Z",
+    "overview": "Generated: 2026-10-19T23:40:19.380Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.5",
-        "timestamp": "2026-10-19T22:40:19.748Z"
+        "timestamp": "2026-10-19T23:40:19.380Z"
       }
     ]
   },
@@ -338,6 +338,8 @@
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
+    "image": "image.png",
+    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp",
     "versions": [
       {
         "version": "8.0.0.0",
@@ -355,8 +357,7 @@
         "checksum": "47ee4bf05e00e0f1f19171ede19d6e55",
         "timestamp": "2025-10-20T01:28:31Z"
       }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/Simkl.webp"
+    ]
   },
   {
     "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
@@ -12841,14 +12842,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-04-16T06:57:20Z",
         "version": "0.26.14.0"
-      },
-      {
-        "changelog": "## [0.26.13.9] - 2026-04-14\n\n### 🐛 Bug Fixes\n\n- Duplicates on import\n\n### ⚙️ Miscellaneous Tasks\n\n- Linting\n",
-        "checksum": "b15071bf67f07713f22680d0fcd9e965",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.13.9/gelato_0.26.13.9.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-04-14T14:48:43Z",
-        "version": "0.26.13.9"
       }
     ]
   },
