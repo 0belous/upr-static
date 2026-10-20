@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 311, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-20T21:40:20.377Z",
+    "overview": "Generated: 2026-10-20T22:40:20.207Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-10-20T21:40:20.377Z"
+        "timestamp": "2026-10-20T22:40:20.207Z"
       }
     ]
   },
@@ -8120,7 +8120,7 @@
     "imageUrl": "https://obelous.dev/plugins/images/Titlovi.com.webp",
     "name": "Titlovi.com [✓✓]",
     "overview": "get access to subtitles from titlovi.com directly in jellyfin.",
-    "owner": "maatko",
+    "owner": "mihvel",
     "versions": [
       {
         "changelog": "+ Fix: proper exception is thrown now if subtitle is not found, which in turn fixes jellyfin attemping to close a stream that is null in an empty subtitle response",

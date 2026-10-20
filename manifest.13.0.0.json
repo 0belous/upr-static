@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
-    "description": "Aggregated: 173, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-20T21:40:20.377Z",
+    "description": "Aggregated: 174, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
+    "overview": "Generated: 2026-10-20T22:40:20.207Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-10-20T21:40:20.377Z"
+        "timestamp": "2026-10-20T22:40:20.207Z"
       }
     ]
   },
@@ -2293,6 +2293,25 @@
         "sourceUrl": "https://github.com/pmssoftware/jellyfin-plugin-chat/releases/download/v1.2.0.6/chat_12.0_1.2.0.6.zip",
         "checksum": "3CEA38B7F64E4B71D03EF3D2C466BB4F",
         "timestamp": "2026-09-19T15:11:13Z"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "description": "This plugin allows Jellyfin users to seamlessly access and download subtitles from Titlovi.com directly within the media server, instead of manually searching for subtitle files. You can browse and fetch them through Jellyfin’s interface, ensuring your movies and TV shows are always synced with high-quality, community-provided subtitles in multiple languages.  \n  \nUniversal Repo \nSource: https://titlovi.github.io/titlovi-jellyfin/repository.json  \nGithub: https://github.com/Titlovi/titlovi-jellyfin",
+    "guid": "6e25df50-638e-4109-a50b-03c14fc93fdd",
+    "imageUrl": "https://obelous.dev/plugins/images/Titlovi.com.webp",
+    "name": "Titlovi.com [✓]",
+    "overview": "get access to subtitles from titlovi.com directly in jellyfin.",
+    "owner": "mihvel",
+    "versions": [
+      {
+        "changelog": "Titlovi.com Unified 2.0 for Jellyfin 12 / .NET 10. Preserves the existing plugin identity and imports original plugin account credentials where needed; improved subtitle searching, release-aware ranking and archive handling.",
+        "checksum": "46d2639fc03a8db3b2e49ee07cb8fd1e",
+        "sourceUrl": "https://github.com/Titlovi/titlovi-jellyfin/releases/download/v2.0.0/titlovi-com_2.0.0.0.zip",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-10-20T21:40:51Z",
+        "version": "2.0.0.0"
       }
     ]
   },
