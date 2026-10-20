@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 299, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-20T05:40:46.573Z",
+    "overview": "Generated: 2026-10-20T06:40:23.680Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-10-20T05:40:46.573Z"
+        "timestamp": "2026-10-20T06:40:23.680Z"
       }
     ]
   },
@@ -4363,6 +4363,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.13.0",
+        "changelog": "This update brings together 2.0.12.0 and 2.0.13.0 from the beta channel.\n\nIf you use Dispatcharr Mode: the first sync after updating re-reads every series once, so it takes longer than usual. This corrects series episodes that failed to play with a 404 from Dispatcharr, and in some setups a series that showed another series' episodes. Files keep their names, so watched status is kept.\n\nIf you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider username and password, which were in the stream address logged each time a channel was opened and in provider errors and retries. Consider asking your provider for a new password. The log no longer contains them.\n\nFixed: with Enable Native Tuner on, Live TV did not show up until you added an \"Xtream Library\" tuner by hand under Dashboard > Live TV > Tuner Devices. The plugin now adds that entry itself, as \"Xtream Library (added by the plugin)\", when Enable Live TV and Enable Native Tuner are both on, and removes it when you turn either off. A tuner you added by hand is kept and no second one is added.\n\nFixed: with Live TV through an M3U tuner and Epg.xml as the guide, channels whose name starts with a number, such as \"24 Kitchen\" or \"3sat\", got no guide. This shows after the next guide refresh.\n\nFixed: when the provider could not deliver a series during a sync, orphan cleanup deleted that series' files. They are now kept until the provider answers again.\n\nFixed: errors from LiveTv.m3u, Catchup.m3u and Epg.xml (for example \"Live TV is not enabled\") arrived as an empty \"406 Not Acceptable\". They now come with their real status and message.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v2.0.13.0/jellyfin-xtream-library_2.0.13.0.zip",
+        "checksum": "e0c604db195e888fff6331632b9ef42c",
+        "timestamp": "2026-10-13T22:16:10Z"
+      },
       {
         "version": "2.0.11.0",
         "changelog": "This update brings together 2.0.10.0 and 2.0.11.0 from the beta channel.\n\nIf you use the Live TV allow-list behind a reverse proxy: add the proxy to Known Proxies in Jellyfin's networking settings. Without that, every request through the proxy counts as coming from the proxy, and if its address is on your list, everyone gets in. The help text now says so.\n\nFixed: with Live TV set up on two or more providers, the guide never used your providers' XMLTV files. They were combined into one file that could not be read past the first provider, so the guide always fell back to the simpler per-channel listings and lost categories, ratings and the other details XMLTV carries. Each provider's file is now read on its own. If one provider's file is missing or broken, only that provider's channels fall back, and the others keep their full guide (found and fixed by dillardblom).\n\nFixed: when two providers used the same guide id for different channels, one of them got no guide, or showed the other provider's programmes. Guide ids are now matched per provider (reported by dillardblom).\n\nFixed: when your provider's XMLTV guide came through cut off part way, building the guide never finished. Each request for the EPG URL kept one CPU core busy until Jellyfin gave up, and the guide stayed empty. A broken file now falls back to fetching the guide per channel, as it already did when the file was missing, and no programme is listed twice (by dillardblom).\n\nFixed: with Dispatcharr mode on, every sync worker logged in to Dispatcharr at the same time when a sync started. Dispatcharr's login limit refused most of them, and those workers fell back to the Xtream API for the first minutes. There is now one login shared by all of them, and it waits its turn like every other request (reported by dillardblom).",
