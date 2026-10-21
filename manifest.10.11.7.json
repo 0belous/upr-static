@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-21T20:40:21.943Z",
+    "overview": "Generated: 2026-10-21T21:40:21.455Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.7",
-        "timestamp": "2026-10-21T20:40:21.943Z"
+        "timestamp": "2026-10-21T21:40:21.455Z"
       }
     ]
   },
@@ -9753,7 +9753,7 @@
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
     "name": "Dynamic DNS [✓✓]",
     "overview": "Keep your DNS records pointed at your server's current public IP.",
-    "description": "Keeps one or more DNS records pointed at your Jellyfin server's current public IP. Runs entirely in-process as a scheduled task and updates your DNS provider over outbound HTTP/S. Great for anyone who wants to run their entire stack entirely through Jellyfin without external programs or dependencies.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "description": "Keeps one or more DNS records pointed at your Jellyfin server's current public IP. Runs entirely in-process as a scheduled task and updates your DNS provider over outbound HTTP/S. Great for anyone who wants to run their entire stack entirely through Jellyfin without external programs or dependencies.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-remoteaccess",
     "imageUrl": "https://obelous.dev/plugins/images/DynamicDNS.webp",
     "owner": "JPKribs",
     "category": "Administration",
@@ -9762,7 +9762,7 @@
         "version": "12.2.2.0",
         "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v12.2.2.0/jellyfin-plugin-ddns-12.2.2.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.2.0/jellyfin-plugin-ddns-12.2.2.0.zip",
         "checksum": "0cc2dc9af7553d7a6ef65e941de9dcd2",
         "timestamp": "2026-10-19T23:14:20Z"
       },
@@ -9770,7 +9770,7 @@
         "version": "12.2.1.1",
         "changelog": "\n## Fixed\n- Timeouts, network errors, rate limits, and provider server errors no longer pause a record for the full backoff window after three failures; they earn a short pause that starts at 15 minutes and doubles up to 2 hours, and only a sustained run of them takes the full window. Rejected credentials and requests still use the full window.\n- A paused record is retried as soon as the public IP changes, so a pause never holds back a new address.\n- Editing a record's provider, hostname, zone, server, or credentials resets its status, so it no longer inherits the old target's pause and last pushed address.\n- When one address family times out, the other family's successful update is still recorded.\n- A malformed IP detection URL fails on its own instead of aborting the whole update run, and detection replies are read with a size cap.\n- The live DNS check resolves the record's real name (the hostname completed with its zone, or the DuckDNS domain) and is skipped for numeric record IDs and several DuckDNS labels instead of resolving them as addresses.\n- Run now keeps running when you navigate away, and status from a run that is cancelled part way is still saved, so updates that already landed are not forgotten.\n- A saved login or password can now be removed with a Clear saved value button; a blank field still keeps the saved value.\n- Provider replies are stripped of control characters and truncated before they reach the record status and the activity log.\n- The repository manifest description matches the plugin description.\n- Yandex PDD is marked as a legacy provider because Yandex has retired the PDD API. Existing records still load.\n\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.19.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v12.2.1.1/jellyfin-plugin-ddns-12.2.1.1.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.1.1/jellyfin-plugin-ddns-12.2.1.1.zip",
         "checksum": "ce0f5c425c377e7f4c58ac78a41b0fd9",
         "timestamp": "2026-10-19T20:15:19Z"
       },
@@ -9778,7 +9778,7 @@
         "version": "12.2.1.0",
         "changelog": "\n## Developer\n- Updated JPKribs.Jellyfin.Base to 2026.10.16.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v12.2.1.0/jellyfin-plugin-ddns-12.2.1.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.1.0/jellyfin-plugin-ddns-12.2.1.0.zip",
         "checksum": "d46bf347d38488b37c99928f1d637479",
         "timestamp": "2026-10-16T21:36:50Z"
       },
@@ -9786,7 +9786,7 @@
         "version": "12.0.0.0",
         "changelog": "## Developer\r\n- Bump base to 2026.07.31\r\n- Rebuilt for Jellyfin 12.0 on .NET 10, with the target ABI raised to 12.0.0.0\r\n- The dashboard menu entry now shows a dns icon instead of the generic folder\r\n- CI builds, tests, and CodeQL now run on .NET 10, and label sync has the token scope it needs",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v12.0.0.0/jellyfin-plugin-ddns-12.0.0.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.0.0.0/jellyfin-plugin-ddns-12.0.0.0.zip",
         "checksum": "45167b7cd152260966c54be85ec8d341",
         "timestamp": "2026-09-08T02:43:50Z"
       },
@@ -9794,7 +9794,7 @@
         "version": "10.11.3.4",
         "changelog": "## Developer\r\n- Bump base to 2026.07.31",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.3.4/jellyfin-plugin-ddns-10.11.3.4.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.3.4/jellyfin-plugin-ddns-10.11.3.4.zip",
         "checksum": "ba5264fa2cd8ef60581f3bc5b62e0fb7",
         "timestamp": "2026-07-31T23:44:14Z"
       },
@@ -9802,7 +9802,7 @@
         "version": "10.11.3.3",
         "changelog": "## Fixed\r\n- The plain-http warning no longer logs the request URL's authority, which carried the update secret into the server log for providers whose credential lives in the URL's userinfo (ClouDNS DynURL, Directnic gateway URL). The warning now names the record's hostname instead\r\n- A Data Protection key store that fails for an unexpected reason surfaces instead of being silently downgraded to plaintext credential storage; the expected failures (bad path, no permission, no service) still fall back as before\r\n\r\n## Developer\r\n- Address the outstanding CodeQL findings across the plugin and test projects (LINQ filtering and projection, ternary assignment, dictionary lookup, response disposal in the HTTP test stub)",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.3.3/jellyfin-plugin-ddns-10.11.3.3.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.3.3/jellyfin-plugin-ddns-10.11.3.3.zip",
         "checksum": "254643457642c89308a3889493743883",
         "timestamp": "2026-07-31T22:59:34Z"
       },
@@ -9810,7 +9810,7 @@
         "version": "10.11.3.2",
         "changelog": "## Fixed\r\n- Resolve the TTL \"1 = automatic\" sentinel to a per-provider default instead of sending a literal one-second TTL (Gandi, GoDaddy, Spaceship, Hetzner, DNSExit)\r\n- Yandex matches records by type as well as name, so an IPv4 update can no longer overwrite an AAAA or TXT record, and A/AAAA now update independently\r\n- Spaceship writes the new record before removing stale ones, so a failed update leaves the old address serving instead of deleting the record\r\n- Hetzner treats an accepted, still-applying action as success instead of timing out and counting a false failure toward backoff\r\n- DNS Made Easy treats \"no update required\" as success instead of walking a healthy record into backoff\r\n- DDNS.fm validates the response body instead of treating any HTTP 200 as success\r\n- NS1 record creation sends the required zone, domain, and type fields, so first-time setup works\r\n- Apex hostnames infer the correct domain when no zone is set (Porkbun, Dynadot, Spaceship, Dinahosting), and Dinahosting gained an optional Zone field\r\n- OVH DynHost, DynDNS v1, DSLReports, and NearlyFreeSpeech.NET declare IPv4-only, so an IPv6 address is no longer recorded as pushed and endlessly re-pushed\r\n- A record with one working address family is no longer paused by backoff when only the other family fails\r\n\r\n## Developer\r\n- Harden the publish workflow (release body via env, tag-derived version, fail-fast asset downloads, required tag on manual dispatch)\r\n- Slash-command dispatch uses the JF_BOT_TOKEN secret instead of a placeholder\r\n- CI packages with build.sh and verifies the zip contents, and build.sh parses build.yaml colon- and space-safely\r\n- Response-parsing tests for every provider plus orchestrator and API tests",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.3.2/jellyfin-plugin-ddns-10.11.3.2.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.3.2/jellyfin-plugin-ddns-10.11.3.2.zip",
         "checksum": "de1c039d48dfab39b876e47a16158bbe",
         "timestamp": "2026-07-31T22:40:18Z"
       },
@@ -9818,7 +9818,7 @@
         "version": "10.11.3.1",
         "changelog": "## Developer\r\n- Bump Base to 2026.7.12\r\n- Use ActivityLogger from Base 2026.7.12\r\n- Use BackoffPolicy from Base 2026.7.12",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.3.1/jellyfin-plugin-ddns-10.11.3.1.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.3.1/jellyfin-plugin-ddns-10.11.3.1.zip",
         "checksum": "052a540f5834a7b7097c6977a0d16599",
         "timestamp": "2026-07-11T23:30:21Z"
       },
@@ -9826,7 +9826,7 @@
         "version": "10.11.3.0",
         "changelog": "## Feature\r\n- Output logging to Activity Logs for better visibility",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.3.0/jellyfin-plugin-ddns-10.11.3.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.3.0/jellyfin-plugin-ddns-10.11.3.0.zip",
         "checksum": "5da4088d6d0cf299a0dea38d32bcdb14",
         "timestamp": "2026-06-11T04:19:38Z"
       },
@@ -9834,7 +9834,7 @@
         "version": "10.11.2.2",
         "changelog": "## Security\r\n- Encrypt credentials saved through the generic plugin configuration endpoint instead of waiting for the next run\r\n- Warn in the log when a record updates over plain http\r\n- Show a dashboard warning when credential encryption is unavailable and secrets are stored in plaintext\r\n\r\n## Developer\r\n- Share one SecretProtector between the dashboard and generic save paths\r\n- Snapshot the configuration per update run instead of mutating live records\r\n\r\n## Fixes\r\n- Prune record status against fresh record ids so a record added mid-run is not dropped",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.2.2/jellyfin-plugin-ddns-10.11.2.2.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.2.2/jellyfin-plugin-ddns-10.11.2.2.zip",
         "checksum": "f27539bcc4c572f0829b8151d5816028",
         "timestamp": "2026-06-10T16:17:20Z"
       },
@@ -9842,7 +9842,7 @@
         "version": "10.11.2.0",
         "changelog": "## Developer\r\n- Bump base to 2026.6.23\r\n- Fix encryption of tokens to ensure they will not break between versions\r\n- Migrate everything so it lives in the provider for ease of maintenance\r\n- Reorganize files\r\n\r\n## Documentation\r\n- Creates Provider documentation per ddclient\r\n\r\n## Fixes\r\n- Check the DNS for current IP instead of always resending\r\n- If the current DNS is internal, use the previous IP sent (previous behavior)",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.2.0/jellyfin-plugin-ddns-10.11.2.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.2.0/jellyfin-plugin-ddns-10.11.2.0.zip",
         "checksum": "c6878c10b3c351ad0d131eb9c26f061b",
         "timestamp": "2026-06-08T22:41:55Z"
       },
@@ -9850,7 +9850,7 @@
         "version": "10.11.1.2",
         "changelog": "## Developer\r\n- Bump base to 2026.6.19\r\n- Fix encryption of tokens to ensure they will not break between versions",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.1.2/jellyfin-plugin-ddns-10.11.1.2.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.1.2/jellyfin-plugin-ddns-10.11.1.2.zip",
         "checksum": "df25f5113b15c2d340ac8f520e962866",
         "timestamp": "2026-06-08T00:04:21Z"
       },
@@ -9858,7 +9858,7 @@
         "version": "10.11.1.1",
         "changelog": "## Fixes\r\n- Remove URL from logging",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.1.1/jellyfin-plugin-ddns-10.11.1.1.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.1.1/jellyfin-plugin-ddns-10.11.1.1.zip",
         "checksum": "71884fd08a8242f172958a6a56f1e000",
         "timestamp": "2026-06-07T06:14:09Z"
       },
@@ -9866,7 +9866,7 @@
         "version": "10.11.1.0",
         "changelog": "## Initial release\r\n\r\nThis plugin acts as a DDNS resolver using Jellyfin as its host. A lot of this work will look very similar to [ddclient](https://github.com/ddclient/ddclient) which was a huge help and inspiration for this plugin. This takes the work they've taken and wraps it into a Jellyfin plugin for server owners don't want to manage more than one application. ",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-ddns/releases/download/v10.11.1.0/jellyfin-plugin-ddns-10.11.1.0.zip",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v10.11.1.0/jellyfin-plugin-ddns-10.11.1.0.zip",
         "checksum": "bfe67db397163236df710c77f75ca3ca",
         "timestamp": "2026-06-07T04:51:15Z"
       }
