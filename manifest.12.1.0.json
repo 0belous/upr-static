@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 299, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-21T15:40:22.260Z",
+    "overview": "Generated: 2026-10-21T16:40:21.827Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-10-21T15:40:22.260Z"
+        "timestamp": "2026-10-21T16:40:21.827Z"
       }
     ]
   },
