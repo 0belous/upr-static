@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 294, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-21T21:40:21.455Z",
+    "overview": "Generated: 2026-10-21T22:40:21.562Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.12.0",
-        "timestamp": "2026-10-21T21:40:21.455Z"
+        "timestamp": "2026-10-21T22:40:21.562Z"
       }
     ]
   },
@@ -6073,6 +6073,30 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.3.2",
+        "changelog": "\n## Changed\n- The Request a New Certificate scheduled task is removed. Refresh Certificate already requests a new certificate whenever one is missing, no longer covers your addresses, or expires within 30 days. To force one now, use Request a New Certificate on the Proxy tab.\n- The Update Dynamic DNS scheduled task is now Update DDNS, and Update Location Database is now Refresh Locations. Their schedules carry over.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.2/jellyfin-plugin-remoteaccess-12.2.3.2.zip",
+        "checksum": "63991170d6c54737cb43561c86ef277c",
+        "timestamp": "2026-10-21T22:11:40Z"
+      },
+      {
+        "version": "12.2.3.1",
+        "changelog": "\n## Changed\n- Every field description on every tab is one short sentence, two at most, with units and defaults kept.\n- Each provider's note under the Provider list names the fields exactly as the form shows them.\n- Long confirmations and warnings, such as the one for every visitor looking local, are shorter.\n- The Advanced tab no longer shows the line about every setting starting on its default.\n\n## Fixed\n- The Minimum read rate description says what it limits, how slowly a visitor reads pages, not uploads.\n- The IP detection description no longer says the services are tried in order until one answers, since two must agree.\n\n## Developer\n- The documentation is rewritten, with a Beginner's Guide from buying a domain to remote access in one page, a Settings Reference listing every setting with its default, and a page per tab.\n- Provider pages list only the fields each provider shows, named as on screen.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.1/jellyfin-plugin-remoteaccess-12.2.3.1.zip",
+        "checksum": "6694c8734662fb31b282bf91e0d594e7",
+        "timestamp": "2026-10-21T22:03:34Z"
+      },
+      {
+        "version": "12.2.3.0",
+        "changelog": "\n## Added\n- Remote Access, a secure HTTPS proxy in front of Jellyfin on ports 80 and 443, with Let's Encrypt, your own certificate files, or a self-signed certificate from the plugin's own root that devices install once.\n- Trust the Proxy, which lets Jellyfin see each visitor's real address while keeping its own ports, and Undo, which puts its settings back. Only through the proxy, an opt-in Advanced setting, makes the proxy the only way in.\n- Protection for internet visitors, with bans for failed sign-ins on the address and its wider IPv6 networks, a block list, country rules, sign-in limits and connection caps.\n- Services, so other apps on your network such as a request manager can be reached through the proxy on their own address.\n- A Dashboard with a world map, bans and a history of who connected, signed in or was turned away. Locations come from DB-IP.\n- The Proxy tab warns when every visitor looks local, as behind rootless Docker or a tunnel, where bans and country rules cannot work.\n\n## Changed\n- The project and its repository are now Remote Access, at JPKribs/jellyfin-plugin-remoteaccess. Existing records and settings carry over.\n- Logging is quieter. A problem that repeats is logged once, with a line when it clears, and a failed DNS update is a warning when DNS still serves the right address.\n\n## Fixed\n- Blank records are no longer saved, a failed delete puts the record back, and unsaved edits survive switching records.\n- FreeDNS update links are only followed back to FreeDNS itself.\n\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- CodeQL runs in this repository and leaves compiler-generated code out of its results.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.0/jellyfin-plugin-remoteaccess-12.2.3.0.zip",
+        "checksum": "03ee231485f361ca3b5c9769be3b7749",
+        "timestamp": "2026-10-21T21:45:09Z"
+      },
       {
         "version": "12.2.2.0",
         "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
