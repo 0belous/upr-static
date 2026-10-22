@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 314, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-22T21:25:37.073Z",
+    "overview": "Generated: 2026-10-22T22:25:35.771Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.9",
-        "timestamp": "2026-10-22T21:25:37.073Z"
+        "timestamp": "2026-10-22T22:25:35.771Z"
       }
     ]
   },
@@ -12069,6 +12069,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.4.3",
+        "changelog": "## Fixed\r\n- A DNS provider that redirects to another server is no longer followed there, so API keys sent in headers only ever reach the server they were entered for.\r\n- The logs, the activity log and saved status mask many more kinds of credentials, such as keys, passwords and hashes in addresses, provider replies and errors, and never show the credentials a request was sent with.\r\n- A location database that will not open falls back to the one it replaced, and a damaged one no longer stays locked so it can be replaced.\r\n\r\n## Changed\r\n- The self-signed root can only vouch for your proxy's names, localhost and private addresses, and lasts three years. A root from an older version is replaced once, so install the new one on each device and remove the old one.\r\n- With Only through the proxy on, Jellyfin stays on this server alone when the proxy stops working, instead of opening up on its own. The server log says how to turn the proxy off by hand, and to close the router's ports first.\r\n- Credentials are never stored unencrypted. When the plugin cannot set up its encryption keys, saving a credential is refused with the steps to fix it.\r\n- Step 4 names the device that says it forwarded the ports, and warns when it is not this server's default gateway.\r\n- Advanced > Blocking warns under Country rule when the location database is not loaded, and says whether everyone or nobody can connect.\r\n\r\n## Developer\r\n- The Beginner's Guide compares Free and Recommended in a table, with one pair of tabs for the only step that differs.\r\n- The docs cover checking a router's forward and what to do if the proxy stops working with Only through the proxy on.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.4.3/jellyfin-plugin-remoteaccess-12.2.4.3.zip",
+        "checksum": "369fe5b1063f3220aef96f68a85604ef",
+        "timestamp": "2026-10-22T21:27:43Z"
+      },
       {
         "version": "12.2.4.2",
         "changelog": "\n## Changed\n- Configuration says less. Each step states where it stands in one short line, and descriptions no longer repeat it.\n- Links to Advanced read as Advanced > Blocking, Advanced > Addresses and so on, the same way across the plugin.\n- Step 6 no longer repeats the time of the outside check, which its card already shows.\n\n## Developer\n- The Beginner's Guide has Free and Recommended tabs. Picking one switches every tab on the page, so only your path shows.\n- The docs use the same Advanced > Blocking style as the plugin, with new screenshots.",
