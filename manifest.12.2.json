@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 299, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-21T22:40:21.562Z",
+    "overview": "Generated: 2026-10-21T23:40:21.468Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2",
-        "timestamp": "2026-10-21T22:40:21.562Z"
+        "timestamp": "2026-10-21T23:40:21.468Z"
       }
     ]
   },
@@ -6104,6 +6104,22 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.3.4",
+        "changelog": "\n## Changed\n- The Compression setting on the Advanced tab is removed. Jellyfin already compresses its own pages through the proxy, so the proxy compressing them again was wasted work. Web assets now serve about 7% faster through HTTPS. Compression for other apps is still set on each Service.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.4/jellyfin-plugin-remoteaccess-12.2.3.4.zip",
+        "checksum": "9071789cde429b0fff62c7de5f6f10ef",
+        "timestamp": "2026-10-21T23:02:40Z"
+      },
+      {
+        "version": "12.2.3.3",
+        "changelog": "\n## Fixed\n- When the Domains tab cannot load its settings, it now says so even when there are no records yet.\n- Correcting a server clock that had run ahead no longer forgets when the current Let's Encrypt certificate was issued.\n\n## Developer\n- A cleanup sweep removed unused code, merged duplicated helpers in the pages and the server code, and fixed stale comments.\n- The pages are embedded with one pattern instead of a list, and build.sh no longer checks a partial list of them.\n- The unused slash-command workflows are removed.\n- The docs add a Dashboard page under Features, and the Beginner's Guide starts by checking for CGNAT.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.3/jellyfin-plugin-remoteaccess-12.2.3.3.zip",
+        "checksum": "70240c992e2507cd0c83388953400d93",
+        "timestamp": "2026-10-21T22:51:33Z"
+      },
       {
         "version": "12.2.3.2",
         "changelog": "\n## Changed\n- The Request a New Certificate scheduled task is removed. Refresh Certificate already requests a new certificate whenever one is missing, no longer covers your addresses, or expires within 30 days. To force one now, use Request a New Certificate on the Proxy tab.\n- The Update Dynamic DNS scheduled task is now Update DDNS, and Update Location Database is now Refresh Locations. Their schedules carry over.",
