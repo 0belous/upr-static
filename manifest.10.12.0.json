@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 294, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-22T00:40:22.325Z",
+    "overview": "Generated: 2026-10-22T01:40:21.559Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.12.0",
-        "timestamp": "2026-10-22T00:40:22.325Z"
+        "timestamp": "2026-10-22T01:40:21.559Z"
       }
     ]
   },
@@ -6073,6 +6073,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.3.5",
+        "changelog": "\n## Fixed\n- INWX, ClouDNS and Directnic records can be saved again. They have no hostname field, and saving no longer asks for one.\n- Saving or deleting a record on the Domains tab changes only that record, so a cleared record is never deleted and other records' unsaved edits or newer changes are never overwritten.\n- With Only through the proxy on, if the proxy fails to start, Jellyfin gets its own addresses back and the setting is turned off, so the server stays reachable. A save or Restart Proxy can no longer leave the proxy stopped while Jellyfin listens only through it.\n- Trust the Proxy, Undo and saves no longer run over each other, so Jellyfin's original network settings are always kept for Undo.\n- A record deleted at the DNS provider is put back, and a GoDaddy record for the domain itself is written to the domain instead of a doubled name.\n- When one address family keeps failing, the record now backs off and only that family is retried, instead of logging an error every 15 minutes.\n- Let's Encrypt's DNS check no longer fails on networks that block DNS-over-HTTPS, and a certificate that cannot be loaded is not ordered again straight away.\n- Domains and Address show the server's reason when a save fails, and every tab warns before leaving with unsaved changes.\n- The warning when visitors look local now also catches setups where only some visitors are hidden, such as IPv6 through Docker.\n\n## Changed\n- One address block can no longer hold more than a small share of the proxy's connections or requests, and HTTP/2 streams per connection are capped, so a few addresses cannot crowd out everyone else.\n- Repeat bans on a whole IPv6 network last longer each time, and saved bans apply from the first connection after a restart.\n- Services no longer receive login headers sent by visitors, and a Service that points at Jellyfin itself is refused.\n- Provider notes are at most two sentences, and several provider messages are plainer.\n\n## Developer\n- The docs fix every finding from an audit against the code, and there are now two Beginner's Guides, a free one with Duck DNS and a recommended one with your own domain.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.3.5/jellyfin-plugin-remoteaccess-12.2.3.5.zip",
+        "checksum": "c79db3014e0e0c9aa6d6097fbd631b5b",
+        "timestamp": "2026-10-22T01:39:01Z"
+      },
       {
         "version": "12.2.3.4",
         "changelog": "\n## Changed\n- The Compression setting on the Advanced tab is removed. Jellyfin already compresses its own pages through the proxy, so the proxy compressing them again was wasted work. Web assets now serve about 7% faster through HTTPS. Compression for other apps is still set on each Service.",
@@ -17172,6 +17180,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Seasonals.webp",
     "versions": [
+      {
+        "version": "3.4.0.0",
+        "changelog": "- feat: Add configurable seasonal effect play duration timeout with automatic fade-out\n- feat: Add client-side play duration override\n- feat: Add Jellyfin v12 MUI AppBar gradient support to Pride theme\n- fix: Ensure immediate suppression of seasonal effects during video playback route navigation (additional fallback)\n- fix: Increase Film Noir overlay z-index to properly cover Jellyfin v12 UI layers",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/Jellyfin-Seasonals/releases/download/v3.4.0.0/Jellyfin.Plugin.Seasonals.zip",
+        "checksum": "631e41c973a11a0c24b17bb795a0c21e",
+        "timestamp": "2026-10-22T01:01:14Z"
+      },
       {
         "version": "3.3.0.0",
         "changelog": "fix/feat: Add Jellyfin v12 support for latest RC7\n- feat: Add options to layer underwater background and swimmers behind media cards\n- fix: Increase modal z-index and fix settings popup focus/click bubbling\n- chore: Standardize console logging with '🎉 Seasonals' prefix across all themes",
