@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-22T05:40:21.816Z",
+    "overview": "Generated: 2026-10-22T06:40:21.112Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.11",
-        "timestamp": "2026-10-22T05:40:21.816Z"
+        "timestamp": "2026-10-22T06:40:21.112Z"
       }
     ]
   },
@@ -9645,6 +9645,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.4.1",
+        "changelog": "\n## Added\n- The top of Configuration shows how many of the six steps are done, with a bar for each step and a link to the next one that needs attention.\n- Configuration names the countries that can connect, in green, or says in yellow that the server's country is not known yet. A link goes straight to the country rule.\n- The share card has Copy URL and Copy Image. Copy Image puts the QR code on the clipboard, or saves it as a file where the browser cannot copy images.\n\n## Changed\n- A server now keeps one DDNS record, and its hostname is the proxy's address. Step 2 asks only for the provider, the hostname and the credentials that provider needs. Saving with older extra records keeps only the one shown.\n- Configuration has one Save for the whole page, and the steps use smaller buttons with the same spacing throughout.\n- The finer settings moved to Advanced. Dynamic DNS holds the record's options and Remove Record. Addresses holds Other addresses and Automatic port forwarding. Security holds Request a New Certificate.\n- The share card shows a Public or Home only badge, with a note pointing to step 2 when the address only works at home.\n- On Advanced, the server's country in the country rule is shown in green, or in yellow while it is unknown.\n\n## Developer\n- The docs explain the defaults worth knowing, the single record and the new Advanced sections, with new screenshots.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.4.1/jellyfin-plugin-remoteaccess-12.2.4.1.zip",
+        "checksum": "957f9a157a22dbfc74af17ad3eecd16a",
+        "timestamp": "2026-10-22T06:16:24Z"
+      },
       {
         "version": "12.2.4.0",
         "changelog": "\n## Added\n- Automatic port forwarding. Remote Access asks your router to forward ports 80 and 443 through UPnP or NAT-PMP, keeps the forward renewed and removes it when Jellyfin stops. It never takes over a forward that belongs to another device.\n- CGNAT detection. The Router step tells you when your provider shares one internet address between customers, so forwarded ports cannot be reached.\n- A name check that shows whether your address points at this server's public IP.\n- Test from Outside checks that your address can be reached from other countries.\n- The Dashboard opens with a QR code and link to your server, with Copy and Share buttons.\n\n## Changed\n- Setup, Domains, Address and Proxy are now one Configuration tab with six numbered steps. Each step shows whether it is done and holds its own settings.\n- The IP detection and update settings from the Address tab are now under Advanced, Dynamic DNS.\n- Remote Access now proxies Jellyfin only. Services are removed, and other apps are best served by NGINX, Apache or SWAG.\n\n## Developer\n- The docs cover the new tabs, port forwarding, CGNAT and the outside test, with new screenshots.",
