@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo [✓✓✓]",
     "description": "Aggregated: 174, Sources: 259.  \n  \nUniversal Repo \nSource: internal",
-    "overview": "Generated: 2026-10-22T06:40:21.112Z",
+    "overview": "Generated: 2026-10-22T07:40:21.956Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://obelous.dev/plugins/images/!UniversalPluginRepo.webp",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-10-22T06:40:21.112Z"
+        "timestamp": "2026-10-22T07:40:21.956Z"
       }
     ]
   },
@@ -2768,6 +2768,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.4.2",
+        "changelog": "\n## Changed\n- Configuration says less. Each step states where it stands in one short line, and descriptions no longer repeat it.\n- Links to Advanced read as Advanced > Blocking, Advanced > Addresses and so on, the same way across the plugin.\n- Step 6 no longer repeats the time of the outside check, which its card already shows.\n\n## Developer\n- The Beginner's Guide has Free and Recommended tabs. Picking one switches every tab on the page, so only your path shows.\n- The docs use the same Advanced > Blocking style as the plugin, with new screenshots.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.4.2/jellyfin-plugin-remoteaccess-12.2.4.2.zip",
+        "checksum": "fae365e104f58be4f4c6709e656b8cc2",
+        "timestamp": "2026-10-22T07:05:56Z"
+      },
       {
         "version": "12.2.4.1",
         "changelog": "\n## Added\n- The top of Configuration shows how many of the six steps are done, with a bar for each step and a link to the next one that needs attention.\n- Configuration names the countries that can connect, in green, or says in yellow that the server's country is not known yet. A link goes straight to the country rule.\n- The share card has Copy URL and Copy Image. Copy Image puts the QR code on the clipboard, or saves it as a file where the browser cannot copy images.\n\n## Changed\n- A server now keeps one DDNS record, and its hostname is the proxy's address. Step 2 asks only for the provider, the hostname and the credentials that provider needs. Saving with older extra records keeps only the one shown.\n- Configuration has one Save for the whole page, and the steps use smaller buttons with the same spacing throughout.\n- The finer settings moved to Advanced. Dynamic DNS holds the record's options and Remove Record. Addresses holds Other addresses and Automatic port forwarding. Security holds Request a New Certificate.\n- The share card shows a Public or Home only badge, with a note pointing to step 2 when the address only works at home.\n- On Advanced, the server's country in the country rule is shown in green, or in yellow while it is unknown.\n\n## Developer\n- The docs explain the defaults worth knowing, the single record and the new Advanced sections, with new screenshots.",
