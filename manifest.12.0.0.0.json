@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 298, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-23T13:25:37.590Z",
+    "overview": "Generated: 2026-10-23T14:25:41.755Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.0.0.0",
-        "timestamp": "2026-10-23T13:25:37.590Z"
+        "timestamp": "2026-10-23T14:25:41.755Z"
       }
     ]
   },
@@ -1097,6 +1097,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyfinHelper.webp",
     "versions": [
+      {
+        "version": "3.0.1.3",
+        "changelog": "v3.0.1.3 - Updated to Jellyfin 12.3\n\n- The plugin is built, tested, and released against Jellyfin 12.3 and now targets ABI 12.3.0.0\n- All server references (Jellyfin.Controller, Jellyfin.Model, Jellyfin.Database.Implementations) moved to 12.3.0\n- The end-to-end suite runs inside a real Jellyfin 12.3 container, so every release is verified on the version it ships for\n- Verified by 94% backend unit test coverage, 97% UI test coverage, and 369 end-to-end Docker tests\n- Requires Jellyfin 12.3 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.1.3/JellyfinHelper_3.0.1.3.zip",
+        "checksum": "417fdd6fe213703bdcfd450bcd2c68d4",
+        "timestamp": "2026-10-23T13:56:16Z"
+      },
       {
         "version": "3.0.1.2",
         "changelog": "v3.0.1.2 - Discovery background work respects its master switch, Trakt travels with backup\n\n- Seerr discovery generation and the Trakt refresh no longer run while Discovery user access is off; stored choices resume automatically on re-enabling\n- Backup export/import round-trips the \"Enable Trakt discovery\" flag, so the choice survives a move to a fresh installation\n- The Trakt checkbox only appears with Discovery on and the official Trakt plugin detected, and auto-saves like the Discovery toggle\n- DryRun warms discovery caches without persisting, and leaves the shared trending pool untouched\n- Greyed-out settings are now truly inert (keyboard and screen readers), and unsaved-changes tracking no longer reports phantom edits\n- Tested by 6800 unit tests and 369 end-to-end tests\n- Requires Jellyfin 12.2 - if you are on Jellyfin 10.x, stay on v2.1.0.6",

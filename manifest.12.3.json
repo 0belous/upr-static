@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 298, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-23T13:25:37.590Z",
+    "overview": "Generated: 2026-10-23T14:25:41.755Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3",
-        "timestamp": "2026-10-23T13:25:37.590Z"
+        "timestamp": "2026-10-23T14:25:41.755Z"
       }
     ]
   },
@@ -1091,12 +1091,20 @@
   {
     "guid": "0c737645-5cbb-4bd8-80c7-d377b560aaa4",
     "name": "Jellyfin Helper",
-    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
+    "description": "Cleans up orphaned .trickplay folders, empty media folders, and orphaned subtitles. Repairs broken .strm files and symlinks. Scheduled Seerr cleanup of unavailable Overseerr/Jellyseerr media requests. Provides media library statistics with video/audio codec analysis, resolution/container/bitrate/language breakdown, Library Explorer search, dynamic range detection (HDR10, HDR10+, Dolby Vision, HLG, SDR), health checks (embedded subtitle detection), caching, ML-powered smart recommendations per user with ensemble scoring (heuristic, learned, neural), Seerr Discovery for personalized external content suggestions with one-click request submission, user activity insights with play count and completion tracking, library insights (largest directories & recent changes), historical trends, trash/recycle bin with detailed contents UI, multi-instance Arr stack integration (up to 3 Radarr + 3 Sonarr) with connection testing and collapsible UI, plugin-specific log viewer with download and filtering, unsaved settings protection, and a multi-language 8-tab dashboard (en, de, fr, es, pt, zh, tr, sv).  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JellyPlugins/jellyfin-helper/main/manifest.json  \nGithub: https://github.com/JellyPlugins/jellyfin-helper",
     "overview": "Automated cleanup (trickplay, empty folders, subtitles, link repair for .strm & symlinks), Seerr request cleanup, Seerr Discovery (personalized external content recommendations with one-click requests), media statistics with codec/health/dynamic-range analysis and Library Explorer search, ML-powered smart recommendations per user, user activity insights, library insights, trends, trash bin, plugin log viewer, multi-instance Arr integration, unsaved settings alert, and multi-language 8-tab dashboard.",
     "owner": "JellyPlugins",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyfinHelper.webp",
     "versions": [
+      {
+        "version": "3.0.1.3",
+        "changelog": "v3.0.1.3 - Updated to Jellyfin 12.3\n\n- The plugin is built, tested, and released against Jellyfin 12.3 and now targets ABI 12.3.0.0\n- All server references (Jellyfin.Controller, Jellyfin.Model, Jellyfin.Database.Implementations) moved to 12.3.0\n- The end-to-end suite runs inside a real Jellyfin 12.3 container, so every release is verified on the version it ships for\n- Verified by 94% backend unit test coverage, 97% UI test coverage, and 369 end-to-end Docker tests\n- Requires Jellyfin 12.3 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.0.1.3/JellyfinHelper_3.0.1.3.zip",
+        "checksum": "417fdd6fe213703bdcfd450bcd2c68d4",
+        "timestamp": "2026-10-23T13:56:16Z"
+      },
       {
         "version": "3.0.1.2",
         "changelog": "v3.0.1.2 - Discovery background work respects its master switch, Trakt travels with backup\n\n- Seerr discovery generation and the Trakt refresh no longer run while Discovery user access is off; stored choices resume automatically on re-enabling\n- Backup export/import round-trips the \"Enable Trakt discovery\" flag, so the choice survives a move to a fresh installation\n- The Trakt checkbox only appears with Discovery on and the official Trakt plugin detected, and auto-saves like the Discovery toggle\n- DryRun warms discovery caches without persisting, and leaves the shared trending pool untouched\n- Greyed-out settings are now truly inert (keyboard and screen readers), and unsaved-changes tracking no longer reports phantom edits\n- Tested by 6800 unit tests and 369 end-to-end tests\n- Requires Jellyfin 12.2 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
