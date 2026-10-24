@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 300, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-24T20:16:00.888Z",
+    "overview": "Generated: 2026-10-24T21:16:00.638Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1",
-        "timestamp": "2026-10-24T20:16:00.888Z"
+        "timestamp": "2026-10-24T21:16:00.638Z"
       }
     ]
   },
@@ -9559,6 +9559,14 @@
     "owner": "jyourstone",
     "imageUrl": "https://obelous.dev/plugins/images/SmartLists.webp",
     "versions": [
+      {
+        "version": "12.1.0.0",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/jyourstone/jellyfin-smartlists-plugin/releases/download/v12.1.0.0/Jellyfin.Plugin.SmartLists_v12.1.0.0_12.0.0.0.zip",
+        "checksum": "40DFA44EA3F4B1151980FD68E5E97DA3",
+        "changelog": "Features:\n- Bumpers per break: a break can now play up to 10 bumpers back to back. The new \"Take turns between bumper rule groups\" option gives each bumper rule group its own pool, so every break can follow a pattern such as ident, commercial, ident (#542).\n- Missing items (admin page): see which entries of a list's external lists are not in your library, with their position, title, type and IDs, and download them as CSV (#544).\n- New Is 3D rule field for videos. Jellyfin detects 3D from tags in the file name, such as [3D MVC] or .3D.hsbs (#538).\n- New Match alternate versions option: rules also check each alternate version of a movie or episode, such as a 3D or 1080p copy behind a 4K version. The video is added when any of its versions matches. The option appears below the rules when a rule checks something that can differ between versions, such as Is 3D, Resolution or File Name (#538).\n- Is Favorite has a new parent favorite option, to match items whose album, season, series or folder is a favorite - for example every track on the albums you have favorited (#535).\n- The SmartLists sidebar entry is now hidden from users who can't use the user page (while it's disabled, or when they're not in Allowed Users). Administrators always see it. Requires Plugin Pages 3.0.0.0 or later (#558).\n\nBug Fixes:\n- Security: smart playlists and user-owned smart collections could include items from libraries the user has no access to. Lists now only contain items from libraries the user can see. The same applies to bumpers: bumpers from a library the playlist's user can't access are left out.\n- When an external list can't be fetched (for example the provider is down or there's a network error), lists that use it are now left unchanged for that refresh instead of being emptied (#555).\n- External List Order could sort by positions from other playlists' external lists when several lists refreshed together, such as with Refresh All (#543).\n- Resolution rules could skip a movie whose alternate version has a higher resolution than its main version (#546).\n- Scheduled playlist refreshes now run through the same refresh queue as every other refresh, so they no longer overlap other refreshes (#539).\n- An all-users playlist with a rule tied to one user (for example Is Favorite for user B) now refreshes every user's copy when that user's data changes, not only that user's own copy.\n- Per-group Max Items and Rule Group Order no longer drop or misplace episodes added through a Collections rule's \"include episodes within series\" option.\n- During a refresh of several lists, a list with a Library Name rule and a list without one could share the same item pool, so one could show missing items or the other could miss them.\n- The list Actions menu now opens upward when it would otherwise be cut off at the bottom of the screen (#561).\n- The page shown to users without access to the user page no longer breaks the Jellyfin layout.\n\nImprovements:\n- Cover images now use the image library built into Jellyfin. Manual installs: delete SixLabors.ImageSharp.dll from the plugin folder; repository installs are not affected. Uploaded GIF, BMP and TIFF covers are no longer badged or cropped, and an animated WebP keeps only its first frame while the badge is on.\n- The refresh status API no longer returns batchCurrentIndex and batchTotalCount; they were always empty.\n\nFull changelog: https://jellyfin-smartlists-plugin.dinsten.se/changelog/stable/",
+        "timestamp": "2026-10-24"
+      },
       {
         "version": "12.0.3.0",
         "targetAbi": "12.0.0.0",
