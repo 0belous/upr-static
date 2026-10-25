@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 300, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-25T12:16:01.174Z",
+    "overview": "Generated: 2026-10-25T13:16:01.033Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0.0",
-        "timestamp": "2026-10-25T12:16:01.174Z"
+        "timestamp": "2026-10-25T13:16:01.033Z"
       }
     ]
   },
@@ -6421,90 +6421,18 @@
     "category": "Subtitles",
     "guid": "7d13aa46-8b4a-ce85-9648-2cf4f52b8222",
     "name": "ASS Subsetter",
-    "description": "全自动、零配置的外挂 ASS 字幕字体子集化流媒体优化插件  \n  \nUniversal Repo [✓] \nSource: https://gladtbam.github.io/jellyfin-plugin-ass-subsetter/manifest.json  \nGithub: https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter",
+    "description": "全自动、零配置的外挂 ASS 字幕字体子集化流媒体优化插件  \n  \nUniversal Repo [✓✓] \nSource: https://gladtbam.github.io/jellyfin-plugin-ass-subsetter/manifest.json  \nGithub: https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter",
     "overview": "字体子集化并嵌入 ASS 字幕文件",
     "owner": "Gladtbam",
     "imageUrl": "https://obelous.dev/plugins/images/ASSSubsetter.webp",
     "versions": [
       {
-        "version": "3.0.0.0",
-        "changelog": "feat: 引入字体库存分析、隔离恢复与文件名重命名管理",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v3.0.0.0/Jellyfin.Plugin.AssSubsetter_3.0.0.0.zip",
-        "checksum": "866d18d29dd97ed202dea981628b24c1",
-        "timestamp": "2026-10-11T10:02:05.20Z"
-      },
-      {
-        "version": "2.3.0.0",
-        "changelog": "feat: 实现计划任务与配置界面的极简多语言支持\n\nfeat: 添加实验性MKS字幕封装模式\n\nfix: 按媒体源和索引精确处理字幕流\n\nfix: 原子提交ASS和SUP缓存产物\n\nfix: 完善字幕缓存与后台任务生命周期",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v2.3.0.0/Jellyfin.Plugin.AssSubsetter_2.3.0.0.zip",
-        "checksum": "747929f7cfa3777d93c37f7e92fa9c42",
-        "timestamp": "2026-07-22T13:13:47.53Z"
-      },
-      {
-        "version": "2.2.1.0",
-        "changelog": "fix：修复样式名匹配时特殊字符处理不一致的问题",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v2.2.1.0/Jellyfin.Plugin.AssSubsetter_2.2.1.0.zip",
-        "checksum": "76e86308d70a7c6274ea4b04c0661e6d",
-        "timestamp": "2026-07-08T12:18:07Z"
-      },
-      {
-        "version": "2.2.0.0",
-        "changelog": "fix：排除 ASS 中特殊字符\n\nfeat: 重构字幕缓存服务并集成后台 SUP 转换支持\n\nrefactor: 重构插件配置依赖注入以支持热更新",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v2.2.0.0/Jellyfin.Plugin.AssSubsetter_2.2.0.0.zip",
-        "checksum": "9ec75e07fcb71def047d1c7b695a9efb",
-        "timestamp": "2026-07-03T14:30:36Z"
-      },
-      {
-        "version": "2.1.0.0",
-        "changelog": "fix: 增加字体名称重写，修复 HarfBuzz 子集化字幕在播放器中字体不匹配的问题\n\nfeat: 修改文件存储路径",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v2.1.0.0/Jellyfin.Plugin.AssSubsetter_2.1.0.0.zip",
-        "checksum": "16e027d533438fe83c24dc91d52e170d",
-        "timestamp": "2026-06-10T14:11:00Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "refactor: 重构核心架构，移除外部工具依赖，全面迁移至原生 HarfBuzzSharp C# 子集化\n\nfeat: 完善服务端 JIT 即时拦截、入库扫描自动构建与连播预加载生命周期管控\n\nfeat: 实现原生字体缓存引擎，支持 TTC 多字重解析与进阶 Name Table 元数据提取\n\nfeat: 增加 ASS 字体变体匹配功能，支持 Bold/Italic 精确兜底逻辑\n\nrefactor: 引入 Channel 队列重构 LibraryScanTracker 解决扫库并发任务爆炸及内存泄漏\n\nfix: 修复各类并发锁及 CodeQL 安全规范扫描警告",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v2.0.0.0-beta.1/Jellyfin.Plugin.AssSubsetter_2.0.0.0-beta.1.zip",
-        "checksum": "d97d9097717b605d42f16f93af3d422c",
-        "timestamp": "2026-06-08T14:38:00Z"
-      },
-      {
-        "version": "1.2.1.0",
-        "changelog": "fix: mkvtool 未正确处理自定义字体目录及静默卡死问题",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v1.2.1.0/Jellyfin.Plugin.AssSubsetter_1.2.1.0.zip",
-        "checksum": "77964a47d657977e17a844a5a31f6337",
-        "timestamp": "2026-05-31T11:44:24Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "fix: 当mkvtool执行失败时，同时记录并输出标准输出(stdout)和标准错误(stderr)以便排查问题\n\nfeat: 实现自动提前预取下一集所有ASS字幕的功能",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v1.2.0.0/Jellyfin.Plugin.AssSubsetter_1.2.0.0.zip",
-        "checksum": "635e45c2a0d6d156408a5f37a8c96914",
-        "timestamp": "2026-05-30T10:50:40Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "feat：改为后台异步按需下载 mkvtool 工具，移除内置二进制包\n\nfix：重定向数据目录至 Jellyfin 的 Data 管道，确保字幕缓存与核心工具在插件更新时不再被清空抹除\n\nfeat：引入 mkvtool 强制版本锁定 (Version Pinning)\n\nfeat：加入双重检查锁定 (Double-Check Locking) 机制。",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v1.1.0/Jellyfin.Plugin.AssSubsetter_1.1.0.zip",
-        "checksum": "5137fcc746c5dd5d046649e2d72b620f",
-        "timestamp": "2026-05-25T00:00:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v1.0.0/Jellyfin.Plugin.AssSubsetter_1.0.0.zip",
-        "checksum": "3425bd29875d217796a1662b00599734",
-        "timestamp": "2026-05-25T00:00:00Z"
+        "version": "4.0.0.0",
+        "changelog": "升级至 .NET 10 与 Jellyfin 12 API\n\n完善字幕鉴权与媒体可见性检查、按实际字体依赖失效缓存，以及有界 SUP 后台转换。\n\n修复 ASS 覆盖与动画标签、MKS 同族字体附件覆盖；合并字体维护任务并减少字体分析及缓存目录扫描开销。",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v4.0.0.0/Jellyfin.Plugin.AssSubsetter_4.0.0.0.zip",
+        "checksum": "2f6f5cd8809b378c2eaf21c15392ab61",
+        "timestamp": "2026-10-25T12:50:51Z"
       }
     ]
   },

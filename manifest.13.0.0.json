@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 181, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-25T12:16:01.174Z",
+    "description": "Aggregated: 182, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-25T13:16:01.033Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-10-25T12:16:01.174Z"
+        "timestamp": "2026-10-25T13:16:01.033Z"
       }
     ]
   },
@@ -2865,6 +2865,25 @@
         "sourceUrl": "https://github.com/thisispivi/JellyfinSleepGuard/releases/download/v0.2.0.0/Jellyfin.Plugin.SleepGuard_0.2.0.0.zip",
         "checksum": "2c8475cd70c25c0e8fc48c944adba6a0",
         "timestamp": "2026-09-30T12:15:26Z"
+      }
+    ]
+  },
+  {
+    "category": "Subtitles",
+    "guid": "7d13aa46-8b4a-ce85-9648-2cf4f52b8222",
+    "name": "ASS Subsetter",
+    "description": "全自动、零配置的外挂 ASS 字幕字体子集化流媒体优化插件  \n  \nUniversal Repo [✓] \nSource: https://gladtbam.github.io/jellyfin-plugin-ass-subsetter/manifest.json  \nGithub: https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter",
+    "overview": "字体子集化并嵌入 ASS 字幕文件",
+    "owner": "Gladtbam",
+    "imageUrl": "https://obelous.dev/plugins/images/ASSSubsetter.webp",
+    "versions": [
+      {
+        "version": "4.0.0.0",
+        "changelog": "升级至 .NET 10 与 Jellyfin 12 API\n\n完善字幕鉴权与媒体可见性检查、按实际字体依赖失效缓存，以及有界 SUP 后台转换。\n\n修复 ASS 覆盖与动画标签、MKS 同族字体附件覆盖；合并字体维护任务并减少字体分析及缓存目录扫描开销。",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/Gladtbam/jellyfin-plugin-ass-subsetter/releases/download/v4.0.0.0/Jellyfin.Plugin.AssSubsetter_4.0.0.0.zip",
+        "checksum": "2f6f5cd8809b378c2eaf21c15392ab61",
+        "timestamp": "2026-10-25T12:50:51Z"
       }
     ]
   },
