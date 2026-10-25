@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-24T23:16:00.409Z",
+    "overview": "Generated: 2026-10-25T00:16:00.547Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.2",
-        "timestamp": "2026-10-24T23:16:00.409Z"
+        "timestamp": "2026-10-25T00:16:00.547Z"
       }
     ]
   },
@@ -12551,6 +12551,14 @@
     "imageUrl": "https://obelous.dev/plugins/images/NeptuneTranscoder.webp",
     "versions": [
       {
+        "version": "1.3.4.0",
+        "changelog": "Release 1.3.4.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/need4swede/neptune-plugins/releases/download/v1.3.4/transcoder_1.3.4_jf-10.11.zip",
+        "checksum": "e59ac3cfd05e48eb75ae01443919ba5d",
+        "timestamp": "2026-10-24T23:49:32Z"
+      },
+      {
         "version": "1.3.3.0",
         "changelog": "Release 1.3.3.0.",
         "targetAbi": "10.11.0.0",
@@ -14386,6 +14394,14 @@
     "category": "need4swede",
     "imageUrl": "https://obelous.dev/plugins/images/NeptuneIndexers.webp",
     "versions": [
+      {
+        "version": "1.3.4.0",
+        "changelog": "Release 1.3.4.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/need4swede/neptune-plugins/releases/download/v1.3.4/indexers_1.3.4_jf-10.11.zip",
+        "checksum": "4417ae3f36bc424af059a6723a2ae12e",
+        "timestamp": "2026-10-24T23:49:32Z"
+      },
       {
         "version": "1.3.3.0",
         "changelog": "Release 1.3.3.0.",
@@ -22215,6 +22231,14 @@
     "category": "need4swede",
     "imageUrl": "https://obelous.dev/plugins/images/NeptuneStudio.webp",
     "versions": [
+      {
+        "version": "1.3.4.0",
+        "changelog": "Release 1.3.4.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/need4swede/neptune-plugins/releases/download/v1.3.4/studio_1.3.4_jf-10.11.zip",
+        "checksum": "07bc540d54f0aadaedcb6e26ce36f83d",
+        "timestamp": "2026-10-24T23:49:32Z"
+      },
       {
         "version": "1.3.3.0",
         "changelog": "Release 1.3.3.0.",
@@ -36410,6 +36434,14 @@
     "category": "need4swede",
     "imageUrl": "https://obelous.dev/plugins/images/NeptuneMDM.webp",
     "versions": [
+      {
+        "version": "1.3.4.0",
+        "changelog": "Release 1.3.4.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/need4swede/neptune-plugins/releases/download/v1.3.4/mdm_1.3.4_jf-10.11.zip",
+        "checksum": "a79d779725e67475d4844dbc7cfb2e4b",
+        "timestamp": "2026-10-24T23:49:32Z"
+      },
       {
         "version": "1.3.3.0",
         "changelog": "Release 1.3.3.0.",
