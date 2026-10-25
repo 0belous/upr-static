@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 310, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-25T02:16:00.771Z",
+    "overview": "Generated: 2026-10-25T03:16:00.921Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.3",
-        "timestamp": "2026-10-25T02:16:00.771Z"
+        "timestamp": "2026-10-25T03:16:00.921Z"
       }
     ]
   },
@@ -32050,6 +32050,14 @@
     "category": "Utilities",
     "imageUrl": "https://obelous.dev/plugins/images/StreamLimiter.webp",
     "versions": [
+      {
+        "version": "1.1.0.2",
+        "changelog": "- NEW: administrators are exempt from stream limits by default (\"Exempt administrators\", can be turned off)\n- NEW: \"Stream Limiter\" entry in the dashboard sidebar\n- NEW: live view of the counted streams on the settings page, with Stop / Stop + log out buttons: immediate, also cuts downloads in progress (recorded in the activity log)\n- NEW: webhook notifications when a stream is blocked (and optionally when an admin stops one): Discord, Apprise or any JSON endpoint, with a \"Send test\" button (issue #7)\n- NEW: placeholders in the blocked message: {{user}}, {{active}}, {{limit}}, {{devices}} (web popup and server message)\n- NEW: blocked streams are recorded in Dashboard > Activity with user, device, client and IP (one entry per user and device every 5 minutes; can be turned off) (issue #7)\n- Custom web message is now added to the web client as it is served instead of editing index.html on disk: works with read-only web folders, survives web updates, toggling it needs no restart, and plugin updates are picked up without stale cached scripts (also in Android webviews). The tag written on disk by older versions is removed automatically (and on uninstall)\n- Custom web message now shows above the buffering spinner of newer jellyfin-web versions, which is dismissed, and also detects blocks on fetch() requests\n- Fixed users locked out after a stop by clients that keep their session alive (AFinity progress reports, Swiftfin without a stopped report, jellyfin-android native player): a stopped device no longer counts for up to 10 minutes\n- Sessions that cannot receive the stop command are now stopped server side\n- Hard block now also identifies requests using legacy token headers (X-Emby-Token, X-MediaBrowser-Token, X-Emby-Authorization, Emby scheme), ignored by Jellyfin 12 by default\n- A deleted user's limit is removed from the configuration\n- Jellyfin 12 build: compatible with Jellyfin 12.0 to 12.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit/releases/download/v1.1.0.2/StreamLimit-v1.1.0.2.zip",
+        "timestamp": "2026-10-25T02:57:05Z",
+        "checksum": "EE858523392E98F7C635311A0D24F82C"
+      },
       {
         "version": "1.1.0.1",
         "changelog": "- Fixed plugin failing to load on Jellyfin 10.11.0-10.11.10 (\"incompatible version of one of the shared libraries\", issue #19): now built against Jellyfin 10.11.0 instead of the latest 10.11.x\n- Jellyfin 12 build now targets the final 12.0.0 packages instead of 12.0.0-rc2\n- Fixed missing plugin logo (and 404 on disable/uninstall) on Jellyfin 12: the Jellyfin 12 DLL reported version 1.1.0.0 instead of its package version; each build now carries its own version (10.11 = 1.1.0.x, Jellyfin 12 = 1.1.1.x)\n- Fixed a crashed client's ghost session getting the user's new, legitimate stream stopped (up to ~10 min lockout): the PlaybackStart limiter now uses the same fresh-check-in, per-device count as the HTTP gate\n- Transcode kill no longer falls back to killing every job of the device when the client sent no PlaySessionId\n- Custom web message now works on servers with a BaseUrl (the injected script used an absolute /StreamLimit path)",
