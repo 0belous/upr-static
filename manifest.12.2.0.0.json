@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 300, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-25T21:16:01.600Z",
+    "overview": "Generated: 2026-10-25T22:16:01.282Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0.0",
-        "timestamp": "2026-10-25T21:16:01.600Z"
+        "timestamp": "2026-10-25T22:16:01.282Z"
       }
     ]
   },
@@ -2623,20 +2623,20 @@
     "imageUrl": "https://obelous.dev/plugins/images/IMDbHeatmap&Chart.webp",
     "versions": [
       {
-        "version": "1.0.2.0",
+        "version": "1.0.3.0",
         "changelog": "Initial release of IMDb Heatmap & Chart plugin.\n",
         "targetAbi": "10.12.0.0",
-        "sourceUrl": "https://github.com/tholeb/jellyfin-imbd-heatmap-and-chart/releases/download/1.0.2.0/imdb-heatmap-chart_1.0.2.0.zip",
-        "checksum": "1ce48b5f4f227f32d1deefe3b2a8244a",
-        "timestamp": "2026-10-25T16:38:26Z"
+        "sourceUrl": "https://github.com/tholeb/jellyfin-imbd-heatmap-and-chart/releases/download/1.0.3.0/imdb-heatmap-chart_1.0.3.0.zip",
+        "checksum": "8c5ec03842eba8fb6e29c7dda6339289",
+        "timestamp": "2026-10-25T21:55:11Z"
       },
       {
-        "version": "1.0.2.0",
+        "version": "1.0.3.0",
         "changelog": "Initial release of IMDb Heatmap & Chart plugin.\n",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/tholeb/jellyfin-imbd-heatmap-and-chart/releases/download/1.0.2.0/imdb-heatmap-chart_1.0.2.0.zip",
-        "checksum": "1ce48b5f4f227f32d1deefe3b2a8244a",
-        "timestamp": "2026-10-25T16:38:26Z"
+        "sourceUrl": "https://github.com/tholeb/jellyfin-imbd-heatmap-and-chart/releases/download/1.0.3.0/imdb-heatmap-chart_1.0.3.0.zip",
+        "checksum": "8c5ec03842eba8fb6e29c7dda6339289",
+        "timestamp": "2026-10-25T21:55:11Z"
       },
       {
         "version": "1.0.1.0",
@@ -15734,6 +15734,24 @@
     "imageUrl": "https://obelous.dev/plugins/images/SeerrFin.webp",
     "repositoryUrl": "https://github.com/varunaditya-plus/SeerrFin",
     "versions": [
+      {
+        "version": "1.8.4.0",
+        "changelog": "Added carousel ordering and visibility controls for all discovery pages",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.8.4.0/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "293601D4A3E510C635BA1F51BC73819C",
+        "timestamp": "2026-10-25T21:48:12.0000000Z",
+        "dependencies": []
+      },
+      {
+        "version": "1.8.3.4",
+        "changelog": "Fixed invalid CSRF token errors when making Seerr requests",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.8.3.4/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "3B6BDAAE1084D224EED4B00CE071AE15",
+        "timestamp": "2026-10-25T21:19:36.0000000Z",
+        "dependencies": []
+      },
       {
         "version": "1.8.3.3",
         "changelog": "Updated button styling in modal, and added aria labels to modal buttons",
