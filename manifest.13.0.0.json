@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 182, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-26T12:16:02.113Z",
+    "description": "Aggregated: 183, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-26T13:16:02.308Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-10-26T12:16:02.113Z"
+        "timestamp": "2026-10-26T13:16:02.308Z"
       }
     ]
   },
@@ -3476,6 +3476,14 @@
     "category": "Anime",
     "imageUrl": "https://obelous.dev/plugins/images/AnimeMultiSource.webp",
     "versions": [
+      {
+        "version": "1.1.0.5",
+        "changelog": "https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource/releases/tag/v1.1.0.5",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource/releases/download/v1.1.0.5/AnimeMultiSource_v1.1.0.5.zip",
+        "checksum": "5D23F31A4091104458F9E571F7B60493",
+        "timestamp": "2026-10-26T13:01:52Z"
+      },
       {
         "version": "1.1.0.0",
         "changelog": "https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource/releases/tag/v1.1.0.0",
@@ -8102,6 +8110,25 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/Folio.webp"
+  },
+  {
+    "name": "Favorited Songs Playlist",
+    "guid": "faebdd17-c407-4d0e-9b27-0cda823d702a",
+    "description": "Automatically creates and updates a 'Favorited Songs' songs playlist  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/Saturn745/jellyfin-favorited-songs-playlist/refs/heads/master/manifest.json  \nGithub: https://github.com/Saturn745/jellyfin-favorited-songs-playlist",
+    "overview": "Automatically creates and updates a 'Favorited Songs' playlist in Jellyfin containing all your favorited music tracks. The playlist syncs whenever you favorite or unfavorite a song, making it easy to play your favorited tracks without manual management. ",
+    "owner": "Saturn745",
+    "category": "General",
+    "versions": [
+      {
+        "changelog": "- Add support for Jellyfin 12",
+        "targetAbi": "12.0.0.0",
+        "version": "1.0.0.3",
+        "sourceUrl": "https://github.com/Saturn745/jellyfin-favorited-songs-playlist/releases/download/1.0.0.3/Jellyfin.Plugin.FavoritedSongsPlaylist.zip",
+        "checksum": "59a233cf75613e5bfeb203fe460ee58d",
+        "timestamp": "2026-10-26T02:14:18"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/FavoritedSongsPlaylist.webp"
   },
   {
     "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
