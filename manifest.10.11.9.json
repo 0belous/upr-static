@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-26T01:16:01.660Z",
+    "overview": "Generated: 2026-10-26T02:16:05.368Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.9",
-        "timestamp": "2026-10-26T01:16:01.660Z"
+        "timestamp": "2026-10-26T02:16:05.368Z"
       }
     ]
   },
@@ -16859,6 +16859,14 @@
     "category": "Subtitles",
     "versions": [
       {
+        "version": "4.18.0.0",
+        "changelog": "See https://github.com/GeiserX/whisper-subs/releases",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/GeiserX/whisper-subs/releases/download/v4.18.0.0/WhisperSubs_4.18.0.0.zip",
+        "checksum": "3a0d564166a24a3e76d1f692c3d1ec3a",
+        "timestamp": "2026-10-26T01:36:17Z"
+      },
+      {
         "version": "4.17.0.0",
         "changelog": "See https://github.com/GeiserX/whisper-subs/releases",
         "targetAbi": "10.11.0.0",
@@ -16889,14 +16897,6 @@
         "sourceUrl": "https://github.com/GeiserX/whisper-subs/releases/download/v4.15.1.0/WhisperSubs_4.15.1.0.zip",
         "checksum": "b53354a365c08df57683dc55cb78a659",
         "timestamp": "2026-10-09T14:18:43Z"
-      },
-      {
-        "version": "4.15.0.0",
-        "changelog": "See https://github.com/GeiserX/whisper-subs/releases",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/GeiserX/whisper-subs/releases/download/v4.15.0.0/WhisperSubs_4.15.0.0.zip",
-        "checksum": "3d56b90ae4db4f79f8f457d27dfe709e",
-        "timestamp": "2026-10-09T13:35:30Z"
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/WhisperSubs.webp"
