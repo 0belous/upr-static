@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-26T21:16:02.848Z",
+    "overview": "Generated: 2026-10-26T22:16:02.434Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.9",
-        "timestamp": "2026-10-26T21:16:02.848Z"
+        "timestamp": "2026-10-26T22:16:02.434Z"
       }
     ]
   },
@@ -6047,6 +6047,14 @@
     "category": "Authentication",
     "imageUrl": "https://obelous.dev/plugins/images/TeleJelly.webp",
     "versions": [
+      {
+        "targetAbi": "10.11.0.0",
+        "checksum": "c9f6a28aa0633d2da01a5bf7393ef18e",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.12/TeleJelly_v1.0.12.zip",
+        "timestamp": "2026-10-26T21:44:57Z",
+        "version": "1.0.12",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.12"
+      },
       {
         "targetAbi": "10.11.0.0",
         "checksum": "76eef056e8ea464ee462c600d2e6ce57",
