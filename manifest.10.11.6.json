@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-26T14:16:07.149Z",
+    "overview": "Generated: 2026-10-26T15:16:02.382Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.6",
-        "timestamp": "2026-10-26T14:16:07.149Z"
+        "timestamp": "2026-10-26T15:16:02.382Z"
       }
     ]
   },
