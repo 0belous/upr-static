@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 185, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-27T19:33:14.785Z",
+    "description": "Aggregated: 186, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-27T20:33:14.117Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-10-27T19:33:14.785Z"
+        "timestamp": "2026-10-27T20:33:14.117Z"
       }
     ]
   },
@@ -5899,6 +5899,25 @@
     "owner": "mleem97",
     "category": "Metadata",
     "imageUrl": "https://obelous.dev/plugins/images/MetadataDashboard.webp"
+  },
+  {
+    "category": "General",
+    "guid": "c78f11cf-93e6-4423-8c42-d2c255b70e47",
+    "name": "Ani-Sync",
+    "description": "Synchronize anime watch status between Jellyfin and anime tracking sites.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json  \nGithub: https://github.com/vosmiic/jellyfin-ani-sync/",
+    "owner": "vosmiic",
+    "overview": "Synchronize anime watch status",
+    "versions": [
+      {
+        "checksum": "9b1b6705e9fe2465a1eb858432cd96bd",
+        "changelog": "1. Strip trailing slash from custom ARM base URL 2. Shoko Server addition, Fix AniDB resolution for sequels, split cours and titlefallbacks 3. Update AniList anime status from 'Plan to watch' to 'Watching' 4. Only check rewatch completed if anime is not on plan to watch list 5. Use shikimori.io for authenticated API calls 6. Sync Shikimori rewatch progress",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/vosmiic/jellyfin-ani-sync/releases/download/v4.7/12.4.0.-.ani-sync_4.7.0.0.zip",
+        "timestamp": "2026-10-27T00:00:00Z",
+        "version": "4.7.0.0"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/Ani-Sync.webp"
   },
   {
     "category": "General",
