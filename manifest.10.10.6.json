@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 310, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-27T16:16:03.569Z",
+    "overview": "Generated: 2026-10-27T17:16:03.603Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-10-27T16:16:03.569Z"
+        "timestamp": "2026-10-27T17:16:03.603Z"
       }
     ]
   },
@@ -22978,7 +22978,7 @@
     "guid": "ac6940fb-aac6-4de8-b622-55a662e23658",
     "name": "Live Channels",
     "overview": "Build looping virtual TV channels that appear natively in Jellyfin's Live TV.",
-    "description": "Live Channels lets administrators build looping virtual TV channels from genres and official ratings or from a hand-picked list of items. Each channel, its guide, and its stream are served in-process through Jellyfin's own Live TV, so the channels appear automatically with no tuner to add, no URLs to paste, and no exposed endpoints.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-livechannels/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-livechannels",
+    "description": "Live Channels turns your own library into looping virtual TV channels that play natively in Jellyfin's Live TV. The channels, their guide, and their streams are all served inside Jellyfin itself, so they appear automatically with no tuner to add, no URLs to paste, and no exposed endpoints.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-livechannels/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-livechannels",
     "imageUrl": "https://obelous.dev/plugins/images/LiveChannels.webp",
     "owner": "JPKribs",
     "category": "LiveTV",
