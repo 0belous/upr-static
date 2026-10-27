@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-27T20:33:14.117Z",
+    "overview": "Generated: 2026-10-27T21:33:13.884Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.0.0.0",
-        "timestamp": "2026-10-27T20:33:14.117Z"
+        "timestamp": "2026-10-27T21:33:13.884Z"
       }
     ]
   },
@@ -5995,6 +5995,14 @@
     "category": "Subtitles",
     "imageUrl": "https://obelous.dev/plugins/images/Bazarr.webp",
     "versions": [
+      {
+        "version": "2.0.4.0",
+        "changelog": "See release notes on GitHub",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/enoch85/bazarr-jellyfin/releases/download/v2.0.4/Jellyfin.Plugin.Bazarr.zip",
+        "checksum": "a7726dc8d1f51034cc66de6bd5c8b415",
+        "timestamp": "2026-10-27T21:01:04Z"
+      },
       {
         "version": "2.0.2.0",
         "changelog": "See release notes on GitHub",
@@ -12653,6 +12661,14 @@
     "owner": "JPKribs",
     "category": "LiveTV",
     "versions": [
+      {
+        "version": "12.4.1.2",
+        "changelog": "## Features\r\n- Tune-in and Up Next cards are 10 seconds, and the tune-in card counts down to the channel\r\n- New Generate Buffer Cards scheduled task (Live TV) renders every channel's tune-in card and the shared part of its Up Next cards ahead of time, at start-up and after Reset schedule, so tuning in never waits on a render\r\n- Reset schedule rebuilds the guide and every channel's buffer cards from scratch\r\n- Encoding follows more of Jellyfin's settings (encoder preset, thread count, deinterlacing method and Intel low-power encoding)\r\n- The next item is prepared ahead of each boundary, so slow or sleeping storage no longer stalls the transition\r\n\r\n## Fixed\r\n- Up Next cards render about twice as fast, and no longer need ffprobe\r\n- An Up Next card whose following item is unknown leaves its Then line empty instead of showing black",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.1.2/jellyfin-plugin-livechannels-12.4.1.2.zip",
+        "checksum": "6cb4038657ef7455d6fcfaa647dee6e1",
+        "timestamp": "2026-10-27T21:19:46Z"
+      },
       {
         "version": "12.4.1.0",
         "changelog": "## Features\r\n- An \"Up Next\" card plays for 15 seconds before each item, showing its artwork, title, episode and rating (on by default, per channel)\r\n- The Up Next card and the tune-in card play a soft chord that fades in and trails off\r\n- Schedules and learned item lengths now live in Jellyfin's data folder, so clearing the cache no longer moves what is on air\r\n\r\n## Fixed\r\n- Tune-in cards, logos, fonts and ffmpeg's working files all live in the plugin's stream folder, and nothing is written to the system temp folder",
