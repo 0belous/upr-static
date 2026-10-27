@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 315, Sources: 259.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-27T18:16:03.784Z",
+    "description": "Aggregated: 317, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-27T19:33:14.785Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-10-27T18:16:03.784Z"
+        "timestamp": "2026-10-27T19:33:14.785Z"
       }
     ]
   },
@@ -13136,6 +13136,25 @@
     ]
   },
   {
+    "guid": "8b3d6f12-9c44-4e2b-b8c1-7a5f2e143990",
+    "name": "Jellyfin Library Cover Enhancer",
+    "overview": "Library collage covers with adjustable titles and fonts.",
+    "description": "Rebuilds library collage covers with adjustable title layout, a bottom gradient, and a choice of fonts. Item posters and metadata are left unchanged.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/zzzLiu/jellyfin-plugin-library-cover-enhancer/main/manifest.json  \nGithub: https://github.com/zzzLiu/jellyfin-plugin-library-cover-enhancer",
+    "owner": "zzzLiu",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.1.4.0",
+        "changelog": "The preview canvas stays cover-sized and centered. Hide text, text, and font sections match the rebuild block width.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/zzzLiu/jellyfin-plugin-library-cover-enhancer/releases/download/v1.1.4.0/jellyfin-library-cover-enhancer_1.1.4.0.zip",
+        "checksum": "7d88fa5d6c2692a352f559315a267326",
+        "timestamp": "2026-10-17T00:00:00Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/JellyfinLibraryCoverEnhancer.webp"
+  },
+  {
     "guid": "8c2a93cc-6cc5-493a-880a-2e67ae50e454",
     "name": "Mind the Gaps",
     "description": "Scans your library for gaps (missing movies in partially-owned collections and franchises, missing series content, unowned titles from actor and director filmographies, and related recommendations) using TMDB, Trakt, TheTVDB, and TVmaze, with music and book sources (MusicBrainz, OpenLibrary, Discogs), and reads the watchlists and want-lists you already keep on those sites. Presents an easy todo list for filling out your collection, diagnoses why a title is reported missing, surfaces where to watch each item, and can optionally mint native virtual placeholders for missing items.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/IDisposable/jellyfin-plugin-mindthegaps/main/manifest.json  \nGithub: https://github.com/IDisposable/jellyfin-plugin-mindthegaps",
@@ -21736,6 +21755,25 @@
     ]
   },
   {
+    "guid": "a7e4c1d2-6b58-4f0a-9c33-81d5e2b47a60",
+    "name": "Jellyfin Color Tags",
+    "overview": "Add colors and names, then drag to reorder. The dot appears above the more button on posters and next to the favorite button in the player. A color can also cap the streaming bitrate or always transcode. English by default; Simplified Chinese for any zh display language, including zh-CN, zh-TW, and zh-HK.",
+    "description": "Mark items with a colored dot on posters and in the web player.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/zzzLiu/jellyfin-plugin-color-tags/main/manifest.json  \nGithub: https://github.com/zzzLiu/jellyfin-plugin-color-tags",
+    "owner": "zzzLiu",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.3.2.0",
+        "changelog": "Keeps the player color dot, and stops poster dots from covering Playback Info. On the video page those poster buttons are removed. The Playback Info panel sits above any that remain, so its close button receives the click.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/zzzLiu/jellyfin-plugin-color-tags/releases/download/v1.3.2.0/jellyfin-color-tags_1.3.2.0.zip",
+        "checksum": "93150cc44abf23736b329a7585c9a539",
+        "timestamp": "2026-10-26T08:31:40Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/JellyfinColorTags.webp"
+  },
+  {
     "guid": "a84a949d-4b73-4099-aacb-8341b4da17ba",
     "name": "Jellyscrub",
     "overview": "Create BIF files for media to be used for trickplay scrubbing previews.",
@@ -22640,6 +22678,14 @@
     "owner": "JPKribs",
     "category": "LiveTV",
     "versions": [
+      {
+        "version": "12.4.1.0",
+        "changelog": "## Features\r\n- An \"Up Next\" card plays for 15 seconds before each item, showing its artwork, title, episode and rating (on by default, per channel)\r\n- The Up Next card and the tune-in card play a soft chord that fades in and trails off\r\n- Schedules and learned item lengths now live in Jellyfin's data folder, so clearing the cache no longer moves what is on air\r\n\r\n## Fixed\r\n- Tune-in cards, logos, fonts and ffmpeg's working files all live in the plugin's stream folder, and nothing is written to the system temp folder",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.1.0/jellyfin-plugin-livechannels-12.4.1.0.zip",
+        "checksum": "a05a0880d1dab5a80c3a0e3142956f3c",
+        "timestamp": "2026-10-27T18:30:05Z"
+      },
       {
         "version": "12.4.0.1",
         "changelog": "\n## Features\n- Series recordings honour Keep up to (removing only their own oldest recordings) and Record new episodes only\n- An item whose encoder fails partway resumes where it stopped instead of skipping to the next item\n- Burned-in subtitles follow your default language, and audio tagged as undetermined no longer counts as foreign\n- The Popular channel only airs titles that every Live TV user is allowed to see\n\n## Fixed\n- Items with an external audio file (a separate dub) no longer play silent\n- A channel whose encoder keeps failing no longer restarts it forever while a viewer stays tuned in\n- Series recordings keep recording the show they were created for after the schedule changes\n- Saving plugin settings no longer reshuffles every channel's guide, and saves that do rebuild it keep the program on air\n- Changing the codec or resolution while someone is watching no longer breaks their stream\n- Picture subtitles (PGS) on cropped Blu-ray encodes are no longer cut off\n- Phone videos recorded upright no longer play sideways with Intel hardware decoding\n- Software HEVC keeps its segments evenly sized\n- Intel QSV on Windows no longer fails every item before retrying in software\n- Storage that stops answering now shows standby instead of a frozen picture\n- A stream whose output closes now stops cleanly instead of filling the failure reports\n- Removing stale guide programs is much lighter on Jellyfin's database\n- GIF channel logos now appear on the tune-in card\n- Several smaller fixes to timing, cleanup and shutdown",
