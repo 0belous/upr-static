@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 317, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-28T01:33:14.021Z",
+    "overview": "Generated: 2026-10-28T02:33:14.331Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-10-28T01:33:14.021Z"
+        "timestamp": "2026-10-28T02:33:14.331Z"
       }
     ]
   },
@@ -31427,6 +31427,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/MediaBarEnhanced.webp",
     "versions": [
+      {
+        "version": "3.11.0.0",
+        "changelog": "- feat: Add option to disable bottom fade gradient for custom skin compatibility\n- feat: Add progress bar inside active dot or slide counter\n- feat: Add hover volume slider with direct media bar synchronization in client settings\n- fix: Reposition pause and mute buttons on high-resolution displays (1440p+) to prevent overlap with top navbar\n- fix: Add dynamic mobile margin calculation to prevent pill and inside-progress dots overflowing viewport",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CodeDevMLH/jellyfin-plugin-media-bar-enhanced/releases/download/v3.11.0.0/Jellyfin.Plugin.MediaBarEnhanced_v3.11.0.0.zip",
+        "checksum": "4421e23d2bd24a590fa1066a50e1345a",
+        "timestamp": "2026-10-28T02:24:34Z"
+      },
       {
         "version": "3.10.0.0",
         "changelog": "- feat: Add Weighted Random sorting prioritizing recently added titles\n- feat: Scope per-library API queries to matching item types (Movie/Series) and disable total record counting for performance\n- feat: Enforce Max Parental Rating globally across Custom Media IDs, Collections, and Seasonal content\n- fix: Disable split-screen hover dimming and pointer interception when slideshow is paused\n- fix: Unload auto-generated YouTube captions/cc during trailer playback",
