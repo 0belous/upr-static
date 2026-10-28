@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 317, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-28T09:33:14.713Z",
+    "overview": "Generated: 2026-10-28T10:33:15.096Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.3",
-        "timestamp": "2026-10-28T09:33:14.713Z"
+        "timestamp": "2026-10-28T10:33:15.096Z"
       }
     ]
   },
@@ -7946,6 +7946,60 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/FileTransformation.webp",
     "versions": [
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-10.11.11.zip",
+        "checksum": "3FFC219A5C91C9509926CCCB0FC9D913",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-12.4.0.zip",
+        "checksum": "6FB4DDC8DC5324EA4E587F8549618748",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-12.0.0.zip",
+        "checksum": "7FBCFBD9E16530F615B90AA98AD1EA8F",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-12.1.0.zip",
+        "checksum": "6904727E088B00547CA6513E377719F9",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-12.2.0.zip",
+        "checksum": "B4BDA934F6850A63D2735A5DB048A128",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for JF Versions 12.3 and 12.4\r\n\r\nNo other changes are contained in this release.",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.3.0/Release-12.3.0.zip",
+        "checksum": "26E3CCAEE0CA023CEF039B1C668C606C",
+        "timestamp": "2026-09-08T09:02:53",
+        "dependencies": []
+      },
       {
         "version": "3.0.2.0",
         "changelog": "Added support for 12.2",
