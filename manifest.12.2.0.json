@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 302, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-29T19:33:14.437Z",
+    "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-29T20:55:43.922Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-10-29T19:33:14.437Z"
+        "timestamp": "2026-10-29T20:55:43.922Z"
       }
     ]
   },
@@ -3931,6 +3931,49 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.1.1.zip",
         "checksum": "7a7e4fee01ce2db1f99d75110c2fe721",
         "timestamp": "2025-10-20T16:50:32Z"
+      }
+    ]
+  },
+  {
+    "guid": "5a8b0f1e-7c3d-4e2a-9b6f-1d4c8e9a2f70",
+    "name": "Shoalcade",
+    "description": "Shoalcade for Jellyfin: play your own games on your Android phone (offline) and in the browser, with every save kept safe on your Jellyfin server.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/BBBannon/Shoalcade/main/manifest.json  \nGithub: https://github.com/BBBannon/Shoalcade",
+    "overview": "Your own game library in Jellyfin: phone app, browser player, safe saves",
+    "owner": "BBBannon",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Shoalcade.webp",
+    "versions": [
+      {
+        "version": "0.6.0.0",
+        "changelog": "s0.6 - RPG Maker XP / VX / VX Ace games, loading bar, shorter console bar (browser + phone app 0.9.0). Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.6.0",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.6.0/Shoalcade_s0.6.zip",
+        "checksum": "ed8ae0da4cb5031999f418ac4a668351",
+        "timestamp": "2026-10-29T16:31:01Z"
+      },
+      {
+        "version": "0.5.0.0",
+        "changelog": "s0.5 - Nintendo 64 games (browser + phone app 0.8.0). Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.5.0",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.5.0/Shoalcade_s0.5.zip",
+        "checksum": "b3381da40455cb12ccfa3730be95024d",
+        "timestamp": "2026-10-29T07:18:16Z"
+      },
+      {
+        "version": "0.4.0.0",
+        "changelog": "s0.4 - ROM patcher page and cheats (browser + phone app 0.7.0). Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.4.0",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.4.0/Shoalcade_s0.4.zip",
+        "checksum": "ddbbca808c624ffe02f14ede99a6d28a",
+        "timestamp": "2026-10-28T15:31:25Z"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "s0.3 - first public release. Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.3.0",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.3.0/Shoalcade_s0.3.zip",
+        "checksum": "b5c83559563759a863d7b59b0af4cd41",
+        "timestamp": "2026-10-28T12:13:07Z"
       }
     ]
   },
@@ -11253,6 +11296,25 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/MediathekDownloader.webp"
+  },
+  {
+    "guid": "a3520f75-7cfe-49e0-9b30-a3c108a5a4ce",
+    "name": "Rewatch Next Up",
+    "description": "Shows the next episode of series you are rewatching in Next Up, on every client.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/lanjak/jellyfin-plugin-rewatch-nextup/main/manifest.json  \nGithub: https://github.com/lanjak/jellyfin-plugin-rewatch-nextup",
+    "overview": "Rewatching in Next Up for all clients",
+    "owner": "lanjak",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "First release. Turns on rewatching in Next Up for clients that do not ask for it, such as Android TV.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/lanjak/jellyfin-plugin-rewatch-nextup/releases/download/v1.0.0.0/rewatch-nextup_1.0.0.0.zip",
+        "checksum": "c4311aa6ea605714ca360a525096bb79",
+        "timestamp": "2026-10-29T10:56:02Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/RewatchNextUp.webp"
   },
   {
     "category": "User Management",
