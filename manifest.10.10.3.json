@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 309, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-29T16:34:50.801Z",
+    "description": "Aggregated: 310, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-29T17:33:14.337Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.3",
-        "timestamp": "2026-10-29T16:34:50.801Z"
+        "timestamp": "2026-10-29T17:33:14.337Z"
       }
     ]
   },
@@ -28835,6 +28835,81 @@
         "sourceUrl": "https://github.com/linaspurinis/jellyfin-plugin-mdblist/releases/download/v1.0.0.0/mdblist_1.0.0.0.zip",
         "checksum": "02b9523882974d9011e2a299bb11efb7",
         "timestamp": "2026-09-02T16:38:56Z"
+      }
+    ]
+  },
+  {
+    "guid": "ccc76c68-2d1e-44bc-b8f6-4760d6c6d5c2",
+    "name": "TUIMDB",
+    "description": "Metadata provider plugin for TUIMDB (The Ultimate Internet Media Database).\nFetches media metadata directly from the TUIMDB platform.  \n  \nUniversal Repo [✓] \nSource: https://tuimdb.com/jellyfin/manifest.json  \nGithub: https://github.com/b-sullender/Jellyfin.Plugin.TUIMDB",
+    "overview": "Integrates Jellyfin with TUIMDB to provide rich metadata.",
+    "owner": "TUIMDB",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/TUIMDB.webp",
+    "versions": [
+      {
+        "version": "1.3.0.1",
+        "changelog": "Fixed duplicate years in movie search queries.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.3.0.1.zip",
+        "checksum": "bc032cdcb48af79f3bce2d6cd073fbab",
+        "timestamp": "2026-10-24T21:54:05Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Added plugin options and fixed a null runtime bug.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.3.0.0.zip",
+        "checksum": "5591fd5e88557e262ac0c80e3a3d98e6",
+        "timestamp": "2026-10-18T13:21:36Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "Fix API breaking changes and add cast members to season and series objects.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.2.3.0.zip",
+        "checksum": "a61c3ad84897eb08cc26b8330047e617",
+        "timestamp": "2026-09-20T13:01:06Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Added cast and crew profile images for the updated TUIMDB API.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.2.2.0.zip",
+        "checksum": "576b4c41834bb2156e75d6f345941f37",
+        "timestamp": "2026-09-17T17:48:54Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Bug fix for TUIMDB configuration files.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.2.1.0.zip",
+        "checksum": "32361dd04ca26c2edac8a68c059febf1",
+        "timestamp": "2026-08-22T22:43:31Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Added tuimdb.conf support and flexible collections for movies and TV series.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.2.0.0.zip",
+        "checksum": "7f71d2174cb761d10f53ef1dc4c50cc9",
+        "timestamp": "2026-08-22T20:59:46Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Added crew member support for movies and other minor changes.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.1.0.0.zip",
+        "checksum": "c494ea6bf932e6ba7cdedd8cb4ce1b78",
+        "timestamp": "2026-07-04T23:34:36Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://tuimdb.com/jellyfin/TUIMDB_v1.0.0.0.zip",
+        "checksum": "ba5d4495dc5cf5211f6131aa9533fe7d",
+        "timestamp": "2026-05-09T20:15:31Z"
       }
     ]
   },
