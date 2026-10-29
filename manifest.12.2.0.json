@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 261.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-29T17:33:14.337Z",
+    "overview": "Generated: 2026-10-29T18:33:14.455Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-10-29T17:33:14.337Z"
+        "timestamp": "2026-10-29T18:33:14.455Z"
       }
     ]
   },
@@ -17670,6 +17670,14 @@
     "description": "AudioMuse-AI Jellyfin Plugin integrates Jellyfin with the AudioMuse-AI backend. This plugin works only with the AudioMuse-AI side container, which must be installed separately. After installing both, configure the plugin with the side container's endpoint. Learn more: https://github.com/NeptuneHub/AudioMuse-AI  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/neptunehub/audiomuse-ai-plugin/master/manifest.json  \nGithub: https://github.com/neptunehub/audiomuse-ai-plugin",
     "imageUrl": "https://obelous.dev/plugins/images/AudioMuseAI.webp",
     "versions": [
+      {
+        "version": "0.3.6.0",
+        "changelog": "- InstantMix provider - adding DCLAP (556efc8)\n- screen update (baf7e7b)\n- Merge branch 'master' of https://github.com/NeptuneHub/audiomuse-ai-plugin (e2d093d)\n- readme.md example fix (7a9de11)\n- ci: Update manifest.json for release v0.3.5 (d03ef66)",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/NeptuneHub/audiomuse-ai-plugin/releases/download/v0.3.6/audiomuse-ai_0.3.6.0.zip",
+        "checksum": "ba05d3c1b09a910113395e53b4aa79f6",
+        "timestamp": "2026-10-29T18:17:16Z"
+      },
       {
         "version": "0.3.5.0",
         "changelog": "- code review fix (9f629fa)\n- Uniform distance across the three similarity providers + The re-exposed /AudioMuseAI endpoints no longer follow the configured provider, which now applies only to the Instant Mix and \"More Like This\" + other minor fix (7e839dc)\n- ci: Update manifest.json for release v0.3.4 (6a45f75)",
