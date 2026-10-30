@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 310, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T12:55:45.744Z",
+    "description": "Aggregated: 309, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-30T13:55:48.399Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-10-30T12:55:45.744Z"
+        "timestamp": "2026-10-30T13:55:48.399Z"
       }
     ]
   },
@@ -23756,25 +23756,6 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/SubtitleOCR.webp"
-  },
-  {
-    "category": "General",
-    "guid": "b7c9e1d2-1234-4abc-9def-123456789abd",
-    "name": "ScriptRunner",
-    "description": "Executa scripts customizados quando a biblioteca é atualizada.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/iHumberto/jellyfin-plugin-scriptrunner/main/manifest.json  \nGithub: https://github.com/iHumberto/jellyfin-plugin-scriptrunner",
-    "owner": "iHumberto",
-    "overview": "Dispara scripts bash ao detectar novos itens na biblioteca do Jellyfin.",
-    "versions": [
-      {
-        "version": "3.0.3",
-        "changelog": "Veja o release no GitHub.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/iHumberto/jellyfin-plugin-scriptrunner/releases/download/v3.0.3/scriptrunner_3.0.3.0.zip",
-        "checksum": "1559ac13b6f487161bfe9e6cc3739356",
-        "timestamp": "2026-05-11T19:45:59Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/ScriptRunner.webp"
   },
   {
     "guid": "b7e23c8a-9f5d-4c8b-91a2-3d6e7f8c1b4a",

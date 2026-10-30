@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 319, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T12:55:45.744Z",
+    "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-10-30T13:55:48.399Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-10-30T12:55:45.744Z"
+        "timestamp": "2026-10-30T13:55:48.399Z"
       }
     ]
   },
@@ -8406,6 +8406,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.17.0",
+        "changelog": "This update brings together 2.0.14.0 to 2.0.17.0 from the beta channel.\n\nIf your provider address ends in /live, /movie or /series and you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider password. Consider asking your provider for a new one. The log no longer shows it.\n\nSecurity: text and files from the provider are checked more carefully. A movie or series title, category name or error message could contain code that ran in your browser, with your admin session, while the plugin's settings page was open; it is now shown as plain text. Poster and cover addresses are only written into NFO files when they are http or https, because Jellyfin reads a file path there as a local image (NFO files that already exist are not rewritten). Artwork downloads stop at 20 MB and after 30 seconds, and a page that is not an image is no longer saved as a poster. Odd control characters in a title or programme no longer make an NFO file or the guide unreadable, a title of only dots such as \"..\" is named Unknown instead of ending up next to the Movies or Series folder, and very long titles no longer slow the sync down. With Dispatcharr, an id that is not a valid uuid is ignored.\n\nSettings page reorganised. A new Provider tab holds everything for one provider: login, library path, title cleaning, Dispatcharr and the Delete buttons. General keeps the settings all providers share, and options few people need are folded away. Your settings are kept as they are. The Enable Native Tuner checkbox is now a choice between the native tuner and your own M3U tuner, and the Delete buttons now say which folder goes and that watched status, favourites and resume points are lost. The Full Sync Change Threshold setting has been removed.\n\nLive TV with the native tuner and Dispatcharr starts channels faster: the plugin reads the stream details Dispatcharr already recorded, so Jellyfin no longer analyses each channel first. This needs Stream Format TS. Channels matched to Dispatcharr now play from Dispatcharr's own channel address, which carries no login, so apps that open the stream themselves (Swiftfin with the VLC player, Moonfin) no longer receive your provider username and password.\n\nFixed: saving while the Movies or Series category list had not loaded yet cleared your category selection, so the next sync fetched every category.\n\nFixed: a daily sync set to midnight was moved to 03:00 on every save.\n\nFixed: Retry did nothing after Delete Movies/Series Library, while reporting success. A second sync can no longer start while one is running.\n\nFixed: on iOS, a channel could stop with error -1100 right after starting.\n\nFixed: some channels showed every programme twice in the guide when the provider listed the channel twice.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v2.0.17.0/jellyfin-xtream-library_2.0.17.0.zip",
+        "checksum": "9141163e12b6551b714513d738d1aae9",
+        "timestamp": "2026-10-21T22:19:13Z"
+      },
       {
         "version": "2.0.13.0",
         "changelog": "This update brings together 2.0.12.0 and 2.0.13.0 from the beta channel.\n\nIf you use Dispatcharr Mode: the first sync after updating re-reads every series once, so it takes longer than usual. This corrects series episodes that failed to play with a 404 from Dispatcharr, and in some setups a series that showed another series' episodes. Files keep their names, so watched status is kept.\n\nIf you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider username and password, which were in the stream address logged each time a channel was opened and in provider errors and retries. Consider asking your provider for a new password. The log no longer contains them.\n\nFixed: with Enable Native Tuner on, Live TV did not show up until you added an \"Xtream Library\" tuner by hand under Dashboard > Live TV > Tuner Devices. The plugin now adds that entry itself, as \"Xtream Library (added by the plugin)\", when Enable Live TV and Enable Native Tuner are both on, and removes it when you turn either off. A tuner you added by hand is kept and no second one is added.\n\nFixed: with Live TV through an M3U tuner and Epg.xml as the guide, channels whose name starts with a number, such as \"24 Kitchen\" or \"3sat\", got no guide. This shows after the next guide refresh.\n\nFixed: when the provider could not deliver a series during a sync, orphan cleanup deleted that series' files. They are now kept until the provider answers again.\n\nFixed: errors from LiveTv.m3u, Catchup.m3u and Epg.xml (for example \"Live TV is not enabled\") arrived as an empty \"406 Not Acceptable\". They now come with their real status and message.",
@@ -23938,25 +23946,6 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/SubtitleOCR.webp"
-  },
-  {
-    "category": "General",
-    "guid": "b7c9e1d2-1234-4abc-9def-123456789abd",
-    "name": "ScriptRunner",
-    "description": "Executa scripts customizados quando a biblioteca é atualizada.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/iHumberto/jellyfin-plugin-scriptrunner/main/manifest.json  \nGithub: https://github.com/iHumberto/jellyfin-plugin-scriptrunner",
-    "owner": "iHumberto",
-    "overview": "Dispara scripts bash ao detectar novos itens na biblioteca do Jellyfin.",
-    "versions": [
-      {
-        "version": "3.0.3",
-        "changelog": "Veja o release no GitHub.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/iHumberto/jellyfin-plugin-scriptrunner/releases/download/v3.0.3/scriptrunner_3.0.3.0.zip",
-        "checksum": "1559ac13b6f487161bfe9e6cc3739356",
-        "timestamp": "2026-05-11T19:45:59Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/ScriptRunner.webp"
   },
   {
     "guid": "b7e23c8a-9f5d-4c8b-91a2-3d6e7f8c1b4a",
