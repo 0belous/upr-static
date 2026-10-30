@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T19:55:45.909Z",
+    "overview": "Generated: 2026-10-30T20:55:45.646Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-10-30T19:55:45.909Z"
+        "timestamp": "2026-10-30T20:55:45.646Z"
       }
     ]
   },
@@ -8340,6 +8340,14 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "## [0.26.30.0] - 2026-10-30\n\n### 🚀 Features\n\n- Show recommended titles that aren't in the library (#349)\n\n### 🐛 Bug Fixes\n\n- Undated watched/resume state migration (#348)\n- Keep the subtitle task from searching every stream (#352)\n\n### ⚙️ Miscellaneous Tasks\n\n- Remove the unused Palco cache API (#353)\n",
+        "checksum": "6129acb59341e30fa8fd8d34bc3a0463",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.30.0/gelato_0.26.30.0.zip",
+        "targetAbi": "12.1.0.0",
+        "timestamp": "2026-10-30T20:06:08Z",
+        "version": "0.26.30.0"
+      },
+      {
         "changelog": "## [0.26.29.0] - 2026-10-24\n\n### 🚀 Features\n\n- Exclude uncached streams from pre-probing (#336)\n- Show a version's tracks as soon as they are known (#340)\n\n### 🐛 Bug Fixes\n\n- Show that more settings tabs exist on a phone (#330)\n- Keep an episode edit made during its refresh (#331)\n- Keep a deleted series gone when trees go off (#332)\n- Stop a queued pre-probe once pre-probing is off (#333)\n- Draw the setup's cone like the logo (#335)\n- Keep an episode edit made as its series refreshes (#337)\n- Hide one-movie collections, keep search titles hidden (#338)\n- Reopen a series deleted right after it was added (#339)\n- Keep a split row's watch state when a probe ends after the split (#343)\n- No error logged for a probe of a deleted title (#342)\n- Probe a stream once when a page is opened twice (#341)\n- Open a title again from search after it left your own folder (#345)\n- Keep a series deleted after marking it played (#344)\n- List a new series' seasons from the first open (#347)\n\n### ⚡ Performance\n\n- Open the item menu without waiting for streams (#346)\n\n### 🚜 Refactor\n\n- Sort Gelato's wrappers around Jellyfin (#334)\n",
         "checksum": "bd1712c322f4c7ee85c868541b92a7db",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.29.0/gelato_0.26.29.0.zip",
@@ -11742,35 +11750,19 @@
   {
     "guid": "a51f9a52-7c3b-4b89-9f10-4c8e2b3d1a5e",
     "name": "Projectionist",
-    "description": "Plays preroll videos before movies AND TV episodes. Folder-based source — no Jellyfin library required (auto-creates a hidden internal one). Schedules, per-library rules, per-user rules, maturity gating, cooldowns, skippable prerolls, stats dashboard.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-projectionist/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-projectionist",
+    "description": "Plays preroll videos before movies AND TV episodes. Folder-based source — no Jellyfin library required (auto-creates a hidden internal one). Schedules, per-library rules, per-user rules, maturity gating, cooldowns, skippable prerolls, stats dashboard.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-projectionist/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-projectionist",
     "overview": "Folder-based prerolls with episode support, schedules, and rich smart-selection.",
     "owner": "AhmedMedia",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Projectionist.webp",
     "versions": [
       {
-        "version": "1.1.1.0",
-        "changelog": "Fixes Stats endpoint, /Users list, and HiddenLibrary auto-hide on Jellyfin 10.11.9+ where IUserManager.Users was removed from the interface.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/jellyfin-projectionist/releases/download/v1.1.1/projectionist_1.1.1.0.zip",
-        "checksum": "6981ffcb9d320afc978e56f6e9e26d8b",
-        "timestamp": "2026-05-31T03:35:00Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "Adds split movie/TV session behaviour, Warm/Hot preload modes, dashboard sidebar access, improved episode preroll handling, and admin UI fixes.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/jellyfin-projectionist/releases/download/v1.1.0/projectionist_1.1.0.0.zip",
-        "checksum": "808a502023757899afda358746d385d4",
-        "timestamp": "2026-05-15T13:00:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Fixes: maturity gate no longer wrongly excludes untagged prerolls; library tile is now actually hidden from the home screen (CSS + MutationObserver client-side hider).",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/jellyfin-projectionist/releases/download/v1.0.2/projectionist_1.0.2.0.zip",
-        "checksum": "d60c28d38afb340a8fe110745a73b7ca",
-        "timestamp": "2026-04-26T18:57:00Z"
+        "version": "1.3.0.1",
+        "changelog": "Jellyfin 12 support (separate package). Fixes the broken web UI on Jellyfin 10.11.11+ and 12 (#7) and per-series prerolls that never played (#8). Post-rolls now play. New, opt-in: episode prerolls in native apps (Android TV, iOS, Roku). Includes the never-published v1.2.0: genre rules, per-item opt-out, skip-rate stats, coming-soon trailers, loudness check, European ratings.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ZL154/jellyfin-projectionist/releases/download/v1.3.0/projectionist_1.3.0.1.zip",
+        "checksum": "dbe115441adc5940b1842776c1e758f8",
+        "timestamp": "2026-10-30T20:55:18Z"
       }
     ]
   },
