@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 310, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T09:56:33.902Z",
+    "overview": "Generated: 2026-10-30T10:55:47.025Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.3",
-        "timestamp": "2026-10-30T09:56:33.902Z"
+        "timestamp": "2026-10-30T10:55:47.025Z"
       }
     ]
   },
@@ -107,7 +107,7 @@
   {
     "guid": "043b2c48-b3e0-4610-b398-8217b146d1a4",
     "name": "Collection Sections",
-    "overview": null,
+    "overview": "Adds home screen section for collections/playlists",
     "description": "Adds home screen section for collections/playlists  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
@@ -697,7 +697,7 @@
   {
     "guid": "074fa1cc-5c7a-4203-bf96-1a33d36b7de7",
     "name": "Home Screen Sections (Experimental)",
-    "overview": null,
+    "overview": "Adds support for server provided home screen sections\n\nNote: This is an experimental build and cannot be used in conjunction with the stable release of Home Screen Sections. Please only install one of them.",
     "description": "Adds support for server provided home screen sections\nNote: This is an experimental build and cannot be used in conjunction with the stable release of Home Screen Sections. Please only install one of them.  \n  \nUniversal Repo [✓✓] \nSource: https://www.iamparadox.dev/jellyfin/plugins/manifest.json  \nGithub: https://github.com/IAmParadox27/jellyfin-plugin-repo",
     "owner": "IAmParadox27",
     "category": "Experimental",
@@ -1147,7 +1147,7 @@
   {
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar",
-    "overview": null,
+    "overview": "Adds a media bar element at the top of the homepage on Jellyfin web",
     "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
@@ -6816,7 +6816,7 @@
   {
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages",
-    "overview": null,
+    "overview": "Adds support for plugins to define their own user settings pages, rather than just admin sided.",
     "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
@@ -7538,7 +7538,7 @@
   {
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation",
-    "overview": null,
+    "overview": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.",
     "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/Jellyfin-PG/Repository/refs/heads/main/manifest.json  \nGithub: https://github.com/Jellyfin-PG/JellyEmu",
     "owner": "IAmParadox27",
     "category": "General",
@@ -23865,7 +23865,7 @@
   {
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
-    "overview": null,
+    "overview": "Adds support for server provided home screen sections",
     "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
@@ -28693,6 +28693,14 @@
     "image": "image.png",
     "imageUrl": "https://obelous.dev/plugins/images/MDBList.webp",
     "versions": [
+      {
+        "version": "1.0.0.19",
+        "changelog": "1.0.0.19: A movie or episode played to the end is now marked watched on MDBList at the time playback finished, instead of when it started.\n\n1.0.0.18: Playback progress is now sent to MDBList every 15 minutes instead of every 15 seconds, which could use up the daily API limit. Pause, resume, seek and stop are still sent right away.\n\n1.0.0.17: New: optionally send your files' media info (resolution, HDR, audio, channels, 3D) with collection sync, per user and off by default. Progress scrobbles now pause when MDBList's rate limit is hit, until it resets, and stop for a playback whose title MDBList doesn't recognize. Fixed every sync failing once the plugin hadn't synced for 30 days; it now runs a full sync instead.\n\n1.0.0.16: Fixed the first watched sync sending the whole Jellyfin history to MDBList if something was marked watched before it ran, and watched changes made during a sync (e.g. marking a whole season) being pushed only on the next full sync.\n\n1.0.0.15: Fixed every activity-triggered sync running a slow full watched sync after a sync that held back unwatching items, and full watched syncs rewriting every already-synced item. The debug log now names each held-back item and each live watched change sent to MDBList.\n\n1.0.0.14: Fixed the first watched sync sending the whole Jellyfin watch history to MDBList, which re-dated watches and could un-drop dropped shows. It now pulls MDBList's history first and only sends what MDBList doesn't have.\n\n1.0.0.13: Fixed a watch then unwatch (or rating then removal) pulled from MDBList in the same sync only applying the first change, and changes pulled before a failed sync being pushed back on the next sync.\n\n1.0.0.12: Fixed ratings changed or removed in MDBList being pushed back: after a sync pulled a rating from MDBList, the next sync sent it back as a new local rating, which could undo a later change there. Pulled ratings are now recorded as synced.\n\n1.0.0.11: Fixed an item unwatched in MDBList staying watched: after a sync pulled a watched state from MDBList, the next sync pushed it back as a new local watch, undoing a later unwatch in MDBList. Pulled changes are now recorded as synced.\n\n1.0.0.10: Scrobbles and watched sync now send each episode's own tvdb/tmdb id, so MDBList records the exact episode even when the library numbers it differently from TMDb (common for anime with TheTVDB metadata). Season/episode numbers remain the fallback.\n\n1.0.0.9: Fixes watched/ratings sync missing episodes for shows where a different season/episode numbering is used than MDBList's own data (a common mismatch for anime, e.g. between TheTVDB and TMDb). Episodes are now matched by their own tmdb/tvdb id first, before falling back to season/episode number.\n\n1.0.0.8: Disconnecting an MDBList account now wipes that user's sync bookkeeping, so reconnecting (same or a different account) does a clean full resync instead of diffing against a stale or foreign baseline. Adds Debug-level logging of the full-vs-incremental pull decision, cursor value, and fetched/skipped item counts for watched and ratings pulls, to make sync behavior easier to diagnose.\n\n1.0.0.7: Fixes a rare failure mode where a sync running right after Jellyfin starts, during a library scan, or against a temporarily unreadable library could be misread as \"everything was removed\" and push that as a mass removal to MDBList (or, in the reverse direction, mark a batch of items unwatched locally). Removals are now only ever applied on a deliberate sync (the 24h scheduled sync or manual \"Sync now\"), and a suspiciously empty or oversized removal batch is held and retried on the next sync instead of applied.\n\n1.0.0.6: Fixes hitting MDBList's rate limit on a large first sync -- requests are now paced under the server's short-window write budget, and a 429 is retried using the server's own requested wait instead of aborting the whole sync. Also fixes losing sync progress if a run is interrupted: push progress is now saved per-batch instead of only at the end, so a later failure no longer forces redoing already-pushed items.\n\n1.0.0.5: Fixes watched-status sync: a rewatch that only updated the watch date (without changing watched/unwatched membership) could be silently dropped by the scheduled full sync, and would only reach MDBList via the immediate live-playback push.\n\n1.0.0.4: Fixes a build issue where the plugin was compiled against a newer Jellyfin ABI (10.11.11) than the declared minimum (10.11.0), causing installs to fail with \"Status: NotSupported\" on Jellyfin 10.11.1 through 10.11.10.\n\n1.0.0.3: Fixes \"Disconnect\" always showing a failure alert even though it always succeeded. Updates the plugin catalog icon to a full-bleed 16:9 image instead of a square logo that Jellyfin's plugin page was cropping.\n\n1.0.0.2: Fixes the plugin catalog icon's URL -- 1.0.0.1 published one with no host, which Jellyfin couldn't fetch at all.\n\n1.0.0.1: Fixes scheduled syncs, \"Sync now\", and live scrobbling only ever acting on the first linked user when multiple Jellyfin users each have their own MDBList account connected. Adds a plugin catalog icon.\n\n1.0.0.0: Initial release. Two-way sync of watched status and ratings, push-only collection sync, live playback scrobbling to MDBList's /scrobble endpoints, OAuth device-code authentication, incremental cursor-based pulls with automatic full-reconciliation fallback, a 24h scheduled full sync plus a 15-minute activity-gated cheap poll, and a config page for connecting your account and choosing what to sync.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/MDBList/jellyfin-plugin-mdblist/releases/download/v1.0.0.19/mdblist_1.0.0.19.zip",
+        "checksum": "fdc7cd08d214d66361566309170c557b",
+        "timestamp": "2026-10-30T10:50:23Z"
+      },
       {
         "version": "1.0.0.18",
         "changelog": "1.0.0.18: Playback progress is now sent to MDBList every 15 minutes instead of every 15 seconds, which could use up the daily API limit. Pause, resume, seek and stop are still sent right away.\n\n1.0.0.17: New: optionally send your files' media info (resolution, HDR, audio, channels, 3D) with collection sync, per user and off by default. Progress scrobbles now pause when MDBList's rate limit is hit, until it resets, and stop for a playback whose title MDBList doesn't recognize. Fixed every sync failing once the plugin hadn't synced for 30 days; it now runs a full sync instead.\n\n1.0.0.16: Fixed the first watched sync sending the whole Jellyfin history to MDBList if something was marked watched before it ran, and watched changes made during a sync (e.g. marking a whole season) being pushed only on the next full sync.\n\n1.0.0.15: Fixed every activity-triggered sync running a slow full watched sync after a sync that held back unwatching items, and full watched syncs rewriting every already-synced item. The debug log now names each held-back item and each live watched change sent to MDBList.\n\n1.0.0.14: Fixed the first watched sync sending the whole Jellyfin watch history to MDBList, which re-dated watches and could un-drop dropped shows. It now pulls MDBList's history first and only sends what MDBList doesn't have.\n\n1.0.0.13: Fixed a watch then unwatch (or rating then removal) pulled from MDBList in the same sync only applying the first change, and changes pulled before a failed sync being pushed back on the next sync.\n\n1.0.0.12: Fixed ratings changed or removed in MDBList being pushed back: after a sync pulled a rating from MDBList, the next sync sent it back as a new local rating, which could undo a later change there. Pulled ratings are now recorded as synced.\n\n1.0.0.11: Fixed an item unwatched in MDBList staying watched: after a sync pulled a watched state from MDBList, the next sync pushed it back as a new local watch, undoing a later unwatch in MDBList. Pulled changes are now recorded as synced.\n\n1.0.0.10: Scrobbles and watched sync now send each episode's own tvdb/tmdb id, so MDBList records the exact episode even when the library numbers it differently from TMDb (common for anime with TheTVDB metadata). Season/episode numbers remain the fallback.\n\n1.0.0.9: Fixes watched/ratings sync missing episodes for shows where a different season/episode numbering is used than MDBList's own data (a common mismatch for anime, e.g. between TheTVDB and TMDb). Episodes are now matched by their own tmdb/tvdb id first, before falling back to season/episode number.\n\n1.0.0.8: Disconnecting an MDBList account now wipes that user's sync bookkeeping, so reconnecting (same or a different account) does a clean full resync instead of diffing against a stale or foreign baseline. Adds Debug-level logging of the full-vs-incremental pull decision, cursor value, and fetched/skipped item counts for watched and ratings pulls, to make sync behavior easier to diagnose.\n\n1.0.0.7: Fixes a rare failure mode where a sync running right after Jellyfin starts, during a library scan, or against a temporarily unreadable library could be misread as \"everything was removed\" and push that as a mass removal to MDBList (or, in the reverse direction, mark a batch of items unwatched locally). Removals are now only ever applied on a deliberate sync (the 24h scheduled sync or manual \"Sync now\"), and a suspiciously empty or oversized removal batch is held and retried on the next sync instead of applied.\n\n1.0.0.6: Fixes hitting MDBList's rate limit on a large first sync -- requests are now paced under the server's short-window write budget, and a 429 is retried using the server's own requested wait instead of aborting the whole sync. Also fixes losing sync progress if a run is interrupted: push progress is now saved per-batch instead of only at the end, so a later failure no longer forces redoing already-pushed items.\n\n1.0.0.5: Fixes watched-status sync: a rewatch that only updated the watch date (without changing watched/unwatched membership) could be silently dropped by the scheduled full sync, and would only reach MDBList via the immediate live-playback push.\n\n1.0.0.4: Fixes a build issue where the plugin was compiled against a newer Jellyfin ABI (10.11.11) than the declared minimum (10.11.0), causing installs to fail with \"Status: NotSupported\" on Jellyfin 10.11.1 through 10.11.10.\n\n1.0.0.3: Fixes \"Disconnect\" always showing a failure alert even though it always succeeded. Updates the plugin catalog icon to a full-bleed 16:9 image instead of a square logo that Jellyfin's plugin page was cropping.\n\n1.0.0.2: Fixes the plugin catalog icon's URL -- 1.0.0.1 published one with no host, which Jellyfin couldn't fetch at all.\n\n1.0.0.1: Fixes scheduled syncs, \"Sync now\", and live scrobbling only ever acting on the first linked user when multiple Jellyfin users each have their own MDBList account connected. Adds a plugin catalog icon.\n\n1.0.0.0: Initial release. Two-way sync of watched status and ratings, push-only collection sync, live playback scrobbling to MDBList's /scrobble endpoints, OAuth device-code authentication, incremental cursor-based pulls with automatic full-reconciliation fallback, a 24h scheduled full sync plus a 15-minute activity-gated cheap poll, and a config page for connecting your account and choosing what to sync.\n",
@@ -38971,12 +38979,23 @@
   {
     "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
     "name": "Custom Tabs",
-    "overview": null,
+    "overview": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.",
     "description": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/CustomTabs.webp",
     "versions": [
+      {
+        "version": "0.3.3.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nFixed issue with tabs appearing to logged out (guest) users (PR #73, @S2ciOnur)",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.3.0/Release-10.11.11.zip",
+        "checksum": "50AE3B579B5EB343ACF5655D886E8AA1",
+        "timestamp": "2026-10-30T10:13:16",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.3.2.0",
         "changelog": "Added support for 12.2",
