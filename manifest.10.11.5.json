@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 319, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T07:55:45.822Z",
+    "overview": "Generated: 2026-10-30T08:55:45.698Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.5",
-        "timestamp": "2026-10-30T07:55:45.822Z"
+        "timestamp": "2026-10-30T08:55:45.698Z"
       }
     ]
   },
@@ -6335,12 +6335,12 @@
     "imageUrl": "https://obelous.dev/plugins/images/Shoalcade.webp",
     "versions": [
       {
-        "version": "0.6.0.0",
-        "changelog": "s0.6 - RPG Maker XP / VX / VX Ace games, loading bar, shorter console bar (browser + phone app 0.9.0). Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.6.0",
+        "version": "0.7.0.0",
+        "changelog": "s0.7 - RPG Maker removed; loading bar, Nintendo/Sony console bar, Mute and download message fixes (browser + phone app 0.10.0). Release notes: https://github.com/BBBannon/Shoalcade/releases/tag/v0.7.0",
         "targetAbi": "12.3.0.0",
-        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.6.0/Shoalcade_s0.6.zip",
-        "checksum": "ed8ae0da4cb5031999f418ac4a668351",
-        "timestamp": "2026-10-29T16:31:01Z"
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.7.0/Shoalcade_s0.7.zip",
+        "checksum": "39240b3fd70bcf3e0cb87a6c7185400e",
+        "timestamp": "2026-10-30T07:44:19Z"
       },
       {
         "version": "0.5.0.0",
