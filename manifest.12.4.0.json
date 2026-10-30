@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-30T21:55:45.807Z",
+    "overview": "Generated: 2026-10-30T22:55:45.907Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-10-30T21:55:45.807Z"
+        "timestamp": "2026-10-30T22:55:45.907Z"
       }
     ]
   },
@@ -7360,7 +7360,7 @@
     "versions": [
       {
         "version": "3.0.0.0",
-        "changelog": "Moonbase 2.5.0 is the server side of Moonfin 2.8.0. It adds RomM game libraries with per-user RomM accounts, sign-in PINs stored on the server, incomplete recording detection for Live TV, and anime markers on Emby. TMDB now supplies reviews, person links and details for titles outside your library, the Seerr proxy holds limited users to their parental rating, and the admin page was reorganized. It also bundles the Moonfin 2.8.0 web app.\n\nFeatures:\n\n- Game libraries can come from a RomM server, and each user can link their own RomM account so their saves sync with RomM.\n- The EmulatorJS player loads and saves battery saves. On Jellyfin, game box art keeps its real shape and more ROMs find their art.\n- Live TV marks recordings that missed part of their airing as Incomplete and can record the next full showing. The options are on the new Live TV tab.\n- Sign-in PINs are stored on the server and follow each user to every device, with wrong guesses slowed down. Admins can set or reset them on the new Accounts tab.\n- Anime markers work on Emby, and the Subbed and Dubbed pills can be shortened to Sub and Dub.\n- TMDB reviews, person links, titled backdrops and details for titles outside your library. These need a TMDB key.\n- Custom rows are fetched in the app's language.\n- The admin page was reorganized to match the apps' settings, with new defaults for hidden libraries, custom list rows, detail page sections and per-row image types.\n- New synced settings with admin defaults, including the library styles, keyboard style, Peek Home Rows, Trailer Preview, the home backdrop styles, and home row and media bar ratings. Background Backdrops became Home Screen Backdrop and Details Screen Backdrop, so set those again if you used it.\n- The bundled web app moves up to Moonfin 2.8.0, with dual subtitles, the rebuilt music player and admin panel, new library styles, recording from the Live TV player, and TMDB reviews.\n\nBug Fixes:\n\n- Apply Defaults in merge mode reaches users' device profiles, so it changes things for app users.\n- The SyncPlay button default works, and the Seerr Discovery Rows and Block NSFW defaults stick after Save.\n- Emby's admin page lists every home row and setting, and settings search covers every User defaults section.\n- Custom rows get descriptions, IMDb charts get real backdrops and load faster, and rows set to Thumb or Banner show that art.\n- The seasonal row shows each title once, and the Upcoming rows use the right Radarr or Sonarr server.\n- The Seerr proxy holds limited users to their parental rating. Set a TMDB key, or limited users see nothing from Seerr.\n- Anime markers land on the right episode when the site numbers episodes differently.\n- PlayStation cue/bin, large zip and .7z games load, and Game Boy Color games get box art.\n- In the web app, the audio track you pick plays, subtitles stop showing a second language in Chrome and Edge, and Home no longer lags with lots of collections.",
+        "changelog": "Moonbase 3.0.0 is 2.5.0 renumbered to line up with the 3.0.0 Moonfin apps. Nothing else changed, and the 2.5.0 notes follow.\n\nMoonbase 2.5.0 is the server side of Moonfin 2.8.0. It adds RomM game libraries with per-user RomM accounts, sign-in PINs stored on the server, incomplete recording detection for Live TV, and anime markers on Emby. TMDB now supplies reviews, person links and details for titles outside your library, the Seerr proxy holds limited users to their parental rating, and the admin page was reorganized. It also bundles the Moonfin 2.8.0 web app.\n\nFeatures:\n\n- Game libraries can come from a RomM server, and each user can link their own RomM account so their saves sync with RomM.\n- The EmulatorJS player loads and saves battery saves. On Jellyfin, game box art keeps its real shape and more ROMs find their art.\n- Live TV marks recordings that missed part of their airing as Incomplete and can record the next full showing. The options are on the new Live TV tab.\n- Sign-in PINs are stored on the server and follow each user to every device, with wrong guesses slowed down. Admins can set or reset them on the new Accounts tab.\n- Anime markers work on Emby, and the Subbed and Dubbed pills can be shortened to Sub and Dub.\n- TMDB reviews, person links, titled backdrops and details for titles outside your library. These need a TMDB key.\n- Custom rows are fetched in the app's language.\n- The admin page was reorganized to match the apps' settings, with new defaults for hidden libraries, custom list rows, detail page sections and per-row image types.\n- New synced settings with admin defaults, including the library styles, keyboard style, Peek Home Rows, Trailer Preview, the home backdrop styles, and home row and media bar ratings. Background Backdrops became Home Screen Backdrop and Details Screen Backdrop, so set those again if you used it.\n- The bundled web app moves up to Moonfin 2.8.0, with dual subtitles, the rebuilt music player and admin panel, new library styles, recording from the Live TV player, and TMDB reviews.\n\nBug Fixes:\n\n- Apply Defaults in merge mode reaches users' device profiles, so it changes things for app users.\n- The SyncPlay button default works, and the Seerr Discovery Rows and Block NSFW defaults stick after Save.\n- Emby's admin page lists every home row and setting, and settings search covers every User defaults section.\n- Custom rows get descriptions, IMDb charts get real backdrops and load faster, and rows set to Thumb or Banner show that art.\n- The seasonal row shows each title once, and the Upcoming rows use the right Radarr or Sonarr server.\n- The Seerr proxy holds limited users to their parental rating. Set a TMDB key, or limited users see nothing from Seerr.\n- Anime markers land on the right episode when the site numbers episodes differently.\n- PlayStation cue/bin, large zip and .7z games load, and Game Boy Color games get box art.\n- In the web app, the audio track you pick plays, subtitles stop showing a second language in Chrome and Edge, and Home no longer lags with lots of collections.",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://github.com/Moonfin-Client/Plugin/releases/download/3.0.0/Moonfin.Server-3.0.0.0.zip",
         "checksum": "00A62CB5A4BE9F0F8DEABCBDF0454E57",
@@ -13650,107 +13650,19 @@
   {
     "guid": "b7a24c68-7f3e-4c0a-9a9e-6e2b9e1a4f33",
     "name": "Missing Episodes",
-    "description": "Scan your Jellyfin library, Sonarr, or TMDB for missing TV episodes and send them to Sonarr.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/ZL154/MissingEpisodesJellyfin/main/manifest.json  \nGithub: https://github.com/ZL154/MissingEpisodesJellyfin",
+    "description": "Scan your Jellyfin library, Sonarr, or TMDB for missing TV episodes and send them to Sonarr.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/ZL154/MissingEpisodesJellyfin/main/manifest.json  \nGithub: https://github.com/ZL154/MissingEpisodesJellyfin",
     "overview": "Finds the gaps in your TV library with three scan sources (Jellyfin virtual items, Sonarr, TMDB) plus a gap-detection fallback, a clean per-show detail view, bulk Sonarr search, an Ignored list, scan history, live progress, and a sidebar entry.",
     "owner": "ZL154",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/MissingEpisodes.webp",
     "versions": [
       {
-        "version": "1.0.10.0",
-        "changelog": "Scan efficiency overhaul. UI is unchanged.\n- Sonarr per-series episode fetches now parallel (8 in flight). 100-show library ~8s sequential RTT -> ~1s.\n- Jellyfin-mode Sonarr enrichment parallelized the same way.\n- TMDB season fetches parallelized (4 in flight, well under TMDB's rate budget).\n- ApplySonarrHasFile rewritten O(N*M) -> O(N). HashSet + List.RemoveAll instead of repeated List.Remove; seasons indexed once.\n- ignoredTvdb HashSet hoisted out of per-series loop.\n- JSON persistence switched to async I/O (WriteAllTextAsync).\nOutput is identical for identical input — pure internal refactor.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.10/Jellyfin.Plugin.MissingEpisodes_1.0.10.0.zip",
-        "checksum": "ca3a5b9ecdadeedb6b4c97618ffd460c",
-        "timestamp": "2026-05-04T04:00:00Z"
-      },
-      {
-        "version": "1.0.9.0",
-        "changelog": "Editorial Revamp UI with Classic toggle.\n- New Classic/Revamp segmented toggle in the hero. Old look stays exactly as it was; flip to Revamp for a full editorial overhaul (magazine spread, not dashboard). Preference saved per-browser.\n- Revamp direction: ribbon hero with eyebrow + giant missing-count numeral hoisted via grid-template-areas, terminal-style `>` prompt search, vertical timeline scan history with circular dots, premiere-poster billboard cards (no chrome), chapter-numbered season heads via CSS counter, episode codes typeset as tracked-out mono eyebrows, settings card with mono uppercase labels.\n- All Revamp rules scoped to #missingEpisodesPage[data-me-style=revamp] so the v1.0.8 Classic look is fully preserved.\n- Fix: locked Search button tooltip on TMDB-detected episodes (Id=0) used to say 'Configure Sonarr to enable searching' even when Sonarr was configured. Tooltip now distinguishes 'Sonarr not configured' vs 'Not tracked by Sonarr'.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.9/Jellyfin.Plugin.MissingEpisodes_1.0.9.0.zip",
-        "checksum": "c1be64afc889259e361a7ef6bda6a4c7",
-        "timestamp": "2026-05-03T23:00:00Z"
-      },
-      {
-        "version": "1.0.8.0",
-        "changelog": "Final security pass + README refresh.\n- Removed the /debug/parse diagnostic endpoint. Served its purpose chasing the Office/TMNT bug; no longer part of the public API surface.\n- Dropped the FileScan log line from Information to Debug. Doesn't leak filesystem paths into the default Jellyfin logs anymore.\n- README updated to document the three-layer accuracy model (Jellyfin / filename parse / Sonarr hasFile), pure-Jellyfin mode tradeoffs, and the full security posture.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.8/MissingEpisodes_1.0.8.0.zip",
-        "checksum": "97a5ec96af093f51556daec5dfc6e81f",
-        "timestamp": "2026-04-22T17:00:00Z"
-      },
-      {
-        "version": "1.0.7.0",
-        "changelog": "- Accuracy: when 'Only monitored' is on, TMDB mode used to count every TMDB-listed episode as expected even if Sonarr had it unmonitored. Now drops unmonitored entries from the missing list during Sonarr enrichment, trimming 'phantom missing' episodes the user never wanted tracked.\n- UI: the Jellyfin method explainer now mentions when Sonarr enrichment is active — surfaces the hasFile fallback so it's not invisible magic.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.7/MissingEpisodes_1.0.7.0.zip",
-        "checksum": "9cd5a2be8643e17b18517fc5b84e2522",
-        "timestamp": "2026-04-22T16:00:00Z"
-      },
-      {
-        "version": "1.0.6.0",
-        "changelog": "Fix scattered-folder case (TMNT-style): files exist on disk under Sonarr-managed per-season folders that neither Jellyfin's path nor Sonarr's series.Path cover. Enrichment now uses Sonarr's per-episode hasFile flag as ground truth — any missing entry Sonarr knows is already on disk gets dropped, season Have bumps, and series with everything now present fall out of the missing list automatically.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.6/MissingEpisodes_1.0.6.0.zip",
-        "checksum": "fc3e993c4bd7c6f2d5935b1afdd9d857",
-        "timestamp": "2026-04-22T00:10:00Z"
-      },
-      {
-        "version": "1.0.5.0",
-        "changelog": "Actually fix the Office/TMNT accuracy bug.\n- Root cause: when Jellyfin's cached series.Path was stale (points at an empty folder after files moved) and Sonarr tracked the correct path, my filename parser walked Jellyfin's empty path and returned 0 episodes. Enrichment later overwrote Size/Path with Sonarr's values but by then present/missing counts were already wrong.\n- Fix: in Jellyfin-mode scans the plugin now pre-fetches Sonarr's series list (if configured), and when Jellyfin's path has 0 files/0 bytes it retries the parser against Sonarr's path for the same show (matched by TVDB id). The better result wins.\n- Added a /debug/parse diagnostic endpoint + scan log line for future debugging.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.5/MissingEpisodes_1.0.5.0.zip",
-        "checksum": "407e88e323c800e5ce656707347f0acc",
-        "timestamp": "2026-04-21T23:45:00Z"
-      },
-      {
-        "version": "1.0.4.0",
-        "changelog": "Real accuracy fix.\n- Rewrote ProcessJellyfinSeriesAsync around a clean present/expected separation. Filename-parsed episodes now correctly land in the present set without double-counting with TMDB's expected set.\n- Previously: shows like The Office read as 0/186 even though the folder had 144GB of correctly-named S##E## files because filename merge was running AFTER partial stat accumulation and TMDB mode was then double-counting Total. Now stats are computed once, at the end, from |present| and |expected ∪ present|.\n- Stale last-result.json from prior versions is naturally overwritten on the first 1.0.4 scan.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.4/MissingEpisodes_1.0.4.0.zip",
-        "checksum": "8fc1f64ce3116dde9f2cdf0c0798eb62",
-        "timestamp": "2026-04-21T21:30:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "Accuracy fix + security hardening.\n- Jellyfin scans now walk the series folder and parse S##E## / 1x05 patterns from filenames. Catches episodes that are on disk but Jellyfin's library never imported (was showing shows with 144 GB of files as 0/186).\n- XSS hardening: image URLs for posters/backdrops/thumbnails now set via JS with JSON.stringify escaping instead of inline style interpolation — can't break out of the url() literal.\n- Large internal refactor: the full Jellyfin scan now delegates per-series to the same helper the rescan-one button uses. No duplicated logic.\n- README rewritten with AchievementBadges-style copy-paste install block and security section.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.3/MissingEpisodes_1.0.3.0.zip",
-        "checksum": "beacd9d6fc6185c2f08381367a26bcd0",
-        "timestamp": "2026-04-21T20:00:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "- Progress strip now shows during a single-show rescan (it was hidden because it lived inside the list-view container).\n- Click an ignored show to open its detail view; dedicated 'Remove from ignore list' button replaces the old confirm prompt.\n- README updated with new features and a note about the harmless 'error occurred while getting plugin details' warning for manually-installed copies.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.2/MissingEpisodes_1.0.2.0.zip",
-        "checksum": "c7344a999de44a669262fcd1713ded15",
-        "timestamp": "2026-04-21T19:30:00Z"
-      },
-      {
-        "version": "1.0.1.0",
-        "changelog": "- Per-show rescan no longer triggers a full library scan in Jellyfin mode (was doing a full scan and returning one entry).\n- Rescan now uses Sonarr's tvdbId-indexed series lookup (one call instead of a full dump) and runs under the shared progress tracker, so the UI progress strip fills in during a rescan.\n- Size chip moved inside the poster — no longer overlaps the meta row.\n- Smarter path reconciliation: prefer Jellyfin's path when its folder has content, fall back to Sonarr when Jellyfin's path is stale / empty.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.1/MissingEpisodes_1.0.1.0.zip",
-        "checksum": "e231f085fc8b304acb6a2b1acd9a34e9",
-        "timestamp": "2026-04-21T19:00:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "1.0 release.\n- Jellyfin-only library size summing (no Sonarr required for the size chip).\n- Clear-history button.\n- Rescan single show from the detail view (no full rescan needed).\n- Sort by size or by completion progress.\n- Prefer Sonarr's series path when available — fixes stale Jellyfin paths.\n- All prior 0.2 features.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.0.0/MissingEpisodes_1.0.0.0.zip",
-        "checksum": "9589908d77011a031a3197a4cd78e375",
-        "timestamp": "2026-04-21T18:45:00Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "First public beta.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v0.2.0/MissingEpisodes_0.2.0.0.zip",
-        "checksum": "a61749eff7d2c2ad32170b0456afbfda",
-        "timestamp": "2026-04-21T18:30:00Z"
+        "version": "1.1.0.1",
+        "changelog": "Calendar view + Jellyfin 12.\n- New Calendar view (thanks @RochiBZH): missing episodes with an air date, grouped Already released / Tomorrow / This week / Next week / by month.\n- Jellyfin 12 build (this build; 1.1.0.0 is for 10.11).\n- Revamp: filter bar keeps its grid; Sort and Search-all hidden in the calendar.\n- Sonarr search with no Sonarr configured now explains why instead of a server error.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ZL154/MissingEpisodesJellyfin/releases/download/v1.1.0/Jellyfin.Plugin.MissingEpisodes_1.1.0.1.zip",
+        "checksum": "c3af592f0e51a24f6d5befbe7b995d49",
+        "timestamp": "2026-10-30T22:00:00Z"
       }
     ]
   },
