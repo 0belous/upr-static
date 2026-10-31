@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T19:55:46.348Z",
+    "overview": "Generated: 2026-10-31T20:55:46.622Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-10-31T19:55:46.348Z"
+        "timestamp": "2026-10-31T20:55:46.622Z"
       }
     ]
   },
@@ -13793,6 +13793,14 @@
     "description": "Configure notifications to send to your Discord server when events occur.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/cedev-1/Jellyfin-Plugin-DiscordNotifier/master/manifest.json  \nGithub: https://github.com/cedev-1/Jellyfin-Plugin-DiscordNotifier",
     "imageUrl": "https://obelous.dev/plugins/images/DiscordNotifier.webp",
     "versions": [
+      {
+        "checksum": "71535dd66ec71437d96eee4bbcc714ad",
+        "version": "1.9.1.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier/releases/download/v1.9.1.0/Jellyfin.Plugin.DiscordNotifier-v1.9.1.0.zip",
+        "timestamp": "2026-10-31T20:39:45Z",
+        "changelog": "- New release v1.9.1.0"
+      },
       {
         "checksum": "bebbd7855eb489c897841efd7cd5be8b",
         "version": "1.9.0.0",
