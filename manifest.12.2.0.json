@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T11:55:46.337Z",
+    "overview": "Generated: 2026-10-31T12:55:46.447Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-10-31T11:55:46.337Z"
+        "timestamp": "2026-10-31T12:55:46.447Z"
       }
     ]
   },
@@ -15692,6 +15692,24 @@
     "imageUrl": "https://obelous.dev/plugins/images/SeerrFin.webp",
     "repositoryUrl": "https://github.com/varunaditya-plus/SeerrFin",
     "versions": [
+      {
+        "version": "1.9.2.2",
+        "changelog": "Fixed inflated download sizes in request progress for season packs",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.9.2.2/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "E945B1D88CFECF3BF2038CB4FB016C80",
+        "timestamp": "2026-10-31T12:01:45.0000000Z",
+        "dependencies": []
+      },
+      {
+        "version": "1.9.2.1",
+        "changelog": "Fixed root folder selector not appearing when an instance has only one quality profile. Changes by @sxlar3d",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.9.2.1/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "AF291A8115ED92A8A4339169A8919276",
+        "timestamp": "2026-10-31T11:59:24.0000000Z",
+        "dependencies": []
+      },
       {
         "version": "1.9.2.0",
         "changelog": "Replaced the single rating selector with separate movie and TV rating ones, added support for Tomatometer and Popcornmeter and added option to display ratings as stars with a customizable color",
