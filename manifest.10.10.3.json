@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 309, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T00:55:46.166Z",
+    "overview": "Generated: 2026-10-31T01:55:45.989Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.3",
-        "timestamp": "2026-10-31T00:55:46.166Z"
+        "timestamp": "2026-10-31T01:55:45.989Z"
       }
     ]
   },
@@ -113,6 +113,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/CollectionSections.webp",
     "versions": [
+      {
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-10.11.11.zip",
+        "checksum": "8AC81BC2131D36DBE99C5B347476AD84",
+        "timestamp": "2026-10-31T01:12:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.10.0",
         "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
@@ -1153,6 +1164,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/MediaBar.webp",
     "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-10.11.11.zip",
+        "checksum": "1EF9C5BC4F4F7DE70E9BD930968111FB",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.1.0",
         "changelog": "Added support for 12.2",
@@ -6822,6 +6844,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/PluginPages.webp",
     "versions": [
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-10.11.11.zip",
+        "checksum": "5A4AFE234D79D7D7A84DAB8A5A0920C3",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.2.0",
         "changelog": "Added support for 12.2",
@@ -23869,6 +23902,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/HomeScreenSections.webp",
     "versions": [
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-10.11.11.zip",
+        "checksum": "E81128BFD1A97644F4A79D7D57EE346D",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.3.0",
         "changelog": "✨ New Features\r\n\r\n* Added Studio / Network, Decade, Hidden Gems and Finish These Collections sections, and enabled the previously developed Starring and Directed By sections (PR #292, @n00bcodr).\r\n* Added per-section previews to the admin configuration page, allowing section results to be previewed before saving (PR #288, @n00bcodr).\r\n* Added a new Add/Remove section workflow to make managing enabled sections easier (PR #288, @n00bcodr).\r\n\r\n🛠️ Improvements\r\n\r\n* Reworked section ordering in the admin configuration page with drag-and-drop support, including support for moving groups of sections that share the same order (PR #288, @n00bcodr).\r\n* Added section information popovers using the new admin descriptions (PR #288, @n00bcodr).\r\n* Improved section naming fallbacks and fixed missing Genre section localisation in the admin interface (PR #288, @n00bcodr).\r\n* Escaped section metadata when rendering the home screen and settings interface so titles and names containing markup are displayed safely as text (PR #304, @4eh5xitv6787h645ebv).\r\n\r\n🪲 Bug Fixes\r\n\r\n* Fixed #297 where users on Jellyfin 12 could receive items from libraries they did not have access to in Latest Movies, Latest Shows, Recently Added and Genre sections (PR #301, @4eh5xitv6787h645ebv).\r\n* Fixed #298 where authenticated users could access another user’s Home Screen Sections data by supplying that user’s ID. User-scoped endpoints are now bound to the authenticated user (PR #302, @4eh5xitv6787h645ebv).\r\n* Fixed #298 by restricting section registration to administrators and limiting registered section result endpoints to the originating server (PR #303, @4eh5xitv6787h645ebv).\r\n\r\n🌐 Translations\r\n\r\n* Completed missing Spanish and Catalan translations (PR #293, @GospelBG).\r\n* Added Greek translations (PR #299, @KaliDarkzy).\r\n\r\n⚠️ Compatibility\r\n\r\n* Added support for Jellyfin 12.2.\r\n* Jellyfin 10.11.11 remains supported.\r\n\r\nContributors\r\n\r\n* n00bcodr\r\n* GospelBG\r\n* KaliDarkzy\r\n* 4eh5xitv6787h645ebv",

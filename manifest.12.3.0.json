@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T00:55:46.166Z",
+    "overview": "Generated: 2026-10-31T01:55:45.989Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-10-31T00:55:46.166Z"
+        "timestamp": "2026-10-31T01:55:45.989Z"
       }
     ]
   },
@@ -92,271 +92,62 @@
     "guid": "043b2c48-b3e0-4610-b398-8217b146d1a4",
     "name": "Collection Sections",
     "overview": "Adds home screen section for collections/playlists",
-    "description": "Adds home screen section for collections/playlists  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Adds home screen section for collections/playlists  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/CollectionSections.webp",
     "versions": [
       {
-        "version": "2.3.10.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.10.zip",
-        "checksum": "35EC7E5E6A909E34C1BE3A5CDD76CC0B",
-        "timestamp": "2026-06-11T09:59:16",
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-12.4.0.zip",
+        "checksum": "2A9FDC6B8E9D9828FD0968A127ACE092",
+        "timestamp": "2026-10-31T01:12:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       },
       {
-        "version": "2.3.10.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.11.zip",
-        "checksum": "601CB02C36E372F542581D8481C96F77",
-        "timestamp": "2026-06-11T09:59:16",
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-12.0.0.zip",
+        "checksum": "A1E4AA5B814A6C988A36B2F76B8B7F68",
+        "timestamp": "2026-10-31T01:12:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       },
       {
-        "version": "2.3.10.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
-        "targetAbi": "10.11.7.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.7.zip",
-        "checksum": "6911C1AE4066667FD2535CF7D942D573",
-        "timestamp": "2026-06-11T09:59:16",
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-12.1.0.zip",
+        "checksum": "BA3CD337F689C720EE1E4DAC50BAC8D4",
+        "timestamp": "2026-10-31T01:12:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       },
       {
-        "version": "2.3.10.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
-        "targetAbi": "10.11.8.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.8.zip",
-        "checksum": "EFE1E616C8298DA9882161B47FE5CFB4",
-        "timestamp": "2026-06-11T09:59:16",
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-12.2.0.zip",
+        "checksum": "0AD1FA1FE4DFE33C5C5B61E04BB549B3",
+        "timestamp": "2026-10-31T01:12:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
       },
       {
-        "version": "2.3.10.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.11",
-        "targetAbi": "10.11.9.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.9.zip",
-        "checksum": "3C30683149942D61FDD419D18824B0BB",
-        "timestamp": "2026-06-11T09:59:16",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.9.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
-        "targetAbi": "10.11.10.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.10.zip",
-        "checksum": "E9F44876AA62992B04F0A06EF42C31F6",
-        "timestamp": "2026-05-25T19:57:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.9.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
-        "targetAbi": "10.11.7.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.7.zip",
-        "checksum": "413D486E118AE134BCF2128675292705",
-        "timestamp": "2026-05-25T19:57:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.9.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.9 and 10.11.10",
-        "targetAbi": "10.11.8.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.9.0/Release-10.11.8.zip",
-        "checksum": "27F297FE14BAD4758CB6F7C2F3C9F5AD",
-        "timestamp": "2026-05-25T19:57:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.8.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
-        "targetAbi": "10.11.7.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.8.0/Release-10.11.7.zip",
-        "checksum": "6A4DA7A1F64CD9398B9578AD53045996",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.8.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.8",
-        "targetAbi": "10.11.8.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.8.0/Release-10.11.8.zip",
-        "checksum": "83BCF13C9B57E05F3E548C2F4EC633F5",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.7.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.7\r\n- Due to the security warning issued with the release of 10.11.7, all previous 10.11.x versions have been discontinued effective immediately to promote upgrading to the more secure version",
-        "targetAbi": "10.11.7.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.7.0/Release-10.11.7.zip",
-        "checksum": "230514FDF8985D5610803D86CB243B26",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.6.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.0.zip",
-        "checksum": "915D824010A05908A82F7787579F1AB5",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.6.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.5.zip",
-        "checksum": "820DC8FB8ED96B96398357B200F32AD0",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.6.0",
-        "changelog": "✨ New Features\r\n\r\n- Added support for 10.11.6",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.6.0/Release-10.11.6.zip",
-        "checksum": "1F5BF1B07A3FC8133CCA80FC6BC5915B",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.5.0",
-        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.5.0/Release-10.11.0.zip",
-        "checksum": "2F42A397B9D96B01B18FB4C923FEFB1E",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.5.0",
-        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5",
-        "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.5.0/Release-10.11.5.zip",
-        "checksum": "A7F0996D17DA22C76299F4FE9D1E28E2",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.4.0",
-        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.4",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.4.0/Release-10.11.0.zip",
-        "checksum": "35E4B88FB3D9B3244CE3540B0831AE95",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.3.0",
-        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.3.0/Release-10.11.0.zip",
-        "checksum": "125DF8C03DFD14C807D2996479F9301F",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.2.0",
-        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.2.0/Release-10.11.0.zip",
-        "checksum": "DBFC88F786D1C69E026BD9D185FBC8D6",
-        "timestamp": "2025-11-03T22:24:52",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.1.0",
-        "changelog": "🆕 Updated to support 10.11.1",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.1.0/Release-10.11.0.zip",
-        "checksum": "70A1A9B307DE9FB26EC8F50D4A42161C",
-        "timestamp": "2025-10-27T22:57:37",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.3.0.0",
-        "changelog": "✨ 10.11.0 Release Update",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.0.0/Release-10.11.0.zip",
-        "checksum": "16F21C197ADD524879034C5C58EDC60E",
-        "timestamp": "2025-10-20T09:36:44",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.3.0",
-        "changelog": "No changelog supplied",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.2.3.0/Release-10.11.0-rc8.zip",
-        "checksum": "B3D08F0784EA71432D97C7CD5B9DE7EF",
-        "timestamp": "2025-10-04T21:25:29",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.2.0",
-        "changelog": "No changelog supplied",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.2.2.0/Release-10.11.0-rc5.zip",
-        "checksum": "36DA113413B3B881E3CA3A40F2F86B73",
-        "timestamp": "2025-09-09T20:01:55",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "2.2.1.0",
-        "changelog": "No changelog supplied",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.2.1.0/Release-10.11.0-rc5.zip",
-        "checksum": "9557FC9BCFC839EC5B54C9E17650A712",
-        "timestamp": "2025-08-24T19:50:19",
+        "version": "2.3.11.0",
+        "changelog": "Added support for all 12.x versions, I'm too slow to migrate to HSS natively and this is quicker. Apologies for the delay in getting this released. There is still plan to move this to HSS, but for now have a release!",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.11.0/Release-12.3.0.zip",
+        "checksum": "907566DD21981F5197FA138D88139731",
+        "timestamp": "2026-10-31T01:12:52",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
@@ -765,11 +556,66 @@
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar",
     "overview": "Adds a media bar element at the top of the homepage on Jellyfin web",
-    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Adds a media bar element at the top of the homepage on Jellyfin web  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/MediaBar.webp",
     "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-12.4.0.zip",
+        "checksum": "9E9AFA596E2525947D7A929FE502B683",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-12.0.0.zip",
+        "checksum": "BA3FF8A018DE59F7F1D83BC5734AA817",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-12.1.0.zip",
+        "checksum": "1D7BA4DFCF7642D04D3D2DD6A6890578",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-12.2.0.zip",
+        "checksum": "EB1F86A343442F2C90F003C3E0FEF13A",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.2.0",
+        "changelog": "Added support for 12.3 and 12.4\r\nMerged in latest from MakD upstream repo",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.2.0/Release-12.3.0.zip",
+        "checksum": "79BF2E2E2EEAD56993C9E23FB4C51E33",
+        "timestamp": "2026-10-28T10:28:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.1.0",
         "changelog": "Added support for 12.2",
@@ -4179,11 +4025,66 @@
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages",
     "overview": "Adds support for plugins to define their own user settings pages, rather than just admin sided.",
-    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/PluginPages.webp",
     "versions": [
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-12.4.0.zip",
+        "checksum": "0FB47025B73AED70E47AC4099ABC6887",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-12.0.0.zip",
+        "checksum": "03DAE7766BDB2C94AF4E5A5CEB044216",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-12.1.0.zip",
+        "checksum": "C2D3337BA91559712EE03B0E60D40437",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-12.2.0.zip",
+        "checksum": "1DC53B3E1BC7CB87A570EC28BE91B560",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.3.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.3.0/Release-12.3.0.zip",
+        "checksum": "AAA9C6DBF6DE7B1D703F74AB4FED59E4",
+        "timestamp": "2026-09-16T09:19:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.2.0",
         "changelog": "Added support for 12.2",
@@ -13740,11 +13641,66 @@
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
     "overview": "Adds support for server provided home screen sections",
-    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
+    "description": "Adds support for server provided home screen sections  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/mleem97/mleem-jellyfin/main/manifest.json  \nGithub: https://github.com/mleem97/mleem-jellyfin",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/HomeScreenSections.webp",
     "versions": [
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-12.4.0.zip",
+        "checksum": "6D99DAA1A198BC8996B20BDB6792CEB0",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-12.0.0.zip",
+        "checksum": "EADB280432DE2AAF40635850FB897F91",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-12.1.0.zip",
+        "checksum": "A665C11454406C352DAD3943A7B6E99B",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-12.2.0.zip",
+        "checksum": "FA156182859FD840CCC3030D53B40A71",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "3.0.4.0",
+        "changelog": "Added support for 12.3 and 12.4",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.4.0/Release-12.3.0.zip",
+        "checksum": "82B616186C80FAC406AC060852E46E44",
+        "timestamp": "2026-10-05T21:33:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "3.0.3.0",
         "changelog": "✨ New Features\r\n\r\n* Added Studio / Network, Decade, Hidden Gems and Finish These Collections sections, and enabled the previously developed Starring and Directed By sections (PR #292, @n00bcodr).\r\n* Added per-section previews to the admin configuration page, allowing section results to be previewed before saving (PR #288, @n00bcodr).\r\n* Added a new Add/Remove section workflow to make managing enabled sections easier (PR #288, @n00bcodr).\r\n\r\n🛠️ Improvements\r\n\r\n* Reworked section ordering in the admin configuration page with drag-and-drop support, including support for moving groups of sections that share the same order (PR #288, @n00bcodr).\r\n* Added section information popovers using the new admin descriptions (PR #288, @n00bcodr).\r\n* Improved section naming fallbacks and fixed missing Genre section localisation in the admin interface (PR #288, @n00bcodr).\r\n* Escaped section metadata when rendering the home screen and settings interface so titles and names containing markup are displayed safely as text (PR #304, @4eh5xitv6787h645ebv).\r\n\r\n🪲 Bug Fixes\r\n\r\n* Fixed #297 where users on Jellyfin 12 could receive items from libraries they did not have access to in Latest Movies, Latest Shows, Recently Added and Genre sections (PR #301, @4eh5xitv6787h645ebv).\r\n* Fixed #298 where authenticated users could access another user’s Home Screen Sections data by supplying that user’s ID. User-scoped endpoints are now bound to the authenticated user (PR #302, @4eh5xitv6787h645ebv).\r\n* Fixed #298 by restricting section registration to administrators and limiting registered section result endpoints to the originating server (PR #303, @4eh5xitv6787h645ebv).\r\n\r\n🌐 Translations\r\n\r\n* Completed missing Spanish and Catalan translations (PR #293, @GospelBG).\r\n* Added Greek translations (PR #299, @KaliDarkzy).\r\n\r\n⚠️ Compatibility\r\n\r\n* Added support for Jellyfin 12.2.\r\n* Jellyfin 10.11.11 remains supported.\r\n\r\nContributors\r\n\r\n* n00bcodr\r\n* GospelBG\r\n* KaliDarkzy\r\n* 4eh5xitv6787h645ebv",
