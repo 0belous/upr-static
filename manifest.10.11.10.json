@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T10:55:46.073Z",
+    "overview": "Generated: 2026-10-31T11:55:46.337Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-10-31T10:55:46.073Z"
+        "timestamp": "2026-10-31T11:55:46.337Z"
       }
     ]
   },
@@ -2221,6 +2221,14 @@
     "category": "Metadata",
     "imageUrl": "https://obelous.dev/plugins/images/AnimeClickMetadata.webp",
     "versions": [
+      {
+        "version": "1.6.2.0",
+        "changelog": "Azioni rapide senza uscire dalla pagina del plugin: sblocco e identificazione in un solo clic per le schede bloccate in Jellyfin, riparazione dei titoli e completamento/sblocco delle trame direttamente dal pannello di dettaglio della serie o sul singolo episodio, abbinamento diretto della stagione con scheda propria, navigazione «Precedente» / «Successivo» tra gli anime nel pannello laterale, ricerca automatica su AnimeClick all'apertura dalla Libreria, supporto del tasto Invio nei campi di ricerca, prova diretta delle fonti episodio con titolo AnimeClick e azzeramento delle soppressioni del registro di riparazione allo svuotamento della cache. Richiede Jellyfin 12.0 o successivo.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/iCosiSenpai/jellyfin-plugin-animeclick/releases/download/v1.6.2.0/AnimeClick.Plugin.zip",
+        "checksum": "F432CFA528902D8E992554CBF88AB80A",
+        "timestamp": "2026-10-31T11:31:36Z"
+      },
       {
         "version": "1.6.1.0",
         "changelog": "Rifinitura completa del motore di ricerca e abbinamento, del backend e dell'interfaccia: guardia sull'anno nei sequel per stagione, conservazione dell'ID stagione e separazione della trama serie/stagione nei refresh, pulizia degli ID figli obsoleti e cache immediata quando si corregge un abbinamento, refresh post-traduzione AI anche per le serie, cache delle sottopagine personaggi/relazioni vuote, allineamento tra analisi singola e completa della libreria, protezione lato server della chiave AI al cambio di destinazione e miglioramenti di accessibilità e reattività nella pagina del plugin. README rinnovato. Richiede Jellyfin 12.0 o successivo.",
@@ -28047,6 +28055,15 @@
     "imageUrl": "https://obelous.dev/plugins/images/SeerrFin.webp",
     "repositoryUrl": "https://github.com/varunaditya-plus/SeerrFin",
     "versions": [
+      {
+        "version": "1.9.2.0",
+        "changelog": "Replaced the single rating selector with separate movie and TV rating ones, added support for Tomatometer and Popcornmeter and added option to display ratings as stars with a customizable color",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.9.2.0/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "ADA10CBB91E0866CC0E83CBDCBA545A8",
+        "timestamp": "2026-10-31T11:51:41.0000000Z",
+        "dependencies": []
+      },
       {
         "version": "1.9.1.0",
         "changelog": "Added an option in config for TMDB, IMDb, or both to be used for displaying ratings (both is default)",
