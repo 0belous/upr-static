@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 309, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-10-31T16:55:48.122Z",
+    "overview": "Generated: 2026-10-31T17:55:46.632Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-10-31T16:55:48.122Z"
+        "timestamp": "2026-10-31T17:55:46.632Z"
       }
     ]
   },
@@ -30559,6 +30559,14 @@
     "category": "Utilities",
     "imageUrl": "https://obelous.dev/plugins/images/StreamLimiter.webp",
     "versions": [
+      {
+        "version": "1.1.0.3",
+        "changelog": "- Fixed \"ghost\" streams: users shown with (and blocked by) streams they no longer had, even while not connected. Streams now count by real activity — Jellyfin playback reports and bytes actually sent — instead of open connections: a media connection left open without sending anything (phone asleep or offline, app killed, a server-side segment wait the client gave up on) stops counting after 90 s and is cut after 30 minutes; ended or client-aborted requests never count\n- Fixed a stop report or session end not freeing the slot of a device that still had idle open connections\n- Fixed playback negotiation (PlaybackInfo) refusing a stream the media request itself would have allowed (abandoned slots of a closed tab)\n- Slots, stopped devices, play-session ids and throttles are now cleaned up every minute, also for users who never come back\n- NEW: your blocked message is sent to native apps by default (Android TV, Swiftfin, Streamyfin, AFinity, Findroid…), as a 10 s notice, instead of an endless spinner (\"Show my message on native apps\", on); when the jellyfin-android native player is blocked, the message goes to the app's web UI. \"Also push a server message\" now only adds it on web clients\n- NEW: \"Reset\" button per user in the live view: releases all of the user's slots and stopped devices (last-resort fix)\n- Clearer live view: only what is counted (plus devices the plugin stopped), with the reason (playing, streaming, recent, stopped), idle time and open connections\n- Admin stop now reports live responses cut separately from stale registrations cleared\n- Redesigned settings page",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit/releases/download/v1.1.0.3/StreamLimit-v1.1.0.3.zip",
+        "timestamp": "2026-10-31T17:48:05Z",
+        "checksum": "EEDFD3D977015FC5F8E81743824B7A30"
+      },
       {
         "version": "1.1.0.2",
         "changelog": "- NEW: administrators are exempt from stream limits by default (\"Exempt administrators\", can be turned off)\n- NEW: \"Stream Limiter\" entry in the dashboard sidebar\n- NEW: live view of the counted streams on the settings page, with Stop / Stop + log out buttons: immediate, also cuts downloads in progress (recorded in the activity log)\n- NEW: webhook notifications when a stream is blocked (and optionally when an admin stops one): Discord, Apprise or any JSON endpoint, with a \"Send test\" button (issue #7)\n- NEW: placeholders in the blocked message: {{user}}, {{active}}, {{limit}}, {{devices}} (web popup and server message)\n- NEW: blocked streams are recorded in Dashboard > Activity with user, device, client and IP (one entry per user and device every 5 minutes; can be turned off) (issue #7)\n- Custom web message is now added to the web client as it is served instead of editing index.html on disk: works with read-only web folders, survives web updates, toggling it needs no restart, and plugin updates are picked up without stale cached scripts (also in Android webviews). The tag written on disk by older versions is removed automatically (and on uninstall)\n- Custom web message now shows above the buffering spinner of newer jellyfin-web versions, which is dismissed, and also detects blocks on fetch() requests\n- Fixed users locked out after a stop by clients that keep their session alive (AFinity progress reports, Swiftfin without a stopped report, jellyfin-android native player): a stopped device no longer counts for up to 10 minutes\n- Sessions that cannot receive the stop command are now stopped server side\n- Hard block now also identifies requests using legacy token headers (X-Emby-Token, X-MediaBrowser-Token, X-Emby-Authorization, Emby scheme), ignored by Jellyfin 12 by default\n- A deleted user's limit is removed from the configuration\n- Jellyfin 12 build: compatible with Jellyfin 12.0 to 12.3",
