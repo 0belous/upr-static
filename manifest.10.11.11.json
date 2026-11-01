@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T05:55:46.856Z",
+    "overview": "Generated: 2026-11-01T06:55:46.700Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.11",
-        "timestamp": "2026-11-01T05:55:46.856Z"
+        "timestamp": "2026-11-01T06:55:46.700Z"
       }
     ]
   },
@@ -10012,7 +10012,7 @@
     "versions": [
       {
         "version": "1.0.3.0",
-        "changelog": "## ✨ New Features\n\n- **Issue a certificate now:** Request a new certificate before renewal is due, even when automatic management is disabled. Save your settings first; the button uses your saved staging/production and restart settings.\n\n## 🎨 Improvements\n\n- **Issuance limits:** Manual requests retain the six-hour cooldown and certificate authority rate limits.",
+        "changelog": "## ✨ New Features\n\n- **Issue a certificate now:** Request a new certificate before renewal is due, even when automatic management is disabled. Save your settings first; the button uses your saved staging/production and restart settings.\n\n## ⚙️ Improvements\n\n- **Issuance limits:** Manual requests retain the six-hour cooldown and certificate authority rate limits.",
         "targetAbi": "12.1.0.0",
         "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.3.0/AutoCert_1.0.3.0.zip",
         "checksum": "25dd9fd4850d75663b52f9fc71e47df3",
@@ -10036,7 +10036,7 @@
       },
       {
         "version": "1.0.0.0",
-        "changelog": "## ✨ New Features\n\n- **Certificate cleanup:** Retain replaced AutoCert certificates for five days after first observing them unused with the replacement active, then remove them at the next scheduled 12-hour check.\n\n## 🎨 Improvements\n\n- **Protected certificates:** Keep the active production certificate, latest staging certificate, and externally supplied files. Cleanup waits for any pending restart.\n- **Upgrade grace period:** Give existing old files a fresh five-day grace period when upgrading. Rollback to a deleted certificate is no longer available.\n- **Stable release:** AutoCert 1.0.0.0 is now a regular release.",
+        "changelog": "## ✨ New Features\n\n- **Certificate cleanup:** Retain replaced AutoCert certificates for five days after first observing them unused with the replacement active, then remove them at the next scheduled 12-hour check.\n\n## ⚙️ Improvements\n\n- **Protected certificates:** Keep the active production certificate, latest staging certificate, and externally supplied files. Cleanup waits for any pending restart.\n- **Upgrade grace period:** Give existing old files a fresh five-day grace period when upgrading. Rollback to a deleted certificate is no longer available.\n- **Stable release:** AutoCert 1.0.0.0 is now a regular release.",
         "targetAbi": "12.1.0.0",
         "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v1.0.0.0/AutoCert_1.0.0.0.zip",
         "checksum": "222ddf2691e2b4983c31682db0782735",
@@ -10052,7 +10052,7 @@
       },
       {
         "version": "0.2.1.0",
-        "changelog": "## 🐛 Bug Fixes\n\n- **Status after restart:** Resolved a stale restart message. Show Certificate Active when Jellyfin reports HTTPS listening, no restart is pending, certificate settings match, and the AutoCert PFX is valid.\n\n## 🎨 Improvements\n\n- **Error visibility:** Preserve staging messages and renewal failures.",
+        "changelog": "## 🐛 Bug Fixes\n\n- **Status after restart:** Resolved a stale restart message. Show Certificate Active when Jellyfin reports HTTPS listening, no restart is pending, certificate settings match, and the AutoCert PFX is valid.\n\n## ⚙️ Improvements\n\n- **Error visibility:** Preserve staging messages and renewal failures.",
         "targetAbi": "12.1.0.0",
         "sourceUrl": "https://github.com/aober420/Jellyfin-AutoCert/releases/download/v0.2.1/AutoCert_0.2.1.0.zip",
         "checksum": "933efb8a15ea94fafd9b1aed090230d7",
@@ -33244,9 +33244,29 @@
     "versions": [
       {
         "timestamp": "2026-11-01T00:00:00Z",
+        "sourceUrl": "https://raw.githubusercontent.com/aober420/AD-Account-Sync/main/releases/AD%20Account%20Sync_1.0.2.1.zip",
+        "version": "1.0.2.1",
+        "changelog": "## 🐛 Bug Fixes\n\n- Wait for Jellyfin to register the sync task before starting the internal timer. Fixes the scheduled task unavailable error and failed trigger cleanup.\n- Remove the legacy interval and startup triggers; automatic syncing uses the plugin timer.\n- Skip timed runs while the manual task is already running.\n\nThe configurable interval remains 5 minutes by default. Restart Jellyfin after installing.",
+        "checksum": "0af360af772355b20a1c8fdf4dc59e7c",
+        "targetAbi": "12.0.0.0",
+        "repositoryName": "AD Account Sync",
+        "repositoryUrl": "https://github.com/aober420/AD-Account-Sync"
+      },
+      {
+        "timestamp": "2026-11-01T00:00:00Z",
+        "sourceUrl": "https://raw.githubusercontent.com/aober420/AD-Account-Sync/main/releases/AD%20Account%20Sync_1.0.2.0.zip",
+        "version": "1.0.2.0",
+        "changelog": "## ✨ New Features\n\n- Internal sync timer with a configurable interval of 5–1440 minutes; default 5 minutes.\n\n## ⚙️ Improvements\n\n- Removes the plugin's old Scheduled Tasks interval triggers on startup.\n- Groups the manual sync task under AD Account Sync.\n- Saving settings resets the timer. Manual sync remains available and uses the same task worker.\n- No Jellyfin Web file modifications required.\n\nBuilt against Jellyfin 12.4.0.",
+        "checksum": "5e17e18922555d7da495f0b2d68a7e74",
+        "targetAbi": "12.0.0.0",
+        "repositoryName": "AD Account Sync",
+        "repositoryUrl": "https://github.com/aober420/AD-Account-Sync"
+      },
+      {
+        "timestamp": "2026-11-01T00:00:00Z",
         "sourceUrl": "https://raw.githubusercontent.com/aober420/AD-Account-Sync/main/releases/AD%20Account%20Sync_1.0.1.0.zip",
         "version": "1.0.1.0",
-        "changelog": "Jellyfin 12.4.0 release. Runs AD account synchronization every 5 minutes instead of every 15 minutes.",
+        "changelog": "## ✨ New Features\n\n- Jellyfin 12.4.0 support.\n\n## ⚙️ Improvements\n\n- Sync Active Directory account status every 5 minutes instead of every 15 minutes.",
         "checksum": "d5af665260d96aacf8da0c3ea2140c00",
         "targetAbi": "12.0.0.0",
         "repositoryName": "AD Account Sync",
