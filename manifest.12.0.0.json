@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T20:55:47.178Z",
+    "overview": "Generated: 2026-11-01T21:55:47.280Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.0.0",
-        "timestamp": "2026-11-01T20:55:47.178Z"
+        "timestamp": "2026-11-01T21:55:47.280Z"
       }
     ]
   },
@@ -6066,65 +6066,17 @@
     "guid": "74a22212-e4c5-4b5c-8d77-04e7e220f28d",
     "name": "DiscontinueWatching",
     "overview": "Hide items from the Continue Watching list",
-    "description": "DiscontinueWatching hides items from the Continue Watching list in Jellyfin, helping you keep your watchlist clean and relevant.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-discontinue-watching/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-discontinue-watching",
+    "description": "DiscontinueWatching hides items from the Continue Watching list in Jellyfin, helping you keep your watchlist clean and relevant.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-discontinue-watching/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-discontinue-watching",
     "owner": "jon4hz",
     "category": "General",
     "versions": [
       {
-        "version": "0.5.1.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.5.1)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.5.1/jellyfin-plugin-discontinue-watching-0.5.1.zip",
-        "checksum": "016ab0e789ba85d60a2f760d85aacd12",
-        "timestamp": "2025-12-07T22:33:03Z"
-      },
-      {
-        "version": "0.5.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.5.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.5.0/jellyfin-plugin-discontinue-watching-0.5.0.zip",
-        "checksum": "56d4b0331f4687f6f4a5b2badb6c0cfe",
-        "timestamp": "2025-12-07T22:08:11Z"
-      },
-      {
-        "version": "0.4.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.4.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.4.0/jellyfin-plugin-discontinue-watching-0.4.0.zip",
-        "checksum": "8f2c15726699685f3d6ef8cfccc7cc99",
-        "timestamp": "2025-11-23T17:33:49Z"
-      },
-      {
-        "version": "0.2.1.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.2.1)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.2.1/jellyfin-plugin-discontinue-watching-0.2.1.zip",
-        "checksum": "9f482df7b050b9017b5edb003f493e0c",
-        "timestamp": "2025-11-20T22:49:14Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.2.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.2.0/jellyfin-plugin-discontinue-watching-0.2.0.zip",
-        "checksum": "d4b541bd83ae5d2b0ffacd22b1578e5d",
-        "timestamp": "2025-11-20T22:02:34Z"
-      },
-      {
-        "version": "0.1.1.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.1.1)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.1.1/jellyfin-plugin-discontinue-watching-0.1.1.zip",
-        "checksum": "3034eff674f3a10c109a576249d10dce",
-        "timestamp": "2025-11-20T21:32:53Z"
-      },
-      {
-        "version": "0.1.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.1.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.1.0/jellyfin-plugin-discontinue-watching-0.1.0.zip",
-        "checksum": "3c5536b123c9369bad122792d43e16d4",
-        "timestamp": "2025-11-20T21:16:14Z"
+        "version": "0.6.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.6.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.6.0/jellyfin-plugin-discontinue-watching-0.6.0.zip",
+        "checksum": "2d8ccf7cc17a2a33ebec51e4cefd7383",
+        "timestamp": "2026-11-01T21:46:34Z"
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/DiscontinueWatching.webp"
@@ -12162,66 +12114,18 @@
     "guid": "a760bbb5-7b7b-4fda-951c-f3c39d689a8f",
     "name": "Jellysleep",
     "overview": "Sleep timer plugin that automatically stops playback after a specified time or episodes",
-    "description": "Jellysleep adds sleep timer functionality to Jellyfin. Set timers by duration (15min, 30min, 1h, 2h) or episodes.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysleep",
+    "description": "Jellysleep adds sleep timer functionality to Jellyfin. Set timers by duration (15min, 30min, 1h, 2h) or episodes.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysleep",
     "owner": "jon4hz",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Jellysleep.webp",
     "versions": [
       {
-        "version": "0.8.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.8.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.8.0/jellyfin-plugin-jellysleep-0.8.0.zip",
-        "checksum": "dbb0d13fcfd72db1fee9df56c8960936",
-        "timestamp": "2025-11-23T21:04:31Z"
-      },
-      {
-        "version": "0.7.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.7.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.7.0/jellyfin-plugin-jellysleep-0.7.0.zip",
-        "checksum": "6436713a3406e121efb24bb2b7e24faa",
-        "timestamp": "2025-11-23T19:58:57Z"
-      },
-      {
-        "version": "0.6.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.6.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.6.0/jellyfin-plugin-jellysleep-0.6.0.zip",
-        "checksum": "7489dda1c1ea5f14289a0fd5404e952c",
-        "timestamp": "2025-11-23T18:39:35Z"
-      },
-      {
-        "version": "0.5.1.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.1)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.5.1/jellyfin-plugin-jellysleep-0.5.1.zip",
-        "checksum": "950c0cd96dc4d1191b394eda0c48c9c3",
-        "timestamp": "2025-10-21T17:12:13Z"
-      },
-      {
-        "version": "0.5.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.5.0/jellyfin-plugin-jellysleep-0.5.0.zip",
-        "checksum": "be831d3afc2726b34ca5f3fbf1105093",
-        "timestamp": "2025-10-20T21:40:38Z"
-      },
-      {
-        "version": "0.4.1.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.4.1)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.4.1/jellyfin-plugin-jellysleep-0.4.1.zip",
-        "checksum": "3b0b5c5a5061cf97ee1d45646dc1e3b0",
-        "timestamp": "2025-10-20T21:17:36Z"
-      },
-      {
-        "version": "0.4.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.4.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.4.0/jellyfin-plugin-jellysleep-0.4.0.zip",
-        "checksum": "4960282d2320de6658350cd37cac9bf6",
-        "timestamp": "2025-10-20T20:49:09Z"
+        "version": "0.9.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.9.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.9.0/jellyfin-plugin-jellysleep-0.9.0.zip",
+        "checksum": "c7b9eb4705a3c87f60390b4e0c90244f",
+        "timestamp": "2026-11-01T21:46:43Z"
       }
     ]
   },
@@ -14327,18 +14231,18 @@
     "guid": "bfd3327c-74c8-4664-8473-4fd2a4258be4",
     "name": "Jellysweep",
     "overview": "Companion plugin for Jellysweep",
-    "description": "Companion plugin for Jellysweep  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysweep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysweep",
+    "description": "Companion plugin for Jellysweep  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysweep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysweep",
     "owner": "jon4hz",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Jellysweep.webp",
     "versions": [
       {
-        "version": "0.2.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/tag/v0.2.0)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/download/v0.2.0/jellyfin-plugin-jellysweep-0.2.0.zip",
-        "checksum": "fdbe55c3da4ad0bf3a7014bd24fab06d",
-        "timestamp": "2025-11-29T18:40:56Z"
+        "version": "0.3.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/tag/v0.3.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/download/v0.3.0/jellyfin-plugin-jellysweep-0.3.0.zip",
+        "checksum": "e52062dbec284d7320d11291016fc926",
+        "timestamp": "2026-11-01T21:44:29Z"
       }
     ]
   },

@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 192, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T20:55:47.178Z",
+    "description": "Aggregated: 195, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-01T21:55:47.280Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-11-01T20:55:47.178Z"
+        "timestamp": "2026-11-01T21:55:47.280Z"
       }
     ]
   },
@@ -3107,6 +3107,25 @@
     ]
   },
   {
+    "guid": "74a22212-e4c5-4b5c-8d77-04e7e220f28d",
+    "name": "DiscontinueWatching",
+    "overview": "Hide items from the Continue Watching list",
+    "description": "DiscontinueWatching hides items from the Continue Watching list in Jellyfin, helping you keep your watchlist clean and relevant.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-discontinue-watching/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-discontinue-watching",
+    "owner": "jon4hz",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.6.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.6.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.6.0/jellyfin-plugin-discontinue-watching-0.6.0.zip",
+        "checksum": "2d8ccf7cc17a2a33ebec51e4cefd7383",
+        "timestamp": "2026-11-01T21:46:34Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/DiscontinueWatching.webp"
+  },
+  {
     "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
     "name": "Kodi Sync Queue",
     "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.  \n  \nUniversal Repo [✓] \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -5202,6 +5221,25 @@
     ]
   },
   {
+    "guid": "a760bbb5-7b7b-4fda-951c-f3c39d689a8f",
+    "name": "Jellysleep",
+    "overview": "Sleep timer plugin that automatically stops playback after a specified time or episodes",
+    "description": "Jellysleep adds sleep timer functionality to Jellyfin. Set timers by duration (15min, 30min, 1h, 2h) or episodes.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysleep",
+    "owner": "jon4hz",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Jellysleep.webp",
+    "versions": [
+      {
+        "version": "0.9.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.9.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.9.0/jellyfin-plugin-jellysleep-0.9.0.zip",
+        "checksum": "c7b9eb4705a3c87f60390b4e0c90244f",
+        "timestamp": "2026-11-01T21:46:43Z"
+      }
+    ]
+  },
+  {
     "guid": "a7e4c1d2-6b58-4f0a-9c33-81d5e2b47a60",
     "name": "Jellyfin Color Tags",
     "overview": "Add colors and names, then drag to reorder. The dot appears above the more button on posters and next to the favorite button in the player. A color can also cap the streaming bitrate or always transcode. English by default; Simplified Chinese for any zh display language, including zh-CN, zh-TW, and zh-HK.",
@@ -6304,6 +6342,25 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/Ignore.webp"
+  },
+  {
+    "guid": "bfd3327c-74c8-4664-8473-4fd2a4258be4",
+    "name": "Jellysweep",
+    "overview": "Companion plugin for Jellysweep",
+    "description": "Companion plugin for Jellysweep  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysweep/main/manifest.json  \nGithub: https://github.com/jon4hz/jellyfin-plugin-jellysweep",
+    "owner": "jon4hz",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Jellysweep.webp",
+    "versions": [
+      {
+        "version": "0.3.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/tag/v0.3.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/download/v0.3.0/jellyfin-plugin-jellysweep-0.3.0.zip",
+        "checksum": "e52062dbec284d7320d11291016fc926",
+        "timestamp": "2026-11-01T21:44:29Z"
+      }
+    ]
   },
   {
     "category": "General",

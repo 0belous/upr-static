@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 319, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T20:55:47.178Z",
+    "overview": "Generated: 2026-11-01T21:55:47.280Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.11",
-        "timestamp": "2026-11-01T20:55:47.178Z"
+        "timestamp": "2026-11-01T21:55:47.280Z"
       }
     ]
   },
@@ -10900,6 +10900,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.6.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.6.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/download/v0.6.0/jellyfin-plugin-discontinue-watching-0.6.0.zip",
+        "checksum": "2d8ccf7cc17a2a33ebec51e4cefd7383",
+        "timestamp": "2026-11-01T21:46:34Z"
+      },
+      {
         "version": "0.5.1.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching/releases/tag/v0.5.1)\n",
         "targetAbi": "10.11.0.0",
@@ -21155,6 +21163,14 @@
     "imageUrl": "https://obelous.dev/plugins/images/Jellysleep.webp",
     "versions": [
       {
+        "version": "0.9.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.9.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.9.0/jellyfin-plugin-jellysleep-0.9.0.zip",
+        "checksum": "c7b9eb4705a3c87f60390b4e0c90244f",
+        "timestamp": "2026-11-01T21:46:43Z"
+      },
+      {
         "version": "0.8.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.8.0)\n",
         "targetAbi": "10.11.0.0",
@@ -26252,6 +26268,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Jellysweep.webp",
     "versions": [
+      {
+        "version": "0.3.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/tag/v0.3.0)\n",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/download/v0.3.0/jellyfin-plugin-jellysweep-0.3.0.zip",
+        "checksum": "e52062dbec284d7320d11291016fc926",
+        "timestamp": "2026-11-01T21:44:29Z"
+      },
       {
         "version": "0.2.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysweep/releases/tag/v0.2.0)\n",
