@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T06:55:46.700Z",
+    "overview": "Generated: 2026-11-01T07:55:47.725Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-11-01T06:55:46.700Z"
+        "timestamp": "2026-11-01T07:55:47.725Z"
       }
     ]
   },
@@ -8620,6 +8620,22 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.21.0",
+        "changelog": "This update brings together 2.0.18.0 to 2.0.21.0 from the beta channel.\n\nMovies and series no longer disappear and come back when the provider has a bad moment. An empty answer is asked again a few times before it is accepted, and a category that fails to load or comes back empty although it had items keeps its files until it answers again, or for up to the Full Sync Interval. Before, those items were deleted and added back on the next sync, losing watched status and artwork in between. The last sync on the settings page says how many items were kept (contributed by andreadegiovine).\n\nFixed: with Smart Skip on (the default), every other full sync asked the provider for the details of almost every series again, thousands of requests on a large catalogue. The episode count of an unchanged series is now kept, which matters most for providers that allow one connection or block on bursts (contributed by luisgsluis).\n\nFixed: after switching Dispatcharr Mode off, Live TV kept using Dispatcharr's addresses until the stored channel list was deleted by hand. It now uses the provider addresses again at once.\n\nLive TV with the native tuner: the programme guide now sets itself up. With Live TV, Native Tuner and EPG on, the plugin adds its EPG URL under Dashboard > Live TV > TV Guide Data Providers; a guide source you added yourself is kept (suggested by aanyberg). The settings page also warns when an M3U tuner reads the plugin's playlist next to the native tuner, which shows every channel twice.\n\nLive TV with Dispatcharr: channels now tell apps their real video profile and level and the number of audio channels. Before, Jellyfin announced every H.264 channel as Baseline and re-encoded stereo audio to 5.1.\n\nCatch-up: older days now show the real programme titles instead of half-hour blocks, without extra requests (contributed by dillardblom).\n\nArtwork: a host that does not answer no longer holds up the sync. Downloads give up after 3 seconds without a connection or 15 seconds in total, and after five failures in a row the rest of that host's images are skipped for that sync (thanks to wikidone).",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v2.0.21.0/jellyfin-xtream-library_2.0.21.0.zip",
+        "checksum": "53661b675d0686bfe3e80bcc922cc746",
+        "timestamp": "2026-10-25T16:20:06Z"
+      },
+      {
+        "version": "1.55.4.0",
+        "changelog": "For Jellyfin 10.11. Security fixes from the 2.x line.\n\nIf you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider username and password, which were in the stream address logged each time a channel was opened and in provider errors and retries. Consider asking your provider for a new password. The log no longer contains them.\n\nFixed: a movie or series title, category name or error message from the provider could contain code that ran in your browser, with your admin session, while the plugin's settings page was open. Such text is now shown as plain text.\n\nFixed: a poster or cover address from the provider was written into the NFO files as is. Jellyfin reads a file path there as a local image, so a provider could have a file from your server shown as an item's image. Only http and https addresses are written now.\n\nArtwork downloads stop at 20 MB and after 30 seconds, and a page that is not an image is no longer saved as a poster. A title of only dots, such as \"..\", is now named Unknown, and very long titles no longer slow the sync down. Control characters in a title no longer make an NFO file or the Epg.xml guide unreadable. With Dispatcharr, a channel or movie id that is not a valid uuid is ignored.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v1.55.4.0/jellyfin-xtream-library_1.55.4.0.zip",
+        "checksum": "ec2eccb340823745d379bcd6adb406f4",
+        "timestamp": "2026-10-25T07:29:46Z"
+      },
       {
         "version": "2.0.17.0",
         "changelog": "This update brings together 2.0.14.0 to 2.0.17.0 from the beta channel.\n\nIf your provider address ends in /live, /movie or /series and you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider password. Consider asking your provider for a new one. The log no longer shows it.\n\nSecurity: text and files from the provider are checked more carefully. A movie or series title, category name or error message could contain code that ran in your browser, with your admin session, while the plugin's settings page was open; it is now shown as plain text. Poster and cover addresses are only written into NFO files when they are http or https, because Jellyfin reads a file path there as a local image (NFO files that already exist are not rewritten). Artwork downloads stop at 20 MB and after 30 seconds, and a page that is not an image is no longer saved as a poster. Odd control characters in a title or programme no longer make an NFO file or the guide unreadable, a title of only dots such as \"..\" is named Unknown instead of ending up next to the Movies or Series folder, and very long titles no longer slow the sync down. With Dispatcharr, an id that is not a valid uuid is ignored.\n\nSettings page reorganised. A new Provider tab holds everything for one provider: login, library path, title cleaning, Dispatcharr and the Delete buttons. General keeps the settings all providers share, and options few people need are folded away. Your settings are kept as they are. The Enable Native Tuner checkbox is now a choice between the native tuner and your own M3U tuner, and the Delete buttons now say which folder goes and that watched status, favourites and resume points are lost. The Full Sync Change Threshold setting has been removed.\n\nLive TV with the native tuner and Dispatcharr starts channels faster: the plugin reads the stream details Dispatcharr already recorded, so Jellyfin no longer analyses each channel first. This needs Stream Format TS. Channels matched to Dispatcharr now play from Dispatcharr's own channel address, which carries no login, so apps that open the stream themselves (Swiftfin with the VLC player, Moonfin) no longer receive your provider username and password.\n\nFixed: saving while the Movies or Series category list had not loaded yet cleared your category selection, so the next sync fetched every category.\n\nFixed: a daily sync set to midnight was moved to 03:00 on every save.\n\nFixed: Retry did nothing after Delete Movies/Series Library, while reporting success. A second sync can no longer start while one is running.\n\nFixed: on iOS, a channel could stop with error -1100 right after starting.\n\nFixed: some channels showed every programme twice in the guide when the provider listed the channel twice.",

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 309, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T06:55:46.700Z",
+    "overview": "Generated: 2026-11-01T07:55:47.725Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-01T06:55:46.700Z"
+        "timestamp": "2026-11-01T07:55:47.725Z"
       }
     ]
   },
@@ -8956,6 +8956,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "1.55.4.0",
+        "changelog": "For Jellyfin 10.11. Security fixes from the 2.x line.\n\nIf you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider username and password, which were in the stream address logged each time a channel was opened and in provider errors and retries. Consider asking your provider for a new password. The log no longer contains them.\n\nFixed: a movie or series title, category name or error message from the provider could contain code that ran in your browser, with your admin session, while the plugin's settings page was open. Such text is now shown as plain text.\n\nFixed: a poster or cover address from the provider was written into the NFO files as is. Jellyfin reads a file path there as a local image, so a provider could have a file from your server shown as an item's image. Only http and https addresses are written now.\n\nArtwork downloads stop at 20 MB and after 30 seconds, and a page that is not an image is no longer saved as a poster. A title of only dots, such as \"..\", is now named Unknown, and very long titles no longer slow the sync down. Control characters in a title no longer make an NFO file or the Epg.xml guide unreadable. With Dispatcharr, a channel or movie id that is not a valid uuid is ignored.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v1.55.4.0/jellyfin-xtream-library_1.55.4.0.zip",
+        "checksum": "ec2eccb340823745d379bcd6adb406f4",
+        "timestamp": "2026-10-25T07:29:46Z"
+      },
       {
         "version": "1.55.3.0",
         "changelog": "This update brings together 1.55.1.0 to 1.55.3.0 from the beta channel.\n\nFixed: Request Delay now limits how fast the plugin talks to your provider in total. Each parallel worker used to apply it separately, so with Sync Parallelism at 10 and the default of 50 ms up to 200 requests a second could go out, enough for some providers to block your IP. It is now one shared gap per provider: 50 ms means at most 20 a second. When the provider says it is getting too many requests, every request to it waits. A first sync of a large library takes longer as a result; if your provider allows more, lower Request Delay. Setting it to 0 is no longer saved as 50 (reported by dillardblom).\n\nFixed: with \"Group movies with the same TMDB id\" on, a film whose request the provider missed no longer ends up in a folder of its own. It is held back and picked up on the next sync. Films already split this way stay split; to fix them, use Delete Movies Library in the Danger Zone and sync again (reported by andreadegiovine).\n\nFixed: a Live TV category, channel or logo address with & in it no longer shows as &amp; or breaks (reported by TheBazeman).",
