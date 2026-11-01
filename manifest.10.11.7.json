@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-01T07:55:47.725Z",
+    "description": "Aggregated: 319, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-01T08:55:46.860Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.7",
-        "timestamp": "2026-11-01T07:55:47.725Z"
+        "timestamp": "2026-11-01T08:55:46.860Z"
       }
     ]
   },
@@ -7931,6 +7931,30 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/MediaCleaner.webp",
     "versions": [
+      {
+        "version": "3.8.0.120000",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-12.0.zip",
+        "checksum": "96e0bf0be520bbaee35c7596018f923c",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
+      {
+        "version": "3.8.0.101109",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-10.11.9.zip",
+        "checksum": "a2e3ca1725dd08b8dcae50fe39896bf6",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
+      {
+        "version": "3.8.0.101100",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-10.11.0.zip",
+        "checksum": "cb0c25c57df32fb7f13b86b8a93cd53f",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
       {
         "version": "3.7.0.120000",
         "changelog": "- Don't announce complete seasons blocked by a protected episode - chore: bump plugin base version to 3.7.0\n",
@@ -30793,6 +30817,57 @@
     ]
   },
   {
+    "guid": "d8ca599b-ab3c-41b0-a4ea-6de1d52b9996",
+    "name": "Webhooks",
+    "description": "Supports couple of webhook types including Plex one.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/manifest.json  \nGithub: https://github.com/shemanaev/jellyfin-plugin-repo",
+    "overview": "Webhooks. Flexible and robust",
+    "owner": "shemanaev",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/Webhooks.webp",
+    "versions": [
+      {
+        "version": "3.10.1.101111",
+        "changelog": "Fix plugin identity, repository details and automatic update discovery. Preserve existing webhook settings.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.1.0/Webhooks-10.11.11.zip",
+        "checksum": "170d86bc8ff1b2d0f55631d50f563b40",
+        "timestamp": "2026-11-01T08:35:29Z"
+      },
+      {
+        "version": "3.10.1.120000",
+        "changelog": "Fix plugin identity, repository details and automatic update discovery. Preserve existing webhook settings.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.1.0/Webhooks-12.0.zip",
+        "checksum": "7e7be9666528496424a3dfb010997be9",
+        "timestamp": "2026-11-01T08:35:26Z"
+      },
+      {
+        "version": "3.10.0.120000",
+        "changelog": "Jellyfin 12.0 compatibility",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-12.0.zip",
+        "checksum": "86837a72190060220d3ddbc4c9e10c67",
+        "timestamp": "2026-09-19T12:51:51Z"
+      },
+      {
+        "version": "3.10.0.101111",
+        "changelog": "Jellyfin 10.11.11 compatibility",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-10.11.11.zip",
+        "checksum": "de8f75ae4d53e64d25d259d897bdb79c",
+        "timestamp": "2026-09-19T12:51:48Z"
+      },
+      {
+        "version": "3.9.0.0",
+        "changelog": "Jellyfin 10.11 compatibility\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.9.0.0/webhooks_3.9.0.0.zip",
+        "checksum": "258fbb50e380ad5a51a8f5cdcb6921d4",
+        "timestamp": "2025-10-19T10:28:24Z"
+      }
+    ]
+  },
+  {
     "guid": "d98fbe02-daf3-4c09-a832-4b4e1d07326c",
     "name": "StreamLimiter",
     "overview": "Limits the number of simultaneous streams per user.",
@@ -33508,30 +33583,6 @@
         "sourceUrl": "https://github.com/mleem97/mleem-jellyfin/releases/download/HddDisplay-v1.0.0.22/HDDDisplay_1.0.0.22.zip",
         "checksum": "4668069BE08B046D949C942741DAF4DC",
         "timestamp": "2026-09-19T15:32:31Z"
-      },
-      {
-        "version": "3.10.0.120000",
-        "changelog": "Jellyfin 12.0 compatibility",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-12.0.zip",
-        "checksum": "86837a72190060220d3ddbc4c9e10c67",
-        "timestamp": "2026-09-19T12:51:51Z"
-      },
-      {
-        "version": "3.10.0.101111",
-        "changelog": "Jellyfin 10.11.11 compatibility",
-        "targetAbi": "10.11.11.0",
-        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-10.11.11.zip",
-        "checksum": "de8f75ae4d53e64d25d259d897bdb79c",
-        "timestamp": "2026-09-19T12:51:48Z"
-      },
-      {
-        "version": "3.9.0.0",
-        "changelog": "Jellyfin 10.11 compatibility\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.9.0.0/webhooks_3.9.0.0.zip",
-        "checksum": "258fbb50e380ad5a51a8f5cdcb6921d4",
-        "timestamp": "2025-10-19T10:28:24Z"
       }
     ]
   },
