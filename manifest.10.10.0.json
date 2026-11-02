@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 309, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-02T19:57:24.281Z",
+    "overview": "Generated: 2026-11-02T20:57:24.292Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.0",
-        "timestamp": "2026-11-02T19:57:24.281Z"
+        "timestamp": "2026-11-02T20:57:24.292Z"
       }
     ]
   },
@@ -15563,14 +15563,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-04-28T08:34:18Z",
         "version": "0.26.14.4"
-      },
-      {
-        "changelog": "## [0.26.14.3] - 2026-04-27\n\n### 🐛 Bug Fixes\n\n- Replace path with stub on playbackinfo to prevent leaking\n",
-        "checksum": "02b4488880685e82e817341776791360",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.14.3/gelato_0.26.14.3.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-04-27T19:52:46Z",
-        "version": "0.26.14.3"
       }
     ]
   },

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-02T19:57:24.281Z",
+    "overview": "Generated: 2026-11-02T20:57:24.292Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-11-02T19:57:24.281Z"
+        "timestamp": "2026-11-02T20:57:24.292Z"
       }
     ]
   },
@@ -719,7 +719,7 @@
     "versions": [
       {
         "version": "3.1.0.0",
-        "changelog": "v3.1.0.0 - Discovery works without external plugins\n\n- BREAKING: the Custom Tabs and File Transformation plugins are no longer needed; the Discovery Home tab and the script injection are built into the Helper\n- The tab registers natively against Jellyfin's tab strip and keeps a stable jfhTab deep link\n- Script injection happens at request time, so it survives web updates and works on read-only installs\n- Setup instructions removed from Settings because Discovery works out of the box once enabled\n- Tags older versions wrote to index.html are cleaned up on startup\n- Verified by 94% backend unit test coverage, 97% UI test coverage, and 392 end-to-end Docker tests\n- Requires Jellyfin 12.4 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
+        "changelog": "v3.1.0.0 - Discovery works without external plugins\n\n- BREAKING: the Custom Tabs and File Transformation plugins are no longer needed; the Discovery Home tab and the script injection are built into the Helper\n- The tab registers natively against Jellyfin's tab strip and keeps a stable jfhTab deep link\n- Script injection happens at request time, so it survives web updates and works on read-only installs\n- Setup instructions removed from Settings because Discovery works out of the box once enabled\n- Tags older versions wrote to index.html are cleaned up on startup\n- Verified by 94% backend unit test coverage, 97% UI test coverage, and 404 end-to-end Docker tests\n- Requires Jellyfin 12.4 - if you are on Jellyfin 10.x, stay on v2.1.0.6",
         "targetAbi": "12.4.0.0",
         "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.1.0.0/JellyfinHelper_3.1.0.0.zip",
         "checksum": "8fa2fe8feafe887404e155087c7a90a7",
@@ -8230,6 +8230,14 @@
     "overview": "Stremio addons as Jellyfin library items: search, catalogs and on-demand streams through AIOStreams.",
     "owner": "lstb1t",
     "versions": [
+      {
+        "changelog": "## [0.26.30.1] - 2026-11-02\n\n### 🐛 Bug Fixes\n\n- Remove the unauthenticated subtitles route (#358)\n- Stop the server fetching streams from link-local hosts (#359)\n\n### 📚 Documentation\n\n- Explain RemuxDB and how to turn it off (#357)\n",
+        "checksum": "45299dce1a8a6ac9b2550db68e930446",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.30.1/gelato_0.26.30.1.zip",
+        "targetAbi": "12.1.0.0",
+        "timestamp": "2026-11-02T20:52:34Z",
+        "version": "0.26.30.1"
+      },
       {
         "changelog": "## [0.26.30.0] - 2026-10-30\n\n### 🚀 Features\n\n- Show recommended titles that aren't in the library (#349)\n\n### 🐛 Bug Fixes\n\n- Undated watched/resume state migration (#348)\n- Keep the subtitle task from searching every stream (#352)\n\n### ⚙️ Miscellaneous Tasks\n\n- Remove the unused Palco cache API (#353)\n",
         "checksum": "6129acb59341e30fa8fd8d34bc3a0463",
