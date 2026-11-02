@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-02T10:57:23.778Z",
+    "overview": "Generated: 2026-11-02T11:57:24.375Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-02T10:57:23.778Z"
+        "timestamp": "2026-11-02T11:57:24.375Z"
       }
     ]
   },
@@ -6514,6 +6514,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Shoalcade.webp",
     "versions": [
+      {
+        "version": "0.11.0.0",
+        "changelog": "Shoalcade v0.11.0: GameCube, Wii and PS2 in the Windows app; games on more than one disc are one game (old disc saves move across by themselves); the Windows app looks like the plugin; GBA cheats typed without a space work; safer browser player; accessibility fixes",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.11.0/Shoalcade_s0.11.zip",
+        "checksum": "be1b20bc2c23822598697e64315f3a71",
+        "timestamp": "2026-11-02T09:25:29Z"
+      },
       {
         "version": "0.10.0.0",
         "changelog": "Shoalcade v0.10.0: the first Windows app, internet link play, Celio Link (opt-in), fast-forward, screenshots, play time, search and filters, automatic save upload; the plugin now accepts saves from the Windows app",
