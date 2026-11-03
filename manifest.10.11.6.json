@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-03T18:57:24.837Z",
+    "overview": "Generated: 2026-11-03T19:57:25.037Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.6",
-        "timestamp": "2026-11-03T18:57:24.837Z"
+        "timestamp": "2026-11-03T19:57:25.037Z"
       }
     ]
   },
@@ -11383,6 +11383,14 @@
     "owner": "te9c",
     "category": "Anime",
     "versions": [
+      {
+        "version": "5.1.0.0",
+        "changelog": "Update to jellyfin 12.0\n",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://github.com/te9c/jellyfin-plugin-shikimori/releases/download/5.1.0.0/shikimori_5.1.0.0.zip",
+        "checksum": "4e7ea7dcc009329d68d0e6d2526443bb",
+        "timestamp": "2026-11-03T19:04:33Z"
+      },
       {
         "version": "5.0.0.0",
         "changelog": "Fixed bugs\n",

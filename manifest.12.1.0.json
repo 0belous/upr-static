@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-03T18:57:24.837Z",
+    "overview": "Generated: 2026-11-03T19:57:25.037Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-03T18:57:24.837Z"
+        "timestamp": "2026-11-03T19:57:25.037Z"
       }
     ]
   },
@@ -6373,34 +6373,18 @@
   {
     "guid": "7edb2a28-5b8a-4fe8-ae11-d941315eb862",
     "name": "Shikimori",
-    "description": "Adds metadata for anime tv and movies  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/te9c/jellyfin-plugin-shikimori/main/manifest.json  \nGithub: https://github.com/te9c/jellyfin-plugin-shikimori",
+    "description": "Adds metadata for anime tv and movies  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/te9c/jellyfin-plugin-shikimori/main/manifest.json  \nGithub: https://github.com/te9c/jellyfin-plugin-shikimori",
     "overview": "Metadata provider for Shikimori",
     "owner": "te9c",
     "category": "Anime",
     "versions": [
       {
-        "version": "5.0.0.0",
-        "changelog": "Fixed bugs\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/te9c/jellyfin-plugin-shikimori/releases/download/5.0.0.0/shikimori_5.0.0.0.zip",
-        "checksum": "eebe29ba8f32a6357beca58b7fc84b69",
-        "timestamp": "2026-06-03T15:37:56Z"
-      },
-      {
-        "version": "4.4.0.0",
-        "changelog": "Fixed bugs\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/te9c/jellyfin-plugin-shikimori/releases/download/4.4.0.0/shikimori_4.4.0.0.zip",
-        "checksum": "6326e1100d08767c63102bdd5daf77f7",
-        "timestamp": "2026-02-24T18:44:02Z"
-      },
-      {
-        "version": "4.3.0.0",
-        "changelog": "Fixed bugs\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/te9c/jellyfin-plugin-shikimori/releases/download/4.3.0.0/shikimori_4.3.0.0.zip",
-        "checksum": "41541e27c5cd815abe2c191328888120",
-        "timestamp": "2025-11-11T19:35:20Z"
+        "version": "5.1.0.0",
+        "changelog": "Update to jellyfin 12.0\n",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://github.com/te9c/jellyfin-plugin-shikimori/releases/download/5.1.0.0/shikimori_5.1.0.0.zip",
+        "checksum": "4e7ea7dcc009329d68d0e6d2526443bb",
+        "timestamp": "2026-11-03T19:04:33Z"
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/Shikimori.webp"
