@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-04T13:57:25.441Z",
+    "overview": "Generated: 2026-11-04T14:57:25.565Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-04T13:57:25.441Z"
+        "timestamp": "2026-11-04T14:57:25.565Z"
       }
     ]
   },
@@ -19329,6 +19329,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Litefin.webp",
     "versions": [
+      {
+        "version": "1.12.0.7",
+        "changelog": "Release 1.12.0.7",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/MoazSalem/litefin-plugin/releases/download/v1.12.0.7/Litefin.Plugin_1.12.0.7.zip",
+        "checksum": "883a1d6e2e5c4f11e7a2df09e888d8c1",
+        "timestamp": "2026-11-04T14:34:10Z"
+      },
       {
         "version": "1.12.0.6",
         "changelog": "Release 1.12.0.6",
