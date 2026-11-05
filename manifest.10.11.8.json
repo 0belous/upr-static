@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 319, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-05T20:57:27.033Z",
+    "overview": "Generated: 2026-11-05T21:57:26.729Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.8",
-        "timestamp": "2026-11-05T20:57:27.033Z"
+        "timestamp": "2026-11-05T21:57:26.729Z"
       }
     ]
   },
@@ -6680,6 +6680,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/HEICPhotos.webp",
     "versions": [
+      {
+        "version": "0.2.0.0",
+        "changelog": "Fill in photos Jellyfin's reader missed: TagLib# isn't thread-safe, so in a parallel scan some JPEGs etc. fail (IndexOutOfRangeException in IFDReader) and get no date, camera or GPS. Photos with none of those details are read again with MetadataExtractor (date, camera, settings, GPS, rotation); nothing read is ever cleared. 0.2.0.0",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://luckynos7evin.github.io/jellyfin-heic-plugin/releases/heic-photos_0.2.0.0.zip",
+        "checksum": "dcbf604bcf5b0afc051a33009f0fa6cd",
+        "timestamp": "2026-11-05T20:52:37Z"
+      },
       {
         "version": "0.1.0.0",
         "changelog": "HEIC Photos plugin: lists HEIC/HEIF files in photo libraries as photos (and folders of them as albums), reads their date, camera, settings, GPS and size with MetadataExtractor, and converts them with Jellyfin's ffmpeg whenever an image is asked for, through a wrapper around the server's image encoder; nothing is kept beside the photos",
