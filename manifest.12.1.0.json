@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-05T15:57:26.688Z",
+    "overview": "Generated: 2026-11-05T16:57:27.058Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-05T15:57:26.688Z"
+        "timestamp": "2026-11-05T16:57:27.058Z"
       }
     ]
   },
@@ -4296,6 +4296,14 @@
     "category": "music",
     "imageUrl": "https://obelous.dev/plugins/images/Last.fm.webp",
     "versions": [
+      {
+        "version": "10.11.0.16",
+        "changelog": "Improve configuration page compatibility by loading its JavaScript through Jellyfin's external controller mechanism instead of an inline script.",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/danielfariati/jellyfin-plugin-lastfm/releases/download/10.11.0.16/lastfm_10.11.0.16.zip",
+        "checksum": "791d0bb758c4c233874b47234c5bd30f",
+        "timestamp": "2026-11-05T16:17:04Z"
+      },
       {
         "version": "10.11.0.15",
         "changelog": "Improve configuration page reliability by preventing duplicate event handlers and reporting loading, authentication, and save failures instead of failing silently.",
