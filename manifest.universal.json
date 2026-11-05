@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 336, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-05T10:57:12.140Z",
+    "description": "Aggregated: 337, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-05T11:57:27.304Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-05T10:57:12.140Z"
+        "timestamp": "2026-11-05T11:57:27.304Z"
       }
     ]
   },
@@ -10919,6 +10919,25 @@
         "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.0.2.0/subbuzz_1.0.2.0_jellyfin_10.8.zip",
         "checksum": "20980e20582fbd9ec382845d76528081",
         "timestamp": "2022-01-21T06:38:26Z"
+      }
+    ]
+  },
+  {
+    "guid": "5b0f7c1e-3a6d-4f2b-9e84-2c71d0a9b6e3",
+    "name": "HEIC Photos",
+    "description": "Shows HEIC/HEIF photos (iPhone) in photo libraries, converted with Jellyfin's own ffmpeg when they're viewed. No converted copies are kept beside your photos.  \n  \nUniversal Repo \nSource: https://luckynos7evin.github.io/jellyfin-plugins/manifest.json  \nGithub: https://github.com/LuckyNoS7evin/jellyfin-plugins",
+    "overview": "Shows HEIC/HEIF photos (iPhone) in photo libraries, converted with Jellyfin's own ffmpeg when they're viewed. No converted copies are kept beside your photos.",
+    "owner": "LuckyNoS7evin",
+    "category": "General",
+    "imageUrl": "https://obelous.dev/plugins/images/HEICPhotos.webp",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "HEIC Photos plugin: lists HEIC/HEIF files in photo libraries as photos (and folders of them as albums), reads their date, camera, settings, GPS and size with MetadataExtractor, and converts them with Jellyfin's ffmpeg whenever an image is asked for, through a wrapper around the server's image encoder; nothing is kept beside the photos",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://luckynos7evin.github.io/jellyfin-heic-plugin/releases/heic-photos_0.1.0.0.zip",
+        "checksum": "a11ad50935fe4e9e31323cbe13d7bcfe",
+        "timestamp": "2026-11-05T10:31:26Z"
       }
     ]
   },
