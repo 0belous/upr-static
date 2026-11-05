@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-05T00:57:26.078Z",
+    "overview": "Generated: 2026-11-05T01:57:26.716Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.7",
-        "timestamp": "2026-11-05T00:57:26.078Z"
+        "timestamp": "2026-11-05T01:57:26.716Z"
       }
     ]
   },
@@ -7354,6 +7354,14 @@
     "category": "music",
     "imageUrl": "https://obelous.dev/plugins/images/Last.fm.webp",
     "versions": [
+      {
+        "version": "10.11.0.15",
+        "changelog": "Improve configuration page reliability by preventing duplicate event handlers and reporting loading, authentication, and save failures instead of failing silently.",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/danielfariati/jellyfin-plugin-lastfm/releases/download/10.11.0.15/lastfm_10.11.0.15.zip",
+        "checksum": "06a8a50d8dfb6d023f1c95d9e8a615a1",
+        "timestamp": "2026-11-05T01:10:51Z"
+      },
       {
         "version": "10.11.0.14",
         "changelog": "Prevent duplicate scrobbles when Jellyfin reports multiple stop events for the same playback, while still allowing intentionally repeated tracks to scrobble normally.",
