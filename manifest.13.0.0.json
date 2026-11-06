@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 197, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-06T14:57:06.891Z",
+    "description": "Aggregated: 198, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-06T15:57:16.235Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-11-06T14:57:06.891Z"
+        "timestamp": "2026-11-06T15:57:16.235Z"
       }
     ]
   },
@@ -5100,6 +5100,25 @@
         "timestamp": "2026-09-16T18:31:54Z"
       }
     ]
+  },
+  {
+    "category": "General",
+    "guid": "a31b415a-5264-419d-b152-8c8192a54994",
+    "name": "Mediathek Downloader",
+    "description": "Mit dem Plugin kann man die Mediatheken der öffentlich-rechtlichen Sender in Deutschland durchsuchen und Inhalte herunterladen. Für die suche wird die MediathekViewWeb-API verwendet. Der Videos werden direkt über die Original-URLs der Sender heruntergeladen. Es können Abos anglegt werden um z.B. Serien automatisch herunterzuladen.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/CatNoir2006/jellyfin-plugin-manifest/main/manifest.json  \nGithub: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL",
+    "owner": "CatNoir2006",
+    "overview": "Sucht und lädt Inhalte aus den Mediatheken über die MediathekViewWeb-API.",
+    "versions": [
+      {
+        "version": "0.8.4.0",
+        "changelog": "## Neue Funktionen\r\n### Virtuelle Abos\r\nEs können Abos erstellte werden welche keine Medien herunterladen sondern sie in Jellyfin mittels dem `Channels` Feature bereitstellen\r\n### Download Qualität Festlegen\r\nDie Download Qualität kann jetzt festgelegt werden. Dafür  kann die Minimale und Maximale Bildqualität die für den Download zulässig ist eingestellt werden. Sowie ob höhere oder niedrigere Auflösung bevorzugt wird.\r\n<img width=\"821\" height=\"350\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4adceb5f-4c3e-4389-b077-8117e96b5032\" />\r\n### Parallele Downloads\r\nDas Update erlaubt außerdem Parallele Downloads. Standermässig sind diese Deaktiviert aber es kann auf bis zu 10 gleichzeitige Downloads gesetzt werden.\r\n<img width=\"836\" height=\"458\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b35bf784-a08a-435e-b7b6-4702bbe4a11b\" />\r\n\r\n\r\n## What's Changed\r\n* Restrict release trigger types to 'published' only by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/173\r\n* Feldbeschreibungen für Abonnement-Einstellungen auf der Seite \"Abo-Standardwerte\" anzeigen by @CuriousApe2020 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/175\r\n* Fix download history deduplication for re-published/non-series items by @CatNoirBot in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/177\r\n* Feature: Virtuelle Abos via Jellyfin Kanal (ohne Download) by @CatNoirBot in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/179\r\n* build(deps): bump @vitest/mocker from 4.1.10 to 4.1.11 in /Jellyfin.Plugin.MediathekViewDL/Configuration/Web/VueJS in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/189\r\n* Cleanup Things by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/196\r\n* build(deps): bump the npm_and_yarn group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/198\r\n* build(deps-dev): bump vite from 8.1.5 to 8.3.5 in /Jellyfin.Plugin.MediathekViewDL/Configuration/Web/VueJS in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/203\r\n* Refactor MediathekView API into standalone project MediathekView.Api by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/204\r\n* build(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/205\r\n* #202 improvement downloadqualitaet festlegen by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/206\r\n* feat: Parallele Downloads by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/210\r\n* Bump version to 0.8.4.0 in build.yaml by @CatNoir2006 in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/212\r\n\r\n## New Contributors\r\n* @CuriousApe2020 made their first contribution in https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/pull/175\r\n\r\n**Full Changelog**: https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/compare/v0.8.3.0...v0.8.4.0",
+        "timestamp": "2026-11-06T15:15:32Z",
+        "sourceUrl": "https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL/releases/download/v0.8.4.0/mediathek-downloader_0.8.4.0.zip",
+        "checksum": "42eb23a6d39a104c5817a1a735cd688d",
+        "targetAbi": "12.0.0.0"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/MediathekDownloader.webp"
   },
   {
     "guid": "a3520f75-7cfe-49e0-9b30-a3c108a5a4ce",
