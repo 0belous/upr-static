@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 304, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-08T00:57:16.413Z",
+    "description": "Aggregated: 302, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-08T01:08:24.525Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-08T00:57:16.413Z"
+        "timestamp": "2026-11-08T01:08:24.525Z"
       }
     ]
   },
@@ -11605,49 +11605,6 @@
     ]
   },
   {
-    "guid": "a5b6c7d8-e9f0-1234-5678-9abcdef01234",
-    "name": "JellyMix",
-    "description": "Create segmented music and music video playlists with genre weighting  \n  \nUniversal Repo [✓] \nSource: https://jellymix.org/manifest.json  \nGithub: https://github.com/steveshannon/jellyfin-plugin-jellymix",
-    "overview": "JellyMix lets you create playlists that evolve over time with different genre mixes for each segment. Perfect for parties, DJ sets, background music, or themed listening sessions.",
-    "owner": "Steve Shannon",
-    "category": "Music",
-    "imageUrl": "https://obelous.dev/plugins/images/JellyMix.webp",
-    "versions": [
-      {
-        "version": "2.0.1.0",
-        "changelog": "Jellyfin 12.0 compatibility: fixes playlist save failing on 12.0",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v2.0.1/jellymix-v2.0.1.zip",
-        "checksum": "4d0849a8007af369a3a2dd790f7a72e2",
-        "timestamp": "2026-09-08T12:51:00Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "Music video playlists from Music Videos libraries, no repeats across blocks, year filter reads Release Date or Year, plus fixes",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v2.0.0/jellymix-v2.0.0.zip",
-        "checksum": "2f6184842ed26b5954f9b1faba6b7eea",
-        "timestamp": "2026-09-07T18:44:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "JellyMix Algorhythm artist variety, Share Playlist, genre mapping and remix fixes",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v1.0.3/jellymix-v1.0.3.zip",
-        "checksum": "18a812aee7d8b23ee765d0d39c3fd797",
-        "timestamp": "2026-01-02T04:16:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Initial public release with embedded plugin artwork",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v1.0.2/jellymix-v1.0.2.zip",
-        "checksum": "6741926559bf8e09e6cca0f5efe543b1",
-        "timestamp": "2024-12-31T00:30:00Z"
-      }
-    ]
-  },
-  {
     "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
     "name": "TheTVDB",
     "description": "Get TV metadata from TheTvdb  \n  \nUniversal Repo [✓✓] \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -13963,105 +13920,6 @@
         "timestamp": "2025-09-15T20:10:21Z"
       }
     ]
-  },
-  {
-    "guid": "b9f8e1a2-3c4d-4e5f-8a7b-1c2d3e4f5a6b",
-    "name": "JellyTuber",
-    "description": "Index YouTube channels and playlists via the YouTube Data API, stream on demand with yt-dlp.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/RM4Y/JellyTuber/main/manifest.json  \nGithub: https://github.com/RM4Y/JellyTuber",
-    "overview": "Fast YouTube indexing using the official Data API instead of scraping.",
-    "owner": "self",
-    "category": "Channels",
-    "versions": [
-      {
-        "version": "1.16.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.16.0.0/jellytuber-1.16.0.0.zip",
-        "checksum": "4a479e7d12383f72444feefd810bd097",
-        "timestamp": "2026-09-27T04:46:40Z",
-        "changelog": "Release 1.16.0.0"
-      },
-      {
-        "version": "1.15.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.15.0.0/jellytuber-1.15.0.0.zip",
-        "checksum": "872a8824e68876ebad8cc44fd80fd9d3",
-        "timestamp": "2026-09-26T03:41:47Z",
-        "changelog": "Release 1.15.0.0"
-      },
-      {
-        "version": "1.14.4.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.4.0/jellytuber-1.14.4.0.zip",
-        "checksum": "6db15d2c6fe53e5737f73e44f7013352",
-        "timestamp": "2026-09-25T09:41:19Z",
-        "changelog": "Release 1.14.4.0"
-      },
-      {
-        "version": "1.14.3.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.3.0/jellytuber-1.14.3.0.zip",
-        "checksum": "6d40d1c749bcc198702af96e9a749467",
-        "timestamp": "2026-09-25T09:15:55Z",
-        "changelog": "Release 1.14.3.0"
-      },
-      {
-        "version": "1.14.2.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.2.0/jellytuber-1.14.2.0.zip",
-        "checksum": "9ff60e1f823f4034ae731bddebb54993",
-        "timestamp": "2026-09-25T08:45:15Z",
-        "changelog": "Release 1.14.2.0"
-      },
-      {
-        "version": "1.14.1.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.1.0/jellytuber-1.14.1.0.zip",
-        "checksum": "dcd678a40a59042eba3b9a300b1f2e00",
-        "timestamp": "2026-09-25T08:26:39Z",
-        "changelog": "Release 1.14.1.0"
-      },
-      {
-        "version": "1.14.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.0.0/jellytuber-1.14.0.0.zip",
-        "checksum": "d5e26363ba56e33aa5dd3c07ce722b7b",
-        "timestamp": "2026-09-23T10:11:47Z",
-        "changelog": "Release 1.14.0.0"
-      },
-      {
-        "version": "1.13.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.13.0.0/jellytuber-1.13.0.0.zip",
-        "checksum": "b537b3c826036286da519357c1dc1354",
-        "timestamp": "2026-08-20T20:46:25Z",
-        "changelog": "Release 1.13.0.0"
-      },
-      {
-        "version": "1.12.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.12.0.0/jellytuber-1.12.0.0.zip",
-        "checksum": "5a0a395ba6bc2cdfba02ad83ff96ce0e",
-        "timestamp": "2026-07-28T23:16:40Z",
-        "changelog": "Release 1.12.0.0"
-      },
-      {
-        "version": "1.11.1",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.11.1/youtube-fast-1.11.1.zip",
-        "checksum": "ff57404fc7b2775e436fd5986c196a88",
-        "timestamp": "2026-07-04T18:55:00Z",
-        "changelog": "Fixes duplicate video folders created when a YouTuber renames a video after publishing."
-      },
-      {
-        "version": "1.11.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.11.0.0/youtube-fast-1.11.0.0.zip",
-        "checksum": "92ec9961f505bc91cca948abc63466ea",
-        "timestamp": "2026-07-03T16:54:55Z",
-        "changelog": "Release 1.11.0.0"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/JellyTuber.webp"
   },
   {
     "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",

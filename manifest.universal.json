@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 337, Sources: 263.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-08T00:57:16.413Z",
+    "description": "Aggregated: 330, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-08T01:08:24.525Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-08T00:57:16.413Z"
+        "timestamp": "2026-11-08T01:08:24.525Z"
       }
     ]
   },
@@ -4410,33 +4410,6 @@
     ]
   },
   {
-    "name": "Air Times",
-    "guid": "27b03c3b-9e2a-4f47-941a-82bbb5beedd8",
-    "category": "Metadata",
-    "overview": "Localised series air times from TheTVDB",
-    "description": "Air Times is a plugin for Jellyfin that localises series air times provided by TheTVDB to your servers timezone. Must be above the original TheTVDB plugin in the metadata sources list.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/apteryxxyz/jellyfin-plugin-air-times/HEAD/manifest.json  \nGithub: https://github.com/apteryxxyz/jellyfin-plugin-air-times",
-    "owner": "apteryxxyz",
-    "versions": [
-      {
-        "version": "0.0.2.0",
-        "changelog": "- Support for localised individual episode air times\n- Rename metadata source to \"TheTVDB (Air Times)\"",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/apteryxxyz/jellyfin-plugin-airtimes/releases/download/v0.0.2.0/Jellyfin.Plugin.AirTimes.zip",
-        "checksum": "74edd674ccce9247164d13fc059ed39e",
-        "timestamp": "2025-05-03T05:30:00Z"
-      },
-      {
-        "version": "0.0.1.0",
-        "changelog": "Initial release\n- Support for localised series air times",
-        "targetAbi": "10.9.0.0",
-        "sourceUrl": "https://github.com/apteryxxyz/jellyfin-plugin-airtimes/releases/download/v0.0.1.0/Jellyfin.Plugin.AirTimes.zip",
-        "checksum": "3d97a62850b9c34ede73c22ea3f916ca",
-        "timestamp": "2025-04-03T06:30:00Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/AirTimes.webp"
-  },
-  {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync",
     "description": "This is a longer description that can span more than one line and include details about your plugin.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/iankiller77/MyAnimeSync/main/manifest.json  \nGithub: https://github.com/iankiller77/MyAnimeSync",
@@ -7613,33 +7586,6 @@
         "changelog": "Release for Jellyfin 10.10.7"
       }
     ]
-  },
-  {
-    "guid": "47816a0e-e69c-44e0-ac7e-f37b134e088f",
-    "name": "SMS notification",
-    "description": "Sends sms notifications via selected service.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-repository",
-    "overview": "Sends sms notifications",
-    "owner": "k-matti",
-    "category": "Notifications",
-    "versions": [
-      {
-        "version": "1.0.2.0",
-        "changelog": "fixes",
-        "targetAbi": "10.7.2.0",
-        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-sms/releases/download/v1.0.2.0/sms-notifications_1.0.2.0.zip",
-        "checksum": "8dbb6633bdd0f87048c43c77267e9d3c",
-        "timestamp": "0001-01-01T00:00:00.0000000Z"
-      },
-      {
-        "version": "1.0.1.0",
-        "changelog": "initial release",
-        "targetAbi": "10.7.2.0",
-        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-sms/releases/download/v1.0.1.0/sms-notifications_1.0.1.0.zip",
-        "checksum": "9c33e86071206d6d142d58579e4de825",
-        "timestamp": "0001-01-01T00:00:00.0000000Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/SMSnotification.webp"
   },
   {
     "guid": "485e9b6f-f623-4c97-9679-ad33c1db0d18",
@@ -16015,25 +15961,6 @@
         "timestamp": "2025-02-13T07:46:36Z"
       }
     ]
-  },
-  {
-    "guid": "6f9a84bf-cb2f-42c3-9f07-4037956f9a02",
-    "name": "NapiSub",
-    "description": "Download subtitles for Movies and TV Shows using napiprojekt.pl database  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/k-matti/jellyfin-plugin-repository/master/manifest.json  \nGithub: https://github.com/k-matti/jellyfin-plugin-repository",
-    "overview": "Polish subtitles downloader",
-    "owner": "k-matti",
-    "category": "Metadata",
-    "versions": [
-      {
-        "version": "1.0.1.0",
-        "changelog": "initial release",
-        "targetAbi": "10.7.2.0",
-        "sourceUrl": "https://github.com/k-matti/jellyfin-plugin-napi/releases/download/v1.0.1.0/napisub_1.0.1.0.zip",
-        "checksum": "7e462432e43267952de5ef26a1df431c",
-        "timestamp": "0001-01-01T00:00:00.0000000Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/NapiSub.webp"
   },
   {
     "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
@@ -26849,14 +26776,6 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.0.16.0",
-        "changelog": "Adds automatic access-token refresh with rotating refresh tokens, preserves links and queued scrobbles during transient refresh failures, and retries deliveries safely after refresh.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/PunchPlay/jellyfin-plugin-punchplay/main/release-assets/jellyfin-plugin-punchplay_2.0.16.zip",
-        "checksum": "96b4d3c8e21fc39f51bf5229cc169d90",
-        "timestamp": "2026-08-23T01:15:53Z"
-      },
-      {
         "version": "1.2.1",
         "changelog": "See https://github.com/monxas/jellyfin-share-plugin/releases/tag/v1.2.1",
         "targetAbi": "10.11.0.0",
@@ -26878,38 +26797,6 @@
         "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v1.31.44.0/jellyfin-xtream-library_1.31.44.0.zip",
         "checksum": "01d336978db2683b565a246d6930e638",
         "timestamp": "2026-05-31T07:56:00Z"
-      },
-      {
-        "version": "2.0.15.0",
-        "changelog": "Stable release with per-user linking, Jellyfin username reporting, playback session tracking, pause/resume scrobbling, retry queueing, token-revocation cleanup, and admin diagnostics.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/PunchPlay/jellyfin-plugin-punchplay/main/release-assets/jellyfin-plugin-punchplay_2.0.15.zip",
-        "checksum": "1142a0b796c4230f9346be4c976ebdd2",
-        "timestamp": "2026-05-26T13:00:00Z"
-      },
-      {
-        "version": "2.0.6.0",
-        "changelog": "Reliability hardening release with background queue replay, force retry controls, improved auth/queue handling, session dedupe, and non-blocking live scrobble delivery.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/PunchPlay/jellyfin-plugin-punchplay/main/release-assets/jellyfin-plugin-punchplay_2.0.6.zip",
-        "checksum": "ababdd8eaa45b1f7764baeed173029da",
-        "timestamp": "2026-05-25T20:27:33Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "Multi-user support release allowing each Jellyfin user to link their own PunchPlay account with scrobbles routed per user.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/PunchPlay/jellyfin-plugin-punchplay/main/release-assets/jellyfin-plugin-punchplay_2.0.0.zip",
-        "checksum": "bd210bf736a6c2f028f62d9a7fdb402b",
-        "timestamp": "2026-05-18T12:00:00Z"
-      },
-      {
-        "version": "1.0.11.0",
-        "changelog": "Final legacy single-user release with improved progress tracking interval and token revocation handling.",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/PunchPlay/jellyfin-plugin-punchplay/main/release-assets/jellyfin-plugin-punchplay_1.0.11.zip",
-        "checksum": "eedf9af37f9520f7014c770fb3b813b2",
-        "timestamp": "2026-05-18T11:00:00Z"
       },
       {
         "version": "1.33.2.0",
@@ -29143,33 +29030,6 @@
     ]
   },
   {
-    "category": "Notifications",
-    "guid": "a4f8c2d7-1e6b-4c8f-9a3d-7e2f5b8c1d9a",
-    "name": "brrr.now Notifications",
-    "description": "Jellyfin plugin that sends server notifications to your Apple devices via brrr.now.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/ImLunaHey/jellyfin-plugin-brrr-now/main/manifest.json  \nGithub: https://github.com/ImLunaHey/jellyfin-plugin-brrr-now",
-    "overview": "Push Jellyfin events (playback, library, plugin lifecycle) to brrr.now.",
-    "owner": "ImLunaHey",
-    "imageUrl": "https://obelous.dev/plugins/images/brrr.nowNotifications.webp",
-    "versions": [
-      {
-        "version": "1.0.1.0",
-        "changelog": "## [1.0.1](https://github.com/ImLunaHey/jellyfin-plugin-brrr-now/compare/v1.0.0...v1.0.1) (2026-05-17)\n\n\n### Bug Fixes\n\n* skip Person/Genre/Studio/Year metadata in ItemAdded notifications ([d435e16](https://github.com/ImLunaHey/jellyfin-plugin-brrr-now/commit/d435e164d48e0505b7389da84a020215a8df5322))\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n<!-- This is an auto-generated description by cubic. -->",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/ImLunaHey/jellyfin-plugin-brrr-now/releases/download/v1.0.1/jellyfin-plugin-brrr-now_1.0.1.0.zip",
-        "checksum": "ea86c49ce77d9d120994bac79762ae3e",
-        "timestamp": "2026-05-17T07:32:51Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "## 1.0.0 (2026-05-16)\n\n\n### Features\n\n* initial Jellyfin plugin for brrr.now notifications ([2cb91c8](https://github.com/ImLunaHey/jellyfin-plugin-brrr-now/commit/2cb91c86282ac215225228f28c706cccaa9b5e77))\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n<!-- This is an auto-generated description by cubic. -->",
-        "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://github.com/ImLunaHey/jellyfin-plugin-brrr-now/releases/download/v1.0.0/jellyfin-plugin-brrr-now_1.0.0.0.zip",
-        "checksum": "db6ed4626480f1d59b20faf3ec6dc31c",
-        "timestamp": "2026-05-16T17:31:13Z"
-      }
-    ]
-  },
-  {
     "guid": "a51f9a52-7c3b-4b89-9f10-4c8e2b3d1a5e",
     "name": "Projectionist",
     "description": "Plays preroll videos before movies AND TV episodes. Folder-based source — no Jellyfin library required (auto-creates a hidden internal one). Schedules, per-library rules, per-user rules, maturity gating, cooldowns, skippable prerolls, stats dashboard.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/ZL154/jellyfin-projectionist/main/manifest.json  \nGithub: https://github.com/ZL154/jellyfin-projectionist",
@@ -29217,49 +29077,6 @@
         "sourceUrl": "https://github.com/ZL154/jellyfin-projectionist/releases/download/v1.0.2/projectionist_1.0.2.0.zip",
         "checksum": "d60c28d38afb340a8fe110745a73b7ca",
         "timestamp": "2026-04-26T18:57:00Z"
-      }
-    ]
-  },
-  {
-    "guid": "a5b6c7d8-e9f0-1234-5678-9abcdef01234",
-    "name": "JellyMix",
-    "description": "Create segmented music and music video playlists with genre weighting  \n  \nUniversal Repo \nSource: https://jellymix.org/manifest.json  \nGithub: https://github.com/steveshannon/jellyfin-plugin-jellymix",
-    "overview": "JellyMix lets you create playlists that evolve over time with different genre mixes for each segment. Perfect for parties, DJ sets, background music, or themed listening sessions.",
-    "owner": "Steve Shannon",
-    "category": "Music",
-    "imageUrl": "https://obelous.dev/plugins/images/JellyMix.webp",
-    "versions": [
-      {
-        "version": "2.0.1.0",
-        "changelog": "Jellyfin 12.0 compatibility: fixes playlist save failing on 12.0",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v2.0.1/jellymix-v2.0.1.zip",
-        "checksum": "4d0849a8007af369a3a2dd790f7a72e2",
-        "timestamp": "2026-09-08T12:51:00Z"
-      },
-      {
-        "version": "2.0.0.0",
-        "changelog": "Music video playlists from Music Videos libraries, no repeats across blocks, year filter reads Release Date or Year, plus fixes",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v2.0.0/jellymix-v2.0.0.zip",
-        "checksum": "2f6184842ed26b5954f9b1faba6b7eea",
-        "timestamp": "2026-09-07T18:44:00Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "JellyMix Algorhythm artist variety, Share Playlist, genre mapping and remix fixes",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v1.0.3/jellymix-v1.0.3.zip",
-        "checksum": "18a812aee7d8b23ee765d0d39c3fd797",
-        "timestamp": "2026-01-02T04:16:00Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Initial public release with embedded plugin artwork",
-        "targetAbi": "10.11.0",
-        "sourceUrl": "https://github.com/steveshannon/jellyfin-plugin-jellymix/releases/download/v1.0.2/jellymix-v1.0.2.zip",
-        "checksum": "6741926559bf8e09e6cca0f5efe543b1",
-        "timestamp": "2024-12-31T00:30:00Z"
       }
     ]
   },
@@ -29345,33 +29162,6 @@
         "timestamp": "2025-10-07T12:33:48Z"
       }
     ]
-  },
-  {
-    "guid": "A6363EF3-AEB3-4BC1-8408-243AAE4C1B8B",
-    "name": ".jfignore",
-    "description": "Ignore specific files and folders by placing .jfignore files inside your library folder.\nThe file can be at the root level or inside a sub directory.  \n  \nUniversal Repo \nSource: https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin/raw/branch/master/manifest.json  \nGithub: https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin",
-    "overview": "Ignore files and folders by .jfignore Files",
-    "owner": "virtualmarc",
-    "category": "General",
-    "versions": [
-      {
-        "version": "1.0.0.1",
-        "changelog": "Fixed NPE on new series",
-        "targetAbi": "10.9.9.0",
-        "sourceUrl": "https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin/releases/download/1.0.0.1/JFIgnore_1.0.0.1.zip",
-        "checksum": "e05e04750927c8fcc69ae0b237fe28c6",
-        "timestamp": "2024-10-11T21:37:00Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release",
-        "targetAbi": "10.9.9.0",
-        "sourceUrl": "https://git.nexific.net/virtualmarc-oss/jellyfin-jfignore-plugin/releases/download/1.0.0.0/JFIgnore_1.0.0.0.zip",
-        "checksum": "57b836ed928e6d1e2d95e1d1ea24388b",
-        "timestamp": "2024-08-19T20:50:00Z"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/.jfignore.webp"
   },
   {
     "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
@@ -36386,105 +36176,6 @@
         "timestamp": "2025-04-25T16:00:00Z"
       }
     ]
-  },
-  {
-    "guid": "b9f8e1a2-3c4d-4e5f-8a7b-1c2d3e4f5a6b",
-    "name": "JellyTuber",
-    "description": "Index YouTube channels and playlists via the YouTube Data API, stream on demand with yt-dlp.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/RM4Y/JellyTuber/main/manifest.json  \nGithub: https://github.com/RM4Y/JellyTuber",
-    "overview": "Fast YouTube indexing using the official Data API instead of scraping.",
-    "owner": "self",
-    "category": "Channels",
-    "versions": [
-      {
-        "version": "1.16.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.16.0.0/jellytuber-1.16.0.0.zip",
-        "checksum": "4a479e7d12383f72444feefd810bd097",
-        "timestamp": "2026-09-27T04:46:40Z",
-        "changelog": "Release 1.16.0.0"
-      },
-      {
-        "version": "1.15.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.15.0.0/jellytuber-1.15.0.0.zip",
-        "checksum": "872a8824e68876ebad8cc44fd80fd9d3",
-        "timestamp": "2026-09-26T03:41:47Z",
-        "changelog": "Release 1.15.0.0"
-      },
-      {
-        "version": "1.14.4.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.4.0/jellytuber-1.14.4.0.zip",
-        "checksum": "6db15d2c6fe53e5737f73e44f7013352",
-        "timestamp": "2026-09-25T09:41:19Z",
-        "changelog": "Release 1.14.4.0"
-      },
-      {
-        "version": "1.14.3.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.3.0/jellytuber-1.14.3.0.zip",
-        "checksum": "6d40d1c749bcc198702af96e9a749467",
-        "timestamp": "2026-09-25T09:15:55Z",
-        "changelog": "Release 1.14.3.0"
-      },
-      {
-        "version": "1.14.2.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.2.0/jellytuber-1.14.2.0.zip",
-        "checksum": "9ff60e1f823f4034ae731bddebb54993",
-        "timestamp": "2026-09-25T08:45:15Z",
-        "changelog": "Release 1.14.2.0"
-      },
-      {
-        "version": "1.14.1.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.1.0/jellytuber-1.14.1.0.zip",
-        "checksum": "dcd678a40a59042eba3b9a300b1f2e00",
-        "timestamp": "2026-09-25T08:26:39Z",
-        "changelog": "Release 1.14.1.0"
-      },
-      {
-        "version": "1.14.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.14.0.0/jellytuber-1.14.0.0.zip",
-        "checksum": "d5e26363ba56e33aa5dd3c07ce722b7b",
-        "timestamp": "2026-09-23T10:11:47Z",
-        "changelog": "Release 1.14.0.0"
-      },
-      {
-        "version": "1.13.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.13.0.0/jellytuber-1.13.0.0.zip",
-        "checksum": "b537b3c826036286da519357c1dc1354",
-        "timestamp": "2026-08-20T20:46:25Z",
-        "changelog": "Release 1.13.0.0"
-      },
-      {
-        "version": "1.12.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.12.0.0/jellytuber-1.12.0.0.zip",
-        "checksum": "5a0a395ba6bc2cdfba02ad83ff96ce0e",
-        "timestamp": "2026-07-28T23:16:40Z",
-        "changelog": "Release 1.12.0.0"
-      },
-      {
-        "version": "1.11.1",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.11.1/youtube-fast-1.11.1.zip",
-        "checksum": "ff57404fc7b2775e436fd5986c196a88",
-        "timestamp": "2026-07-04T18:55:00Z",
-        "changelog": "Fixes duplicate video folders created when a YouTuber renames a video after publishing."
-      },
-      {
-        "version": "1.11.0.0",
-        "targetAbi": "10.11.6.0",
-        "sourceUrl": "https://github.com/RM4Y/JellyTuber/releases/download/v1.11.0.0/youtube-fast-1.11.0.0.zip",
-        "checksum": "92ec9961f505bc91cca948abc63466ea",
-        "timestamp": "2026-07-03T16:54:55Z",
-        "changelog": "Release 1.11.0.0"
-      }
-    ],
-    "imageUrl": "https://obelous.dev/plugins/images/JellyTuber.webp"
   },
   {
     "guid": "b9f8e2a4-6c1d-4f3a-9e7b-2a5c8d1f0e34",
