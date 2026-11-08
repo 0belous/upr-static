@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 330, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-08T04:08:25.808Z",
+    "overview": "Generated: 2026-11-08T05:08:26.396Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-08T04:08:25.808Z"
+        "timestamp": "2026-11-08T05:08:26.396Z"
       }
     ]
   },
@@ -7573,7 +7573,7 @@
         "version": "2.0.0.0",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/chrissix666/Jellyfin-VideoOSD-Tweaks-Candy/releases/download/v2.0.0.0/VideoOSD.Tweaks.Candy_2.0.0.0_jellyfin-12.x.zip",
-        "checksum": "52c1f5289283f7bf8b74611067ced1e8",
+        "checksum": "87d7a87d3f7358c0b56a1b5b77a517d8",
         "timestamp": "2026-10-03T00:00:00Z",
         "changelog": "Release for Jellyfin 12.0+"
       },
@@ -7581,7 +7581,7 @@
         "version": "1.1.0.0",
         "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/chrissix666/Jellyfin-VideoOSD-Tweaks-Candy/releases/download/v1.1.0.0/VideoOSD.Tweaks.Candy_1.1.0.0_jellyfin-10.10.7.zip",
-        "checksum": "3e6a8a930c85df060d32ccd0bcec992b",
+        "checksum": "e61fde8d5750ead7e83f4cae5f856121",
         "timestamp": "2026-10-03T00:00:00Z",
         "changelog": "Release for Jellyfin 10.10.7"
       },
