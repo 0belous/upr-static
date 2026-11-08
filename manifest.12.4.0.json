@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 297, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-08T10:08:37.244Z",
+    "description": "Aggregated: 300, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-08T11:08:51.219Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-08T10:08:37.244Z"
+        "timestamp": "2026-11-08T11:08:51.219Z"
       }
     ]
   },
@@ -1257,6 +1257,33 @@
         "sourceUrl": "https://github.com/fdett/jellyfin-ignore/releases/download/v0.6.3/jellyfin-ignore_0.6.3.0.zip",
         "checksum": "fc70605f6c47bb5c33f4c5d8c9a07bf7",
         "timestamp": "2026-09-12T16:01:01Z"
+      }
+    ]
+  },
+  {
+    "guid": "2792BCF5-FF66-4CA2-A7F3-00B84563F69E",
+    "name": "TMDbPlus",
+    "description": "jellyfin电影元数据插件，使用TheMovieDb（TMDB）获取电影与剧集元数据。  \n  \nUniversal Repo [✓] \nSource: https://github.com/cxfksword/jellyfin-plugin-tmdbplus/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-tmdbplus",
+    "overview": "jellyfin电影元数据插件",
+    "owner": "cxfksword",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/TMDbPlus.webp",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "同步MetaShark刮削修复\n支持单集IMDb写入与tmdbid指定优先\n修复标题尾数误截断与季号解析",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-tmdbplus/releases/download/v0.1.0/tmdbplus_0.1.0.0.zip",
+        "checksum": "233c8ae10e734dad0a11208163bc42fe",
+        "timestamp": "2026-10-08T04:42:24"
+      },
+      {
+        "version": "0.0.1.0",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-tmdbplus/releases/download/v0.0.1/tmdbplus_0.0.1.0.zip",
+        "checksum": "c464858261759a3b45e85589e239b534",
+        "timestamp": "2026-04-11T03:43:30"
       }
     ]
   },
@@ -3911,6 +3938,169 @@
         "sourceUrl": "https://luckynos7evin.github.io/jellyfin-heic-plugin/releases/heic-photos_0.1.0.0.zip",
         "checksum": "a11ad50935fe4e9e31323cbe13d7bcfe",
         "timestamp": "2026-11-05T10:31:26Z"
+      }
+    ]
+  },
+  {
+    "guid": "5B39DA44-5314-4940-8E26-54C821C17F86",
+    "name": "Danmu",
+    "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。  \n  \nUniversal Repo [✓] \nSource: https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-danmu/",
+    "overview": "jellyfin弹幕下载插件",
+    "owner": "cxfksword",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/Danmu.webp",
+    "versions": [
+      {
+        "version": "2.8.0.0",
+        "changelog": "兼容 Jellyfin 12 元数据保存接口",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.8.0/danmu_2.8.0.0.zip",
+        "checksum": "8498d9a1ed6cdfe27b94d78e77d2752b",
+        "timestamp": "2026-09-11T04:11:53"
+      },
+      {
+        "version": "2.7.4.0",
+        "changelog": "修复ASS与实时监控死循环",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.4/danmu_2.7.4.0.zip",
+        "checksum": "145669dad709be2c3a2451abb334c48a",
+        "timestamp": "2026-09-05T07:58:37"
+      },
+      {
+        "version": "2.7.3.0",
+        "changelog": "支持单集弹幕刷新API",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.3/danmu_2.7.3.0.zip",
+        "checksum": "83c805acb898461e473188a642892eed",
+        "timestamp": "2026-08-26T16:08:11"
+      },
+      {
+        "version": "2.7.2.0",
+        "changelog": "修复芒果TV搜索接口403问题：改用新的pc/search/v2接口并实现MD5签名算法，适配新版搜索结果结构，新增电影/综艺搜索测试",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.2/danmu_2.7.2.0.zip",
+        "checksum": "2ed1622274e07058bc0285ce6b5480e3",
+        "timestamp": "2026-08-22T07:54:44"
+      },
+      {
+        "version": "2.7.1.0",
+        "changelog": "修正10.11.x 弹幕下载在元数据刮削完成前触发",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.1/danmu_2.7.1.0.zip",
+        "checksum": "7014ca3cb185ddd82a75b66000dec164",
+        "timestamp": "2026-07-16T09:11:21"
+      },
+      {
+        "version": "2.7.0.0",
+        "changelog": "增加人人视频弹幕源",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.0/danmu_2.7.0.0.zip",
+        "checksum": "11c8d632f12e306f7f6659f35cbe7168",
+        "timestamp": "2026-06-27T06:44:57"
+      },
+      {
+        "version": "2.6.4.0",
+        "changelog": "修正优酷弹幕解析，修正腾讯搜索结果过滤",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.4/danmu_2.6.4.0.zip",
+        "checksum": "64963a61e98ee94966def3a010ab7193",
+        "timestamp": "2026-06-19T07:13:57"
+      },
+      {
+        "version": "2.6.3.0",
+        "changelog": "修复腾讯电视剧搜索",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.3/danmu_2.6.3.0.zip",
+        "checksum": "6475430ec3f61e8378f9abc276990052",
+        "timestamp": "2026-05-30T10:53:47"
+      },
+      {
+        "version": "2.6.2.0",
+        "changelog": "修正b站bv/av号剧集元数据没保存",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.2/danmu_2.6.2.0.zip",
+        "checksum": "809e38913fd779b96213148430ecb035",
+        "timestamp": "2026-05-17T09:23:34"
+      },
+      {
+        "version": "2.6.1.0",
+        "changelog": "修复腾讯搜索",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.1/danmu_2.6.1.0.zip",
+        "checksum": "1fa62d5ebe9a308e190aef8668944823",
+        "timestamp": "2026-05-13T13:57:16"
+      },
+      {
+        "version": "2.6.0.0",
+        "changelog": "重构合并弹幕元数据，避免nfo文件残留旧的弹幕元数据没法删除",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.0/danmu_2.6.0.0.zip",
+        "checksum": "feb1227df5bd96f97a797c5cd2e360bc",
+        "timestamp": "2026-05-08T13:58:54"
+      },
+      {
+        "version": "2.5.2.0",
+        "changelog": "限制bilibili弹幕下载频率，避免风控",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.2/danmu_2.5.2.0.zip",
+        "checksum": "4176b5e7e4d25b12ada2aed49739a886",
+        "timestamp": "2026-01-10T06:51:33"
+      },
+      {
+        "version": "2.5.1.0",
+        "changelog": "修正不触发nfo更新元数据",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.1/danmu_2.5.1.0.zip",
+        "checksum": "0590648ae7eb2cd681af0affb0a61d87",
+        "timestamp": "2025-12-20T06:04:27"
+      },
+      {
+        "version": "2.5.0.0",
+        "changelog": "支持自建danmu_api源",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.0/danmu_2.5.0.0.zip",
+        "checksum": "8e8d59f3412cc5bc0a1553e3a2e31b32",
+        "timestamp": "2025-12-10T13:47:16"
+      },
+      {
+        "version": "2.4.3.0",
+        "changelog": "修正影响电视剧季名称更新",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.3/danmu_2.4.3.0.zip",
+        "checksum": "96f9446ddafe23475d0e048521816203",
+        "timestamp": "2025-11-30T08:06:14"
+      },
+      {
+        "version": "2.4.2.0",
+        "changelog": "修正插件版本兼容性",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.2/danmu_2.4.2.0.zip",
+        "checksum": "9f49db4a471583950c3dad7a1c1e0a0d",
+        "timestamp": "2025-11-21T13:30:42"
+      },
+      {
+        "version": "2.4.1.0",
+        "changelog": "修正iqiyi部分弹幕下载失败",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.1/danmu_2.4.1.0.zip",
+        "checksum": "572e0bb954394b9b723c2f87a369a7eb",
+        "timestamp": "2025-11-19T03:11:58"
+      },
+      {
+        "version": "2.4.0.0",
+        "changelog": "剧集弹幕倒序下载，支持弹弹接口规范，方便接入senplayer等播放器",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.0/danmu_2.4.0.0.zip",
+        "checksum": "b8d1280008ff90351df64dd88eabe795",
+        "timestamp": "2025-11-16T14:29:02"
+      },
+      {
+        "version": "2.3.0.0",
+        "changelog": "支持Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.3.0/danmu_2.3.0.0.zip",
+        "checksum": "45680ff4a48b6fa37702bde5ba20e28a",
+        "timestamp": "2025-10-29T14:06:24"
       }
     ]
   },
@@ -8442,6 +8632,113 @@
         "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-runtime-trim/releases/download/v0.1.0.0/runtime-trim-v0.1.0.0.zip",
         "checksum": "a35bf2760cc3ad8197400e32b77b0cb0",
         "timestamp": "2026-10-13T13:59:36Z"
+      }
+    ]
+  },
+  {
+    "guid": "9a19103f-16f7-4668-be54-9a1e7a4f7556",
+    "name": "MetaShark",
+    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。  \n  \nUniversal Repo [✓] \nSource: https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/manifest/manifest.json  \nGithub: https://github.com/cxfksword/jellyfin-plugin-metashark",
+    "overview": "jellyfin电影元数据插件",
+    "owner": "cxfksword",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/MetaShark.webp",
+    "versions": [
+      {
+        "version": "2.3.8.0",
+        "changelog": "修复刮削标题写入错误",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.8/metashark_2.3.8.0.zip",
+        "checksum": "f355aaf7c597150bba00b3179756bbd1",
+        "timestamp": "2026-10-08T04:29:49"
+      },
+      {
+        "version": "2.3.7.0",
+        "changelog": "修复tmdbid被imdb反查覆盖",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.7/metashark_2.3.7.0.zip",
+        "checksum": "760643215241db234b49ca92e87f3c7c",
+        "timestamp": "2026-09-12T09:51:03"
+      },
+      {
+        "version": "2.3.6.0",
+        "changelog": "修复电影IMDb标识为空时误保存",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.6/metashark_2.3.6.0.zip",
+        "checksum": "1d19a03e5a4debbc65cef4f2639ececb",
+        "timestamp": "2026-08-06T03:42:54"
+      },
+      {
+        "version": "2.3.5.0",
+        "changelog": "修复剧集TMDB标识获取",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.5/metashark_2.3.5.0.zip",
+        "checksum": "95e31fdb376d2d01a313a684d6b73a4e",
+        "timestamp": "2026-08-01T06:32:37"
+      },
+      {
+        "version": "2.3.4.0",
+        "changelog": "修正以数字结尾电影名称刮削异常",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.4/metashark_2.3.4.0.zip",
+        "checksum": "eaac8249eba9cf9f8cabd66ca440bbcf",
+        "timestamp": "2026-05-19T14:59:48"
+      },
+      {
+        "version": "2.3.3.0",
+        "changelog": "修正无法获取特典剧集图片",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.3/metashark_2.3.3.0.zip",
+        "checksum": "996c13d9f97ecb32c6d97739af776fa5",
+        "timestamp": "2026-05-08T14:16:47"
+      },
+      {
+        "version": "2.3.2.0",
+        "changelog": "兼容 10.11.8",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.2/metashark_2.3.2.0.zip",
+        "checksum": "4ac5fa8ceb5695084c0ca5123e77c7dd",
+        "timestamp": "2026-05-02T06:00:24"
+      },
+      {
+        "version": "2.3.1.0",
+        "changelog": "修复豆瓣",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.1/metashark_2.3.1.0.zip",
+        "checksum": "cb0bb26b7561f3d19490ac8d8b0ba97d",
+        "timestamp": "2026-01-29T13:34:40"
+      },
+      {
+        "version": "2.3.0.0",
+        "changelog": "支持tmdb剧集组，优化刮削",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.0/metashark_2.3.0.0.zip",
+        "checksum": "f0b298b487af04e886bbf0afd3912bc3",
+        "timestamp": "2025-12-04T12:52:27"
+      },
+      {
+        "version": "2.2.2.0",
+        "changelog": "对Jellyfin 10.11进行刮削优化，增加开关控制降级到tmdb进行自动匹配",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.2/metashark_2.2.2.0.zip",
+        "checksum": "ac7d09477ba12e9518d1e130c90b4c14",
+        "timestamp": "2025-11-29T07:58:56"
+      },
+      {
+        "version": "2.2.1.0",
+        "changelog": "修复演员链接错误",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.1/metashark_2.2.1.0.zip",
+        "checksum": "898c019132e0dfd5afb31857d70182dc",
+        "timestamp": "2025-10-27T12:30:49"
+      },
+      {
+        "version": "2.2.0.0",
+        "changelog": "支持jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.0/metashark_2.2.0.0.zip",
+        "checksum": "bc76c01f53292a09f96710257a86f5e7",
+        "timestamp": "2025-10-26T08:37:11"
       }
     ]
   },
