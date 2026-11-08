@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 312, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-08T09:08:37.017Z",
+    "description": "Aggregated: 311, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-08T10:08:37.244Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-11-08T09:08:37.017Z"
+        "timestamp": "2026-11-08T10:08:37.244Z"
       }
     ]
   },
@@ -10547,49 +10547,6 @@
       }
     ],
     "imageUrl": "https://obelous.dev/plugins/images/GoogleBooks.webp"
-  },
-  {
-    "guid": "7b3792b4-b988-4ec5-b9e5-1a952a652b83",
-    "name": "Live-TV Control Center",
-    "description": "Show personal or shared channel groups in the original Jellyfin Android TV / Fire TV guide, with a web EPG, remote playback, channel access rules and native app folders.  \n  \nUniversal Repo [✓] \nSource: https://github.com/iEnki/jellyfin-plugin-livetv-control-center/releases/latest/download/manifest.json  \nGithub: https://github.com/iEnki/jellyfin-plugin-livetv-control-center",
-    "overview": "Your channel groups in the original TV guide, plus web EPG and remote playback",
-    "owner": "iEnki",
-    "category": "Live TV",
-    "imageUrl": "https://obelous.dev/plugins/images/Live-TVControlCenter.webp",
-    "versions": [
-      {
-        "version": "1.3.0.0",
-        "changelog": "- Administrators can now copy central groups into their own personal collection when switching back to personal mode, or import them later. Both management screens require an explicit copy/skip choice on mode switch. Existing personal groups take precedence when IDs match; central groups and other users' personal groups remain untouched. Custom group images are copied with newly imported groups.\n- Require administrators to explicitly choose whether to copy their personal groups when switching to central management. The no-copy choice preserves personal groups for later use, and both the web dialog and plugin dashboard offer a later import. Reject an ambiguous mode-switch request instead of silently showing an empty central group list.\n\n",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/iEnki/jellyfin-plugin-livetv-control-center/releases/download/v1.3.0.0/live-tv-control-center_1.3.0.0.zip",
-        "checksum": "08c1a112e495b287c79ef19a60b7ca47",
-        "timestamp": "2026-09-28T10:11:17Z"
-      },
-      {
-        "version": "1.2.0.0",
-        "changelog": "- Support Wholphin in the native Live TV guide: select a group or **All channels** directly in its compatible Control Center folders, then open **Live TV → TV Guide**. Group selection applies only to the authenticated user's device, respects current group/channel permissions, and restores the full guide on reset. Wholphin does not support an automatic guide jump.\n- Add administrator switches for the official Jellyfin Android TV / Fire TV app and Wholphin. A sole eligible TV is selected automatically; with several TVs, the last available choice is remembered per user. Disabled or disconnected devices cannot receive playback or guide changes.\n- Add recognizable artwork to the Control Center home tile, guide actions, confirmation and fallback folders. **All channels** has its own EPG-reset image; created groups have a distinct group image. Personal and shared groups can use custom PNG, JPEG or WebP images up to 5 MiB, with preview and reset controls and permission checks.\n- Add recording controls to the grouped web EPG. Users with Jellyfin's Live TV management permission can schedule, edit and cancel single-program or series timers, including padding and series options; recording errors remain visible in the dialog.\n- Restore reliable loading of the independent web EPG behind reverse proxies that cached its old script URL. Preserve original channel logos, official Android TV / Fire TV behavior, channel playback and the existing plugin identity and settings.\n\n",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/iEnki/jellyfin-plugin-livetv-control-center/releases/download/v1.2.0.0/live-tv-control-center_1.2.0.0.zip",
-        "checksum": "d900f08648cb8489ef41c2b1e238da9b",
-        "timestamp": "2026-09-26T19:30:41Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "- Selecting a group in the official Android TV / Fire TV app immediately applies that group's native guide scope and opens the ordinary Live TV view. The separate Native TV guide action remains available to retry.\n- Hide direct grouped-channel media tiles from that authenticated TV response while keeping the native guide action and browsable program-list fallback. Internal channel items and playlists remain unchanged.\n- Retain per-user/device validation, group access checks and safe behavior when navigation is unavailable. The original app may still require selecting TV Guide after opening Live TV; a direct timeline deep link is not exposed by the stock client.\n\n",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/iEnki/jellyfin-plugin-livetv-control-center/releases/download/v1.1.0.0/live-tv-control-center_1.1.0.0.zip",
-        "checksum": "0245ae5a67351cd739ff3d189382d4fb",
-        "timestamp": "2026-09-19T23:43:18Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "- Organize Live TV channels in ordered personal groups independent of IPTV-provider categories, or use administrator-managed shared groups with per-group user access.\n- Show one selected group's original channels in Jellyfin's native Android TV / Fire TV timeline. Select the group on the TV or from the web/mobile page; the web page can also apply the deduplicated union of all visible groups. Reset to all ordinarily permitted channels at any time. Selections are per user and TV device.\n- Browse an independent web EPG with a channel/program timeline, now/next/later programs, channel cards, day/time navigation and zoom. Save visible/default groups and view preferences; use the interface in English or German.\n- Use the web or phone guide as a remote for the official Jellyfin Android TV / Fire TV app: discover a compatible TV, remember the target, and start or switch live channels while the guide stays open.\n- Apply optional central channel-access rules to selected users, including children's accounts. Restrictions cover the plugin and ordinary Jellyfin Live TV, direct playback, playlists and associated recordings while preserving Jellyfin permissions.\n- Browse grouped channel and daily program folders in supported native apps; optionally mirror groups as playlists for other clients.\n- Integrate the web interface through File Transformation, optionally add a Plugin Pages menu shortcut, customize the display name and hide the original Live TV home tile when the groups entry is available.\n- Support Jellyfin 12.0 or later in the Jellyfin 12 series (12.1 confirmed). Keep the existing plugin ID, channel identity and stored settings for upgrades from Live-TV Groups. Native guide navigation may require one additional TV Guide selection; no virtual channels or custom TV client are used.\n",
-        "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/iEnki/jellyfin-plugin-livetv-control-center/releases/download/v1.0.0.0/live-tv-control-center_1.0.0.0.zip",
-        "checksum": "272eda9d6c87832a5a78bb8bc3773072",
-        "timestamp": "2026-09-19T18:59:18Z"
-      }
-    ]
   },
   {
     "guid": "7b3f1b70-4d0e-4d9d-a92d-5e2f632b91c1",
