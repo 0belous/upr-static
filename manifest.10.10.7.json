@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-09T17:08:28.012Z",
+    "overview": "Generated: 2026-11-09T18:08:27.733Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-09T17:08:28.012Z"
+        "timestamp": "2026-11-09T18:08:27.733Z"
       }
     ]
   },
@@ -8422,6 +8422,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "1.55.6.0",
+        "changelog": "For Jellyfin 10.11.\n\nFixed: after you changed your provider password or username, the movie and series files kept the old login until the next full sync, and series episodes even after that, so they stopped playing once the old password was gone. The next sync after a login change is now a full sync that rewrites every file with the new login.\n\nFixed: with Automatic Metadata ID Lookup on, most series without an ID from the provider were never matched, because only the first search result was checked and that is usually TheMovieDb's, which has no TVDb ID. The lookup now uses the first result that has the ID and prefers one from the same year. The next sync searches again for the series an earlier sync could not match, so there is no need to clear the metadata cache. Movies get the same fix. A language prefix like \"EN - \" at the start of a title is now removed, like \"| EN |\" already was.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v1.55.6.0/jellyfin-xtream-library_1.55.6.0.zip",
+        "checksum": "45b2d197e3bed1d81a97eedf0164abb7",
+        "timestamp": "2026-10-31T14:12:45Z"
+      },
       {
         "version": "1.55.4.0",
         "changelog": "For Jellyfin 10.11. Security fixes from the 2.x line.\n\nIf you posted a Jellyfin log from an earlier version somewhere public: it may contain your provider username and password, which were in the stream address logged each time a channel was opened and in provider errors and retries. Consider asking your provider for a new password. The log no longer contains them.\n\nFixed: a movie or series title, category name or error message from the provider could contain code that ran in your browser, with your admin session, while the plugin's settings page was open. Such text is now shown as plain text.\n\nFixed: a poster or cover address from the provider was written into the NFO files as is. Jellyfin reads a file path there as a local image, so a provider could have a file from your server shown as an item's image. Only http and https addresses are written now.\n\nArtwork downloads stop at 20 MB and after 30 seconds, and a page that is not an image is no longer saved as a poster. A title of only dots, such as \"..\", is now named Unknown, and very long titles no longer slow the sync down. Control characters in a title no longer make an NFO file or the Epg.xml guide unreadable. With Dispatcharr, a channel or movie id that is not a valid uuid is ignored.",

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-09T17:08:28.012Z",
+    "overview": "Generated: 2026-11-09T18:08:27.733Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-11-09T17:08:28.012Z"
+        "timestamp": "2026-11-09T18:08:27.733Z"
       }
     ]
   },
@@ -4909,6 +4909,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.26.0",
+        "changelog": "Heads-up: movies whose title carries a 3D, SBS or HSBS tag get a new folder and file name, so Jellyfin adds them as new items and their watched status and artwork start over. Other movies are not affected. The first sync after updating is a full sync, which moves them in one go.\n\n3D, SBS and HSBS are now version labels. A movie like \"3D Spider-Man: Far from Home (2019)\" becomes a version of \"Spider-Man: Far from Home (2019)\", labelled 3D in the version picker, instead of a separate movie. \"3D\" counts at the start of a title or in brackets; at the end it is usually part of the title (Jackass 3D) and stays. Series are not changed.\n\nNew, off by default: Live TV can tag each channel with its category (with Dispatcharr: the channel group), so an account can be limited to one category with Jellyfin's allowed tags, for example a children's account that only sees the Kids group. Turn it on under Live TV, \"Tag channels with their category\", then refresh the guide. With it on, Jellyfin replaces each channel's tags on every guide refresh, so tags set by hand are lost; tags in Channel Overrides win.\n\nRemove now also works on the only provider. It is replaced by an empty one with the same library path, so you can switch to another provider from scratch: fill in the new provider and click Save. Files already in the library stay; use Delete Movies/Series Library first if you want a clean start.\n\nFixed: after you changed your provider password or username, the movie and series files kept the old login until the next full sync, and series episodes even after that, so they stopped playing once the old password was gone. The next sync after a login change is now a full sync that rewrites every file with the new login.\n\nFixed: with Automatic Metadata ID Lookup on, most series without an ID from the provider were never matched, because only the first search result was checked and that is usually TheMovieDb's, which has no TVDb ID. The lookup now uses the first result that has the ID and prefers one from the same year. The next sync searches again for the series an earlier sync could not match, so there is no need to clear the metadata cache. Movies get the same fix. A language prefix like \"EN - \" at the start of a title is now removed, like \"| EN |\" already was.\n\nFixed: movies that share a title and have no TMDB id are no longer dropped after the first one. They are kept in the same folder as versions of one movie, the extra ones with their stream id in the file name.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v2.0.26.0/jellyfin-xtream-library_2.0.26.0.zip",
+        "checksum": "cb2cdc107c570f068457b47d367065af",
+        "timestamp": "2026-10-31T13:51:12Z"
+      },
       {
         "version": "2.0.21.0",
         "changelog": "This update brings together 2.0.18.0 to 2.0.21.0 from the beta channel.\n\nMovies and series no longer disappear and come back when the provider has a bad moment. An empty answer is asked again a few times before it is accepted, and a category that fails to load or comes back empty although it had items keeps its files until it answers again, or for up to the Full Sync Interval. Before, those items were deleted and added back on the next sync, losing watched status and artwork in between. The last sync on the settings page says how many items were kept (contributed by andreadegiovine).\n\nFixed: with Smart Skip on (the default), every other full sync asked the provider for the details of almost every series again, thousands of requests on a large catalogue. The episode count of an unchanged series is now kept, which matters most for providers that allow one connection or block on bursts (contributed by luisgsluis).\n\nFixed: after switching Dispatcharr Mode off, Live TV kept using Dispatcharr's addresses until the stored channel list was deleted by hand. It now uses the provider addresses again at once.\n\nLive TV with the native tuner: the programme guide now sets itself up. With Live TV, Native Tuner and EPG on, the plugin adds its EPG URL under Dashboard > Live TV > TV Guide Data Providers; a guide source you added yourself is kept (suggested by aanyberg). The settings page also warns when an M3U tuner reads the plugin's playlist next to the native tuner, which shows every channel twice.\n\nLive TV with Dispatcharr: channels now tell apps their real video profile and level and the number of audio channels. Before, Jellyfin announced every H.264 channel as Baseline and re-encoded stereo audio to 5.1.\n\nCatch-up: older days now show the real programme titles instead of half-hour blocks, without extra requests (contributed by dillardblom).\n\nArtwork: a host that does not answer no longer holds up the sync. Downloads give up after 3 seconds without a connection or 15 seconds in total, and after five failures in a row the rest of that host's images are skipped for that sync (thanks to wikidone).",
