@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-09T00:08:26.095Z",
+    "overview": "Generated: 2026-11-09T01:08:26.166Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-09T00:08:26.095Z"
+        "timestamp": "2026-11-09T01:08:26.166Z"
       }
     ]
   },
@@ -7111,104 +7111,16 @@
     "overview": "Standalone studio hubs feature for Jellyfin home screen.",
     "owner": "MFerretti27",
     "category": "General",
-    "description": "Adds a configurable studio hubs row with admin-managed global studio visibility and order.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/MFerretti27/StudioHubs/main/manifest.json  \nGithub: https://github.com/MFerretti27/StudioHubs",
+    "description": "Adds a configurable studio hubs row with admin-managed global studio visibility and order.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/MFerretti27/StudioHubs/main/manifest.json  \nGithub: https://github.com/MFerretti27/StudioHubs",
     "imageUrl": "https://obelous.dev/plugins/images/StudioHubs.webp",
     "versions": [
       {
-        "version": "1.0.11.0",
+        "version": "1.0.12.0",
         "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.11.0/v1.0.11.0.zip",
-        "checksum": "f37842020538ff35c0584f19d589a5b1",
-        "timestamp": "2026-10-18T23:27:48Z"
-      },
-      {
-        "version": "1.0.10.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.10.0/v1.0.10.0.zip",
-        "checksum": "7a0ebe50dff77c167c3024c8117d3b5a",
-        "timestamp": "2026-09-24T02:21:12Z"
-      },
-      {
-        "version": "1.0.9.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.9.0/v1.0.9.0.zip",
-        "checksum": "e2c60bfcc1ae05e07b06f9990972f8f6",
-        "timestamp": "2026-09-20T14:57:57Z"
-      },
-      {
-        "version": "1.0.8.0",
-        "changelog": "Automated release",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.8.0/v1.0.8.0.zip",
-        "checksum": "117cea031a967aaaaca9f7d3953b6b32",
-        "timestamp": "2026-09-18T04:04:56Z"
-      },
-      {
-        "version": "1.0.7.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.7.0/v1.0.7.0.zip",
-        "checksum": "f3498a5a7f7ab157b7b15a28b1e96a1e",
-        "timestamp": "2026-09-01T00:44:50Z"
-      },
-      {
-        "version": "1.0.6.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.6.0/v1.0.6.0.zip",
-        "checksum": "3114ed9ffc46ffc5760c3e5545a0c84f",
-        "timestamp": "2026-06-08T00:39:31Z"
-      },
-      {
-        "version": "1.0.5.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.5.0/v1.0.5.0.zip",
-        "checksum": "ac028fb1e57a4b0325141f7be36b1419",
-        "timestamp": "2026-06-07T14:09:38Z"
-      },
-      {
-        "version": "1.0.4.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.4.0/v1.0.4.0.zip",
-        "checksum": "193a6d16b45bfafc2d7a591cdbf9811a",
-        "timestamp": "2026-06-04T02:25:14Z"
-      },
-      {
-        "version": "1.0.3.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.3.0/v1.0.3.0.zip",
-        "checksum": "7cac17a12f4cd22566f515df4c404557",
-        "timestamp": "2026-06-02T02:48:52Z"
-      },
-      {
-        "version": "1.0.2.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.2.0/v1.0.2.0.zip",
-        "checksum": "5d6ba91d01474ca5100050edb6dbe094",
-        "timestamp": "2026-05-08T02:45:13Z"
-      },
-      {
-        "version": "1.0.1.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.1.0/v1.0.1.0.zip",
-        "checksum": "1a927c6ec7495750ebb1d06d79d9b149",
-        "timestamp": "2026-05-04T02:16:03Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.0.0/v1.0.0.0.zip",
-        "checksum": "daee7c840a4dcebbfd85f0c84fbd4a70",
-        "timestamp": "2026-04-28T02:00:36Z"
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.12.0/v1.0.12.0.zip",
+        "checksum": "7e2a6123b57248693fbd83ee95b2148a",
+        "timestamp": "2026-11-09T00:32:54Z"
       }
     ]
   },
