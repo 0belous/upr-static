@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 330, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-09T15:08:31.851Z",
+    "overview": "Generated: 2026-11-09T16:08:27.564Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-09T15:08:31.851Z"
+        "timestamp": "2026-11-09T16:08:27.564Z"
       }
     ]
   },
@@ -7002,6 +7002,14 @@
     "owner": "JPKribs",
     "category": "General",
     "versions": [
+      {
+        "version": "12.2.2.1",
+        "changelog": "\n## Fixed\n- serverFetch sends the sign-in token when headers are a Headers object or name and value pairs, and leaves the page init untouched\n- A route call with an expired or invalid token answers 401 instead of a server error\n- A restricted page refuses a caller it cannot identify\n- A failed store write leaves no temp file behind, and a store file holding a null entry still loads\n- Uploading assets reports the files that were skipped\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.2.2.1/jellyfin-plugin-custompages-12.2.2.1.zip",
+        "checksum": "9acda69f3d81b414aedad2fa66799484",
+        "timestamp": "2026-11-09T16:04:15Z"
+      },
       {
         "version": "12.2.2.0",
         "changelog": "\n## Developer\n- Built for Jellyfin 12.2 (target ABI 12.2.0.0). Servers on Jellyfin 12.0 or 12.1 keep the previous release.\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).",
@@ -14503,6 +14511,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.2.2.3",
+        "changelog": "\n## Fixed\n- A damaged invite status file or an invite with empty resources no longer breaks the invite pages\n- The Invites page judges expiry by UTC date, as the server does, and shows the reason the server gives for a refused change\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.2.2.3/jellyfin-plugin-usermanagement-12.2.2.3.zip",
+        "checksum": "6a037ebebd04be41b1768f38609446ac",
+        "timestamp": "2026-11-09T16:04:24Z"
+      },
+      {
         "version": "12.2.2.2",
         "changelog": "\n## Fixed\n- Session cleanup logs now name the user whose device was logged out, instead of showing their user ID.",
         "targetAbi": "12.2.0.0",
@@ -16293,6 +16309,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.2.4.1",
+        "changelog": "\n## Fixed\n- Admin pages show the reason the server gives for a refused action\n- Replacing a song whose file cannot be read is refused with a reason\n- Faster metadata matching after each download\n- The Apple Music search cache stays bounded\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.2.4.1/jellyfin-plugin-youtubeaudio-12.2.4.1.zip",
+        "checksum": "916125a423ac49b3ce5f2e27dbe71e08",
+        "timestamp": "2026-11-09T16:04:25Z"
+      },
+      {
         "version": "12.2.4.0",
         "changelog": "\n## Developer\n- Still built for Jellyfin 12.2 (target ABI 12.2.0.0, unchanged).\n- Updated test dependencies (Microsoft.NET.Test.Sdk 18.11, NSubstitute 6.2, xunit 2.9.3, xunit.runner.visualstudio 4.0.1).\n- Microsoft.Data.Sqlite.Core is now compiled against 10.0.11, the version Jellyfin 12.2 ships. It is not bundled, so nothing changes at runtime.\n- No user-facing changes in this release; the plugin works the same as 12.2.3.4.",
         "targetAbi": "12.2.0.0",
@@ -17757,6 +17781,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.4.5",
+        "changelog": "\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.\n- EasyDNS replies are parsed with source generated patterns, and the test build has no warnings.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.4.5/jellyfin-plugin-remoteaccess-12.2.4.5.zip",
+        "checksum": "f3054944f525ffddfb6a87e2efdc76a6",
+        "timestamp": "2026-11-09T16:04:16Z"
+      },
       {
         "version": "12.2.4.4",
         "changelog": "## Added\r\n- A Verify External Access scheduled task runs the outside check every hour and writes an error to the activity log when no place on the internet can connect to port 443, with an entry when it works again.\r\n\r\n## Developer\r\n- The docs list the new task and its activity log entries.",
@@ -31464,6 +31496,14 @@
     "category": "LiveTV",
     "versions": [
       {
+        "version": "12.4.2.1",
+        "changelog": "\n## Fixed\n- Night sky, Lava lamp, and Aurora placeholder cards fill the screen instead of showing as a thin strip. Cached cards render again\n- Settings and Popular show a failure message when a save fails without a reason\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.2.1/jellyfin-plugin-livechannels-12.4.2.1.zip",
+        "checksum": "a61137e1ef07f8e03d33c2938f21fb86",
+        "timestamp": "2026-11-09T16:04:18Z"
+      },
+      {
         "version": "12.4.2.0",
         "changelog": "\n## Features\n- Placeholder blocks take a channel off air for a time window, showing one program in the guide (named \"-\" unless you name it) and looping a 10 second card with your message\n- Ten silent card styles that loop without a seam - Default, Static, Error, Ocean, Night sky, Lava lamp, Rain, Embers, Aurora, and Custom (your own image, GIF or video)\n- The card's message can name when the channel resumes and what it resumes with ({time} and {contentName}), and changes with every airing without rendering again\n- Placeholder cards render with the other buffer cards, only for channels that have a placeholder block, and again after you save one",
         "targetAbi": "12.4.0.0",
@@ -35192,6 +35232,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.4.0",
+        "changelog": "\n## Features\n- Videos Per Parent in Frame Extraction caps how many videos a series, season, collection, folder, or library takes frames from. 0 uses every video and is the default. A lower number is faster on network storage\n\n## Fixed\n- Logo text cleanup no longer fails on a busy server\n- Design and logo previews release their images when the page closes\n\n## Developer\n- Built for Jellyfin 12.4 (target ABI 12.4.0.0).\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.4.0/jellyfin-plugin-artworkgenerator-12.4.4.0.zip",
+        "checksum": "f3cb2e73460c504f4d3a0ea8b5d2f5bd",
+        "timestamp": "2026-11-09T16:04:17Z"
+      },
       {
         "version": "12.4.3.0",
         "changelog": "\n## Features\n- Generate artwork for collections, plain folders, and whole libraries. Each is off until ticked in a profile, and each can be assigned to its own profile. Collections default to a portrait primary image, folders and libraries to landscape\n- Choices In Edit Images goes up to 1000 instead of 10, and defaults to 10 for new installs\n- Sampling Rate in Frame Extraction scores fewer or more frames for each one kept. Medium matches earlier releases\n- Reuse Samples in Frame Extraction can be turned off so every image type gets its own frames instead of overlapping ones\n- The installation guide explains setting a Published Server URI so Edit Images previews load on other devices\n\n## Fixed\n- A profile with only videos assigned can be saved\n\n## Developer\n- Built for Jellyfin 12.4 (target ABI 12.4.0.0). Servers on earlier Jellyfin versions keep the previous release.",
