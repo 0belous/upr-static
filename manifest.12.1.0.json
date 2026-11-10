@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-10T14:08:31.270Z",
+    "overview": "Generated: 2026-11-10T15:08:28.107Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-10T14:08:31.270Z"
+        "timestamp": "2026-11-10T15:08:28.107Z"
       }
     ]
   },
@@ -8690,6 +8690,14 @@
     "category": "Metadata",
     "imageUrl": "https://obelous.dev/plugins/images/MetaShark.webp",
     "versions": [
+      {
+        "version": "2.3.9.0",
+        "changelog": "修复 Jellyfin 12.x 媒体库查询兼容问题并增强合集定时任务异常保护",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.9/metashark_2.3.9.0.zip",
+        "checksum": "5aae05249a7ca761f0b1c61d9a9f0551",
+        "timestamp": "2026-11-10T14:53:46"
+      },
       {
         "version": "2.3.8.0",
         "changelog": "修复刮削标题写入错误",
