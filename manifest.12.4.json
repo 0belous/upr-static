@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 302, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-10T11:08:27.568Z",
+    "overview": "Generated: 2026-11-10T12:08:27.381Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-10T11:08:27.568Z"
+        "timestamp": "2026-11-10T12:08:27.381Z"
       }
     ]
   },
@@ -3829,6 +3829,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Shoalcade.webp",
     "versions": [
+      {
+        "version": "0.14.0.0",
+        "changelog": "s0.14: Add game: admins can upload a game file from the phone or Windows app into the right console folder, and Jellyfin scans it in (switch it on in the plugin settings). A transfers button shows every download and upload. Phone and Windows apps 0.17.0.",
+        "targetAbi": "12.3.0.0",
+        "sourceUrl": "https://github.com/BBBannon/Shoalcade/releases/download/v0.14.0/Shoalcade_s0.14.zip",
+        "checksum": "f737aeb20f4d7ad0bd943c54b1f9d9ac",
+        "timestamp": "2026-11-10T11:02:16Z"
+      },
       {
         "version": "0.13.0.0",
         "changelog": "s0.13: Xbox 360 in the Windows app: your own discs, saves shared through Jellyfin. Phone app 0.16.0 and Windows app 0.16.0.",
