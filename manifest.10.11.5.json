@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-10T04:08:27.062Z",
+    "overview": "Generated: 2026-11-10T05:08:27.194Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.5",
-        "timestamp": "2026-11-10T04:08:27.062Z"
+        "timestamp": "2026-11-10T05:08:27.194Z"
       }
     ]
   },
@@ -9763,7 +9763,7 @@
     "guid": "6bb00c9d-9031-496b-85f3-e8262c547f35",
     "name": "AutoCert",
     "overview": "Automatic HTTPS certificates with GoDaddy, Cloudflare, or DigitalOcean DNS verification.",
-    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
+    "description": "Obtain and renew Let's Encrypt certificates, generate password-protected PFX files, and update Jellyfin HTTPS settings. Supports GoDaddy API key/secret or PAT. Includes automatic five-day cleanup of replaced AutoCert certificates. For Jellyfin 12.x (12.1 or later).  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/aober420/Jellyfin-AutoCert/main/repository/manifest.json  \nGithub: https://github.com/aober420/Jellyfin-AutoCert",
     "owner": "aober420",
     "category": "General",
     "versions": [
@@ -32677,7 +32677,7 @@
   {
     "owner": "aober420",
     "category": "Administration",
-    "overview": "Jellyfin 12.4.0 release of AD Account Sync.",
+    "overview": "AD Account Sync for Jellyfin 12.x (12.0 or later). Minimum matches the original release and catalog target ABI; current build targets Jellyfin 12.4.0.",
     "name": "AD Account Sync",
     "versions": [
       {
@@ -32721,7 +32721,7 @@
         "repositoryUrl": "https://github.com/aober420/AD-Account-Sync"
       }
     ],
-    "description": "Jellyfin 12.4.0 release of AD Account Sync.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/aober420/AD-Account-Sync/main/manifest.json  \nGithub: https://github.com/aober420/AD-Account-Sync",
+    "description": "AD Account Sync for Jellyfin 12.x (12.0 or later). Minimum matches the original release and catalog target ABI; current build targets Jellyfin 12.4.0.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/aober420/AD-Account-Sync/main/manifest.json  \nGithub: https://github.com/aober420/AD-Account-Sync",
     "guid": "e8261d23-9083-4f20-a9e8-6cf5952ba31c",
     "imageUrl": "https://obelous.dev/plugins/images/ADAccountSync.webp"
   },
