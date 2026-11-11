@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-10T23:08:27.898Z",
+    "overview": "Generated: 2026-11-11T00:08:27.589Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-11-10T23:08:27.898Z"
+        "timestamp": "2026-11-11T00:08:27.589Z"
       }
     ]
   },
@@ -12057,6 +12057,14 @@
     "description": "Adds a configurable studio hubs row with admin-managed global studio visibility and order.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/MFerretti27/StudioHubs/main/manifest.json  \nGithub: https://github.com/MFerretti27/StudioHubs",
     "imageUrl": "https://obelous.dev/plugins/images/StudioHubs.webp",
     "versions": [
+      {
+        "version": "1.0.13.0",
+        "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/MFerretti27/StudioHubs/releases/download/v1.0.13.0/v1.0.13.0.zip",
+        "checksum": "e8b65930cd25890b845a7ed08c9d746f",
+        "timestamp": "2026-11-10T03:32:54Z"
+      },
       {
         "version": "1.0.12.0",
         "changelog": "Improvements and bug fixes. More info: [StudioHubs](https://github.com/MFerretti27/StudioHubs)",
