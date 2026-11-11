@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-11T15:08:28.440Z",
+    "overview": "Generated: 2026-11-11T16:08:29.494Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.11",
-        "timestamp": "2026-11-11T15:08:28.440Z"
+        "timestamp": "2026-11-11T16:08:29.494Z"
       }
     ]
   },
@@ -11170,13 +11170,21 @@
   },
   {
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
-    "name": "Dynamic DNS",
-    "overview": "Keep your DNS records pointed at your server's current public IP.",
-    "description": "Keeps one or more DNS records pointed at your Jellyfin server's current public IP. Runs entirely in-process as a scheduled task and updates your DNS provider over outbound HTTP/S. Great for anyone who wants to run their entire stack entirely through Jellyfin without external programs or dependencies.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
-    "imageUrl": "https://obelous.dev/plugins/images/DynamicDNS.webp",
+    "name": "Remote Access",
+    "overview": "Reach your server from anywhere: Dynamic DNS and a secure HTTPS proxy, inside Jellyfin.",
+    "description": "Keeps your DNS records pointed at your Jellyfin server's current public IP, and can put a secure HTTPS proxy in front of Jellyfin with automatic Let's Encrypt certificates, bans for failed sign-ins, a block list, country rules and a history of who connects. Everything runs inside Jellyfin, with no separate reverse proxy or updater to run. Remote Access is being actively tested.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "imageUrl": "https://obelous.dev/plugins/images/RemoteAccess.webp",
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.2.4.6",
+        "changelog": "\n## Changed\n- The plugin is fully migrated to the Remote Access name. The catalog, the dashboard menu, scheduled tasks and the activity log all say Remote Access.\n- On the first start, settings, record status and proxy data move to their Jellyfin.Plugin.RemoteAccess files. Saved credentials keep working.\n- Custom schedules for this plugin's scheduled tasks go back to their defaults once. Set them again under Dashboard > Scheduled Tasks if you changed them.\n\n## Developer\n- The assembly, namespaces, API routes and configuration pages use the RemoteAccess name.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.2.4.6/jellyfin-plugin-remoteaccess-12.2.4.6.zip",
+        "checksum": "dc18a2d55d208b9370cadcaf4294e5f5",
+        "timestamp": "2026-11-11T16:04:46Z"
+      },
       {
         "version": "12.2.4.5",
         "changelog": "\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.\n- EasyDNS replies are parsed with source generated patterns, and the test build has no warnings.",
@@ -24582,6 +24590,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.4.1",
+        "changelog": "\n## Removed\n- The Cleanup Backdrops scheduled task. It was a one time cleanup for backdrops that piled up in earlier versions and is no longer needed\n\n## Developer\n- Generated backdrops are no longer tagged with a marker comment, which only the task used.\n- Built for Jellyfin 12.4 (target ABI 12.4.0.0).\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.4.1/jellyfin-plugin-artworkgenerator-12.4.4.1.zip",
+        "checksum": "63209be32764542ff3aad457c5e3e1b5",
+        "timestamp": "2026-11-11T15:54:24Z"
+      },
       {
         "version": "12.4.4.0",
         "changelog": "\n## Features\n- Videos Per Parent in Frame Extraction caps how many videos a series, season, collection, folder, or library takes frames from. 0 uses every video and is the default. A lower number is faster on network storage\n\n## Fixed\n- Logo text cleanup no longer fails on a busy server\n- Design and logo previews release their images when the page closes\n\n## Developer\n- Built for Jellyfin 12.4 (target ABI 12.4.0.0).\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",

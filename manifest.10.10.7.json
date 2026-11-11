@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-11T15:08:28.440Z",
+    "overview": "Generated: 2026-11-11T16:08:29.494Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-11T15:08:28.440Z"
+        "timestamp": "2026-11-11T16:08:29.494Z"
       }
     ]
   },
@@ -10892,10 +10892,10 @@
   },
   {
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
-    "name": "Dynamic DNS",
-    "overview": "Keep your DNS records pointed at your server's current public IP.",
-    "description": "Keeps one or more DNS records pointed at your Jellyfin server's current public IP. Runs entirely in-process as a scheduled task and updates your DNS provider over outbound HTTP/S. Great for anyone who wants to run their entire stack entirely through Jellyfin without external programs or dependencies.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
-    "imageUrl": "https://obelous.dev/plugins/images/DynamicDNS.webp",
+    "name": "Remote Access",
+    "overview": "Reach your server from anywhere: Dynamic DNS and a secure HTTPS proxy, inside Jellyfin.",
+    "description": "Keeps your DNS records pointed at your Jellyfin server's current public IP, and can put a secure HTTPS proxy in front of Jellyfin with automatic Let's Encrypt certificates, bans for failed sign-ins, a block list, country rules and a history of who connects. Everything runs inside Jellyfin, with no separate reverse proxy or updater to run. Remote Access is being actively tested.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "imageUrl": "https://obelous.dev/plugins/images/RemoteAccess.webp",
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
