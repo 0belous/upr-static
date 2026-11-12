@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-12T00:08:28.411Z",
+    "overview": "Generated: 2026-11-12T01:08:28.522Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-12T00:08:28.411Z"
+        "timestamp": "2026-11-12T01:08:28.522Z"
       }
     ]
   },
@@ -759,11 +759,11 @@
     "versions": [
       {
         "version": "3.1.1.0",
-        "changelog": "v3.1.1.0 - Recommendation Engine V5, clearer Discovery and stronger parental checks\n\n- Note: Recommendation Engine V5 replaces existing learned and neural models and trains them again over the next scheduled runs with the recommendation task in Activate mode; media, watch history and settings stay intact\n- More relevant, varied personal Discovery lists filter weak matches and limit repeats from the same collection; Trakt keeps its source ordering\n- Popular suggestions without personal evidence are labeled honestly instead of showing a match percentage; unchecked availability shows an explanatory status instead of a Request button\n- Taste matching understands translated and combined genres, verified collection membership and missing metadata; recommendation reasons reflect the actual score\n- Discovery learns from cards you actually see, keeps requests and dismissals tied to the displayed suggestions, and distinguishes favorites or partial playback from completed viewing\n- Training uses the context from prediction time, and quality checks keep duplicate copies of the same title out of training and validation overlap\n- Restricted profiles exclude missing or unverified age ratings; requests recheck the current parental settings and rating-country policy\n- Playlist updates skip disabled, removed or unverifiable users; compact touch controls avoid iOS focus zoom without oversized checkboxes or forced button heights\n- Verified by 94% backend unit test coverage, 97% UI test coverage, and 406 end-to-end Docker tests\n- Requires Jellyfin 12.4",
+        "changelog": "v3.1.1.0 - Recommendation Engine V5, clearer Discovery and stronger parental checks\n\n- Note: Recommendation Engine V5 replaces existing learned and neural models and trains them again over the next scheduled runs with the recommendation task in Activate mode; media, watch history and settings stay intact\n- More relevant, varied personal Discovery lists filter weak matches and limit repeats from the same collection; Trakt keeps its source ordering\n- Popular suggestions without personal evidence are labeled honestly instead of showing a match percentage; unchecked availability shows an explanatory status instead of a Request button\n- Taste matching understands translated and combined genres, verified collection membership and missing metadata; recommendation reasons reflect the actual score\n- Discovery learns from cards you actually see, keeps requests and dismissals tied to the displayed suggestions, and distinguishes favorites or partial playback from completed viewing\n- Training uses the context from prediction time, and quality checks keep duplicate copies of the same title out of training and validation overlap\n- Restricted profiles exclude missing or unverified age ratings; requests recheck the current parental settings and rating-country policy\n- Playlist updates skip disabled, removed or unverifiable users; compact touch controls avoid iOS focus zoom without oversized checkboxes or forced button heights\n- Verified by 95% backend unit test coverage, 97% UI test coverage, and 406 end-to-end Docker tests\n- Requires Jellyfin 12.4",
         "targetAbi": "12.4.0.0",
         "sourceUrl": "https://github.com/JellyPlugins/jellyfin-helper/releases/download/3.1.1.0/JellyfinHelper_3.1.1.0.zip",
-        "checksum": "TBD",
-        "timestamp": "2026-11-11T22:56:31Z"
+        "checksum": "13280677fa667e5f1c092ae2c0d535d9",
+        "timestamp": "2026-11-12T00:45:13Z"
       },
       {
         "version": "3.1.0.1",
@@ -14876,6 +14876,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.13.3.0",
+        "changelog": "Letterboxd signs Jellyscribe in for about an hour at a time. A large sync, such as the first one on a new server, can take longer than that, and once the hour was up every remaining film failed, sometimes hundreds of them, until the next scheduled sync logged them. Jellyscribe now renews the sign-in before it runs out, so a long sync finishes in one go. If Letterboxd refuses to renew it, the sync pauses after a few films and picks up on the next run instead of marking the whole list as failed. Accounts that sign in through the Letterboxd website were not affected. For those who opted in to anonymous telemetry, more errors are now sorted into the right category, such as a Letterboxd outage or a timeout, instead of \"other\".",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://lbsync-telemetry.lachlanbyoung.workers.dev/dl/v2.13.3/jellyfin-plugin-letterboxd-v2.13.3.zip",
+        "checksum": "8acde97fb7158dfba13f54761879716b",
+        "timestamp": "2026-11-12T00:27:43Z"
+      },
+      {
         "version": "2.13.2.0",
         "changelog": "Jellyscribe updates the library it uses to read Letterboxd web pages, which it relies on when an account signs in through the website and when it finds films on letterboxd.com. Nothing changes in how syncing works. The website sign-in, film lookups, diary entries and ratings were all checked against letterboxd.com with the new version.",
         "targetAbi": "10.11.9.0",
@@ -15654,6 +15662,15 @@
     "imageUrl": "https://obelous.dev/plugins/images/SeerrFin.webp",
     "repositoryUrl": "https://github.com/varunaditya-plus/SeerrFin",
     "versions": [
+      {
+        "version": "1.9.4.0",
+        "changelog": "Added optional Seerr search and title filtering to the Requests page",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/varunaditya-plus/SeerrFin/releases/download/1.9.4.0/Jellyfin.Plugin.SeerrFin_12.0.0.zip",
+        "checksum": "E1FD39F0F8307E88207F5A093DF7A2A8",
+        "timestamp": "2026-11-12T00:11:04.0000000Z",
+        "dependencies": []
+      },
       {
         "version": "1.9.3.0",
         "changelog": "Added all request status tabs which hide when empty and clickable status tags in Requests page, and fixed download progress reporting",
