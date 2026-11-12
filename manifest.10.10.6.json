@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-12T21:08:29.497Z",
+    "overview": "Generated: 2026-11-12T22:36:33.542Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-11-12T21:08:29.497Z"
+        "timestamp": "2026-11-12T22:36:33.542Z"
       }
     ]
   },
@@ -5368,6 +5368,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/LAPSE.webp",
     "versions": [
+      {
+        "version": "2.2.0.0",
+        "changelog": "See the release notes on GitHub.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/rs-jensen/lapse-jellyfin-plugin/releases/download/v2.2.0/lapse-jellyfin-plugin-v2.2.0.zip",
+        "checksum": "3aad7651ea958b5472ecbe17137744d1",
+        "timestamp": "2026-11-12T22:15:29Z"
+      },
       {
         "version": "2.1.4.0",
         "changelog": "See the release notes on GitHub.",
