@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-13T19:36:34.368Z",
+    "overview": "Generated: 2026-11-13T20:36:34.365Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.8",
-        "timestamp": "2026-11-13T19:36:34.368Z"
+        "timestamp": "2026-11-13T20:36:34.365Z"
       }
     ]
   },
@@ -4744,6 +4744,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "12.4.2.4",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.2.4/jellyfin-plugin-custompages-12.4.2.4.zip",
+        "checksum": "94c1f9e852c9168dacd312b391584459",
+        "timestamp": "2026-11-13T19:59:31Z"
+      },
+      {
         "version": "12.4.2.3",
         "changelog": "\n## Changed\n- Activity log entries are summed per outcome and share one shape. Store additions and removals are written as one entry each once writes go quiet, such as 4 Records Added, instead of one a minute per store, and clearing a store reads 12 Records Cleared\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
         "targetAbi": "12.4.0.0",
@@ -9260,6 +9268,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.2.6",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.2.6/jellyfin-plugin-usermanagement-12.4.2.6.zip",
+        "checksum": "67886124d087fea77cb532c6ad6e0e2c",
+        "timestamp": "2026-11-13T19:59:45Z"
+      },
+      {
         "version": "12.4.2.5",
         "changelog": "\n## Changed\n- Activity log entries share one shape and bursts are summed per outcome. Password rule enrollment and removal, wrong invite PINs, expired invites, group expiry and inactivity changes, and session cleanup are now one entry per run or burst naming who changed. Group, invite, account creation, and password change entries are renamed to match.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
         "targetAbi": "12.4.0.0",
@@ -10770,6 +10786,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.4.4.4",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.4.4.4/jellyfin-plugin-youtubeaudio-12.4.4.4.zip",
+        "checksum": "d39dc4039133264cfb58021c6f5bce91",
+        "timestamp": "2026-11-13T20:01:27Z"
+      },
+      {
         "version": "12.4.4.3",
         "changelog": "\n## Changed\n- No change to what the plugin does. It writes no activity log entries, so none needed the new shared shape.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
         "targetAbi": "12.4.0.0",
@@ -11767,6 +11791,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.4.10",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.10/jellyfin-plugin-remoteaccess-12.4.4.10.zip",
+        "checksum": "e9f031deca0c2dbcca5f758a73e02471",
+        "timestamp": "2026-11-13T20:02:29Z"
+      },
       {
         "version": "12.4.4.9",
         "changelog": "\n## Added\n- A failed sign-in is recorded with the username that was tried, even when no such user exists, such as a guess at \"admin\". Jellyfin only reports the name for users that exist. The Dashboard shows it in the User column.\n\n## Changed\n- Jellyfin's API reference under /api-docs is no longer reachable from the internet. It still opens on your own network.\n- On Linux and macOS the proxy only offers AES-GCM and ChaCha20-Poly1305 ciphers. The older CBC ciphers are no longer accepted.\n- Jellyfin's X-Response-Time-Ms header is no longer passed on to clients.\n\n## Fixed\n- Two failed sign-ins from one address moments apart, one for a real user and one for a made-up name, are no longer recorded as two failures for the real user.",
@@ -16745,6 +16777,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Meilisearch.webp",
     "versions": [
+      {
+        "version": "1.12.1.7",
+        "changelog": "\n- [7ddbf3a] feat: add a setting to search people by name only (#145)\n- [882fdfa] ci(deps): bump actions/setup-dotnet from 6.0.0 to 6.1.0 (#144)",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/arnesacnussem/jellyfin-plugin-meilisearch/releases/download/1.12.1.7/meilisearch_1.12.1.7.zip",
+        "checksum": "fd57c93ea53197e31ed4e819226d3d39",
+        "timestamp": "2026-11-13T20:15:19Z"
+      },
       {
         "version": "1.12.1.6",
         "changelog": "\n- [44518d7] fix: tag API controller for OpenAPI generation (#143)",
@@ -22468,6 +22508,14 @@
     "category": "LiveTV",
     "versions": [
       {
+        "version": "12.4.2.4",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.2.4/jellyfin-plugin-livechannels-12.4.2.4.zip",
+        "checksum": "0da012dae2e8535cb4be79df1e578021",
+        "timestamp": "2026-11-13T20:06:55Z"
+      },
+      {
         "version": "12.4.2.3",
         "changelog": "\n## Changed\n- Activity log entries are summed per outcome and share one shape. Channel starts become \"3 Channels Started\", idle stops \"3 Channels Stopped\", and completed recordings \"3 Recordings Completed\", each listing the channels or recordings with counts; a stream stopped from the dashboard reads \"Channel Stopped for <channel>\"\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
         "targetAbi": "12.4.0.0",
@@ -25619,6 +25667,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.4.4",
+        "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.4.4/jellyfin-plugin-artworkgenerator-12.4.4.4.zip",
+        "checksum": "1b6e81e0e86c2df1ec80beaeaa8dd520",
+        "timestamp": "2026-11-13T20:01:53Z"
+      },
       {
         "version": "12.4.4.3",
         "changelog": "\n## Changed\n- No change to what the plugin does. It writes no activity log entries, so none needed summing or rewording.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2.",
@@ -34133,6 +34189,22 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.12.1",
+        "changelog": "## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.12.1/jellyfin-plugin-serversync-12.4.12.1.zip",
+        "checksum": "a19cdcdf5b213210fba81dfa049d8192",
+        "timestamp": "2026-11-13T20:17:40Z"
+      },
+      {
+        "version": "12.4.12.0",
+        "changelog": "\n## Added\n- A Stream direction for a server that may download this server's files, and stream them with Allow Linking on, and nothing else. It maps no libraries and is sent no changes\n- A Storage tab, shown while content, history, or metadata sync is on, for how each library keeps its files, Always Keep, the library filter, history negotiation, and the copies held in Link libraries, which can be turned back into links\n- A Stream step on each Stream, Push, or Sync server for linking, its limits, and who unmapped users stream as, with a warning when that server does not run Server Sync\n- A map of the pool at the top of the Servers tab, grouping each server by relationship around this one, with its status\n- A Bandwidth section in Settings holding every speed, downloads and each server's streams, with the schedule, all in Mbps\n- Removing an Always Keep pick turns its copies back into links, each copy moved into the link cache, once the source still has the file\n- Downloaded and Linked filters, and status cards in one row, on the Sync tab\n\n## Changed\n- A Pull server can no longer link to this server. A Pull entry that allowed linking and maps no libraries becomes Stream on the update. One that maps libraries keeps Pull and loses linking, with a warning in the log\n- An unmapped user streams only as the user chosen under Unmapped Users, or is refused. The user a linking server names is never taken. An entry left with no user mapping and no choice is warned about in the log\n- The per user stream limit is set only on each user mapping. A server wide one is copied onto the mappings that set none\n- History negotiation is chosen per library, and only Sync servers negotiate. The old switch turns it on for every library\n- Download speeds are in Mbps. A speed in KB, MB, or GB per second is converted on the update\n- Skip Items Watched By is a list of users, where none skips nothing\n- Removed files is one setting, with Delete After Approval as its own choice\n- Size Tolerance is removed, so a local file must match the source's size exactly\n- Settings are grouped and ordered, options that do not apply are hidden, and descriptions are shorter and correct\n- The activity log sums changes from other servers into one entry per outcome, such as 12 Items Synced, instead of one entry per item, and every entry has the same shape\n\n## Fixed\n- A server never copies, links, or announces any .strm, whether one of its links or one a user made, and never hands out a link's .strm through Jellyfin's download routes, so a link is never passed on to a third server\n- A peer's links list that cannot be read is treated as unknown, never as an empty list\n- A peer can no longer send a change as another server's edit, or with another server's hint id\n- Chapter images and trickplay tiles of a link are not handed on to other servers, and a link cache placed inside a library is moved back under Jellyfin's cache\n- A file synced from a peer is never announced as this server's own new file after a restart\n- A new film hinted to a Link mapping on a server below Minimum Free Space was not linked. Links need no space, so a hint writes them\n- A film in more than one version arrived on a hint as a link for its first version only. Every version is linked, and each is held to server priority\n- A hint dropped because the source does not offer links names that reason\n\n## Developer\n- Database schema 33 records why a copy in a Link mapping is kept\n- The Docker pool checks hinted links across three servers, that a link is never passed on to a third server, and turning kept copies back into links",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.12.0/jellyfin-plugin-serversync-12.4.12.0.zip",
+        "checksum": "798a530ecdac8703abffa4f09e56b08a",
+        "timestamp": "2026-11-13T19:44:04Z"
+      },
       {
         "version": "12.4.11.7",
         "changelog": "\n## Changed\n- The version follows Jellyfin 12.4, which Server Sync has been built for since 12.2.10.1. Nothing in what the plugin does changes, and it mixes freely with 12.2.11.x servers in a pool\n- The documentation is cleaned up\n\n## Developer\n- The old design notes under docs/plans, which the documentation site never published, are removed",
