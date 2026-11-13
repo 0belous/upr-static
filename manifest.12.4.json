@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-13T07:36:40.258Z",
+    "overview": "Generated: 2026-11-13T08:36:34.429Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-13T07:36:40.258Z"
+        "timestamp": "2026-11-13T08:36:34.429Z"
       }
     ]
   },
@@ -2424,11 +2424,19 @@
     "guid": "409ef72d-6014-47fd-8928-ebad581bf81b",
     "name": "Custom Pages",
     "overview": "Author and serve authorization-gated HTML pages at /pages/{slug}.",
-    "description": "Custom Pages lets administrators publish custom pages served by Jellyfin at /pages/{slug}. Each page can be public or restricted to users or administrators, enforced by Jellyfin's own authorization policies.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-custompages/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-custompages",
+    "description": "Custom Pages lets administrators publish custom pages served by Jellyfin at /pages/{slug}. Each page can be public or restricted to users or administrators, enforced by Jellyfin's own authorization policies.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-custompages/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-custompages",
     "imageUrl": "https://obelous.dev/plugins/images/CustomPages.webp",
     "owner": "JPKribs",
     "category": "General",
     "versions": [
+      {
+        "version": "12.4.2.2",
+        "changelog": "\n## Changed\n- The code and documentation are cleaned up with no change to what the plugin does\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- Moved to the Jellyfin 12.4.0 packages and ABI 12.4.0.0, with no code changes needed",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.2.2/jellyfin-plugin-custompages-12.4.2.2.zip",
+        "checksum": "91a9dda06ab7a22ad5064147ef4a1a76",
+        "timestamp": "2026-11-13T08:32:16Z"
+      },
       {
         "version": "12.2.2.1",
         "changelog": "\n## Fixed\n- serverFetch sends the sign-in token when headers are a Headers object or name and value pairs, and leaves the page init untouched\n- A route call with an expired or invalid token answers 401 instead of a server error\n- A restricted page refuses a caller it cannot identify\n- A failed store write leaves no temp file behind, and a store file holding a null entry still loads\n- Uploading assets reports the files that were skipped\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
@@ -5100,11 +5108,19 @@
     "guid": "670167bd-e7f8-4549-98e2-5ab2e11bc89f",
     "name": "User Management",
     "overview": "Group policy templates, display and playback preferences, account lifecycle, password hygiene, and easier user onboarding for Jellyfin.",
-    "description": "User Management provides user groups and password hygiene to accounts that already exist on your Jellyfin server. Define group templates that manage both permissions and display and playback preferences with live sync, set account expiry and auto-disable inactive users, and enforce password requirements. Use these groups to send user-managed, and protected invite links.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-usermanagement/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-usermanagement",
+    "description": "User Management provides user groups and password hygiene to accounts that already exist on your Jellyfin server. Define group templates that manage both permissions and display and playback preferences with live sync, set account expiry and auto-disable inactive users, and enforce password requirements. Use these groups to send user-managed, and protected invite links.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-usermanagement/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-usermanagement",
     "imageUrl": "https://obelous.dev/plugins/images/UserManagement.webp",
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.2.4",
+        "changelog": "\n## Changed\n- The code and documentation are cleaned up with no change to what the plugin does\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- Jellyfin.Controller and Jellyfin.Model packages updated to 12.4.0",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.2.4/jellyfin-plugin-usermanagement-12.4.2.4.zip",
+        "checksum": "23fe78c9af6d141f01e1c01fcf53ee52",
+        "timestamp": "2026-11-13T08:34:01Z"
+      },
       {
         "version": "12.2.2.3",
         "changelog": "\n## Fixed\n- A damaged invite status file or an invite with empty resources no longer breaks the invite pages\n- The Invites page judges expiry by UTC date, as the server does, and shows the reason the server gives for a refused change\n\n## Developer\n- Built with JPKribs.Jellyfin.Base 2026.10.28.",
@@ -18265,6 +18281,22 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.11.7",
+        "changelog": "\n## Changed\n- The version follows Jellyfin 12.4, which Server Sync has been built for since 12.2.10.1. Nothing in what the plugin does changes, and it mixes freely with 12.2.11.x servers in a pool\n- The documentation is cleaned up\n\n## Developer\n- The old design notes under docs/plans, which the documentation site never published, are removed",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.11.7/jellyfin-plugin-serversync-12.4.11.7.zip",
+        "checksum": "d6e1985e6b0a1f76da024d18efd2c8bc",
+        "timestamp": "2026-11-13T08:34:15Z"
+      },
+      {
+        "version": "12.2.11.6",
+        "changelog": "\n## Changed\n- The code is cleaned up throughout, with no change to what the plugin does. Unused code is removed, comments that no longer matched the code are corrected, and simple constructs are written more plainly\n\n## Developer\n- The wire protocol, the database schema, the API, and the settings are unchanged, so this release works alongside 12.2.11.x one server at a time\n- Every area was checked against the unit tests and the Docker pool, and read again for anything that changes behaviour",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.2.11.6/jellyfin-plugin-serversync-12.2.11.6.zip",
+        "checksum": "44e4bbfda6e8d94bc5373b41c31d65f3",
+        "timestamp": "2026-11-13T08:14:13Z"
+      },
       {
         "version": "12.2.11.5",
         "changelog": "\n## Fixed\n- Security. A visitor could pass as the server itself to a link's address by sending a loopback X-Forwarded-For through a trusted reverse proxy that forwards that header unchanged. Such a request is refused. The address still needed the link's secret and a user who had just been allowed to play the link\n- Moving a cached file into the library held the link cache for the whole move, which between two disks is a copy, so playback of every link waited until it finished. The move runs on its own, staged beside the copy, and a move that fails is undone and the copy downloaded instead\n- Moving a cached file skipped the checks a download makes. It is held to the copy's place in the library, the disk's room with Minimum Free Space, and one apply at a time\n- Keep a full local copy counted a cached file whose source had since changed size as moved, and during a running sync the move waited for the next scheduled one. Only a cached file at the source's size is moved, and the sync runs again right after the one already running\n- A stop the source could not apply in full was sent again and applied a second time, with a second activity entry. The source answers a stop as applied once the session has ended\n- A playback report the source refused was sent again. Only a report the source did not answer or failed on is retried, and retries wait outside the queue, so a source that is down no longer holds up reports to the others\n\n## Changed\n- The link cache settings no longer mention Always Keep, which makes copies in the library\n\n## Developer\n- The wire protocol and the database schema are unchanged, so this release works alongside 12.2.11.x one server at a time\n- The link address refuses X-Original-For, X-Original-Host, and X-Original-Proto\n- The Docker pool checks Always Keep copies, the Cached filter, keeping a cached link while the source refuses, cached playback staying off the source, session names, and that the source never shows a transcode",
