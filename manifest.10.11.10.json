@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-13T18:36:35.374Z",
+    "overview": "Generated: 2026-11-13T19:36:34.368Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-11-13T18:36:35.374Z"
+        "timestamp": "2026-11-13T19:36:34.368Z"
       }
     ]
   },
@@ -4744,6 +4744,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "12.4.2.3",
+        "changelog": "\n## Changed\n- Activity log entries are summed per outcome and share one shape. Store additions and removals are written as one entry each once writes go quiet, such as 4 Records Added, instead of one a minute per store, and clearing a store reads 12 Records Cleared\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.2.3/jellyfin-plugin-custompages-12.4.2.3.zip",
+        "checksum": "34430e78aafb58d34152980d3527d5a1",
+        "timestamp": "2026-11-13T18:57:39Z"
+      },
+      {
         "version": "12.4.2.2",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up with no change to what the plugin does\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- Moved to the Jellyfin 12.4.0 packages and ABI 12.4.0.0, with no code changes needed",
         "targetAbi": "12.4.0.0",
@@ -9252,6 +9260,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.2.5",
+        "changelog": "\n## Changed\n- Activity log entries share one shape and bursts are summed per outcome. Password rule enrollment and removal, wrong invite PINs, expired invites, group expiry and inactivity changes, and session cleanup are now one entry per run or burst naming who changed. Group, invite, account creation, and password change entries are renamed to match.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.2.5/jellyfin-plugin-usermanagement-12.4.2.5.zip",
+        "checksum": "01c87e541ffaa2443bebf4a273485ae6",
+        "timestamp": "2026-11-13T18:56:48Z"
+      },
+      {
         "version": "12.4.2.4",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up with no change to what the plugin does\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- Jellyfin.Controller and Jellyfin.Model packages updated to 12.4.0",
         "targetAbi": "12.4.0.0",
@@ -10754,6 +10770,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.4.4.3",
+        "changelog": "\n## Changed\n- No change to what the plugin does. It writes no activity log entries, so none needed the new shared shape.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.4.4.3/jellyfin-plugin-youtubeaudio-12.4.4.3.zip",
+        "checksum": "f88de9a19d538b00d031ce05e9b3598b",
+        "timestamp": "2026-11-13T19:00:10Z"
+      },
+      {
         "version": "12.4.4.2",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up with no change to what the plugin does\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- Removed unused copies of the screenshots from the plugin's Assets folder",
         "targetAbi": "12.4.0.0",
@@ -11743,6 +11767,22 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.4.9",
+        "changelog": "\n## Added\n- A failed sign-in is recorded with the username that was tried, even when no such user exists, such as a guess at \"admin\". Jellyfin only reports the name for users that exist. The Dashboard shows it in the User column.\n\n## Changed\n- Jellyfin's API reference under /api-docs is no longer reachable from the internet. It still opens on your own network.\n- On Linux and macOS the proxy only offers AES-GCM and ChaCha20-Poly1305 ciphers. The older CBC ciphers are no longer accepted.\n- Jellyfin's X-Response-Time-Ms header is no longer passed on to clients.\n\n## Fixed\n- Two failed sign-ins from one address moments apart, one for a real user and one for a made-up name, are no longer recorded as two failures for the real user.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.9/jellyfin-plugin-remoteaccess-12.4.4.9.zip",
+        "checksum": "29ebbc06a15dd8e4b3456e2de06515d1",
+        "timestamp": "2026-11-13T19:17:19Z"
+      },
+      {
+        "version": "12.4.4.8",
+        "changelog": "\n## Changed\n- Activity log entries share one shape, a short name over one sentence, and repeated events are summed into one entry per outcome. DNS record updates, failures, recoveries and pauses are summed per update run, records added, changed or removed per save, bans past five a minute by country, and left-over Let's Encrypt TXT records per cleanup. Bans, credential changes and other single events keep their own entries, with shorter names such as \"203.0.113.7 Banned\" and \"Certificate Renewed\".\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.8/jellyfin-plugin-remoteaccess-12.4.4.8.zip",
+        "checksum": "839d52f87083f0db6950a4c7e10b27c9",
+        "timestamp": "2026-11-13T18:59:25Z"
+      },
       {
         "version": "12.4.4.7",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up, with no change to what the plugin does.\n- Built for Jellyfin 12.4. Servers on an earlier Jellyfin keep the previous release.\n\n## Developer\n- The Jellyfin.Controller and Jellyfin.Model packages move to 12.4.0, and the target ABI to 12.4.0.0.",
@@ -22428,6 +22468,14 @@
     "category": "LiveTV",
     "versions": [
       {
+        "version": "12.4.2.3",
+        "changelog": "\n## Changed\n- Activity log entries are summed per outcome and share one shape. Channel starts become \"3 Channels Started\", idle stops \"3 Channels Stopped\", and completed recordings \"3 Recordings Completed\", each listing the channels or recordings with counts; a stream stopped from the dashboard reads \"Channel Stopped for <channel>\"\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.2.3/jellyfin-plugin-livechannels-12.4.2.3.zip",
+        "checksum": "7bb602f9bbc30e0b7709ec22a49421aa",
+        "timestamp": "2026-11-13T19:11:59Z"
+      },
+      {
         "version": "12.4.2.2",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up, with no change to what the plugin does",
         "targetAbi": "12.4.0.0",
@@ -25571,6 +25619,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.4.3",
+        "changelog": "\n## Changed\n- No change to what the plugin does. It writes no activity log entries, so none needed summing or rewording.\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.2.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.4.3/jellyfin-plugin-artworkgenerator-12.4.4.3.zip",
+        "checksum": "cd8f2deb4fe845cb7990afd67f181f11",
+        "timestamp": "2026-11-13T18:59:02Z"
+      },
       {
         "version": "12.4.4.2",
         "changelog": "\n## Changed\n- The code and documentation are cleaned up, with no change to what the plugin does.\n\n## Developer\n- Removed an unused copy of the preview screenshot from the plugin assets (Assets/Preview-Modal.png).",
