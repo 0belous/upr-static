@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-14T08:42:41.716Z",
+    "overview": "Generated: 2026-11-14T09:42:40.893Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.0.0",
-        "timestamp": "2026-11-14T08:42:41.716Z"
+        "timestamp": "2026-11-14T09:42:40.893Z"
       }
     ]
   },
@@ -12915,11 +12915,19 @@
     "category": "General",
     "guid": "b1462fca-774b-4b13-8d02-e2d4f2bc18b9",
     "name": "Bonfire",
-    "description": "Adds multi-user profile switching to Jellyfin. A single account can have up to five isolated profiles — each with its own watch history, parental controls, and library access.  \n  \nUniversal Repo [✓] \nSource: https://ahouseofbards.github.io/Bonfire-JellyProfiles/manifest.json  \nGithub: https://github.com/AHouseOfBards/Bonfire-JellyProfiles",
+    "description": "Profiles for Jellyfin. One account holds several people, each with their own watch history, library access and parental controls.  \n  \nUniversal Repo [✓] \nSource: https://ahouseofbards.github.io/Bonfire-JellyProfiles/manifest.json  \nGithub: https://github.com/AHouseOfBards/Bonfire-JellyProfiles",
     "overview": "Multi-user profile switching for Jellyfin.",
     "owner": "AHouseOfBards",
     "imageUrl": "https://obelous.dev/plugins/images/Bonfire.webp",
     "versions": [
+      {
+        "version": "2.0.0.0",
+        "changelog": "**Bonfire 2.0** is a long-term support release. From here, updates bring fixes, translations and support for new Jellyfin versions.\n\n**Added**\n\n- A theme editor for your own themes, with background images, more fonts, undo, and Moonfin theme files.\n- Moonfin: sign in with the main account and pick a profile on the home screen.\n- Addresses that skip PINs, for a household's own home network. (#42)\n- Bonfire can be turned off and on in the Status tab.\n\n**Changed**\n\n- The admin page has clearer tabs, with rare settings under Advanced.\n- Profile accounts no longer show in Dashboard → Users, and deleting an account removes its Bonfire records.\n- PIN tries have a daily limit, and PIN sign-in on other apps is limited to your household's devices.\n- Works better on TVs, phones and screen readers.\n- French, Spanish, Catalan, Polish and Turkish are machine translations. Corrections are welcome.\n- The options that patched index.html are gone. Bonfire loads without them.\n\n**Fixed**\n\n- Many fixes, and security and privacy fixes. Updating is recommended.\n\nEvery change since 1.7.5 is in the [changelog](https://github.com/AHouseOfBards/Bonfire/blob/main/CHANGELOG.md).\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/AHouseOfBards/Bonfire/releases/download/v2.0.0/Jellyfin.Profiles.zip",
+        "checksum": "feb2039d53c5b4fe11cc35402b7783b7",
+        "timestamp": "2026-11-14T08:50:39Z"
+      },
       {
         "version": "1.7.5.0",
         "changelog": "**Fixed**\n\n- If the settings page failed to load, Save could overwrite your settings with the defaults. Save now waits until they load, and the page offers Try again.",
