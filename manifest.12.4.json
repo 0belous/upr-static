@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-14T17:42:41.239Z",
+    "overview": "Generated: 2026-11-14T18:42:41.453Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-14T17:42:41.239Z"
+        "timestamp": "2026-11-14T18:42:41.453Z"
       }
     ]
   },
@@ -9078,6 +9078,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
+      {
+        "version": "0.9.3.0",
+        "changelog": "Overhaul UI, fixes for directories, dependency and workspace upgrades.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.3/JellyEmu_0.9.3.0.zip",
+        "checksum": "550742d187f678057918d30661a1df08",
+        "timestamp": "2026-11-14T12:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.9.2.4",
         "changelog": "Fixes for local rom provider scanning other item types.",
