@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-14T18:42:41.453Z",
+    "overview": "Generated: 2026-11-14T19:42:41.387Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-14T18:42:41.453Z"
+        "timestamp": "2026-11-14T19:42:41.387Z"
       }
     ]
   },
@@ -13416,8 +13416,35 @@
     "repositoryUrl": "https://github.com/kinggeorges12/JellyBridge",
     "versions": [
       {
+        "changelog": "Jellyfin 10.11.9: JellyBridge v4.2 - Bug fix for Jellyseerr API by @MoFaye: Fix ReadRequests failing when a download has no estimated completion time",
+        "version": "4.2.11.9",
+        "targetAbi": "10.11.9.0",
+        "timestamp": "2026-11-14T19:23:31.651Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v4.2/JellyBridge-4.2.11.9.zip",
         "dependencies": [],
-        "timestamp": "2026-10-31T02:52:03.880Z",
+        "checksum": "0EA4EF63D7B5CE34C86FD46947F0B102"
+      },
+      {
+        "changelog": "Jellyfin 10.11.0: JellyBridge v4.2 - Bug fix for Jellyseerr API by @MoFaye: Fix ReadRequests failing when a download has no estimated completion time",
+        "version": "4.2.11.0",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2026-11-14T19:23:31.651Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v4.2/JellyBridge-4.2.11.0.zip",
+        "dependencies": [],
+        "checksum": "5E98FF8771A9BD447E998618341DCE19"
+      },
+      {
+        "changelog": "Jellyfin 10.10.7: JellyBridge v4.2 - Bug fix for Jellyseerr API by @MoFaye: Fix ReadRequests failing when a download has no estimated completion time",
+        "version": "4.2.10.7",
+        "targetAbi": "10.10.0.0",
+        "timestamp": "2026-11-14T19:23:31.651Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v4.2/JellyBridge-4.2.10.7.zip",
+        "dependencies": [],
+        "checksum": "0CA2668BAB215FD11A811129DB457B0F"
+      },
+      {
+        "dependencies": [],
+        "timestamp": "2026-10-31T02:52:03.88Z",
         "checksum": "43ED231AFEF8B3BFAC9D3F8CFB38C037",
         "version": "4.1.11.9",
         "targetAbi": "10.11.9.0",
@@ -13426,7 +13453,7 @@
       },
       {
         "dependencies": [],
-        "timestamp": "2026-10-31T02:52:03.880Z",
+        "timestamp": "2026-10-31T02:52:03.88Z",
         "checksum": "66AC34517914F05FF48C125F86CBD157",
         "version": "4.1.11.0",
         "targetAbi": "10.11.0.0",
@@ -13435,7 +13462,7 @@
       },
       {
         "dependencies": [],
-        "timestamp": "2026-10-31T02:52:03.880Z",
+        "timestamp": "2026-10-31T02:52:03.88Z",
         "checksum": "29F0E8304A69D71A9FC4AE0C65E280C2",
         "version": "4.1.10.7",
         "targetAbi": "10.10.0.0",
