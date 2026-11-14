@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-13T23:36:34.080Z",
+    "overview": "Generated: 2026-11-14T00:36:35.097Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-13T23:36:34.080Z"
+        "timestamp": "2026-11-14T00:36:35.097Z"
       }
     ]
   },
@@ -19192,11 +19192,19 @@
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
     "name": "Spotify Import",
-    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugins",
+    "description": "This plugin enables you to import playlists from Spotify to your Jellyfin server automatically. It provides a scheduled task that queries a given list of Spotify playlists and tries to recreate them as best as possible in Jellyfin.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json  \nGithub: https://github.com/Viperinius/jellyfin-plugins",
     "overview": "This plugin imports playlists from Spotify.",
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
+      {
+        "version": "1.18.1.0",
+        "changelog": "# Changelog\n\n## [1.18.1.0] - 2026-11-14\n\n### Fixed\n\n- Fix artist search if name starts with or consists entirely of special characters (see #92)\n- Fix album artist comparison (was not actually checking Jellyfin album artists, but the artists field) (see #94)",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.18.1.0/spotify-import_1.18.1.0.zip",
+        "checksum": "39b325ce755ed4ad4b9389f1c4104a7e",
+        "timestamp": "2026-11-13T23:48:22Z"
+      },
       {
         "version": "1.18.0.0",
         "changelog": "# Changelog\n\n## [1.18.0.0] - 2026-09-08\n\n### Added\n\n- Support for Jellyfin 12.0",
