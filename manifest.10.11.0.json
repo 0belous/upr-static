@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-15T21:42:43.315Z",
+    "overview": "Generated: 2026-11-15T22:42:42.767Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-15T21:42:43.315Z"
+        "timestamp": "2026-11-15T22:42:42.767Z"
       }
     ]
   },
@@ -11807,6 +11807,38 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.4.14",
+        "changelog": "\n## Changed\n- The Dashboard's Activity table has a fixed height and scrolls, loading 50 more rows each time it reaches the end",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.14/jellyfin-plugin-remoteaccess-12.4.4.14.zip",
+        "checksum": "6c279176b0c9c8979319f187c6999644",
+        "timestamp": "2026-11-15T22:40:29Z"
+      },
+      {
+        "version": "12.4.4.13",
+        "changelog": "\n## Fixed\n- The Action column of the Dashboard's Activity and Banned tables could sit outside the table on a narrower screen. It stays inside",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.13/jellyfin-plugin-remoteaccess-12.4.4.13.zip",
+        "checksum": "5e6501a2e33ce888ea89ae8d33a43d76",
+        "timestamp": "2026-11-15T22:34:55Z"
+      },
+      {
+        "version": "12.4.4.12",
+        "changelog": "\n## Changed\n- Labels on Configuration and Advanced are in Title Case and name one thing, with notes moved to their descriptions. Hostname, Login and Password replace the labels with slashes\n- On and off settings under Advanced are checkboxes, such as Automatic Port Forwarding, Always Use HTTPS and Record History\n- Provider fields are in Title Case, such as API Token or Key\n- The Dashboard tables give each column a width that suits it, so addresses and devices are cut off less\n- Docs headings are in Title Case",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.12/jellyfin-plugin-remoteaccess-12.4.4.12.zip",
+        "checksum": "3e6a487477b9940de76e15b567668ab1",
+        "timestamp": "2026-11-15T22:32:59Z"
+      },
+      {
+        "version": "12.4.4.11",
+        "changelog": "\n## Changed\n- The Configuration steps are a checklist. A bar counts the steps that are done, each step says Done, Needs Attention, To Do or Optional, and the first step that needs something opens on its own\n- The Dashboard's map mixes the colours of users, failed sign-ins and blocked visitors in each country, and selecting a country selects its row in the table beside it\n- The Banned and Activity tables sort by any column, and their times keep themselves up to date\n- The share card's QR code is drawn in the page, with Copy Image, Download and a copy button for the address\n\n## Fixed\n- Countries saved in the country rule showed as two-letter codes under Advanced. They show their names\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.17, whose world map, setup checklist, data tables, QR code and log sanitizer replace the plugin's own\n- The QRCoder package is no longer shipped\n- Contributor guides in starthere.md and skills/, and tests for the page modules under Jellyfin.Plugin.RemoteAccess.Tests/js",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.11/jellyfin-plugin-remoteaccess-12.4.4.11.zip",
+        "checksum": "69cb7e3d32219400e4446287289fcf28",
+        "timestamp": "2026-11-15T21:53:40Z"
+      },
       {
         "version": "12.4.4.10",
         "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
