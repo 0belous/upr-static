@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-16T04:42:42.683Z",
+    "overview": "Generated: 2026-11-16T05:42:42.824Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-11-16T04:42:42.683Z"
+        "timestamp": "2026-11-16T05:42:42.824Z"
       }
     ]
   },
@@ -2429,6 +2429,14 @@
     "owner": "JPKribs",
     "category": "General",
     "versions": [
+      {
+        "version": "12.4.2.5",
+        "changelog": "\n## Changed\n- The count cards on each tab have a color each, such as green for Public and purple for Admin pages\n- Buttons, count cards, image rows, and notices on the dashboard tabs take the JPKribs.Jellyfin.Base 2026.11.19 look\n- The Published and Enabled buttons show their state as filled while on and dimmed while off\n- The Assets tab takes images through a drop zone that also opens a file picker\n- The Stores tab shows a Records bar of how many records a saved store holds out of its Record Limit\n- Dashboard labels and messages are shorter and use Title Case, such as Allow System Access, Writers Edit Own Records, and Notify Administrators\n- Asset visibility reads Anyone, User, and Admin, the same as page visibility\n- Routes are edited in Base's Repeater, which stacks each route's fields on a phone, and Clear Password beside a stored password removes it\n- A page's and a store's URL show in a copy field with a Copy button\n- Open to Writes turns orange while a store takes anonymous writes\n- The sign in, not authorized, and not found cards use Title Case headings\n- Every Save is the same full width Save Bar, with any other actions in a full width row above it\n- A failed save shows its reason, such as the route that needs its password entered again, on the Save Bar\n- Each image row shows its path in a copy field with a Copy button\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.19, with its File Picker, Usage Meter, inline Copy Field, and clearable Repeater secrets on the dashboard and AtomicFile for store writes\n- The sign in, not authorized, and not found states of a protected page use the base- classes of Base's status page\n- Adds starthere.md, agent.md, and the guides in skills/",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.2.5/jellyfin-plugin-custompages-12.4.2.5.zip",
+        "checksum": "9ed25e6bbae1dc466fad8ce689395a0d",
+        "timestamp": "2026-11-16T04:56:47Z"
+      },
       {
         "version": "12.4.2.4",
         "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
@@ -14035,6 +14043,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.5.0",
+        "changelog": "\n## Added\n- Fonts on the Settings tab, which uploads .ttf and .otf fonts of up to 20 MB to the plugin fonts folder and lists them by family and style with Delete\n- Nine bundled font families under the SIL Open Font License, Anton, Bebas Neue, Lora, Montserrat, Noto Sans, Oswald, Playfair Display, Poppins, and Roboto, available to every design and logo design on any server\n\n## Changed\n- Whole libraries no longer get generated artwork, since it did not work\n- The font lists on Designs and Logos group families under Uploaded, Bundled, and Server, and show a new upload the next time the tab opens\n- A font family name is looked up in uploaded fonts first, then bundled fonts, then fonts installed on the server, and a missing style uses the nearest one the family has\n- The Designs tab no longer lists the sample images under the preview\n- Every tab takes the JPKribs.Jellyfin.Base 2026.11.19 look, and results show beside the Save button or the picker rather than in a popup\n- Remove replaces Delete on the Designs, Logos, and Profiles pickers, and Import comes before Export\n- Names are checked in the New and Rename dialogs before they close\n- The logo preview shows the logo over a Dark, Light, or Checkered background\n- Assigned items on the Profiles tab sit under a tab for each kind and are picked with a library search that shows their artwork\n- The Images table on the Profiles tab is a grid for each image, under the tabs Primary, Thumb, Logo, and Backdrop. An image's design choices show grayed out until Generate is on, and the third design until a second is picked\n- Every tab saves through the Base Save Bar, which says when there are unsaved changes and marks a field that is out of range\n- The Logos tab names the Sample Name box and shows the artwork a sampled color comes from as a card under it\n- Color settings use the Base color picker with its opacity box. When Palette Colors or Color From sampling is on, only an opacity slider shows, in percent\n- Every Save is the same full width Save Bar, with any other actions in a full width row above it\n\n## Fixed\n- Color settings keep their picker at its own size, with their label above\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.19, whose record selector, buttons, Preview Frame, Media Picker, Media Card, List, Matrix Grid with disabled cells, Sub Tabs, Save Bar with its failed reason, Color Picker, Slider, validation, prompt and confirm dialogs, change tracker, indent, callout, and status text replace the hand built versions\n- Fields show and hide through Base's bindReveal and setVisible, and a hidden field is disabled so Base's validation skips it\n- ag_shared.css holds only layout between Base components\n- ag_shared.js holds the tab list and is the one module that imports Base\n- Plugin classes carry the ag- prefix\n- GET Fonts returns each family once with its source, Uploaded, Bundled, or System, in that order\n- GET, POST, and DELETE Fonts/Uploaded list, upload, and delete fonts in the fonts folder. POST takes the file name and base64 data in the body, and DELETE takes the file name in the body\n- The bundled fonts and their OFL.txt files are embedded resources, so the plugin stays one DLL\n- Adds starthere.md, agent.md, and the guides in skills",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.5.0/jellyfin-plugin-artworkgenerator-12.4.5.0.zip",
+        "checksum": "7702ad322323f0e013b7559ece03e03f",
+        "timestamp": "2026-11-16T05:27:06Z"
+      },
       {
         "version": "12.4.4.4",
         "changelog": "\n## Fixed\n- The arrows on collapsible sections are back to their usual size\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.13.3",
