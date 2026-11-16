@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-16T03:42:42.971Z",
+    "overview": "Generated: 2026-11-16T04:42:42.683Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-16T03:42:42.971Z"
+        "timestamp": "2026-11-16T04:42:42.683Z"
       }
     ]
   },
@@ -6762,6 +6762,30 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.4.17",
+        "changelog": "\n## Fixed\n- The buttons above Save were inset from it, touched it, and used a different weight. They line up with Save, sit just above it, and match it\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.19",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.17/jellyfin-plugin-remoteaccess-12.4.4.17.zip",
+        "checksum": "940a186f7717c9e640eeddf6d7e32827",
+        "timestamp": "2026-11-16T04:31:17Z"
+      },
+      {
+        "version": "12.4.4.16",
+        "changelog": "\n## Changed\n- Configuration and Advanced save with the same Save bar as the other JPKribs plugins, which says when there are unsaved changes and shows why a save failed\n- Reset to Defaults and Restart Proxy sit in one row directly above Save, and share its width\n\n## Fixed\n- The buttons in Advanced's History section were narrow. They share the row again",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.16/jellyfin-plugin-remoteaccess-12.4.4.16.zip",
+        "checksum": "a0f0ee303b486d1a2b0b6bd24f30c753",
+        "timestamp": "2026-11-16T04:06:28Z"
+      },
+      {
+        "version": "12.4.4.15",
+        "changelog": "\n## Changed\n- Dashboard table columns can be dragged wider or narrower, a double-click fits a column to its widest value, and each table remembers its widths\n- Short columns in the Banned and Countries tables size to their values, and a cut-off value shows in full on hover\n- On a narrow screen, a table scrolls sideways inside its frame instead of pushing a column outside it\n- Every confirm asks its question first, such as \"Reset every limit and security setting to its default?\"\n- Links inside notices are bold in the notice's own color, so they read on any notice\n\n## Fixed\n- The Clear Saved Value buttons under credential fields were not in Title Case\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.18 for column sizing and resizing, hover text on clipped cells, and the narrow-screen section header, which replace the plugin's fixed column widths",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.15/jellyfin-plugin-remoteaccess-12.4.4.15.zip",
+        "checksum": "aca84160da8f15ea847e655bc9688395",
+        "timestamp": "2026-11-16T03:45:09Z"
+      },
       {
         "version": "12.4.4.14",
         "changelog": "\n## Changed\n- The Dashboard's Activity table has a fixed height and scrolls, loading 50 more rows each time it reaches the end",
