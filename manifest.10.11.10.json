@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-17T19:42:44.298Z",
+    "overview": "Generated: 2026-11-17T20:42:46.455Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.10",
-        "timestamp": "2026-11-17T19:42:44.298Z"
+        "timestamp": "2026-11-17T20:42:46.455Z"
       }
     ]
   },
@@ -17377,7 +17377,7 @@
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
       {
-        "version": "0.9.3.1",
+        "version": "0.9.4.0",
         "changelog": "Fixes for ui overlap, fixes for both players tied to 1 gamepad, fix for default and set input values.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.4/JellyEmu_0.9.4.0.zip",
