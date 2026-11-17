@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-17T16:42:44.149Z",
+    "overview": "Generated: 2026-11-17T17:42:44.515Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-11-17T16:42:44.149Z"
+        "timestamp": "2026-11-17T17:42:44.515Z"
       }
     ]
   },
@@ -3899,7 +3899,7 @@
         "changelog": "Merge pull request #2 from yonie/feat/jellyfin-12",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/yonie/jellyfin-plugin-autoplaylist/releases/download/v1.1.0.0/autoplaylist_1.1.0.0.zip",
-        "checksum": "0943cf767cfa5de8137d7f2a861251a0",
+        "checksum": "780ba2d6193dfdb58b717cae36e53fb6",
         "timestamp": "2026-09-09T13:58:55.0000000Z"
       }
     ]
