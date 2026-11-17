@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-17T05:42:43.582Z",
+    "overview": "Generated: 2026-11-17T06:42:44.162Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-11-17T05:42:43.582Z"
+        "timestamp": "2026-11-17T06:42:44.162Z"
       }
     ]
   },
@@ -13434,6 +13434,33 @@
     "repositoryUrl": "https://github.com/kinggeorges12/JellyBridge",
     "versions": [
       {
+        "checksum": "E8B471BCA649A24B5CABBB88B1588807",
+        "dependencies": [],
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.1/JellyBridge-5.1.11.9.zip",
+        "targetAbi": "10.11.9.0",
+        "version": "5.1.11.9",
+        "changelog": "Jellyfin 10.11.9: JellyBridge v5.1 - New features by @MoFaye: Request Seasons option available in Manage Favorites Requests (#67). New bug fixes by @MoFaye: force jellyfin to look for new JellyBridge items (#65), promo video generation no longer blocks running tasks (#60, #69, #70), library refresh works more reliably (#71), prevent users from creating a duplicate library when clicking Create Discover Library button. Other security fixes: API key is never passed from the plugin settings to the configuration page (uses a masked value *** on the plugin page).",
+        "timestamp": "2026-11-17T06:03:27.856Z"
+      },
+      {
+        "checksum": "95BB6859741B623D420CC70EADD02634",
+        "dependencies": [],
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.1/JellyBridge-5.1.11.0.zip",
+        "targetAbi": "10.11.0.0",
+        "version": "5.1.11.0",
+        "changelog": "Jellyfin 10.11.0: JellyBridge v5.1 - New features by @MoFaye: Request Seasons option available in Manage Favorites Requests (#67). New bug fixes by @MoFaye: force jellyfin to look for new JellyBridge items (#65), promo video generation no longer blocks running tasks (#60, #69, #70), library refresh works more reliably (#71), prevent users from creating a duplicate library when clicking Create Discover Library button. Other security fixes: API key is never passed from the plugin settings to the configuration page (uses a masked value *** on the plugin page).",
+        "timestamp": "2026-11-17T06:03:27.856Z"
+      },
+      {
+        "checksum": "49B0E97EFC6E33BDC534D3F539560FAE",
+        "dependencies": [],
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.1/JellyBridge-5.1.10.7.zip",
+        "targetAbi": "10.10.0.0",
+        "version": "5.1.10.7",
+        "changelog": "Jellyfin 10.10.7: JellyBridge v5.1 - New features by @MoFaye: Request Seasons option available in Manage Favorites Requests (#67). New bug fixes by @MoFaye: force jellyfin to look for new JellyBridge items (#65), promo video generation no longer blocks running tasks (#60, #69, #70), library refresh works more reliably (#71), prevent users from creating a duplicate library when clicking Create Discover Library button. Other security fixes: API key is never passed from the plugin settings to the configuration page (uses a masked value *** on the plugin page).",
+        "timestamp": "2026-11-17T06:03:27.856Z"
+      },
+      {
         "targetAbi": "10.11.9.0",
         "checksum": "5C7EFF1B5988492144FCD504B5D044FE",
         "dependencies": [],
@@ -17011,6 +17038,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
+      {
+        "version": "0.9.3.1",
+        "changelog": "Fixes for ui overlap, fixes for both players tied to 1 gamepad, fix for default and set input values.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.4/JellyEmu_0.9.4.0.zip",
+        "checksum": "5fa41bfaae4762f4bb0240d42d83bfd6",
+        "timestamp": "2026-11-16T24:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.9.3.1",
         "changelog": "Loom update, nintendo switch 2 and flash rom recognition..",
