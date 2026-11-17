@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-17T00:42:43.340Z",
+    "overview": "Generated: 2026-11-17T01:42:43.464Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-17T00:42:43.340Z"
+        "timestamp": "2026-11-17T01:42:43.464Z"
       }
     ]
   },
@@ -4695,6 +4695,24 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Loom.webp",
     "versions": [
+      {
+        "version": "1.0.3.0",
+        "changelog": "Fixes for diagnostic endpoint.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/Loom/releases/download/v1.0.3/Loom_1.0.3.0.zip",
+        "checksum": "b3df5b04bc09fe0b2ce21f06be4ee5db",
+        "timestamp": "2026-11-16T19:00:00Z",
+        "dependencies": []
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Efficiency, optimization and security improvements, newly added register before server startup complete.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/Loom/releases/download/v1.0.2/Loom_1.0.2.0.zip",
+        "checksum": "5a6c687dbd8f649d794d5d7deed17e77",
+        "timestamp": "2026-11-16T00:18:00Z",
+        "dependencies": []
+      },
       {
         "version": "1.0.1.0",
         "changelog": "Fix for empty file patterns, and directories.",
@@ -17323,6 +17341,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
+      {
+        "version": "0.9.3.1",
+        "changelog": "Loom update, nintendo switch 2 and flash rom recognition..",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.3.1/JellyEmu_0.9.3.1.zip",
+        "checksum": "19fe02164630cc4f92682deea13116ad",
+        "timestamp": "2026-11-16T19:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.9.3.0",
         "changelog": "Overhaul UI, fixes for directories, dependency and workspace upgrades.",
@@ -30577,6 +30606,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Jellyframe.webp",
     "versions": [
+      {
+        "version": "1.5.5.0",
+        "changelog": "Update for loom",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyFrame/releases/download/v1.5.5/JellyFrame_1.5.5.zip",
+        "checksum": "8f0a156cd0b46520dfbbf3a9e1496641",
+        "timestamp": "2026-11-16T19:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "1.5.4.0",
         "changelog": "For full changelog visit https://github.com/Jellyfin-PG/JellyFrame/pull/32",
