@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 303, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-18T09:42:50.523Z",
+    "overview": "Generated: 2026-11-18T10:42:50.949Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-18T09:42:50.523Z"
+        "timestamp": "2026-11-18T10:42:50.949Z"
       }
     ]
   },
@@ -2779,283 +2779,19 @@
   {
     "guid": "485e9b6f-f623-4c97-9679-ad33c1db0d18",
     "name": "Harmonie",
-    "description": "Generate Jellyfin playlists from harmonie audio similarity. Name a playlist [RADIO] for similar-track radio, or [DRIFT] for a gradually-evolving mix.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/mxschll/jellyfin-harmonie/main/manifest.json  \nGithub: https://github.com/mxschll/jellyfin-harmonie",
+    "description": "Generate Jellyfin playlists from harmonie audio similarity. Name a playlist [RADIO] for similar-track radio, or [DRIFT] for a gradually-evolving mix.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/mxschll/jellyfin-harmonie/main/manifest.json  \nGithub: https://github.com/mxschll/jellyfin-harmonie",
     "overview": "Build playlists from harmonie audio similarity.",
     "owner": "mxschll",
     "category": "Music",
     "imageUrl": "https://obelous.dev/plugins/images/Harmonie.webp",
     "versions": [
       {
-        "version": "1.13.5.1",
-        "changelog": "\n### Build\n\n- Bump taiki-e/install-action from 2.87.21 to 2.88.0 (#41) (649d023)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.5/jellyfin-harmonie_1.13.5.1.zip",
-        "checksum": "fcf078fa71501e1d4a02da2f26f0d260",
-        "timestamp": "2026-11-01T09:57:07Z"
-      },
-      {
-        "version": "1.13.4.1",
-        "changelog": "\n### Other\n\n- Bump SQLitePCLRaw.bundle_e_sqlite3 from 2.1.13 to 2.1.14 (#39) (dc376ac)\n- Bump Microsoft.NET.Test.Sdk from 18.10.1 to 18.11.0 (#38) (b5e4c17)\n- Bump xunit.runner.visualstudio from 4.0.0 to 4.0.1 (#37) (75c1cca)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.4/jellyfin-harmonie_1.13.4.1.zip",
-        "checksum": "39bd0a6b9c91eb266102000d4247aab9",
-        "timestamp": "2026-10-26T12:31:16Z"
-      },
-      {
-        "version": "1.13.3.1",
-        "changelog": "\n### Build\n\n- Bump taiki-e/install-action from 2.87.1 to 2.87.21 (#36) (88f0ee4)\n\n### Other\n\n- Bump Microsoft.NET.Test.Sdk from 18.9.0 to 18.10.1 (#35) (48d5483)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.3/jellyfin-harmonie_1.13.3.1.zip",
-        "checksum": "38a121504acb983c2c04cb1e49cb98bd",
-        "timestamp": "2026-10-01T11:24:51Z"
-      },
-      {
-        "version": "1.13.2.1",
-        "changelog": "\n### Build\n\n- Bump taiki-e/install-action from 2.85.13 to 2.87.1 (#33) (1292596)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.2/jellyfin-harmonie_1.13.2.1.zip",
-        "checksum": "dbf1663907fce44f0b23b0d5c7d5ade9",
-        "timestamp": "2026-09-06T10:51:21Z"
-      },
-      {
-        "version": "1.13.1.1",
-        "changelog": "\n### Bug Fixes\n\n- Publish slot state before queueing personal mix cover refresh (#32) (697ccd3)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.1/jellyfin-harmonie_1.13.1.1.zip",
-        "checksum": "94f00dacdaa0d5ac432861b2e2650deb",
-        "timestamp": "2026-08-26T11:24:01Z"
-      },
-      {
-        "version": "1.13.0.1",
-        "changelog": "\n### Documentation\n\n- Soften the upcoming features heading (ddd3155)\n- List planned playlist types (e0d1863)\n\n### Features\n\n- Extend sonic instant mix (#31) (b4e493d)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.13.0/jellyfin-harmonie_1.13.0.1.zip",
-        "checksum": "e88c18ca668e0711de2b9e2e4cb7e04e",
-        "timestamp": "2026-08-23T17:04:34Z"
-      },
-      {
-        "version": "1.12.3.1",
-        "changelog": "\n### Bug Fixes\n\n- Unify play counting (#30) (87b259f)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.12.3/jellyfin-harmonie_1.12.3.1.zip",
-        "checksum": "f4d96a838a5e699cbef8870f8bc95207",
-        "timestamp": "2026-08-18T18:41:13Z"
-      },
-      {
-        "version": "1.12.2.1",
-        "changelog": "\n### Bug Fixes\n\n- Grow on repeat instead of sliding (#29) (6cd6145)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.12.2/jellyfin-harmonie_1.12.2.1.zip",
-        "checksum": "4364f7392ecc352b84b9dd1e2ae43b22",
-        "timestamp": "2026-08-18T18:21:19Z"
-      },
-      {
-        "version": "1.12.1.1",
-        "changelog": "\n### Bug Fixes\n\n- Record the previous track when a session switches (#28) (aa8eca9)\n\n### Documentation\n\n- Describe the listening database (2f0f93b)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.12.1/jellyfin-harmonie_1.12.1.1.zip",
-        "checksum": "51317bf7dc354f1a0b92227a4448575b",
-        "timestamp": "2026-08-17T09:37:21Z"
-      },
-      {
-        "version": "1.12.0.1",
-        "changelog": "\n### Features\n\n- Restructure plugin settings into tabbed pages (#26) (2f129d3)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.12.0/jellyfin-harmonie_1.12.0.1.zip",
-        "checksum": "4aed1dc95ae4bd1d13f4530968eeb898",
-        "timestamp": "2026-08-17T08:05:28Z"
-      },
-      {
-        "version": "1.11.0.1",
-        "changelog": "\n### Features\n\n- Persist playback checkpoints (#27) (0fb2287)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.11.0/jellyfin-harmonie_1.11.0.1.zip",
-        "checksum": "f99b5477c32893e9341652c6e867afd0",
-        "timestamp": "2026-08-17T07:45:06Z"
-      },
-      {
-        "version": "1.10.0.1",
-        "changelog": "\n### Features\n\n- Add on repeat auto-playlist type (#25) (7702dea)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.10.0/jellyfin-harmonie_1.10.0.1.zip",
-        "checksum": "962793f028906694460003776d811eac",
-        "timestamp": "2026-08-16T21:46:48Z"
-      },
-      {
-        "version": "1.9.0.1",
-        "changelog": "\n### Features\n\n- Refresh personal mixes weekly by default (215bffd)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.9.0/jellyfin-harmonie_1.9.0.1.zip",
-        "checksum": "ef133395da3cf00b2a73b81316694a0f",
-        "timestamp": "2026-08-16T20:42:57Z"
-      },
-      {
-        "version": "1.8.2.1",
-        "changelog": "\n### Build\n\n- Bump taiki-e/install-action from 2.85.4 to 2.85.13 (#23) (361ffbf)\n\n### Chores\n\n- Ignore cross-major SQLitePCLRaw bumps (ef3b857)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.8.2/jellyfin-harmonie_1.8.2.1.zip",
-        "checksum": "5dea9a8e6952ebb160fe3788c001ae00",
-        "timestamp": "2026-08-16T20:30:07Z"
-      },
-      {
-        "version": "1.8.1.1",
-        "changelog": "\n### Bug Fixes\n\n- Pin embedded resource names with LogicalName (4dc614b)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.8.1/jellyfin-harmonie_1.8.1.1.zip",
-        "checksum": "614643e60d3872bb4dcc44d69d53ea20",
-        "timestamp": "2026-08-16T20:23:53Z"
-      },
-      {
-        "version": "1.7.3.1",
-        "changelog": "\n### Bug Fixes\n\n- Pin Jellyfin 10.11 floor so plugin loads on all 10.11.x (39c33c1)\n\n### Documentation\n\n- Explain how Harmonie compares to AudioMuse-AI (fb322ea)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.7.3/jellyfin-harmonie_1.7.3.1.zip",
-        "checksum": "944a51160706035ca1c30f03ecc7747a",
-        "timestamp": "2026-08-16T19:41:55Z"
-      },
-      {
-        "version": "1.7.2.1",
-        "changelog": "\n### Bug Fixes\n\n- Key playlist children by path before item id (8a86d80)\n- Make style playlist state store thread-safe (63f4269)\n- Harden test, scan, refresh endpoints (6867d7a)\n\n### CI\n\n- Install .NET 8 SDK so net8.0 tests run (3bb2887)\n\n### Features\n\n- Add Jellyfin 12 (net10.0) build and tests (06f83ba)\n\n### Refactor\n\n- Centralize ABI pins and compat shims (ed198fe)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.7.2/jellyfin-harmonie_1.7.2.1.zip",
-        "checksum": "0e08a3835fe41840e98bccc2ebee76f1",
-        "timestamp": "2026-08-16T18:40:45Z"
-      },
-      {
-        "version": "1.7.1.1",
-        "changelog": "\n### Bug Fixes\n\n- Keep changelog markdown in manifest (b5ee7cf)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.7.1/jellyfin-harmonie_1.7.1.1.zip",
-        "checksum": "ba2523b38da83c69995e6627d9774bbe",
-        "timestamp": "2026-08-16T17:22:14Z"
-      },
-      {
-        "version": "1.7.0.1",
-        "changelog": " ### Chores  - Prune legacy manifest entries (08408bf)  ### Features  - User listening activity tracking (#21) (5277645)  ### Other  - Bump xunit.runner.visualstudio from 3.1.5 to 4.0.0 (#20)  Signed-off-by: dependabot[bot] <support@github.com> Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> (d8c7337) - Bump Microsoft.NET.Test.Sdk from 18.8.1 to 18.9.0 (#19)  Signed-off-by: dependabot[bot] <support@github.com> Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> (645baed)  ",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.7.0/jellyfin-harmonie_1.7.0.1.zip",
-        "checksum": "453d409c523fe1448d199ab02027b156",
-        "timestamp": "2026-08-16T17:09:42Z"
-      },
-      {
-        "version": "1.6.1.1",
-        "changelog": "### Build\n\n- Bump taiki-e/install-action from 2 to 2.85.4 (#18) (e6e7dcf)\n- Bump actions/setup-dotnet from 5 to 6 (#17) (aa0986a)\n\n### Documentation\n\n- Link discogs genres and styles (9fe2499)\n- Use non-breaking whitespace (a3f4ade)\n- Clarify plugin usage (35a8b77)\n\n### Other\n\n- Bump Microsoft.NET.Test.Sdk from 18.5.1 to 18.8.1 (#16) (56dc200)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.6.1/jellyfin-harmonie_1.6.1.1.zip",
-        "checksum": "9646e28786a2402776d4a24bcd8b23ae",
-        "timestamp": "2026-08-02T14:39:20Z"
-      },
-      {
-        "version": "1.6.0.1",
-        "changelog": "### Features\n\n- Personalize activity mixes (b63e1ee)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.6.0/jellyfin-harmonie_1.6.0.1.zip",
-        "checksum": "eb3664cc813856bfcde390e6632ba273",
-        "timestamp": "2026-07-15T23:48:24Z"
-      },
-      {
-        "version": "1.5.0.1",
-        "changelog": "### Build\n\n- Harden local plugin install (06d2823)\n\n### Features\n\n- Add per-mode playlist variation (5735fb9)\n\n### Tests\n\n- Cover playlist mutation ABIs (acb15e2)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.5.0/jellyfin-harmonie_1.5.0.1.zip",
-        "checksum": "744b53ff8d33609828a79a5fd1187e05",
-        "timestamp": "2026-07-14T21:08:20Z"
-      },
-      {
-        "version": "1.4.2.1",
-        "changelog": "### Bug Fixes\n\n- Gate releases and playlist refreshes (34e5a2c)\n\n### Chores\n\n- Bump actions/checkout from 6 to 7 (#15) (c7d5ac8)\n\n### Tests\n\n- Include Jellyfin runtime assemblies (feb1b4f)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.4.2/jellyfin-harmonie_1.4.2.1.zip",
-        "checksum": "aedde42946edbcc762e2fcd95e87d7b5",
-        "timestamp": "2026-07-14T20:10:06Z"
-      },
-      {
-        "version": "1.4.1.1",
-        "changelog": "### Bug Fixes\n\n- Support Jellyfin 10.11 user API (3cf2edf)\n\n### Chores\n\n- Log path-fallback resolves and drop dead path map call (79c6325)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.4.1/jellyfin-harmonie_1.4.1.1.zip",
-        "checksum": "a903eb40e30e08b172df99493ea1d2e3",
-        "timestamp": "2026-07-14T19:41:26Z"
-      },
-      {
-        "version": "1.4.0.1",
-        "changelog": "### Documentation\n\n- Update readme (f143356)\n\n### Features\n\n- Per-mode playlist settings and configurable style_min (e5355bb)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.4.0/jellyfin-harmonie_1.4.0.1.zip",
-        "checksum": "656da1081c438c8e82d0cef36225fb1a",
-        "timestamp": "2026-05-25T13:35:04Z"
-      },
-      {
-        "version": "1.3.0.1",
-        "changelog": "### Features\n\n- Add [HARMONIE] index playlist + auto-refresh QOL (#12) (c463adc)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.3.0/jellyfin-harmonie_1.3.0.1.zip",
-        "checksum": "e7ac8311235d1788ab935a729affe25d",
-        "timestamp": "2026-05-23T18:01:09Z"
-      },
-      {
-        "version": "1.2.5.1",
-        "changelog": "### Bug Fixes\n\n- Set debounce to 0 for new playlists (#11) (47c4f7d)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.2.5/jellyfin-harmonie_1.2.5.1.zip",
-        "checksum": "361fa1958556218b9edc750eafd3579e",
-        "timestamp": "2026-05-23T17:19:35Z"
-      },
-      {
-        "version": "1.2.4.1",
-        "changelog": "### Bug Fixes\n\n- Stop playlist growing on every refresh (#10) (ffa1661)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.2.4/jellyfin-harmonie_1.2.4.1.zip",
-        "checksum": "2dfb84d857e4fc1d64e71a180047c664",
-        "timestamp": "2026-05-23T17:13:13Z"
-      },
-      {
-        "version": "1.2.3.1",
-        "changelog": "### Bug Fixes\n\n- Pin skiasharp to jellyfin host version (#9) (11dd02e)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.2.3/jellyfin-harmonie_1.2.3.1.zip",
-        "checksum": "703f1a892575e635b7a617a251373e41",
-        "timestamp": "2026-05-23T16:39:07Z"
-      },
-      {
-        "version": "1.2.2.1",
-        "changelog": "### Bug Fixes\n\n- Stop auto-refresh feedback loop on cover regen (#8) (28fc450)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.2.2/jellyfin-harmonie_1.2.2.1.zip",
-        "checksum": "c441a4c56df94aa2710e920d1e30989a",
-        "timestamp": "2026-05-23T15:35:52Z"
-      },
-      {
-        "version": "1.2.1.1",
-        "changelog": "### Other\n\n- Bump xunit.runner.visualstudio from 3.0.1 to 3.1.5 (#6) (e544bd1)\n- Bump Microsoft.NET.Test.Sdk from 17.13.0 to 18.5.1 (#5) (b457634)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.2.1/jellyfin-harmonie_1.2.1.1.zip",
-        "checksum": "d015a25a096e871c0d7b6024e0139f88",
-        "timestamp": "2026-05-23T15:06:42Z"
-      },
-      {
-        "version": "1.1.1.1",
-        "changelog": "### CI\n\n- Switch release bump to conventional-commit prefixes (be2c6d0)\n\n### Refactor\n\n- Add config provider interface and make prefixplaylistoptions immutable (4fef4f8)\n- Extract audiometadata and harmonieplaylistfilter helpers (e236d63)\n- Consolidate config access and scheduled-task triggers (dbb2d66)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.1.1/jellyfin-harmonie_1.1.1.1.zip",
-        "checksum": "c4c7d051fa945a818921183c64d05319",
-        "timestamp": "2026-05-19T22:08:45Z"
-      },
-      {
-        "version": "1.1.0.1",
-        "changelog": "### CI\n\n- Generate changelog before pushing tag [skip release] (dec399c)\n\n### Features\n\n- Split refresh task into seeded and personal mix tasks [bump minor] (5ab241f)",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.1.0/jellyfin-harmonie_1.1.0.1.zip",
-        "checksum": "2b06be00fdd126682dbbf2a031494a1b",
-        "timestamp": "2026-05-18T17:12:28Z"
-      },
-      {
-        "version": "1.0.0.1",
-        "changelog": "Release v1.0.0.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.0.0/jellyfin-harmonie_1.0.0.1.zip",
-        "checksum": "3dee6290eeff716376f86aa120cc1c82",
-        "timestamp": "2026-05-18T11:56:00Z"
+        "version": "1.14.1.2",
+        "changelog": "\n### Build\n\n- Ship a jellyfin 12 package (#45) (c166a1d)",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.14.1/jellyfin-harmonie_1.14.1.2.zip",
+        "checksum": "e2d995858f044df0da416469dfe7787e",
+        "timestamp": "2026-11-18T10:11:43Z"
       }
     ]
   },
@@ -20058,6 +19794,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Litefin.webp",
     "versions": [
+      {
+        "version": "1.12.0.11",
+        "changelog": "Release 1.12.0.11",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/MoazSalem/litefin-plugin/releases/download/v1.12.0.11/Litefin.Plugin_1.12.0.11.zip",
+        "checksum": "920a88250f915cc8b872fdf284e9efd7",
+        "timestamp": "2026-11-18T10:40:04Z"
+      },
       {
         "version": "1.12.0.10",
         "changelog": "Release 1.12.0.10",
