@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-18T21:42:44.655Z",
+    "overview": "Generated: 2026-11-18T22:42:46.064Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-18T21:42:44.655Z"
+        "timestamp": "2026-11-18T22:42:46.064Z"
       }
     ]
   },
@@ -9619,6 +9619,14 @@
     "imageUrl": "https://obelous.dev/plugins/images/YummyKodik.webp",
     "versions": [
       {
+        "version": "2.1.1.0",
+        "changelog": "- Fixed HLS frame-rate metadata that could expose the MPEG-TS 90 kHz clock as 90,000 FPS and produce a huge AMD AMF keyframe interval.\n- Use the selected local HLS media rendition for playback instead of asking FFmpeg to probe all variants in the master playlist.\n- Preserve legitimate probed FPS or an explicit HLS FRAME-RATE for that rendition; unknown frame rates remain unknown.\n- Added regression tests for pinned HLS sessions, frame-rate validation, and multiple renditions.\n\nRequires Jellyfin 12.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/queukat/YummyKodik/releases/download/2.1.1.0/YummyKodik_2.1.1.0.zip",
+        "checksum": "5f2a97442152688e5eb0107c4187c091",
+        "timestamp": "2026-11-18T22:34:06Z"
+      },
+      {
         "version": "2.1.0.0",
         "changelog": "- Added a second YummyAnime list with its own library folder and refresh schedule.\n- Added explicit account sign-in and clearer authentication errors while preserving unsaved settings.\n- Fixed Kodik and CVH playback failures with FFmpeg 8 when providers return an incorrect playlist content type.\n- Improved playback startup, seeking, and selected-voice consistency in Jellyfin 12.\n- Improved Alloha recovery and same-voice fallback; canceled recovery attempts can be retried immediately.\n- Made the voice selector load from local library files without waiting for providers. Native version choices affect only the current playback.\n- Improved refresh isolation between libraries and safe cleanup of removed releases.\n- Added English settings-page text and kept long series titles available on hover.\n\nRequires Jellyfin 12.",
         "targetAbi": "12.0.0.0",
@@ -17407,6 +17415,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
+      {
+        "version": "0.9.4.1",
+        "changelog": "Fixes promise actions being rejected for menus and navigation.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.4.1/JellyEmu_0.9.4.1.zip",
+        "checksum": "77c11a770ce6f0650d14b2a0c15b1d12",
+        "timestamp": "2026-11-18T12:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.9.4.0",
         "changelog": "Fixes for ui overlap, fixes for both players tied to 1 gamepad, fix for default and set input values.",

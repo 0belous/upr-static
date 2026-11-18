@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-18T21:42:44.655Z",
+    "overview": "Generated: 2026-11-18T22:42:46.064Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-18T21:42:44.655Z"
+        "timestamp": "2026-11-18T22:42:46.064Z"
       }
     ]
   },
@@ -17061,6 +17061,17 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
+      {
+        "version": "0.9.4.1",
+        "changelog": "Fixes promise actions being rejected for menus and navigation.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.4.1/JellyEmu_0.9.4.1.zip",
+        "checksum": "77c11a770ce6f0650d14b2a0c15b1d12",
+        "timestamp": "2026-11-18T12:00:00Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "0.9.4.0",
         "changelog": "Fixes for ui overlap, fixes for both players tied to 1 gamepad, fix for default and set input values.",
