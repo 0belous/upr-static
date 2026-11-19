@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-19T20:42:45.549Z",
+    "overview": "Generated: 2026-11-19T21:42:59.649Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.5",
-        "timestamp": "2026-11-19T20:42:45.549Z"
+        "timestamp": "2026-11-19T21:42:59.649Z"
       }
     ]
   },
@@ -4793,6 +4793,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "12.4.2.7",
+        "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises Microsoft.NET.Test.Sdk to 18.12.0\n- Pins every GitHub Action in the workflows to a commit digest",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.2.7/jellyfin-plugin-custompages-12.4.2.7.zip",
+        "checksum": "ed60e9aec668a30565b7129531824fd8",
+        "timestamp": "2026-11-19T21:01:05Z"
+      },
+      {
         "version": "12.4.2.6",
         "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.20, which marks the Routes Repeater with base-repeater-layout-inline in place of inline, with no local stopgap or title text to replace\n- The screenshot kit in tools/screenshots captures every docs screenshot from the repository's files and generic sample data, with no Jellyfin server\n- The docs name the count cards, copy fields, Save Bar, and Clear Password, and the guides carry the lessons from review",
         "targetAbi": "12.4.0.0",
@@ -9357,6 +9365,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.2.8",
+        "changelog": "\n## Changed\n- Every field label, checkbox label and dropdown option is in Title Case, on the Groups, Invites and Resets tabs and the signup page\n\n## Developer\n- The screenshot kit takes every docs screenshot, with Activity Log from a throwaway Docker server\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises Microsoft.NET.Test.Sdk to 18.12.0\n- Pins every GitHub Action in the workflows to a commit digest",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.2.8/jellyfin-plugin-usermanagement-12.4.2.8.zip",
+        "checksum": "24a957879ffdb254d9b826e49fe1be1a",
+        "timestamp": "2026-11-19T21:01:16Z"
+      },
+      {
         "version": "12.4.2.7",
         "changelog": "\n## Changed\n- Each invite is a card with its name and status badge, its group, uses, expiration and PIN, and its full link with a QR code that opens to copy or download\n- Selecting an invite card opens its editor, with the full QR code beside its link, its expiration and state, and Delete, Duplicate, Cancel and Save at the bottom\n- A refused signup shows on the signup page's red error line, and the resource links stack full width under it\n- The Groups, Invites and Resets tabs use the Base buttons, count cards, badges and sections\n- Group tags, access schedules and the media library order use the Base Tag Input, Access Schedule and Ordered List\n- Invite resources are rows of a title and a URL, edited in place\n- Group names are entered in a prompt, and deleting a group or an invite asks first in a dialog\n- Each group setting is its own bordered row, with Member and Group pills beside its name, and its controls show only while the group sets it\n- Group sections read like Jellyfin's user pages, and each section header counts the settings the group sets\n- Library, channel and device access and media deletion show a searchable list under their all checkbox only while it is off, and the home screen library rows are searchable lists too\n- Group channel access can pick single channels\n- Group settings are split into Access and Features, Preferences and Account Rules, with Playback and Display apart and the old Other settings under Profile\n- Session cleanup rules are Base Repeater cards with a client picker\n- Pending resets are a Base Record List, and each code sits in a masked copy field with an eye that shows it\n- Invite and reset state tags are colored by state, such as green for Active and orange for Expired\n- The count cards are compact, and the Invites and Pending Resets lists sit in fixed sections\n- The signup page shows resource links as the status card's buttons\n- Every Save is the same full width Save Bar, with any other actions in a full width row above it\n- Device Access lists each device on its own row with its app and last user, in a list you can search\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.20, with the dashboard pages and the signup page on its base- classes, and its Record List tag colors, wrapped inline Copy Field, checkbox safe inputContainer and Editor Dialog footer actions in place of local code\n- The repository guides live in starthere.md, agent.md and skills/\n- tools/screenshots takes the Groups and Invites docs screenshots from the plugin's own pages with generic sample data",
         "targetAbi": "12.4.0.0",
@@ -10907,6 +10923,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.4.4.7",
+        "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises Microsoft.NET.Test.Sdk to 18.12.0, SQLitePCLRaw.bundle_e_sqlite3 to 2.1.14 and Xunit.SkippableFact to 1.5.85 in the tests\n- Pins every GitHub Action in the workflows to a commit digest",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.4.4.7/jellyfin-plugin-youtubeaudio-12.4.4.7.zip",
+        "checksum": "e1628ff4786bd903872a45c28aed2067",
+        "timestamp": "2026-11-19T21:01:23Z"
+      },
+      {
         "version": "12.4.4.6",
         "changelog": "\n## Fixed\n- The yt-dlp section on the Settings tab was titled Yt-dlp. It reads yt-dlp, as the tool spells it\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.20, which shows section and collapsible titles exactly as written in place of forced capitals, with no local copy to replace\n- Adds the screenshot kit in tools/screenshots, which captures every docs screenshot from the repository's own files with no Jellyfin server",
         "targetAbi": "12.4.0.0",
@@ -11928,6 +11952,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.4.19",
+        "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises MaxMind.Db to 5.3.0 and Microsoft.NET.Test.Sdk to 18.12.0\n- Pins every GitHub Action in the workflows to a commit digest",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.4.19/jellyfin-plugin-remoteaccess-12.4.4.19.zip",
+        "checksum": "c44966084b5868de293be4c3b03a047c",
+        "timestamp": "2026-11-19T21:01:56Z"
+      },
       {
         "version": "12.4.4.18",
         "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.20, which replaces no local code and leaves every page looking the same",
@@ -22803,6 +22835,14 @@
     "category": "LiveTV",
     "versions": [
       {
+        "version": "12.4.3.1",
+        "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises Microsoft.NET.Test.Sdk to 18.12.0",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.3.1/jellyfin-plugin-livechannels-12.4.3.1.zip",
+        "checksum": "3d3cc8fae3cca04a82790c09225be6d8",
+        "timestamp": "2026-11-19T21:01:07Z"
+      },
+      {
         "version": "12.4.3.0",
         "changelog": "\n## Added\n- Copy Matching Video, a setting under Hardware Acceleration that sends an item's video as it is instead of encoding it when the video is already in the Video Codec, SDR, and no taller than the Resolution. It is off by default, since a copied item keeps its own size, frame rate, and bitrate\n- Hardware encoding on Rockchip devices through RKMPP, when Jellyfin's hardware acceleration is set to it - https://github.com/JPKribs/jellyfin-plugin-livechannels/pull/6\n\n## Developer\n- StreamArguments.CanCopyVideo decides whether an item is copied, and BuildCopy builds the run that copies its video and encodes its audio\n- A copy that starts inside an item starts on the keyframe before the point, found with ffprobe through StreamArguments.BuildKeyframeProbe and KeyframeBefore\n- A channel with an item to copy streams item by item\n- EncoderResolver maps the rkmpp acceleration to h264_rkmpp and hevc_rkmpp, which take nv12 frames from system memory",
         "targetAbi": "12.4.0.0",
@@ -23838,6 +23878,14 @@
     "owner": "AHouseOfBards",
     "imageUrl": "https://obelous.dev/plugins/images/Bonfire.webp",
     "versions": [
+      {
+        "version": "2.1.0.0",
+        "changelog": "**Fixed**\n\n- TV sign-in screens, the device list, themes and the profile button. (#42, #46, #48)\n- Security fixes. Updating is recommended.\n\n**Changed**\n\n- Profiles show on TV sign-in screens on a new install, and duplicate devices merge on their own.\n- The log says more, to help with bug reports.\n\n**Added**\n\n- A Moonfin theme, and more settings for apps with Bonfire built in.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/AHouseOfBards/Bonfire/releases/download/v2.1.0/Jellyfin.Profiles.zip",
+        "checksum": "e083e5baacb842271b2fd63f30aabb7f",
+        "timestamp": "2026-11-19T20:38:49Z"
+      },
       {
         "version": "2.0.0.0",
         "changelog": "**Bonfire 2.0** is a long-term support release. From here, updates bring fixes, translations and support for new Jellyfin versions.\n\n**Added**\n\n- A theme editor for your own themes, with background images, more fonts, undo, and Moonfin theme files.\n- Moonfin: sign in with the main account and pick a profile on the home screen.\n- Addresses that skip PINs, for a household's own home network. (#42)\n- Bonfire can be turned off and on in the Status tab.\n\n**Changed**\n\n- The admin page has clearer tabs, with rare settings under Advanced.\n- Profile accounts no longer show in Dashboard → Users, and deleting an account removes its Bonfire records.\n- PIN tries have a daily limit, and PIN sign-in on other apps is limited to your household's devices.\n- Works better on TVs, phones and screen readers.\n- French, Spanish, Catalan, Polish and Turkish are machine translations. Corrections are welcome.\n- The options that patched index.html are gone. Bonfire loads without them.\n\n**Fixed**\n\n- Many fixes, and security and privacy fixes. Updating is recommended.\n\nEvery change since 1.7.5 is in the [changelog](https://github.com/AHouseOfBards/Bonfire/blob/main/CHANGELOG.md).\n",
@@ -26026,6 +26074,14 @@
     "owner": "JPKribs",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "12.4.6.2",
+        "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 2026.11.21, which keeps a scrolling Data Table's frame in view and an open card's body on the plain surface, with no local code to replace\n- Raises Microsoft.NET.Test.Sdk to 18.12.0\n- Pins every GitHub Action in the workflows to a commit digest",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.6.2/jellyfin-plugin-artworkgenerator-12.4.6.2.zip",
+        "checksum": "d45c9317872ec9f70673d639e8ada5db",
+        "timestamp": "2026-11-19T21:01:07Z"
+      },
       {
         "version": "12.4.6.1",
         "changelog": "\n## Fixed\n- Previews in Edit Images flickered as they first loaded, because the browser could download each one twice and show the card empty in between. Each preview is cached by the browser, so it loads once\n\n## Developer\n- GET Plugins/ArtworkGenerator/Generated/{token} answers with Cache-Control private, max-age=86400, immutable, since a token only ever names one image",
@@ -34610,6 +34666,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.18.2",
+        "changelog": "\n## Developer\n- Raises Microsoft.NET.Test.Sdk to 18.12.0 and SQLitePCLRaw.bundle_e_sqlite3 to 2.1.14 in the tests",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.18.2/jellyfin-plugin-serversync-12.4.18.2.zip",
+        "checksum": "718154810ee74929a280fac335eaa953",
+        "timestamp": "2026-11-19T21:01:17Z"
+      },
       {
         "version": "12.4.18.1",
         "changelog": "\n## Added\n- Replace Existing Segments and Remove Segments No Server Has, under Enable Media Segment Provider, decide whether segments another provider gave a file are replaced, and whether a file's segments are removed when no server has any. Both are off by default\n- Media segments show on each Metadata row, with a Segments badge and a Media Segments section in the item dialog, and Queue and Ignore work on them\n\n## Changed\n- Refresh reads media segments into each Metadata row and Sync writes them, instead of the scan writing them at once\n- A file takes the media segments of the highest ranked server that has segments for it, instead of the highest ranked server that holds it\n\n## Fixed\n- A server with no segments for a file cleared the segments other providers gave that file here. They stay unless Remove Segments No Server Has is on\n- A synced episode, or another item inside a folder, was queued again on every Metadata scan, because the scan read an older cached copy of it. The scan reads the copy Sync writes to\n- A Metadata row kept showing Studios as changed right after Sync, until the next scan\n- The Metadata scan did not run when Enable Media Segment Provider was the only category on\n\n## Developer\n- The database schema is v39, which adds four nullable media segment columns to MetadataSyncItems. Older releases can still read it\n- The wire protocol is unchanged, so this release works alongside 12.4.18.0 one server at a time",
