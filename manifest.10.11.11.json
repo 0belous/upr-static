@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 316, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-19T22:42:45.644Z",
+    "overview": "Generated: 2026-11-19T23:42:47.991Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.11",
-        "timestamp": "2026-11-19T22:42:45.644Z"
+        "timestamp": "2026-11-19T23:42:47.991Z"
       }
     ]
   },
@@ -19655,6 +19655,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.0",
+        "changelog": "See https://github.com/monxas/jellyfin-share-plugin/releases/tag/v2.0.0",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/monxas/jellyfin-share-plugin/releases/download/v2.0.0/jellyfin-plugin-share-2.0.0.zip",
+        "checksum": "7a4f80f6a31a183683e141e631944b2a",
+        "timestamp": "2026-11-19T23:08:56Z"
+      },
       {
         "version": "1.2.1",
         "changelog": "See https://github.com/monxas/jellyfin-share-plugin/releases/tag/v1.2.1",

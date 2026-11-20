@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 202, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-19T22:42:45.644Z",
+    "description": "Aggregated: 203, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-19T23:42:47.991Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-11-19T22:42:45.644Z"
+        "timestamp": "2026-11-19T23:42:47.991Z"
       }
     ]
   },
@@ -5609,6 +5609,25 @@
         "timestamp": "2026-09-08"
       }
     ]
+  },
+  {
+    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Xtream Library (old entry, install the other one)",
+    "description": "Old catalogue entry, no longer updated. Install the other \"Xtream Library\" entry instead.  \n  \nUniversal Repo [✓] \nSource: https://firestaerter3.github.io/jellyfin-plugin-repo/manifest.json  \nGithub: https://github.com/firestaerter3/jellyfin-plugin-repo",
+    "overview": "This entry stopped at 1.33.2.0. All updates since then are published under the other \"Xtream Library\" entry in this catalogue. Uninstall this one and install that one.",
+    "owner": "firestaerter3",
+    "category": "General",
+    "versions": [
+      {
+        "version": "2.0.0",
+        "changelog": "See https://github.com/monxas/jellyfin-share-plugin/releases/tag/v2.0.0",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/monxas/jellyfin-share-plugin/releases/download/v2.0.0/jellyfin-plugin-share-2.0.0.zip",
+        "checksum": "7a4f80f6a31a183683e141e631944b2a",
+        "timestamp": "2026-11-19T23:08:56Z"
+      }
+    ],
+    "imageUrl": "https://obelous.dev/plugins/images/XtreamLibrary(oldentry,installtheotherone).webp"
   },
   {
     "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
