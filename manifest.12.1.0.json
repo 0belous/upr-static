@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T12:42:46.509Z",
+    "overview": "Generated: 2026-11-20T13:42:46.863Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-20T12:42:46.509Z"
+        "timestamp": "2026-11-20T13:42:46.863Z"
       }
     ]
   },
@@ -12410,6 +12410,14 @@
     "owner": "AHouseOfBards",
     "imageUrl": "https://obelous.dev/plugins/images/Bonfire.webp",
     "versions": [
+      {
+        "version": "2.1.1.0",
+        "changelog": "**Fixed**\n\n- Videos would not play in Jellyfin Media Player after picking a profile. (#49)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/AHouseOfBards/Bonfire/releases/download/v2.1.1/Jellyfin.Profiles.zip",
+        "checksum": "90c49d622a79a25539db6c8a24ed7991",
+        "timestamp": "2026-11-20T04:31:01Z"
+      },
       {
         "version": "2.1.0.0",
         "changelog": "**Fixed**\n\n- TV sign-in screens, the device list, themes and the profile button. (#42, #46, #48)\n- Security fixes. Updating is recommended.\n\n**Changed**\n\n- Profiles show on TV sign-in screens on a new install, and duplicate devices merge on their own.\n- The log says more, to help with bug reports.\n\n**Added**\n\n- A Moonfin theme, and more settings for apps with Bonfire built in.\n",
