@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T19:42:46.417Z",
+    "overview": "Generated: 2026-11-20T20:42:46.833Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-11-20T19:42:46.417Z"
+        "timestamp": "2026-11-20T20:42:46.833Z"
       }
     ]
   },
@@ -2495,6 +2495,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "12.4.3.0",
+        "changelog": "\n## Added\n- The Pages, Assets, and Stores tabs, the sign in and not found pages, and the server's messages follow the viewer's language, with Jellyfin's own words in every language Jellyfin has\n\n## Changed\n- Every label, button, title, and option is written in sentence case, as Jellyfin writes them, such as Allow system access and Record limit\n- A refused save's reason on the Pages tab comes back in the language the tab is shown in\n- Store activity log entries are written in the server's display language, with names such as 4 records added\n- Buttons, confirm dialogs, the Save bar, and other shared controls use Base's wording, such as Copied on a copy field\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.0, then 12.4.1, which builds Jellyfin's strings, Base's own strings, and Localization/en-us.json into the plugin and reads the page's language with BaseTranslations.RequestLanguage in place of the local Accept-Language parser\n- The plugin translations route at /pages/plugin/translations answers with { language, strings, casing } for the tabs\n- POST /pages/config/check reads the language from ?language=, the X-Jellyfin-Plugin-Language header, then Accept-Language\n- Localization/casing.json lists the words kept as written, and the build checks every string with Base's JPKT diagnostics\n- Store activity outcomes are built from keys, so their names are translated with their overviews\n- The project is organized into Api, Configuration, Web, Web/Templates, Assets, Models, Services, Tasks, and Utilities, with development tools in tools/",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-custompages/releases/download/v12.4.3.0/jellyfin-plugin-custompages-12.4.3.0.zip",
+        "checksum": "83b5ca8ea091a5441f2fe5e0be5de8b7",
+        "timestamp": "2026-11-20T20:32:02Z"
+      },
+      {
         "version": "12.4.2.8",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
         "targetAbi": "12.4.0.0",
@@ -4971,6 +4979,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.3.0",
+        "changelog": "\n## Added\n- Translations for the Groups, Invites and Resets tabs and the signup page, in the viewer's language, with the labels Jellyfin already has in every language Jellyfin has\n\n## Changed\n- Every label, heading, button and option reads in sentence case, as Jellyfin writes its own, so the Groups tab reads in one case\n- Messages the server returns to a page, such as an error when an invite cannot be created, read in the page's language\n- Activity log entries, task names and password change messages read in the server's display language, including the summed entries for password rule enrollment, failed PINs, expired or inactive members and session cleanup\n- Activity log entry names are in sentence case, such as 2 users disabled\n- The Save Bar, dialogs, copy fields, QR codes, tag inputs and access schedules take their default text from Base, in the viewer's language\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.1 in place of 2026.11.21, whose translated default text replaces the plugin's own Save Bar, dialog, copy field, QR code, tag input and access schedule text\n- The project is organized into Api, Configuration, Web, Assets, Models, Services, Tasks, Utilities and tools, and every served file lives in Web\n- Strings live in Localization/en-us.json, words kept as written in Localization/casing.json, and Jellyfin strings are declared as JellyfinString items in the csproj\n- GET UserManagement/Translations serves the plugin's strings as { language, strings, casing } to the tabs and the signup page, with no signed in user needed\n- The dashboard and invite routes read the page's language from the language query, then the X-Jellyfin-Plugin-Language header, then Accept-Language, and no longer take a language parameter of their own\n- The screenshot kit serves translations the way the plugin does",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.3.0/jellyfin-plugin-usermanagement-12.4.3.0.zip",
+        "checksum": "f2898d3cfd53fbe37592ffc5aac47456",
+        "timestamp": "2026-11-20T20:38:44Z"
+      },
+      {
         "version": "12.4.2.9",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
         "targetAbi": "12.4.0.0",
@@ -6085,6 +6101,14 @@
     "owner": "JPKribs",
     "category": "Music",
     "versions": [
+      {
+        "version": "12.4.5.0",
+        "changelog": "\n## Added\n- Translations, which show the dashboard tabs, the user download page, and the public queue in the viewer's language, with Jellyfin's own words wherever Jellyfin has them\n\n## Changed\n- Every label, heading, button, and tab is in sentence case, as Jellyfin writes its own, such as Queue playlist and Embed cover art\n- Messages from the server, such as a refused link or the yt-dlp update result, follow the language of the page that asked for them\n- Lists, the Save bar, file and image pickers, the audio player, and dialogs show Base's own translated wording, such as Select all and Drop files here or click to select\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.1, after 12.4.0. Base translates its own component text, so the plugin's keys that repeated it are gone, and BaseTranslations.RequestLanguage replaces the plugin's Accept-Language parser\n- Server messages read the X-Jellyfin-Plugin-Language header, then Accept-Language. The user download page and the public queue send the header\n- Localization/casing.json lists the words kept as written, such as YouTube, yt-dlp, and MP3, and AlbumArtist, ButtonSignIn, and HeaderDeleteItems take Case=\"sentence\"\n- GET /YouTubeAudio/Translations answers with BaseTranslations.Serve, as language, strings, and casing\n- The project is laid out as Api, Configuration, Web, Assets, Localization, Models, Services, and Utilities, with the screenshot kit and the end to end test under tools\n- skills/translations.md covers strings, casing, and server languages, and a test checks that every key the pages use has a string",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.4.5.0/jellyfin-plugin-youtubeaudio-12.4.5.0.zip",
+        "checksum": "3c0ec765bce98fc6cd31baa4a8cddb30",
+        "timestamp": "2026-11-20T20:36:54Z"
+      },
       {
         "version": "12.4.4.8",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
@@ -11963,6 +11987,14 @@
     "owner": "JPKribs",
     "category": "LiveTV",
     "versions": [
+      {
+        "version": "12.4.4.0",
+        "changelog": "\n## Added\n- Translations. Every page, message, activity log entry and scheduled task shows its text in the viewer's language wherever Jellyfin has the words, and in US English elsewhere\n\n## Changed\n- Every label, button, heading and option is in sentence case, as Jellyfin writes its own, such as Episodes per block and Show Up Next cards\n- Messages the Settings tab gets back from the server, such as a stress test refusal, are in the page's language\n- Activity log entries and scheduled task names are in the server's display language\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.1, after 12.4.0. Base's components translate their own text, so the pages pass only text that differs from Base's\n- The project is organized into Api, Configuration, Web, Assets, Models, Services, Tasks, Utilities and tools\n- Strings live in Localization/en-us.json and Jellyfin strings declared in the csproj, served by GET livechannels/Translations with BaseTranslations.Serve\n- Localization/casing.json lists the words the plugin keeps as written\n- The livechannels routes read the page's language with BaseTranslations.RequestLanguage",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.4.0/jellyfin-plugin-livechannels-12.4.4.0.zip",
+        "checksum": "22109d862bfae8f316412bebfa00a3fa",
+        "timestamp": "2026-11-20T20:40:05Z"
+      },
       {
         "version": "12.4.3.2",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
