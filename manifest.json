@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 331, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T20:42:46.833Z",
+    "overview": "Generated: 2026-11-20T21:42:46.605Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-20T20:42:46.833Z"
+        "timestamp": "2026-11-20T21:42:46.605Z"
       }
     ]
   },
@@ -18805,6 +18805,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.5.0",
+        "changelog": "\n## Added\n- The pages, messages, scheduled tasks and activity log are translated. Jellyfin's own words come in every language Jellyfin has, and the plugin's own words are ready for translation\n\n## Changed\n- Labels, buttons, headings, options and activity log names are in sentence case, as Jellyfin writes them, such as Update now and Trust the proxy\n- The activity log is written in the server's display language, summed entries such as 3 DNS records updated included\n- Problems a save reports, such as a port out of range, follow the page's language, and so do the provider hints and field labels\n- The Save bar, tables, QR code, country picker and setup checklist use Base's own words, translated\n\n## Fixed\n- A record that recovered after one failed attempt was logged as 1 failed attempts. It reads 1 failed attempt\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.1, which translates its own components, reads the page's language with BaseTranslations.RequestLanguage and builds activity summaries from keys. Base 12.4.0 came first, for the translations build\n- The project is organized into Api, Configuration, Web, Assets, Models, Services, Tasks and Utilities, with the pages under Web\n- Strings live in Localization/en-us.json, Jellyfin strings are declared in the project file, and Localization/casing.json lists the names and acronyms kept as written\n- A test checks that every key the pages use is built in",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.5.0/jellyfin-plugin-remoteaccess-12.4.5.0.zip",
+        "checksum": "45a0cbcdafcd7d1407b1b50bedfba407",
+        "timestamp": "2026-11-20T21:03:17Z"
+      },
+      {
         "version": "12.4.4.20",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
         "targetAbi": "12.4.0.0",
@@ -37083,6 +37091,14 @@
     "category": "MoviesAndShows",
     "versions": [
       {
+        "version": "12.4.7.0",
+        "changelog": "\n## Added\n- The Designs, Logos, Profiles, and Settings tabs show in the language set in your display settings. Words Jellyfin already has come in every language Jellyfin has, and the words only this plugin uses are in US English until they are translated\n\n## Changed\n- Every label, heading, button, tab, and choice is written in sentence case, as Jellyfin writes its own, such as Frame extraction and Samples per frame\n- Messages the server sends back to a page, such as a refused font upload, follow the language of the page\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.0 and then 12.4.1. Base builds the strings and its own text into the plugin, and its leave prompt and fix fields message replace the local ones\n- GET Translations answers with language, strings, and casing. Every route reads the language with BaseTranslations.RequestLanguage, from the language query value, the X-Jellyfin-Plugin-Language header, or Accept-Language\n- Localization/casing.json lists the words kept as written. Text color, Original title, and Sort title use Jellyfin strings\n- The project is laid out as Api, Configuration, Web, Assets, Models, Services, Providers, and Utilities, with the pages, demo images, and fonts embedded by pattern",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-artworkgenerator/releases/download/v12.4.7.0/jellyfin-plugin-artworkgenerator-12.4.7.0.zip",
+        "checksum": "5544734377947c41f003648912a6c4b4",
+        "timestamp": "2026-11-20T20:48:40Z"
+      },
+      {
         "version": "12.4.6.3",
         "changelog": "\n## Developer\n- Raises every GitHub Action in the workflows to its latest major version, pinned to a commit digest\n- Builds the docs with Python 3.15 and mkdocs-material 9.8.2\n- Renovate brings every update in one pull request, with Base on its own, and leaves the packages Jellyfin ships to the Jellyfin version",
         "targetAbi": "12.4.0.0",
@@ -48917,6 +48933,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.20.0",
+        "changelog": "\n## Added\n- Every page, message, and Activity page entry is shown in the viewer's language. Jellyfin's own words come in every language Jellyfin has, and the rest is in US English until it is translated\n\n## Changed\n- Labels, buttons, headings, columns, badges, and Activity page names are in sentence case, as Jellyfin writes them, such as Send changes after (seconds) and 12 items synced\n- A message a page shows, such as a refused Server URL, is in the page's language, and an Activity page entry is in the server's display language\n- The tables, dialogs, charts, and lists drawn by Base show their own text in the viewer's language\n\n## Fixed\n- The pool card on the Servers tab read \"This Server, this server\" when the server had no name. It reads This server\n- The Activity page entry for one failing item read \"1 Item Keep Failing\". It reads 1 item keeps failing\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.0, then 12.4.1. BaseTranslations.RequestLanguage replaces the local RequestLanguage helper, and ActivityOutcome takes keys for its names\n- Every string a person reads comes from Localization/en-us.json or a declared Jellyfin string, with Localization/casing.json for the words kept as written. GET /Sync/Translations answers with language, strings, and casing\n- The source is organized into Api, Configuration, Web, Assets, Models, Services, Tasks, and Utilities, and the Docker pool and matrix live in tools/integration",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.20.0/jellyfin-plugin-serversync-12.4.20.0.zip",
+        "checksum": "8d247210e06289414c01deaa34335fd3",
+        "timestamp": "2026-11-20T20:59:53Z"
+      },
       {
         "version": "12.4.19.1",
         "changelog": "\n## Fixed\n- A server that copied one segment from another server now still shares its own segments of every other type with it, instead of none at all\n- Remove Segments No Server Has no longer wipes segments a server made itself before the servers it pulls from have copied them, which could erase a new intro in a ring of servers\n- Replace Existing Segments works type by type, so a copied outro no longer removes an intro another provider made here\n- Two servers holding the same edit with different values, after a provider refresh changed one, no longer trade the values around a ring forever when their scans overlap. Only the server that made the edit sets the others right\n- A provider refresh on a server that copied a hand edit no longer spreads by scans and replaces that hand edit, even on the server that made it\n- A value read live for a change is recorded under the origin's stamp at the read, so an older edit arriving afterwards no longer overwrites a newer one taken from a third server\n\n## Changed\n- Each type of segment comes from the highest ranked server that has it, so intros from one server and credits from another both arrive\n- Remove Segments No Server Has removes only the segments Server Sync copied, never ones another provider made here\n\n## Developer\n- Each copied segment names the server it was first made on, and a server holds the types of its own segments that come back, so nothing loops back to undo the server that made it\n- The segment table gains a HeldTypes column in schema 40\n- VersionDecider lets only the author of an edit set right a drifted copy of it, and ItemHintHandler reads the origin's stamp before and after the item and records the newer of it and the hint's\n- RingNetwork runs servers in rings and meshes with their real stamp stores, queues, triage, publishers, resolvers and apply guards, and RingLoopTests and RingKindsTests check over 280 cases of metadata, playlists, history and content for loops, flaps and stale overwrites\n- SegmentPoolSimulationTests runs rings of three to five servers, meshes of three and four, and 1000 random pools of six through every setting, and checks that each settles, never takes back its own segments, and never undoes a change",
