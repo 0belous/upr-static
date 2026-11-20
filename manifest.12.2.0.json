@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T15:42:46.870Z",
+    "overview": "Generated: 2026-11-20T16:42:46.390Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.2.0",
-        "timestamp": "2026-11-20T15:42:46.870Z"
+        "timestamp": "2026-11-20T16:42:46.390Z"
       }
     ]
   },
@@ -2488,8 +2488,8 @@
   {
     "guid": "409ef72d-6014-47fd-8928-ebad581bf81b",
     "name": "Custom Pages",
-    "overview": "Author and serve authorization-gated HTML pages at /pages/{slug}.",
-    "description": "Custom Pages lets administrators publish custom pages served by Jellyfin at /pages/{slug}. Each page can be public or restricted to users or administrators, enforced by Jellyfin's own authorization policies.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-custompages/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-custompages",
+    "overview": "Serve your own pages from Jellyfin.",
+    "description": "Custom Pages serves your own HTML pages at /pages/{slug}. Each page is public or limited to users or administrators.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-custompages/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-custompages",
     "imageUrl": "https://obelous.dev/plugins/images/CustomPages.webp",
     "owner": "JPKribs",
     "category": "General",
@@ -4964,8 +4964,8 @@
   {
     "guid": "670167bd-e7f8-4549-98e2-5ab2e11bc89f",
     "name": "User Management",
-    "overview": "Group policy templates, display and playback preferences, account lifecycle, password hygiene, and easier user onboarding for Jellyfin.",
-    "description": "User Management provides user groups and password hygiene to accounts that already exist on your Jellyfin server. Define group templates that manage both permissions and display and playback preferences with live sync, set account expiry and auto-disable inactive users, and enforce password requirements. Use these groups to send user-managed, and protected invite links.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-usermanagement/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-usermanagement",
+    "overview": "Groups, password rules, and invites for your users.",
+    "description": "User Management adds groups that set permissions and preferences for your users, with account expiry, password rules, and invite links.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-usermanagement/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-usermanagement",
     "imageUrl": "https://obelous.dev/plugins/images/UserManagement.webp",
     "owner": "JPKribs",
     "category": "Administration",
@@ -6079,8 +6079,8 @@
   {
     "guid": "7323ea64-a200-4265-ab8f-e7ae27d06c38",
     "name": "YouTube Audio",
-    "overview": "Download YouTube audio, tag it, and push to your Jellyfin music library.",
-    "description": "YouTube Audio lets you download YouTube audio (single videos or playlists) as Opus, MP3, or M4A files, review and edit metadata in a staging area, then push files into your Jellyfin music library. Uses yt-dlp for downloading and TagLibSharp for metadata tagging.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-youtubeaudio/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-youtubeaudio",
+    "overview": "Download YouTube audio into your music library.",
+    "description": "YouTube Audio downloads YouTube audio as Opus, MP3, or M4A, lets you review its tags, and adds it to your music library.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-youtubeaudio/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-youtubeaudio",
     "imageUrl": "https://obelous.dev/plugins/images/YouTubeAudio.webp",
     "owner": "JPKribs",
     "category": "Music",
@@ -6696,8 +6696,8 @@
   {
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
     "name": "Remote Access",
-    "overview": "Reach your server from anywhere: Dynamic DNS and a secure HTTPS proxy, inside Jellyfin.",
-    "description": "Keeps your DNS records pointed at your Jellyfin server's current public IP, and can put a secure HTTPS proxy in front of Jellyfin with automatic Let's Encrypt certificates, bans for failed sign-ins, a block list, country rules and a history of who connects. Everything runs inside Jellyfin, with no separate reverse proxy or updater to run. Remote Access is being actively tested.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "overview": "Reach your server from anywhere.",
+    "description": "Remote Access keeps your DNS records pointed at your server and can put an HTTPS proxy with automatic certificates in front of Jellyfin. It is being actively tested.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
     "imageUrl": "https://obelous.dev/plugins/images/RemoteAccess.webp",
     "owner": "JPKribs",
     "category": "Administration",
@@ -11957,8 +11957,8 @@
   {
     "guid": "ac6940fb-aac6-4de8-b622-55a662e23658",
     "name": "Live Channels",
-    "overview": "Build looping virtual TV channels that appear natively in Jellyfin's Live TV.",
-    "description": "Live Channels turns your own library into looping virtual TV channels that play natively in Jellyfin's Live TV. The channels, their guide, and their streams are all served inside Jellyfin itself, so they appear automatically with no tuner to add, no URLs to paste, and no exposed endpoints.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-livechannels/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-livechannels",
+    "overview": "Build looping TV channels from your library.",
+    "description": "Live Channels turns your library into looping TV channels in Jellyfin's Live TV. There is no tuner to add and no address to paste.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-livechannels/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-livechannels",
     "imageUrl": "https://obelous.dev/plugins/images/LiveChannels.webp",
     "owner": "JPKribs",
     "category": "LiveTV",
@@ -13418,8 +13418,8 @@
   {
     "guid": "b8715e44-6b77-4c88-9c74-2b6f4c7b9a1e",
     "name": "Artwork Generator",
-    "description": "Artwork Generator draws posters, thumbs, backdrops, and text logos for series, seasons, episodes, films, any other video, collections, and folders, extracting frames from the item itself and rendering them through designs you control.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-artworkgenerator/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-artworkgenerator",
-    "overview": "Generate artwork from your own video",
+    "description": "Artwork Generator draws posters, thumbs, backdrops, and text logos from frames of your own video, through designs you control.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-artworkgenerator/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-artworkgenerator",
+    "overview": "Generate artwork from your own video.",
     "imageUrl": "https://obelous.dev/plugins/images/ArtworkGenerator.webp",
     "owner": "JPKribs",
     "category": "MoviesAndShows",
@@ -17984,8 +17984,8 @@
   {
     "guid": "ebd650b5-6f4c-4ccb-b10d-23dffb3a7286",
     "name": "Server Sync",
-    "description": "Server Sync keeps a pool of Jellyfin servers in step. Each server scans the others it is told to in rank order and pulls missing or updated content, metadata, people, user settings, playlists, and watch history. Servers that both run the plugin also tell each other about changes as they happen, so an edit or a play made on one shows up on the others within about a minute, and the scheduled scan remains the safety net. Watch history merges three way against what the servers last agreed on, and other values resolve on where and when they were last edited, so the newest edit wins unless Precedence is set to Ranked. A library can also hold its videos as links that stream from the source instead of full copies, and a link cache can keep local copies of the links that are played.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
-    "overview": "Keep several Jellyfin servers in step: content, metadata, people, users, playlists, and watch history.",
+    "description": "Server Sync keeps several Jellyfin servers in step, sharing content, metadata, people, user settings, playlists, and watch history. Servers that run the plugin share each change within about a minute.  \n  \nUniversal Repo [✓✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-serversync/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-serversync",
+    "overview": "Keep several Jellyfin servers in step.",
     "imageUrl": "https://obelous.dev/plugins/images/ServerSync.webp",
     "owner": "JPKribs",
     "category": "Administration",
