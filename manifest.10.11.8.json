@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 317, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T21:42:46.605Z",
+    "overview": "Generated: 2026-11-20T22:42:46.620Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.8",
-        "timestamp": "2026-11-20T21:42:46.605Z"
+        "timestamp": "2026-11-20T22:42:46.620Z"
       }
     ]
   },
@@ -12054,7 +12054,7 @@
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
     "name": "Remote Access",
     "overview": "Reach your server from anywhere.",
-    "description": "Remote Access keeps your DNS records pointed at your server and can put an HTTPS proxy with automatic certificates in front of Jellyfin. It is being actively tested.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "description": "Remote Access keeps your DNS records pointed at your server and can put an HTTPS proxy with automatic certificates in front of Jellyfin.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
     "imageUrl": "https://obelous.dev/plugins/images/RemoteAccess.webp",
     "owner": "JPKribs",
     "category": "Administration",
@@ -32205,6 +32205,14 @@
     "imageUrl": "https://obelous.dev/plugins/images/NexusPobreFlix.webp",
     "versions": [
       {
+        "version": "1.0.0.9",
+        "changelog": "v1.0.0.9 - Separação de Doramas como Séries, Ocultação Real de Novelas na Tela Inicial e Blindagem de Exclusões\n- Separação de Doramas e Novelas: Doramas (K-Drama, C-Drama, Asian Drama) agora são classificados estritamente como Séries normais e não mais misturados com Novelas. A categoria 'Novela' é exclusiva para telenovelas reais.\n- Filtro de Exclusão Efetivo na Tela Inicial: Resolução do problema onde novelas continuavam aparecendo mesmo após marcar a exclusão. O sistema agora sincroniza as exclusões de forma assíncrona antes de montar as seções, suprime as linhas de 'Novelas Adicionadas Recentemente' e 'Top 10 Novelas', filtra o carrossel Hero Slider e oculta dinamicamente qualquer bloco de Novela da tela inicial.\n- Suporte a múltiplos formatos de GUID de usuário para que as exclusões salvas funcionem de forma infalível.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ONeithan/Nexus-PobreFlix/releases/download/v1.0.0.9/NexusPobreFlix-1.0.0.9.zip",
+        "checksum": "c8a30b7eb7f15f549aed1f8f4f8d0b9c",
+        "timestamp": "2026-11-20T12:40:00Z"
+      },
+      {
         "version": "1.0.0.8",
         "changelog": "v1.0.0.8 - Restauração Total do Menu Hambúrguer, Redesign Visual Cyberpunk das Configurações, Checkboxes dos Filtros e Logo Ampliada\n- Correção Definitiva do Menu Hambúrguer (3 risquinhos): Eliminado o bug da tela preta/escurecida. O botão agora delega perfeitamente para o motor nativo do Jellyfin e LibraryMenu em todos os dispositivos (Desktop, Celular e Modo TV), abrindo a gaveta de bibliotecas com fluidez absoluta.\n- Redesign Completo do Painel Interno de Configurações: Tema Nexus Purple Cyberpunk unificado (#7a5cff), eliminando botões e realces verdes legados, acabando com a sobreposição de textos nas abas e removendo a sub-aba redundante 'Sobre' do modal.\n- Filtros de Exclusão por Usuário Corrigidos: Checkboxes agora 100% visíveis, interativos e estilizados na identidade roxa, permitindo marcar e desmarcar categorias (Novelas, Desenhos, Animes, Séries, Filmes) com facilidade.\n- Botão 'Copiar Snippet HTML' com 1 clique e feedback dinâmico.\n- Image Shield Automático: Monitoramento em tempo real do Jellyfin (ItemUpdated) para travar capas automaticamente sempre que o usuário alterar/enviar uma capa manualmente, com listagem de capas ativas.\n- Logo Nexus PobreFlix Ampliada: Dimensões aumentadas para 68-70px para máxima imponência e nitidez no topo da interface.",
         "targetAbi": "12.0.0.0",
@@ -35974,6 +35982,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/Inventory.webp",
     "versions": [
+      {
+        "version": "1.4.0.0",
+        "changelog": "## 🚨 Breaking changes\n\n- Filters on the HDR column need its new names, such as Dolby Vision (HDR10).\n\n## ✨ Added\n\n- The page address keeps the tab, search, filters and sort order (#15).\n- A Duplicates column counts titles kept more than once.\n- Films, episodes, music videos and videos in several versions open to them.\n- A Versions level lists every file on its own.\n\n## 🔄 Changed\n\n- Each tab only offers the columns it can fill (#19).\n- An item in several versions shows Mixed where they differ.\n- Quality shows the lowest with a plus, such as 720p+, instead of Mixed.\n- Names sort by their sort title, and The Matrix sorts under M.\n- A .strm file no longer shows a size.\n- Music and audiobook files show no subtitle count instead of zero.\n- A filter on films or episodes also checks each of their versions.\n- A filter a tab cannot use is dimmed there instead of emptying it.\n- Search results below a show, album or book name it in front.\n- The HDR column shows Dolby Vision, HDR10+ and the like instead of internal names.\n\n## 🐛 Fixed\n\n- Filters with = or ≠ missed names with a comma in them.\n- The first new collection could end up empty and scan every library.\n- The page kept old visits in memory and slowed the dashboard down.\n- The page numbers below the table follow the interface language.\n- DVD and Blu-ray folders counted the files beside them in their size.\n- A track or photo in a collection can be taken out again.\n- One name with a broken character broke search and text filters.\n- The French and Spanish Fully played columns use Jellyfin's word for played.\n- A collection or playlist starting with a dot vanished, so such names are refused.\n- A new collection took the details and pictures of a TMDb collection.\n- Picking only items that cannot go in made an empty collection or playlist.\n- An audiobook on two discs goes into a playlist in the order it is listed.\n- On phones the arrow to the next page slipped onto a line of its own.\n- A failed reload showed its error below a table still full of rows.\n- Screen readers read out the arrow of each dropdown.\n\n**Full changelog:** [v1.3.0...v1.4.0](https://github.com/ivenos/jellyfin_inventory/compare/v1.3.0...v1.4.0)\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ivenos/jellyfin_inventory/releases/download/v1.4.0/inventory_1.4.0.0.zip",
+        "checksum": "0522eacf6a0613a0e32163e373668b1a",
+        "timestamp": "2026-11-20T22:40:18Z"
+      },
       {
         "version": "1.3.0.0",
         "changelog": "## ✨ Added\n\n- Pick rows and add them to a collection or playlist, or take them out again (#13).\n- Collections and Playlists columns.\n\n## 🔄 Changed\n\n- The buttons above and below the table are small icons, and CSV and ODS share one export button.\n\n**Full changelog:** [v1.2.0...v1.3.0](https://github.com/ivenos/jellyfin_inventory/compare/v1.2.0...v1.3.0)\n",

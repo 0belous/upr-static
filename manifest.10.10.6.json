@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-20T21:42:46.605Z",
+    "overview": "Generated: 2026-11-20T22:42:46.620Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-11-20T21:42:46.605Z"
+        "timestamp": "2026-11-20T22:42:46.620Z"
       }
     ]
   },
@@ -11546,7 +11546,7 @@
     "guid": "8150dce5-6153-4924-a985-a6927be95baa",
     "name": "Remote Access",
     "overview": "Reach your server from anywhere.",
-    "description": "Remote Access keeps your DNS records pointed at your server and can put an HTTPS proxy with automatic certificates in front of Jellyfin. It is being actively tested.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
+    "description": "Remote Access keeps your DNS records pointed at your server and can put an HTTPS proxy with automatic certificates in front of Jellyfin.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/JPKribs/jellyfin-plugin-ddns/master/manifest.json  \nGithub: https://github.com/JPKribs/jellyfin-plugin-ddns",
     "imageUrl": "https://obelous.dev/plugins/images/RemoteAccess.webp",
     "owner": "JPKribs",
     "category": "Administration",
