@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-21T07:42:48.885Z",
+    "overview": "Generated: 2026-11-21T08:42:46.958Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-21T07:42:48.885Z"
+        "timestamp": "2026-11-21T08:42:46.958Z"
       }
     ]
   },
@@ -19699,12 +19699,19 @@
   {
     "guid": "f62d8560-6123-4567-89ab-cdef12345678",
     "name": "Posterizarr",
-    "description": "Local asset metadata provider and real-time WebSocket sync engine. Instantly maps and updates posters, backgrounds, seasons, and title cards without library scans.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/fscorrupt/posterizarr/main/manifest.json  \nGithub: https://github.com/fscorrupt/posterizarr",
-    "overview": "A companion plugin for Posterizarr that maps local assets to Jellyfin library items and connects to Posterizarr's real-time WebSocket stream (/ws/events) to instantaneously apply rendered artwork in under a second.",
+    "description": "Maps local Posterizarr assets to Jellyfin and optionally mirrors selected Plex artwork with real-time updates and scheduled sync.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/fscorrupt/posterizarr/main/manifest.json  \nGithub: https://github.com/fscorrupt/posterizarr",
+    "overview": "The Posterizarr companion plugin maps local assets to Jellyfin and can optionally mirror selected Plex artwork. It supports real-time Posterizarr updates, scheduled Plex Direct Sync, and local collection syncing.",
     "owner": "Posterizarr",
     "category": "Metadata",
     "imageUrl": "https://obelous.dev/plugins/images/Posterizarr.webp",
     "versions": [
+      {
+        "version": "4.0.0",
+        "changelog": "Official Release 4.0.0\n\n- **Plex Direct Sync:** Optionally mirror selected Plex posters, shows, seasons, episode title cards, and backdrops, with persistent matching caches.\n- **Hybrid updates:** Combine scheduled Plex mirroring with real-time Posterizarr WebSocket updates.\n- **Collections:** Keep local collection syncing available when Plex Direct Sync owns the other artwork types, and normalize collection names by stripping only `[boxset]` markers.\n- **Opt-in mirroring:** Plex Direct Sync remains disabled by default; native Dynamic Overlays can upload directly to Jellyfin or Emby without Plex.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/fscorrupt/posterizarr/releases/download/4.0.0/Posterizarr.Plugin_v4.0.0-jf12.zip",
+        "checksum": "737168C7D249516A4C9D38C83FE7BE8D"
+      },
       {
         "version": "3.3.7",
         "changelog": "Official Release 3.3.7",
