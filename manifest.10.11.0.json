@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 317, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-21T05:42:46.680Z",
+    "overview": "Generated: 2026-11-21T06:43:13.194Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-21T05:42:46.680Z"
+        "timestamp": "2026-11-21T06:43:13.194Z"
       }
     ]
   },
@@ -9421,6 +9421,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "12.4.4.1",
+        "changelog": "\n## Changed\n- Activity log entries have a generic name with no count, and an overview that names the user and states each count once, such as Logged out Johnny's stale session on Jellyfin Web\n\n## Developer\n- skills/logging.md sets how activity entries and server log lines are written",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-usermanagement/releases/download/v12.4.4.1/jellyfin-plugin-usermanagement-12.4.4.1.zip",
+        "checksum": "be9621d2d6c3a2d947ee17fd947a6d54",
+        "timestamp": "2026-11-21T05:54:55Z"
+      },
+      {
         "version": "12.4.4.0",
         "changelog": "\n## Changed\n- The signup error for a username that is not allowed reads without a contraction\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.3, after 12.4.1",
         "targetAbi": "12.4.0.0",
@@ -11019,6 +11027,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "12.4.6.1",
+        "changelog": "\n## Changed\n- The server log stays quieter, with each download, match, import, and cover written at Debug\n\n## Developer\n- skills/logging.md sets how activity entries and server log lines are written",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-youtubeaudio/releases/download/v12.4.6.1/jellyfin-plugin-youtubeaudio-12.4.6.1.zip",
+        "checksum": "b86693bc0967f93d6829697c58c7222b",
+        "timestamp": "2026-11-21T05:55:07Z"
+      },
+      {
         "version": "12.4.6.0",
         "changelog": "\n## Changed\n- The Queue unavailable and Not authorized messages on the user pages read without contractions\n- Refresh on the Queue and Import is an icon at the end of the bar with Select all, as on the other plugins\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.3, after 12.4.1",
         "targetAbi": "12.4.0.0",
@@ -12099,6 +12115,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.5.3",
+        "changelog": "\n## Changed\n- Activity log entries have a short generic name with no count, such as DNS records updated, and a sentence that names who made the change and leaves out a count of 1\n- The server log stays quieter, with each ban and each DNS provider call written at Debug\n\n## Developer\n- skills/logging.md sets how activity entries and server log lines are written",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-remoteaccess/releases/download/v12.4.5.3/jellyfin-plugin-remoteaccess-12.4.5.3.zip",
+        "checksum": "3c864178b941c67004a095e11254204c",
+        "timestamp": "2026-11-21T05:54:52Z"
+      },
       {
         "version": "12.4.5.2",
         "changelog": "\n## Fixed\n- The Types and Countries filters on the Activity table offered All Types and All Countries. They read All types and All countries\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.3, which writes the labels it fills into its own text in sentence case, such as All types on a filter\n- Sync Branches also runs when the release draft or publish workflow finishes, so the commits they push to master reach unstable at once",
@@ -23040,6 +23064,14 @@
     "owner": "JPKribs",
     "category": "LiveTV",
     "versions": [
+      {
+        "version": "12.4.5.1",
+        "changelog": "\n## Changed\n- Activity log entries have a generic name, such as Channel started, and an overview that names each channel or recording once and the administrator who stopped a stream\n- The server log stays quieter, with per stream steps such as tuning in and opening a stream written at Debug\n\n## Developer\n- skills/logging.md sets how activity entries and server log lines are written",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-livechannels/releases/download/v12.4.5.1/jellyfin-plugin-livechannels-12.4.5.1.zip",
+        "checksum": "377675b61b2b3a85f72b93c3c8837dc6",
+        "timestamp": "2026-11-21T05:52:32Z"
+      },
       {
         "version": "12.4.5.0",
         "changelog": "\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.3, which writes the labels it fills into its own text in sentence case, such as a screen reader name\n- Sync Branches also runs when the release draft or publish workflow finishes, so the commits they push to master reach unstable at once",
@@ -35000,6 +35032,14 @@
     "owner": "JPKribs",
     "category": "Administration",
     "versions": [
+      {
+        "version": "12.4.20.3",
+        "changelog": "\n## Changed\n- Activity page entries have short names such as Items synced or Changes paused, with the count, servers, and reason in the overview. The server log keeps per item lines at Debug\n\n## Developer\n- skills/logging.md sets how activity entries and server log lines are written. The integration pools log Server Sync at Debug, since their scenarios read per item lines\n- The integration pool checks a changed link by the line that says it was linked again, not by its .nfo time",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/JPKribs/jellyfin-plugin-serversync/releases/download/v12.4.20.3/jellyfin-plugin-serversync-12.4.20.3.zip",
+        "checksum": "d5bd0a3107f36c568a945cc8411eab01",
+        "timestamp": "2026-11-21T06:02:50Z"
+      },
       {
         "version": "12.4.20.2",
         "changelog": "\n## Changed\n- Every Save on the Settings, Servers, and Storage tabs is a full width Save at the end of what it saves, with a line above it that says Unsaved changes, Saving, Changes saved, or why the save failed. Leaving a tab with unsaved changes asks first\n- Save server in the server editor reads Save. Remove server and Delete cached files sit in a row directly above Save\n\n## Fixed\n- The Link streams chart on the Statistics tab could draw its dates over each other across 30 days or on a narrow screen. It shows only the dates that fit side by side, and keeps the first and last whenever they fit\n\n## Developer\n- Uses JPKribs.Jellyfin.Base 12.4.3, after 12.4.1. Base's Line Chart picks its x axis labels by their measured width, and its Filtered List draws a reload icon on its selection bar\n- createSaveBars in serversync_shared.js ends a section with Base's Save Bar and guards leaving the page. saveSection saves through saveConfigWith and rejects when the save fails\n- build.sh checks wildcard resources without globstar",
