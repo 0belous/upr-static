@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-22T19:42:48.634Z",
+    "overview": "Generated: 2026-11-22T20:42:47.685Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-22T19:42:48.634Z"
+        "timestamp": "2026-11-22T20:42:47.685Z"
       }
     ]
   },
@@ -33669,6 +33669,14 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/WeTrakr.webp",
     "versions": [
+      {
+        "version": "0.2.1.0",
+        "changelog": "See https://github.com/wetrakr/wetrakr-jf/releases",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://wetrakr.github.io/wetrakr-jf/wetrakr/wetrakr_0.2.1.0_net9.zip",
+        "checksum": "39d33f4682c9c25a6567bd5b20870d44",
+        "timestamp": "2026-11-22T20:38:13Z"
+      },
       {
         "version": "0.2.0.0",
         "changelog": "See https://github.com/wetrakr/wetrakr-jf/releases",
