@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-23T10:42:48.774Z",
+    "overview": "Generated: 2026-11-23T11:42:49.327Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.7",
-        "timestamp": "2026-11-23T10:42:48.774Z"
+        "timestamp": "2026-11-23T11:42:49.327Z"
       }
     ]
   },
@@ -4910,6 +4910,22 @@
     "category": "Music",
     "imageUrl": "https://obelous.dev/plugins/images/Harmonie.webp",
     "versions": [
+      {
+        "version": "1.14.2.1",
+        "changelog": "\n### Bug Fixes\n\n- Schedule playlist refresh tasks by wall clock so restarts cannot postpone them (8c33f6f)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.14.2/jellyfin-harmonie_1.14.2.1.zip",
+        "checksum": "6230b5b57f495e9ef6d6eac4d5662c4b",
+        "timestamp": "2026-11-23T10:44:46Z"
+      },
+      {
+        "version": "1.14.2.0",
+        "changelog": "\n### Bug Fixes\n\n- Schedule playlist refresh tasks by wall clock so restarts cannot postpone them (8c33f6f)",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/mxschll/jellyfin-harmonie/releases/download/v1.14.2/jellyfin-harmonie_1.14.2.0.zip",
+        "checksum": "72dcd36b1be8a1d09a3f6691b362151e",
+        "timestamp": "2026-11-23T10:44:46Z"
+      },
       {
         "version": "1.14.1.1",
         "changelog": "\n### Build\n\n- Ship a jellyfin 12 package (#45) (c166a1d)",
@@ -33677,6 +33693,22 @@
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/WeTrakr.webp",
     "versions": [
+      {
+        "version": "0.2.3.0",
+        "changelog": "See https://github.com/wetrakr/wetrakr-jf/releases",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://wetrakr.github.io/wetrakr-jf/wetrakr/wetrakr_0.2.3.0_net9.zip",
+        "checksum": "70c98c33c8b9c025e834453745a2cecd",
+        "timestamp": "2026-11-23T11:25:18Z"
+      },
+      {
+        "version": "0.2.2.0",
+        "changelog": "See https://github.com/wetrakr/wetrakr-jf/releases",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://wetrakr.github.io/wetrakr-jf/wetrakr/wetrakr_0.2.2.0_net9.zip",
+        "checksum": "8af8334b3a2ba5ba06bda9608e7758ba",
+        "timestamp": "2026-11-23T11:11:20Z"
+      },
       {
         "version": "0.2.1.0",
         "changelog": "See https://github.com/wetrakr/wetrakr-jf/releases",
