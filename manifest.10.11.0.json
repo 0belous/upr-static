@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 317, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-23T18:26:16.619Z",
+    "overview": "Generated: 2026-11-23T19:27:52.992Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.0",
-        "timestamp": "2026-11-23T18:26:16.619Z"
+        "timestamp": "2026-11-23T19:27:52.992Z"
       }
     ]
   },
@@ -14395,6 +14395,33 @@
     "imageUrl": "https://obelous.dev/plugins/images/JellyBridge.webp",
     "repositoryUrl": "https://github.com/kinggeorges12/JellyBridge",
     "versions": [
+      {
+        "dependencies": [],
+        "version": "5.2.12.0",
+        "checksum": "5F94B99743DBF16C546636FA35257024",
+        "changelog": "Jellyfin 12.0.0: JellyBridge v5.2 - New features by @MoFaye: Jellyfin global search shows results from Jellyseerr (#78), use media artwork for promo videos (#79 and #82), add filters on discover import for TMDB ratings (#81). See github page for upcoming changes in JellyBridge v6.",
+        "targetAbi": "12.0.0",
+        "timestamp": "2026-11-23T19:04:34.838Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.2/JellyBridge-5.2.12.0.zip"
+      },
+      {
+        "dependencies": [],
+        "version": "5.2.11.9",
+        "checksum": "AB4375F78CE0B0F90295A826ACE02A98",
+        "changelog": "Jellyfin 10.11.9: JellyBridge v5.2 - New features by @MoFaye: Jellyfin global search shows results from Jellyseerr (#78), use media artwork for promo videos (#79 and #82), add filters on discover import for TMDB ratings (#81). See github page for upcoming changes in JellyBridge v6.",
+        "targetAbi": "10.11.9.0",
+        "timestamp": "2026-11-23T19:04:34.838Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.2/JellyBridge-5.2.11.9.zip"
+      },
+      {
+        "dependencies": [],
+        "version": "5.2.11.0",
+        "checksum": "E4794CFD16AFD31106C2BFD4B7C64CBB",
+        "changelog": "Jellyfin 10.11.0: JellyBridge v5.2 - New features by @MoFaye: Jellyfin global search shows results from Jellyseerr (#78), use media artwork for promo videos (#79 and #82), add filters on discover import for TMDB ratings (#81). See github page for upcoming changes in JellyBridge v6.",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2026-11-23T19:04:34.838Z",
+        "sourceUrl": "https://github.com/kinggeorges12/JellyBridge/releases/download/v5.2/JellyBridge-5.2.11.0.zip"
+      },
       {
         "checksum": "F4409284463DC3330BF570A331F7E51B",
         "dependencies": [],
