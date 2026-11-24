@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-24T19:06:18.734Z",
+    "overview": "Generated: 2026-11-24T20:06:19.461Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-11-24T19:06:18.734Z"
+        "timestamp": "2026-11-24T20:06:19.461Z"
       }
     ]
   },
@@ -15973,14 +15973,6 @@
         "targetAbi": "10.11.6.0",
         "timestamp": "2026-05-13T20:57:50Z",
         "version": "0.26.14.8"
-      },
-      {
-        "changelog": "## [0.26.14.7] - 2026-05-05\n\n### 🐛 Bug Fixes\n\n- Revert stub\n",
-        "checksum": "0e4fb500ec0017c612db1280c400ae8c",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.26.14.7/gelato_0.26.14.7.zip",
-        "targetAbi": "10.11.6.0",
-        "timestamp": "2026-05-05T16:37:10Z",
-        "version": "0.26.14.7"
       }
     ]
   },
