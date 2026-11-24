@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-24T01:06:18.215Z",
+    "overview": "Generated: 2026-11-24T02:06:18.451Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.6",
-        "timestamp": "2026-11-24T01:06:18.215Z"
+        "timestamp": "2026-11-24T02:06:18.451Z"
       }
     ]
   },
@@ -31047,6 +31047,14 @@
     "category": "Utilities",
     "imageUrl": "https://obelous.dev/plugins/images/StreamLimiter.webp",
     "versions": [
+      {
+        "version": "1.1.0.4",
+        "changelog": "- NEW: \"Count each playback, not each device\" (Blocking, beta, off by default): browser tabs share one device id and one Jellyfin session, so they counted as one stream; on, each playback counts (PlaySessionId), also against a copied device id. A playback is refused only once it really overlaps another one, so a quality switch or the next episode is never refused\n- NEW: \"Video transcodes at once, per user\" (Blocking, 0 = unlimited): the newest video transcode over the limit is stopped (ffmpeg job killed, requests refused); direct play, remux and audio are not counted; works without the hard block\n- NEW: the live view lists several playbacks of one device (browser tabs) one by one, with title, start time, transcode and how many streams they count for\n- Fixed a blocked browser tab playing on what it had already downloaded: the web popup now pauses the video and closes the player, and answers the player's automatic retries locally (no server transcode started for nothing)\n- A refused playback is checked again after 30 s, so a client that keeps retrying recovers once the user frees a stream\n- README rewritten tab by tab, with new screenshots",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit/releases/download/v1.1.0.4/StreamLimit-v1.1.0.4.zip",
+        "timestamp": "2026-11-24T01:53:51Z",
+        "checksum": "4E44679325D01EDBA1018FC98D0596D2"
+      },
       {
         "version": "1.1.0.3",
         "changelog": "- Fixed \"ghost\" streams: users shown with (and blocked by) streams they no longer had, even while not connected. Streams now count by real activity — Jellyfin playback reports and bytes actually sent — instead of open connections: a media connection left open without sending anything (phone asleep or offline, app killed, a server-side segment wait the client gave up on) stops counting after 90 s and is cut after 30 minutes; ended or client-aborted requests never count\n- Fixed a stop report or session end not freeing the slot of a device that still had idle open connections\n- Fixed playback negotiation (PlaybackInfo) refusing a stream the media request itself would have allowed (abandoned slots of a closed tab)\n- Slots, stopped devices, play-session ids and throttles are now cleaned up every minute, also for users who never come back\n- NEW: your blocked message is sent to native apps by default (Android TV, Swiftfin, Streamyfin, AFinity, Findroid…), as a 10 s notice, instead of an endless spinner (\"Show my message on native apps\", on); when the jellyfin-android native player is blocked, the message goes to the app's web UI. \"Also push a server message\" now only adds it on web clients\n- NEW: \"Reset\" button per user in the live view: releases all of the user's slots and stopped devices (last-resort fix)\n- Clearer live view: only what is counted (plus devices the plugin stopped), with the reason (playing, streaming, recent, stopped), idle time and open connections\n- Admin stop now reports live responses cut separately from stale registrations cleared\n- Redesigned settings page",
