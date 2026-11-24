@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 331, Sources: 254.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-23T22:26:16.800Z",
+    "description": "Aggregated: 332, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-23T23:06:18.772Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4",
-        "timestamp": "2026-11-23T22:26:16.800Z"
+        "timestamp": "2026-11-23T23:06:18.772Z"
       }
     ]
   },
@@ -22967,6 +22967,201 @@
         "sourceUrl": "https://github.com/need4swede/neptune-plugins/releases/download/v1.0.11/indexers_1.0.11_jf-10.10.zip",
         "checksum": "79fca666156abe0db592fe1da6f6e768",
         "timestamp": "2026-05-01T06:24:35Z"
+      }
+    ]
+  },
+  {
+    "category": "General",
+    "guid": "9399b942-4b6d-46a7-9a5d-a01764f7ee6a",
+    "name": "Media Source Bridge",
+    "description": "Search private media servers, import links, and add movies, shows, or anime to Jellyfin as streams or local files.  \n  \nUniversal Repo \nSource: https://raw.githubusercontent.com/shahadat-hossion/media-source-bridge/main/manifest.json  \nGithub: https://github.com/shahadat-hossion/media-source-bridge",
+    "imageUrl": "https://obelous.dev/plugins/images/MediaSourceBridge.webp",
+    "owner": "shahadat-hossion",
+    "overview": "Search private media sources and add streams or download media to Jellyfin libraries.",
+    "versions": [
+      {
+        "version": "2.7.21.0",
+        "changelog": "Show an animated count of confirmed stream files inside the FTP add button and count existing files separately. Try to index imported titles immediately, with a Jellyfin library scan as fallback.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.21/Media-Source-Bridge-2.7.21.zip",
+        "checksum": "4e959827208e4203489a01628d88e484",
+        "timestamp": "2026-11-23T21:41:58Z"
+      },
+      {
+        "version": "2.7.19.0",
+        "changelog": "Show series title cards in search, index alphabetized TV and anime folders, and tolerate one title typo. Batch media server searches, add an optional per-user search limit, and link to GitHub issue reporting from Search. Add an in-app setup guide and collapsible Setup Media panels.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.19/Media-Source-Bridge-2.7.19.zip",
+        "checksum": "cb4ca42e281eac9030bb6c55cc1f428f",
+        "timestamp": "2026-11-23T17:55:36Z"
+      },
+      {
+        "version": "2.7.10.0",
+        "changelog": "Enforce configured source boundaries and media request ownership, require signed playback, and add bounded cancellable downloads. Update the torrent bridge to the matching release and re-prepare legacy torrent STRM files.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.10/Media-Source-Bridge-2.7.10.zip",
+        "checksum": "4d100d9367c559d5e9bb8a54b402fcea",
+        "timestamp": "2026-11-22T13:35:57Z"
+      },
+      {
+        "version": "2.7.9.0",
+        "changelog": "Search media servers and torrent providers together or filter by source. Improve FTP folder indexing, add separate FTP and Torrent buttons, and add experimental torrent playback and media downloads.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.9/Media-Source-Bridge-2.7.9.zip",
+        "checksum": "04784660af85a390218b7d8e75135f18",
+        "timestamp": "2026-11-22T13:06:47Z"
+      },
+      {
+        "version": "2.7.8.0",
+        "changelog": "Redesign the landing page with a cinematic theater backdrop, a featured Discover button, and responsive shortcuts.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.8/Media-Source-Bridge-2.7.8.zip",
+        "checksum": "d46757caac858ec6455c6c2260746c5e",
+        "timestamp": "2026-11-21T12:19:34Z"
+      },
+      {
+        "version": "2.7.7.0",
+        "changelog": "Expand or collapse Discover, Search, Import Link, and Setup Media directly from Media Source Bridge. Keep the four shortcuts on the landing page.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.7/Media-Source-Bridge-2.7.7.zip",
+        "checksum": "0948bccf26a6a9e83aaec712a2f06539",
+        "timestamp": "2026-11-21T11:52:46Z"
+      },
+      {
+        "version": "2.7.6.0",
+        "changelog": "Group all Media Source Bridge pages under one Jellyfin sidebar entry.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.6/Media-Source-Bridge-2.7.6.zip",
+        "checksum": "03d62dbabbf78e32afeb066f6ac9f250",
+        "timestamp": "2026-11-21T11:17:33Z"
+      },
+      {
+        "version": "2.7.5.0",
+        "changelog": "Rename the plugin to Media Source Bridge and the server settings page to Media Sources.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.5/Media-Source-Bridge-2.7.5.zip",
+        "checksum": "f020585346ed48e66dc5eeae0c8ed1b1",
+        "timestamp": "2026-11-21T10:25:33Z"
+      },
+      {
+        "version": "2.7.4.0",
+        "changelog": "Improve search ranking and STRM imports, add media type filters, and show independent add, indexing, and play states for concurrent imports.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.4/Local-ISP-FTP-Loader-2.7.4.zip",
+        "checksum": "b0dae584da933cfe819eb40f95ca11a4",
+        "timestamp": "2026-11-21T10:08:13Z"
+      },
+      {
+        "version": "2.7.3.0",
+        "changelog": "Add unified Jellyfin home search with automatic STRM creation and shared default save locations for movies, shows, and anime.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.3/Local-ISP-FTP-Loader-2.7.3.zip",
+        "checksum": "2623a230aeccb82c4e2f073b91fab54a",
+        "timestamp": "2026-11-20T09:16:14Z"
+      },
+      {
+        "version": "2.7.2.0",
+        "changelog": "Keep Add Media and FTP Servers exclusively inside the renamed FTP Loader submenu instead of registering them as standalone Jellyfin menu pages.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.2/Local-ISP-FTP-Loader-2.7.2.zip",
+        "checksum": "7b0af945cc3850adce04ae8d05723672",
+        "timestamp": "2026-11-20T08:54:14Z"
+      },
+      {
+        "version": "2.7.1.0",
+        "changelog": "Place Add Media and FTP Servers inside a dedicated nested Media Tools submenu, with administrator-only server testing, JSON export, and merge import.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.1/Local-ISP-FTP-Loader-2.7.1.zip",
+        "checksum": "d45fa9da21fd86df2ff0097982aebca2",
+        "timestamp": "2026-11-20T08:47:23Z"
+      },
+      {
+        "version": "2.7.0.0",
+        "changelog": "Add dedicated Add Media and FTP Servers tools under the Local ISP FTP Loader submenu, including administrator-only server testing, JSON export, and merge import.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.0/Local-ISP-FTP-Loader-2.7.0.zip",
+        "checksum": "195b41b8800eb3f8696649061fce68d7",
+        "timestamp": "2026-11-20T08:46:34Z"
+      },
+      {
+        "version": "2.6.1.0",
+        "changelog": "Add direct media-link analysis on the Add Media page so users can paste a configured-source file or folder URL, preview generated STRM entries, and add them to a Jellyfin library.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.6.1/Local-ISP-FTP-Loader-2.6.1.zip",
+        "checksum": "9a4c33e6416f5b1ca0547b89361dfbea",
+        "timestamp": "2026-11-19T18:29:59Z"
+      },
+      {
+        "version": "2.6.0.0",
+        "changelog": "Add administrator-only downloads of actual movie, TV, and anime video files directly into compatible Jellyfin library folders.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.6.0/Local-ISP-FTP-Loader-2.6.0.zip",
+        "checksum": "f18a5abb8c6b8196aceae7cf013c443e",
+        "timestamp": "2026-11-10T10:28:29Z"
+      },
+      {
+        "version": "2.5.2.0",
+        "changelog": "Add TMDb and AniList discovery, scheduled automation, per-title library actions with dynamic match selection and quality ranking, indexed private-source search, loading animations, activity history, and exclusion handling.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.5.2/Local-ISP-FTP-Loader-2.5.2.zip",
+        "checksum": "6177a3b91c553ddb72721cf21c0f4d24",
+        "timestamp": "2026-11-09T07:26:30Z"
+      },
+      {
+        "version": "2.4.3.0",
+        "changelog": "Restrict server-link visibility and all source-management operations to Jellyfin administrators.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.4.3/Local-ISP-FTP-Loader-2.4.3.zip",
+        "checksum": "be4172b4a5d623cea915d5dadbf2ddfd",
+        "timestamp": "2026-11-08T17:38:41Z"
+      },
+      {
+        "version": "2.4.2.0",
+        "changelog": "Move source management to a collapsed bottom panel, add Test all servers status checks, and add the new plugin logo.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.4.2/Local-ISP-FTP-Loader-2.4.2.zip",
+        "checksum": "c99f3ad98cc49b04464848aa75a79f7a",
+        "timestamp": "2026-11-08T17:30:38Z"
+      },
+      {
+        "version": "2.4.1.0",
+        "changelog": "Add a Movies and TV Series (Both) source type for shared ISP media servers.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.4.1/Local-ISP-FTP-Loader-2.4.1.zip",
+        "checksum": "43dcfb80a4c398197feb3d519f5047ef",
+        "timestamp": "2026-11-05T00:00:00Z"
+      },
+      {
+        "version": "2.4.0.0",
+        "changelog": "Remove provider-specific sources, add FTP connection testing, and support any compatible Jellyfin destination library.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.4.0/Local-ISP-FTP-Loader-2.4.0.zip",
+        "checksum": "d1687530d94beca92afca0ba58e9fa7c",
+        "timestamp": "2026-11-05T00:00:00Z"
+      },
+      {
+        "version": "2.2.1.0",
+        "changelog": "Automatically route each media type to its configured Jellyfin library.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.2.1/Sam-Online-FTP-Loader-2.2.1.zip",
+        "checksum": "2f79185148410d7f8797a4dd85312479",
+        "timestamp": "2026-11-05T00:00:00Z"
+      },
+      {
+        "version": "2.2.0.0",
+        "changelog": "Add Media main-menu page for every signed-in user, custom private HTTP/HTTPS/FTP sources, and all compatible Jellyfin libraries.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.2.0/Sam-Online-FTP-Loader-2.2.0.zip",
+        "checksum": "3ecb86c7ff41aaac19d1cd2b6347feb0",
+        "timestamp": "2026-11-05T00:00:00Z"
+      },
+      {
+        "version": "2.1.1.0",
+        "changelog": "Poster-card search results and complete Movies, Shows, and Anime directory mapping.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.1.1/Sam-Online-FTP-Loader-2.1.1.zip",
+        "checksum": "b686042cdcc312e28c3c8b18c2fa1b93",
+        "timestamp": "2026-11-05T00:00:00Z"
       }
     ]
   },
