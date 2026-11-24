@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-24T20:06:19.461Z",
+    "overview": "Generated: 2026-11-24T21:06:18.820Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.0.0",
-        "timestamp": "2026-11-24T20:06:19.461Z"
+        "timestamp": "2026-11-24T21:06:18.820Z"
       }
     ]
   },
@@ -4950,6 +4950,14 @@
     "owner": "firestaerter3",
     "category": "General",
     "versions": [
+      {
+        "version": "2.0.31.0",
+        "changelog": "Fixed: some series never appeared in the library and nothing was logged, for example The Walking Dead or The Amazing Race. Some providers send a series' episodes as a list instead of the usual layout, and the plugin read that as \"no episodes\". It now reads both. A series that really has no episodes is now logged as skipped, with its name.\n\nNew, on by default: when the guide gives a show or series a wide image, the plugin uses the portrait poster of the same image if the image source (Gracenote) has one, so it is no longer cropped in poster rows such as On Now. Switch it off under Live TV with \"Prefer portrait program images\".\n\nNew, off by default: a badge on the posters of the movies, series, seasons and episodes this plugin creates, so a title in search results can be told apart from the same title in another library. Switch it on under Metadata with \"Show a badge on posters\". You can set the text (default IPTV), the corner (default bottom right) and which item types get it. Your image files are not changed, and switching it off shows the plain posters again without a restart.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/firestaerter3/Jellyfin-Xtream-Library/releases/download/v2.0.31.0/jellyfin-xtream-library_2.0.31.0.zip",
+        "checksum": "814b0c13972ed3e7ff670afc8ad868bd",
+        "timestamp": "2026-11-13T22:15:32Z"
+      },
       {
         "version": "2.0.26.0",
         "changelog": "Heads-up: movies whose title carries a 3D, SBS or HSBS tag get a new folder and file name, so Jellyfin adds them as new items and their watched status and artwork start over. Other movies are not affected. The first sync after updating is a full sync, which moves them in one go.\n\n3D, SBS and HSBS are now version labels. A movie like \"3D Spider-Man: Far from Home (2019)\" becomes a version of \"Spider-Man: Far from Home (2019)\", labelled 3D in the version picker, instead of a separate movie. \"3D\" counts at the start of a title or in brackets; at the end it is usually part of the title (Jackass 3D) and stays. Series are not changed.\n\nNew, off by default: Live TV can tag each channel with its category (with Dispatcharr: the channel group), so an account can be limited to one category with Jellyfin's allowed tags, for example a children's account that only sees the Kids group. Turn it on under Live TV, \"Tag channels with their category\", then refresh the guide. With it on, Jellyfin replaces each channel's tags on every guide refresh, so tags set by hand are lost; tags in Channel Overrides win.\n\nRemove now also works on the only provider. It is replaced by an empty one with the same library path, so you can switch to another provider from scratch: fill in the new provider and click Save. Files already in the library stay; use Delete Movies/Series Library first if you want a clean start.\n\nFixed: after you changed your provider password or username, the movie and series files kept the old login until the next full sync, and series episodes even after that, so they stopped playing once the old password was gone. The next sync after a login change is now a full sync that rewrites every file with the new login.\n\nFixed: with Automatic Metadata ID Lookup on, most series without an ID from the provider were never matched, because only the first search result was checked and that is usually TheMovieDb's, which has no TVDb ID. The lookup now uses the first result that has the ID and prefers one from the same year. The next sync searches again for the series an earlier sync could not match, so there is no need to clear the metadata cache. Movies get the same fix. A language prefix like \"EN - \" at the start of a title is now removed, like \"| EN |\" already was.\n\nFixed: movies that share a title and have no TMDB id are no longer dropped after the first one. They are kept in the same folder as versions of one movie, the extra ones with their stream id in the file name.",
