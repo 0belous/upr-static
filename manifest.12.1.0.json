@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-24T22:06:18.971Z",
+    "overview": "Generated: 2026-11-24T23:06:19.646Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.1.0",
-        "timestamp": "2026-11-24T22:06:18.971Z"
+        "timestamp": "2026-11-24T23:06:19.646Z"
       }
     ]
   },
@@ -7051,12 +7051,20 @@
   {
     "guid": "82c71cde-a52b-44f1-a18e-d93eb6a35ed0",
     "name": "HoverTrailer",
-    "description": "Netflix-style hover trailer previews for movies in Jellyfin  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/Fovty/HoverTrailer/master/manifest.json  \nGithub: https://github.com/Fovty/HoverTrailer",
-    "overview": "A modern plugin that displays movie trailers when hovering over movie cards, providing a Netflix-style preview experience with customizable positioning, sizing, and visual effects.",
+    "description": "Netflix-style trailer previews on hover for movies and series in Jellyfin  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/Fovty/HoverTrailer/master/manifest.json  \nGithub: https://github.com/Fovty/HoverTrailer",
+    "overview": "Plays the trailer of a movie or series when you hover over its card. Local trailer files and YouTube trailers are supported, with configurable position, size, background blur and player controls.",
     "owner": "Fovty",
     "category": "General",
     "imageUrl": "https://obelous.dev/plugins/images/HoverTrailer.webp",
     "versions": [
+      {
+        "version": "0.4.2.0",
+        "changelog": "- Fixed: clicking a card no longer starts its trailer a moment later. With a hover delay above two seconds the trailer used to play invisibly over the details page or the movie, with the page blurred (#27).\n- Fixed: a running or pending preview closes when you navigate to another page or start playing a video.\n- Fixed: a local trailer that fails to load no longer blocks every later preview. Direct play falls back to Jellyfin's remux once, then the preview closes with a message.\n- Fixed: a YouTube trailer that is private, removed or not embeddable closes with \"Trailer unavailable\" instead of leaving YouTube's error page on screen.\n- Fixed: the background blur stays on when one trailer replaces another.\n- Fixed: without Persistent preview, the preview closes when Jellyfin redraws or removes its card.\n- Fixed: the settings page keeps 0 for border radius, volume and opacity instead of resetting it to the default.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/Fovty/HoverTrailer/releases/download/v0.4.2.0/HoverTrailer-0.4.2.0-server.zip",
+        "checksum": "82adf74dc7b62212141b17d206309712",
+        "timestamp": "2026-11-24T22:31:08Z"
+      },
       {
         "version": "0.4.1.0",
         "changelog": "- fix(local): seekable direct-play for local trailers, remux only when needed (#25)",
@@ -19801,6 +19809,14 @@
     "owner": "Felitendo",
     "category": "Metadata",
     "versions": [
+      {
+        "version": "1.7.3.0",
+        "changelog": "## v1.7.3.0\n### New\n- New \"Requests per minute\" setting under LRCLIB server. Default: 60. lrclib.net allows up to 90. -> #63\n- Rate limit warnings in the log now show if LRCLIB limited your IP or the app. -> #63\n\n### Fixes\n- Requests to LRCLIB are spaced out to stay under its rate limit. Before, the task kept running into 429 errors. -> #63\n- After a rate limit, the plugin waits a little extra, as LRCLIB asks.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/Felitendo/jellyfin-plugin-lyrics/releases/download/v1.7.3/lyrics_1.7.3.0_jf12.zip",
+        "checksum": "6b91e8f6980f08eaafc51ef5d3616a45",
+        "timestamp": "2026-11-24T22:43:53Z"
+      },
       {
         "version": "1.7.2.0",
         "changelog": "## v1.7.2.0\n### Fixes\n- When LRCLIB rate limits a request, the plugin now waits as long as LRCLIB asks before moving on to the next song. It also backs off on 503 errors now. Thanks to @tranxuanthang -> #61\n- Songs that got rate limited are no longer marked as \"no lyrics found\". Before, they were skipped for days.\n- The lyrics task stops early when LRCLIB keeps rate limiting it. The next run continues where it stopped. -> #60",
