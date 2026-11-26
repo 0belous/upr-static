@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 304, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-26T21:06:20.341Z",
+    "overview": "Generated: 2026-11-26T22:06:21.023Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.10.3",
-        "timestamp": "2026-11-26T21:06:20.341Z"
+        "timestamp": "2026-11-26T22:06:21.023Z"
       }
     ]
   },
@@ -17524,50 +17524,6 @@
         "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.8.5/JellyEmu_0.8.5.0.zip",
         "checksum": "a2a0ddc90548e2d9ade501f56fb2d5de",
         "timestamp": "2026-08-17T18:00:00Z",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "0.8.4.0",
-        "changelog": "EJS channel option (force redownload), 3DS support (EJS nightly), fixes for n64 joystick, core option in settings where applicable.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.8.4/JellyEmu_0.8.4.0.zip",
-        "checksum": "9e89288506b482b13c8238ecc35cf987",
-        "timestamp": "2026-08-11T02:00:00Z",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "0.8.3.0",
-        "changelog": "Integration of Loom, Fixes for audiobooks, zip recognition, AR fixes.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.8.3/JellyEmu_0.8.3.0.zip",
-        "checksum": "b058e6ee0bc57e4b512f1f29ee033b27",
-        "timestamp": "2026-07-14T02:00:00Z",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "0.8.1.1",
-        "changelog": "Fixes for movies and gamepad.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.8.1.1/JellyEmu_0.8.1.1.zip",
-        "checksum": "74588fe3202b9c31424f878d61df9826",
-        "timestamp": "2026-06-07T02:00:00Z",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "0.8.1.0",
-        "changelog": "Config page overhaul, gog provider, support for recognizing windows install files.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.8.1/JellyEmu_0.8.1.0.zip",
-        "checksum": "ac361aee420de595c41a36c773cc34a4",
-        "timestamp": "2026-06-03T19:00:00Z",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
