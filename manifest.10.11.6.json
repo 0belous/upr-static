@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 318, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-25T22:06:19.744Z",
+    "overview": "Generated: 2026-11-25T23:06:20.208Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "10.11.6",
-        "timestamp": "2026-11-25T22:06:19.744Z"
+        "timestamp": "2026-11-25T23:06:20.208Z"
       }
     ]
   },
@@ -15319,6 +15319,14 @@
     "owner": "shahadat-hossion",
     "overview": "Search private media sources and add streams or download media to Jellyfin libraries.",
     "versions": [
+      {
+        "version": "2.7.22.0",
+        "changelog": "Open newly added search results on their details page without starting playback. Normalize imported titles and pass through TMDb IDs from Discovery for better metadata matching.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.22/Media-Source-Bridge-2.7.22.zip",
+        "checksum": "0adf0f5d23d3a116cb54fd4e89199725",
+        "timestamp": "2026-11-25T22:58:09Z"
+      },
       {
         "version": "2.7.21.0",
         "changelog": "Show an animated count of confirmed stream files inside the FTP add button and count existing files separately. Try to index imported titles immediately, with a Jellyfin library scan as fallback.",
