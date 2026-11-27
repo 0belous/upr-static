@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-27T20:22:35.140Z",
+    "overview": "Generated: 2026-11-27T21:22:33.135Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-11-27T20:22:35.140Z"
+        "timestamp": "2026-11-27T21:22:33.135Z"
       }
     ]
   },
@@ -8394,6 +8394,14 @@
     "owner": "shahadat-hossion",
     "overview": "Search private media sources and add streams or download media to Jellyfin libraries.",
     "versions": [
+      {
+        "version": "2.7.23.0",
+        "changelog": "Keep FTP search results on the search page after indexing and show a green Open button for ready titles.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shahadat-hossion/media-source-bridge/releases/download/v2.7.23/Media-Source-Bridge-2.7.23.zip",
+        "checksum": "794d4283cc8fbfdee2138c086598ee62",
+        "timestamp": "2026-11-27T21:06:37Z"
+      },
       {
         "version": "2.7.22.0",
         "changelog": "Open newly added search results on their details page without starting playback. Normalize imported titles and pass through TMDb IDs from Discovery for better metadata matching.",
