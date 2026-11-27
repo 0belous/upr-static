@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 206, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-27T19:22:33.206Z",
+    "description": "Aggregated: 208, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-27T20:22:35.140Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-11-27T19:22:33.206Z"
+        "timestamp": "2026-11-27T20:22:35.140Z"
       }
     ]
   },
@@ -2108,6 +2108,25 @@
     ]
   },
   {
+    "category": "Music",
+    "description": "OpenSubsonic-to-Jellyfin compatibility layer. Use Subsonic/Navidrome clients (DSub, Substreamer, etc.) with your Jellyfin music library.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/williamkray/subfin-plugin/main/jellyfin-plugin-subfin-manifest.json  \nGithub: https://github.com/williamkray/subfin-plugin",
+    "guid": "4a3b2c1d-e5f6-7890-abcd-ef1234567890",
+    "imageUrl": "https://obelous.dev/plugins/images/Subfin.webp",
+    "name": "Subfin",
+    "overview": "Exposes an OpenSubsonic-compatible REST API at /rest/* so that Subsonic clients can browse and stream your Jellyfin music library.",
+    "owner": "williamkray",
+    "versions": [
+      {
+        "checksum": "200139312a921e0464e2b96085d879cd",
+        "changelog": "4acf122 release: bump to v10.11.6.0\n3568981 fix: harden stream proxy, release pipeline and integration checks\nd6130ee test: Docker-based integration tests for Jellyfin 10.11 and 12 in CI\n6a109e2 fix: multi-disc albums came back empty; cover art for loose songs (resolves #4)\n7ebcce3 feat: shuffle, previous and next controls in the share web player (resolves #7)\n30eac8a fix: getAlbumInfo2 element name; artistId matches getArtists ids (resolves #6)\nb526548 fix: seeking and maxBitRate ignored on transcoded streams (resolves #5)\n9ae3c55 fix: transcode via Jellyfin's local URL; honour Jellyfin BaseUrl\nc1f6b15 ci: build and test both Jellyfin lines on every push and PR\nf42711d feat: build for Jellyfin 10.11 and 12.x from one source (resolves #3)\n1aa0c38 fix(security): scope share logins, enforce library access and ownership\n0d876e2 release: update manifest for v10.11.5.7 [skip ci]",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/williamkray/subfin-plugin/releases/download/v10.11.6.0/jellyfin-plugin-subfin_12.0.6.0.zip",
+        "timestamp": "2026-11-27T19:41:10Z",
+        "version": "12.0.6.0"
+      }
+    ]
+  },
+  {
     "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
     "name": "Open Subtitles",
     "description": "Download subtitles from the internet to use with your media files. (Requires configuration)  \n  \nUniversal Repo [✓] \nSource: https://fra1.mirror.jellyfin.org/files/plugin/manifest.json  \nGithub: https://github.com/jellyfin/jellyfin-meta-plugins",
@@ -2189,6 +2208,25 @@
         "sourceUrl": "https://repo.jellyfin.org/files/plugin/trakt/trakt_31.0.0.0.zip",
         "checksum": "e9f4e8d9831efd77a82fb97adb9a2db8",
         "timestamp": "2026-09-08T02:47:34Z"
+      }
+    ]
+  },
+  {
+    "guid": "5216ccbf-d24a-4eb3-8a7e-7da4230b7052",
+    "name": "Shoko",
+    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json  \nGithub: https://github.com/ShokoAnime/Shokofin",
+    "overview": "Manage your anime from Jellyfin using metadata from Shoko",
+    "owner": "ShokoAnime",
+    "category": "Anime",
+    "imageUrl": "https://obelous.dev/plugins/images/Shoko.webp",
+    "versions": [
+      {
+        "version": "6.1.0.12",
+        "changelog": "Only compatible with **12.y.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.1.0) for more info.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.1.0/shoko_6.1.0.0_for_12.y.z.zip",
+        "checksum": "9f3e4fd76e4775bd2b6cd4a5f0f46ce2",
+        "timestamp": "2026-11-27T19:41:07Z"
       }
     ]
   },

@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-27T19:22:33.206Z",
+    "overview": "Generated: 2026-11-27T20:22:35.140Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.3.0",
-        "timestamp": "2026-11-27T19:22:33.206Z"
+        "timestamp": "2026-11-27T20:22:35.140Z"
       }
     ]
   },
@@ -3138,7 +3138,7 @@
   },
   {
     "category": "Music",
-    "description": "OpenSubsonic-to-Jellyfin compatibility layer. Use Subsonic/Navidrome clients (DSub, Substreamer, etc.) with your Jellyfin music library.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/williamkray/subfin-plugin/main/jellyfin-plugin-subfin-manifest.json  \nGithub: https://github.com/williamkray/subfin-plugin",
+    "description": "OpenSubsonic-to-Jellyfin compatibility layer. Use Subsonic/Navidrome clients (DSub, Substreamer, etc.) with your Jellyfin music library.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/williamkray/subfin-plugin/main/jellyfin-plugin-subfin-manifest.json  \nGithub: https://github.com/williamkray/subfin-plugin",
     "guid": "4a3b2c1d-e5f6-7890-abcd-ef1234567890",
     "imageUrl": "https://obelous.dev/plugins/images/Subfin.webp",
     "name": "Subfin",
@@ -3146,20 +3146,12 @@
     "owner": "williamkray",
     "versions": [
       {
-        "checksum": "28c67b8da76983c54a23ccd99376c77d",
-        "changelog": "0d0d6bc chore: drop obsolete publish.sh from gitignore (releases via GitHub Actions)\n900c7ca feat: create shares from the web UI with search, tabbed layout\n03d54dc chore: untrack local dev/validation scripts\nddedc63 fix: use GetMusicGenres so getGenres returns music genres (resolves #1)\n16e517e chore: ignore publish.sh (contains private server config)\n1ee4ce3 release: update manifest for v10.11.5.4 [skip ci]\n3c080dc release: bump to v10.11.5.4\n520103c Initial commit: Subfin Jellyfin plugin v10.11.5.3",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/williamkray/subfin-plugin/releases/download/v10.11.5.7/jellyfin-plugin-subfin_10.11.5.7.zip",
-        "timestamp": "2026-09-21T21:47:41Z",
-        "version": "10.11.5.7"
-      },
-      {
-        "checksum": "e8f301b7034020dff0f41299d985767d",
-        "changelog": "d7ad501 release: bump to v10.11.5.4\n5276305 Initial commit: Subfin Jellyfin plugin v10.11.5.3",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/williamkray/subfin-plugin/releases/download/v10.11.5.4/jellyfin-plugin-subfin_10.11.5.4.zip",
-        "timestamp": "2026-03-31T05:36:04Z",
-        "version": "10.11.5.4"
+        "checksum": "200139312a921e0464e2b96085d879cd",
+        "changelog": "4acf122 release: bump to v10.11.6.0\n3568981 fix: harden stream proxy, release pipeline and integration checks\nd6130ee test: Docker-based integration tests for Jellyfin 10.11 and 12 in CI\n6a109e2 fix: multi-disc albums came back empty; cover art for loose songs (resolves #4)\n7ebcce3 feat: shuffle, previous and next controls in the share web player (resolves #7)\n30eac8a fix: getAlbumInfo2 element name; artistId matches getArtists ids (resolves #6)\nb526548 fix: seeking and maxBitRate ignored on transcoded streams (resolves #5)\n9ae3c55 fix: transcode via Jellyfin's local URL; honour Jellyfin BaseUrl\nc1f6b15 ci: build and test both Jellyfin lines on every push and PR\nf42711d feat: build for Jellyfin 10.11 and 12.x from one source (resolves #3)\n1aa0c38 fix(security): scope share logins, enforce library access and ownership\n0d876e2 release: update manifest for v10.11.5.7 [skip ci]",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/williamkray/subfin-plugin/releases/download/v10.11.6.0/jellyfin-plugin-subfin_12.0.6.0.zip",
+        "timestamp": "2026-11-27T19:41:10Z",
+        "version": "12.0.6.0"
       }
     ]
   },
@@ -3350,75 +3342,19 @@
   {
     "guid": "5216ccbf-d24a-4eb3-8a7e-7da4230b7052",
     "name": "Shoko",
-    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json  \nGithub: https://github.com/ShokoAnime/Shokofin",
+    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.  \n  \nUniversal Repo [✓✓] \nSource: https://raw.githubusercontent.com/ShokoAnime/Shokofin/metadata/stable/manifest.json  \nGithub: https://github.com/ShokoAnime/Shokofin",
     "overview": "Manage your anime from Jellyfin using metadata from Shoko",
     "owner": "ShokoAnime",
     "category": "Anime",
     "imageUrl": "https://obelous.dev/plugins/images/Shoko.webp",
     "versions": [
       {
-        "version": "6.0.5.11",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.5) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.5/shoko_6.0.5.0_for_10.11.zip",
-        "checksum": "42eeab4935b923a6ba7d2709b5a739f3",
-        "timestamp": "2026-03-22T19:56:40Z"
-      },
-      {
-        "version": "6.0.4.11",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.4) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.4/shoko_6.0.4.0_for_10.11.zip",
-        "checksum": "7846d654a3112439e343bc04c6f0e19b",
-        "timestamp": "2026-02-14T00:39:25Z"
-      },
-      {
-        "version": "6.0.3.11",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.3) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.3/shoko_6.0.3.0_for_10.11.zip",
-        "checksum": "0e4b58e09613f43854459a41f172c7ca",
-        "timestamp": "2026-01-31T19:12:40Z"
-      },
-      {
-        "version": "6.0.2.0",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.2) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.2/shoko_6.0.2.0_for_10.11.0.zip",
-        "checksum": "2867c5a91361ab0641faf728e1e51678",
-        "timestamp": "2026-01-17T23:26:21Z"
-      },
-      {
-        "version": "6.0.1.0",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.1) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.1/shoko_6.0.1.0_for_10.11.0.zip",
-        "checksum": "73d691b05b8d901164fc8404a394a367",
-        "timestamp": "2026-01-17T02:27:45Z"
-      },
-      {
-        "version": "6.0.0.0",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.0) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.0/shoko_6.0.0.0.zip",
-        "checksum": "48e0a6000f548dcae0ec2efc61630899",
-        "timestamp": "2026-01-13T22:39:51Z"
-      },
-      {
-        "version": "5.0.6.0",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.6) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.6/shoko_5.0.6.0.zip",
-        "checksum": "e14dc96e9f27173327b64ccbbe5916d7",
-        "timestamp": "2025-10-28T22:03:29Z"
-      },
-      {
-        "version": "5.0.5.0",
-        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.5) for more info.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.5/shoko_5.0.5.0.zip",
-        "checksum": "19db5af8b9f4ab4710aecb9d5ee80043",
-        "timestamp": "2025-10-20T02:25:34Z"
+        "version": "6.1.0.12",
+        "changelog": "Only compatible with **12.y.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.1.0) for more info.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.1.0/shoko_6.1.0.0_for_12.y.z.zip",
+        "checksum": "9f3e4fd76e4775bd2b6cd4a5f0f46ce2",
+        "timestamp": "2026-11-27T19:41:07Z"
       }
     ]
   },
