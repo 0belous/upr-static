@@ -2,8 +2,8 @@
   {
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
-    "description": "Aggregated: 208, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-28T04:22:34.630Z",
+    "description": "Aggregated: 209, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
+    "overview": "Generated: 2026-11-28T05:22:34.243Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,34 @@
       {
         "version": "0.0.0",
         "targetAbi": "13.0.0",
-        "timestamp": "2026-11-28T04:22:34.630Z"
+        "timestamp": "2026-11-28T05:22:34.243Z"
+      }
+    ]
+  },
+  {
+    "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
+    "name": "MetaTube",
+    "description": "MetaTube Plugin for Jellyfin/Emby.  \n  \nUniversal Repo [✓] \nSource: https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/dist/manifest.json  \nGithub: https://github.com/metatube-community/jellyfin-plugin-metatube",
+    "overview": "MetaTube Plugin for Jellyfin/Emby.",
+    "owner": "MetaTube",
+    "category": "Metadata",
+    "imageUrl": "https://obelous.dev/plugins/images/MetaTube.webp",
+    "versions": [
+      {
+        "checksum": "db263d4c002392473f4691c6121bf820",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2026.1128.520.0/Jellyfin.MetaTube@v2026.1128.520.0.zip",
+        "timestamp": "2026-11-28T05:20:38Z",
+        "version": "2026.1128.520.0"
+      },
+      {
+        "checksum": "5f95dda6c8080b91f00e3a760ea4052a",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2026.1128.500.0/Jellyfin.MetaTube@v2026.1128.500.0.zip",
+        "timestamp": "2026-11-28T05:00:51Z",
+        "version": "2026.1128.500.0"
       }
     ]
   },
