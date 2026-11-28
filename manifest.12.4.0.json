@@ -3,7 +3,7 @@
     "guid": "00000000-0000-0000-0000-000000000000",
     "name": "! Universal Plugin Repo",
     "description": "Aggregated: 305, Sources: 255.  \n  \nUniversal Repo \nSource: internal  \nGithub: https://github.com/0belous/Jellyfin-Universal-Catalogue",
-    "overview": "Generated: 2026-11-28T05:22:34.243Z",
+    "overview": "Generated: 2026-11-28T06:22:33.441Z",
     "owner": "Obelous",
     "category": "Miscellaneous",
     "imageUrl": "https://raw.githubusercontent.com/0belous/Jellyfin-Universal-Plugin-Repo/refs/heads/main/assets/upr-main.png",
@@ -11,7 +11,7 @@
       {
         "version": "0.0.0",
         "targetAbi": "12.4.0",
-        "timestamp": "2026-11-28T05:22:34.243Z"
+        "timestamp": "2026-11-28T06:22:33.441Z"
       }
     ]
   },
@@ -9467,23 +9467,12 @@
     "imageUrl": "https://obelous.dev/plugins/images/JellyEmu.webp",
     "versions": [
       {
-        "version": "0.9.5.3",
-        "changelog": "Fixes for input/core duplication/path, and global hotkeys.",
+        "version": "0.9.5.5",
+        "changelog": "Fixes for keyboard for dos, and removal of force ejs download.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.5.3/JellyEmu_0.9.5.3.zip",
-        "checksum": "d5368dbb5941f4d7198857ddcfaaa6cc",
-        "timestamp": "2026-11-27T12:00:00Z",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      },
-      {
-        "version": "0.9.5.2",
-        "changelog": "Overhaul of emulation, audio mixer, security fixes for endpoints, move from sqlite to litedb, flash support, updates for dependencies, other fixes.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.5.2/JellyEmu_0.9.5.2.zip",
-        "checksum": "a9f5f87612708b371cbc6b8ac7ffdee6",
-        "timestamp": "2026-11-20T12:00:00Z",
+        "sourceUrl": "https://github.com/Jellyfin-PG/JellyEmu/releases/download/v0.9.5.5/JellyEmu_0.9.5.5.zip",
+        "checksum": "069a381a40a34a83bfdd085a2ebaa361",
+        "timestamp": "2026-11-27T23:00:00Z",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
         ]
